@@ -1,5 +1,7 @@
 #!/bin/bash
 
+FILE=status.json
+
 # Update the json
 # push it to github
 
@@ -283,11 +285,14 @@ JSON="{
 ###
 ### Take a backup of the old status.json
 ###
-cp status.json /tmp/status.json
+#cp status.json /tmp/status.json
+egrep -v 'lastchange|timezone|localtime' ${FILE} | jq '.' > /tmp/${FILE}
+
 ###
 ### Create a new status.json
 ###
-echo ${JSON} > status.json
+echo ${JSON} | jq '.' > status.json
+egrep -v 'lastchange|timezone|localtime' ${FILE} > /tmp/t-${FILE}
 
 ###
 ### compare the two, if it has changed update
@@ -297,7 +302,8 @@ STR=$(date +%H)
 if [ $STR == "00" ]; then
     true
 else
-    diff status.json /tmp/status.json &>/dev/null
+    #diff status.json /tmp/status.json &>/dev/null
+    diff /tmp/t-${FILE} /tmp/${FILE} &>/dev/null
 fi
 if [ $? -ne 0 ]; then
     ###
@@ -305,12 +311,12 @@ if [ $? -ne 0 ]; then
     ###
     source ~/tmp/dot.ssh-agent-njc.sh
     #
-    git add status.json
-    git commit -m "Automated status update"
+    echo git add status.json
+    echo git commit -m "Automated status update"
     ###
     ### Should check for errors
     ###
-    git push
+    echo git push
 fi
 
 exit 0
