@@ -16,7 +16,7 @@
 
 
    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
-   <link rel="shortcut icon" href="mages/favicon..ico" type="image/x-icon"/>
+   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
 
    <title>CDL - Computer Deconstruction Lab Podcast and Makerspace</title>
 
@@ -26,6 +26,12 @@
        border:0; /* */
        margin-top:-6px;
        vertical-align:middle;/* */
+    }
+    table {
+        border: 1px solid black;
+    }
+    td.middle {
+        vertical-align: middle;
     }
     /* dk green - 5e8067 */
     /* lt green - cfdaba */
@@ -61,6 +67,66 @@
     }
 </style>
 <script>
+  function toggleSign(flag) {
+      // ID="sign"
+      // 1 = Open:
+      // "./images/Open-sign.png"
+      // 0 = Closed:
+      // "./images/Closed-sign.png"
+      if(flag) {
+          document.getElementById("sign").src   = "./images/Open-sign.png";
+          document.getElementById("sign").alt   = "Open for business";
+          document.getElementById("sign").title = "Open for business";
+      } else {
+          document.getElementById("sign").src = "./images/Closed-sign.png";
+          document.getElementById("sign").alt   = "Closed for the day";
+          document.getElementById("sign").title = "Closed for the day";
+      }
+  }
+
+  function updateMsg(msg) {
+      document.getElementById("updateDiv").innerHTML = '<p>' + msg + '</p>';
+  }
+
+  lastUpdate = '';
+  function currentWeather(weather) {
+      /*
+        "weather": {
+            "number": 1,
+            "name": "Tonight",
+            "startTime": "2021-06-25T21:00:00-04:00",
+            "endTime": "2021-06-26T06:00:00-04:00",
+            "isDaytime": false,
+            "temperature": 67,
+            "temperatureUnit": "F",
+            "temperatureTrend": null,
+            "windSpeed": "5 to 10 mph",
+            "windDirection": "S",
+            "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+            "shortForecast": "Mostly Cloudy",
+            "detailedForecast": "Mostly cloudy, with a low around 67. South wind 5 to 10 mph."
+        },
+      */
+      if(lastUpdate != weather.startTime) {
+          lastUpdate = weather.startTime;
+          document.getElementById("weatherDiv").innerHTML = '<table><tr><td><img src="' + weather.icon + '" alt=""></td><td>' + weather.detailedForecast + '(' + weather.startTime + ')' + '</td></tr></table>';
+      } 
+  }
+   
+  function getStatus(url) {
+      fetch(url, { 
+          method: 'GET'
+      })
+      .then(function(response) { return response.json(); })
+      .then(function(json) {
+          // use the json
+          //console.log(JSON.stringify(json));
+          console.log(Date.now());
+          toggleSign(json.state.open);
+          updateMsg(json.state.message);
+          currentWeather(json.weather);
+      });
+  }
 </script>
 
 </head>
@@ -68,21 +134,47 @@
   <table class="myBannerT">
     <tr><td>
       <a href="https://compdecon.org/" title="CDL - Computer Deconstruction Lab" target="_blank">
-        <img src="./images/CDL-Logo-green.png" title="CDL Logo"/>
+        <img src="./images/CDL-Logo-green.png" title="Computer Deconstruction Laboratory - The Jersey Shore Makerspace"
+             alt="Computer Deconstruction Laboratory - The Jersey Shore Makerspace"/>
       </a>
     </td>
     <td>
-      <h1>CDL - Computer Deconstruction Lab Podcast studio and Makerspace</h1>
+      <!-- h1>CDL - Computer Deconstruction Lab Podcast studio and Makerspace</h1 -->
+      <h1>Computer Deconstruction Laboratory - The Jersey Shore Makerspace</h1>
+    </td>
+    <td class="middle">
+      <img id="sign" src="./images/Closed-sign.png" title="Closed for the day" alt="Closed for the day"/>
     </td></tr>
   </table>
 
-<p>WIP - Yup, a work in progress.</p>
+  <p>WIP - Yup, a work in progress.</p>
 
-<p> CDL (Computer Deconstruction Lab) is a 501.3c non-profit Makerspace and podcasting studio for the Jersey Shore, located at the InfoAge Science and History Learning Center. We are an open collective of geeks, artists, and techie-creative-types who come together to share tools, resources, knowledge, and ideas.</p>
+  <h1>UPDATE</h1>
 
-<p> We embrace the sharing of ideas and innovation, and that includes open source hardware and software. We also host workshops and run classes on a myriad of topics. CDL and is open to the public, Walkins are welcome. A $20 donation is suggested if you stay and participate. We do have yearly membership as well.</p>
+  <div id="updateDiv">
+    <p>Update currently not available</p>
+  </div>
 
-<pre>
+  <h1>Current weather at CDL</h1>
+  
+  <div id="weatherDiv">
+    <p>Weather currently not available</p>
+  </div>
+
+  <div>
+    <p>CDL is open on Mondays nights and most Saturdays and Sundays! Give us a call
+       on 732-456-5001 before your visit to make sure!</p>
+
+    <p>All visitors to the makerspace are required to mask as per the State of New
+       Jersey requirements and maintain appropriate social distancing while in the building</p>
+  </div>
+
+  <div>
+    <p> CDL (Computer Deconstruction Lab) is a 501.3c non-profit Makerspace and podcasting studio for the Jersey Shore, located at the InfoAge Science and History Learning Center. We are an open collective of geeks, artists, and techie-creative-types who come together to share tools, resources, knowledge, and ideas.</p>
+
+    <p> We embrace the sharing of ideas and innovation, and that includes open source hardware and software. We also host workshops and run classes on a myriad of topics. CDL and is open to the public, Walkins are welcome. A $20 donation is suggested if you stay and participate. We do have yearly membership as well.</p>
+
+    <pre>
   Microcontroller Mondays &amp; Podcast - Mondays 7 - 10 PM
 
   Computer Deconstruction Lab
@@ -91,37 +183,42 @@
   Wall Township, New Jersey 07719
 
   Contact: cdl@linuxha.com
-</pre>
+    </pre>
 
-<h1>UPDATE</h1>
+    <p><a href="./images/homepage_02.jpg">
+        <img loading="lazy" src="./images/homepage_02.jpg" alt="Picture of CDL/IXR Lab"
+             width="1000" height="667" title="Picture of CDL/IXR Lab" class="center">
+       </a></p>
 
-<div>
-  <p>CDL is open on Mondays nights and most Saturdays and Sundays! Give us a call
-     on 732-456-5001 before your visit to make sure!</p>
+    <p>&nbsp;</p>
 
-  <p>All visitors to the makerspace are required to mask as per the State of New
-     Jersey requirements and maintain appropriate social distancing while in the building</p>
+    <p> CDL was once known as IXR (Institute for eXploratory Research) but changed the name. Long story short, we changed the name. ;-) </p>
 
-  <p><a href="./images/homepage_02.jpg">
-      <img loading="lazy" src="./images/homepage_02.jpg" alt="Picture of CDL/IXR Lab"
-           width="1000" height="667" title="Picture of CDL/IXR Lab" class="center">
-     </a></p>
+    <br />
+    <a href="https://compdecon.org/" title="CDL - Computer Deconstruction Lab" target="_blank">
+      <img src="./images/compdecon_qr_code-1.5k.png" title="CDL QR code" class="center"/>
+    </a>
 
-  <p>&nbsp;</p>
-
-  <p> CDL was once known as IXR (Institute for eXploratory Research) but changed the name. Long story short, we changed the name. ;-) </p>
-
-  <br />
-  <a href="https://compdecon.org/" title="CDL - Computer Deconstruction Lab" target="_blank">
-    <img src="./images/compdecon_qr_code-1.5k.png" title="CDL QR code" class="center"/>
-  </a>
-
-<br/>
-
-</div><!-- .entry-content -->
+    <br/>
+  </div><!-- .entry-content -->
 
   <footer class="entry-footer">
   </footer><!-- .entry-footer -->
 
+  <script>
+    // This handles my weather stuff and hopefully adapted to deal with the sprinkler sysem
+    var url = "status.json";
+
+    window.onload = function() {
+        //
+        // Need to check for really old browsers that may not have fetch
+        // support for VCF and Vintage computers
+        //
+        //xmlHttpGet(url);
+        //setInterval("xmlHttpGet(url)", 10000); // Prod set to minutes, not seconds?
+        getStatus(url);
+        setInterval("getStatus(url)", 30000); // Prod set to appropriate minutes, not seconds?
+    }
+  </script>
 </body>
 </html>
