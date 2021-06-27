@@ -17,6 +17,11 @@ pub() {
     mosquitto_pub -h "${MQTTHOST}" -p "${MQTTPORT}" -q 0 -r -t "${topic}" -m "${msg}"
 }
 
+toKelvin() {
+    #($1 − 32) × 5/9 + 273.15
+    true
+}
+
 # Update the json
 # push it to github
 
@@ -45,11 +50,12 @@ MSG="Experimenting with SpaceAPI"
 
 # ------------------------------------------------------------------------------
 
+MSG=$(sub "${TOPIC}/message")
 
 STATE=$(sub "${TOPIC}/state")
-LSTATE=$(sub "${TOPIC}/state")
 DOOR_LOCK=$(sub "${TOPIC}/door_lock")
 GATE_LOCK=$(sub "${TOPIC}/gate_lock")
+
 # Occupancy
 OLAB=0
 OCLASS=0
@@ -67,12 +73,12 @@ CONNS=0
 
 # Temperature
 #UNIT="\u00b0C"
-TUNIT="\u00b0F"
+TUNIT="\u00b0K"
 #UNIT="\u00b0K"
 TLAB=70
 TCLASS=70
 TSTUDIO=70
-TOUTSIDE=-1
+TOUTSIDE=$(jq '.temperature' /tmp/forecast)
 
 #
 # Probably need this to be in another cron that runs 4 times a day (every 6 hours)
@@ -197,7 +203,7 @@ JSON="{
       {}
   ],
   \"state\": {
-      \"open\": ${LSTATE},
+      \"open\": ${STATE},
       \"lastchange\": $(date +%s),
       \"message\": \"${MSG}.\",
       \"icon\": {
@@ -250,8 +256,10 @@ egrep -v 'lastchange|timezone|localtime' ${FILE} > /tmp/t-${FILE}
 ### compare the two, if it has changed update
 ### Special handling: At midnight, update anyway so we're updated at least once a day
 ###
-STR=$(date +%H)
-if [ $STR == "00" ]; then
+STR=$(date +%H:%S)
+# crontab is currently:
+# 10 * * * * bash -c ${HOME}/dev/git/compdecon.github.io/script.sh
+if [ $STR == "00:10" ]; then
     true
 else
     #diff status.json /tmp/status.json &>/dev/null
