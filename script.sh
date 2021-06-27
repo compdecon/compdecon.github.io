@@ -1,6 +1,21 @@
 #!/bin/bash
 
 FILE=status.json
+TOPIC="cdl/status"
+MQTTHOST=localhost.uucp
+MQTTPORT=1883
+
+sub () {
+    topic="${1}"
+    # Wait 3 seconds and return
+    timeout 3 mosquitto_sub -C 1 -h "${MQTTHOST}" -p "${MQTTPORT}" -t "${topic}"
+}
+
+pub() {
+    topic="${1}"
+    msg="${2}"
+    mosquitto_pub -h "${MQTTHOST}" -p "${MQTTPORT}" -q 0 -r -t "${topic}" -m "${msg}"
+}
 
 # Update the json
 # push it to github
@@ -28,81 +43,18 @@ OPEN=0
 MSG="All visitors to the makerspace are required to mask as per the State of New Jersey requirements and maintain appropriate social distancing while in the building"
 MSG="Experimenting with SpaceAPI"
 
-set -x
-while getopts "c:hm:x:" opt; do
-    case "${opt}" in
-        c) # CDL (Podcast Studio)
-            if [ $OPTARG -eq 1 ]; then
-                OPEN=1
-            else
-                OPEN=
-            fi
-            # 1 = open
-            # 0 = closed
-            ;;
-
-        x) # IXR (Makerspace)
-            if [ $OPTARG -eq 1 ]; then
-                OPEN=1
-            else
-                OPEN=
-            fi
-            # 1 = open
-            # 0 = closed
-            ;;
-
-        h) # process option h
-            # 1 = open
-            # 0 = closed
-            ;;
-
-        m) # process option t
-            MSG="$OPTARG"
-            # 1 = open
-            # 0 = closed
-            ;;
-
-        \?)
-           echo $@
-           echo $opt
-           echo $OPTARG
-           echo $OPTIND
-           echo $OPTERR
-           echo "Usage: cmd [-c n] [-x n] [-m \"msg\"]"
-           exit 1
-           ;;
-    esac
-done
-set +x
-
-shift $((OPTIND - 1))
-#shift $(expr $OPTIND - 1 )
-
 # ------------------------------------------------------------------------------
 
-if [ "${OPEN}" == "1" ]; then
-    # 
-    STATE="open"
-    LSTATE="true"
-    DOOR_LOCK="true"
-    GATE_LOCK="true"
-    # Occupancy
-    OLAB=1
-    OCLASS=0
-    OSTUDIO=0
-    OVSPACE=-1
-else
-    # 
-    STATE="closed"
-    LSTATE="false"
-    DOOR_LOCK="false"
-    GATE_LOCK="false"
-    # Occupancy
-    OLAB=0
-    OCLASS=0
-    OSTUDIO=0
-    OVSPACE=-1
-fi
+
+STATE=$(sub "${TOPIC}/state")
+LSTATE=$(sub "${TOPIC}/state")
+DOOR_LOCK=$(sub "${TOPIC}/door_lock")
+GATE_LOCK=$(sub "${TOPIC}/gate_lock")
+# Occupancy
+OLAB=0
+OCLASS=0
+OSTUDIO=0
+OVSPACE=-1
 
 # Humidity
 HLAB="60.0"
@@ -305,120 +257,23 @@ else
     #diff status.json /tmp/status.json &>/dev/null
     diff /tmp/t-${FILE} /tmp/${FILE} &>/dev/null
 fi
+
 if [ $? -ne 0 ]; then
     ###
     ### ssh-agent stuff here
     ###
     source ~/tmp/dot.ssh-agent-njc.sh
     #
-    echo git add status.json
-    echo git commit -m "Automated status update"
+    git add status.json
+    git commit -m "Automated status update"
     ###
     ### Should check for errors
     ###
-    echo git push
+    git push
+else
+    echo 'No changes to report'
 fi
 
 exit 0
 
 # -[ Fini ]---------------------------------------------------------------------
-
-# Now we need to be sure that the ssh-agent is runnint or start our own
-
-# Totally rewrote this so now it should only run once
-# unless someone manually ran ssh-agent
-#
-# When done there should be one ssh-agent running for this user
-# there should be a ~/tmp/dot.ssh-agent-${LOGNAME}.sh with the correct permissions
-#
-# Notes:
-# https://www.freshblurbs.com/blog/2013/06/22/github-multiple-ssh-keys.html#tldr
-mkdir -p ~/tmp
-# Process check (see if it's already running)
-xPROC=ssh-agent
-File="${HOME}/tmp/dot.ssh-agent-${LOGNAME}.sh"
-# Get the count
-CNT=$(ps aux | grep ${LOGNAME} | grep -v grep | grep ${xPROC}\$ | wc -l)
-
-case $CNT in
-    0)
-        # None are already running
-        # run it for the first time
-        ssh-agent | tee ${File}
-
-        if [ ! -f ${File} ]; then
-            echo "Error creating ${File}"
-            exit 1
-        else
-            chmod +x ${File}
-            . ${File}
-            # Add the needed keys
-            ssh-add ~/.ssh/id_rsa-linuxha
-            ssh-add -L
-        fi
-
-        exit 0
-        ;;
-    1)
-        # It's already running
-        # get the information for the running script
-        xPID=$(ps aux | grep ${LOGNAME} | grep -v grep | grep ${xPROC}\$ | awk '{print $2}')
-
-        # Hmm, tell the user to source this:
-        if [ -x ${File} ]; then
-            grep -q "SSH_AGENT_PID=${xPID};" ${File}
-            if [ $? -eq 0 ]; then
-                echo "Please source ${File}"
-                cat ${File}
-                exit 1
-            fi
-
-            echo "SSH_AGENT_PID mismatch, creating new source file"
-            echo -e "${LOGNAME}'s ${xPROC} found with PID = ${xPID}"
-            echo -n "Source file has: " ; grep "SSH_AGENT_PID=" ${File}
-            mv ${File} ${File}.err
-            
-            xSOCK=$(netstat -nap 2>/dev/null | grep agent | grep '/tmp/ssh-' | awk '{print $10}')
-            (echo "SSH_AUTH_SOCK=${xSOCK};"
-            echo "export SSH_AUTH_SOCK;"
-            echo "SSH_AGENT_PID=${xPID};"
-            echo "export SSH_AGENT_PID;"
-            echo "echo Agent pid ${xPID}") | tee ${File}
-            chmod +x ${File}
-        else
-            echo -e "${LOGNAME}'s ${xPROC} found with PID = ${xPID}\n"
-            echo "but source file doesn't exist"
-            
-            xSOCK=$(netstat -nap 2>/dev/null | grep agent | grep '/tmp/ssh-' | awk '{print $10}')
-            (echo "SSH_AUTH_SOCK=${xSOCK};"
-            echo "export SSH_AUTH_SOCK;"
-            echo "SSH_AGENT_PID=${xPID};"
-            echo "export SSH_AGENT_PID;"
-            echo "Agent pid ${xPID}") | tee ${File}
-            chmod +x ${File}
-        fi
-        echo -e "\nPlease source ${File}"
-        exit 1
-        ;;
-    *)
-        # Uhm, I'm confused
-        # Probably more than one running
-        # Let the user know
-        echo "Error, more than one ${xPROC} is running"
-        ps aux | grep ${LOGNAME} | grep -v grep | grep ${xPROC}\$
-
-        cat ${File}
-        
-        exit 2
-        ;;
-esac
-
-################################################################################
-# Sample  ~/tmp/dot.ssh-agent-njc.sh
-#SSH_AUTH_SOCK=/tmp/ssh-8OJ63T67tTkR/agent.10216; export SSH_AUTH_SOCK;
-#SSH_AGENT_PID=10218; export SSH_AGENT_PID;
-#echo Agent pid 10218;
-
-# linuxha ssh keys are fine
-# then we can
-# git add status.json ; git commit -m "status.json update" ; git push
