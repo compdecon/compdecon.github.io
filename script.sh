@@ -22,40 +22,63 @@
 # Answer:  ???
 # ------------------------------------------------------------------------------
 # getops
-while getopts ":c:hx:t:" opt; do
-    case ${opt} in
-        c ) # CDL (Podcast Studio)
-            target=$OPTARG
+OPEN=0
+MSG="All visitors to the makerspace are required to mask as per the State of New Jersey requirements and maintain appropriate social distancing while in the building"
+MSG="Experimenting with SpaceAPI"
+
+set -x
+while getopts "c:hm:x:" opt; do
+    case "${opt}" in
+        c) # CDL (Podcast Studio)
+            if [ $OPTARG -eq 1 ]; then
+                OPEN=1
+            else
+                OPEN=
+            fi
             # 1 = open
             # 0 = closed
             ;;
 
-        x ) # IXR (Makerspace)
-            target=$OPTARG
+        x) # IXR (Makerspace)
+            if [ $OPTARG -eq 1 ]; then
+                OPEN=1
+            else
+                OPEN=
+            fi
             # 1 = open
             # 0 = closed
             ;;
 
-        h ) # process option h
+        h) # process option h
             # 1 = open
             # 0 = closed
             ;;
 
-        t ) # process option t
-            target=$OPTARG
+        m) # process option t
+            MSG="$OPTARG"
             # 1 = open
             # 0 = closed
             ;;
 
-        \? )
-            echo "Usage: cmd [-h] [-t]"
-            ;;
+        \?)
+           echo $@
+           echo $opt
+           echo $OPTARG
+           echo $OPTIND
+           echo $OPTERR
+           echo "Usage: cmd [-c n] [-x n] [-m \"msg\"]"
+           exit 1
+           ;;
     esac
 done
-shift $((OPTIND -1))
+set +x
+
+shift $((OPTIND - 1))
+#shift $(expr $OPTIND - 1 )
+
 # ------------------------------------------------------------------------------
 
-if [ -n ${OPEN} ]; then
+if [ "${OPEN}" == "1" ]; then
     # 
     STATE="open"
     LSTATE="true"
@@ -79,9 +102,6 @@ else
     OVSPACE=-1
 fi
 
-MSG="All visitors to the makerspace are required to mask as per the State of New Jersey requirements and maintain appropriate social distancing while in the building"
-MSG="Experimenting with SpaceAPI"
-
 # Humidity
 HLAB="60.0"
 HCLASS="60.0"
@@ -104,6 +124,12 @@ TOUTSIDE=-1
 # Probably need this to be in another cron that runs 4 times a day (every 6 hours)
 #EATHER=$(curl -s https://api.weather.gov/gridpoints/PHI/83,90/forecast | jq '.properties.periods[0]')
 WEATHER=$(cat /tmp/forecast)
+# LOCATION
+#       \"timezone\": \"$(date '+%Y/%m/%d %H:%M:%S %Z UTC%:z')\",
+#                             Sun 27 Jun 2021 02:21:56 AM EDT
+#       \"localtime\": \"$(date)\",
+# state
+#      \"lastchange\": $(date +%s),
 #
 JSON="{
   \"api_compatability\": [\"14\"],
