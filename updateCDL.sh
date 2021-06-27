@@ -78,3 +78,8 @@ done
 
 shift $((OPTIND - 1))
 #shift $(expr $OPTIND - 1 )
+
+###
+### Update the status.json
+###
+${HOME}/dev/git/compdecon.github.io/script.sh
