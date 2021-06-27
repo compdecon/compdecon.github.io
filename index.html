@@ -88,6 +88,13 @@
       document.getElementById("updateDiv").innerHTML = '<p>' + msg + '</p>';
   }
 
+  function lastUpdated(lastchange) {
+      if(typeof lastchange != "number") {
+          lastchange = -1;
+      }
+      document.getElementById("lastUpdateOn").innerHTML = 'UPDATE (' + new Date(lastchange*1000) + ')';
+  }
+  
   lastUpdate = '';
   function currentWeather(weather) {
       /*
@@ -124,6 +131,7 @@
           console.log(Date.now());
           toggleSign(json.state.open);
           updateMsg(json.state.message);
+          lastUpdated(json.state.lastchange)
           currentWeather(json.weather);
       });
   }
@@ -149,7 +157,7 @@
 
   <p>WIP - Yup, a work in progress.</p>
 
-  <h1>UPDATE</h1>
+  <h1 id="lastUpdateOn">UPDATE</h1>
 
   <div id="updateDiv">
     <p>Update currently not available</p>
