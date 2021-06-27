@@ -1,0 +1,80 @@
+#!/bin/bash
+
+FILE=status.json
+TOPIC="cdl/status"
+MQTTHOST=localhost.uucp
+MQTTPORT=1883
+
+sub () {
+    topic="${1}"
+    # Wait 3 seconds and return
+    timeout 3 mosquitto_sub -C 1 -h "${MQTTHOST}" -p "${MQTTPORT}" -t "${topic}"
+}
+
+pub() {
+    topic="${1}"
+    msg="${2}"
+    mosquitto_pub -h "${MQTTHOST}" -p "${MQTTPORT}" -q 0 -r -t "${topic}" -m "${msg}"
+}
+
+help() {
+    echo "Usage: cmd [-c n] [-x n] [-m \"msg\"]"
+    echo "       keep -m  \"msg\" last"
+    exit 1
+}
+
+if [ $# -eq 0 ]; then
+    help
+fi
+
+while getopts "c:hm:x:" opt; do
+    case "${opt}" in
+        c) # CDL (Podcast Studio)
+            if [ $OPTARG -eq 1 ]; then
+                # Pub open
+                pub "${TOPIC}/state" "true"
+                pub "${TOPIC}/door_lock" "true"
+                pub "${TOPIC}/gate_lock" "true"
+            else
+                pub "${TOPIC}/state" "false"
+                pub "${TOPIC}/door_lock" "false"
+                pub "${TOPIC}/gate_lock" "false"
+                pub "${TOPIC}/message" "Experimenting with SpaceAPI and my scripts"
+            fi
+            # 1 = open
+            # 0 = closed
+            ;;
+
+        x) # IXR (Makerspace)
+            if [ $OPTARG -eq 1 ]; then
+                # Pub open
+                pub "${TOPIC}/state" "true"
+                pub "${TOPIC}/door_lock" "true"
+                pub "${TOPIC}/gate_lock" "true"
+            else
+                pub "${TOPIC}/state" "false"
+                pub "${TOPIC}/door_lock" "false"
+                pub "${TOPIC}/gate_lock" "false"
+                pub "${TOPIC}/message" "Experimenting with SpaceAPIand my scripts"
+            fi
+            # 1 = open
+            # 0 = closed
+            ;;
+ 
+        m) # process option t
+            pub "${TOPIC}/message" "${OPTARG}"
+            # 1 = open
+            # 0 = closed
+            ;;
+
+        h) # process option h
+            help
+            ;;
+        \?)
+            help
+            ;;
+    esac
+done
+
+shift $((OPTIND - 1))
+#shift $(expr $OPTIND - 1 )
