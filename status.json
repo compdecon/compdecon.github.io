@@ -1,1 +1,174 @@
-{ "api_compatability": ["14"], "api": "0.13", "version": "0.0.1 alpha", "comment": "API is a work in progress", "space": "CDL - Computer Deconstruction Lab", "logo": "http://compdecon.org/wp-content/uploads/2018/10/cdl_white_large.png", "logo": "https://compdecon.github.io/images/CDL-Logo-black.png", "url": "https://compdecon.github.io/", "location": { "address": "Computer Deconstruction Lab, Building 9059, 2201 Marconi Road, Wall Township, N.J. 07719, USA", "lat": -74.06020538859792, "long": 40.186497308776936, "timezone": "2021/06/27 14:18:07 EDT UTC-04:00", "localtime": "Sun 27 Jun 2021 02:18:07 PM EDT", "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5" }, "sensors": { "comment": "optional", "door_locked": [ { "location": "Front gate", "value": false }, { "location": "Front door", "value": false } ], "humidity": [ { "location": "Lab", "unit": "%", "value": 60.0 }, { "location": "Studio", "unit": "%", "value": 60.0 }, { "location": "Classroom", "unit": "%", "value": 60.0 }, { "location": "Outside", "unit": "%", "value": -1.0 } ], "network_connections": [ { "value": 0 } ], "occupancy": [ { "location": "Lab", "value": 0 }, { "location": "Classroom", "value": 0 }, { "location": "Studio", "value": 0 }, { "location": "vspace", "value": -1 } ], "temperature": [ { "location": "Lab", "unit": "\u00b0F", "value": 70 }, { "location": "Classroom", "unit": "\u00b0F", "value": 70 }, { "location": "Studio", "unit": "\u00b0F", "value": 70 }, { "location": "Outside", "unit": "\u00b0F", "value": -1 } ] }, "weather": { "number": 1, "name": "This Afternoon", "startTime": "2021-06-27T13:00:00-04:00", "endTime": "2021-06-27T18:00:00-04:00", "isDaytime": true, "temperature": 88, "temperatureUnit": "F", "temperatureTrend": null, "windSpeed": "10 mph", "windDirection": "S", "icon": "https://api.weather.gov/icons/land/day/sct?size=medium", "shortForecast": "Mostly Sunny", "detailedForecast": "Mostly sunny, with a high near 88. South wind around 10 mph." }, "contact": { "email": "info@compdecon.org", "phone": "+1-732-456-5001", "meetup": "", "irc": "", "ml": "cdl@groups.io", "identica": "", "twitter": "@compdecon", "facebook": "https://www.facebook.com/groups/compdecon" }, "issue_report_channels": [ "email" ], "feeds": { "blog":{ "type": "application/rss+xml", "url":"http://compdecon.org/feed/" } }, "links": [ {"name": "SpaceAPI", "description":"spaceapi.io docs","url":"https://spaceapi.io/docs/"}, {} ], "state": { "open": false, "lastchange": 1624817887, "message": "Experimenting with SpaceAPI.", "icon": { "open": "https://compdecon.github.io/images/open.png", "closed": "https://compdecon.github.io/images/closed.png" }, "mqtt": { "host": "example.org", "closed": "closed", "tls": true, "topic": "compdecon/state", "port": 1883, "open": "open" } }, "cam": [ ], "events": [ { "name": "N/A", "type": "", "timestamp": -1, "extra": "" }, { } ], "projects": [ ], "space": "CDL - Computer Deconstruction Lab", "spacefed": { "spacephone": false, "spacesaml": false, "spacenet": false } }
+{
+  "api_compatability": [
+    "14"
+  ],
+  "api": "0.13",
+  "version": "0.0.1 alpha",
+  "comment": "API is a work in progress",
+  "space": "CDL - Computer Deconstruction Lab",
+  "logo": "https://compdecon.github.io/images/CDL-Logo-black.png",
+  "url": "https://compdecon.github.io/",
+  "location": {
+    "address": "Computer Deconstruction Lab, Building 9059, 2201 Marconi Road, Wall Township, N.J. 07719, USA",
+    "lat": -74.06020538859792,
+    "long": 40.186497308776936,
+    "timezone": "2021/06/27 16:02:33 EDT UTC-04:00",
+    "localtime": "Sun 27 Jun 2021 04:02:33 PM EDT",
+    "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
+  },
+  "sensors": {
+    "comment": "optional",
+    "door_locked": [
+      {
+        "location": "Front gate",
+        "value": false
+      },
+      {
+        "location": "Front door",
+        "value": false
+      }
+    ],
+    "humidity": [
+      {
+        "location": "Lab",
+        "unit": "%",
+        "value": 60
+      },
+      {
+        "location": "Studio",
+        "unit": "%",
+        "value": 60
+      },
+      {
+        "location": "Classroom",
+        "unit": "%",
+        "value": 60
+      },
+      {
+        "location": "Outside",
+        "unit": "%",
+        "value": -1
+      }
+    ],
+    "network_connections": [
+      {
+        "value": 0
+      }
+    ],
+    "occupancy": [
+      {
+        "location": "Lab",
+        "value": 0
+      },
+      {
+        "location": "Classroom",
+        "value": 0
+      },
+      {
+        "location": "Studio",
+        "value": 0
+      },
+      {
+        "location": "vspace",
+        "value": -1
+      }
+    ],
+    "temperature": [
+      {
+        "location": "Lab",
+        "unit": "°F",
+        "value": 70
+      },
+      {
+        "location": "Classroom",
+        "unit": "°F",
+        "value": 70
+      },
+      {
+        "location": "Studio",
+        "unit": "°F",
+        "value": 70
+      },
+      {
+        "location": "Outside",
+        "unit": "°F",
+        "value": -1
+      }
+    ]
+  },
+  "weather": {
+    "number": 1,
+    "name": "This Afternoon",
+    "startTime": "2021-06-27T13:00:00-04:00",
+    "endTime": "2021-06-27T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 88,
+    "temperatureUnit": "F",
+    "temperatureTrend": null,
+    "windSpeed": "10 mph",
+    "windDirection": "S",
+    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny, with a high near 88. South wind around 10 mph."
+  },
+  "contact": {
+    "email": "info@compdecon.org",
+    "phone": "+1-732-456-5001",
+    "meetup": "",
+    "irc": "",
+    "ml": "cdl@groups.io",
+    "identica": "",
+    "twitter": "@compdecon",
+    "facebook": "https://www.facebook.com/groups/compdecon"
+  },
+  "issue_report_channels": [
+    "email"
+  ],
+  "feeds": {
+    "blog": {
+      "type": "application/rss+xml",
+      "url": "http://compdecon.org/feed/"
+    }
+  },
+  "links": [
+    {
+      "name": "SpaceAPI",
+      "description": "spaceapi.io docs",
+      "url": "https://spaceapi.io/docs/"
+    },
+    {}
+  ],
+  "state": {
+    "open": false,
+    "lastchange": 1624824153,
+    "message": "Experimenting with SpaceAPI.",
+    "icon": {
+      "open": "https://compdecon.github.io/images/open.png",
+      "closed": "https://compdecon.github.io/images/closed.png"
+    },
+    "mqtt": {
+      "host": "example.org",
+      "closed": "closed",
+      "tls": true,
+      "topic": "compdecon/state",
+      "port": 1883,
+      "open": "open"
+    }
+  },
+  "cam": [],
+  "events": [
+    {
+      "name": "N/A",
+      "type": "",
+      "timestamp": -1,
+      "extra": ""
+    },
+    {}
+  ],
+  "projects": [],
+  "spacefed": {
+    "spacephone": false,
+    "spacesaml": false,
+    "spacenet": false
+  }
+}
