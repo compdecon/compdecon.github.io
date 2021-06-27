@@ -206,6 +206,17 @@
   </footer><!-- .entry-footer -->
 
   <script>
+    const queryString = window.location.search;
+    console.log(queryString);
+
+    const urlParams = new URLSearchParams(queryString);
+    console.log(urlParams.has('debug'));
+
+    if(urlParams.has('debug')) {
+        tOut =  10000; // 10 seconds
+    } else {
+        tOut = 300000; // 300 seconds, 5 minutes
+    }
     // This handles my weather stuff and hopefully adapted to deal with the sprinkler sysem
     var url = "status.json";
 
@@ -217,7 +228,7 @@
         //xmlHttpGet(url);
         //setInterval("xmlHttpGet(url)", 10000); // Prod set to minutes, not seconds?
         getStatus(url);
-        setInterval("getStatus(url)", 30000); // Prod set to appropriate minutes, not seconds?
+        setInterval("getStatus(url)", tOut); // Prod set to appropriate minutes, not seconds?
     }
   </script>
 </body>
