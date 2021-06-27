@@ -12,8 +12,8 @@
     "address": "Computer Deconstruction Lab, Building 9059, 2201 Marconi Road, Wall Township, N.J. 07719, USA",
     "lat": -74.06020538859792,
     "long": 40.186497308776936,
-    "timezone": "2021/06/27 16:12:32 EDT UTC-04:00",
-    "localtime": "Sun 27 Jun 2021 04:12:32 PM EDT",
+    "timezone": "2021/06/27 16:26:10 EDT UTC-04:00",
+    "localtime": "Sun 27 Jun 2021 04:26:10 PM EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
   "sensors": {
@@ -76,23 +76,23 @@
     "temperature": [
       {
         "location": "Lab",
-        "unit": "°F",
+        "unit": "°K",
         "value": 70
       },
       {
         "location": "Classroom",
-        "unit": "°F",
+        "unit": "°K",
         "value": 70
       },
       {
         "location": "Studio",
-        "unit": "°F",
+        "unit": "°K",
         "value": 70
       },
       {
         "location": "Outside",
-        "unit": "°F",
-        "value": -1
+        "unit": "°K",
+        "value": 88
       }
     ]
   },
@@ -140,8 +140,8 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1624824752,
-    "message": "Experimenting with SpaceAPI.",
+    "lastchange": 1624825570,
+    "message": "CDL is psuedo-open for business II.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
       "closed": "https://compdecon.github.io/images/closed.png"
