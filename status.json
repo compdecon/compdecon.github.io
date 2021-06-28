@@ -12,9 +12,9 @@
     "address": "Computer Deconstruction Lab, Building 9059, 2201 Marconi Road, Wall Township, N.J. 07719, USA",
     "lat": -74.06020538859792,
     "lon": 40.186497308776936,
-    "timestamp": "1624917362",
-    "ext_time": "2021/06/28 17:56:02 EDT UTC-04:00",
-    "ext_localtime": "Mon 28 Jun 2021 05:56:02 PM EDT",
+    "timezone": "America/New_York",
+    "ext_time": "2021/06/28 18:10:01 EDT UTC-04:00",
+    "ext_localtime": "Mon 28 Jun 2021 06:10:01 PM EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
   "sensors": {
@@ -93,24 +93,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 91
+        "value": 73
       }
     ]
   },
-  "ext_weather": {
+  "weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2021-06-28T15:00:00-04:00",
-    "endTime": "2021-06-28T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 91,
+    "name": "Tonight",
+    "startTime": "2021-06-28T18:00:00-04:00",
+    "endTime": "2021-06-29T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 73,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "10 mph",
+    "windSpeed": "5 to 10 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 91. Southwest wind around 10 mph."
+    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+    "shortForecast": "Mostly Clear",
+    "detailedForecast": "Mostly clear, with a low around 73. Southwest wind 5 to 10 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -141,7 +141,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1624917362,
+    "lastchange": 1624918201,
     "message": "We're currently closed but will be open at 7PM tonight.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
