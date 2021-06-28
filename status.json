@@ -12,8 +12,8 @@
     "address": "Computer Deconstruction Lab, Building 9059, 2201 Marconi Road, Wall Township, N.J. 07719, USA",
     "lat": -74.06020538859792,
     "long": 40.186497308776936,
-    "timezone": "2021/06/27 17:21:28 EDT UTC-04:00",
-    "localtime": "Sun 27 Jun 2021 05:21:28 PM EDT",
+    "timezone": "2021/06/28 15:45:42 EDT UTC-04:00",
+    "localtime": "Mon 28 Jun 2021 03:45:42 PM EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
   "sensors": {
@@ -92,24 +92,24 @@
       {
         "location": "Outside",
         "unit": "°K",
-        "value": 88
+        "value": 91
       }
     ]
   },
   "weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2021-06-27T13:00:00-04:00",
-    "endTime": "2021-06-27T18:00:00-04:00",
+    "startTime": "2021-06-28T15:00:00-04:00",
+    "endTime": "2021-06-28T18:00:00-04:00",
     "isDaytime": true,
-    "temperature": 88,
+    "temperature": 91,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "10 mph",
-    "windDirection": "S",
+    "windDirection": "SW",
     "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
     "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 88. South wind around 10 mph."
+    "detailedForecast": "Mostly sunny, with a high near 91. Southwest wind around 10 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -140,7 +140,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1624828888,
+    "lastchange": 1624909542,
     "message": "CDL is <b>CLOSED</b> for the day..",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
