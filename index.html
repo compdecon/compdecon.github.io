@@ -127,12 +127,11 @@
       .then(function(response) { return response.json(); })
       .then(function(json) {
           // use the json
-          //console.log(JSON.stringify(json));
-          console.log(Date.now());
+          if(debug) console.log(Date.now());
           toggleSign(json.state.open);
           updateMsg(json.state.message);
           lastUpdated(json.state.lastchange)
-          currentWeather(json.weather);
+          currentWeather(json.ext_weather);
       });
   }
 </script>
@@ -180,7 +179,7 @@
   <div>
     <p> CDL (Computer Deconstruction Lab) is a 501.3c non-profit Makerspace and podcasting studio for the Jersey Shore, located at the InfoAge Science and History Learning Center. We are an open collective of geeks, artists, and techie-creative-types who come together to share tools, resources, knowledge, and ideas.</p>
 
-    <p> We embrace the sharing of ideas and innovation, and that includes open source hardware and software. We also host workshops and run classes on a myriad of topics. CDL and is open to the public, Walkins are welcome. A $20 donation is suggested if you stay and participate. We do have yearly membership as well.</p>
+    <p> We embrace the sharing of ideas and innovation, and that includes open source hardware and software. We also host workshops and run classes on a myriad of topics. CDL and is open to the public, Walkins are welcome. A donation of $20 is suggested if you stay and participate. We do have yearly membership as well.</p>
 
     <pre>
   Microcontroller Mondays &amp; Podcast - Mondays 7 - 10 PM
@@ -221,8 +220,10 @@
     console.log(urlParams.has('debug'));
 
     if(urlParams.has('debug')) {
+        debug = true;
         tOut =  10000; // 10 seconds
     } else {
+        debug = false;
         tOut = 300000; // 300 seconds, 5 minutes
     }
     // This handles my weather stuff and hopefully adapted to deal with the sprinkler sysem
