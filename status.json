@@ -12,8 +12,8 @@
     "address": "Computer Deconstruction Lab, Building 9059, 2201 Marconi Road, Wall Township, N.J. 07719, USA",
     "lat": -74.06020538859792,
     "long": 40.186497308776936,
-    "timezone": "2021/06/28 15:45:42 EDT UTC-04:00",
-    "localtime": "Mon 28 Jun 2021 03:45:42 PM EDT",
+    "timezone": "2021/06/28 15:49:11 EDT UTC-04:00",
+    "localtime": "Mon 28 Jun 2021 03:49:11 PM EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
   "sensors": {
@@ -140,7 +140,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1624909542,
+    "lastchange": 1624909751,
     "message": "CDL is <b>CLOSED</b> for the day..",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
