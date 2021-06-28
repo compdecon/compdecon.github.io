@@ -93,13 +93,13 @@ WEATHER=$(cat /tmp/forecast)
 # state
 #      \"lastchange\": $(date +%s),
 #
+# \"logo\": \"http://compdecon.org/wp-content/uploads/2018/10/cdl_white_large.png\",
 JSON="{
   \"api_compatability\": [\"14\"],
   \"api\": \"0.13\",
   \"version\": \"0.0.1 alpha\",
   \"comment\": \"API is a work in progress\",
   \"space\": \"CDL - Computer Deconstruction Lab\",
-  \"logo\": \"http://compdecon.org/wp-content/uploads/2018/10/cdl_white_large.png\",
   \"logo\": \"https://compdecon.github.io/images/CDL-Logo-black.png\",
   \"url\": \"https://compdecon.github.io/\",
   \"location\": {
@@ -109,6 +109,7 @@ JSON="{
       \"timezone\": \"America/New_York\",
       \"ext_time\": \"$(date '+%Y/%m/%d %H:%M:%S %Z UTC%:z')\",
       \"ext_localtime\": \"$(date)\",
+      \"ext_tz\": \"$(date +%Z)\",
       \"comment\": \"date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5\"
   },
   \"sensors\": {
@@ -181,7 +182,7 @@ JSON="{
           }
       ]
   },
-  \"weather\": ${WEATHER},
+  \"ext_weather\": ${WEATHER},
   \"contact\": {
     \"email\": \"info@compdecon.org\",
     \"phone\": \"+1-732-456-5001\",
@@ -231,7 +232,6 @@ JSON="{
           \"type\": \"git push\",
           \"timestamp\": 1624916770,
           \"extra\": \"ncherry@linuxha.com git push'd updates for the compdecon.github.io related code\"
-      }, {
       }
   ],
   \"projects\": [
