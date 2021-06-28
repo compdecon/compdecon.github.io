@@ -228,7 +228,7 @@ JSON="{
   ],
   \"events\": [
       {
-          \"name\": \"N/A\",
+          \"name\": \"Git push\",
           \"type\": \"git push\",
           \"timestamp\": 1624916770,
           \"extra\": \"ncherry@linuxha.com git push'd updates for the compdecon.github.io related code\"
