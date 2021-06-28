@@ -13,8 +13,8 @@
     "lat": -74.06020538859792,
     "lon": 40.186497308776936,
     "timezone": "America/New_York",
-    "ext_time": "2021/06/28 18:41:46 EDT UTC-04:00",
-    "ext_localtime": "Mon 28 Jun 2021 06:41:46 PM EDT",
+    "ext_time": "2021/06/28 18:44:17 EDT UTC-04:00",
+    "ext_localtime": "Mon 28 Jun 2021 06:44:17 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1624920106,
+    "lastchange": 1624920257,
     "message": "We're currently closed but will be open at 7PM tonight.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
@@ -162,7 +162,7 @@
   ],
   "events": [
     {
-      "name": "N/A",
+      "name": "Git push",
       "type": "git push",
       "timestamp": 1624916770,
       "extra": "ncherry@linuxha.com git push'd updates for the compdecon.github.io related code"
