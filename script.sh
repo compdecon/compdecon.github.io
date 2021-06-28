@@ -5,6 +5,8 @@ TOPIC="cdl/status"
 MQTTHOST=localhost.uucp
 MQTTPORT=1883
 
+cd ~/dev/git/compdecon.github.io/
+
 sub () {
     topic="${1}"
     # Wait 3 seconds and return
@@ -73,8 +75,8 @@ CONNS=0
 
 # Temperature
 #UNIT="\u00b0C"
-TUNIT="\u00b0K"
-#UNIT="\u00b0K"
+#UNIT="K"
+TUNIT="\u00b0F"
 TLAB=70
 TCLASS=70
 TSTUDIO=70
@@ -103,9 +105,10 @@ JSON="{
   \"location\": {
       \"address\": \"Computer Deconstruction Lab, Building 9059, 2201 Marconi Road, Wall Township, N.J. 07719, USA\",
       \"lat\": -74.06020538859792,
-      \"long\": 40.186497308776936,
-      \"timezone\": \"$(date '+%Y/%m/%d %H:%M:%S %Z UTC%:z')\",
-      \"localtime\": \"$(date)\",
+      \"lon\": 40.186497308776936,
+      \"timezone\": \"America/New_York\",
+      \"ext_time\": \"$(date '+%Y/%m/%d %H:%M:%S %Z UTC%:z')\",
+      \"ext_localtime\": \"$(date)\",
       \"comment\": \"date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5\"
   },
   \"sensors\": {
@@ -220,13 +223,14 @@ JSON="{
     }
   },
   \"cam\": [
+      \"https://example.org/cam\"
   ],
   \"events\": [
       {
           \"name\": \"N/A\",
-          \"type\": \"\",
-          \"timestamp\": -1,
-          \"extra\": \"\"
+          \"type\": \"git push\",
+          \"timestamp\": 1624916770,
+          \"extra\": \"ncherry@linuxha.com git push'd updates for the compdecon.github.io related code\"
       }, {
       }
   ],
@@ -239,6 +243,7 @@ JSON="{
       \"spacenet\": false
   }
 }"
+
 
 ###
 ### Take a backup of the old status.json
