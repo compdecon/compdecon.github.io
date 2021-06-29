@@ -1,5 +1,6 @@
 #!/bin/bash
 
+jsonVersion="0.0.2"
 FILE=status.json
 TOPIC="cdl/status"
 MQTTHOST=localhost.uucp
@@ -97,7 +98,7 @@ WEATHER=$(cat /tmp/forecast)
 JSON="{
   \"api_compatability\": [\"14\"],
   \"api\": \"0.13\",
-  \"version\": \"0.0.1 alpha\",
+  \"version\": \"${jsonVersion}\",
   \"comment\": \"API is a work in progress\",
   \"space\": \"CDL - Computer Deconstruction Lab\",
   \"logo\": \"https://compdecon.github.io/images/CDL-Logo-black.png\",
