@@ -256,13 +256,13 @@ JSON="{
 ### Take a backup of the old status.json
 ###
 #cp status.json /tmp/status.json
-egrep -v 'lastchange|timezone|localtime' ${FILE} | jq '.' > /tmp/${FILE}
+egrep -v 'lastchange|timezone|localtime|ext_time' ${FILE} | jq '.' > /tmp/${FILE}
 
 ###
 ### Create a new status.json
 ###
 echo ${JSON} | jq '.' > status.json
-egrep -v 'lastchange|timezone|localtime' ${FILE} > /tmp/t-${FILE}
+egrep -v 'lastchange|timezone|localtime|ext_time' ${FILE} | jq '.' > /tmp/t-${FILE}
 
 ###
 ### compare the two, if it has changed update
