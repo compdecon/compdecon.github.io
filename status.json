@@ -10,11 +10,11 @@
   "url": "https://compdecon.github.io/",
   "location": {
     "address": "Computer Deconstruction Lab, Building 9059, 2201 Marconi Road, Wall Township, N.J. 07719, USA",
-    "lat": 40.186373,
-    "lon": -74.060128,
+    "lat": 40.18652189759892,
+    "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/06/29 17:00:48 EDT UTC-04:00",
-    "ext_localtime": "Tue 29 Jun 2021 05:00:48 PM EDT",
+    "ext_time": "2021/06/29 17:09:28 EDT UTC-04:00",
+    "ext_localtime": "Tue 29 Jun 2021 05:09:28 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1625000448,
+    "lastchange": 1625000968,
     "message": "Sorry we're closed for the day..",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
