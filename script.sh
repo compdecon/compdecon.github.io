@@ -5,6 +5,10 @@ FILE=status.json
 TOPIC="cdl/status"
 MQTTHOST=localhost.uucp
 MQTTPORT=1883
+#LAT="40.18649730878143"
+#LON="-74.06016247354387"
+LAT="40.186373"
+LON="-74.060128"
 
 cd ~/dev/git/compdecon.github.io/
 
@@ -49,8 +53,7 @@ toKelvin() {
 # getops
 OPEN=0
 MSG="All visitors to the makerspace are required to mask as per the State of New Jersey requirements and maintain appropriate social distancing while in the building"
-MSG="Experimenting with SpaceAPI"
-
+MSG="Sorry we're closed for the day."
 # ------------------------------------------------------------------------------
 
 MSG=$(sub "${TOPIC}/message")
@@ -105,8 +108,8 @@ JSON="{
   \"url\": \"https://compdecon.github.io/\",
   \"location\": {
       \"address\": \"Computer Deconstruction Lab, Building 9059, 2201 Marconi Road, Wall Township, N.J. 07719, USA\",
-      \"lat\": -74.06020538859792,
-      \"lon\": 40.186497308776936,
+      \"lat\": ${LAT},
+      \"lon\": ${LON},
       \"timezone\": \"America/New_York\",
       \"ext_time\": \"$(date '+%Y/%m/%d %H:%M:%S %Z UTC%:z')\",
       \"ext_localtime\": \"$(date)\",
