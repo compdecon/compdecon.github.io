@@ -13,8 +13,8 @@
     "lat": -74.06020538859792,
     "lon": 40.186497308776936,
     "timezone": "America/New_York",
-    "ext_time": "2021/06/29 14:10:01 EDT UTC-04:00",
-    "ext_localtime": "Tue 29 Jun 2021 02:10:01 PM EDT",
+    "ext_time": "2021/06/29 15:10:01 EDT UTC-04:00",
+    "ext_localtime": "Tue 29 Jun 2021 03:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2021-06-29T12:00:00-04:00",
+    "startTime": "2021-06-29T15:00:00-04:00",
     "endTime": "2021-06-29T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 95,
@@ -111,7 +111,7 @@
     "windDirection": "SW",
     "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
     "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 95. Heat index values as high as 104. Southwest wind around 10 mph."
+    "detailedForecast": "Mostly sunny, with a high near 95. Heat index values as high as 101. Southwest wind around 10 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1624990201,
+    "lastchange": 1624993801,
     "message": "Sorry we're closed for the day..",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
