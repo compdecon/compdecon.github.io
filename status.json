@@ -3,7 +3,7 @@
     "14"
   ],
   "api": "0.13",
-  "version": "0.0.1 alpha",
+  "version": "0.0.2",
   "comment": "API is a work in progress",
   "space": "CDL - Computer Deconstruction Lab",
   "logo": "https://compdecon.github.io/images/CDL-Logo-black.png",
@@ -13,8 +13,8 @@
     "lat": -74.06020538859792,
     "lon": 40.186497308776936,
     "timezone": "America/New_York",
-    "ext_time": "2021/06/28 21:10:01 EDT UTC-04:00",
-    "ext_localtime": "Mon 28 Jun 2021 09:10:01 PM EDT",
+    "ext_time": "2021/06/28 22:10:02 EDT UTC-04:00",
+    "ext_localtime": "Mon 28 Jun 2021 10:10:02 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -142,8 +142,8 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1624929001,
-    "message": "Closing time, you don't have to go home But you can't stay here.",
+    "lastchange": 1624932602,
+    "message": "Sorry we're closed for the day..",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
       "closed": "https://compdecon.github.io/images/closed.png"
