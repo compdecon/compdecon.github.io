@@ -13,8 +13,8 @@
     "lat": -74.06020538859792,
     "lon": 40.186497308776936,
     "timezone": "America/New_York",
-    "ext_time": "2021/06/28 20:10:01 EDT UTC-04:00",
-    "ext_localtime": "Mon 28 Jun 2021 08:10:01 PM EDT",
+    "ext_time": "2021/06/28 21:04:44 EDT UTC-04:00",
+    "ext_localtime": "Mon 28 Jun 2021 09:04:44 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": true
+        "value": false
       },
       {
         "location": "Front door",
-        "value": true
+        "value": false
       }
     ],
     "humidity": [
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2021-06-28T18:00:00-04:00",
+    "startTime": "2021-06-28T21:00:00-04:00",
     "endTime": "2021-06-29T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 73,
@@ -141,9 +141,9 @@
     {}
   ],
   "state": {
-    "open": true,
-    "lastchange": 1624925401,
-    "message": "We're open from 7 PM until 9PM today.",
+    "open": false,
+    "lastchange": 1624928684,
+    "message": "Closing time, you don't have to go home But you can't stay here.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
       "closed": "https://compdecon.github.io/images/closed.png"
