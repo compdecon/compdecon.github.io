@@ -18,6 +18,8 @@
    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
 
+   <link rel="stylesheet" id="wp-block-library-css" href="t/dir/style.min.css" type="text/css" media="all">
+
    <title>CDL - Computer Deconstruction Lab Podcast and Makerspace</title>
 
 <style type="text/css">
@@ -38,6 +40,7 @@
     .myBody {
         background: #cfdaba;
         color: black;
+        font-size: 120%;
     }
     .myBannerT {
         background: #5e8067;
@@ -47,7 +50,7 @@
     .myBanner {
         background: #5e8067;
         color: #cfdaba;
-        clear: both;
+        /*clear: both; /* */
     }
     .myLogo {
         background: #5e8067;
@@ -64,6 +67,16 @@
         display: block;
         margin: 0 auto;
         border: 1px solid black;
+    }
+
+    widget {
+        position: relative;
+        margin-bottom: 55px;
+        padding-left: 5em;
+    }
+    txtwidget {
+        /* border: 1px solid black; /* */
+        padding-left:2em;
     }
 </style>
 <script>
@@ -92,7 +105,7 @@
       if(typeof lastchange != "number") {
           lastchange = -1;
       }
-      document.getElementById("lastUpdateOn").innerHTML = 'UPDATE (' + new Date(lastchange*1000) + ')';
+      document.getElementById("lastUpdateOn").innerHTML = 'UPDATE <span style="font-size: 60%;">(' + new Date(lastchange*1000) + ')</span>';
   }
   
   lastUpdate = '';
@@ -138,6 +151,7 @@
 
 </head>
 <body class="myBody">
+<div id="page" class="hfeed site">
   <table class="myBannerT">
     <tr><td>
       <a href="https://compdecon.org/" title="CDL - Computer Deconstruction Lab" target="_blank">
@@ -153,8 +167,6 @@
       <img id="sign" src="./images/Closed-sign.png" title="Closed for the day" alt="Closed for the day"/>
     </td></tr>
   </table>
-
-  <p>WIP - Yup, a work in progress.</p>
 
   <h1 id="lastUpdateOn">UPDATE</h1>
 
@@ -181,21 +193,12 @@
 
     <p> We embrace the sharing of ideas and innovation, and that includes open source hardware and software. We also host workshops and run classes on a myriad of topics. CDL and is open to the public, Walkins are welcome. A donation of $20 is suggested if you stay and participate. We do have yearly membership as well.</p>
 
-    <pre>
-  Microcontroller Mondays &amp; Podcast - Mondays 7 - 10 PM
-
-  Computer Deconstruction Lab
-  Building 9059
-  2201 Marconi Road
-  Wall Township, New Jersey 07719
-
-  Contact: cdl@linuxha.com
-    </pre>
-
-    <p><a href="./images/homepage_02.jpg">
+    <p>
+      <a href="./images/homepage_02.jpg" target="_blank">
         <img loading="lazy" src="./images/homepage_02.jpg" alt="Picture of CDL/IXR Lab"
              width="1000" height="667" title="Picture of CDL/IXR Lab" class="center">
-       </a></p>
+      </a>
+    </p>
 
     <p>&nbsp;</p>
 
@@ -209,9 +212,77 @@
     <br/>
   </div><!-- .entry-content -->
 
-  <footer class="entry-footer">
-  </footer><!-- .entry-footer -->
-
+  <div id="page" class="hfeed site" style="background: #5e8067; color: #cfdaba;">
+    <div id="sidebar-footer" class="footer-widgets widget-area" role="complementary">
+      <div class="container">
+        <div class="sidebar-column col-md-12">
+	  <aside id="simple-social-icons-2" class="widget simple-social-icons">
+            <ul class="alignleft" style="inline-style-type:none;">
+              <li class="ssi-email" style="display: inline-block;">
+                <a href="mailto:cdl@compdecon.org" target="_blank">
+                  <svg role="img" class="social-email" aria-labelledby="social-email-2" style="width:72px;height:72px;">
+                    <title id="social-email-2">Email</title>
+                    <use xlink:href="./svg/symbol-defs.svg#social-email"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="ssi-facebook" style="display: inline-block;">
+                <a href="https://www.facebook.com/compdecon/" target="_blank">
+                  <svg role="img" class="social-facebook" aria-labelledby="social-facebook-2" style="width:72px;height:72px;">
+                    <title id="social-facebook-2">Facebook</title>
+                    <use xlink:href="./svg/symbol-defs.svg#social-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="ssi-gplus" style="display: inline-block;">
+                <a href="https://www.google.com/maps/place/2201+Marconi+Rd,+Wall+Township,+NJ+07719/@40.1854721,-74.0596964,17.25z/data=!4m5!3m4!1s0x89c228394da0728f:0xba9aa848932b58c1!8m2!3d40.1857926!4d-74.0595842?shorturl=1" target="_blank">
+                  <svg role="img" class="social-gplus" aria-labelledby="social-gplus-2" style="width:72px;height:72px;">
+                    <title id="social-gplus-2">Google+</title>
+                    <use xlink:href="./svg/symbol-defs.svg#social-gplus"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="ssi-phone" style="display: inline-block;">
+                <a href="tel:732-456-5001" target="_blank">
+                  <svg role="img" class="social-phone" aria-labelledby="social-phone-2" style="width:72px;height:72px;">
+                    <title id="social-phone-2">Phone</title>
+                    <use xlink:href="./svg/symbol-defs.svg#social-phone"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="ssi-twitter" style="display: inline-block;">
+                <a href="https://twitter.com/compdecon?lang=en" target="_blank">
+                  <svg role="img" class="social-twitter" aria-labelledby="social-twitter-2" style="width:72px;height:72px;">
+                    <title id="social-twitter-2">Twitter</title>
+                    <use xlink:href="./svg/symbol-defs.svg#social-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="ssi-youtube" style="display: inline-block;">
+                <a href="https://www.youtube.com/channel/UC2R27L8tMfrjCUdLClYDc8A" target="_blank">
+                  <svg role="img" class="social-youtube" aria-labelledby="social-youtube-2" style="width:72px;height:72px;">
+                    <title id="social-youtube-2">YouTube</title>
+                    <use xlink:href="./svg/symbol-defs.svg#social-youtube"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </aside>
+          <aside id="text-4" class="widget widget_text">
+            <div class="textwidget" style="padding-left:2em;">
+              Microcontroller Mondays &amp; Podcast - Mondays 7 - 10 PM<br/><br/>
+              Computer Deconstruction Lab<br/>
+              Building 9059<br/>
+              2201 Marconi Road<br/>
+              Wall Township, New Jersey 07719<br/>
+              <br/>
+            </div>
+          </aside>
+        </div>
+      </div>	
+    </div>
+  </div>
+</div>
   <script>
     const queryString = window.location.search;
     console.log(queryString);
