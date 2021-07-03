@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/03 09:10:01 EDT UTC-04:00",
-    "ext_localtime": "Sat 03 Jul 2021 09:10:01 AM EDT",
+    "ext_time": "2021/07/03 12:10:01 EDT UTC-04:00",
+    "ext_localtime": "Sat 03 Jul 2021 12:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 68
+        "value": 67
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2021-07-03T09:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2021-07-03T12:00:00-04:00",
     "endTime": "2021-07-03T18:00:00-04:00",
     "isDaytime": true,
-    "temperature": 68,
+    "temperature": 67,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "10 to 15 mph",
     "windDirection": "N",
     "icon": "https://api.weather.gov/icons/land/day/tsra,60?size=medium",
-    "shortForecast": "Showers And Thunderstorms Likely",
-    "detailedForecast": "Rain showers likely before 11am, then showers and thunderstorms likely. Cloudy, with a high near 68. North wind 10 to 15 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "shortForecast": "Chance Showers And Thunderstorms",
+    "detailedForecast": "Rain showers likely before 1pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 67. North wind 10 to 15 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1625317801,
+    "lastchange": 1625328601,
     "message": "Closing time, you don't have to go home But you can't stay here.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
