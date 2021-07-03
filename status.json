@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/03 15:10:01 EDT UTC-04:00",
-    "ext_localtime": "Sat 03 Jul 2021 03:10:01 PM EDT",
+    "ext_time": "2021/07/03 18:10:01 EDT UTC-04:00",
+    "ext_localtime": "Sat 03 Jul 2021 06:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 67
+        "value": 59
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2021-07-03T15:00:00-04:00",
-    "endTime": "2021-07-03T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 67,
+    "name": "Tonight",
+    "startTime": "2021-07-03T18:00:00-04:00",
+    "endTime": "2021-07-04T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 59,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "10 mph",
+    "windSpeed": "0 to 10 mph",
     "windDirection": "N",
-    "icon": "https://api.weather.gov/icons/land/day/rain_showers,40?size=medium",
+    "icon": "https://api.weather.gov/icons/land/night/rain_showers,40/rain_showers,20?size=medium",
     "shortForecast": "Chance Rain Showers",
-    "detailedForecast": "A chance of rain showers. Mostly cloudy, with a high near 67. North wind around 10 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "A chance of rain showers before 4am. Mostly cloudy, with a low around 59. North wind 0 to 10 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1625339401,
+    "lastchange": 1625350201,
     "message": "Closing time, you don't have to go home But you can't stay here.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
