@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/03 00:10:01 EDT UTC-04:00",
-    "ext_localtime": "Sat 03 Jul 2021 12:10:01 AM EDT",
+    "ext_time": "2021/07/03 03:10:01 EDT UTC-04:00",
+    "ext_localtime": "Sat 03 Jul 2021 03:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,25 +94,11 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 63
+        "value": null
       }
     ]
   },
-  "ext_weather": {
-    "number": 1,
-    "name": "Overnight",
-    "startTime": "2021-07-03T00:00:00-04:00",
-    "endTime": "2021-07-03T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 63,
-    "temperatureUnit": "F",
-    "temperatureTrend": null,
-    "windSpeed": "5 to 10 mph",
-    "windDirection": "NE",
-    "icon": "https://api.weather.gov/icons/land/night/tsra,40?size=medium",
-    "shortForecast": "Patchy Fog",
-    "detailedForecast": "Patchy fog and a chance of showers and thunderstorms. Mostly cloudy, with a low around 63. Northeast wind 5 to 10 mph. Chance of precipitation is 40%. New rainfall amounts between a tenth and quarter of an inch possible."
-  },
+  "ext_weather": null,
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -142,7 +128,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1625285401,
+    "lastchange": 1625296201,
     "message": "Closing time, you don't have to go home But you can't stay here.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
