@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/04 21:10:01 EDT UTC-04:00",
-    "ext_localtime": "Sun 04 Jul 2021 09:10:01 PM EDT",
+    "ext_time": "2021/07/05 00:10:01 EDT UTC-04:00",
+    "ext_localtime": "Mon 05 Jul 2021 12:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2021-07-04T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2021-07-05T00:00:00-04:00",
     "endTime": "2021-07-05T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 64,
@@ -109,8 +109,8 @@
     "temperatureTrend": null,
     "windSpeed": "0 to 5 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/night/sct/fog?size=medium",
-    "shortForecast": "Partly Cloudy then Patchy Fog",
+    "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
+    "shortForecast": "Patchy Fog",
     "detailedForecast": "Patchy fog after 1am. Partly cloudy, with a low around 64. Southwest wind 0 to 5 mph."
   },
   "contact": {
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1625447401,
+    "lastchange": 1625458201,
     "message": "Closing time, you don't have to go home But you can't stay here.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
