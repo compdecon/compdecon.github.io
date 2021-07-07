@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/07 03:10:01 EDT UTC-04:00",
-    "ext_localtime": "Wed 07 Jul 2021 03:10:01 AM EDT",
+    "ext_time": "2021/07/07 12:10:02 EDT UTC-04:00",
+    "ext_localtime": "Wed 07 Jul 2021 12:10:02 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 71
+        "value": 93
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2021-07-07T03:00:00-04:00",
-    "endTime": "2021-07-07T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 71,
+    "name": "This Afternoon",
+    "startTime": "2021-07-07T12:00:00-04:00",
+    "endTime": "2021-07-07T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 93,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 mph",
+    "windSpeed": "5 to 10 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
-    "shortForecast": "Areas Of Fog",
-    "detailedForecast": "Areas of fog. Partly cloudy, with a low around 71. Southwest wind around 5 mph."
+    "icon": "https://api.weather.gov/icons/land/day/tsra_hi,20?size=medium",
+    "shortForecast": "Slight Chance Showers And Thunderstorms",
+    "detailedForecast": "A slight chance of showers and thunderstorms after 2pm. Sunny, with a high near 93. Heat index values as high as 102. Southwest wind 5 to 10 mph. Chance of precipitation is 20%."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1625641801,
+    "lastchange": 1625674202,
     "message": "Closing time, you don't have to go home But you can't stay here.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
