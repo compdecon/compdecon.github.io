@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/08 12:10:01 EDT UTC-04:00",
-    "ext_localtime": "Thu 08 Jul 2021 12:10:01 PM EDT",
+    "ext_time": "2021/07/08 15:10:01 EDT UTC-04:00",
+    "ext_localtime": "Thu 08 Jul 2021 03:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2021-07-08T12:00:00-04:00",
+    "startTime": "2021-07-08T15:00:00-04:00",
     "endTime": "2021-07-08T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 87,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "10 to 15 mph",
+    "windSpeed": "15 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/tsra_sct,50?size=medium",
+    "icon": "https://api.weather.gov/icons/land/day/tsra,50?size=medium",
     "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms. Partly sunny, with a high near 87. Southwest wind 10 to 15 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "A chance of showers and thunderstorms. Mostly cloudy, with a high near 87. Southwest wind around 15 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1625760601,
+    "lastchange": 1625771401,
     "message": "Closing time, you don't have to go home But you can't stay here.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
