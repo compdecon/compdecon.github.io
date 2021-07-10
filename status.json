@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/10 03:10:02 EDT UTC-04:00",
-    "ext_localtime": "Sat 10 Jul 2021 03:10:02 AM EDT",
+    "ext_time": "2021/07/10 06:10:01 EDT UTC-04:00",
+    "ext_localtime": "Sat 10 Jul 2021 06:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 70
+        "value": 80
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2021-07-10T03:00:00-04:00",
-    "endTime": "2021-07-10T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 70,
+    "name": "Today",
+    "startTime": "2021-07-10T06:00:00-04:00",
+    "endTime": "2021-07-10T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 80,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 mph",
-    "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-    "shortForecast": "Partly Cloudy",
-    "detailedForecast": "Partly cloudy, with a low around 70. West wind around 5 mph."
+    "windDirection": "N",
+    "icon": "https://api.weather.gov/icons/land/day/sct/tsra_hi,20?size=medium",
+    "shortForecast": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
+    "detailedForecast": "A slight chance of rain showers between 1pm and 5pm, then a slight chance of showers and thunderstorms. Mostly sunny, with a high near 80. North wind around 5 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1625901002,
+    "lastchange": 1625911801,
     "message": "Closing time, you don't have to go home But you can't stay here.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
