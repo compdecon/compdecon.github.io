@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/10 21:10:02 EDT UTC-04:00",
-    "ext_localtime": "Sat 10 Jul 2021 09:10:02 PM EDT",
+    "ext_time": "2021/07/11 00:10:02 EDT UTC-04:00",
+    "ext_localtime": "Sun 11 Jul 2021 12:10:02 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,18 +100,18 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2021-07-10T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2021-07-11T00:00:00-04:00",
     "endTime": "2021-07-11T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 68,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "0 to 5 mph",
-    "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/night/bkn/fog?size=medium",
-    "shortForecast": "Mostly Cloudy then Patchy Fog",
-    "detailedForecast": "Patchy fog after 4am. Mostly cloudy, with a low around 68. East wind 0 to 5 mph."
+    "windSpeed": "0 mph",
+    "windDirection": "SE",
+    "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
+    "shortForecast": "Patchy Fog",
+    "detailedForecast": "Patchy fog after 1am. Mostly cloudy, with a low around 68. Southeast wind around 0 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1625965802,
+    "lastchange": 1625976602,
     "message": "Closing time, you don't have to go home But you can't stay here.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
