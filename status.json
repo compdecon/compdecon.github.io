@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/12 06:10:01 EDT UTC-04:00",
-    "ext_localtime": "Mon 12 Jul 2021 06:10:01 AM EDT",
+    "ext_time": "2021/07/12 09:10:02 EDT UTC-04:00",
+    "ext_localtime": "Mon 12 Jul 2021 09:10:02 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2021-07-12T06:00:00-04:00",
+    "startTime": "2021-07-12T09:00:00-04:00",
     "endTime": "2021-07-12T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 86,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "0 to 5 mph",
-    "windDirection": "S",
+    "windDirection": "SW",
     "icon": "https://api.weather.gov/icons/land/day/tsra_sct,20/tsra_sct,60?size=medium",
     "shortForecast": "Showers And Thunderstorms Likely",
-    "detailedForecast": "Showers and thunderstorms likely after 10am. Partly sunny, with a high near 86. South wind 0 to 5 mph. Chance of precipitation is 60%. New rainfall amounts between a quarter and half of an inch possible."
+    "detailedForecast": "Showers and thunderstorms likely after 10am. Partly sunny, with a high near 86. Southwest wind 0 to 5 mph. Chance of precipitation is 60%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1626084601,
+    "lastchange": 1626095402,
     "message": "Closing time, you don't have to go home But you can't stay here.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
