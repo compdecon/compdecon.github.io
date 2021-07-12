@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/12 00:10:01 EDT UTC-04:00",
-    "ext_localtime": "Mon 12 Jul 2021 12:10:01 AM EDT",
+    "ext_time": "2021/07/12 03:10:01 EDT UTC-04:00",
+    "ext_localtime": "Mon 12 Jul 2021 03:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,25 +94,11 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 72
+        "value": null
       }
     ]
   },
-  "ext_weather": {
-    "number": 1,
-    "name": "Overnight",
-    "startTime": "2021-07-12T00:00:00-04:00",
-    "endTime": "2021-07-12T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 72,
-    "temperatureUnit": "F",
-    "temperatureTrend": null,
-    "windSpeed": "5 mph",
-    "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
-    "shortForecast": "Cloudy",
-    "detailedForecast": "Cloudy, with a low around 72. South wind around 5 mph."
-  },
+  "ext_weather": null,
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -142,7 +128,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1626063001,
+    "lastchange": 1626073801,
     "message": "Closing time, you don't have to go home But you can't stay here.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
