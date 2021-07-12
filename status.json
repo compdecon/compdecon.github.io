@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/12 17:42:17 EDT UTC-04:00",
-    "ext_localtime": "Mon 12 Jul 2021 05:42:17 PM EDT",
+    "ext_time": "2021/07/12 18:02:36 EDT UTC-04:00",
+    "ext_localtime": "Mon 12 Jul 2021 06:02:36 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,25 +94,11 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 86
+        "value": null
       }
     ]
   },
-  "ext_weather": {
-    "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2021-07-12T15:00:00-04:00",
-    "endTime": "2021-07-12T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 86,
-    "temperatureUnit": "F",
-    "temperatureTrend": null,
-    "windSpeed": "10 mph",
-    "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/tsra,70?size=medium",
-    "shortForecast": "Showers And Thunderstorms Likely",
-    "detailedForecast": "Showers and thunderstorms likely. Mostly cloudy, with a high near 86. Southwest wind around 10 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
-  },
+  "ext_weather": null,
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -142,8 +128,8 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1626126137,
-    "message": "CDl will be open from 7PM to 10PM tonight.",
+    "lastchange": 1626127356,
+    "message": "CDL will be open from 7PM to 10PM tonight.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
       "closed": "https://compdecon.github.io/images/closed.png"
