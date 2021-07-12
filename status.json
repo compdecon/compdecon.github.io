@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/12 15:10:01 EDT UTC-04:00",
-    "ext_localtime": "Mon 12 Jul 2021 03:10:01 PM EDT",
+    "ext_time": "2021/07/12 17:42:17 EDT UTC-04:00",
+    "ext_localtime": "Mon 12 Jul 2021 05:42:17 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": false
+        "value": true
       },
       {
         "location": "Front door",
-        "value": false
+        "value": true
       }
     ],
     "humidity": [
@@ -141,9 +141,9 @@
     {}
   ],
   "state": {
-    "open": false,
-    "lastchange": 1626117001,
-    "message": "Closing time, you don't have to go home But you can't stay here.",
+    "open": true,
+    "lastchange": 1626126137,
+    "message": "CDl will be open from 7PM to 10PM tonight.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
       "closed": "https://compdecon.github.io/images/closed.png"
