@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/13 00:10:01 EDT UTC-04:00",
-    "ext_localtime": "Tue 13 Jul 2021 12:10:01 AM EDT",
+    "ext_time": "2021/07/13 00:34:39 EDT UTC-04:00",
+    "ext_localtime": "Tue 13 Jul 2021 12:34:39 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -142,8 +142,8 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1626149401,
-    "message": "CDL will be open from 7PM to 10PM tonight.",
+    "lastchange": 1626150879,
+    "message": "Sorry we're closed, but ya'll come on back now ya hear?.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
       "closed": "https://compdecon.github.io/images/closed.png"
