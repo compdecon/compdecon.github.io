@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/13 15:10:02 EDT UTC-04:00",
-    "ext_localtime": "Tue 13 Jul 2021 03:10:02 PM EDT",
+    "ext_time": "2021/07/13 18:10:01 EDT UTC-04:00",
+    "ext_localtime": "Tue 13 Jul 2021 06:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 80
+        "value": 71
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2021-07-13T15:00:00-04:00",
-    "endTime": "2021-07-13T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 80,
+    "name": "Tonight",
+    "startTime": "2021-07-13T18:00:00-04:00",
+    "endTime": "2021-07-14T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 71,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 mph",
-    "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/day/tsra,20?size=medium",
-    "shortForecast": "Slight Chance Showers And Thunderstorms",
-    "detailedForecast": "A slight chance of showers and thunderstorms after 5pm. Mostly cloudy, with a high near 80. East wind around 5 mph. Chance of precipitation is 20%."
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "SE",
+    "icon": "https://api.weather.gov/icons/land/night/tsra,20/fog?size=medium",
+    "shortForecast": "Slight Chance Showers And Thunderstorms then Patchy Fog",
+    "detailedForecast": "A slight chance of showers and thunderstorms before 10pm, then patchy fog. Mostly cloudy, with a low around 71. Southeast wind 5 to 10 mph. Chance of precipitation is 20%."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1626203402,
+    "lastchange": 1626214201,
     "message": "Sorry we're closed, but ya'll come on back now ya hear?.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
