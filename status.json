@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/13 00:34:39 EDT UTC-04:00",
-    "ext_localtime": "Tue 13 Jul 2021 12:34:39 AM EDT",
+    "ext_time": "2021/07/13 00:37:31 EDT UTC-04:00",
+    "ext_localtime": "Tue 13 Jul 2021 12:37:31 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": true
+        "value": false
       },
       {
         "location": "Front door",
-        "value": true
+        "value": false
       }
     ],
     "humidity": [
@@ -141,8 +141,8 @@
     {}
   ],
   "state": {
-    "open": true,
-    "lastchange": 1626150879,
+    "open": false,
+    "lastchange": 1626151051,
     "message": "Sorry we're closed, but ya'll come on back now ya hear?.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
