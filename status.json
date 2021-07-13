@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/12 21:10:01 EDT UTC-04:00",
-    "ext_localtime": "Mon 12 Jul 2021 09:10:01 PM EDT",
+    "ext_time": "2021/07/13 00:10:01 EDT UTC-04:00",
+    "ext_localtime": "Tue 13 Jul 2021 12:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2021-07-12T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2021-07-13T00:00:00-04:00",
     "endTime": "2021-07-13T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 71,
@@ -109,9 +109,9 @@
     "temperatureTrend": null,
     "windSpeed": "5 mph",
     "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/night/tsra,70/tsra,50?size=medium",
-    "shortForecast": "Showers And Thunderstorms Likely",
-    "detailedForecast": "Showers and thunderstorms likely before 3am, then patchy fog and a chance of showers and thunderstorms. Some of the storms could be severe. Cloudy, with a low around 71. East wind around 5 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/tsra,50?size=medium",
+    "shortForecast": "Chance Showers And Thunderstorms",
+    "detailedForecast": "A chance of showers and thunderstorms. Mostly cloudy, with a low around 71. East wind around 5 mph. Chance of precipitation is 50%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1626138601,
+    "lastchange": 1626149401,
     "message": "CDL will be open from 7PM to 10PM tonight.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
