@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/13 21:10:01 EDT UTC-04:00",
-    "ext_localtime": "Tue 13 Jul 2021 09:10:01 PM EDT",
+    "ext_time": "2021/07/14 00:10:02 EDT UTC-04:00",
+    "ext_localtime": "Wed 14 Jul 2021 12:10:02 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2021-07-13T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2021-07-14T00:00:00-04:00",
     "endTime": "2021-07-14T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 71,
@@ -109,7 +109,7 @@
     "temperatureTrend": null,
     "windSpeed": "5 mph",
     "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/night/fog/tsra_sct,20?size=medium",
+    "icon": "https://api.weather.gov/icons/land/night/tsra_sct,20?size=medium",
     "shortForecast": "Areas Of Fog",
     "detailedForecast": "Areas of fog before 4am, then areas of fog and a slight chance of showers and thunderstorms. Mostly cloudy, with a low around 71. Southeast wind around 5 mph. Chance of precipitation is 20%."
   },
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1626225001,
+    "lastchange": 1626235802,
     "message": "Sorry we're closed, but ya'll come on back now ya hear?.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
