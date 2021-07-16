@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/16 09:10:01 EDT UTC-04:00",
-    "ext_localtime": "Fri 16 Jul 2021 09:10:01 AM EDT",
+    "ext_time": "2021/07/16 12:10:02 EDT UTC-04:00",
+    "ext_localtime": "Fri 16 Jul 2021 12:10:02 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2021-07-16T09:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2021-07-16T12:00:00-04:00",
     "endTime": "2021-07-16T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 93,
@@ -109,8 +109,8 @@
     "temperatureTrend": null,
     "windSpeed": "5 to 10 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/few/tsra_hi,20?size=medium",
-    "shortForecast": "Sunny then Slight Chance Showers And Thunderstorms",
+    "icon": "https://api.weather.gov/icons/land/day/tsra_hi,20?size=medium",
+    "shortForecast": "Slight Chance Showers And Thunderstorms",
     "detailedForecast": "A slight chance of showers and thunderstorms after 4pm. Sunny, with a high near 93. Heat index values as high as 102. Southwest wind 5 to 10 mph. Chance of precipitation is 20%."
   },
   "contact": {
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1626441001,
+    "lastchange": 1626451802,
     "message": "Sorry we're closed, but ya'll come on back now ya hear?.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
