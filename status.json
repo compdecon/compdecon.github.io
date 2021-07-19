@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/19 16:46:40 EDT UTC-04:00",
-    "ext_localtime": "Mon 19 Jul 2021 04:46:40 PM EDT",
+    "ext_time": "2021/07/19 16:48:42 EDT UTC-04:00",
+    "ext_localtime": "Mon 19 Jul 2021 04:48:42 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -142,8 +142,8 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1626727600,
-    "message": "Ill.",
+    "lastchange": 1626727722,
+    "message": "I'll.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
       "closed": "https://compdecon.github.io/images/closed.png"
