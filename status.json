@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/19 21:08:18 EDT UTC-04:00",
-    "ext_localtime": "Mon 19 Jul 2021 09:08:18 PM EDT",
+    "ext_time": "2021/07/20 00:10:01 EDT UTC-04:00",
+    "ext_localtime": "Tue 20 Jul 2021 12:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2021-07-19T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2021-07-20T00:00:00-04:00",
     "endTime": "2021-07-20T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 68,
@@ -109,8 +109,8 @@
     "temperatureTrend": null,
     "windSpeed": "5 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/night/few/fog?size=medium",
-    "shortForecast": "Mostly Clear then Patchy Fog",
+    "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
+    "shortForecast": "Patchy Fog",
     "detailedForecast": "Patchy fog after 5am. Mostly clear, with a low around 68. West wind around 5 mph."
   },
   "contact": {
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1626743298,
+    "lastchange": 1626754201,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
