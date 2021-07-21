@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/21 12:10:01 EDT UTC-04:00",
-    "ext_localtime": "Wed 21 Jul 2021 12:10:01 PM EDT",
+    "ext_time": "2021/07/21 15:10:01 EDT UTC-04:00",
+    "ext_localtime": "Wed 21 Jul 2021 03:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2021-07-21T12:00:00-04:00",
+    "startTime": "2021-07-21T15:00:00-04:00",
     "endTime": "2021-07-21T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 85,
     "temperatureUnit": "F",
     "temperatureTrend": "falling",
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "10 mph",
     "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/day/tsra_hi,80?size=medium",
+    "icon": "https://api.weather.gov/icons/land/day/tsra,80?size=medium",
     "shortForecast": "Showers And Thunderstorms",
-    "detailedForecast": "Showers and thunderstorms. Some of the storms could be severe and produce heavy rain. Partly sunny. High near 85, with temperatures falling to around 78 in the afternoon. Northwest wind 5 to 10 mph. Chance of precipitation is 80%. New rainfall amounts between a half and three quarters of an inch possible."
+    "detailedForecast": "Showers and thunderstorms. Some of the storms could be severe. Cloudy. High near 85, with temperatures falling to around 79 in the afternoon. Northwest wind around 10 mph. Chance of precipitation is 80%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1626883801,
+    "lastchange": 1626894601,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
