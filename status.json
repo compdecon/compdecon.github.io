@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/21 18:10:01 EDT UTC-04:00",
-    "ext_localtime": "Wed 21 Jul 2021 06:10:01 PM EDT",
+    "ext_time": "2021/07/21 21:10:01 EDT UTC-04:00",
+    "ext_localtime": "Wed 21 Jul 2021 09:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2021-07-21T18:00:00-04:00",
+    "startTime": "2021-07-21T21:00:00-04:00",
     "endTime": "2021-07-22T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 65,
@@ -109,9 +109,9 @@
     "temperatureTrend": null,
     "windSpeed": "5 to 10 mph",
     "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/night/tsra_hi,40/few?size=medium",
-    "shortForecast": "Chance Showers And Thunderstorms then Mostly Clear",
-    "detailedForecast": "A chance of showers and thunderstorms before 9pm. Some of the storms could be severe. Mostly clear, with a low around 65. Northwest wind 5 to 10 mph. Chance of precipitation is 40%. New rainfall amounts between a quarter and half of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+    "shortForecast": "Mostly Clear",
+    "detailedForecast": "Mostly clear, with a low around 65. Northwest wind 5 to 10 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1626905401,
+    "lastchange": 1626916201,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
