@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/22 18:10:01 EDT UTC-04:00",
-    "ext_localtime": "Thu 22 Jul 2021 06:10:01 PM EDT",
+    "ext_time": "2021/07/22 21:10:01 EDT UTC-04:00",
+    "ext_localtime": "Thu 22 Jul 2021 09:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,25 +94,11 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 64
+        "value": null
       }
     ]
   },
-  "ext_weather": {
-    "number": 1,
-    "name": "Tonight",
-    "startTime": "2021-07-22T18:00:00-04:00",
-    "endTime": "2021-07-23T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 64,
-    "temperatureUnit": "F",
-    "temperatureTrend": null,
-    "windSpeed": "5 mph",
-    "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-    "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 64. West wind around 5 mph."
-  },
+  "ext_weather": null,
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -142,7 +128,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1626991801,
+    "lastchange": 1627002601,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
