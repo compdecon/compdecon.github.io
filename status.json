@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/23 12:10:01 EDT UTC-04:00",
-    "ext_localtime": "Fri 23 Jul 2021 12:10:01 PM EDT",
+    "ext_time": "2021/07/23 15:10:02 EDT UTC-04:00",
+    "ext_localtime": "Fri 23 Jul 2021 03:10:02 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2021-07-23T12:00:00-04:00",
+    "startTime": "2021-07-23T15:00:00-04:00",
     "endTime": "2021-07-23T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 82,
@@ -109,9 +109,9 @@
     "temperatureTrend": null,
     "windSpeed": "5 to 10 mph",
     "windDirection": "NE",
-    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-    "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 82. Northeast wind 5 to 10 mph."
+    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny, with a high near 82. Northeast wind 5 to 10 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1627056601,
+    "lastchange": 1627067402,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
