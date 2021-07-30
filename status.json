@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/30 00:10:01 EDT UTC-04:00",
-    "ext_localtime": "Fri 30 Jul 2021 12:10:01 AM EDT",
+    "ext_time": "2021/07/30 03:10:01 EDT UTC-04:00",
+    "ext_localtime": "Fri 30 Jul 2021 03:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2021-07-30T00:00:00-04:00",
+    "startTime": "2021-07-30T03:00:00-04:00",
     "endTime": "2021-07-30T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 69,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "10 mph",
-    "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/night/tsra_hi,30?size=medium",
-    "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms before 2am. Mostly cloudy, with a low around 69. Southwest wind around 10 mph. Chance of precipitation is 30%. New rainfall amounts between a quarter and half of an inch possible."
+    "windDirection": "W",
+    "icon": "https://api.weather.gov/icons/land/night/tsra_hi,20?size=medium",
+    "shortForecast": "Patchy Fog",
+    "detailedForecast": "Patchy fog and a slight chance of showers and thunderstorms. Partly cloudy, with a low around 69. West wind around 10 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1627618201,
+    "lastchange": 1627629001,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
