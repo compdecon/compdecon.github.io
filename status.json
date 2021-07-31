@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/07/30 18:10:01 EDT UTC-04:00",
-    "ext_localtime": "Fri 30 Jul 2021 06:10:01 PM EDT",
+    "ext_time": "2021/07/30 21:10:01 EDT UTC-04:00",
+    "ext_localtime": "Fri 30 Jul 2021 09:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 83
+        "value": 58
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2021-07-30T09:00:00-04:00",
-    "endTime": "2021-07-30T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 83,
+    "name": "Tonight",
+    "startTime": "2021-07-30T21:00:00-04:00",
+    "endTime": "2021-07-31T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 58,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "10 to 15 mph",
+    "windSpeed": "5 to 10 mph",
     "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-    "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 83. Northwest wind 10 to 15 mph."
+    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+    "shortForecast": "Mostly Clear",
+    "detailedForecast": "Mostly clear, with a low around 58. Northwest wind 5 to 10 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1627683001,
+    "lastchange": 1627693801,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
