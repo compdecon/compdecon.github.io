@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/08/01 18:10:01 EDT UTC-04:00",
-    "ext_localtime": "Sun 01 Aug 2021 06:10:01 PM EDT",
+    "ext_time": "2021/08/01 21:10:01 EDT UTC-04:00",
+    "ext_localtime": "Sun 01 Aug 2021 09:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2021-08-01T18:00:00-04:00",
+    "startTime": "2021-08-01T21:00:00-04:00",
     "endTime": "2021-08-02T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 63,
@@ -109,9 +109,9 @@
     "temperatureTrend": null,
     "windSpeed": "0 to 5 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/night/tsra_sct,50/tsra_sct,30?size=medium",
+    "icon": "https://api.weather.gov/icons/land/night/tsra_sct,30/tsra_sct,20?size=medium",
     "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms before 2am. Mostly cloudy, with a low around 63. West wind 0 to 5 mph. Chance of precipitation is 50%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "detailedForecast": "A chance of showers and thunderstorms before 1am. Mostly cloudy, with a low around 63. West wind 0 to 5 mph. Chance of precipitation is 30%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1627855801,
+    "lastchange": 1627866601,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
