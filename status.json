@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/08/02 18:10:02 EDT UTC-04:00",
-    "ext_localtime": "Mon 02 Aug 2021 06:10:02 PM EDT",
+    "ext_time": "2021/08/02 19:31:10 EDT UTC-04:00",
+    "ext_localtime": "Mon 02 Aug 2021 07:31:10 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": false
+        "value": true
       },
       {
         "location": "Front door",
-        "value": false
+        "value": true
       }
     ],
     "humidity": [
@@ -141,9 +141,9 @@
     {}
   ],
   "state": {
-    "open": false,
-    "lastchange": 1627942202,
-    "message": "Sorry we are closed for the day.",
+    "open": true,
+    "lastchange": 1627947070,
+    "message": "We're open for business and coding up store.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
       "closed": "https://compdecon.github.io/images/closed.png"
