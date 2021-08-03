@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/08/03 07:25:54 EDT UTC-04:00",
-    "ext_localtime": "Tue 03 Aug 2021 07:25:54 AM EDT",
+    "ext_time": "2021/08/03 09:10:01 EDT UTC-04:00",
+    "ext_localtime": "Tue 03 Aug 2021 09:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,11 +94,25 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": null
+        "value": 79
       }
     ]
   },
-  "ext_weather": null,
+  "ext_weather": {
+    "number": 1,
+    "name": "Today",
+    "startTime": "2021-08-03T09:00:00-04:00",
+    "endTime": "2021-08-03T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 79,
+    "temperatureUnit": "F",
+    "temperatureTrend": null,
+    "windSpeed": "5 mph",
+    "windDirection": "E",
+    "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+    "shortForecast": "Cloudy",
+    "detailedForecast": "Cloudy, with a high near 79. East wind around 5 mph."
+  },
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -128,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1627989954,
+    "lastchange": 1627996201,
     "message": "Closing time, you don't have to go home, but you can't stay here. See ya next Monday.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
