@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/08/02 19:31:10 EDT UTC-04:00",
-    "ext_localtime": "Mon 02 Aug 2021 07:31:10 PM EDT",
+    "ext_time": "2021/08/02 21:10:01 EDT UTC-04:00",
+    "ext_localtime": "Mon 02 Aug 2021 09:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 62
+        "value": 61
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2021-08-02T18:00:00-04:00",
+    "startTime": "2021-08-02T21:00:00-04:00",
     "endTime": "2021-08-03T06:00:00-04:00",
     "isDaytime": false,
-    "temperature": 62,
+    "temperature": 61,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "0 to 5 mph",
+    "windSpeed": "5 mph",
     "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-    "shortForecast": "Partly Cloudy",
-    "detailedForecast": "Partly cloudy, with a low around 62. Northwest wind 0 to 5 mph."
+    "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": "Mostly cloudy, with a low around 61. Northwest wind around 5 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1627947070,
+    "lastchange": 1627953001,
     "message": "We're open for business and coding up store.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
