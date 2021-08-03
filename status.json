@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/08/03 00:10:01 EDT UTC-04:00",
-    "ext_localtime": "Tue 03 Aug 2021 12:10:01 AM EDT",
+    "ext_time": "2021/08/03 03:10:02 EDT UTC-04:00",
+    "ext_localtime": "Tue 03 Aug 2021 03:10:02 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2021-08-03T00:00:00-04:00",
+    "startTime": "2021-08-03T03:00:00-04:00",
     "endTime": "2021-08-03T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 61,
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1627963801,
+    "lastchange": 1627974602,
     "message": "We're open for business and coding up store.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
