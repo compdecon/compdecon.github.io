@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/08/05 00:10:01 EDT UTC-04:00",
-    "ext_localtime": "Thu 05 Aug 2021 12:10:01 AM EDT",
+    "ext_time": "2021/08/05 03:10:01 EDT UTC-04:00",
+    "ext_localtime": "Thu 05 Aug 2021 03:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2021-08-05T00:00:00-04:00",
+    "startTime": "2021-08-05T03:00:00-04:00",
     "endTime": "2021-08-05T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 64,
@@ -109,9 +109,9 @@
     "temperatureTrend": null,
     "windSpeed": "10 mph",
     "windDirection": "N",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,30?size=medium",
-    "shortForecast": "Slight Chance Rain Showers",
-    "detailedForecast": "A slight chance of rain showers. Mostly cloudy, with a low around 64. North wind around 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": "Mostly cloudy, with a low around 64. North wind around 10 mph. New rainfall amounts less than a tenth of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1628136601,
+    "lastchange": 1628147401,
     "message": "Closing time, you don't have to go home, but you can't stay here. See ya next Monday.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
