@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/08/07 12:10:01 EDT UTC-04:00",
-    "ext_localtime": "Sat 07 Aug 2021 12:10:01 PM EDT",
+    "ext_time": "2021/08/07 15:10:01 EDT UTC-04:00",
+    "ext_localtime": "Sat 07 Aug 2021 03:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2021-08-07T12:00:00-04:00",
+    "startTime": "2021-08-07T15:00:00-04:00",
     "endTime": "2021-08-07T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 84,
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1628352601,
+    "lastchange": 1628363401,
     "message": "Closing time, you don't have to go home, but you can't stay here. See ya next Monday.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
