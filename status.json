@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/08/07 18:10:01 EDT UTC-04:00",
-    "ext_localtime": "Sat 07 Aug 2021 06:10:01 PM EDT",
+    "ext_time": "2021/08/07 21:10:01 EDT UTC-04:00",
+    "ext_localtime": "Sat 07 Aug 2021 09:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,25 +94,11 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 65
+        "value": null
       }
     ]
   },
-  "ext_weather": {
-    "number": 1,
-    "name": "Tonight",
-    "startTime": "2021-08-07T18:00:00-04:00",
-    "endTime": "2021-08-08T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 65,
-    "temperatureUnit": "F",
-    "temperatureTrend": null,
-    "windSpeed": "0 to 10 mph",
-    "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,40/tsra,60?size=medium",
-    "shortForecast": "Showers And Thunderstorms Likely",
-    "detailedForecast": "Scattered rain showers between 9pm and 2am, then showers and thunderstorms likely. Some of the storms could produce heavy rain. Cloudy, with a low around 65. Southeast wind 0 to 10 mph. Chance of precipitation is 60%. New rainfall amounts between three quarters and one inch possible."
-  },
+  "ext_weather": null,
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -142,7 +128,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1628374201,
+    "lastchange": 1628385001,
     "message": "Closing time, you don't have to go home, but you can't stay here. See ya next Monday.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
