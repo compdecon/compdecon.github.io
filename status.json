@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/08/08 12:10:01 EDT UTC-04:00",
-    "ext_localtime": "Sun 08 Aug 2021 12:10:01 PM EDT",
+    "ext_time": "2021/08/08 15:10:01 EDT UTC-04:00",
+    "ext_localtime": "Sun 08 Aug 2021 03:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2021-08-08T12:00:00-04:00",
+    "startTime": "2021-08-08T15:00:00-04:00",
     "endTime": "2021-08-08T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 74,
@@ -109,9 +109,9 @@
     "temperatureTrend": null,
     "windSpeed": "10 mph",
     "windDirection": "NE",
-    "icon": "https://api.weather.gov/icons/land/day/rain_showers,50?size=medium",
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,30?size=medium",
     "shortForecast": "Chance Rain Showers",
-    "detailedForecast": "A chance of rain showers. Cloudy, with a high near 74. Northeast wind around 10 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "A chance of rain showers. Cloudy, with a high near 74. Northeast wind around 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1628439001,
+    "lastchange": 1628449801,
     "message": "Closing time, you don't have to go home, but you can't stay here. See ya next Monday.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
