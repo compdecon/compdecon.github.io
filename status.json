@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/08/08 18:10:01 EDT UTC-04:00",
-    "ext_localtime": "Sun 08 Aug 2021 06:10:01 PM EDT",
+    "ext_time": "2021/08/08 21:10:01 EDT UTC-04:00",
+    "ext_localtime": "Sun 08 Aug 2021 09:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2021-08-08T18:00:00-04:00",
+    "startTime": "2021-08-08T21:00:00-04:00",
     "endTime": "2021-08-09T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 67,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "5 mph",
     "windDirection": "N",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,40/fog?size=medium",
-    "shortForecast": "Scattered Rain Showers then Patchy Fog",
-    "detailedForecast": "Scattered rain showers before 10pm, then patchy fog. Cloudy, with a low around 67. North wind 5 to 10 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/fog?size=medium",
+    "shortForecast": "Isolated Rain Showers then Patchy Fog",
+    "detailedForecast": "Isolated rain showers before 10pm, then patchy fog. Mostly cloudy, with a low around 67. North wind around 5 mph. Chance of precipitation is 20%."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1628460601,
+    "lastchange": 1628471401,
     "message": "Closing time, you don't have to go home, but you can't stay here. See ya next Monday.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
