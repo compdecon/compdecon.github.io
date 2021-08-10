@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/08/10 03:10:02 EDT UTC-04:00",
-    "ext_localtime": "Tue 10 Aug 2021 03:10:02 AM EDT",
+    "ext_time": "2021/08/10 06:10:01 EDT UTC-04:00",
+    "ext_localtime": "Tue 10 Aug 2021 06:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,11 +94,25 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": null
+        "value": 86
       }
     ]
   },
-  "ext_weather": null,
+  "ext_weather": {
+    "number": 1,
+    "name": "Today",
+    "startTime": "2021-08-10T06:00:00-04:00",
+    "endTime": "2021-08-10T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 86,
+    "temperatureUnit": "F",
+    "temperatureTrend": null,
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "S",
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,40/tsra_hi,30?size=medium",
+    "shortForecast": "Chance Rain Showers then Chance Showers And Thunderstorms",
+    "detailedForecast": "A chance of rain showers and patchy fog before 4pm, then a chance of showers and thunderstorms. Mostly sunny, with a high near 86. South wind 5 to 10 mph. Chance of precipitation is 40%. New rainfall amounts between a quarter and half of an inch possible."
+  },
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -128,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1628579402,
+    "lastchange": 1628590201,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
