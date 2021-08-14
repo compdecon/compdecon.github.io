@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/08/14 00:10:01 EDT UTC-04:00",
-    "ext_localtime": "Sat 14 Aug 2021 12:10:01 AM EDT",
+    "ext_time": "2021/08/14 03:10:01 EDT UTC-04:00",
+    "ext_localtime": "Sat 14 Aug 2021 03:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2021-08-13T23:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2021-08-14T03:00:00-04:00",
     "endTime": "2021-08-14T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 74,
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1628914201,
+    "lastchange": 1628925001,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
