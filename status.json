@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/08/17 00:10:01 EDT UTC-04:00",
-    "ext_localtime": "Tue 17 Aug 2021 12:10:01 AM EDT",
+    "ext_time": "2021/08/17 03:10:02 EDT UTC-04:00",
+    "ext_localtime": "Tue 17 Aug 2021 03:10:02 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2021-08-17T00:00:00-04:00",
+    "startTime": "2021-08-17T03:00:00-04:00",
     "endTime": "2021-08-17T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 69,
@@ -111,7 +111,7 @@
     "windDirection": "SE",
     "icon": "https://api.weather.gov/icons/land/night/rain_showers,20?size=medium",
     "shortForecast": "Slight Chance Rain Showers",
-    "detailedForecast": "A slight chance of rain showers after 1am. Mostly cloudy, with a low around 69. Southeast wind around 5 mph. Chance of precipitation is 20%."
+    "detailedForecast": "A slight chance of rain showers. Mostly cloudy, with a low around 69. Southeast wind around 5 mph. Chance of precipitation is 20%."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1629173401,
+    "lastchange": 1629184202,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
