@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/08/19 12:10:02 EDT UTC-04:00",
-    "ext_localtime": "Thu 19 Aug 2021 12:10:02 PM EDT",
+    "ext_time": "2021/08/19 15:10:01 EDT UTC-04:00",
+    "ext_localtime": "Thu 19 Aug 2021 03:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2021-08-19T12:00:00-04:00",
+    "startTime": "2021-08-19T15:00:00-04:00",
     "endTime": "2021-08-19T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 89,
@@ -111,7 +111,7 @@
     "windDirection": "W",
     "icon": "https://api.weather.gov/icons/land/day/tsra_sct,20?size=medium",
     "shortForecast": "Slight Chance Showers And Thunderstorms",
-    "detailedForecast": "A slight chance of showers and thunderstorms after 3pm. Partly sunny, with a high near 89. West wind 10 to 15 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "A slight chance of showers and thunderstorms. Partly sunny, with a high near 89. West wind 10 to 15 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1629389402,
+    "lastchange": 1629400201,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
