@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/08/21 18:10:01 EDT UTC-04:00",
-    "ext_localtime": "Sat 21 Aug 2021 06:10:01 PM EDT",
+    "ext_time": "2021/08/21 21:10:01 EDT UTC-04:00",
+    "ext_localtime": "Sat 21 Aug 2021 09:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2021-08-21T18:00:00-04:00",
+    "startTime": "2021-08-21T21:00:00-04:00",
     "endTime": "2021-08-22T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 73,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 to 15 mph",
-    "windDirection": "NE",
-    "icon": "https://api.weather.gov/icons/land/night/tsra,60/tsra,80?size=medium",
-    "shortForecast": "Showers And Thunderstorms Likely then Chance Showers And Thunderstorms",
-    "detailedForecast": "Showers and thunderstorms likely before 9pm, then a chance of showers and thunderstorms between 9pm and 3am, then showers and thunderstorms. Cloudy, with a low around 73. Northeast wind 5 to 15 mph. Chance of precipitation is 80%. New rainfall amounts between 1 and 2 inches possible."
+    "windDirection": "N",
+    "icon": "https://api.weather.gov/icons/land/night/tsra,50/tsra,80?size=medium",
+    "shortForecast": "Chance Showers And Thunderstorms",
+    "detailedForecast": "A chance of showers and thunderstorms before 3am, then showers and thunderstorms. Cloudy, with a low around 73. North wind 5 to 15 mph. Chance of precipitation is 80%. New rainfall amounts between 1 and 2 inches possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1629583801,
+    "lastchange": 1629594601,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
