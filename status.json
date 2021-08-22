@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/08/21 21:10:01 EDT UTC-04:00",
-    "ext_localtime": "Sat 21 Aug 2021 09:10:01 PM EDT",
+    "ext_time": "2021/08/22 00:10:02 EDT UTC-04:00",
+    "ext_localtime": "Sun 22 Aug 2021 12:10:02 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 73
+        "value": 72
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2021-08-21T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2021-08-22T00:00:00-04:00",
     "endTime": "2021-08-22T06:00:00-04:00",
     "isDaytime": false,
-    "temperature": 73,
+    "temperature": 72,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 to 15 mph",
+    "windSpeed": "10 to 15 mph",
     "windDirection": "N",
-    "icon": "https://api.weather.gov/icons/land/night/tsra,50/tsra,80?size=medium",
+    "icon": "https://api.weather.gov/icons/land/night/tsra,80?size=medium",
     "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms before 3am, then showers and thunderstorms. Cloudy, with a low around 73. North wind 5 to 15 mph. Chance of precipitation is 80%. New rainfall amounts between 1 and 2 inches possible."
+    "detailedForecast": "A chance of showers and thunderstorms before 3am, then showers and thunderstorms. Cloudy, with a low around 72. North wind 10 to 15 mph. Chance of precipitation is 80%. New rainfall amounts between 1 and 2 inches possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1629594601,
+    "lastchange": 1629605402,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
