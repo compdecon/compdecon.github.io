@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/08/23 12:10:01 EDT UTC-04:00",
-    "ext_localtime": "Mon 23 Aug 2021 12:10:01 PM EDT",
+    "ext_time": "2021/08/23 15:10:02 EDT UTC-04:00",
+    "ext_localtime": "Mon 23 Aug 2021 03:10:02 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2021-08-23T12:00:00-04:00",
+    "startTime": "2021-08-23T15:00:00-04:00",
     "endTime": "2021-08-23T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 85,
@@ -109,9 +109,9 @@
     "temperatureTrend": null,
     "windSpeed": "10 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/tsra_sct,60?size=medium",
+    "icon": "https://api.weather.gov/icons/land/day/tsra_sct,50?size=medium",
     "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms before 1pm, then a chance of showers and thunderstorms between 1pm and 2pm, then showers and thunderstorms likely between 2pm and 3pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 85. West wind around 10 mph, with gusts as high as 25 mph. Chance of precipitation is 60%. New rainfall amounts between a quarter and half of an inch possible."
+    "detailedForecast": "A chance of showers and thunderstorms. Partly sunny, with a high near 85. West wind around 10 mph, with gusts as high as 25 mph. Chance of precipitation is 50%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1629735001,
+    "lastchange": 1629745802,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
