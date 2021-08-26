@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/08/26 06:10:01 EDT UTC-04:00",
-    "ext_localtime": "Thu 26 Aug 2021 06:10:01 AM EDT",
+    "ext_time": "2021/08/26 09:10:01 EDT UTC-04:00",
+    "ext_localtime": "Thu 26 Aug 2021 09:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,11 +94,25 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": null
+        "value": 91
       }
     ]
   },
-  "ext_weather": null,
+  "ext_weather": {
+    "number": 1,
+    "name": "Today",
+    "startTime": "2021-08-26T09:00:00-04:00",
+    "endTime": "2021-08-26T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 91,
+    "temperatureUnit": "F",
+    "temperatureTrend": null,
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "SW",
+    "icon": "https://api.weather.gov/icons/land/day/few/tsra_hi,20?size=medium",
+    "shortForecast": "Sunny then Slight Chance Showers And Thunderstorms",
+    "detailedForecast": "A slight chance of showers and thunderstorms after 2pm. Sunny, with a high near 91. Southwest wind 5 to 10 mph. Chance of precipitation is 20%."
+  },
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -128,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1629972601,
+    "lastchange": 1629983401,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
