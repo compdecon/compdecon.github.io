@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/08/29 06:10:01 EDT UTC-04:00",
-    "ext_localtime": "Sun 29 Aug 2021 06:10:01 AM EDT",
+    "ext_time": "2021/08/29 09:10:01 EDT UTC-04:00",
+    "ext_localtime": "Sun 29 Aug 2021 09:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2021-08-29T06:00:00-04:00",
+    "startTime": "2021-08-29T09:00:00-04:00",
     "endTime": "2021-08-29T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 78,
@@ -111,7 +111,7 @@
     "windDirection": "E",
     "icon": "https://api.weather.gov/icons/land/day/rain_showers,20/tsra,30?size=medium",
     "shortForecast": "Slight Chance Rain Showers then Chance Showers And Thunderstorms",
-    "detailedForecast": "Patchy fog before 9am, then a slight chance of rain showers between 10am and 2pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 78. East wind around 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "A slight chance of rain showers between 10am and 2pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 78. East wind around 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1630231801,
+    "lastchange": 1630242601,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
