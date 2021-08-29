@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/08/29 00:10:01 EDT UTC-04:00",
-    "ext_localtime": "Sun 29 Aug 2021 12:10:01 AM EDT",
+    "ext_time": "2021/08/29 03:10:01 EDT UTC-04:00",
+    "ext_localtime": "Sun 29 Aug 2021 03:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2021-08-29T00:00:00-04:00",
+    "startTime": "2021-08-29T03:00:00-04:00",
     "endTime": "2021-08-29T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 68,
@@ -109,9 +109,9 @@
     "temperatureTrend": null,
     "windSpeed": "10 mph",
     "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,20?size=medium",
-    "shortForecast": "Slight Chance Rain Showers",
-    "detailedForecast": "A slight chance of rain showers before 1am, then patchy fog. Cloudy, with a low around 68. East wind around 10 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
+    "shortForecast": "Patchy Fog",
+    "detailedForecast": "Patchy fog. Cloudy, with a low around 68. East wind around 10 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1630210201,
+    "lastchange": 1630221001,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
