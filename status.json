@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/08/31 06:10:01 EDT UTC-04:00",
-    "ext_localtime": "Tue 31 Aug 2021 06:10:01 AM EDT",
+    "ext_time": "2021/08/31 09:10:02 EDT UTC-04:00",
+    "ext_localtime": "Tue 31 Aug 2021 09:10:02 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2021-08-31T06:00:00-04:00",
+    "startTime": "2021-08-31T09:00:00-04:00",
     "endTime": "2021-08-31T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 85,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "0 to 5 mph",
+    "windSpeed": "5 mph",
     "windDirection": "NW",
     "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
     "shortForecast": "Partly Sunny",
-    "detailedForecast": "Partly sunny, with a high near 85. Northwest wind 0 to 5 mph."
+    "detailedForecast": "Partly sunny, with a high near 85. Northwest wind around 5 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1630404601,
+    "lastchange": 1630415402,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
