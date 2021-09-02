@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/09/02 00:10:02 EDT UTC-04:00",
-    "ext_localtime": "Thu 02 Sep 2021 12:10:02 AM EDT",
+    "ext_time": "2021/09/02 03:10:02 EDT UTC-04:00",
+    "ext_localtime": "Thu 02 Sep 2021 03:10:02 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2021-09-02T00:00:00-04:00",
+    "startTime": "2021-09-02T03:00:00-04:00",
     "endTime": "2021-09-02T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 64,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "15 mph",
-    "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/night/tsra,90?size=medium",
-    "shortForecast": "Showers And Thunderstorms",
-    "detailedForecast": "Showers and thunderstorms. Cloudy, with a low around 64. Northwest wind around 15 mph, with gusts as high as 30 mph. Chance of precipitation is 90%. New rainfall amounts between 1 and 2 inches possible."
+    "windDirection": "N",
+    "icon": "https://api.weather.gov/icons/land/night/rain_showers,70?size=medium",
+    "shortForecast": "Chance Rain Showers",
+    "detailedForecast": "A chance of rain showers. Cloudy, with a low around 64. North wind around 15 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1630555802,
+    "lastchange": 1630566602,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
