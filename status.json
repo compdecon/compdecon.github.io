@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/09/04 12:10:02 EDT UTC-04:00",
-    "ext_localtime": "Sat 04 Sep 2021 12:10:02 PM EDT",
+    "ext_time": "2021/09/04 15:10:02 EDT UTC-04:00",
+    "ext_localtime": "Sat 04 Sep 2021 03:10:02 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,18 +100,18 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2021-09-04T11:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2021-09-04T15:00:00-04:00",
     "endTime": "2021-09-04T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 76,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 to 10 mph",
-    "windDirection": "W",
+    "windDirection": "SW",
     "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
     "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 76. West wind 5 to 10 mph."
+    "detailedForecast": "Sunny, with a high near 76. Southwest wind 5 to 10 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1630771802,
+    "lastchange": 1630782602,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
