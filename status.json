@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/09/04 09:10:02 EDT UTC-04:00",
-    "ext_localtime": "Sat 04 Sep 2021 09:10:02 AM EDT",
+    "ext_time": "2021/09/04 12:10:02 EDT UTC-04:00",
+    "ext_localtime": "Sat 04 Sep 2021 12:10:02 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 56
+        "value": 76
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2021-09-03T18:00:00-04:00",
-    "endTime": "2021-09-04T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 56,
+    "name": "Today",
+    "startTime": "2021-09-04T11:00:00-04:00",
+    "endTime": "2021-09-04T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 76,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "0 to 10 mph",
-    "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-    "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 56. Northwest wind 0 to 10 mph."
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "W",
+    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+    "shortForecast": "Sunny",
+    "detailedForecast": "Sunny, with a high near 76. West wind 5 to 10 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1630761002,
+    "lastchange": 1630771802,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
