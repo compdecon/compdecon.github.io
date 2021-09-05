@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/09/05 00:10:02 EDT UTC-04:00",
-    "ext_localtime": "Sun 05 Sep 2021 12:10:02 AM EDT",
+    "ext_time": "2021/09/05 03:10:01 EDT UTC-04:00",
+    "ext_localtime": "Sun 05 Sep 2021 03:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2021-09-05T00:00:00-04:00",
+    "name": "Tonight",
+    "startTime": "2021-09-04T18:00:00-04:00",
     "endTime": "2021-09-05T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 62,
@@ -109,9 +109,9 @@
     "temperatureTrend": null,
     "windSpeed": "5 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
-    "shortForecast": "Patchy Fog",
-    "detailedForecast": "Patchy fog after 2am. Mostly cloudy, with a low around 62. Southwest wind around 5 mph."
+    "icon": "https://api.weather.gov/icons/land/night/sct/fog?size=medium",
+    "shortForecast": "Partly Cloudy then Patchy Fog",
+    "detailedForecast": "Patchy fog after 2am. Partly cloudy, with a low around 62. Southwest wind around 5 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1630815002,
+    "lastchange": 1630825801,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
