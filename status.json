@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/09/07 18:10:01 EDT UTC-04:00",
-    "ext_localtime": "Tue 07 Sep 2021 06:10:01 PM EDT",
+    "ext_time": "2021/09/08 00:10:01 EDT UTC-04:00",
+    "ext_localtime": "Wed 08 Sep 2021 12:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2021-09-04T18:00:00-04:00",
+    "startTime": "2021-09-04T21:00:00-04:00",
     "endTime": "2021-09-05T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 62,
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1631052601,
+    "lastchange": 1631074201,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
