@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/09/09 00:10:02 EDT UTC-04:00",
-    "ext_localtime": "Thu 09 Sep 2021 12:10:02 AM EDT",
+    "ext_time": "2021/09/09 12:10:01 EDT UTC-04:00",
+    "ext_localtime": "Thu 09 Sep 2021 12:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 79
+        "value": 61
       }
     ]
   },
   "ext_weather": {
-    "number": 10,
-    "name": "Thursday",
-    "startTime": "2021-09-09T06:00:00-04:00",
-    "endTime": "2021-09-09T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 79,
+    "number": 11,
+    "name": "Thursday Night",
+    "startTime": "2021-09-09T18:00:00-04:00",
+    "endTime": "2021-09-10T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 61,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "5 mph",
     "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/day/rain_showers,30/rain_showers?size=medium",
-    "shortForecast": "Chance Rain Showers",
-    "detailedForecast": "A chance of rain showers. Mostly sunny, with a high near 79. Chance of precipitation is 30%."
+    "icon": "https://api.weather.gov/icons/land/night/rain_showers/few?size=medium",
+    "shortForecast": "Slight Chance Rain Showers then Mostly Clear",
+    "detailedForecast": "A slight chance of rain showers before 8pm. Mostly clear, with a low around 61."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1631160602,
+    "lastchange": 1631203801,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
