@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/09/08 16:35:05 EDT UTC-04:00",
-    "ext_localtime": "Wed 08 Sep 2021 04:35:05 PM EDT",
+    "ext_time": "2021/09/08 21:10:01 EDT UTC-04:00",
+    "ext_localtime": "Wed 08 Sep 2021 09:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 65
+        "value": 67
       }
     ]
   },
   "ext_weather": {
-    "number": 9,
+    "number": 3,
     "name": "Wednesday Night",
     "startTime": "2021-09-08T18:00:00-04:00",
     "endTime": "2021-09-09T06:00:00-04:00",
     "isDaytime": false,
-    "temperature": 65,
+    "temperature": 67,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "5 to 15 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/night/tsra_hi,50?size=medium",
-    "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms. Mostly cloudy, with a low around 65. Chance of precipitation is 50%."
+    "icon": "https://api.weather.gov/icons/land/night/tsra_sct,50/tsra_sct,70?size=medium",
+    "shortForecast": "Showers And Thunderstorms Likely",
+    "detailedForecast": "Showers and thunderstorms likely before 2am, then showers and thunderstorms likely. Mostly cloudy, with a low around 67. Southwest wind 5 to 15 mph, with gusts as high as 30 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1631133305,
+    "lastchange": 1631149801,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
