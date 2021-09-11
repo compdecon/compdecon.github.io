@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/09/10 18:10:01 EDT UTC-04:00",
-    "ext_localtime": "Fri 10 Sep 2021 06:10:01 PM EDT",
+    "ext_time": "2021/09/10 21:10:02 EDT UTC-04:00",
+    "ext_localtime": "Fri 10 Sep 2021 09:10:02 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2021-09-10T18:00:00-04:00",
+    "startTime": "2021-09-10T21:00:00-04:00",
     "endTime": "2021-09-11T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 54,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "0 to 10 mph",
+    "windSpeed": "0 to 5 mph",
     "windDirection": "NW",
     "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
     "shortForecast": "Clear",
-    "detailedForecast": "Clear, with a low around 54. Northwest wind 0 to 10 mph."
+    "detailedForecast": "Clear, with a low around 54. Northwest wind 0 to 5 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1631311801,
+    "lastchange": 1631322602,
     "message": "Sorry we are closed for the day.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
