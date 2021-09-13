@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/09/13 19:46:24 EDT UTC-04:00",
-    "ext_localtime": "Mon 13 Sep 2021 07:46:24 PM EDT",
+    "ext_time": "2021/09/13 19:51:56 EDT UTC-04:00",
+    "ext_localtime": "Mon 13 Sep 2021 07:51:56 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -142,8 +142,8 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1631576784,
-    "message": "CDL is open for business and our Podcast is on the air</br>Visit us on <a href='https://www.facebook.com/groups/compdecon/'>CompDecon</a> on Facebook.",
+    "lastchange": 1631577116,
+    "message": "CDL is open for business and our Podcast is on the air</br>Visit us on <a target='_blank' title='Opens in a new tab' href='https://www.facebook.com/groups/compdecon/'>CompDecon</a> on Facebook.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
       "closed": "https://compdecon.github.io/images/closed.png"
