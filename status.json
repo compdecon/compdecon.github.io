@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/09/13 19:51:56 EDT UTC-04:00",
-    "ext_localtime": "Mon 13 Sep 2021 07:51:56 PM EDT",
+    "ext_time": "2021/09/13 21:10:01 EDT UTC-04:00",
+    "ext_localtime": "Mon 13 Sep 2021 09:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2021-09-13T18:00:00-04:00",
+    "startTime": "2021-09-13T21:00:00-04:00",
     "endTime": "2021-09-14T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 68,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 mph",
+    "windSpeed": "0 to 5 mph",
     "windDirection": "N",
-    "icon": "https://api.weather.gov/icons/land/night/tsra_sct,20/tsra_sct,30?size=medium",
-    "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms after 11pm. Mostly cloudy, with a low around 68. North wind around 5 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/bkn/tsra_sct,20?size=medium",
+    "shortForecast": "Mostly Cloudy then Slight Chance Showers And Thunderstorms",
+    "detailedForecast": "A slight chance of showers and thunderstorms after 1am. Mostly cloudy, with a low around 68. North wind 0 to 5 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1631577116,
+    "lastchange": 1631581801,
     "message": "CDL is open for business and our Podcast is on the air</br>Visit us on <a target='_blank' title='Opens in a new tab' href='https://www.facebook.com/groups/compdecon/'>CompDecon</a> on Facebook.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
