@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/09/15 00:10:02 EDT UTC-04:00",
-    "ext_localtime": "Wed 15 Sep 2021 12:10:02 AM EDT",
+    "ext_time": "2021/09/15 03:10:01 EDT UTC-04:00",
+    "ext_localtime": "Wed 15 Sep 2021 03:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2021-09-15T00:00:00-04:00",
+    "startTime": "2021-09-15T03:00:00-04:00",
     "endTime": "2021-09-15T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 69,
@@ -111,7 +111,7 @@
     "windDirection": "S",
     "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
     "shortForecast": "Patchy Fog",
-    "detailedForecast": "Patchy fog after 2am. Mostly cloudy, with a low around 69. South wind around 5 mph."
+    "detailedForecast": "Patchy fog. Mostly cloudy, with a low around 69. South wind around 5 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1631679002,
+    "lastchange": 1631689801,
     "message": "<p>Sorry we're closed for the day but check us out on <a target='_blank' title='Opens in a new tab' href='https://www.facebook.com/groups/compdecon/'>Facebook</a></p>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
