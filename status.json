@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/09/14 18:10:02 EDT UTC-04:00",
-    "ext_localtime": "Tue 14 Sep 2021 06:10:02 PM EDT",
+    "ext_time": "2021/09/14 21:10:01 EDT UTC-04:00",
+    "ext_localtime": "Tue 14 Sep 2021 09:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 70
+        "value": 69
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2021-09-14T18:00:00-04:00",
+    "startTime": "2021-09-14T21:00:00-04:00",
     "endTime": "2021-09-15T06:00:00-04:00",
     "isDaytime": false,
-    "temperature": 70,
+    "temperature": 69,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "10 to 15 mph",
+    "windSpeed": "5 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-    "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a low around 70. South wind 10 to 15 mph."
+    "icon": "https://api.weather.gov/icons/land/night/bkn/fog?size=medium",
+    "shortForecast": "Mostly Cloudy then Patchy Fog",
+    "detailedForecast": "Patchy fog after 2am. Mostly cloudy, with a low around 69. South wind around 5 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1631657402,
+    "lastchange": 1631668201,
     "message": "<p>Sorry we're closed for the day but check us out on <a target='_blank' title='Opens in a new tab' href='https://www.facebook.com/groups/compdecon/'>Facebook</a></p>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
