@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/09/15 21:10:02 EDT UTC-04:00",
-    "ext_localtime": "Wed 15 Sep 2021 09:10:02 PM EDT",
+    "ext_time": "2021/09/16 00:10:02 EDT UTC-04:00",
+    "ext_localtime": "Thu 16 Sep 2021 12:10:02 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 86
+        "value": 70
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2021-09-15T12:00:00-04:00",
-    "endTime": "2021-09-15T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 86,
+    "name": "Overnight",
+    "startTime": "2021-09-16T00:00:00-04:00",
+    "endTime": "2021-09-16T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 70,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "15 mph",
-    "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 86. South wind around 15 mph."
+    "windSpeed": "0 to 5 mph",
+    "windDirection": "NW",
+    "icon": "https://api.weather.gov/icons/land/night/tsra,50?size=medium",
+    "shortForecast": "Chance Showers And Thunderstorms",
+    "detailedForecast": "A chance of showers and thunderstorms before 2am, then a chance of showers and thunderstorms between 2am and 4am, then patchy fog and a chance of showers and thunderstorms. Mostly cloudy, with a low around 70. Northwest wind 0 to 5 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1631754602,
+    "lastchange": 1631765402,
     "message": "<p>Sorry we're closed for the day but check us out on <a target='_blank' title='Opens in a new tab' href='https://www.facebook.com/groups/compdecon/'>Facebook</a></p>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
