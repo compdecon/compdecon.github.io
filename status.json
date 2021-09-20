@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/09/20 12:10:02 EDT UTC-04:00",
-    "ext_localtime": "Mon 20 Sep 2021 12:10:02 PM EDT",
+    "ext_time": "2021/09/20 15:10:01 EDT UTC-04:00",
+    "ext_localtime": "Mon 20 Sep 2021 03:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2021-09-20T12:00:00-04:00",
+    "startTime": "2021-09-20T15:00:00-04:00",
     "endTime": "2021-09-20T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 72,
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1632154202,
+    "lastchange": 1632165001,
     "message": "Sorry we're currently closed but we will open at 7PM tonight. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
