@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/09/19 18:10:01 EDT UTC-04:00",
-    "ext_localtime": "Sun 19 Sep 2021 06:10:01 PM EDT",
+    "ext_time": "2021/09/19 21:10:02 EDT UTC-04:00",
+    "ext_localtime": "Sun 19 Sep 2021 09:10:02 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 61
+        "value": 86
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2021-09-19T18:00:00-04:00",
-    "endTime": "2021-09-20T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 61,
+    "name": "This Afternoon",
+    "startTime": "2021-09-15T12:00:00-04:00",
+    "endTime": "2021-09-15T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 86,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 mph",
-    "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-    "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 61. East wind around 5 mph."
+    "windSpeed": "15 mph",
+    "windDirection": "S",
+    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny, with a high near 86. South wind around 15 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1632089401,
+    "lastchange": 1632100202,
     "message": "<p>Sorry we're closed for the day but check us out on <a target='_blank' title='Opens in a new tab' href='https://www.facebook.com/groups/compdecon/'>Facebook</a></p>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
