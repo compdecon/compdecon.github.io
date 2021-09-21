@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/09/21 12:48:53 EDT UTC-04:00",
-    "ext_localtime": "Tue 21 Sep 2021 12:48:53 PM EDT",
+    "ext_time": "2021/09/21 15:10:01 EDT UTC-04:00",
+    "ext_localtime": "Tue 21 Sep 2021 03:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,25 +94,11 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 75
+        "value": null
       }
     ]
   },
-  "ext_weather": {
-    "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2021-09-21T12:00:00-04:00",
-    "endTime": "2021-09-21T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 75,
-    "temperatureUnit": "F",
-    "temperatureTrend": null,
-    "windSpeed": "10 mph",
-    "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/day/rain_showers,20?size=medium",
-    "shortForecast": "Slight Chance Rain Showers",
-    "detailedForecast": "A slight chance of rain showers after 2pm. Partly sunny, with a high near 75. Southeast wind around 10 mph. Chance of precipitation is 20%."
-  },
+  "ext_weather": null,
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -142,7 +128,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1632242933,
+    "lastchange": 1632251401,
     "message": "Sorry we're closed but we will be open at 7PM next Monday. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
