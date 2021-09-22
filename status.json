@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/09/22 09:10:01 EDT UTC-04:00",
-    "ext_localtime": "Wed 22 Sep 2021 09:10:01 AM EDT",
+    "ext_time": "2021/09/22 13:10:02 EDT UTC-04:00",
+    "ext_localtime": "Wed 22 Sep 2021 01:10:02 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -102,7 +102,7 @@
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
-    "meetup": "",
+    "meetup": "https://www.meetup.com/compdecon/events/280930740",
     "irc": "",
     "ml": "cdl@groups.io",
     "identica": "",
@@ -128,7 +128,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1632316201,
+    "lastchange": 1632330602,
     "message": "Sorry we're closed but we will be open at 7PM next Monday. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
