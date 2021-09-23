@@ -1,10 +1,13 @@
 #!/bin/bash
 
-jsonVersion="0.0.2"
+# https://spaceapi.io/
+# https://directory.spaceapi.io/
+jsonVersion="0.0.3"
 FILE=status.json
 TOPIC="cdl/status"
 MQTTHOST=localhost.uucp
 MQTTPORT=1883
+# Lat, Lon
 #LAT="40.18649730878143"
 #LON="-74.06016247354387"
 # 40.18652189759892, -74.06013028703497
@@ -193,7 +196,7 @@ JSON="{
   \"contact\": {
     \"email\": \"info@compdecon.org\",
     \"phone\": \"+1-732-456-5001\",
-    \"meetup\": \"\",
+    \"meetup\": \"https://www.meetup.com/compdecon/events/280930740\",
     \"irc\": \"\",
     \"ml\": \"cdl@groups.io\",
     \"identica\": \"\",
@@ -261,7 +264,7 @@ egrep -v 'lastchange|timezone|localtime|ext_time' ${FILE} | jq '.' > /tmp/${FILE
 ###
 ### Create a new status.json
 ###
-echo ${JSON} | jq '.' > status.json
+echo "${JSON}" | jq '.' > status.json
 egrep -v 'lastchange|timezone|localtime|ext_time' ${FILE} | jq '.' > /tmp/t-${FILE}
 
 ###
