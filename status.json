@@ -3,7 +3,7 @@
     "14"
   ],
   "api": "0.13",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "comment": "API is a work in progress",
   "space": "CDL - Computer Deconstruction Lab",
   "logo": "https://compdecon.github.io/images/CDL-Logo-black.png",
@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/09/22 21:10:01 EDT UTC-04:00",
-    "ext_localtime": "Wed 22 Sep 2021 09:10:01 PM EDT",
+    "ext_time": "2021/09/23 00:10:01 EDT UTC-04:00",
+    "ext_localtime": "Thu 23 Sep 2021 12:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2021-09-22T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2021-09-23T00:00:00-04:00",
     "endTime": "2021-09-23T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 70,
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1632359401,
+    "lastchange": 1632370201,
     "message": "Sorry we're closed but we will be open at 7PM next Monday. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
