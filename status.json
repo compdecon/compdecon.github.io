@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/09/25 03:10:01 EDT UTC-04:00",
-    "ext_localtime": "Sat 25 Sep 2021 03:10:01 AM EDT",
+    "ext_time": "2021/09/25 06:10:02 EDT UTC-04:00",
+    "ext_localtime": "Sat 25 Sep 2021 06:10:02 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 54
+        "value": 74
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2021-09-25T03:00:00-04:00",
-    "endTime": "2021-09-25T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 54,
+    "name": "Today",
+    "startTime": "2021-09-25T06:00:00-04:00",
+    "endTime": "2021-09-25T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 74,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 mph",
-    "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-    "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 54. Northwest wind around 5 mph."
+    "windDirection": "NE",
+    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+    "shortForecast": "Sunny",
+    "detailedForecast": "Sunny, with a high near 74. Northeast wind around 5 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1632553801,
+    "lastchange": 1632564602,
     "message": "Sorry we're closed but we will be open at 7PM next Monday. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
