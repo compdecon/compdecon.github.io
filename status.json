@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/09/26 09:10:02 EDT UTC-04:00",
-    "ext_localtime": "Sun 26 Sep 2021 09:10:02 AM EDT",
+    "ext_time": "2021/09/26 12:10:01 EDT UTC-04:00",
+    "ext_localtime": "Sun 26 Sep 2021 12:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,11 +94,25 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": null
+        "value": 74
       }
     ]
   },
-  "ext_weather": null,
+  "ext_weather": {
+    "number": 1,
+    "name": "Today",
+    "startTime": "2021-09-26T10:00:00-04:00",
+    "endTime": "2021-09-26T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 74,
+    "temperatureUnit": "F",
+    "temperatureTrend": null,
+    "windSpeed": "15 mph",
+    "windDirection": "NW",
+    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+    "shortForecast": "Sunny",
+    "detailedForecast": "Sunny, with a high near 74. Northwest wind around 15 mph."
+  },
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -128,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1632661802,
+    "lastchange": 1632672601,
     "message": "Sorry we're closed but we will be open at 7PM next Monday. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
