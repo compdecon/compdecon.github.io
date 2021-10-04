@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/10/04 09:26:13 EDT UTC-04:00",
-    "ext_localtime": "Mon 04 Oct 2021 09:26:13 AM EDT",
+    "ext_time": "2021/10/04 12:10:01 EDT UTC-04:00",
+    "ext_localtime": "Mon 04 Oct 2021 12:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,18 +100,18 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2021-10-04T09:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2021-10-04T12:00:00-04:00",
     "endTime": "2021-10-04T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 76,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 mph",
-    "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/day/tsra,40/tsra,60?size=medium",
+    "windDirection": "SE",
+    "icon": "https://api.weather.gov/icons/land/day/tsra,60?size=medium",
     "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of rain showers before 11am, then a chance of showers and thunderstorms between 11am and 4pm, then showers and thunderstorms likely. Mostly cloudy, with a high near 76. South wind around 5 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "A chance of showers and thunderstorms before 4pm, then showers and thunderstorms likely. Mostly cloudy, with a high near 76. Southeast wind around 5 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1633353973,
+    "lastchange": 1633363801,
     "message": "Sorry we're current closed but we will be open at 7PM tonight. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
