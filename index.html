@@ -128,7 +128,7 @@
       */
       if(lastUpdate != weather.startTime) {
           lastUpdate = weather.startTime;
-          document.getElementById("weatherDiv").innerHTML = '<table><tr><td><img src="' + weather.icon + '" alt=""></td><td>' + weather.detailedForecast + '(' + weather.startTime + ')' + '</td></tr></table>';
+          document.getElementById("weatherDiv").innerHTML = '<table><tr><td><img src="' + weather.icon + '" alt=""></td><td style="font-size: 120%">' + weather.detailedForecast + '(' + weather.startTime + ')' + '</td></tr></table>';
       } 
   }
    
@@ -152,19 +152,21 @@
 <body class="myBody">
 <div id="page" class="hfeed site">
   <table class="myBannerT">
-    <tr><td>
-      <a href="https://compdecon.org/" title="CDL - Computer Deconstruction Lab" target="_blank">
-        <img src="./images/CDL-Logo-green.png" title="Computer Deconstruction Laboratory - The Jersey Shore Makerspace"
-             alt="Computer Deconstruction Laboratory - The Jersey Shore Makerspace"/>
-      </a>
-    </td>
-    <td>
-      <!-- h1>CDL - Computer Deconstruction Lab Podcast studio and Makerspace</h1 -->
-      <h1>Computer Deconstruction Laboratory - The Jersey Shore Makerspace</h1>
-    </td>
-    <td class="middle">
-      <img id="sign" src="./images/Closed-sign.png" title="Closed for the day" alt="Closed for the day"/>
-    </td></tr>
+    <tr>
+      <td>
+        <a href="https://compdecon.org/" title="CDL - Computer Deconstruction Lab" target="_blank">
+          <img src="./images/CDL-Logo-green.png" title="Computer Deconstruction Laboratory - The Jersey Shore Makerspace"
+               alt="Computer Deconstruction Laboratory - The Jersey Shore Makerspace"/>
+        </a>
+      </td>
+      <td>
+        <!-- h1>CDL - Computer Deconstruction Lab Podcast studio and Makerspace</h1 -->
+        <h1>Computer Deconstruction Laboratory - The Jersey Shore Makerspace</h1>
+      </td>
+      <td class="middle">
+        <img id="sign" src="./images/Closed-sign.png" title="Closed for the day" alt="Closed for the day"/>
+      </td>
+    </tr>
   </table>
 
   <h1 id="lastUpdateOn">UPDATE</h1>
@@ -209,6 +211,22 @@
              width="1000" height="667"  title="Picture of CDL/IXR Lab, larger image opens in a new tab" class="center">
       </a>
     </p>
+
+    <p> Our <abbr title="Computer Deconstruction Lab">CDL</abbr>
+    boasts a lab space with various equipment and despite being a bit
+    disorganized contains a great many tools and equipment for working
+    on electronic projects. At the moment we have 6 3D printers and
+    lots of tools.
+    </p>
+
+    <p>
+      <a href="https://compdecon.org/studio/" target="_blank">
+        <img loading="lazy" src="./images/studio_04_19_2021.jpg" alt="Picture of the CDL Podcast Studio"
+             width="1000" height="667"  title="Picture of CDL/IXR Podcast Studio" class="center">
+      </a>
+    </p>
+
+    <p>The CDL Podcast Studio. A complete poddcast studio. We have upgrade various equipment but I don't have pictures yet. Someday I hope to have a makerspace podcast running.</p>
 
     <p>&nbsp;</p>
 
