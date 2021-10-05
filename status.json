@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/10/05 09:10:02 EDT UTC-04:00",
-    "ext_localtime": "Tue 05 Oct 2021 09:10:02 AM EDT",
+    "ext_time": "2021/10/05 12:10:01 EDT UTC-04:00",
+    "ext_localtime": "Tue 05 Oct 2021 12:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,25 +94,11 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 68
+        "value": null
       }
     ]
   },
-  "ext_weather": {
-    "number": 1,
-    "name": "Today",
-    "startTime": "2021-10-05T09:00:00-04:00",
-    "endTime": "2021-10-05T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 68,
-    "temperatureUnit": "F",
-    "temperatureTrend": null,
-    "windSpeed": "10 mph",
-    "windDirection": "NE",
-    "icon": "https://api.weather.gov/icons/land/day/rain,30/rain,20?size=medium",
-    "shortForecast": "Chance Light Rain then Patchy Fog",
-    "detailedForecast": "A chance of rain and patchy fog before 10am, then patchy fog and a slight chance of rain. Cloudy, with a high near 68. Northeast wind around 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
-  },
+  "ext_weather": null,
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -142,7 +128,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1633439402,
+    "lastchange": 1633450201,
     "message": "We're open for business! :-) Until 10PM tonight.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
