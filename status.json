@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/10/04 18:39:01 EDT UTC-04:00",
-    "ext_localtime": "Mon 04 Oct 2021 06:39:01 PM EDT",
+    "ext_time": "2021/10/04 21:10:01 EDT UTC-04:00",
+    "ext_localtime": "Mon 04 Oct 2021 09:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,11 +94,25 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": null
+        "value": 63
       }
     ]
   },
-  "ext_weather": null,
+  "ext_weather": {
+    "number": 1,
+    "name": "Tonight",
+    "startTime": "2021-10-04T21:00:00-04:00",
+    "endTime": "2021-10-05T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 63,
+    "temperatureUnit": "F",
+    "temperatureTrend": null,
+    "windSpeed": "0 to 5 mph",
+    "windDirection": "N",
+    "icon": "https://api.weather.gov/icons/land/night/tsra,50/tsra,60?size=medium",
+    "shortForecast": "Showers And Thunderstorms Likely",
+    "detailedForecast": "Showers and thunderstorms likely. Mostly cloudy, with a low around 63. North wind 0 to 5 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
+  },
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -128,7 +142,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1633387141,
+    "lastchange": 1633396201,
     "message": "We're open for business! :-) Until 10PM tonight.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
