@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/10/05 19:38:30 EDT UTC-04:00",
-    "ext_localtime": "Tue 05 Oct 2021 07:38:30 PM EDT",
+    "ext_time": "2021/10/06 00:10:01 EDT UTC-04:00",
+    "ext_localtime": "Wed 06 Oct 2021 12:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,25 +94,11 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 60
+        "value": null
       }
     ]
   },
-  "ext_weather": {
-    "number": 1,
-    "name": "Tonight",
-    "startTime": "2021-10-05T19:00:00-04:00",
-    "endTime": "2021-10-06T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 60,
-    "temperatureUnit": "F",
-    "temperatureTrend": null,
-    "windSpeed": "5 mph",
-    "windDirection": "NE",
-    "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
-    "shortForecast": "Patchy Drizzle",
-    "detailedForecast": "Patchy drizzle and patchy fog after 8pm. Cloudy, with a low around 60. Northeast wind around 5 mph. New rainfall amounts less than a tenth of an inch possible."
-  },
+  "ext_weather": null,
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -142,7 +128,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1633477110,
+    "lastchange": 1633493401,
     "message": "Sorry we're closed but we will be open at 7PM next Monday. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
