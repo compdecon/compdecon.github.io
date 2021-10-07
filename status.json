@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/10/07 09:10:01 EDT UTC-04:00",
-    "ext_localtime": "Thu 07 Oct 2021 09:10:01 AM EDT",
+    "ext_time": "2021/10/07 12:10:02 EDT UTC-04:00",
+    "ext_localtime": "Thu 07 Oct 2021 12:10:02 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,18 +100,18 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2021-10-07T09:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2021-10-07T12:00:00-04:00",
     "endTime": "2021-10-07T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 72,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "0 to 5 mph",
+    "windSpeed": "5 mph",
     "windDirection": "E",
     "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
     "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 72. East wind 0 to 5 mph."
+    "detailedForecast": "Mostly sunny, with a high near 72. East wind around 5 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1633612201,
+    "lastchange": 1633623002,
     "message": "Sorry we're current closed but we will be open this Saturday and Sunday as part of <a href=https://vcfed.org/wp/festivals/vintage-computer-festival-east/>VCF East 2021</a>. CDL will host a \"Learn to Solder\" table. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
