@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/10/10 07:14:29 EDT UTC-04:00",
-    "ext_localtime": "Sun 10 Oct 2021 07:14:29 AM EDT",
+    "ext_time": "2021/10/10 09:10:02 EDT UTC-04:00",
+    "ext_localtime": "Sun 10 Oct 2021 09:10:02 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 61
+        "value": 68
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2021-10-08T18:00:00-04:00",
-    "endTime": "2021-10-09T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 61,
+    "name": "Today",
+    "startTime": "2021-10-10T09:00:00-04:00",
+    "endTime": "2021-10-10T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 68,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 to 15 mph",
-    "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-    "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a low around 61. East wind 5 to 15 mph."
+    "windSpeed": "15 mph",
+    "windDirection": "NE",
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,60/rain_showers,70?size=medium",
+    "shortForecast": "Rain Showers Likely",
+    "detailedForecast": "Rain showers likely. Cloudy, with a high near 68. Northeast wind around 15 mph, with gusts as high as 30 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1633864469,
+    "lastchange": 1633871402,
     "message": "Welcome! We're open for <a href=https://vcfed.org/wp/festivals/vintage-computer-festival-east/>VCF East 2021</a> (Saturday and Sunday). CDL will host a \"Learn to Solder\" table. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
