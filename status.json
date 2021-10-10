@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/10/10 03:10:01 EDT UTC-04:00",
-    "ext_localtime": "Sun 10 Oct 2021 03:10:01 AM EDT",
+    "ext_time": "2021/10/10 07:14:29 EDT UTC-04:00",
+    "ext_localtime": "Sun 10 Oct 2021 07:14:29 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": false
+        "value": true
       },
       {
         "location": "Front door",
-        "value": false
+        "value": true
       }
     ],
     "humidity": [
@@ -141,9 +141,9 @@
     {}
   ],
   "state": {
-    "open": false,
-    "lastchange": 1633849801,
-    "message": "Sorry we're current closed but we will be open this Saturday and Sunday as part of <a href=https://vcfed.org/wp/festivals/vintage-computer-festival-east/>VCF East 2021</a>. CDL will host a \"Learn to Solder\" table. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": true,
+    "lastchange": 1633864469,
+    "message": "Welcome! We're open for <a href=https://vcfed.org/wp/festivals/vintage-computer-festival-east/>VCF East 2021</a> (Saturday and Sunday). CDL will host a \"Learn to Solder\" table. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
       "closed": "https://compdecon.github.io/images/closed.png"
