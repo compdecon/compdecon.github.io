@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/10/10 00:10:01 EDT UTC-04:00",
-    "ext_localtime": "Sun 10 Oct 2021 12:10:01 AM EDT",
+    "ext_time": "2021/10/10 03:10:01 EDT UTC-04:00",
+    "ext_localtime": "Sun 10 Oct 2021 03:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 63
+        "value": 61
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2021-10-10T00:00:00-04:00",
-    "endTime": "2021-10-10T06:00:00-04:00",
+    "name": "Tonight",
+    "startTime": "2021-10-08T18:00:00-04:00",
+    "endTime": "2021-10-09T06:00:00-04:00",
     "isDaytime": false,
-    "temperature": 63,
+    "temperature": 61,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "15 mph",
+    "windSpeed": "5 to 15 mph",
     "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/night/rain,40?size=medium",
-    "shortForecast": "Chance Light Rain",
-    "detailedForecast": "A chance of rain. Cloudy, with a low around 63. East wind around 15 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": "Mostly cloudy, with a low around 61. East wind 5 to 15 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1633839001,
+    "lastchange": 1633849801,
     "message": "Sorry we're current closed but we will be open this Saturday and Sunday as part of <a href=https://vcfed.org/wp/festivals/vintage-computer-festival-east/>VCF East 2021</a>. CDL will host a \"Learn to Solder\" table. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
