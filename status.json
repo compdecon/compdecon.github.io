@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/10/14 09:10:01 EDT UTC-04:00",
-    "ext_localtime": "Thu 14 Oct 2021 09:10:01 AM EDT",
+    "ext_time": "2021/10/14 12:10:01 EDT UTC-04:00",
+    "ext_localtime": "Thu 14 Oct 2021 12:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 76
+        "value": 75
       }
     ]
   },
   "ext_weather": {
-    "number": 1,
-    "name": "Today",
-    "startTime": "2021-10-14T09:00:00-04:00",
+    "number": 12,
+    "name": "Thursday",
+    "startTime": "2021-10-14T06:00:00-04:00",
     "endTime": "2021-10-14T18:00:00-04:00",
     "isDaytime": true,
-    "temperature": 76,
+    "temperature": 75,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 mph",
-    "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/day/fog/sct?size=medium",
-    "shortForecast": "Patchy Fog then Mostly Sunny",
-    "detailedForecast": "Patchy fog before 10am. Mostly sunny, with a high near 76. Northwest wind around 5 mph."
+    "windDirection": "N",
+    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny, with a high near 75."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1634217001,
+    "lastchange": 1634227801,
     "message": "Sorry we're currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
