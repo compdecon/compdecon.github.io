@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/10/19 09:10:01 EDT UTC-04:00",
-    "ext_localtime": "Tue 19 Oct 2021 09:10:01 AM EDT",
+    "ext_time": "2021/10/19 12:10:02 EDT UTC-04:00",
+    "ext_localtime": "Tue 19 Oct 2021 12:10:02 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,18 +100,18 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2021-10-19T09:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2021-10-19T12:00:00-04:00",
     "endTime": "2021-10-19T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 66,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "10 to 15 mph",
+    "windSpeed": "15 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
     "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 66. West wind 10 to 15 mph, with gusts as high as 25 mph."
+    "detailedForecast": "Sunny, with a high near 66. West wind around 15 mph, with gusts as high as 30 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1634649001,
+    "lastchange": 1634659802,
     "message": "Sorry we're currently closed but we will be open at 7PM next Monday. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
