@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/10/20 21:10:01 EDT UTC-04:00",
-    "ext_localtime": "Wed 20 Oct 2021 09:10:01 PM EDT",
+    "ext_time": "2021/10/21 03:10:01 EDT UTC-04:00",
+    "ext_localtime": "Thu 21 Oct 2021 03:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2021-10-20T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2021-10-21T03:00:00-04:00",
     "endTime": "2021-10-21T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 54,
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1634778601,
+    "lastchange": 1634800201,
     "message": "Sorry we're currently closed but we will be open at 7PM next Monday. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
