@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/10/23 06:10:01 EDT UTC-04:00",
-    "ext_localtime": "Sat 23 Oct 2021 06:10:01 AM EDT",
+    "ext_time": "2021/10/23 09:10:01 EDT UTC-04:00",
+    "ext_localtime": "Sat 23 Oct 2021 09:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -99,9 +99,9 @@
     ]
   },
   "ext_weather": {
-    "number": 2,
-    "name": "Saturday",
-    "startTime": "2021-10-23T06:00:00-04:00",
+    "number": 1,
+    "name": "Today",
+    "startTime": "2021-10-23T09:00:00-04:00",
     "endTime": "2021-10-23T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 63,
@@ -109,9 +109,9 @@
     "temperatureTrend": null,
     "windSpeed": "5 mph",
     "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/day/bkn/rain_showers,20?size=medium",
-    "shortForecast": "Partly Sunny then Slight Chance Rain Showers",
-    "detailedForecast": "A slight chance of rain showers after 2pm. Partly sunny, with a high near 63. Northwest wind around 5 mph. Chance of precipitation is 20%."
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,20?size=medium",
+    "shortForecast": "Isolated Rain Showers",
+    "detailedForecast": "Isolated rain showers. Mostly cloudy, with a high near 63. Northwest wind around 5 mph. Chance of precipitation is 20%."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1634983801,
+    "lastchange": 1634994601,
     "message": "Sorry we're currently closed but we will be open at 7PM next Monday. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
