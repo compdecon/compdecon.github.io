@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/10/26 12:10:01 EDT UTC-04:00",
-    "ext_localtime": "Tue 26 Oct 2021 12:10:01 PM EDT",
+    "ext_time": "2021/10/26 18:10:01 EDT UTC-04:00",
+    "ext_localtime": "Tue 26 Oct 2021 06:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 64
+        "value": 53
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2021-10-26T12:00:00-04:00",
-    "endTime": "2021-10-26T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 64,
+    "name": "Tonight",
+    "startTime": "2021-10-26T18:00:00-04:00",
+    "endTime": "2021-10-27T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 53,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "15 mph",
-    "windDirection": "N",
-    "icon": "https://api.weather.gov/icons/land/day/rain,70?size=medium",
-    "shortForecast": "Heavy Rain Likely",
-    "detailedForecast": "Rain likely. Cloudy, with a high near 64. North wind around 15 mph, with gusts as high as 30 mph. Chance of precipitation is 70%. New rainfall amounts between 1 and 2 inches possible."
+    "windSpeed": "10 to 25 mph",
+    "windDirection": "NW",
+    "icon": "https://api.weather.gov/icons/land/night/rain,90/rain,80?size=medium",
+    "shortForecast": "Rain",
+    "detailedForecast": "Rain. Cloudy, with a low around 53. Northwest wind 10 to 25 mph, with gusts as high as 40 mph. Chance of precipitation is 90%. New rainfall amounts between 1 and 2 inches possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1635264601,
+    "lastchange": 1635286201,
     "message": "We will be open from 7 to 9 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
