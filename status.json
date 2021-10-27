@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/10/26 21:10:01 EDT UTC-04:00",
-    "ext_localtime": "Tue 26 Oct 2021 09:10:01 PM EDT",
+    "ext_time": "2021/10/27 03:10:01 EDT UTC-04:00",
+    "ext_localtime": "Wed 27 Oct 2021 03:10:01 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,18 +100,18 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2021-10-26T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2021-10-27T03:00:00-04:00",
     "endTime": "2021-10-27T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 53,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "15 to 25 mph",
+    "windSpeed": "20 to 25 mph",
     "windDirection": "N",
-    "icon": "https://api.weather.gov/icons/land/night/rain,90/rain,80?size=medium",
+    "icon": "https://api.weather.gov/icons/land/night/rain,80?size=medium",
     "shortForecast": "Light Rain",
-    "detailedForecast": "Rain. Cloudy, with a low around 53. North wind 15 to 25 mph, with gusts as high as 45 mph. Chance of precipitation is 90%. New rainfall amounts between three quarters and one inch possible."
+    "detailedForecast": "Rain. Cloudy, with a low around 53. North wind 20 to 25 mph, with gusts as high as 45 mph. Chance of precipitation is 80%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1635297001,
+    "lastchange": 1635318601,
     "message": "We will be open from 7 to 9 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
