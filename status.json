@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/10/29 06:10:01 EDT UTC-04:00",
-    "ext_localtime": "Fri 29 Oct 2021 06:10:01 AM EDT",
+    "ext_time": "2021/10/29 18:10:01 EDT UTC-04:00",
+    "ext_localtime": "Fri 29 Oct 2021 06:10:01 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 62
+        "value": 56
       }
     ]
   },
   "ext_weather": {
-    "number": 4,
-    "name": "Friday",
-    "startTime": "2021-10-29T06:00:00-04:00",
-    "endTime": "2021-10-29T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 62,
+    "number": 1,
+    "name": "Tonight",
+    "startTime": "2021-10-29T18:00:00-04:00",
+    "endTime": "2021-10-30T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 56,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "15 to 25 mph",
-    "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/day/rain_showers,20/rain_showers,60?size=medium",
-    "shortForecast": "Rain Showers Likely",
-    "detailedForecast": "Rain showers likely after 8am. Cloudy, with a high near 62. East wind 15 to 25 mph, with gusts as high as 40 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "windSpeed": "15 to 35 mph",
+    "windDirection": "SE",
+    "icon": "https://api.weather.gov/icons/land/night/rain_showers,90/rain_showers,70?size=medium",
+    "shortForecast": "Rain Showers",
+    "detailedForecast": "Rain showers. Cloudy, with a low around 56. Southeast wind 15 to 35 mph, with gusts as high as 55 mph. Chance of precipitation is 90%. New rainfall amounts between a half and three quarters of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1635502201,
+    "lastchange": 1635545401,
     "message": "Sorry we're currently closed but we will be open at 7PM next Monday. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
