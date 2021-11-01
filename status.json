@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/11/01 12:12:13 EDT UTC-04:00",
-    "ext_localtime": "Mon 01 Nov 2021 12:12:13 PM EDT",
+    "ext_time": "2021/11/01 12:15:34 EDT UTC-04:00",
+    "ext_localtime": "Mon 01 Nov 2021 12:15:34 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -142,8 +142,8 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1635783133,
-    "message": "We will be open from 7 to 10 PM tomorrow night %28Monday%29. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "lastchange": 1635783334,
+    "message": "We will be open from 7 to 10 PM tomorrow night &#40;Monday&#41;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
       "closed": "https://compdecon.github.io/images/closed.png"
