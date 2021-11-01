@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/10/31 18:10:02 EDT UTC-04:00",
-    "ext_localtime": "Sun 31 Oct 2021 06:10:02 PM EDT",
+    "ext_time": "2021/10/31 21:10:02 EDT UTC-04:00",
+    "ext_localtime": "Sun 31 Oct 2021 09:10:02 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -99,19 +99,19 @@
     ]
   },
   "ext_weather": {
-    "number": 3,
-    "name": "Sunday Night",
-    "startTime": "2021-10-31T18:00:00-04:00",
+    "number": 1,
+    "name": "Tonight",
+    "startTime": "2021-10-31T21:00:00-04:00",
     "endTime": "2021-11-01T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 48,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 to 15 mph",
+    "windSpeed": "10 mph",
     "windDirection": "W",
     "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
     "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 48. West wind 5 to 15 mph."
+    "detailedForecast": "Mostly clear, with a low around 48. West wind around 10 mph. New rainfall amounts less than a tenth of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1635718202,
+    "lastchange": 1635729002,
     "message": "We will be open from 7 to 10 PM tomorrow night (Monday). Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
