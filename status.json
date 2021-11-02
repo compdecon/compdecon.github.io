@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/11/01 20:52:41 EDT UTC-04:00",
-    "ext_localtime": "Mon 01 Nov 2021 08:52:41 PM EDT",
+    "ext_time": "2021/11/01 20:52:49 EDT UTC-04:00",
+    "ext_localtime": "Mon 01 Nov 2021 08:52:49 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": false
+        "value": true
       },
       {
         "location": "Front door",
-        "value": false
+        "value": true
       }
     ],
     "humidity": [
@@ -141,8 +141,8 @@
     {}
   ],
   "state": {
-    "open": false,
-    "lastchange": 1635814361,
+    "open": true,
+    "lastchange": 1635814369,
     "message": "We are currently open and will be here from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
