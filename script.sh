@@ -264,7 +264,13 @@ egrep -v 'lastchange|timezone|localtime|ext_time' ${FILE} | jq '.' > /tmp/${FILE
 ###
 ### Create a new status.json
 ###
+#echo "${JSON}" > t-status.json
 echo "${JSON}" | jq '.' > status.json
+if [ ${PIPESTATUS[1]} != 0 ]; then
+    echo -e "\n###\n### Bad json, bad, go to your room"'!'"\n###\n### compdecon.github.io not updated\n###"
+    exit 1
+fi
+
 egrep -v 'lastchange|timezone|localtime|ext_time' ${FILE} | jq '.' > /tmp/t-${FILE}
 
 ###
