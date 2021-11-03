@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/11/02 21:10:01 EDT UTC-04:00",
-    "ext_localtime": "Tue 02 Nov 2021 09:10:01 PM EDT",
+    "ext_time": "2021/11/03 00:10:02 EDT UTC-04:00",
+    "ext_localtime": "Wed 03 Nov 2021 12:10:02 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 38
+        "value": 55
       }
     ]
   },
   "ext_weather": {
-    "number": 1,
-    "name": "Tonight",
-    "startTime": "2021-11-02T21:00:00-04:00",
-    "endTime": "2021-11-03T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 38,
+    "number": 8,
+    "name": "Wednesday",
+    "startTime": "2021-11-03T06:00:00-04:00",
+    "endTime": "2021-11-03T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 55,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "0 to 5 mph",
-    "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/night/rain,30/sct?size=medium",
-    "shortForecast": "Chance Very Light Rain then Partly Cloudy",
-    "detailedForecast": "A chance of rain before 11pm. Partly cloudy, with a low around 38. West wind 0 to 5 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "NW",
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers/sct?size=medium",
+    "shortForecast": "Slight Chance Rain Showers then Mostly Sunny",
+    "detailedForecast": "A slight chance of rain showers before 8am. Mostly sunny, with a high near 55."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1635901801,
+    "lastchange": 1635912602,
     "message": "Sorry we're currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
