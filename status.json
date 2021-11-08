@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/11/07 15:10:01 EST UTC-05:00",
-    "ext_localtime": "Sun 07 Nov 2021 03:10:01 PM EST",
+    "ext_time": "2021/11/07 21:10:01 EST UTC-05:00",
+    "ext_localtime": "Sun 07 Nov 2021 09:10:01 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 54
+        "value": 39
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2021-11-07T15:00:00-05:00",
-    "endTime": "2021-11-07T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 54,
+    "name": "Tonight",
+    "startTime": "2021-11-07T21:00:00-05:00",
+    "endTime": "2021-11-08T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 39,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 mph",
     "windDirection": "N",
-    "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-    "shortForecast": "Partly Sunny",
-    "detailedForecast": "Partly sunny, with a high near 54. North wind around 5 mph."
+    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+    "shortForecast": "Partly Cloudy",
+    "detailedForecast": "Partly cloudy, with a low around 39. North wind around 5 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1636315801,
+    "lastchange": 1636337401,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
