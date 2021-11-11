@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/11/11 09:10:02 EST UTC-05:00",
-    "ext_localtime": "Thu 11 Nov 2021 09:10:02 AM EST",
+    "ext_time": "2021/11/11 15:10:02 EST UTC-05:00",
+    "ext_localtime": "Thu 11 Nov 2021 03:10:02 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 61
+        "value": 63
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Veterans Day",
-    "startTime": "2021-11-11T09:00:00-05:00",
+    "startTime": "2021-11-11T15:00:00-05:00",
     "endTime": "2021-11-11T18:00:00-05:00",
     "isDaytime": true,
-    "temperature": 61,
+    "temperature": 63,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 to 10 mph",
-    "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 61. East wind 5 to 10 mph."
+    "windSpeed": "10 mph",
+    "windDirection": "SE",
+    "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+    "shortForecast": "Partly Sunny",
+    "detailedForecast": "Partly sunny, with a high near 63. Southeast wind around 10 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1636639802,
+    "lastchange": 1636661402,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
