@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/11/14 00:10:01 EST UTC-05:00",
-    "ext_localtime": "Sun 14 Nov 2021 12:10:01 AM EST",
+    "ext_time": "2021/11/14 03:10:02 EST UTC-05:00",
+    "ext_localtime": "Sun 14 Nov 2021 03:10:02 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 50
+        "value": 34
       }
     ]
   },
   "ext_weather": {
-    "number": 3,
-    "name": "Sunday",
-    "startTime": "2021-11-14T06:00:00-05:00",
-    "endTime": "2021-11-14T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 50,
+    "number": 1,
+    "name": "Overnight",
+    "startTime": "2021-11-14T03:00:00-05:00",
+    "endTime": "2021-11-14T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 34,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "10 mph",
-    "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 50. Southwest wind around 10 mph."
+    "windDirection": "W",
+    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+    "shortForecast": "Mostly Clear",
+    "detailedForecast": "Mostly clear, with a low around 34. West wind around 10 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1636866601,
+    "lastchange": 1636877402,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
