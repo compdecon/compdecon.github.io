@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/11/21 00:10:01 EST UTC-05:00",
-    "ext_localtime": "Sun 21 Nov 2021 12:10:01 AM EST",
+    "ext_time": "2021/11/21 03:10:02 EST UTC-05:00",
+    "ext_localtime": "Sun 21 Nov 2021 03:10:02 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2021-11-21T00:00:00-05:00",
+    "startTime": "2021-11-21T03:00:00-05:00",
     "endTime": "2021-11-21T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 38,
@@ -109,9 +109,9 @@
     "temperatureTrend": null,
     "windSpeed": "0 to 5 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-    "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a low around 38. Southwest wind 0 to 5 mph."
+    "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
+    "shortForecast": "Cloudy",
+    "detailedForecast": "Cloudy, with a low around 38. Southwest wind 0 to 5 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1637471401,
+    "lastchange": 1637482202,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
