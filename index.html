@@ -209,7 +209,13 @@
       /*
       ** Figure out the 'season' so we can put an appropriate picture of the front
       ** of the CDL.
+      ** 0 = default
+      ** 1 = Winter (Jan, Feb, Mar)
+      ** 2 = Spring (Apr, May, Jun)
+      ** 3 = Summer (Jul, Aug, Sep)
+      ** 4 = Fall   (Oct, Nov, Dev)
       */
+      
       // href tag
       document.getElementById("frontDoorHref").href = seasonal[0].href;
 
@@ -324,11 +330,13 @@
     <p> A map for the <a href="./images/TourMap_16x20_self-download.jpg">InfoAge Campus</a></p>
     
     <br />
+<!--
     <a href="https://compdecon.org/" title="CDL - Computer Deconstruction Lab" target="_blank">
       <img src="./images/compdecon_qr_code-1.5k.png" title="CDL QR code" class="center"/>
     </a>
 
     <br/>
+ -->
   </div><!-- .entry-content -->
 
   <div id="page" class="hfeed site" style="background: #5e8067; color: #cfdaba;">
