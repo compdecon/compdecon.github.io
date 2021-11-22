@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/11/21 18:10:01 EST UTC-05:00",
-    "ext_localtime": "Sun 21 Nov 2021 06:10:01 PM EST",
+    "ext_time": "2021/11/21 21:10:01 EST UTC-05:00",
+    "ext_localtime": "Sun 21 Nov 2021 09:10:01 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -99,7 +99,7 @@
     ]
   },
   "ext_weather": {
-    "number": 1,
+    "number": 2,
     "name": "Tonight",
     "startTime": "2021-11-21T18:00:00-05:00",
     "endTime": "2021-11-22T06:00:00-05:00",
@@ -107,11 +107,11 @@
     "temperature": 46,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "0 to 10 mph",
+    "windSpeed": "5 to 10 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,30/rain_showers,80?size=medium",
-    "shortForecast": "Rain Showers",
-    "detailedForecast": "Rain showers after 8pm. Cloudy, with a low around 46. Southwest wind 0 to 10 mph. Chance of precipitation is 80%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/rain_showers,50/rain_showers,70?size=medium",
+    "shortForecast": "Rain Showers Likely",
+    "detailedForecast": "Rain showers likely after 7pm. Cloudy, with a low around 46. Southwest wind 5 to 10 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1637536201,
+    "lastchange": 1637547001,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
