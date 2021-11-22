@@ -146,6 +146,77 @@
           currentWeather(json.ext_weather);
       });
   }
+
+  function myFunction() {
+      document.getElementById("myAnchor").href = "http://www.cnn.com/";
+      // document.getElementById("demo").innerHTML = "The link above now goes to www.cnn.com.";
+  }
+
+  function setSeason() {
+      // Need to do the math here
+      var seasonal = [
+          {
+              "href":    "images/CDL-front.jpg",
+              "img":     "images/CDL-front.jpg",
+              "title":   "CDL/IXR front door at night",
+              "comment": "default image"
+          },
+          {
+              "href":    "",
+              "img":     "",
+              "title":   "",
+              "comment": "Winter"
+          },
+          {
+              "href":    "",
+              "img":     "",
+              "title":   "",
+              "comment": "Spring"
+          },
+          {
+              "href":    "",
+              "img":     "",
+              "title":   "",
+              "comment": "Summer"
+          },
+          {
+              "href":    "",
+              "img":     "",
+              "title":   "",
+              "comment": "Fall"
+          },
+          {
+              "href":    "",
+              "img":     "",
+              "title":   "",
+              "comment": "Special 1"
+          },
+          {
+              "href":    "",
+              "img":     "",
+              "title":   "",
+              "comment": "Special 2"
+          },
+          {
+              "href":    "",
+              "img":     "",
+              "title":   "",
+              "comment": "Special 3"
+          },
+          {}
+      ];
+
+      /*
+      ** Figure out the 'season' so we can put an appropriate picture of the front
+      ** of the CDL.
+      */
+      // href tag
+      document.getElementById("frontDoorHref").href = seasonal[0].href;
+
+      // img tag
+      document.getElementById("frontDoorHref").src  = seasonal[0].img;
+      document.getElementById("frontDoorImg").title = seasonal[0].title;
+  }
 </script>
 
 </head>
@@ -197,9 +268,9 @@
   </div>
 
   <p>    
-    <a href="./images/CDL-front.jpg" target="_blank">
+    <a href="./images/CDL-front.jpg" target="_blank" id="frontDoorHref">
       <img loading="lazy" src="./images/CDL-front.jpg" alt="Picture of CDL/IXR Building"
-           width="640" height="480" title="CDL/IXR front door at night, larger image opens in a new tab" class="center"> <!-- width="1000" height="667" -->
+           width="640" height="480" title="CDL/IXR front door at night, larger image opens in a new tab" class="center" id="frontDoorImg"> <!-- width="1000" height="667" -->
     </a>
   </p>
 
@@ -354,7 +425,7 @@
     console.log(queryString);
 
     const urlParams = new URLSearchParams(queryString);
-    console.log(urlParams.has('debug'));
+    console.log(urlParams.has('debug')); // URL has ?debug appended
 
     if(urlParams.has('debug')) {
         debug = true;
@@ -366,6 +437,8 @@
     // This handles my weather stuff and hopefully adapted to deal with the sprinkler sysem
     var url = "status.json";
 
+    setSeason(); // Set the correct season image of the CDL front door.
+    
     window.onload = function() {
         //
         // Need to check for really old browsers that may not have fetch
