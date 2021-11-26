@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/11/26 09:10:01 EST UTC-05:00",
-    "ext_localtime": "Fri 26 Nov 2021 09:10:01 AM EST",
+    "ext_time": "2021/11/26 12:10:01 EST UTC-05:00",
+    "ext_localtime": "Fri 26 Nov 2021 12:10:01 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,18 +100,18 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2021-11-26T09:00:00-05:00",
+    "name": "This Afternoon",
+    "startTime": "2021-11-26T12:00:00-05:00",
     "endTime": "2021-11-26T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 46,
     "temperatureUnit": "F",
     "temperatureTrend": "falling",
-    "windSpeed": "15 to 25 mph",
+    "windSpeed": "20 to 25 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/rain_showers,40/rain_showers,20?size=medium",
-    "shortForecast": "Chance Rain Showers",
-    "detailedForecast": "A chance of rain showers before 1pm. Mostly cloudy. High near 46, with temperatures falling to around 40 in the afternoon. West wind 15 to 25 mph, with gusts as high as 45 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,20?size=medium",
+    "shortForecast": "Slight Chance Rain Showers",
+    "detailedForecast": "A slight chance of rain showers before 1pm. Partly sunny. High near 46, with temperatures falling to around 40 in the afternoon. West wind 20 to 25 mph, with gusts as high as 45 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1637935801,
+    "lastchange": 1637946601,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
