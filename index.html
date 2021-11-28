@@ -9,7 +9,7 @@
    <meta name="MSSmartTagsPreventParsing" content="true" />
    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
    <meta http-equiv="Cache-Control" content="must-revalidate"/>
-   <meta name="keywords" content="CDL, Computer Deconstruction Lab, Podcast, NJ Podcast, Makerspace, Hackerspace, NJ Makerspace, NJ Hackerspace, NJ Makerspaces, NJ Hackerspaces, Institute for eXploratory Research, IXR"/>
+   <meta name="keywords" content="CDL, Computer Deconstruction Lab, Podcast, NJ Podcast, Makerspace, Hackerspace, NJ Makerspace, NJ Hackerspace, NJ Makerspaces, NJ Hackerspaces, Institute for eXploratory Research, IXR, The Jersey Shore Makerspace"/>
    <meta name="description" content="CDL - Computer Deconstruction Lab Podcast and Makerspace"/>
    <meta name="Copyright" content="Copyright (c) 2021 Neil Cherry, All rights reserved." />
 
@@ -96,8 +96,10 @@
       }
   }
 
-  function updateMsg(msg) {
-      document.getElementById("updateDiv").innerHTML = '<p>' + msg + '</p>';
+  function updateMsg(myId, msg) {
+      if(msg) {
+          document.getElementById(myId).innerHTML = '<p>' + msg + '</p>';
+      }
   }
 
   function lastUpdated(lastchange) {
@@ -141,7 +143,9 @@
           // use the json
           if(debug) console.log(Date.now());
           toggleSign(json.state.open);
-          updateMsg(json.state.message);
+          updateMsg("preUpdateDiv",  json.state.preMessage);
+          updateMsg("updateDiv",     json.state.message);
+          updateMsg("postUpdateDiv", json.state.postMessage);
           lastUpdated(json.state.lastchange)
           currentWeather(json.ext_weather);
       });
@@ -248,10 +252,16 @@
 
   <p> <b>Welcome</b> to the Computer Deconstruction Lab (CDL), formerly known as the Institute for Exploratory Research (IXR). We are a Makerspace and Podcast Studio down the Jersey Shore. Below is a picture of our front door (night time) behind the fence of InfoAge/Camp Evens. When we're open the main gate is open. And we have plenty of parking.</p>
 
+  <div id="preUpdateDiv">
+  </div>
+
   <h1 id="lastUpdateOn">UPDATE</h1>
 
   <div id="updateDiv">
     <p>Update currently not available</p>
+  </div>
+
+  <div id="postUpdateDiv">
   </div>
 
   <h1>Current weather at CDL</h1>
@@ -327,7 +337,7 @@
 
     <p> CDL was once known as IXR (Institute for eXploratory Research) but changed the name. Long story short, we changed the name. ;-) </p>
 
-    <p> A map for the <a href="./images/TourMap_16x20_self-download.jpg">InfoAge Campus</a></p>
+    <p> A map for the <a href="./images/TourMap_16x20_self-download.jpg">InfoAge Campus</a> (CDL is in #11, Building 9059)</p>
     
     <br />
 <!--
@@ -408,6 +418,14 @@
                   <svg role="img" class="social-phone" aria-labelledby="social-phone-2" style="width:72px;height:72px;">
                     <title id="social-phone-2">Phone</title>
                     <use xlink:href="./svg/symbol-defs.svg#social-phone"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="ssi-bloglovin" style="display: inline-block;">
+                <a href="https://linuxha.blogspot.com" target="_blank">
+                  <svg role="img" class="social-bloglovin" aria-labelledby="social-bloglovin-2" style="width:72px;height:72px;" title="LinxHA Blogspot">
+                    <title id="social-bloglovin-2">LinuxHA Blog</title>
+                    <use xlink:href="./svg/symbol-defs.svg#social-bloglovin"></use>
                   </svg>
                 </a>
               </li>
