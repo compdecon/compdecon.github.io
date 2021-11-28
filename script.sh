@@ -63,7 +63,8 @@ MSG="Sorry we're closed for the day."
 # ------------------------------------------------------------------------------
 
 MSG=$(sub "${TOPIC}/message")
-
+PREMSG=$(sub "${TOPIC}/preUpdateMsg")
+POSTMSG=$(sub "${TOPIC}/postUpdateMsg")
 STATE=$(sub "${TOPIC}/state")
 DOOR_LOCK=$(sub "${TOPIC}/door_lock")
 GATE_LOCK=$(sub "${TOPIC}/gate_lock")
@@ -220,6 +221,8 @@ JSON="{
       \"open\": ${STATE},
       \"lastchange\": $(date +%s),
       \"message\": \"${MSG}.\",
+      \"preMessage\": \"${PREMSG}.\",
+      \"postMessage\": \"${POSTMSG}.\",
       \"icon\": {
           \"open\": \"https://compdecon.github.io/images/open.png\",
           \"closed\": \"https://compdecon.github.io/images/closed.png\"
@@ -306,3 +309,14 @@ fi
 exit 0
 
 # -[ Fini ]---------------------------------------------------------------------
+
+# These need retain
+timeout 3 mosquitto_sub -C 1 -h "${MQTTHOST}" -p "${MQTTPORT}" -t "${topic}"
+mosquitto_pub -h "${MQTTHOST}" -p "${MQTTPORT}" -q 0 -r -t "${topic}" -m "${msg}"
+
+mosquitto_pub -q 0 -r -t "cdl/status/message" -m "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>."
+mosquitto_pub -r -t "cdl/status/preUpdateMsg" -m "InfoAge and all its museums including CDL will be closed December 25, 26, January 1, 2."
+mosquitto_pub -r -t "cdl/status/postUpdateMsg" -m "This Monday, we'll be playing with Smart Home technology."
+
+#
+mosquitto_sub -C 1 -t "cdl/status/message"
