@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/11/28 18:10:01 EST UTC-05:00",
-    "ext_localtime": "Sun 28 Nov 2021 06:10:01 PM EST",
+    "ext_time": "2021/11/28 21:10:01 EST UTC-05:00",
+    "ext_localtime": "Sun 28 Nov 2021 09:10:01 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2021-11-28T18:00:00-05:00",
+    "startTime": "2021-11-28T21:00:00-05:00",
     "endTime": "2021-11-29T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 31,
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1638141001,
+    "lastchange": 1638151801,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "InfoAge and all its museums including CDL will be closed December 25, 26, January 1, 2..",
     "postMessage": "This Monday, we'll be playing with Smart Home technology..",
