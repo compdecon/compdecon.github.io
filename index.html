@@ -97,7 +97,7 @@
   }
 
   function updateMsg(myId, msg) {
-      if(msg) {
+      if(msg && msg !== ".") {
           document.getElementById(myId).innerHTML = '<p>' + msg + '</p>';
       }
   }
