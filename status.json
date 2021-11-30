@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/11/30 09:10:04 EST UTC-05:00",
-    "ext_localtime": "Tue 30 Nov 2021 09:10:04 AM EST",
+    "ext_time": "2021/11/30 12:10:05 EST UTC-05:00",
+    "ext_localtime": "Tue 30 Nov 2021 12:10:05 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2021-11-30T09:00:00-05:00",
+    "name": "This Afternoon",
+    "startTime": "2021-11-30T12:00:00-05:00",
     "endTime": "2021-11-30T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 45,
@@ -109,8 +109,8 @@
     "temperatureTrend": null,
     "windSpeed": "5 to 10 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/ovc/snow,20?size=medium",
-    "shortForecast": "Cloudy then Slight Chance Rain And Snow",
+    "icon": "https://api.weather.gov/icons/land/day/snow,20?size=medium",
+    "shortForecast": "Slight Chance Rain And Snow",
     "detailedForecast": "A slight chance of rain and snow between 2pm and 4pm. Cloudy, with a high near 45. Southwest wind 5 to 10 mph. Chance of precipitation is 20%."
   },
   "contact": {
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1638281404,
+    "lastchange": 1638292205,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "InfoAge and all its museums including CDL will be closed December 25, 26, January 1, 2..",
     "postMessage": ".",
