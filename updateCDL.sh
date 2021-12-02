@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "<$*>" >/tmp/updateCDL.log
+
 FILE=status.json
 TOPIC="cdl/status"
 MQTTHOST=localhost.uucp
@@ -14,7 +16,8 @@ sub () {
 pub() {
     topic="${1}"
     msg="${2}"
-    mosquitto_pub -h "${MQTTHOST}" -p "${MQTTPORT}" -q 0 -r -t "${topic}" -m "${msg}"
+    echo "MSG [$2]" >>/tmp/updateCDL.log
+    mosquitto_pub -h "${MQTTHOST}" -p "${MQTTPORT}" -q 1 -r -t "${topic}" -m "${msg}"
 }
 
 help() {
@@ -62,6 +65,7 @@ while getopts "c:hm:x:" opt; do
             ;;
  
         m) # process option t
+            echo "OPTARG [${OPTARG}]" >>/tmp/updateCDL.log
             pub "${TOPIC}/message" "${OPTARG}"
             # 1 = open
             # 0 = closed
