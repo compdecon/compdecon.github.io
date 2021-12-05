@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/12/05 03:10:04 EST UTC-05:00",
-    "ext_localtime": "Sun 05 Dec 2021 03:10:04 AM EST",
+    "ext_time": "2021/12/05 06:10:05 EST UTC-05:00",
+    "ext_localtime": "Sun 05 Dec 2021 06:10:05 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 34
+        "value": 46
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2021-12-05T03:00:00-05:00",
-    "endTime": "2021-12-05T06:00:00-05:00",
-    "isDaytime": false,
-    "temperature": 34,
+    "name": "Today",
+    "startTime": "2021-12-05T06:00:00-05:00",
+    "endTime": "2021-12-05T18:00:00-05:00",
+    "isDaytime": true,
+    "temperature": 46,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 mph",
-    "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-    "shortForecast": "Partly Cloudy",
-    "detailedForecast": "Partly cloudy, with a low around 34. Northwest wind around 5 mph."
+    "windSpeed": "0 to 5 mph",
+    "windDirection": "NE",
+    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny, with a high near 46. Northeast wind 0 to 5 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1638691804,
+    "lastchange": 1638702605,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: #C0C0C0;\">InfoAge and all its museums including CDL will be closed December 25, 26, January 1, 2.</span>.",
     "postMessage": ".",
