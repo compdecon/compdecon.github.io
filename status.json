@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/12/06 00:10:02 EST UTC-05:00",
-    "ext_localtime": "Mon 06 Dec 2021 12:10:02 AM EST",
+    "ext_time": "2021/12/06 03:10:02 EST UTC-05:00",
+    "ext_localtime": "Mon 06 Dec 2021 03:10:02 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 42
+        "value": 63
       }
     ]
   },
   "ext_weather": {
-    "number": 1,
-    "name": "Overnight",
-    "startTime": "2021-12-06T00:00:00-05:00",
-    "endTime": "2021-12-06T06:00:00-05:00",
-    "isDaytime": false,
-    "temperature": 42,
+    "number": 3,
+    "name": "Monday",
+    "startTime": "2021-12-06T06:00:00-05:00",
+    "endTime": "2021-12-06T18:00:00-05:00",
+    "isDaytime": true,
+    "temperature": 63,
     "temperatureUnit": "F",
-    "temperatureTrend": "rising",
-    "windSpeed": "5 to 10 mph",
-    "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,60?size=medium",
-    "shortForecast": "Rain Showers Likely",
-    "detailedForecast": "Rain showers likely. Cloudy. Low around 42, with temperatures rising to around 50 overnight. Southeast wind 5 to 10 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
+    "temperatureTrend": null,
+    "windSpeed": "10 to 20 mph",
+    "windDirection": "S",
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,30?size=medium",
+    "shortForecast": "Chance Rain Showers",
+    "detailedForecast": "A chance of rain showers. Mostly cloudy, with a high near 63. South wind 10 to 20 mph, with gusts as high as 35 mph. Chance of precipitation is 30%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1638767402,
+    "lastchange": 1638778202,
     "message": "We will be open from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: #C0C0C0;\">InfoAge and all its museums including CDL will be closed December 25, 26, January 1, 2.</span>.",
     "postMessage": "Tomorrow night we&#x27;ll be working with the Smart Home Demo board and programming Tasmota into the Sonoff ZigBee bridge.",
