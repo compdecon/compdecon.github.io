@@ -97,8 +97,11 @@
   }
 
   function updateMsg(myId, msg) {
+      // Should cover an empty message and a '.' message
       if(msg && msg !== ".") {
           document.getElementById(myId).innerHTML = '<p>' + msg + '</p>';
+      } else {
+          document.getElementById(myId).innerHTML = '';
       }
   }
 
@@ -370,7 +373,7 @@
         <div class="sidebar-column col-md-12">
 	  <aside id="simple-social-icons-2" class="widget simple-social-icons">
             <ul class="alignleft" style="inline-style-type:none;">
-              <li class="ssi-email" style="display: inline-block;">
+              <li class="ssi-email" style="display: inline-block;padding-right: 1em">
                 <a href="mailto:cdl@compdecon.org" target="_blank">
                   <svg role="img" class="social-email" aria-labelledby="social-email-2" style="width:72px;height:72px;">
                     <title id="social-email-2">Email</title>
@@ -378,7 +381,7 @@
                   </svg>
                 </a>
               </li>
-              <li class="ssi-github" style="display: inline-block;">
+              <li class="ssi-github" style="display: inline-block;padding-right: 1em">
                 <a href="https://github.com/compdecon" target="_blank">
                   <svg role="img" class="social-github" aria-labelledby="social-github-2" style="width:72px;height:72px;">
                     <title id="social-github">Github</title>
@@ -386,7 +389,7 @@
                   </svg>
                 </a>
               </li>
-              <li class="ssi-facebook" style="display: inline-block;">
+              <li class="ssi-facebook" style="display: inline-block;padding-right: 1em">
                 <a href="https://www.facebook.com/compdecon/" target="_blank">
                   <svg role="img" class="social-facebook" aria-labelledby="social-facebook-2" style="width:72px;height:72px;">
                     <title id="social-facebook-2">Facebook</title>
@@ -394,7 +397,7 @@
                   </svg>
                 </a>
               </li>
-              <li class="ssi-gplus" style="display: inline-block;">
+              <li class="ssi-gplus" style="display: inline-block;padding-right: 1em">
                 <a href="https://www.google.com/maps/place/2201+Marconi+Rd,+Wall+Township,+NJ+07719/@40.1854721,-74.0596964,17.25z/data=!4m5!3m4!1s0x89c228394da0728f:0xba9aa848932b58c1!8m2!3d40.1857926!4d-74.0595842?shorturl=1" target="_blank">
                   <svg role="img" class="social-gplus" aria-labelledby="social-gplus-2" style="width:72px;height:72px;">
                     <title id="social-gplus-2">Google+</title>
@@ -402,7 +405,7 @@
                   </svg>
                 </a>
               </li>
-              <li class="ssi-twitter" style="display: inline-block;">
+              <li class="ssi-twitter" style="display: inline-block;padding-right: 1em">
                 <a href="https://twitter.com/compdecon?lang=en" target="_blank">
                   <svg role="img" class="social-twitter" aria-labelledby="social-twitter-2" style="width:72px;height:72px;">
                     <title id="social-twitter-2">Twitter</title>
@@ -410,7 +413,17 @@
                   </svg>
                 </a>
               </li>
-              <li class="ssi-youtube" style="display: inline-block;">
+
+              <li class="ssi-instagram" style="display: inline-block;padding-right: 1em">
+                <a href="https://www.instagram.com/compdeconlab/" target="_blank">
+                  <svg role="img" class="social-instagram" aria-labelledby="social-instagram-2" style="width:72px;height:72px;">
+                    <title id="social-instagram">Instagram</title>
+                    <use xlink:href="./svg/symbol-defs.svg#social-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="ssi-youtube" style="display: inline-block;padding-right: 1em">
                 <a href="https://www.youtube.com/channel/UC2R27L8tMfrjCUdLClYDc8A" target="_blank">
                   <svg role="img" class="social-youtube" aria-labelledby="social-youtube-2" style="width:72px;height:72px;">
                     <title id="social-youtube-2">YouTube</title>
@@ -419,7 +432,7 @@
                 </a>
               </li>
 <!-- 
-              <li class="ssi-github" style="display: inline-block;">
+              <li class="ssi-github" style="display: inline-block;padding-right: 1em">
                 <a href="https://github.com/compdecon" target="_blank">
                   <svg role="img" class="social-github" aria-labelledby="social-github-2" style="width:72px;height:72px;">
                     <title id="social-github">Github</title>
@@ -428,19 +441,30 @@
                 </a>
               </li>
 -->
-              <li class="ssi-phone" style="display: inline-block;">
+<!--
+              <li class="ssi-bloglovin" style="display: inline-block;padding-right: 1em">
+                <a href="https://compdecon.blogspot.com" target="_blank">
+                  <svg role="img" class="social-bloglovin" aria-labelledby="social-bloglovin-2" style="width:72px;height:72px;" title="Computer Deconstruction Lab Blog">
+                    <title id="social-bloglovin-2">Computer Deconstruction Lab Blog</title>
+                    <use xlink:href="./svg/symbol-defs.svg#social-bloglovin"></use>
+                  </svg>
+                </a>
+              </li>
+-->
+              <li class="ssi-bloglovin" style="display: inline-block;padding-right: 1em">
+                <a href="https://compdecon.blogspot.com" target="_blank">
+                  <svg role="img" class="icon-hashtag" aria-labelledby="icon-hashtag-2" style="width:72px;height:72px;" title="Computer Deconstruction Lab Blog">
+                    <title id="icon-hashtag-2">Computer Deconstruction Lab Blog</title>
+                    <use xlink:href="./svg/symbol-defs.svg#icon-hashtag"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="ssi-phone" style="display: inline-block"> <!-- ;padding-right: 1em -->
                 <a href="tel:732-456-5001" target="_blank">
                   <svg role="img" class="social-phone" aria-labelledby="social-phone-2" style="width:72px;height:72px;">
                     <title id="social-phone-2">Phone</title>
                     <use xlink:href="./svg/symbol-defs.svg#social-phone"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="ssi-bloglovin" style="display: inline-block;">
-                <a href="https://linuxha.blogspot.com" target="_blank">
-                  <svg role="img" class="social-bloglovin" aria-labelledby="social-bloglovin-2" style="width:72px;height:72px;" title="LinxHA Blogspot">
-                    <title id="social-bloglovin-2">LinuxHA Blog</title>
-                    <use xlink:href="./svg/symbol-defs.svg#social-bloglovin"></use>
                   </svg>
                 </a>
               </li>
@@ -466,7 +490,6 @@
     console.log(queryString);
 
     const urlParams = new URLSearchParams(queryString);
-    console.log(urlParams.has('debug')); // URL has ?debug appended
 
     if(urlParams.has('debug')) {
         debug = true;
