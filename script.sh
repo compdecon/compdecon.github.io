@@ -65,6 +65,7 @@ MSG="Sorry we're closed for the day."
 MSG=$(sub "${TOPIC}/message")
 PREMSG=$(sub "${TOPIC}/preUpdateMsg")
 POSTMSG=$(sub "${TOPIC}/postUpdateMsg")
+BLOGUPDATE=$(sub "${TOPIC}/blogUpdate")
 STATE=$(sub "${TOPIC}/state")
 DOOR_LOCK=$(sub "${TOPIC}/door_lock")
 GATE_LOCK=$(sub "${TOPIC}/gate_lock")
@@ -223,6 +224,7 @@ JSON="{
       \"message\": \"${MSG}.\",
       \"preMessage\": \"${PREMSG}.\",
       \"postMessage\": \"${POSTMSG}.\",
+      \"blogUpdate\": \"${BLOGUPDATE}\",
       \"icon\": {
           \"open\": \"https://compdecon.github.io/images/open.png\",
           \"closed\": \"https://compdecon.github.io/images/closed.png\"
@@ -257,6 +259,7 @@ JSON="{
   }
 }"
 
+# @FIXME: The events are static, that's not correct
 
 ###
 ### Take a backup of the old status.json

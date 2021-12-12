@@ -105,6 +105,15 @@
       }
   }
 
+  function updateBlog(myId, msg) {
+      // Should cover an empty message and a '.' message
+      if(msg && msg !== ".") {
+          document.getElementById(myId).innerHTML = msg;
+      } else {
+          document.getElementById(myId).innerHTML = '';
+      }
+  }
+
   function lastUpdated(lastchange) {
       if(typeof lastchange != "number") {
           lastchange = -1;
@@ -149,6 +158,7 @@
           updateMsg("preUpdateDiv",  json.state.preMessage);
           updateMsg("updateDiv",     json.state.message);
           updateMsg("postUpdateDiv", json.state.postMessage);
+          updateBlog("blogUpdate",   json.state.blogUpdate);
           lastUpdated(json.state.lastchange)
           currentWeather(json.ext_weather);
       });
@@ -353,7 +363,8 @@
     <h2>Links</h2>
 
     <ul>
-      <li><a href="projects.html"></a>Projects</li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="https://compdecon.blogspot.com/">The Comp Decon Lab Blog</a> <span id="blogUpdate" style="display:inline"></span></li>
       <li><a href="http://compdecon.org/">Official Computer Deconstruction Lab</a></li>
       <li><a href="http://compdecon.org/about/">About</a></li>
       <li><a href="http://compdecon.org/direction/">Direction</a></li>
