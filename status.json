@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/12/12 18:10:01 EST UTC-05:00",
-    "ext_localtime": "Sun 12 Dec 2021 06:10:01 PM EST",
+    "ext_time": "2021/12/12 21:10:02 EST UTC-05:00",
+    "ext_localtime": "Sun 12 Dec 2021 09:10:02 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 32
+        "value": 31
       }
     ]
   },
   "ext_weather": {
-    "number": 1,
-    "name": "Tonight",
+    "number": 4,
+    "name": "Sunday Night",
     "startTime": "2021-12-12T18:00:00-05:00",
     "endTime": "2021-12-13T06:00:00-05:00",
     "isDaytime": false,
-    "temperature": 32,
+    "temperature": 31,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "5 mph",
     "windDirection": "W",
     "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
     "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 32. West wind 5 to 10 mph."
+    "detailedForecast": "Mostly clear, with a low around 31. West wind around 5 mph."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1639350601,
+    "lastchange": 1639361402,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: #C0C0C0;\">InfoAge and all its museums including CDL will be closed December 25, 26, January 1, 2.</span>.",
     "postMessage": "This weekend (12/11 &amp; 12/12) VCF will be celebrating Festivus..",
