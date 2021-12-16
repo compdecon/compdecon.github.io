@@ -321,5 +321,14 @@ mosquitto_pub -q 0 -r -t "cdl/status/message" -m "Sorry we&#x27;re currently clo
 mosquitto_pub -r -t "cdl/status/preUpdateMsg" -m "InfoAge and all its museums including CDL will be closed December 25, 26, January 1, 2."
 mosquitto_pub -r -t "cdl/status/postUpdateMsg" -m "This Monday, we'll be playing with Smart Home technology."
 
+# Make the topic blank
+mosquitto_pub -n -r -t "cdl/status/postUpdateMsg"
+
 #
 mosquitto_sub -C 1 -t "cdl/status/message"
+
+# Using at to run a command later
+$ at 23:55<enter>
+at> mosquitto_pub -n -r -t "cdl/status/postUpdateMsg"
+at> <^D>
+$
