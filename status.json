@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/12/25 00:10:04 EST UTC-05:00",
-    "ext_localtime": "Sat 25 Dec 2021 12:10:04 AM EST",
+    "ext_time": "2021/12/25 03:10:05 EST UTC-05:00",
+    "ext_localtime": "Sat 25 Dec 2021 03:10:05 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 39
+        "value": 36
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2021-12-25T00:00:00-05:00",
+    "startTime": "2021-12-25T03:00:00-05:00",
     "endTime": "2021-12-25T06:00:00-05:00",
     "isDaytime": false,
-    "temperature": 39,
+    "temperature": 36,
     "temperatureUnit": "F",
-    "temperatureTrend": null,
+    "temperatureTrend": "rising",
     "windSpeed": "5 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/night/rain,40?size=medium",
-    "shortForecast": "Chance Light Rain",
-    "detailedForecast": "A chance of rain. Cloudy, with a low around 39. South wind around 5 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/rain,60?size=medium",
+    "shortForecast": "Light Rain Likely",
+    "detailedForecast": "Rain likely. Cloudy. Low around 36, with temperatures rising to around 44 overnight. South wind around 5 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1640409004,
+    "lastchange": 1640419805,
     "message": "Merry Christmas everyone&#x21; Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>..",
     "preMessage": "<span style=\"background-color: #C0C0C0;\">InfoAge and all its museums including CDL will be closed December 25, 26, January 1, 2.</span>.",
     "postMessage": ".",
