@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2021/12/24 22:06:59 EST UTC-05:00",
-    "ext_localtime": "Fri 24 Dec 2021 10:06:59 PM EST",
+    "ext_time": "2021/12/24 22:08:14 EST UTC-05:00",
+    "ext_localtime": "Fri 24 Dec 2021 10:08:14 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -142,8 +142,8 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1640401619,
-    "message": "Merry Christmas everyone#x21; Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>..",
+    "lastchange": 1640401694,
+    "message": "Merry Christmas everyone&#x21; Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>..",
     "preMessage": "<span style=\"background-color: #C0C0C0;\">InfoAge and all its museums including CDL will be closed December 25, 26, January 1, 2.</span>.",
     "postMessage": ".",
     "blogUpdate": "(Title: More Smart Home - Updated: Dec. 13, 2021)",
