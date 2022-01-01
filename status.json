@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/01/01 00:10:05 EST UTC-05:00",
-    "ext_localtime": "Sat 01 Jan 2022 12:10:05 AM EST",
+    "ext_time": "2022/01/01 03:10:04 EST UTC-05:00",
+    "ext_localtime": "Sat 01 Jan 2022 03:10:04 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 48
+        "value": 58
       }
     ]
   },
   "ext_weather": {
-    "number": 1,
-    "name": "Overnight",
-    "startTime": "2022-01-01T00:00:00-05:00",
-    "endTime": "2022-01-01T06:00:00-05:00",
-    "isDaytime": false,
-    "temperature": 48,
+    "number": 3,
+    "name": "New Year's Day",
+    "startTime": "2022-01-01T06:00:00-05:00",
+    "endTime": "2022-01-01T18:00:00-05:00",
+    "isDaytime": true,
+    "temperature": 58,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "5 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/night/rain,40?size=medium",
-    "shortForecast": "Areas Of Drizzle",
-    "detailedForecast": "Areas of drizzle and areas of fog and a chance of rain. Cloudy, with a low around 48. South wind 5 to 10 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/day/rain,70/rain,80?size=medium",
+    "shortForecast": "Light Rain",
+    "detailedForecast": "Rain and patchy fog. Cloudy, with a high near 58. South wind around 5 mph. Chance of precipitation is 80%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1641013805,
+    "lastchange": 1641024604,
     "message": "Merry Christmas &#x26; a Happy New Year&#x21; Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: #C0C0C0;\">InfoAge and all its museums including CDL will be closed December 25, 26, January 1, 2.</span>.",
     "postMessage": ".",
