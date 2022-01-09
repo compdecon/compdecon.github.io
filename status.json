@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/01/09 03:10:04 EST UTC-05:00",
-    "ext_localtime": "Sun 09 Jan 2022 03:10:04 AM EST",
+    "ext_time": "2022/01/09 12:10:04 EST UTC-05:00",
+    "ext_localtime": "Sun 09 Jan 2022 12:10:04 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 20
+        "value": 43
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2022-01-09T03:00:00-05:00",
-    "endTime": "2022-01-09T06:00:00-05:00",
-    "isDaytime": false,
-    "temperature": 20,
+    "name": "This Afternoon",
+    "startTime": "2022-01-09T12:00:00-05:00",
+    "endTime": "2022-01-09T18:00:00-05:00",
+    "isDaytime": true,
+    "temperature": 43,
     "temperatureUnit": "F",
-    "temperatureTrend": "rising",
-    "windSpeed": "10 mph",
+    "temperatureTrend": null,
+    "windSpeed": "15 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-    "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear. Low around 20, with temperatures rising to around 28 overnight. Southwest wind around 10 mph."
+    "icon": "https://api.weather.gov/icons/land/day/rain,80?size=medium",
+    "shortForecast": "Light Rain",
+    "detailedForecast": "Rain. Cloudy, with a high near 43. Southwest wind around 15 mph, with gusts as high as 30 mph. Chance of precipitation is 80%. New rainfall amounts less than a tenth of an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1641715804,
+    "lastchange": 1641748204,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold;font-weight: bold;\">&nbsp;Facemasks are required&nbsp;</span>.",
     "postMessage": ".",
