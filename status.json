@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/01/16 23:55:04 EST UTC-05:00",
-    "ext_localtime": "Sun 16 Jan 2022 11:55:04 PM EST",
+    "ext_time": "2022/01/17 06:10:04 EST UTC-05:00",
+    "ext_localtime": "Mon 17 Jan 2022 06:10:04 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 40
+        "value": 43
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2022-01-16T15:00:00-05:00",
-    "endTime": "2022-01-16T18:00:00-05:00",
+    "name": "M.L. King Jr. Day",
+    "startTime": "2022-01-17T06:00:00-05:00",
+    "endTime": "2022-01-17T18:00:00-05:00",
     "isDaytime": true,
-    "temperature": 40,
+    "temperature": 43,
     "temperatureUnit": "F",
-    "temperatureTrend": null,
-    "windSpeed": "10 mph",
-    "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/day/snow,20?size=medium",
-    "shortForecast": "Slight Chance Rain And Snow",
-    "detailedForecast": "A slight chance of rain and snow after 5pm. Cloudy, with a high near 40. East wind around 10 mph, with gusts as high as 25 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+    "temperatureTrend": "falling",
+    "windSpeed": "20 to 25 mph",
+    "windDirection": "SW",
+    "icon": "https://api.weather.gov/icons/land/day/rain,50/snow,20?size=medium",
+    "shortForecast": "Chance Light Rain then Slight Chance Rain And Snow",
+    "detailedForecast": "A chance of rain before 5pm, then a slight chance of rain and snow. Cloudy. High near 43, with temperatures falling to around 36 in the afternoon. Southwest wind 20 to 25 mph, with gusts as high as 45 mph. Chance of precipitation is 50%. New rainfall amounts between three quarters and one inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1642395304,
+    "lastchange": 1642417804,
     "message": "We will be open from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold;font-weight: bold;\">&nbsp;Facemasks are required&nbsp;</span>.",
     "postMessage": ".",
