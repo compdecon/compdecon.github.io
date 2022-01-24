@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/01/23 18:10:15 EST UTC-05:00",
-    "ext_localtime": "Sun 23 Jan 2022 06:10:15 PM EST",
+    "ext_time": "2022/01/23 21:10:14 EST UTC-05:00",
+    "ext_localtime": "Sun 23 Jan 2022 09:10:14 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2022-01-23T18:00:00-05:00",
+    "startTime": "2022-01-23T20:00:00-05:00",
     "endTime": "2022-01-24T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 22,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 mph",
-    "windDirection": "W",
-    "icon": "http://ngitws-api-app-qa-cp.ncep.noaa.gov:9000/icons/land/night/snow,30?size=medium",
+    "windDirection": "NW",
+    "icon": "http://api.weather.gov/icons/land/night/snow,30?size=medium",
     "shortForecast": "Chance Light Snow",
-    "detailedForecast": "A chance of snow before 3am. Mostly cloudy, with a low around 22. West wind around 5 mph. Chance of precipitation is 30%. New snow accumulation of less than half an inch possible."
+    "detailedForecast": "A chance of snow before 3am. Mostly cloudy, with a low around 22. Northwest wind around 5 mph. Chance of precipitation is 30%. New snow accumulation of less than half an inch possible."
   },
   "contact": {
     "email": "info@compdecon.org",
@@ -142,7 +142,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1642979415,
+    "lastchange": 1642990214,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
