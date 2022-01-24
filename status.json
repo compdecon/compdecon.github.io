@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/01/24 12:10:15 EST UTC-05:00",
-    "ext_localtime": "Mon 24 Jan 2022 12:10:15 PM EST",
+    "ext_time": "2022/01/24 12:43:46 EST UTC-05:00",
+    "ext_localtime": "Mon 24 Jan 2022 12:43:46 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -113,7 +113,9 @@
     "shortForecast": "Mostly Sunny",
     "detailedForecast": "Mostly sunny, with a high near 34. North wind 0 to 5 mph."
   },
-  "space_weather": [],
+  "space_weather": [
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3193\r\nIssue Time: 2022 Jan 24 0503 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3192\r\nBegin Time: 2022 Jan 16 1445 UTC\r\nYesterday Maximum 2MeV Flux: 6126 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
+  ],
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -143,9 +145,9 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1643044215,
-    "message": "We will be open from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
-    "preMessage": ".",
+    "lastchange": 1643046226,
+    "message": ".",
+    "preMessage": "<span style=\"background-color: gold;font-weight: bold;\">&nbsp;Facemasks are required&nbsp;</span>.",
     "postMessage": ".",
     "blogUpdate": "(Title: CDL Microcontroller Monday - 2021-12-27 - Updated: Dec. 27, 2021)",
     "icon": {
