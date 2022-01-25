@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/01/25 00:06:25 EST UTC-05:00",
-    "ext_localtime": "Tue 25 Jan 2022 12:06:25 AM EST",
+    "ext_time": "2022/01/25 00:10:15 EST UTC-05:00",
+    "ext_localtime": "Tue 25 Jan 2022 12:10:15 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 29
+        "value": 32
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2022-01-24T21:00:00-05:00",
+    "name": "Overnight",
+    "startTime": "2022-01-25T00:00:00-05:00",
     "endTime": "2022-01-25T06:00:00-05:00",
     "isDaytime": false,
-    "temperature": 29,
+    "temperature": 32,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "10 to 15 mph",
     "windDirection": "SW",
     "icon": "http://api.weather.gov/icons/land/night/ovc?size=medium",
     "shortForecast": "Cloudy",
-    "detailedForecast": "Cloudy, with a low around 29. Southwest wind 10 to 15 mph."
+    "detailedForecast": "Cloudy, with a low around 32. Southwest wind 10 to 15 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4006\r\nIssue Time: 2022 Jan 24 2127 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Jan 24 2125 UTC\r\nValid To: 2022 Jan 25 0000 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -146,7 +146,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1643087185,
+    "lastchange": 1643087415,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>..",
     "preMessage": ".",
     "postMessage": ".",
