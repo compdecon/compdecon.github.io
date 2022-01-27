@@ -145,7 +145,40 @@
           document.getElementById("weatherDiv").innerHTML = '<table><tr><td><img src="' + weather.icon + '" alt=""></td><td style="font-size: 120%">' + weather.detailedForecast + '(' + weather.startTime + ')' + '</td></tr></table>';
       } 
   }
+
+  function currentSpaceWeather(weather) {
+      /*
+        space_weather is a JSON array of string that are preformated
+
+        "space_weather": [
+            "Space Weather Message Code: WARK04\r\nSerial Number: 4006\r\nIssue Time: 2022 Jan 24 2127 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Jan 24 2125 UTC\r\nValid To: 2022 Jan 25 0000 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+            "Space Weather Message Code: ALTEF3\r\nSerial Number: 3193\r\nIssue Time: 2022 Jan 24 0503 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3192\r\nBegin Time: 2022 Jan 16 1445 UTC\r\nYesterday Maximum 2MeV Flux: 6126 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
+        ],
    
+        Perhaps we can stick each string into a div with pre
+      */
+      // a = s.split(/(www.*?)$/m)
+      // s.replace(a[1], "<a href=\"" + a[1] + "\">" + a[1] + "</a>")
+      if(Array.isArray(weather)) {
+          document.getElementById("space_weatherDiv").innerHTML = '  <h1>Current Space Weather at CDL</h1><div id="space_weatherDivA" style="border: thick double; padding-left:0.5em;"></div>';
+
+          var i = 1;
+          weather.forEach(el => {
+              var a = el.split(/(www.*?)$/m); // m - multiline
+              var divElement = document.getElementById("space_weatherDivA");
+              divElement.innerHTML += '<div><pre>' + el.replace(a[1], "<a href=\"https://" + a[1] + "/\" target=\"_blank\">" + a[1] + "</a>") + '</pre></div>';
+              if(i < weather.length) {
+                  divElement.innerHTML +=  '<hr>';
+                  i++;
+              }
+          });
+          console.log("i = " + i + "\nL = " + weather.length);
+      } else {
+          // debug message
+          console.log(Date.now() + ": Spacey weather issue");
+      }
+  }
+  
   function getStatus(url) {
       fetch(url, { 
           method: 'GET'
@@ -161,6 +194,7 @@
           updateBlog("blogUpdate",   json.state.blogUpdate);
           lastUpdated(json.state.lastchange)
           currentWeather(json.ext_weather);
+          currentSpaceWeather(json.space_weather);
       });
   }
 
@@ -277,7 +311,7 @@
   <div id="postUpdateDiv">
   </div>
 
-  <h1>Current weather at CDL</h1>
+  <h1>Current Weather at CDL</h1>
   
   <!--
       @FIXME: The test in this div is tiny on the cell phone
@@ -286,6 +320,9 @@
     <p>Weather currently not available</p>
   </div>
 
+  <div id="space_weatherDiv">
+  </div>
+  
   <div>
     <p>Click <a href="mailto:cdl+subscribe@groups.io">Subscribe to the CDL mailist</a> (click <a href="mailto:cdl+unsubscribe@groups.io">Unsubscribe from CDL maillist</a>)</p>
 
