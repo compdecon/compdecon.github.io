@@ -4,7 +4,8 @@ echo "<$*>" >/tmp/updateCDL.log
 
 FILE=status.json
 TOPIC="cdl/status"
-MQTTHOST=localhost.uucp
+#QTTHOST=localhost.uucp
+MQTTHOST=mozart.uucp
 MQTTPORT=1883
 
 sub () {
@@ -87,3 +88,5 @@ shift $((OPTIND - 1))
 ### Update the status.json
 ###
 ${HOME}/dev/git/compdecon.github.io/script.sh
+
+# sed 's/<[^>]*>//g ; /^$/d'
