@@ -5,7 +5,8 @@
 jsonVersion="0.0.3"
 FILE=status.json
 TOPIC="cdl/status"
-MQTTHOST=localhost.uucp
+#QTTHOST=localhost.uucp
+MQTTHOST=mozart.uucp
 MQTTPORT=1883
 # Lat, Lon
 #LAT="40.18649730878143"
@@ -62,6 +63,9 @@ MSG="All visitors to the makerspace are required to mask as per the State of New
 MSG="Sorry we're closed for the day."
 # ------------------------------------------------------------------------------
 
+###
+### @FIXME: Some of these need to be cuaght if nothing returns or an expected value is not returned
+###         See DOOR_LOCK and GATE_LOCK
 MSG=$(sub "${TOPIC}/message")
 PREMSG=$(sub "${TOPIC}/preUpdateMsg")
 POSTMSG=$(sub "${TOPIC}/postUpdateMsg")
@@ -69,6 +73,20 @@ BLOGUPDATE=$(sub "${TOPIC}/blogUpdate")
 STATE=$(sub "${TOPIC}/state")
 DOOR_LOCK=$(sub "${TOPIC}/door_lock")
 GATE_LOCK=$(sub "${TOPIC}/gate_lock")
+
+# true or false but not quoted
+if [ "X${STATE}" != "Xtrue" ]; then
+    STATE=false
+fi
+
+if [ "X${DOOR_LOCK}" != "Xtrue" ]; then
+    DOOR_LOCK=false
+fi
+
+if [ "X${GATE_LOCK}" != "Xtrue" ]; then
+    GATE_LOCK=false
+fi
+
 
 # Occupancy
 OLAB=0
@@ -98,6 +116,15 @@ TOUTSIDE=$(jq '.temperature' /tmp/forecast)
 # Probably need this to be in another cron that runs 4 times a day (every 6 hours)
 #EATHER=$(curl -s https://api.weather.gov/gridpoints/PHI/83,90/forecast | jq '.properties.periods[0]')
 WEATHER=$(cat /tmp/forecast)
+if [ "x" == "x${WEATHER}" ]; then
+    WEATHER="{}"
+fi
+
+SPACE=$(cat /tmp/nasa-alert.json)
+if [ "x" == "x${SPACE}" ]; then
+    SPACE="[]"
+fi
+
 # LOCATION
 #       \"timezone\": \"$(date '+%Y/%m/%d %H:%M:%S %Z UTC%:z')\",
 #                             Sun 27 Jun 2021 02:21:56 AM EDT
@@ -195,6 +222,7 @@ JSON="{
       ]
   },
   \"ext_weather\": ${WEATHER},
+  \"space_weather\": ${SPACE},
   \"contact\": {
     \"email\": \"info@compdecon.org\",
     \"phone\": \"+1-732-456-5001\",
@@ -332,3 +360,5 @@ $ at 23:55<enter>
 at> mosquitto_pub -n -r -t "cdl/status/postUpdateMsg"
 at> <^D>
 $
+
+mosquitto_pub -h "${MQTTHOST}" -p "${MQTTPORT}" -q 0 -r -t "cdl/status/preUpdateMsg" -m '<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>'
