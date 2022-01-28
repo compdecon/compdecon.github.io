@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/01/28 03:10:04 EST UTC-05:00",
-    "ext_localtime": "Fri 28 Jan 2022 03:10:04 AM EST",
+    "ext_time": "2022/01/28 06:10:04 EST UTC-05:00",
+    "ext_localtime": "Fri 28 Jan 2022 06:10:04 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 25
+        "value": 36
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2022-01-28T03:00:00-05:00",
-    "endTime": "2022-01-28T06:00:00-05:00",
-    "isDaytime": false,
-    "temperature": 25,
+    "name": "Today",
+    "startTime": "2022-01-28T06:00:00-05:00",
+    "endTime": "2022-01-28T18:00:00-05:00",
+    "isDaytime": true,
+    "temperature": 36,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 mph",
-    "windDirection": "W",
-    "icon": "https://preview-api.weather.gov/icons/land/night/ovc?size=medium",
-    "shortForecast": "Cloudy",
-    "detailedForecast": "Cloudy, with a low around 25. West wind around 5 mph."
+    "windSpeed": "0 to 5 mph",
+    "windDirection": "NW",
+    "icon": "https://preview-api.weather.gov/icons/land/day/snow,20/snow,40?size=medium",
+    "shortForecast": "Chance Light Snow",
+    "detailedForecast": "A chance of snow between 10am and 1pm, then a chance of rain and snow. Cloudy, with a high near 36. Northwest wind 0 to 5 mph. Chance of precipitation is 40%. Little or no snow accumulation expected."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4007\r\nIssue Time: 2022 Jan 25 1507 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Jan 25 1507 UTC\r\nValid To: 2022 Jan 25 2359 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1643357404,
+    "lastchange": 1643368204,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>..",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
