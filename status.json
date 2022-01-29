@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/01/29 03:10:05 EST UTC-05:00",
-    "ext_localtime": "Sat 29 Jan 2022 03:10:05 AM EST",
+    "ext_time": "2022/01/29 06:10:05 EST UTC-05:00",
+    "ext_localtime": "Sat 29 Jan 2022 06:10:05 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,26 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 19
+        "value": 23
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2022-01-29T03:00:00-05:00",
-    "endTime": "2022-01-29T06:00:00-05:00",
-    "isDaytime": false,
-    "temperature": 19,
+    "name": "Today",
+    "startTime": "2022-01-29T06:00:00-05:00",
+    "endTime": "2022-01-29T18:00:00-05:00",
+    "isDaytime": true,
+    "temperature": 23,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "20 to 25 mph",
-    "windDirection": "N",
-    "icon": "https://preview-api.weather.gov/icons/land/night/blizzard,100?size=medium",
+    "windSpeed": "25 to 30 mph",
+    "windDirection": "NW",
+    "icon": "https://preview-api.weather.gov/icons/land/day/blizzard,100/blizzard,90?size=medium",
     "shortForecast": "Heavy Snow And Blowing Snow",
-    "detailedForecast": "Snow before 4am, then snow and blowing snow. Cloudy, with a low around 19. North wind 20 to 25 mph, with gusts as high as 40 mph. Chance of precipitation is 100%. New snow accumulation of 3 to 7 inches possible."
+    "detailedForecast": "Snow and blowing snow before 2pm, then blowing snow and snow likely. Cloudy, with a high near 23. Northwest wind 25 to 30 mph, with gusts as high as 50 mph. Chance of precipitation is 100%. New snow accumulation of 11 to 15 inches possible."
   },
-  "space_weather": [],
+  "space_weather": [
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4009\r\nIssue Time: 2022 Jan 29 0855 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4008\r\nValid From: 2022 Jan 28 2150 UTC\r\nNow Valid Until: 2022 Jan 29 1500 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+  ],
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -143,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1643443805,
+    "lastchange": 1643454605,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>..",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
