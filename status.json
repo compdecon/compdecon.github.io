@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/01/29 00:10:04 EST UTC-05:00",
-    "ext_localtime": "Sat 29 Jan 2022 12:10:04 AM EST",
+    "ext_time": "2022/01/29 03:10:05 EST UTC-05:00",
+    "ext_localtime": "Sat 29 Jan 2022 03:10:05 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,22 +101,19 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2022-01-29T00:00:00-05:00",
+    "startTime": "2022-01-29T03:00:00-05:00",
     "endTime": "2022-01-29T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 19,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "15 to 25 mph",
+    "windSpeed": "20 to 25 mph",
     "windDirection": "N",
     "icon": "https://preview-api.weather.gov/icons/land/night/blizzard,100?size=medium",
     "shortForecast": "Heavy Snow And Blowing Snow",
-    "detailedForecast": "Snow before 4am, then snow and blowing snow. Cloudy, with a low around 19. North wind 15 to 25 mph, with gusts as high as 40 mph. Chance of precipitation is 100%. New snow accumulation of 6 to 10 inches possible."
+    "detailedForecast": "Snow before 4am, then snow and blowing snow. Cloudy, with a low around 19. North wind 20 to 25 mph, with gusts as high as 40 mph. Chance of precipitation is 100%. New snow accumulation of 3 to 7 inches possible."
   },
-  "space_weather": [
-    "Space Weather Message Code: ALTK04\r\nSerial Number: 2266\r\nIssue Time: 2022 Jan 28 2205 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 Jan 28 2205 UTC\r\nSynoptic Period: 2100-2400 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4008\r\nIssue Time: 2022 Jan 28 2149 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Jan 28 2150 UTC\r\nValid To: 2022 Jan 29 0900 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
-  ],
+  "space_weather": [],
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -146,7 +143,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1643433004,
+    "lastchange": 1643443805,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>..",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
