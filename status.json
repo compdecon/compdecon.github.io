@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/01/31 11:29:25 EST UTC-05:00",
-    "ext_localtime": "Mon 31 Jan 2022 11:29:25 AM EST",
+    "ext_time": "2022/01/31 12:10:04 EST UTC-05:00",
+    "ext_localtime": "Mon 31 Jan 2022 12:10:04 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,18 +100,18 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2022-01-31T09:00:00-05:00",
+    "name": "This Afternoon",
+    "startTime": "2022-01-31T12:00:00-05:00",
     "endTime": "2022-01-31T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 31,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 mph",
-    "windDirection": "N",
+    "windDirection": "NE",
     "icon": "https://preview-api.weather.gov/icons/land/day/bkn?size=medium",
-    "shortForecast": "Partly Sunny",
-    "detailedForecast": "Partly sunny, with a high near 31. North wind around 5 mph."
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": "Mostly cloudy, with a high near 31. Northeast wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3194\r\nIssue Time: 2022 Jan 31 1132 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2022 Jan 31 1110 UTC\r\nStation: GOES16\r\n \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
@@ -146,7 +146,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1643646565,
+    "lastchange": 1643649004,
     "message": "Sorry, we are closed today due to the snow  but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>..",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
