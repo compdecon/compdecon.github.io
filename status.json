@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/01/30 18:10:04 EST UTC-05:00",
-    "ext_localtime": "Sun 30 Jan 2022 06:10:04 PM EST",
+    "ext_time": "2022/01/30 23:55:05 EST UTC-05:00",
+    "ext_localtime": "Sun 30 Jan 2022 11:55:05 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 16
+        "value": 14
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2022-01-30T18:00:00-05:00",
+    "startTime": "2022-01-30T21:00:00-05:00",
     "endTime": "2022-01-31T06:00:00-05:00",
     "isDaytime": false,
-    "temperature": 16,
+    "temperature": 14,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 mph",
     "windDirection": "NW",
     "icon": "https://preview-api.weather.gov/icons/land/night/bkn?size=medium",
     "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a low around 16. Northwest wind around 5 mph."
+    "detailedForecast": "Mostly cloudy, with a low around 14. Northwest wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WATA30\r\nSerial Number: 198\r\nIssue Time: 2022 Jan 30 2054 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G2 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nJan 31:  None (Below G1)   Feb 01:  None (Below G1)   Feb 02:  G2 (Moderate)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
@@ -147,8 +147,8 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1643584204,
-    "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "lastchange": 1643604905,
+    "message": "We will be open from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
     "blogUpdate": "(Title: CDL Microcontroller Monday - 2021-12-27 - Updated: Dec. 27, 2021)",
