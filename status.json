@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/02/02 18:10:05 EST UTC-05:00",
-    "ext_localtime": "Wed 02 Feb 2022 06:10:05 PM EST",
+    "ext_time": "2022/02/02 21:10:04 EST UTC-05:00",
+    "ext_localtime": "Wed 02 Feb 2022 09:10:04 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 37
+        "value": 39
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2022-02-02T18:00:00-05:00",
+    "startTime": "2022-02-02T21:00:00-05:00",
     "endTime": "2022-02-03T06:00:00-05:00",
     "isDaytime": false,
-    "temperature": 37,
+    "temperature": 39,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "0 to 5 mph",
     "windDirection": "S",
     "icon": "https://preview-api.weather.gov/icons/land/night/fog?size=medium",
     "shortForecast": "Areas Of Fog",
-    "detailedForecast": "Areas of fog. Cloudy, with a low around 37. South wind 0 to 5 mph."
+    "detailedForecast": "Areas of fog. Cloudy, with a low around 39. South wind 0 to 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WATA30\r\nSerial Number: 200\r\nIssue Time: 2022 Feb 02 1914 UTC\r\n\r\nCANCEL WATCH: Geomagnetic Storm Category G2 Predicted\r\nCancel Serial Number: 199\r\nOriginal Issue Time: 2022 Jan 31 1954 UTC\r\n\r\nComment: Cancelling the G2 (Moderate) watch for 2 Feb and the G1 Watch for 3 Feb. No watches are now in effect.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1643843405,
+    "lastchange": 1643854204,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
