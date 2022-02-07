@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/02/07 00:10:04 EST UTC-05:00",
-    "ext_localtime": "Mon 07 Feb 2022 12:10:04 AM EST",
+    "ext_time": "2022/02/07 03:10:05 EST UTC-05:00",
+    "ext_localtime": "Mon 07 Feb 2022 03:10:05 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 25
+        "value": 23
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2022-02-07T00:00:00-05:00",
+    "startTime": "2022-02-07T03:00:00-05:00",
     "endTime": "2022-02-07T06:00:00-05:00",
     "isDaytime": false,
-    "temperature": 25,
+    "temperature": 23,
     "temperatureUnit": "F",
     "temperatureTrend": "rising",
-    "windSpeed": "0 to 5 mph",
-    "windDirection": "NE",
-    "icon": "https://preview-api.weather.gov/icons/land/night/ovc,30?size=medium",
+    "windSpeed": "5 mph",
+    "windDirection": "N",
+    "icon": "https://preview-api.weather.gov/icons/land/night/snow,50?size=medium",
     "shortForecast": "Chance Freezing Drizzle",
-    "detailedForecast": "A chance of freezing drizzle after 2am. Cloudy. Low around 25, with temperatures rising to around 32 overnight. Northeast wind 0 to 5 mph. Chance of precipitation is 30%."
+    "detailedForecast": "A chance of freezing drizzle and a slight chance of snow before 4am, then a chance of snow and a chance of freezing drizzle. Cloudy. Low around 23, with temperatures rising to around 32 overnight. North wind around 5 mph. Chance of precipitation is 50%. Little or no ice accumulation expected."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3199\r\nIssue Time: 2022 Feb 07 0459 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3198\r\nBegin Time: 2022 Feb 04 1310 UTC\r\nYesterday Maximum 2MeV Flux: 4443 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1644210604,
+    "lastchange": 1644221405,
     "message": "We will be open from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
