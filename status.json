@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/02/09 15:10:01 EST UTC-05:00",
-    "ext_localtime": "Wed 09 Feb 2022 03:10:01 PM EST",
+    "ext_time": "2022/02/09 18:10:02 EST UTC-05:00",
+    "ext_localtime": "Wed 09 Feb 2022 06:10:02 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,26 +94,29 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 46
+        "value": 34
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2022-02-09T15:00:00-05:00",
-    "endTime": "2022-02-09T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 46,
+    "name": "Tonight",
+    "startTime": "2022-02-09T18:00:00-05:00",
+    "endTime": "2022-02-10T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 34,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "10 mph",
+    "windSpeed": "5 mph",
     "windDirection": "S",
-    "icon": "https://preview-api.weather.gov/icons/land/day/few?size=medium",
-    "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 46. South wind around 10 mph."
+    "icon": "https://preview-api.weather.gov/icons/land/night/few?size=medium",
+    "shortForecast": "Mostly Clear",
+    "detailedForecast": "Mostly clear, with a low around 34. South wind around 5 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: SUMSUD\r\nSerial Number: 234\r\nIssue Time: 2022 Feb 09 2140 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse\r\nObserved: 2022 Feb 09 2100 UTC\r\nDeviation: 12 nT\r\nStation: BOU\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4024\r\nIssue Time: 2022 Feb 09 2029 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Feb 09 2045 UTC\r\nValid To: 2022 Feb 10 0600 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARSUD\r\nSerial Number: 187\r\nIssue Time: 2022 Feb 09 2026 UTC\r\n\r\nWARNING: Geomagnetic Sudden Impulse expected\r\nValid From: 2022 Feb 09 2040 UTC\r\nValid To: 2022 Feb 09 2140 UTC\r\nIP Shock Passage Observed: 2022 Feb 09 2010 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3201\r\nIssue Time: 2022 Feb 09 0501 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3200\r\nBegin Time: 2022 Feb 04 1310 UTC\r\nYesterday Maximum 2MeV Flux: 11397 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
   ],
   "contact": {
@@ -145,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1644437401,
+    "lastchange": 1644448202,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": "Testing, testing, is this thing on ... ;-).",
