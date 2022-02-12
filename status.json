@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/02/12 15:10:01 EST UTC-05:00",
-    "ext_localtime": "Sat 12 Feb 2022 03:10:01 PM EST",
+    "ext_time": "2022/02/12 18:10:01 EST UTC-05:00",
+    "ext_localtime": "Sat 12 Feb 2022 06:10:01 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,26 +94,27 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 61
+        "value": 30
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2022-02-12T15:00:00-05:00",
-    "endTime": "2022-02-12T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 61,
+    "name": "Tonight",
+    "startTime": "2022-02-12T18:00:00-05:00",
+    "endTime": "2022-02-13T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 30,
     "temperatureUnit": "F",
-    "temperatureTrend": "falling",
-    "windSpeed": "10 to 15 mph",
-    "windDirection": "W",
-    "icon": "https://preview-api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny. High near 61, with temperatures falling to around 53 in the afternoon. West wind 10 to 15 mph."
+    "temperatureTrend": null,
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "NW",
+    "icon": "https://preview-api.weather.gov/icons/land/night/rain,20/snow,90?size=medium",
+    "shortForecast": "Chance Light Rain then Rain And Snow",
+    "detailedForecast": "A chance of rain between 11pm and 2am, then rain and snow. Cloudy, with a low around 30. Northwest wind 5 to 10 mph. Chance of precipitation is 90%. New snow accumulation of 1 to 2 inches possible."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4031\r\nIssue Time: 2022 Feb 12 2016 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Feb 12 2016 UTC\r\nValid To: 2022 Feb 13 0600 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: ALTTP4\r\nSerial Number: 562\r\nIssue Time: 2022 Feb 12 0936 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2022 Feb 12 0847 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1114\r\nIssue Time: 2022 Feb 12 0849 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Feb 12 0833 UTC\r\nEstimated Velocity: 642 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 4030\r\nIssue Time: 2022 Feb 12 0555 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4029\r\nValid From: 2022 Feb 10 1400 UTC\r\nNow Valid Until: 2022 Feb 12 1200 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
@@ -147,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1644696601,
+    "lastchange": 1644707401,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": "Saturday 2/12, we'll be working on the network.",
