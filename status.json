@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/02/12 23:55:05 EST UTC-05:00",
-    "ext_localtime": "Sat 12 Feb 2022 11:55:05 PM EST",
+    "ext_time": "2022/02/13 00:10:05 EST UTC-05:00",
+    "ext_localtime": "Sun 13 Feb 2022 12:10:05 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2022-02-12T21:00:00-05:00",
+    "name": "Overnight",
+    "startTime": "2022-02-13T00:00:00-05:00",
     "endTime": "2022-02-13T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 30,
@@ -109,15 +109,13 @@
     "temperatureTrend": null,
     "windSpeed": "5 mph",
     "windDirection": "N",
-    "icon": "https://preview-api.weather.gov/icons/land/night/rain,20/snow,90?size=medium",
-    "shortForecast": "Chance Light Rain then Rain And Snow",
-    "detailedForecast": "A chance of rain between 11pm and 2am, then rain and snow. Cloudy, with a low around 30. North wind around 5 mph. Chance of precipitation is 90%. New snow accumulation of 1 to 2 inches possible."
+    "icon": "https://preview-api.weather.gov/icons/land/night/snow,80?size=medium",
+    "shortForecast": "Rain And Snow",
+    "detailedForecast": "A chance of rain before 2am, then rain and snow. Cloudy, with a low around 30. North wind around 5 mph. Chance of precipitation is 80%. New snow accumulation of 1 to 2 inches possible."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4031\r\nIssue Time: 2022 Feb 12 2016 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Feb 12 2016 UTC\r\nValid To: 2022 Feb 13 0600 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: ALTTP4\r\nSerial Number: 562\r\nIssue Time: 2022 Feb 12 0936 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2022 Feb 12 0847 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1114\r\nIssue Time: 2022 Feb 12 0849 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Feb 12 0833 UTC\r\nEstimated Velocity: 642 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4030\r\nIssue Time: 2022 Feb 12 0555 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4029\r\nValid From: 2022 Feb 10 1400 UTC\r\nNow Valid Until: 2022 Feb 12 1200 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1115\r\nIssue Time: 2022 Feb 13 0310 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Feb 13 0218 UTC\r\nEstimated Velocity: 547 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2271\r\nIssue Time: 2022 Feb 13 0227 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 Feb 13 0224 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -148,7 +146,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1644728105,
+    "lastchange": 1644729005,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
