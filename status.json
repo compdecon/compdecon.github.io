@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/02/13 06:10:04 EST UTC-05:00",
-    "ext_localtime": "Sun 13 Feb 2022 06:10:04 AM EST",
+    "ext_time": "2022/02/13 09:10:04 EST UTC-05:00",
+    "ext_localtime": "Sun 13 Feb 2022 09:10:04 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2022-02-13T06:00:00-05:00",
+    "startTime": "2022-02-13T09:00:00-05:00",
     "endTime": "2022-02-13T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 33,
@@ -114,6 +114,7 @@
     "detailedForecast": "Snow. Cloudy, with a high near 33. North wind 5 to 10 mph. Chance of precipitation is 90%. New snow accumulation of 1 to 2 inches possible."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3204\r\nIssue Time: 2022 Feb 13 1321 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2022 Feb 13 1300 UTC\r\nStation: GOES16\r\n \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 4032\r\nIssue Time: 2022 Feb 13 0556 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4031\r\nValid From: 2022 Feb 12 2016 UTC\r\nNow Valid Until: 2022 Feb 13 0900 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1115\r\nIssue Time: 2022 Feb 13 0310 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Feb 13 0218 UTC\r\nEstimated Velocity: 547 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2271\r\nIssue Time: 2022 Feb 13 0227 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 Feb 13 0224 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
@@ -147,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1644750604,
+    "lastchange": 1644761404,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
