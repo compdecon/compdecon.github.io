@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/02/14 03:10:05 EST UTC-05:00",
-    "ext_localtime": "Mon 14 Feb 2022 03:10:05 AM EST",
+    "ext_time": "2022/02/14 06:10:05 EST UTC-05:00",
+    "ext_localtime": "Mon 14 Feb 2022 06:10:05 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 18
+        "value": 28
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2022-02-14T03:00:00-05:00",
-    "endTime": "2022-02-14T06:00:00-05:00",
-    "isDaytime": false,
-    "temperature": 18,
+    "name": "Today",
+    "startTime": "2022-02-14T06:00:00-05:00",
+    "endTime": "2022-02-14T18:00:00-05:00",
+    "isDaytime": true,
+    "temperature": 28,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "10 mph",
+    "windSpeed": "15 mph",
     "windDirection": "NW",
-    "icon": "https://preview-api.weather.gov/icons/land/night/sct?size=medium",
-    "shortForecast": "Partly Cloudy",
-    "detailedForecast": "Partly cloudy, with a low around 18. Northwest wind around 10 mph."
+    "icon": "https://preview-api.weather.gov/icons/land/day/sct?size=medium",
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny, with a high near 28. Northwest wind around 15 mph, with gusts as high as 30 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3205\r\nIssue Time: 2022 Feb 14 0516 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3204\r\nBegin Time: 2022 Feb 13 1300 UTC\r\nYesterday Maximum 2MeV Flux: 5220 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1644826205,
+    "lastchange": 1644837005,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
