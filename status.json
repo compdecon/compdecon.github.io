@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/02/17 18:10:01 EST UTC-05:00",
-    "ext_localtime": "Thu 17 Feb 2022 06:10:01 PM EST",
+    "ext_time": "2022/02/17 21:10:01 EST UTC-05:00",
+    "ext_localtime": "Thu 17 Feb 2022 09:10:01 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,19 +101,20 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2022-02-17T18:00:00-05:00",
+    "startTime": "2022-02-17T21:00:00-05:00",
     "endTime": "2022-02-18T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 51,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "15 to 30 mph",
+    "windSpeed": "20 to 30 mph",
     "windDirection": "S",
     "icon": "https://preview-api.weather.gov/icons/land/night/rain_showers,60/tsra,100?size=medium",
-    "shortForecast": "Patchy Fog then Showers And Thunderstorms",
-    "detailedForecast": "Patchy fog before 8pm, then patchy fog and a slight chance of rain showers between 8pm and 9pm, then rain showers likely and patchy fog between 9pm and 1am, then showers and thunderstorms. Mostly cloudy, with a low around 51. South wind 15 to 30 mph, with gusts as high as 50 mph. Chance of precipitation is 100%. New rainfall amounts between a quarter and half of an inch possible."
+    "shortForecast": "Showers And Thunderstorms",
+    "detailedForecast": "Rain showers likely and patchy fog before 1am, then showers and thunderstorms. Cloudy, with a low around 51. South wind 20 to 30 mph, with gusts as high as 50 mph. Chance of precipitation is 100%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: WATA20\r\nSerial Number: 909\r\nIssue Time: 2022 Feb 17 2346 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nFeb 18:  None (Below G1)   Feb 19:  None (Below G1)   Feb 20:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3208\r\nIssue Time: 2022 Feb 17 1618 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3207\r\nBegin Time: 2022 Feb 13 1300 UTC\r\nYesterday Maximum 2MeV Flux: 9022 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
   ],
   "contact": {
@@ -145,7 +146,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1645139401,
+    "lastchange": 1645150201,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": "<span style=\"background-color: yellow; font-weight: bold\">&nbspCDL will be attending the <a href=\"https://vcfed.org/wp/vcf-swap-meet/\">VCF Swap Meet</a> on Sat, Feb 26<sup>th</sup>&nbsp</span>.",
