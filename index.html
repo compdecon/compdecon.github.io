@@ -6,22 +6,24 @@
 <!-- -*- mode: html; fill-column: 96; mode: auto-fill; -*- -->
 
    <meta charset="UTF-8">
- 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
    <meta name="MSSmartTagsPreventParsing" content="true" />
    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
    <meta http-equiv="Cache-Control" content="must-revalidate"/>
    <meta name="keywords" content="CDL, Computer Deconstruction Lab, Podcast, NJ Podcast, Makerspace, Hackerspace, NJ Makerspace, NJ Hackerspace, NJ Makerspaces, NJ Hackerspaces, Makerspaces in NJ, Hackerspaces in NJ, Institute for eXploratory Research, IXR, The Jersey Shore Makerspace"/>
    <meta name="description" content="CDL - Computer Deconstruction Lab Podcast and Makerspace"/>
-   <meta name="Copyright" content="Copyright (c) 2021 Neil Cherry, All rights reserved." />
+   <meta name="Copyright" content="Copyright (c) 2022 Neil Cherry, All rights reserved." />
 
-   <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
-   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
-
-   <link rel="stylesheet" id="wp-block-library-css" href="css/style.min.css" type="text/css" media="all">
+   <link rel="icon" href="./images/favicon.ico" type="image/x-icon"/>
+   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon"/>
 
    <title>CDL - Computer Deconstruction Lab Podcast and Makerspace</title>
 
-<style type="text/css">
+   <style type="text/css">
+     body {
+        max-width: 100%;
+     }
     /* Yes it's off but this pulls it up over the line and not below the line. */
     .mail {
        border:0; /* */
@@ -31,8 +33,14 @@
     table {
         border: 1px solid black;
     }
-    td.middle {
-        vertical-align: middle;
+    /* Simplified version of Bootstrap's responsive table CSS */
+    .table-responsive {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+    .table-responsive > table {
+        width: 100%;
     }
     /* dk green - 5e8067 */
     /* lt green - cfdaba */
@@ -73,9 +81,22 @@
         margin-bottom: 55px;
         padding-left: 5em;
     }
-    txtwidget {
-        /* border: 1px solid black; /* */
-        padding-left:2em;
+    /* Catch all */
+    img, embed, object, video {
+        max-width: 100%;
+    }
+    /* Browser specific (not valid) styles to make preformatted text wrap */
+    pre {
+       white-space: pre-wrap;       /* css-3 */
+       white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+       white-space: -pre-wrap;      /* Opera 4-6 */
+       white-space: -o-pre-wrap;    /* Opera 7 */
+       word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    }
+    .myIcon {
+        width:48px;
+        height:48px;
+        padding-right: 24px;
     }
 </style>
 <script>
@@ -90,7 +111,7 @@
           document.getElementById("sign").alt   = "Open for business";
           document.getElementById("sign").title = "Open for business";
       } else {
-          document.getElementById("sign").src = "./images/Closed-sign.png";
+          document.getElementById("sign").src   = "./images/Closed-sign.png";
           document.getElementById("sign").alt   = "Closed for the day";
           document.getElementById("sign").title = "Closed for the day";
       }
@@ -142,7 +163,7 @@
       */
       if(lastUpdate != weather.startTime) {
           lastUpdate = weather.startTime;
-          document.getElementById("weatherDiv").innerHTML = '<table><tr><td><img src="' + weather.icon + '" alt=""></td><td style="font-size: 120%">' + weather.detailedForecast + '(' + weather.startTime + ')' + '</td></tr></table>';
+          document.getElementById("weatherDiv").innerHTML = '<div class="table-responsive"><table class="table"><tr><td width="20%" height="auto"><img width="100%" height="auto" src="' + weather.icon + '" alt="" width="20%" height="auto"></td><td style="font-size: 120%">' + weather.detailedForecast + '(' + weather.startTime + ')' + '</td></tr></table>';
       } 
   }
 
@@ -278,20 +299,21 @@
 
 </head>
 <body class="myBody">
-<div id="page" class="hfeed site">
-  <table class="myBannerT">
+  <div id="page" class="hfeed site">
+    <div class="table-responsive">
+      <table class="myBannerT table">
     <tr>
-      <td>
+      <td class="xLeft">
         <a href="https://compdecon.org/" title="CDL - Computer Deconstruction Lab" target="_blank">
           <img src="./images/CDL-Logo-green.png" title="Computer Deconstruction Laboratory - The Jersey Shore Makerspace"
                alt="Computer Deconstruction Laboratory - The Jersey Shore Makerspace"/>
         </a>
       </td>
-      <td>
+      <td class="xMiddle">
         <!-- h1>CDL - Computer Deconstruction Lab Podcast studio and Makerspace</h1 -->
-        <h1>Computer Deconstruction Laboratory - The Jersey Shore Makerspace</h1>
+        Computer Deconstruction Laboratory - The Jersey Shore Makerspace
       </td>
-      <td class="middle">
+      <td class="xRight">
         <img id="sign" src="./images/Closed-sign.png" title="Closed for the day" alt="Closed for the day"/>
       </td>
     </tr>
@@ -335,8 +357,10 @@
 
   <p>    
     <a href="./images/CDL-front.jpg" target="_blank" id="frontDoorHref">
-      <img loading="lazy" src="./images/CDL-front.jpg" alt="Picture of CDL/IXR Building"
+      <!-- img loading="lazy" src="./images/CDL-front.jpg" alt="Picture of CDL/IXR Building"
            width="640" height="480" title="CDL/IXR front door at night, larger image opens in a new tab" class="center" id="frontDoorImg"> <!-- width="1000" height="667" -->
+      <img loading="lazy" src="./images/CDL-front.jpg" alt="Picture of CDL/IXR Building"
+           width="100%" height="auto" title="CDL/IXR front door at night, larger image opens in a new tab" class="center" id="frontDoorImg"> <!-- width="1000" height="667" -->
     </a>
   </p>
 
@@ -355,8 +379,10 @@
 
     <p>
       <a href="./images/homepage_02.jpg" target="_blank">
+        <!-- img loading="lazy" src="./images/homepage_02.jpg" alt="Picture of CDL/IXR Lab"
+             width="1000" height="667"  title="Picture of CDL/IXR Lab, larger image opens in a new tab" class="center" -->
         <img loading="lazy" src="./images/homepage_02.jpg" alt="Picture of CDL/IXR Lab"
-             width="1000" height="667"  title="Picture of CDL/IXR Lab, larger image opens in a new tab" class="center">
+             width="100%" height="auto"  title="Picture of CDL/IXR Lab, larger image opens in a new tab" class="center">
       </a>
     </p>
 
@@ -369,8 +395,10 @@
 
     <p>
       <a href="https://compdecon.org/studio/" target="_blank">
+        <!-- img loading="lazy" src="./images/studio_04_19_2021.jpg" alt="Picture of the CDL Podcast Studio"
+             width="1000" height="667"  title="Picture of CDL/IXR Podcast Studio" class="center" -->
         <img loading="lazy" src="./images/studio_04_19_2021.jpg" alt="Picture of the CDL Podcast Studio"
-             width="1000" height="667"  title="Picture of CDL/IXR Podcast Studio" class="center">
+             width="100%" height="auto"  title="Picture of CDL/IXR Podcast Studio" class="center">
       </a>
     </p>
 
@@ -378,8 +406,10 @@
 
     <p>
       <a href="./images/Classroom.jpg" target="_blank">
+        <!-- img loading="lazy" src="./images/Classroom.jpg" alt="Picture of the CDL Classroom"
+             width="1000" height="667"  title="Picture of CDL/IXR Podcast Studio" class="center" -->
         <img loading="lazy" src="./images/Classroom.jpg" alt="Picture of the CDL Classroom"
-             width="1000" height="667"  title="Picture of CDL/IXR Podcast Studio" class="center">
+             width="100%" height="auto"  title="Picture of CDL/IXR Podcast Studio" class="center">
       </a>
     </p>
 
@@ -421,59 +451,59 @@
         <div class="sidebar-column col-md-12">
 	  <aside id="simple-social-icons-2" class="widget simple-social-icons">
             <ul class="alignleft" style="inline-style-type:none;">
-              <li class="ssi-email" style="display: inline-block;padding-right: 1em">
+              <li class="ssi-email" style="display: inline-block;">
                 <a href="mailto:cdl@compdecon.org" target="_blank">
-                  <svg role="img" class="social-email" aria-labelledby="social-email-2" style="width:72px;height:72px;">
+                  <svg class="myIcon" role="img" class="social-email" aria-labelledby="social-email-2">
                     <title id="social-email-2">Email</title>
                     <use xlink:href="./svg/symbol-defs.svg#social-email"></use>
                   </svg>
                 </a>
               </li>
-              <li class="ssi-github" style="display: inline-block;padding-right: 1em">
+              <li class="ssi-github" style="display: inline-block;">
                 <a href="https://github.com/compdecon" target="_blank">
-                  <svg role="img" class="social-github" aria-labelledby="social-github-2" style="width:72px;height:72px;">
+                  <svg class="myIcon" role="img" class="social-github" aria-labelledby="social-github-2">
                     <title id="social-github">Github</title>
                     <use xlink:href="./svg/symbol-defs.svg#social-github"></use>
                   </svg>
                 </a>
               </li>
-              <li class="ssi-facebook" style="display: inline-block;padding-right: 1em">
+              <li class="ssi-facebook" style="display: inline-block;">
                 <a href="https://www.facebook.com/compdecon/" target="_blank">
-                  <svg role="img" class="social-facebook" aria-labelledby="social-facebook-2" style="width:72px;height:72px;">
+                  <svg class="myIcon" role="img" class="social-facebook" aria-labelledby="social-facebook-2">
                     <title id="social-facebook-2">Facebook</title>
                     <use xlink:href="./svg/symbol-defs.svg#social-facebook"></use>
                   </svg>
                 </a>
               </li>
-              <li class="ssi-gplus" style="display: inline-block;padding-right: 1em">
+              <li class="ssi-gplus" style="display: inline-block;">
                 <a href="https://www.google.com/maps/place/2201+Marconi+Rd,+Wall+Township,+NJ+07719/@40.1854721,-74.0596964,17.25z/data=!4m5!3m4!1s0x89c228394da0728f:0xba9aa848932b58c1!8m2!3d40.1857926!4d-74.0595842?shorturl=1" target="_blank">
-                  <svg role="img" class="social-gplus" aria-labelledby="social-gplus-2" style="width:72px;height:72px;">
+                  <svg class="myIcon" role="img" class="social-gplus" aria-labelledby="social-gplus-2">
                     <title id="social-gplus-2">Google+</title>
                     <use xlink:href="./svg/symbol-defs.svg#social-gplus"></use>
                   </svg>
                 </a>
               </li>
-              <li class="ssi-twitter" style="display: inline-block;padding-right: 1em">
+              <li class="ssi-twitter" style="display: inline-block;">
                 <a href="https://twitter.com/compdecon?lang=en" target="_blank">
-                  <svg role="img" class="social-twitter" aria-labelledby="social-twitter-2" style="width:72px;height:72px;">
+                  <svg class="myIcon" role="img" class="social-twitter" aria-labelledby="social-twitter-2">
                     <title id="social-twitter-2">Twitter</title>
                     <use xlink:href="./svg/symbol-defs.svg#social-twitter"></use>
                   </svg>
                 </a>
               </li>
 
-              <li class="ssi-instagram" style="display: inline-block;padding-right: 1em">
+              <li class="ssi-instagram" style="display: inline-block;">
                 <a href="https://www.instagram.com/compdeconlab/" target="_blank">
-                  <svg role="img" class="social-instagram" aria-labelledby="social-instagram-2" style="width:72px;height:72px;">
+                  <svg class="myIcon" role="img" class="social-instagram" aria-labelledby="social-instagram-2">
                     <title id="social-instagram">Instagram</title>
                     <use xlink:href="./svg/symbol-defs.svg#social-instagram"></use>
                   </svg>
                 </a>
               </li>
 
-              <li class="ssi-youtube" style="display: inline-block;padding-right: 1em">
+              <li class="ssi-youtube" style="display: inline-block;">
                 <a href="https://www.youtube.com/channel/UC2R27L8tMfrjCUdLClYDc8A" target="_blank">
-                  <svg role="img" class="social-youtube" aria-labelledby="social-youtube-2" style="width:72px;height:72px;">
+                  <svg class="myIcon" role="img" class="social-youtube" aria-labelledby="social-youtube-2">
                     <title id="social-youtube-2">YouTube</title>
                     <use xlink:href="./svg/symbol-defs.svg#social-youtube"></use>
                   </svg>
@@ -499,18 +529,18 @@
                 </a>
               </li>
 -->
-              <li class="ssi-bloglovin" style="display: inline-block;padding-right: 1em">
+              <li class="ssi-bloglovin" style="display: inline-block;">
                 <a href="https://compdecon.blogspot.com" target="_blank">
-                  <svg role="img" class="icon-hashtag" aria-labelledby="icon-hashtag-2" style="width:72px;height:72px;" title="Computer Deconstruction Lab Blog">
+                  <svg class="myIcon" role="img" class="icon-hashtag" aria-labelledby="icon-hashtag-2" title="Computer Deconstruction Lab Blog">
                     <title id="icon-hashtag-2">Computer Deconstruction Lab Blog</title>
                     <use xlink:href="./svg/symbol-defs.svg#icon-hashtag"></use>
                   </svg>
                 </a>
               </li>
 
-              <li class="ssi-phone" style="display: inline-block"> <!-- ;padding-right: 1em -->
+              <li class="ssi-phone" style="display: inline-block"> <!-- ;padding-right: 124px -->
                 <a href="tel:732-456-5001" target="_blank">
-                  <svg role="img" class="social-phone" aria-labelledby="social-phone-2" style="width:72px;height:72px;">
+                  <svg class="myIcon" role="img" class="social-phone" aria-labelledby="social-phone-2">
                     <title id="social-phone-2">Phone</title>
                     <use xlink:href="./svg/symbol-defs.svg#social-phone"></use>
                   </svg>
@@ -547,7 +577,7 @@
         tOut = 300000; // 300 seconds, 5 minutes
     }
     // This handles my weather stuff and hopefully adapted to deal with the sprinkler sysem
-    var url = "status.json";
+    var url = "./status.json";
 
     setSeason(); // Set the correct season image of the CDL front door.
     
