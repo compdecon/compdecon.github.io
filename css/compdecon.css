@@ -116,8 +116,11 @@ img.center {
 */
 .widget {
     position: relative;
-    margin-bottom: 4em;
-    padding-left: 5em;
+/*    margin-bottom: 0.5em; /* was 2em */
+    padding-left: 0.5em;
+}
+textWidget {
+    padding-left: 0.5em; /* was 2em */
 }
 /* Catch all */
 img, embed, object, video {
