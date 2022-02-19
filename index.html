@@ -15,98 +15,18 @@
    <meta name="description" content="CDL - Computer Deconstruction Lab Podcast and Makerspace"/>
    <meta name="Copyright" content="Copyright (c) 2022 Neil Cherry, All rights reserved." />
 
-   <link rel="icon" href="./images/favicon.ico" type="image/x-icon"/>
+   <!-- link rel="icon" href="./images/favicon.ico" type="image/x-icon"/ -->
+   <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+   <link rel="icon" type="image/png" href="./images/favicon-32x32.png" sizes="32x32">
+   <link rel="icon" type="image/png" href="./images/favicon-16x16.png" sizes="16x16">
+   <link rel="manifest" href="./images/site.webmanifest">
+
    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon"/>
+
+   <link rel="stylesheet" type="text/css" media="screen" href="css/compdecon.css" />
 
    <title>CDL - Computer Deconstruction Lab Podcast and Makerspace</title>
 
-   <style type="text/css">
-     body {
-        max-width: 100%;
-     }
-    /* Yes it's off but this pulls it up over the line and not below the line. */
-    .mail {
-       border:0; /* */
-       margin-top:-6px;
-       vertical-align:middle;8uhnb /* */
-    }
-    table {
-        border: 1px solid black;
-    }
-    /* Simplified version of Bootstrap's responsive table CSS */
-    /* https://johnfraney.ca/blog/how-to-write-responsive-html-tables/ */
-    .table-responsive {
-        display: block;
-        width: 100%;
-        overflow-x: auto;
-    }
-    .table-responsive > table {
-        width: 100%;
-    }
-    /* dk green - 5e8067 */
-    /* lt green - cfdaba */
-    .myBody {
-        background: #cfdaba;
-        color: black;
-        font-size: 120%;
-    }
-    .myBannerT {
-        background: #5e8067;
-        color: #cfdaba;
-        width: 100%;
-    }
-    .myBanner {
-        background: #5e8067;
-        color: #cfdaba;
-        /*clear: both; /* */
-    }
-    .myLogo {
-        background: #5e8067;
-        color: #cfdaba;
-        float: left; /* */
-        margin-right: .5em;
-    }
-    .myButton {
-        background: #cfdaba;
-        color: #5e8067;
-        vertical-align: middle;
-        height: auto;
-        border: 0;
-    }
-    .myTitle {
-        background: #5e8067;
-        color: #cfdaba;
-        margin-right: .5em;
-    }
-    img.center {
-        display: block;
-        margin: 0 auto;
-        border: 1px solid black;
-    }
-
-    widget {
-        position: relative;
-        margin-bottom: 55px;
-        padding-left: 5em;
-    }
-    /* Catch all */
-    img, embed, object, video {
-        max-width: 100%;
-    }
-    /* Browser specific (not valid) styles to make preformatted text wrap */
-    pre {
-       white-space: pre-wrap;       /* css-3 */
-       white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-       white-space: -pre-wrap;      /* Opera 4-6 */
-       white-space: -o-pre-wrap;    /* Opera 7 */
-       word-wrap: break-word;       /* Internet Explorer 5.5+ */
-    }
-    .myIcon {
-        width:48px;
-        height:48px;
-        padding-right: 24px;
-    }
-</style>
 </head>
 <body class="myBody">
   <div id="page" class="hfeed site">
@@ -114,7 +34,7 @@
       <table class="myBannerT table">
     <tr>
       <td class="xLeft">
-        <a href="https://compdecon.org/" title="CDL - Computer Deconstruction Lab" target="_blank">
+        <a href="https://compdecon.org/" title="CDL - Computer Deconstruction Lab">
           <img src="./images/CDL-Logo-green.png" title="Computer Deconstruction Laboratory - The Jersey Shore Makerspace"
                alt="Computer Deconstruction Laboratory - The Jersey Shore Makerspace"/>
         </a>
@@ -151,7 +71,7 @@
     <p>Weather currently not available</p>
   </div>
 
-  <button class="myButton" onclick="toggleDiv()"><h1 style="font-size: 300%;"><img id="spaceButton" src="./images/more.jpg" style="float: left;"> &nbsp; Space Weather</h1></button>
+  <button class="myButton" onclick="toggleDiv()"><h1 style="font-size: 300%;"><img id="spaceButton" src="./images/more.jpg" alt="Resize button" style="float: left;"> &nbsp; Space Weather</h1></button>
   <div id="spaceOuter" style="border: thick double;">
     <div id="space_weatherDiv">
     </div>
@@ -168,9 +88,9 @@
   </div>
 
   <p>    
-    <a href="./images/CDL-front.jpg" target="_blank" id="frontDoorHref">
-      <img loading="lazy" src="./images/CDL-front.jpg" alt="Picture of CDL/IXR Building"
-           width="100%" height="auto" title="CDL/IXR front door at night, larger image opens in a new tab" class="center" id="frontDoorImg">
+    <a href="./images/CDL-front.jpg" id="frontDoorHref">
+      <img loading="lazy" src="./images/CDL-front-a.jpg" alt="Picture of CDL/IXR Building"
+           title="CDL/IXR front door at night, larger image opens in a new tab" class="center" id="frontDoorImg">
     </a>
   </p>
 
@@ -184,13 +104,13 @@
     <p> There will be more here as the membership grows. </p>
 
     <ul>
-      <li><a href="https://github.com/compdecon/smarthome" target="_blank" title="The Smart Home demo board. Opens a new tab.">Smart Home Project</a> - Various Smart Home Technology used in the <abbr title="Institute for Exporitory Research">IXR</abbr> lab.</li>
+      <li><a href="https://github.com/compdecon/smarthome" title="The Smart Home demo board. Opens a new tab.">Smart Home Project</a> - Various Smart Home Technology used in the <abbr title="Institute for Exporitory Research">IXR</abbr> lab.</li>
     </ul>
 
     <p>
-      <a href="./images/lab-20220214.jpg" target="_blank">
-        <img loading="lazy" src="./images/lab-20220214.jpg" alt="Picture of CDL/IXR Lab"
-             width="100%" height="auto"  title="Picture of CDL/IXR Lab, larger image opens in a new tab" class="center">
+      <a href="./images/lab-20220214.jpg">
+        <img loading="lazy" src="./images/lab-20220214-a.jpg" alt="Picture of CDL/IXR Lab"
+             title="Picture of CDL/IXR Lab, larger image opens in a new tab" class="center">
       </a>
     </p>
 
@@ -202,18 +122,18 @@
     </p>
 
     <p>
-      <a href="https://compdecon.org/studio/" target="_blank">
-        <img loading="lazy" src="./images/studio_04_19_2021.jpg" alt="Picture of the CDL Podcast Studio"
-             width="100%" height="auto"  title="Picture of CDL/IXR Podcast Studio" class="center">
+      <a href="https://compdecon.org/studio/">
+        <img loading="lazy" src="./images/studio_04_19_2021-a.jpg" alt="Picture of the CDL Podcast Studio"
+             title="Picture of CDL/IXR Podcast Studio" class="center">
       </a>
     </p>
 
     <p>The CDL Podcast Studio. A complete podcast studio. We have upgrade various equipment but I don't have pictures yet. Someday I hope to have a makerspace podcast running.</p>
 
     <p>
-      <a href="./images/Classroom.jpg" target="_blank">
-        <img loading="lazy" src="./images/Classroom.jpg" alt="Picture of the CDL Classroom"
-             width="100%" height="auto"  title="Picture of CDL/IXR Podcast Studio" class="center">
+      <a href="./images/Classroom.jpg">
+        <img loading="lazy" src="./images/Classroom-a.jpg" alt="Picture of the CDL Classroom"
+             title="Picture of CDL/IXR Podcast Studio" class="center">
       </a>
     </p>
 
@@ -227,7 +147,7 @@
 
     <ul>
       <li><a href="projects.html">Projects</a></li>
-      <li><a href="https://compdecon.blogspot.com/" target="_blank">The Comp Decon Lab Blog</a> <span id="blogUpdate" style="display:inline"></span></li>
+      <li><a href="https://compdecon.blogspot.com/">The Comp Decon Lab Blog</a> <span id="blogUpdate" style="display:inline"></span></li>
       <li><a href="http://compdecon.org/">Official Computer Deconstruction Lab</a></li>
       <li><a href="http://compdecon.org/about/">About</a></li>
       <li><a href="http://compdecon.org/direction/">Direction</a></li>
@@ -248,7 +168,7 @@
 	  <aside id="simple-social-icons-2" class="widget simple-social-icons">
             <ul class="alignleft" style="inline-style-type:none;">
               <li class="ssi-email" style="display: inline-block;">
-                <a href="mailto:cdl@compdecon.org" target="_blank">
+                <a href="mailto:cdl@compdecon.org">
                   <svg class="myIcon" role="img" class="social-email" aria-labelledby="social-email-2">
                     <title id="social-email-2">Email</title>
                     <use xlink:href="./svg/symbol-defs.svg#social-email"></use>
@@ -256,7 +176,7 @@
                 </a>
               </li>
               <li class="ssi-github" style="display: inline-block;">
-                <a href="https://github.com/compdecon" target="_blank">
+                <a href="https://github.com/compdecon">
                   <svg class="myIcon" role="img" class="social-github" aria-labelledby="social-github-2">
                     <title id="social-github">Github</title>
                     <use xlink:href="./svg/symbol-defs.svg#social-github"></use>
@@ -264,7 +184,7 @@
                 </a>
               </li>
               <li class="ssi-facebook" style="display: inline-block;">
-                <a href="https://www.facebook.com/compdecon/" target="_blank">
+                <a href="https://www.facebook.com/compdecon/">
                   <svg class="myIcon" role="img" class="social-facebook" aria-labelledby="social-facebook-2">
                     <title id="social-facebook-2">Facebook</title>
                     <use xlink:href="./svg/symbol-defs.svg#social-facebook"></use>
@@ -272,7 +192,7 @@
                 </a>
               </li>
               <li class="ssi-gplus" style="display: inline-block;">
-                <a href="https://www.google.com/maps/place/2201+Marconi+Rd,+Wall+Township,+NJ+07719/@40.1854721,-74.0596964,17.25z/data=!4m5!3m4!1s0x89c228394da0728f:0xba9aa848932b58c1!8m2!3d40.1857926!4d-74.0595842?shorturl=1" target="_blank">
+                <a href="https://www.google.com/maps/place/2201+Marconi+Rd,+Wall+Township,+NJ+07719/@40.1854721,-74.0596964,17.25z/data=!4m5!3m4!1s0x89c228394da0728f:0xba9aa848932b58c1!8m2!3d40.1857926!4d-74.0595842?shorturl=1">
                   <svg class="myIcon" role="img" class="social-gplus" aria-labelledby="social-gplus-2">
                     <title id="social-gplus-2">Google+</title>
                     <use xlink:href="./svg/symbol-defs.svg#social-gplus"></use>
@@ -280,7 +200,7 @@
                 </a>
               </li>
               <li class="ssi-twitter" style="display: inline-block;">
-                <a href="https://twitter.com/compdecon?lang=en" target="_blank">
+                <a href="https://twitter.com/compdecon?lang=en">
                   <svg class="myIcon" role="img" class="social-twitter" aria-labelledby="social-twitter-2">
                     <title id="social-twitter-2">Twitter</title>
                     <use xlink:href="./svg/symbol-defs.svg#social-twitter"></use>
@@ -289,7 +209,7 @@
               </li>
 
               <li class="ssi-instagram" style="display: inline-block;">
-                <a href="https://www.instagram.com/compdeconlab/" target="_blank">
+                <a href="https://www.instagram.com/compdeconlab/">
                   <svg class="myIcon" role="img" class="social-instagram" aria-labelledby="social-instagram-2">
                     <title id="social-instagram">Instagram</title>
                     <use xlink:href="./svg/symbol-defs.svg#social-instagram"></use>
@@ -298,7 +218,7 @@
               </li>
 
               <li class="ssi-youtube" style="display: inline-block;">
-                <a href="https://www.youtube.com/channel/UC2R27L8tMfrjCUdLClYDc8A" target="_blank">
+                <a href="https://www.youtube.com/channel/UC2R27L8tMfrjCUdLClYDc8A">
                   <svg class="myIcon" role="img" class="social-youtube" aria-labelledby="social-youtube-2">
                     <title id="social-youtube-2">YouTube</title>
                     <use xlink:href="./svg/symbol-defs.svg#social-youtube"></use>
@@ -306,7 +226,7 @@
                 </a>
               </li>
               <li class="ssi-bloglovin" style="display: inline-block;">
-                <a href="https://compdecon.blogspot.com" target="_blank">
+                <a href="https://compdecon.blogspot.com">
                   <svg class="myIcon" role="img" class="icon-hashtag" aria-labelledby="icon-hashtag-2" title="Computer Deconstruction Lab Blog">
                     <title id="icon-hashtag-2">Computer Deconstruction Lab Blog</title>
                     <use xlink:href="./svg/symbol-defs.svg#icon-hashtag"></use>
@@ -315,7 +235,7 @@
               </li>
 
               <li class="ssi-phone" style="display: inline-block"> <!-- ;padding-right: 124px -->
-                <a href="tel:732-456-5001" target="_blank">
+                <a href="tel:732-456-5001">
                   <svg class="myIcon" role="img" class="social-phone" aria-labelledby="social-phone-2">
                     <title id="social-phone-2">Phone</title>
                     <use xlink:href="./svg/symbol-defs.svg#social-phone"></use>
@@ -339,256 +259,6 @@
     </div>
   </div>
 </div>
-    <script>
-      function toggleSign(flag) {
-          // ID="sign"
-          // 1 = Open:
-          // "./images/Open-sign.png"
-          // 0 = Closed:
-          // "./images/Closed-sign.png"
-          if(flag) {
-              document.getElementById("sign").src   = "./images/Open-sign.png";
-              document.getElementById("sign").alt   = "Open for business";
-              document.getElementById("sign").title = "Open for business";
-          } else {
-              document.getElementById("sign").src   = "./images/Closed-sign.png";
-              document.getElementById("sign").alt   = "Closed for the day";
-              document.getElementById("sign").title = "Closed for the day";
-          }
-      }
-
-      function updateMsg(myId, msg) {
-          // Should cover an empty message and a '.' message
-          if(msg && msg !== ".") {
-              document.getElementById(myId).innerHTML = '<p>' + msg + '</p>';
-          } else {
-              document.getElementById(myId).innerHTML = '';
-          }
-      }
-
-      function updateBlog(myId, msg) {
-          // Should cover an empty message and a '.' message
-          if(msg && msg !== ".") {
-              document.getElementById(myId).innerHTML = msg;
-          } else {
-              document.getElementById(myId).innerHTML = '';
-          }
-      }
-
-      function lastUpdated(lastchange) {
-          if(typeof lastchange != "number") {
-              lastchange = -1;
-          }
-          document.getElementById("lastUpdateOn").innerHTML = 'UPDATE <span style="font-size: 60%;">(' + new Date(lastchange*1000) + ')</span>';
-      }
-      
-      lastUpdate = '';
-      function currentWeather(weather) {
-          /*
-            "weather": {
-            "number": 1,
-            "name": "Tonight",
-            "startTime": "2021-06-25T21:00:00-04:00",
-            "endTime": "2021-06-26T06:00:00-04:00",
-            "isDaytime": false,
-            "temperature": 67,
-            "temperatureUnit": "F",
-            "temperatureTrend": null,
-            "windSpeed": "5 to 10 mph",
-            "windDirection": "S",
-            "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-            "shortForecast": "Mostly Cloudy",
-            "detailedForecast": "Mostly cloudy, with a low around 67. South wind 5 to 10 mph."
-            },
-          */
-          if(lastUpdate != weather.startTime) {
-              lastUpdate = weather.startTime;
-              document.getElementById("weatherDiv").innerHTML = '<div class="table-responsive"><table class="table"><tr><td width="20%" height="auto"><img width="100%" height="auto" src="' + weather.icon + '" alt="" width="20%" height="auto"></td><td style="font-size: 120%">' + weather.detailedForecast + '(' + weather.startTime + ')' + '</td></tr></table>';
-          } 
-      }
-
-      function currentSpaceWeather(weather) {
-          /*
-            space_weather is a JSON array of string that are preformated
-
-            "space_weather": [
-            "Space Weather Message Code: WARK04\r\nSerial Number: 4006\r\nIssue Time: 2022 Jan 24 2127 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Jan 24 2125 UTC\r\nValid To: 2022 Jan 25 0000 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-            "Space Weather Message Code: ALTEF3\r\nSerial Number: 3193\r\nIssue Time: 2022 Jan 24 0503 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3192\r\nBegin Time: 2022 Jan 16 1445 UTC\r\nYesterday Maximum 2MeV Flux: 6126 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
-            ],
-            
-            Perhaps we can stick each string into a div with pre
-          */
-          // a = s.split(/(www.*?)$/m)
-          // s.replace(a[1], "<a href=\"" + a[1] + "\">" + a[1] + "</a>")
-          if(Array.isArray(weather)) {
-              document.getElementById("space_weatherDiv").innerHTML = '  <h1>Current Space Weather at CDL</h1><div id="space_weatherDivA" style="border: thick double; padding-left:0.5em;"></div>';
-
-              var i = 1;
-              weather.forEach(el => {
-                  var a = el.split(/(www.*?)$/m); // m - multiline
-                  var divElement = document.getElementById("space_weatherDivA");
-                  divElement.innerHTML += '<div><pre>' + el.replace(a[1], "<a href=\"https://" + a[1] + "/\" target=\"_blank\">" + a[1] + "</a>") + '</pre></div>';
-                  if(i < weather.length) {
-                      divElement.innerHTML +=  '<hr>';
-                      i++;
-                  }
-              });
-              console.log("i = " + i + "\nL = " + weather.length);
-
-          } else {
-              // debug message
-              console.log(Date.now() + ": No Spacey weather");
-          }
-      }
-      
-      function getStatus(url) {
-          fetch(url, { 
-              method: 'GET'
-          })
-              .then(function(response) { return response.json(); })
-              .then(function(json) {
-                  // use the json
-                  if(debug) console.log(Date.now());
-                  toggleSign(json.state.open);
-                  updateMsg("preUpdateDiv",  json.state.preMessage);
-                  updateMsg("updateDiv",     json.state.message);
-                  updateMsg("postUpdateDiv", json.state.postMessage);
-                  updateBlog("blogUpdate",   json.state.blogUpdate);
-                  lastUpdated(json.state.lastchange)
-                  currentWeather(json.ext_weather);
-                  currentSpaceWeather(json.space_weather);
-              });
-      }
-
-      /*
-        function myFunction() {
-        document.getElementById("myAnchor").href = "http://www.cnn.com/";
-        // document.getElementById("demo").innerHTML = "The link above now goes to www.cnn.com.";
-        }
-      */
-      function setSeason() {
-          // Need to do the math here
-          var seasonal = [
-              {
-                  "href":    "images/CDL-front.jpg",
-                  "img":     "images/CDL-front.jpg",
-                  "title":   "CDL/IXR front door at night",
-                  "comment": "default image"
-              },
-              {
-                  "href":    "",
-                  "img":     "",
-                  "title":   "",
-                  "comment": "Winter"
-              },
-              {
-                  "href":    "",
-                  "img":     "",
-                  "title":   "",
-                  "comment": "Spring"
-              },
-              {
-                  "href":    "",
-                  "img":     "",
-                  "title":   "",
-                  "comment": "Summer"
-              },
-              {
-                  "href":    "",
-                  "img":     "",
-                  "title":   "",
-                  "comment": "Fall"
-              },
-              {
-                  "href":    "",
-                  "img":     "",
-                  "title":   "",
-                  "comment": "Special 1"
-              },
-              {
-                  "href":    "",
-                  "img":     "",
-                  "title":   "",
-                  "comment": "Special 2"
-              },
-              {
-                  "href":    "",
-                  "img":     "",
-                  "title":   "",
-                  "comment": "Special 3"
-              },
-              {}
-          ];
-
-          /*
-          ** Figure out the 'season' so we can put an appropriate picture of the front
-          ** of the CDL.
-          ** 0 = default
-          ** 1 = Winter (Jan, Feb, Mar)
-          ** 2 = Spring (Apr, May, Jun)
-          ** 3 = Summer (Jul, Aug, Sep)
-          ** 4 = Fall   (Oct, Nov, Dev)
-          */
-          
-          // href tag
-          document.getElementById("frontDoorHref").href = seasonal[0].href;
-
-          // img tag
-          document.getElementById("frontDoorHref").src  = seasonal[0].img;
-          document.getElementById("frontDoorImg").title = seasonal[0].title;
-      }
-      function toggleDiv() {
-          var x = document.getElementById("space_weatherDiv");
-          var b = document.getElementById("spaceButton");
-          var o = document.getElementById("spaceOuter");
-
-          if (x.style.display === "none") {
-              console.log("Show");
-              x.style.display = "block";
-              b.src = "./images/more.jpg";
-              o.style.border = 0;
-          } else {
-              console.log("Hide");
-              x.style.display = "none";
-              b.src = "./images/less.jpg";
-              o.style.border = "thick double";
-          }
-      }
-
-      // =====================================================================================
-
-      const queryString = window.location.search;
-      console.log(queryString);
-
-      const urlParams = new URLSearchParams(queryString);
-
-      if(urlParams.has('debug')) {
-          debug = true;
-          tOut =  10000; // 10 seconds
-      } else {
-          debug = false;
-          tOut = 300000; // 300 seconds, 5 minutes
-      }
-      // This handles my weather stuff and hopefully adapted to deal with the sprinkler sysem
-      var url = "./status.json";
-
-      setSeason(); // Set the correct season image of the CDL front door.
-
-      // Toggle Space Weather off
-      document.getElementById("space_weatherDiv").style.display = "block";
-      document.getElementById("spaceButton").src = "./images/more.jpg";
-      toggleDiv();
-      
-      window.onload = function() {
-          //
-          // Need to check for really old browsers that may not have fetch
-          // support for VCF and Vintage computers
-          //
-          //xmlHttpGet(url);
-          //setInterval("xmlHttpGet(url)", 10000); // Prod set to minutes, not seconds?
-          getStatus(url);
-          setInterval("getStatus(url)", tOut); // Prod set to appropriate minutes, not seconds?
-      }
-    </script>
+<script type="text/javascript" src="js/compdecon.js"></script>
 </body>
 </html>
