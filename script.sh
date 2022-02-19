@@ -333,8 +333,8 @@ if [ $? -ne 0 ]; then
     ### Should check for errors
     ###
     git push
-else
-    echo 'No changes to report'
+#else
+    #echo 'No changes to report'
 fi
 
 exit 0
@@ -362,3 +362,12 @@ at> <^D>
 $
 
 mosquitto_pub -h "${MQTTHOST}" -p "${MQTTPORT}" -q 0 -r -t "cdl/status/preUpdateMsg" -m '<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>'
+
+###
+### Test for msg skip
+### If exists
+###    remove msg skip
+### else
+###    run update
+### fi
+test -f /tmp/cdl-msg-skip && echo "rm -rf /tmp/cdl-msg-skip" || echo "run We're Open"
