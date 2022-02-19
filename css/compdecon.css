@@ -1,0 +1,87 @@
+body {
+    max-width: 100%;
+}
+/* Yes it's off but this pulls it up over the line and not below the line. */
+.mail {
+    border:0; /* */
+    margin-top:-6px;
+    vertical-align:middle;8uhnb /* */
+}
+table {
+    border: 1px solid black;
+}
+/* Simplified version of Bootstrap's responsive table CSS */
+/* https://johnfraney.ca/blog/how-to-write-responsive-html-tables/ */
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+.table-responsive > table {
+    width: 100%;
+}
+/* dk green - 5e8067 */
+/* lt green - cfdaba */
+.myBody {
+    background: #cfdaba;
+    color: black;
+    font-size: 120%;
+}
+.myBannerT {
+    background: #5e8067;
+    color: #cfdaba;
+    width: 100%;
+}
+.myBanner {
+    background: #5e8067;
+    color: #cfdaba;
+    /*clear: both; /* */
+}
+.myLogo {
+    background: #5e8067;
+    color: #cfdaba;
+    float: left; /* */
+    margin-right: .5em;
+}
+.myButton {
+    background: #cfdaba;
+    color: #5e8067;
+    vertical-align: middle;
+    height: auto;
+    border: 0;
+}
+.myTitle {
+    background: #5e8067;
+    color: #cfdaba;
+    margin-right: .5em;
+}
+img.center {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+}
+
+widget {
+    position: relative;
+    margin-bottom: 55px;
+    padding-left: 5em;
+}
+/* Catch all */
+img, embed, object, video {
+    max-width: 100%;
+}
+/* Browser specific (not valid) styles to make preformatted text wrap */
+pre {
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+.myIcon {
+    width:48px;
+    height:48px;
+    padding-right: 24px;
+}
