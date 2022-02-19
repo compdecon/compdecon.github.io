@@ -33,6 +33,27 @@ span.Xtitle {
 380 80%
 640 100%
 890 150%
+
+<img src="flower-large.jpg" srcset="flower-small.jpg 480w, flower-large.jpg 1080w" sizes="50vw">
+<img src=""
+lab-20220214-laptop.jpg  lab-20220214-modelL.jpg  lab-20220214-modelM.jpg  lab-20220214-modelS.jpg  lab-20220214-tablet.jpg
+
+lab-20220214-laptop.jpg: JPEG image data, 1024x768
+lab-20220214-modelL.jpg: JPEG image data, 430x323
+lab-20220214-modelM.jpg: JPEG image data, 379x284
+lab-20220214-modelS.jpg: JPEG image data, 328x246
+lab-20220214-tablet.jpg: JPEG image data, 768x576
+
+convert -resize 33% flower.jpg flower-small.jpg
+# macOS/Linux
+convert flower.jpg -resize 300x200 flower-small.jpg
+
+Google suggests:
+320 - Mobile S  - 32%  -  64%
+375 - Mobile M  - 37%  -  74%
+425 - Mobile L  - 42%  -  84%
+768 - Tablet    - 75%  - 150%
+1024- laptop    - 100% - 200%
 */
 /* (400px <= width <= 700px) */
 /* (min-width: 900px) */
@@ -107,13 +128,6 @@ img.center {
     width: 100%;
     height: auto;
 }
-/*
-.Xwidget {
-    position: relative;
-    margin-bottom: 55px;
-    padding-left: 5em;
-}
-*/
 .widget {
     position: relative;
 /*    margin-bottom: 0.5em; /* was 2em */

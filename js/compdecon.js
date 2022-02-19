@@ -61,6 +61,7 @@ function currentWeather(weather) {
     */
     if(lastUpdate != weather.startTime) {
         lastUpdate = weather.startTime;
+        console.log("URL=" + weather.icon);
         document.getElementById("weatherDiv").innerHTML = '<div class="table-responsive"><table class="table"><tr><td width="20%" height="auto"><img width="100%" height="auto" src="' + weather.icon + '" alt="" width="20%" height="auto"></td><td style="font-size: 120%">' + weather.detailedForecast + '(' + weather.startTime + ')' + '</td></tr></table>';
     } 
 }
@@ -85,7 +86,7 @@ function currentSpaceWeather(weather) {
         weather.forEach(el => {
             var a = el.split(/(www.*?)$/m); // m - multiline
             var divElement = document.getElementById("space_weatherDivA");
-            divElement.innerHTML += '<div><pre>' + el.replace(a[1], "<a href=\"https://" + a[1] + "/\" target=\"_blank\">" + a[1] + "</a>") + '</pre></div>';
+            divElement.innerHTML += '<div><pre>' + el.replace(a[1], "<a href=\"https://" + a[1] + "/\" rel=\"noreferrer\" target=\"_blank\">" + a[1] + "</a>") + '</pre></div>';
             if(i < weather.length) {
                 divElement.innerHTML +=  '<hr>';
                 i++;
