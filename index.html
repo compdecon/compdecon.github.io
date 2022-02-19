@@ -28,12 +28,13 @@
     .mail {
        border:0; /* */
        margin-top:-6px;
-       vertical-align:middle;/* */
+       vertical-align:middle;8uhnb /* */
     }
     table {
         border: 1px solid black;
     }
     /* Simplified version of Bootstrap's responsive table CSS */
+    /* https://johnfraney.ca/blog/how-to-write-responsive-html-tables/ */
     .table-responsive {
         display: block;
         width: 100%;
@@ -64,6 +65,13 @@
         color: #cfdaba;
         float: left; /* */
         margin-right: .5em;
+    }
+    .myButton {
+        background: #cfdaba;
+        color: #5e8067;
+        vertical-align: middle;
+        height: auto;
+        border: 0;
     }
     .myTitle {
         background: #5e8067;
@@ -99,204 +107,6 @@
         padding-right: 24px;
     }
 </style>
-<script>
-  function toggleSign(flag) {
-      // ID="sign"
-      // 1 = Open:
-      // "./images/Open-sign.png"
-      // 0 = Closed:
-      // "./images/Closed-sign.png"
-      if(flag) {
-          document.getElementById("sign").src   = "./images/Open-sign.png";
-          document.getElementById("sign").alt   = "Open for business";
-          document.getElementById("sign").title = "Open for business";
-      } else {
-          document.getElementById("sign").src   = "./images/Closed-sign.png";
-          document.getElementById("sign").alt   = "Closed for the day";
-          document.getElementById("sign").title = "Closed for the day";
-      }
-  }
-
-  function updateMsg(myId, msg) {
-      // Should cover an empty message and a '.' message
-      if(msg && msg !== ".") {
-          document.getElementById(myId).innerHTML = '<p>' + msg + '</p>';
-      } else {
-          document.getElementById(myId).innerHTML = '';
-      }
-  }
-
-  function updateBlog(myId, msg) {
-      // Should cover an empty message and a '.' message
-      if(msg && msg !== ".") {
-          document.getElementById(myId).innerHTML = msg;
-      } else {
-          document.getElementById(myId).innerHTML = '';
-      }
-  }
-
-  function lastUpdated(lastchange) {
-      if(typeof lastchange != "number") {
-          lastchange = -1;
-      }
-      document.getElementById("lastUpdateOn").innerHTML = 'UPDATE <span style="font-size: 60%;">(' + new Date(lastchange*1000) + ')</span>';
-  }
-  
-  lastUpdate = '';
-  function currentWeather(weather) {
-      /*
-        "weather": {
-            "number": 1,
-            "name": "Tonight",
-            "startTime": "2021-06-25T21:00:00-04:00",
-            "endTime": "2021-06-26T06:00:00-04:00",
-            "isDaytime": false,
-            "temperature": 67,
-            "temperatureUnit": "F",
-            "temperatureTrend": null,
-            "windSpeed": "5 to 10 mph",
-            "windDirection": "S",
-            "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-            "shortForecast": "Mostly Cloudy",
-            "detailedForecast": "Mostly cloudy, with a low around 67. South wind 5 to 10 mph."
-        },
-      */
-      if(lastUpdate != weather.startTime) {
-          lastUpdate = weather.startTime;
-          document.getElementById("weatherDiv").innerHTML = '<div class="table-responsive"><table class="table"><tr><td width="20%" height="auto"><img width="100%" height="auto" src="' + weather.icon + '" alt="" width="20%" height="auto"></td><td style="font-size: 120%">' + weather.detailedForecast + '(' + weather.startTime + ')' + '</td></tr></table>';
-      } 
-  }
-
-  function currentSpaceWeather(weather) {
-      /*
-        space_weather is a JSON array of string that are preformated
-
-        "space_weather": [
-            "Space Weather Message Code: WARK04\r\nSerial Number: 4006\r\nIssue Time: 2022 Jan 24 2127 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Jan 24 2125 UTC\r\nValid To: 2022 Jan 25 0000 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-            "Space Weather Message Code: ALTEF3\r\nSerial Number: 3193\r\nIssue Time: 2022 Jan 24 0503 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3192\r\nBegin Time: 2022 Jan 16 1445 UTC\r\nYesterday Maximum 2MeV Flux: 6126 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
-        ],
-   
-        Perhaps we can stick each string into a div with pre
-      */
-      // a = s.split(/(www.*?)$/m)
-      // s.replace(a[1], "<a href=\"" + a[1] + "\">" + a[1] + "</a>")
-      if(Array.isArray(weather)) {
-          document.getElementById("space_weatherDiv").innerHTML = '  <h1>Current Space Weather at CDL</h1><div id="space_weatherDivA" style="border: thick double; padding-left:0.5em;"></div>';
-
-          var i = 1;
-          weather.forEach(el => {
-              var a = el.split(/(www.*?)$/m); // m - multiline
-              var divElement = document.getElementById("space_weatherDivA");
-              divElement.innerHTML += '<div><pre>' + el.replace(a[1], "<a href=\"https://" + a[1] + "/\" target=\"_blank\">" + a[1] + "</a>") + '</pre></div>';
-              if(i < weather.length) {
-                  divElement.innerHTML +=  '<hr>';
-                  i++;
-              }
-          });
-          console.log("i = " + i + "\nL = " + weather.length);
-      } else {
-          // debug message
-          console.log(Date.now() + ": Spacey weather issue");
-      }
-  }
-  
-  function getStatus(url) {
-      fetch(url, { 
-          method: 'GET'
-      })
-      .then(function(response) { return response.json(); })
-      .then(function(json) {
-          // use the json
-          if(debug) console.log(Date.now());
-          toggleSign(json.state.open);
-          updateMsg("preUpdateDiv",  json.state.preMessage);
-          updateMsg("updateDiv",     json.state.message);
-          updateMsg("postUpdateDiv", json.state.postMessage);
-          updateBlog("blogUpdate",   json.state.blogUpdate);
-          lastUpdated(json.state.lastchange)
-          currentWeather(json.ext_weather);
-          currentSpaceWeather(json.space_weather);
-      });
-  }
-
-  function myFunction() {
-      document.getElementById("myAnchor").href = "http://www.cnn.com/";
-      // document.getElementById("demo").innerHTML = "The link above now goes to www.cnn.com.";
-  }
-
-  function setSeason() {
-      // Need to do the math here
-      var seasonal = [
-          {
-              "href":    "images/CDL-front.jpg",
-              "img":     "images/CDL-front.jpg",
-              "title":   "CDL/IXR front door at night",
-              "comment": "default image"
-          },
-          {
-              "href":    "",
-              "img":     "",
-              "title":   "",
-              "comment": "Winter"
-          },
-          {
-              "href":    "",
-              "img":     "",
-              "title":   "",
-              "comment": "Spring"
-          },
-          {
-              "href":    "",
-              "img":     "",
-              "title":   "",
-              "comment": "Summer"
-          },
-          {
-              "href":    "",
-              "img":     "",
-              "title":   "",
-              "comment": "Fall"
-          },
-          {
-              "href":    "",
-              "img":     "",
-              "title":   "",
-              "comment": "Special 1"
-          },
-          {
-              "href":    "",
-              "img":     "",
-              "title":   "",
-              "comment": "Special 2"
-          },
-          {
-              "href":    "",
-              "img":     "",
-              "title":   "",
-              "comment": "Special 3"
-          },
-          {}
-      ];
-
-      /*
-      ** Figure out the 'season' so we can put an appropriate picture of the front
-      ** of the CDL.
-      ** 0 = default
-      ** 1 = Winter (Jan, Feb, Mar)
-      ** 2 = Spring (Apr, May, Jun)
-      ** 3 = Summer (Jul, Aug, Sep)
-      ** 4 = Fall   (Oct, Nov, Dev)
-      */
-      
-      // href tag
-      document.getElementById("frontDoorHref").href = seasonal[0].href;
-
-      // img tag
-      document.getElementById("frontDoorHref").src  = seasonal[0].img;
-      document.getElementById("frontDoorImg").title = seasonal[0].title;
-  }
-</script>
-
 </head>
 <body class="myBody">
   <div id="page" class="hfeed site">
@@ -310,7 +120,6 @@
         </a>
       </td>
       <td class="xMiddle">
-        <!-- h1>CDL - Computer Deconstruction Lab Podcast studio and Makerspace</h1 -->
         Computer Deconstruction Laboratory - The Jersey Shore Makerspace
       </td>
       <td class="xRight">
@@ -342,10 +151,13 @@
     <p>Weather currently not available</p>
   </div>
 
-  <div id="space_weatherDiv">
+  <button class="myButton" onclick="toggleDiv()"><h1 style="font-size: 300%;"><img id="spaceButton" src="./images/more.jpg" style="float: left;"> &nbsp; Space Weather</h1></button>
+  <div id="spaceOuter" style="border: thick double;">
+    <div id="space_weatherDiv">
+    </div>
   </div>
   
-  <div>
+  <div style="clear: both;">
     <p>Click <a href="mailto:cdl+subscribe@groups.io">Subscribe to the CDL mailist</a> (click <a href="mailto:cdl+unsubscribe@groups.io">Unsubscribe from CDL maillist</a>)</p>
 
     <p>CDL is open on Mondays nights and most Saturdays and Sundays! Give us a call
@@ -357,17 +169,15 @@
 
   <p>    
     <a href="./images/CDL-front.jpg" target="_blank" id="frontDoorHref">
-      <!-- img loading="lazy" src="./images/CDL-front.jpg" alt="Picture of CDL/IXR Building"
-           width="640" height="480" title="CDL/IXR front door at night, larger image opens in a new tab" class="center" id="frontDoorImg"> <!-- width="1000" height="667" -->
       <img loading="lazy" src="./images/CDL-front.jpg" alt="Picture of CDL/IXR Building"
-           width="100%" height="auto" title="CDL/IXR front door at night, larger image opens in a new tab" class="center" id="frontDoorImg"> <!-- width="1000" height="667" -->
+           width="100%" height="auto" title="CDL/IXR front door at night, larger image opens in a new tab" class="center" id="frontDoorImg">
     </a>
   </p>
 
   <div>
     <p> CDL (Computer Deconstruction Lab) is a 501.3c non-profit Makerspace and podcasting studio for the Jersey Shore, located at the InfoAge Science and History Learning Center. We are an open collective of geeks, artists, and techie-creative-types who come together to share tools, resources, knowledge, and ideas.</p>
 
-    <p> We embrace the sharing of ideas and innovation, and that includes open source hardware and software. We also host workshops and run classes on a myriad of topics. CDL and is open to the public, Walkins are welcome. A donation of $20 is suggested if you stay and participate. We do have yearly membership as well.</p>
+    <p> We embrace the sharing of ideas and innovation, and that includes open source hardware and software. We also host workshops and run classes on a myriad of topics. CDL and is open to the public, Walkins are welcome. A donation of $30 is suggested if you stay and participate. We do have yearly membership as well.</p>
 
     <h2>Github Projects</h2>
 
@@ -378,10 +188,8 @@
     </ul>
 
     <p>
-      <a href="./images/homepage_02.jpg" target="_blank">
-        <!-- img loading="lazy" src="./images/homepage_02.jpg" alt="Picture of CDL/IXR Lab"
-             width="1000" height="667"  title="Picture of CDL/IXR Lab, larger image opens in a new tab" class="center" -->
-        <img loading="lazy" src="./images/homepage_02.jpg" alt="Picture of CDL/IXR Lab"
+      <a href="./images/lab-20220214.jpg" target="_blank">
+        <img loading="lazy" src="./images/lab-20220214.jpg" alt="Picture of CDL/IXR Lab"
              width="100%" height="auto"  title="Picture of CDL/IXR Lab, larger image opens in a new tab" class="center">
       </a>
     </p>
@@ -395,8 +203,6 @@
 
     <p>
       <a href="https://compdecon.org/studio/" target="_blank">
-        <!-- img loading="lazy" src="./images/studio_04_19_2021.jpg" alt="Picture of the CDL Podcast Studio"
-             width="1000" height="667"  title="Picture of CDL/IXR Podcast Studio" class="center" -->
         <img loading="lazy" src="./images/studio_04_19_2021.jpg" alt="Picture of the CDL Podcast Studio"
              width="100%" height="auto"  title="Picture of CDL/IXR Podcast Studio" class="center">
       </a>
@@ -406,8 +212,6 @@
 
     <p>
       <a href="./images/Classroom.jpg" target="_blank">
-        <!-- img loading="lazy" src="./images/Classroom.jpg" alt="Picture of the CDL Classroom"
-             width="1000" height="667"  title="Picture of CDL/IXR Podcast Studio" class="center" -->
         <img loading="lazy" src="./images/Classroom.jpg" alt="Picture of the CDL Classroom"
              width="100%" height="auto"  title="Picture of CDL/IXR Podcast Studio" class="center">
       </a>
@@ -419,14 +223,6 @@
 
     <p> A map for the <a href="./images/TourMap_16x20_self-download.jpg">InfoAge Campus</a> (CDL is in #11, Building 9059)</p>
     
-<!--
-    <a href="https://compdecon.org/" title="CDL - Computer Deconstruction Lab" target="_blank">
-      <img src="./images/compdecon_qr_code-1.5k.png" title="CDL QR code" class="center"/>
-    </a>
-
-    <br/>
- -->
-
     <h2>Links</h2>
 
     <ul>
@@ -509,26 +305,6 @@
                   </svg>
                 </a>
               </li>
-<!-- 
-              <li class="ssi-github" style="display: inline-block;padding-right: 1em">
-                <a href="https://github.com/compdecon" target="_blank">
-                  <svg role="img" class="social-github" aria-labelledby="social-github-2" style="width:72px;height:72px;">
-                    <title id="social-github">Github</title>
-                    <use xlink:href="./svg/symbol-defs.svg#social-github-2"></use>
-                  </svg>
-                </a>
-              </li>
--->
-<!--
-              <li class="ssi-bloglovin" style="display: inline-block;padding-right: 1em">
-                <a href="https://compdecon.blogspot.com" target="_blank">
-                  <svg role="img" class="social-bloglovin" aria-labelledby="social-bloglovin-2" style="width:72px;height:72px;" title="Computer Deconstruction Lab Blog">
-                    <title id="social-bloglovin-2">Computer Deconstruction Lab Blog</title>
-                    <use xlink:href="./svg/symbol-defs.svg#social-bloglovin"></use>
-                  </svg>
-                </a>
-              </li>
--->
               <li class="ssi-bloglovin" style="display: inline-block;">
                 <a href="https://compdecon.blogspot.com" target="_blank">
                   <svg class="myIcon" role="img" class="icon-hashtag" aria-labelledby="icon-hashtag-2" title="Computer Deconstruction Lab Blog">
@@ -563,34 +339,256 @@
     </div>
   </div>
 </div>
-  <script>
-    const queryString = window.location.search;
-    console.log(queryString);
+    <script>
+      function toggleSign(flag) {
+          // ID="sign"
+          // 1 = Open:
+          // "./images/Open-sign.png"
+          // 0 = Closed:
+          // "./images/Closed-sign.png"
+          if(flag) {
+              document.getElementById("sign").src   = "./images/Open-sign.png";
+              document.getElementById("sign").alt   = "Open for business";
+              document.getElementById("sign").title = "Open for business";
+          } else {
+              document.getElementById("sign").src   = "./images/Closed-sign.png";
+              document.getElementById("sign").alt   = "Closed for the day";
+              document.getElementById("sign").title = "Closed for the day";
+          }
+      }
 
-    const urlParams = new URLSearchParams(queryString);
+      function updateMsg(myId, msg) {
+          // Should cover an empty message and a '.' message
+          if(msg && msg !== ".") {
+              document.getElementById(myId).innerHTML = '<p>' + msg + '</p>';
+          } else {
+              document.getElementById(myId).innerHTML = '';
+          }
+      }
 
-    if(urlParams.has('debug')) {
-        debug = true;
-        tOut =  10000; // 10 seconds
-    } else {
-        debug = false;
-        tOut = 300000; // 300 seconds, 5 minutes
-    }
-    // This handles my weather stuff and hopefully adapted to deal with the sprinkler sysem
-    var url = "./status.json";
+      function updateBlog(myId, msg) {
+          // Should cover an empty message and a '.' message
+          if(msg && msg !== ".") {
+              document.getElementById(myId).innerHTML = msg;
+          } else {
+              document.getElementById(myId).innerHTML = '';
+          }
+      }
 
-    setSeason(); // Set the correct season image of the CDL front door.
-    
-    window.onload = function() {
-        //
-        // Need to check for really old browsers that may not have fetch
-        // support for VCF and Vintage computers
-        //
-        //xmlHttpGet(url);
-        //setInterval("xmlHttpGet(url)", 10000); // Prod set to minutes, not seconds?
-        getStatus(url);
-        setInterval("getStatus(url)", tOut); // Prod set to appropriate minutes, not seconds?
-    }
-  </script>
+      function lastUpdated(lastchange) {
+          if(typeof lastchange != "number") {
+              lastchange = -1;
+          }
+          document.getElementById("lastUpdateOn").innerHTML = 'UPDATE <span style="font-size: 60%;">(' + new Date(lastchange*1000) + ')</span>';
+      }
+      
+      lastUpdate = '';
+      function currentWeather(weather) {
+          /*
+            "weather": {
+            "number": 1,
+            "name": "Tonight",
+            "startTime": "2021-06-25T21:00:00-04:00",
+            "endTime": "2021-06-26T06:00:00-04:00",
+            "isDaytime": false,
+            "temperature": 67,
+            "temperatureUnit": "F",
+            "temperatureTrend": null,
+            "windSpeed": "5 to 10 mph",
+            "windDirection": "S",
+            "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+            "shortForecast": "Mostly Cloudy",
+            "detailedForecast": "Mostly cloudy, with a low around 67. South wind 5 to 10 mph."
+            },
+          */
+          if(lastUpdate != weather.startTime) {
+              lastUpdate = weather.startTime;
+              document.getElementById("weatherDiv").innerHTML = '<div class="table-responsive"><table class="table"><tr><td width="20%" height="auto"><img width="100%" height="auto" src="' + weather.icon + '" alt="" width="20%" height="auto"></td><td style="font-size: 120%">' + weather.detailedForecast + '(' + weather.startTime + ')' + '</td></tr></table>';
+          } 
+      }
+
+      function currentSpaceWeather(weather) {
+          /*
+            space_weather is a JSON array of string that are preformated
+
+            "space_weather": [
+            "Space Weather Message Code: WARK04\r\nSerial Number: 4006\r\nIssue Time: 2022 Jan 24 2127 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Jan 24 2125 UTC\r\nValid To: 2022 Jan 25 0000 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+            "Space Weather Message Code: ALTEF3\r\nSerial Number: 3193\r\nIssue Time: 2022 Jan 24 0503 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3192\r\nBegin Time: 2022 Jan 16 1445 UTC\r\nYesterday Maximum 2MeV Flux: 6126 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
+            ],
+            
+            Perhaps we can stick each string into a div with pre
+          */
+          // a = s.split(/(www.*?)$/m)
+          // s.replace(a[1], "<a href=\"" + a[1] + "\">" + a[1] + "</a>")
+          if(Array.isArray(weather)) {
+              document.getElementById("space_weatherDiv").innerHTML = '  <h1>Current Space Weather at CDL</h1><div id="space_weatherDivA" style="border: thick double; padding-left:0.5em;"></div>';
+
+              var i = 1;
+              weather.forEach(el => {
+                  var a = el.split(/(www.*?)$/m); // m - multiline
+                  var divElement = document.getElementById("space_weatherDivA");
+                  divElement.innerHTML += '<div><pre>' + el.replace(a[1], "<a href=\"https://" + a[1] + "/\" target=\"_blank\">" + a[1] + "</a>") + '</pre></div>';
+                  if(i < weather.length) {
+                      divElement.innerHTML +=  '<hr>';
+                      i++;
+                  }
+              });
+              console.log("i = " + i + "\nL = " + weather.length);
+
+          } else {
+              // debug message
+              console.log(Date.now() + ": No Spacey weather");
+          }
+      }
+      
+      function getStatus(url) {
+          fetch(url, { 
+              method: 'GET'
+          })
+              .then(function(response) { return response.json(); })
+              .then(function(json) {
+                  // use the json
+                  if(debug) console.log(Date.now());
+                  toggleSign(json.state.open);
+                  updateMsg("preUpdateDiv",  json.state.preMessage);
+                  updateMsg("updateDiv",     json.state.message);
+                  updateMsg("postUpdateDiv", json.state.postMessage);
+                  updateBlog("blogUpdate",   json.state.blogUpdate);
+                  lastUpdated(json.state.lastchange)
+                  currentWeather(json.ext_weather);
+                  currentSpaceWeather(json.space_weather);
+              });
+      }
+
+      /*
+        function myFunction() {
+        document.getElementById("myAnchor").href = "http://www.cnn.com/";
+        // document.getElementById("demo").innerHTML = "The link above now goes to www.cnn.com.";
+        }
+      */
+      function setSeason() {
+          // Need to do the math here
+          var seasonal = [
+              {
+                  "href":    "images/CDL-front.jpg",
+                  "img":     "images/CDL-front.jpg",
+                  "title":   "CDL/IXR front door at night",
+                  "comment": "default image"
+              },
+              {
+                  "href":    "",
+                  "img":     "",
+                  "title":   "",
+                  "comment": "Winter"
+              },
+              {
+                  "href":    "",
+                  "img":     "",
+                  "title":   "",
+                  "comment": "Spring"
+              },
+              {
+                  "href":    "",
+                  "img":     "",
+                  "title":   "",
+                  "comment": "Summer"
+              },
+              {
+                  "href":    "",
+                  "img":     "",
+                  "title":   "",
+                  "comment": "Fall"
+              },
+              {
+                  "href":    "",
+                  "img":     "",
+                  "title":   "",
+                  "comment": "Special 1"
+              },
+              {
+                  "href":    "",
+                  "img":     "",
+                  "title":   "",
+                  "comment": "Special 2"
+              },
+              {
+                  "href":    "",
+                  "img":     "",
+                  "title":   "",
+                  "comment": "Special 3"
+              },
+              {}
+          ];
+
+          /*
+          ** Figure out the 'season' so we can put an appropriate picture of the front
+          ** of the CDL.
+          ** 0 = default
+          ** 1 = Winter (Jan, Feb, Mar)
+          ** 2 = Spring (Apr, May, Jun)
+          ** 3 = Summer (Jul, Aug, Sep)
+          ** 4 = Fall   (Oct, Nov, Dev)
+          */
+          
+          // href tag
+          document.getElementById("frontDoorHref").href = seasonal[0].href;
+
+          // img tag
+          document.getElementById("frontDoorHref").src  = seasonal[0].img;
+          document.getElementById("frontDoorImg").title = seasonal[0].title;
+      }
+      function toggleDiv() {
+          var x = document.getElementById("space_weatherDiv");
+          var b = document.getElementById("spaceButton");
+          var o = document.getElementById("spaceOuter");
+
+          if (x.style.display === "none") {
+              console.log("Show");
+              x.style.display = "block";
+              b.src = "./images/more.jpg";
+              o.style.border = 0;
+          } else {
+              console.log("Hide");
+              x.style.display = "none";
+              b.src = "./images/less.jpg";
+              o.style.border = "thick double";
+          }
+      }
+
+      // =====================================================================================
+
+      const queryString = window.location.search;
+      console.log(queryString);
+
+      const urlParams = new URLSearchParams(queryString);
+
+      if(urlParams.has('debug')) {
+          debug = true;
+          tOut =  10000; // 10 seconds
+      } else {
+          debug = false;
+          tOut = 300000; // 300 seconds, 5 minutes
+      }
+      // This handles my weather stuff and hopefully adapted to deal with the sprinkler sysem
+      var url = "./status.json";
+
+      setSeason(); // Set the correct season image of the CDL front door.
+
+      // Toggle Space Weather off
+      document.getElementById("space_weatherDiv").style.display = "block";
+      document.getElementById("spaceButton").src = "./images/more.jpg";
+      toggleDiv();
+      
+      window.onload = function() {
+          //
+          // Need to check for really old browsers that may not have fetch
+          // support for VCF and Vintage computers
+          //
+          //xmlHttpGet(url);
+          //setInterval("xmlHttpGet(url)", 10000); // Prod set to minutes, not seconds?
+          getStatus(url);
+          setInterval("getStatus(url)", tOut); // Prod set to appropriate minutes, not seconds?
+      }
+    </script>
 </body>
 </html>
