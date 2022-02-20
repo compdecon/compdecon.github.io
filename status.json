@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/02/19 23:55:01 EST UTC-05:00",
-    "ext_localtime": "Sat 19 Feb 2022 11:55:01 PM EST",
+    "ext_time": "2022/02/20 00:10:02 EST UTC-05:00",
+    "ext_localtime": "Sun 20 Feb 2022 12:10:02 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,21 +100,24 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2022-02-19T21:00:00-05:00",
+    "name": "Overnight",
+    "startTime": "2022-02-20T00:00:00-05:00",
     "endTime": "2022-02-20T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 17,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "10 to 20 mph",
+    "windSpeed": "10 to 15 mph",
     "windDirection": "NW",
     "icon": "https://preview-api.weather.gov/icons/land/night/skc?size=medium",
     "shortForecast": "Clear",
-    "detailedForecast": "Clear, with a low around 17. Northwest wind 10 to 20 mph, with gusts as high as 40 mph."
+    "detailedForecast": "Clear, with a low around 17. Northwest wind 10 to 15 mph, with gusts as high as 40 mph."
   },
   "space_weather": [
-    "No alerts today"
+    "Space Weather Message Code: ALTK05\r\nSerial Number: 1364\r\nIssue Time: 2022 Feb 20 0300 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\nThreshold Reached: 2022 Feb 20 0259 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+    "Space Weather Message Code: WARK05\r\nSerial Number: 1642\r\nIssue Time: 2022 Feb 20 0234 UTC\r\n\r\nWARNING: Geomagnetic K-index of 5 expected\r\nValid From: 2022 Feb 20 0234 UTC\r\nValid To: 2022 Feb 20 0900 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2272\r\nIssue Time: 2022 Feb 20 0130 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 Feb 20 0129 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4034\r\nIssue Time: 2022 Feb 20 0117 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Feb 20 0115 UTC\r\nValid To: 2022 Feb 20 1800 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -145,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1645332901,
+    "lastchange": 1645333802,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": "<span style=\"background-color: yellow; font-weight: bold\">&nbspCDL will be attending the <a href=\"https://vcfed.org/wp/vcf-swap-meet/\">VCF Swap Meet</a> on Sat, Feb 26<sup>th</sup>&nbsp</span>.",
