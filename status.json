@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/02/20 06:10:02 EST UTC-05:00",
-    "ext_localtime": "Sun 20 Feb 2022 06:10:02 AM EST",
+    "ext_time": "2022/02/20 09:10:02 EST UTC-05:00",
+    "ext_localtime": "Sun 20 Feb 2022 09:10:02 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 36
+        "value": 35
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2022-02-20T06:00:00-05:00",
+    "startTime": "2022-02-20T09:00:00-05:00",
     "endTime": "2022-02-20T18:00:00-05:00",
     "isDaytime": true,
-    "temperature": 36,
+    "temperature": 35,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 to 10 mph",
     "windDirection": "SW",
     "icon": "https://preview-api.weather.gov/icons/land/day/few?size=medium",
     "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 36. Southwest wind 5 to 10 mph."
+    "detailedForecast": "Sunny, with a high near 35. Southwest wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK05\r\nSerial Number: 1364\r\nIssue Time: 2022 Feb 20 0300 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\nThreshold Reached: 2022 Feb 20 0259 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1645355402,
+    "lastchange": 1645366202,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": "<span style=\"background-color: yellow; font-weight: bold\">&nbspCDL will be attending the <a href=\"https://vcfed.org/wp/vcf-swap-meet/\">VCF Swap Meet</a> on Sat, Feb 26<sup>th</sup>&nbsp</span>.",
