@@ -37,7 +37,7 @@ function lastUpdated(lastchange) {
     if(typeof lastchange != "number") {
         lastchange = -1;
     }
-    document.getElementById("lastUpdateOn").innerHTML = 'UPDATE <span style="font-size: 60%;">(' + new Date(lastchange*1000) + ')</span>';
+    document.getElementById("lastUpdateOn").innerHTML = 'UPDATED: <span class="myH1z">(' + new Date(lastchange*1000) + ')</span>';
 }
 
 lastUpdate = '';
@@ -80,7 +80,7 @@ function currentSpaceWeather(weather) {
     // a = s.split(/(www.*?)$/m)
     // s.replace(a[1], "<a href=\"" + a[1] + "\">" + a[1] + "</a>")
     if(Array.isArray(weather)) {
-        document.getElementById("space_weatherDiv").innerHTML = '  <h1>Current Space Weather at CDL</h1><div id="space_weatherDivA" style="border: thick double; padding-left:0.5em;"></div>';
+        document.getElementById("space_weatherDiv").innerHTML = '  <span class="myH1">Current Space Weather at CDL</span><div id="space_weatherDivA" style="border: thick double; padding-left:0.5em;"></div>';
 
         var i = 1;
         weather.forEach(el => {
