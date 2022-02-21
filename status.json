@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/02/20 21:10:01 EST UTC-05:00",
-    "ext_localtime": "Sun 20 Feb 2022 09:10:01 PM EST",
+    "ext_time": "2022/02/20 23:55:01 EST UTC-05:00",
+    "ext_localtime": "Sun 20 Feb 2022 11:55:01 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -148,8 +148,8 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1645409401,
-    "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "lastchange": 1645419301,
+    "message": "We will be open from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": "<span style=\"background-color: yellow; font-weight: bold\">&nbspCDL will be attending the <a href=\"https://vcfed.org/wp/vcf-swap-meet/\">VCF Swap Meet</a> on Sat, Feb 26<sup>th</sup>&nbsp</span>.",
     "blogUpdate": "(Title: Let there be light - 2022-02-14 - Updated: Feb. 15, 2022)",
