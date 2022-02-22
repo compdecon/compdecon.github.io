@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/02/21 22:05:01 EST UTC-05:00",
-    "ext_localtime": "Mon 21 Feb 2022 10:05:01 PM EST",
+    "ext_time": "2022/02/22 00:10:01 EST UTC-05:00",
+    "ext_localtime": "Tue 22 Feb 2022 12:10:01 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2022-02-21T21:00:00-05:00",
+    "name": "Overnight",
+    "startTime": "2022-02-22T00:00:00-05:00",
     "endTime": "2022-02-22T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 39,
@@ -109,13 +109,13 @@
     "temperatureTrend": null,
     "windSpeed": "0 to 5 mph",
     "windDirection": "S",
-    "icon": "https://preview-api.weather.gov/icons/land/night/sct/fog?size=medium",
-    "shortForecast": "Partly Cloudy then Patchy Fog",
+    "icon": "https://preview-api.weather.gov/icons/land/night/fog?size=medium",
+    "shortForecast": "Patchy Fog",
     "detailedForecast": "Patchy fog after 3am. Partly cloudy, with a low around 39. South wind 0 to 5 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: ALTK04\r\nSerial Number: 2273\r\nIssue Time: 2022 Feb 21 1433 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 Feb 21 1432 UTC\r\nSynoptic Period: 1200-1500 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4035\r\nIssue Time: 2022 Feb 21 1423 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Feb 21 1424 UTC\r\nValid To: 2022 Feb 21 1800 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2274\r\nIssue Time: 2022 Feb 22 0414 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 Feb 22 0413 UTC\r\nSynoptic Period: 0300-0600 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4036\r\nIssue Time: 2022 Feb 22 0347 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Feb 22 0346 UTC\r\nValid To: 2022 Feb 22 0900 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -146,7 +146,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1645499101,
+    "lastchange": 1645506601,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": "<span style=\"background-color: yellow; font-weight: bold\">&nbspCDL will be attending the <a href=\"https://vcfed.org/wp/vcf-swap-meet/\">VCF Swap Meet</a> on Sat, Feb 26<sup>th</sup>&nbsp</span>.",
