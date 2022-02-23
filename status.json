@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/02/22 21:10:02 EST UTC-05:00",
-    "ext_localtime": "Tue 22 Feb 2022 09:10:02 PM EST",
+    "ext_time": "2022/02/23 03:10:01 EST UTC-05:00",
+    "ext_localtime": "Wed 23 Feb 2022 03:10:01 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,12 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": null
+        "value": 55
       }
     ]
   },
-  "ext_weather": null,
-  "space_weather": [],
+  "ext_weather": {
+    "number": 1,
+    "name": "Overnight",
+    "startTime": "2022-02-23T03:00:00-05:00",
+    "endTime": "2022-02-23T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 55,
+    "temperatureUnit": "F",
+    "temperatureTrend": null,
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "SW",
+    "icon": "https://preview-api.weather.gov/icons/land/night/ovc?size=medium",
+    "shortForecast": "Cloudy",
+    "detailedForecast": "Cloudy, with a low around 55. Southwest wind 5 to 10 mph."
+  },
+  "space_weather": [
+    "No alerts today"
+  ],
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -129,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1645582202,
+    "lastchange": 1645603801,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": "<span style=\"background-color: yellow; font-weight: bold\">&nbspCDL will be attending the <a href=\"https://vcfed.org/wp/vcf-swap-meet/\">VCF Swap Meet</a> on Sat, Feb 26<sup>th</sup>&nbsp</span>.",
