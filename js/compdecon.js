@@ -61,7 +61,7 @@ function currentWeather(weather) {
     */
     if(lastUpdate != weather.startTime) {
         lastUpdate = weather.startTime;
-        console.log("URL=" + weather.icon);
+        if(debug) console.log("URL=" + weather.icon);
         document.getElementById("weatherDiv").innerHTML = '<div class="table-responsive"><table class="table"><tr><td width="20%" height="auto"><img width="100%" height="auto" src="' + weather.icon + '" alt="" width="20%" height="auto"></td><td style="font-size: 120%">' + weather.detailedForecast + '(' + weather.startTime + ')' + '</td></tr></table>';
     } 
 }
@@ -92,31 +92,56 @@ function currentSpaceWeather(weather) {
                 i++;
             }
         });
-        console.log("i = " + i + "\nL = " + weather.length);
+        if(debug) console.log("i = " + i + "\nL = " + weather.length);
 
     } else {
         // debug message
-        console.log(Date.now() + ": No Spacey weather");
+        if(debug) console.log(Date.now() + ": No Spacey weather");
     }
 }
 
+/*
+  Informational responses (100-199)
+  Successful responses    (200-299)
+  Redirection messages    (300-399)
+  Client error responses  (400-499)
+  Server error responses  (500-599)
+
+  https://learnwithparam.com/blog/how-to-handle-fetch-errors/
+
+  Error handling in fetch API using promises (no link)
+
+  We can rectify it by throwing error and allow only response which has status code between 200 and 299.
+
+  This will fix the problem, you can even extract out the checking status part as a function which returns a promise or throw error.
+
+  if (response.status >= 200 && response.status <= 299) {
+    return response.json();
+  } else {
+    throw Error(response.statusText);
+  }
+*/
 function getStatus(url) {
+    // https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
     fetch(url, { 
         method: 'GET'
     })
-        .then(function(response) { return response.json(); })
-        .then(function(json) {
-            // use the json
-            if(debug) console.log(Date.now());
-            toggleSign(json.state.open);
-            updateMsg("preUpdateDiv",  json.state.preMessage);
-            updateMsg("updateDiv",     json.state.message);
-            updateMsg("postUpdateDiv", json.state.postMessage);
-            updateBlog("blogUpdate",   json.state.blogUpdate);
-            lastUpdated(json.state.lastchange)
-            currentWeather(json.ext_weather);
-            currentSpaceWeather(json.space_weather);
-        });
+    .then(function(response) { return response.json(); })
+    .then(function(json) {
+        // use the json
+        if(debug) console.log(Date);
+        toggleSign(json.state.open);
+        updateMsg("preUpdateDiv",  json.state.preMessage);
+        updateMsg("updateDiv",     json.state.message);
+        updateMsg("postUpdateDiv", json.state.postMessage);
+        updateBlog("blogUpdate",   json.state.blogUpdate);
+        lastUpdated(json.state.lastchange)
+        currentWeather(json.ext_weather);
+        currentSpaceWeather(json.space_weather);
+    })
+    .catch(error => {
+        console.log(Date() + 'Fetch error:', error);
+    });
 }
 
 /*
@@ -202,12 +227,12 @@ function toggleDiv() {
     var o = document.getElementById("spaceOuter");
 
     if (x.style.display === "none") {
-        console.log("Show");
+        if(debug) console.log("Show");
         x.style.display = "block";
         b.src = "./images/more.jpg";
         o.style.border = 0;
     } else {
-        console.log("Hide");
+        if(debug) console.log("Hide");
         x.style.display = "none";
         b.src = "./images/less.jpg";
         o.style.border = "thick double";
@@ -217,7 +242,7 @@ function toggleDiv() {
 // =====================================================================================
 
 const queryString = window.location.search;
-console.log(queryString);
+//console.log(queryString);
 
 const urlParams = new URLSearchParams(queryString);
 
