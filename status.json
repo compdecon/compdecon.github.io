@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/03/06 09:10:05 EST UTC-05:00",
-    "ext_localtime": "Sun 06 Mar 2022 09:10:05 AM EST",
+    "ext_time": "2022/03/06 12:10:04 EST UTC-05:00",
+    "ext_localtime": "Sun 06 Mar 2022 12:10:04 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,18 +100,18 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2022-03-06T09:00:00-05:00",
+    "name": "This Afternoon",
+    "startTime": "2022-03-06T12:00:00-05:00",
     "endTime": "2022-03-06T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 69,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "15 to 20 mph",
+    "windSpeed": "15 mph",
     "windDirection": "SW",
-    "icon": "https://preview-api.weather.gov/icons/land/day/rain_showers,40/rain_showers,50?size=medium",
-    "shortForecast": "Chance Rain Showers",
-    "detailedForecast": "A chance of rain showers. Mostly cloudy, with a high near 69. Southwest wind 15 to 20 mph, with gusts as high as 40 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://preview-api.weather.gov/icons/land/day/rain_showers,60?size=medium",
+    "shortForecast": "Rain Showers Likely",
+    "detailedForecast": "Rain showers likely. Mostly cloudy, with a high near 69. Southwest wind around 15 mph, with gusts as high as 35 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3211\r\nIssue Time: 2022 Mar 06 1308 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2022 Mar 06 1250 UTC\r\nStation: GOES16\r\n \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1646575805,
+    "lastchange": 1646586604,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
