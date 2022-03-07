@@ -45,7 +45,9 @@
             </td>
           </tr>
         </table>
+      </div>
 
+      <div id="mainPage">
         <p> <b>Welcome</b> to the Computer Deconstruction Lab (CDL), formerly known as the Institute for Exploratory Research (IXR). We are a Makerspace and Podcast Studio down the Jersey Shore. Below is a picture of our front door (night time) behind the fence of InfoAge/Camp Evens. When we're open the main gate is open. And we have plenty of parking.</p>
 
         <div id="preUpdateDiv">
@@ -82,8 +84,18 @@
 
         <p>    
           <a href="./images/CDL-front.jpg" id="frontDoorHref">
-            <img loading="lazy" src="./images/CDL-front-a.jpg" alt="Picture of CDL/IXR Building"
-                 title="CDL/IXR front door at night, larger image opens in a new tab" class="center" id="frontDoorImg">
+            <img srcset="images/CDL-front-laptop.jpg 1024w,
+                         images/CDL-front-tablet.jpg 768w,
+                         images/CDL-front-modelL.jpg 430w,
+                         images/CDL-front-modelM.jpg 379w,
+                         images/CDL-front-modelS.jpg 328w"
+                 sizes="(max-width: 1024px) 768px 430px 379px 328px"
+                 src="images/CDL-front-laptop.jpg"
+                 alt="Picture of CDL Lab"
+                 title="Picture of CDL Lab"
+                 id="frontDoorImg">
+          <!-- img loading="lazy" src="./images/CDL-front-a.jpg" alt="Picture of CDL Building"
+                 title="CDL front door at night, larger image opens in a new tab" class="center" id="frontDoorImg" -->
           </a>
         </p>
 
@@ -101,17 +113,24 @@
           <p> There will be more here as the membership grows. </p>
 
           <ul>
-            <li><a href="https://github.com/compdecon/smarthome" title="The Smart Home demo board. Opens a new tab.">Smart Home Project</a> - Various Smart Home Technology used in the <abbr title="Institute for Exporitory Research">IXR</abbr> lab.</li>
+            <li><a href="https://github.com/compdecon/smarthome" title="The Smart Home demo board. Opens a new tab.">Smart Home Project</a> - Various Smart Home Technology used in the <abbr title="Computer Deconstruction Lab, The Jersey Shore Makerspace">CDL</abbr> lab.</li>
           </ul>
 
           <p>
             <a href="./images/lab-20220214.jpg">
-              <img loading="lazy" src="./images/lab-20220214-a.jpg" alt="Picture of CDL/IXR Lab"
-                   title="Picture of CDL/IXR Lab, larger image opens in a new tab" class="center">
+              <img srcset="images/lab-20220214-laptop.jpg 1024w,
+                           images/lab-20220214-tablet.jpg 768w,
+                           images/lab-20220214-modelL.jpg 430w,
+                           images/lab-20220214-modelM.jpg 379w,
+                           images/lab-20220214-modelS.jpg 328w"
+                   sizes="(max-width: 1024px) 768px 430px 379px 328px"
+                   src="images/lab-20220214-laptop.jpg"
+                   alt="Picture of CDL Lab"
+                   title="Picture of CDL Lab" class="center">
             </a>
           </p>
 
-          <p> Our <abbr title="Computer Deconstruction Lab">CDL</abbr>
+          <p> Our <abbr title="Computer Deconstruction Lab, The Jersey Shore Makerspace">CDL</abbr>
             boasts a lab space with various equipment and despite being a bit
             disorganized contains a great many tools and equipment for working
             on electronic projects. At the moment we have 6 3D printers and
@@ -120,8 +139,15 @@
 
           <p>
             <a href="https://compdecon.org/studio/">
-              <img loading="lazy" src="./images/studio_04_19_2021-a.jpg" alt="Picture of the CDL Podcast Studio"
-                   title="Picture of CDL/IXR Podcast Studio" class="center">
+              <img srcset="images/studio-laptop.jpg 1024w,
+                           images/studio-tablet.jpg 768w,
+                           images/studio-modelL.jpg 430w,
+                           images/studio-modelM.jpg 379w,
+                           images/studio-modelS.jpg 328w"
+                   sizes="(max-width: 1024px) 768px 430px 379px 328px"
+                   src="./images/studio-laptop.jpg"
+                   alt="Picture of the CDL Podcast Studio"
+                   title="Picture of CDL Podcast Studio" class="center">
             </a>
           </p>
 
@@ -129,14 +155,19 @@
 
           <p>
             <a href="./images/Classroom.jpg">
-              <img loading="lazy" src="./images/Classroom-a.jpg" alt="Picture of the CDL Classroom"
-                   title="Picture of CDL/IXR Podcast Studio" class="center">
+              <img srcset="images/Classroom-laptop.jpg 1024w,
+                           images/Classroom-tablet.jpg 768w,
+                           images/Classroom-modelL.jpg 430w,
+                           images/Classroom-modelM.jpg 379w,
+                           images/Classroom-modelS.jpg 328w"
+                   sizes="(max-width: 1024px) 768px 430px 379px 328px"
+                   src="./images/Classroom-laptop.jpg"
+                   alt="Picture of the CDL Classroom"
+                   title="Picture of CDL Podcast Studio" class="center">
             </a>
           </p>
 
           <p>The CDL Classroom, dedicated to Nick Lordi's wife.</p>
-
-          <p> CDL was once known as IXR (Institute for eXploratory Research) but changed the name. Long story short, we changed the name. ;-) </p>
 
           <p> A map for the <a href="./images/TourMap_16x20_self-download.jpg">InfoAge Campus</a> (CDL is in #11, Building 9059)</p>
           
