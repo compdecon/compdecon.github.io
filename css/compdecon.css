@@ -1,5 +1,6 @@
 body {
     max-width: 100%;
+    color: black;
 }
 /* Yes it's off but this pulls it up over the line and not below the line. */
 .mail {
@@ -48,6 +49,13 @@ convert -resize 33% flower.jpg flower-small.jpg
 # macOS/Linux
 convert flower.jpg -resize 300x200 flower-small.jpg
 
+FILE=CDL-front
+convert ${FILE}-a.jpg -resize 1024x768 ${FILE}-laptop.jpg
+convert ${FILE}-a.jpg -resize 768x576  ${FILE}-tablet.jpg
+convert ${FILE}-a.jpg -resize 430x323  ${FILE}-modelL.jpg
+convert ${FILE}-a.jpg -resize 379x284  ${FILE}-modelM.jpg
+convert ${FILE}-a.jpg -resize 328x246  ${FILE}-modelS.jpg
+
 Google suggests:
 320 - Mobile S  - 32%  -  64%
 375 - Mobile M  - 37%  -  74%
@@ -91,7 +99,7 @@ can be written as:
 .myBody {
     background: #cfdaba;
     color: black;
-    font-size: 120%;
+    font-size: 160%;
 }
 .myBannerT {
     background: #5e8067;
