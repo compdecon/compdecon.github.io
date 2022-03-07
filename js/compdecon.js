@@ -120,21 +120,49 @@ function currentSpaceWeather(weather) {
   } else {
     throw Error(response.statusText);
   }
+
+  https://stackoverflow.com/questions/38235715/fetch-reject-promise-and-catch-the-error-if-status-is-not-ok
+
+  Fetch promises only reject with a TypeError when a network error occurs. Since 4xx and 5xx responses aren't network errors, there's nothing to catch. You'll need to throw an error yourself to use Promise#catch.
+
+  A fetch Response conveniently supplies an ok , which tells you whether the request succeeded. Something like this should do the trick:
+
+  fetch(url).then((response) => {
+    if (response.ok) {
+      return response.json();
+    }
+    throw new Error('Something went wrong');
+  })
+  .then((responseJson) => {
+    // Do something with the response
+  })
+  .catch((error) => {
+    console.log(error)
+  });
 */
 function getStatus(url) {
     // https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
     fetch(url, { 
         method: 'GET'
     })
-    .then(function(response) { return response.json(); })
+    .then(function(response) {
+        if (response.status >= 200 && response.status <= 299) {
+            return response.json();
+        } else {
+            throw Error(response.statusText);
+        }
+        //return response.json();
+    })
     .then(function(json) {
         // use the json
         if(debug) console.log(Date);
         toggleSign(json.state.open);
+
         updateMsg("preUpdateDiv",  json.state.preMessage);
         updateMsg("updateDiv",     json.state.message);
         updateMsg("postUpdateDiv", json.state.postMessage);
         updateBlog("blogUpdate",   json.state.blogUpdate);
+
         lastUpdated(json.state.lastchange)
         currentWeather(json.ext_weather);
         currentSpaceWeather(json.space_weather);
@@ -149,9 +177,20 @@ function getStatus(url) {
   document.getElementById("myAnchor").href = "http://www.cnn.com/";
   // document.getElementById("demo").innerHTML = "The link above now goes to www.cnn.com.";
   }
-*/
+* 
 function setSeason() {
     // Need to do the math here
+    // and this just got more complicated
+    //            <img srcset="images/CDL-front-laptop.jpg 1024w,
+    //                     images/CDL-front-tablet.jpg 768w,
+    //                   images/CDL-front-modelL.jpg 430w,
+    //                   images/CDL-front-modelM.jpg 379w,
+    //                   images/CDL-front-modelS.jpg 328w"
+    //           sizes="(max-width: 1024px) 768px 430px 379px 328px"
+    //           src="images/CDL-front-laptop.jpg"
+    //           alt="Picture of CDL Lab"
+    //           title="Picture of CDL Lab"
+    //           id="frontDoorImg">
     var seasonal = [
         {
             "href":    "images/CDL-front.jpg",
@@ -204,15 +243,13 @@ function setSeason() {
         {}
     ];
 
-    /*
-    ** Figure out the 'season' so we can put an appropriate picture of the front
-    ** of the CDL.
-    ** 0 = default
-    ** 1 = Winter (Jan, Feb, Mar)
-    ** 2 = Spring (Apr, May, Jun)
-    ** 3 = Summer (Jul, Aug, Sep)
-    ** 4 = Fall   (Oct, Nov, Dev)
-    */
+    // Figure out the 'season' so we can put an appropriate picture of the front
+    // of the CDL.
+    // 0 = default
+    // 1 = Winter (Jan, Feb, Mar)
+    // 2 = Spring (Apr, May, Jun)
+    // 3 = Summer (Jul, Aug, Sep)
+    // 4 = Fall   (Oct, Nov, Dev)
     
     // href tag
     document.getElementById("frontDoorHref").href = seasonal[0].href;
@@ -221,6 +258,8 @@ function setSeason() {
     document.getElementById("frontDoorHref").src  = seasonal[0].img;
     document.getElementById("frontDoorImg").title = seasonal[0].title;
 }
+/* */
+
 function toggleDiv() {
     var x = document.getElementById("space_weatherDiv");
     var b = document.getElementById("spaceButton");
@@ -256,7 +295,7 @@ if(urlParams.has('debug')) {
 // This handles my weather stuff and hopefully adapted to deal with the sprinkler sysem
 var url = "./status.json";
 
-setSeason(); // Set the correct season image of the CDL front door.
+//setSeason(); // Set the correct season image of the CDL front door.
 
 // Toggle Space Weather off
 document.getElementById("space_weatherDiv").style.display = "block";
