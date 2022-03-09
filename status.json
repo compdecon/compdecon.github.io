@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/03/09 09:10:04 EST UTC-05:00",
-    "ext_localtime": "Wed 09 Mar 2022 09:10:04 AM EST",
+    "ext_time": "2022/03/09 12:10:04 EST UTC-05:00",
+    "ext_localtime": "Wed 09 Mar 2022 12:10:04 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,18 +100,18 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2022-03-09T09:00:00-05:00",
+    "name": "This Afternoon",
+    "startTime": "2022-03-09T12:00:00-05:00",
     "endTime": "2022-03-09T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 38,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "10 to 15 mph",
-    "windDirection": "E",
-    "icon": "https://preview-api.weather.gov/icons/land/day/snow,100/snow,90?size=medium",
+    "windDirection": "NE",
+    "icon": "https://preview-api.weather.gov/icons/land/day/snow,90?size=medium",
     "shortForecast": "Rain And Snow",
-    "detailedForecast": "Rain and snow. Cloudy, with a high near 38. East wind 10 to 15 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible."
+    "detailedForecast": "Rain and snow. Cloudy, with a high near 38. Northeast wind 10 to 15 mph. Chance of precipitation is 90%. New rainfall amounts between a half and three quarters of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3214\r\nIssue Time: 2022 Mar 09 0459 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3213\r\nBegin Time: 2022 Mar 06 1250 UTC\r\nYesterday Maximum 2MeV Flux: 4770 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1646835004,
+    "lastchange": 1646845804,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
