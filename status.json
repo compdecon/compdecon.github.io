@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/03/18 18:10:04 EDT UTC-04:00",
-    "ext_localtime": "Fri 18 Mar 2022 06:10:04 PM EDT",
+    "ext_time": "2022/03/18 21:10:04 EDT UTC-04:00",
+    "ext_localtime": "Fri 18 Mar 2022 09:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2022-03-18T18:00:00-04:00",
+    "startTime": "2022-03-18T21:00:00-04:00",
     "endTime": "2022-03-19T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 50,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "10 to 15 mph",
     "windDirection": "S",
     "icon": "https://preview-api.weather.gov/icons/land/night/fog/rain_showers,40?size=medium",
-    "shortForecast": "Areas Of Fog",
-    "detailedForecast": "Patchy fog between 11pm and 2am, then areas of fog and a slight chance of rain showers between 2am and 3am, then a chance of rain showers and patchy fog. Mostly cloudy, with a low around 50. South wind 5 to 10 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+    "shortForecast": "Patchy Fog",
+    "detailedForecast": "Patchy fog before 2am, then patchy fog and a slight chance of rain showers between 2am and 3am, then a chance of rain showers and patchy fog. Mostly cloudy, with a low around 50. South wind 10 to 15 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1119\r\nIssue Time: 2022 Mar 14 1810 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Mar 14 1720 UTC\r\nEstimated Velocity: 632 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
@@ -151,7 +151,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1647641404,
+    "lastchange": 1647652204,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
