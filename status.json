@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/03/19 23:55:04 EDT UTC-04:00",
-    "ext_localtime": "Sat 19 Mar 2022 11:55:04 PM EDT",
+    "ext_time": "2022/03/20 00:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 20 Mar 2022 12:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,27 +100,21 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2022-03-19T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2022-03-20T00:00:00-04:00",
     "endTime": "2022-03-20T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 48,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 to 10 mph",
-    "windDirection": "SW",
-    "icon": "https://preview-api.weather.gov/icons/land/night/tsra_hi,40/bkn?size=medium",
-    "shortForecast": "Chance Showers And Thunderstorms then Mostly Cloudy",
-    "detailedForecast": "A chance of showers and thunderstorms before midnight. Mostly cloudy, with a low around 48. Southwest wind 5 to 10 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+    "windDirection": "W",
+    "icon": "https://preview-api.weather.gov/icons/land/night/bkn?size=medium",
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": "Mostly cloudy, with a low around 48. West wind 5 to 10 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1119\r\nIssue Time: 2022 Mar 14 1810 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Mar 14 1720 UTC\r\nEstimated Velocity: 632 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4054\r\nIssue Time: 2022 Mar 14 1723 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4053\r\nValid From: 2022 Mar 13 1100 UTC\r\nNow Valid Until: 2022 Mar 15 0300 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4053\r\nIssue Time: 2022 Mar 14 0543 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4052\r\nValid From: 2022 Mar 13 1100 UTC\r\nNow Valid Until: 2022 Mar 14 1800 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK05\r\nSerial Number: 1652\r\nIssue Time: 2022 Mar 14 0542 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 5 expected\r\nExtension to Serial Number: 1651\r\nValid From: 2022 Mar 13 1240 UTC\r\nNow Valid Until: 2022 Mar 14 1200 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: ALTK06\r\nSerial Number: 493\r\nIssue Time: 2022 Mar 14 0136 UTC\r\n\r\nALERT: Geomagnetic K-index of 6\r\nThreshold Reached: 2022 Mar 14 0135 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
-    "Space Weather Message Code: ALTK05\r\nSerial Number: 1376\r\nIssue Time: 2022 Mar 14 0030 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\nThreshold Reached: 2022 Mar 14 0029 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1118\r\nIssue Time: 2022 Mar 14 0000 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Mar 13 2337 UTC\r\nEstimated Velocity: 831 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4055\r\nIssue Time: 2022 Mar 20 0351 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Mar 20 0350 UTC\r\nValid To: 2022 Mar 20 1800 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -151,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1647748504,
+    "lastchange": 1647749404,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
