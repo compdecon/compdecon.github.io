@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/03/20 00:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sun 20 Mar 2022 12:10:04 AM EDT",
+    "ext_time": "2022/03/20 03:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 20 Mar 2022 03:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2022-03-20T00:00:00-04:00",
+    "startTime": "2022-03-20T03:00:00-04:00",
     "endTime": "2022-03-20T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 48,
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1647749404,
+    "lastchange": 1647760204,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
