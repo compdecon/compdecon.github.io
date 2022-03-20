@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/03/20 03:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sun 20 Mar 2022 03:10:04 AM EDT",
+    "ext_time": "2022/03/20 06:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 20 Mar 2022 06:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,26 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 48
+        "value": 59
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2022-03-20T03:00:00-04:00",
-    "endTime": "2022-03-20T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 48,
+    "name": "Today",
+    "startTime": "2022-03-20T06:00:00-04:00",
+    "endTime": "2022-03-20T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 59,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "10 to 15 mph",
     "windDirection": "W",
-    "icon": "https://preview-api.weather.gov/icons/land/night/bkn?size=medium",
-    "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a low around 48. West wind 5 to 10 mph."
+    "icon": "https://preview-api.weather.gov/icons/land/day/sct?size=medium",
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny, with a high near 59. West wind 10 to 15 mph, with gusts as high as 30 mph. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1120\r\nIssue Time: 2022 Mar 20 0855 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Mar 20 0743 UTC\r\nEstimated Velocity: 188 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
+    "Space Weather Message Code: SUM10R\r\nSerial Number: 726\r\nIssue Time: 2022 Mar 20 0741 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2022 Mar 20 0549 UTC\r\nMaximum Time: 2022 Mar 20 0553 UTC\r\nEnd Time: 2022 Mar 20 0602 UTC\r\nDuration: 13 minutes\r\nPeak Flux: 330 sfu\r\nLatest Penticton Noon Flux: 94 sfu\r\n\r\nComment: Radio burst data is provided by the Air Force.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 4055\r\nIssue Time: 2022 Mar 20 0351 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Mar 20 0350 UTC\r\nValid To: 2022 Mar 20 1800 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
@@ -145,7 +147,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1647760204,
+    "lastchange": 1647771004,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
