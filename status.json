@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/03/20 18:10:05 EDT UTC-04:00",
-    "ext_localtime": "Sun 20 Mar 2022 06:10:05 PM EDT",
+    "ext_time": "2022/03/20 21:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 20 Mar 2022 09:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2022-03-20T18:00:00-04:00",
+    "startTime": "2022-03-20T21:00:00-04:00",
     "endTime": "2022-03-21T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 39,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "10 to 15 mph",
+    "windSpeed": "15 mph",
     "windDirection": "NW",
     "icon": "https://preview-api.weather.gov/icons/land/night/bkn?size=medium",
     "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a low around 39. Northwest wind 10 to 15 mph, with gusts as high as 25 mph."
+    "detailedForecast": "Mostly cloudy, with a low around 39. Northwest wind around 15 mph, with gusts as high as 30 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1120\r\nIssue Time: 2022 Mar 20 0855 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Mar 20 0743 UTC\r\nEstimated Velocity: 188 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
@@ -147,7 +147,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1647814205,
+    "lastchange": 1647825004,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
