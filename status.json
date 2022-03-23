@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/03/23 15:10:05 EDT UTC-04:00",
-    "ext_localtime": "Wed 23 Mar 2022 03:10:05 PM EDT",
+    "ext_time": "2022/03/23 18:10:05 EDT UTC-04:00",
+    "ext_localtime": "Wed 23 Mar 2022 06:10:05 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 48
+        "value": 43
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2022-03-23T15:00:00-04:00",
-    "endTime": "2022-03-23T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 48,
+    "name": "Tonight",
+    "startTime": "2022-03-23T18:00:00-04:00",
+    "endTime": "2022-03-24T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 43,
     "temperatureUnit": "F",
-    "temperatureTrend": null,
-    "windSpeed": "15 mph",
+    "temperatureTrend": "rising",
+    "windSpeed": "15 to 20 mph",
     "windDirection": "E",
-    "icon": "https://preview-api.weather.gov/icons/land/day/rain,30?size=medium",
-    "shortForecast": "Chance Light Rain",
-    "detailedForecast": "A chance of rain. Cloudy, with a high near 48. East wind around 15 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://preview-api.weather.gov/icons/land/night/rain,100/tsra,100?size=medium",
+    "shortForecast": "Heavy Rain",
+    "detailedForecast": "Rain before 2am, then rain and a chance of thunderstorms. Some of the storms could produce heavy rain. Cloudy. Low around 43, with temperatures rising to around 49 overnight. East wind 15 to 20 mph, with gusts as high as 35 mph. Chance of precipitation is 100%. New rainfall amounts between 1 and 2 inches possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4057\r\nIssue Time: 2022 Mar 22 2037 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Mar 22 2037 UTC\r\nValid To: 2022 Mar 23 0600 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -146,7 +146,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1648062605,
+    "lastchange": 1648073405,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
