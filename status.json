@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/03/25 15:10:04 EDT UTC-04:00",
-    "ext_localtime": "Fri 25 Mar 2022 03:10:04 PM EDT",
+    "ext_time": "2022/03/25 18:10:05 EDT UTC-04:00",
+    "ext_localtime": "Fri 25 Mar 2022 06:10:05 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,26 +94,27 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 61
+        "value": 42
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2022-03-25T15:00:00-04:00",
-    "endTime": "2022-03-25T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 61,
+    "name": "Tonight",
+    "startTime": "2022-03-25T18:00:00-04:00",
+    "endTime": "2022-03-26T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 42,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "10 to 15 mph",
+    "windSpeed": "5 to 10 mph",
     "windDirection": "W",
-    "icon": "https://preview-api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 61. West wind 10 to 15 mph."
+    "icon": "https://preview-api.weather.gov/icons/land/night/bkn?size=medium",
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": "Mostly cloudy, with a low around 42. West wind 5 to 10 mph, with gusts as high as 25 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: WATA20\r\nSerial Number: 911\r\nIssue Time: 2022 Mar 25 2136 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nMar 26:  None (Below G1)   Mar 27:  G1 (Minor)   Mar 28:  None (Below G1)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
     "Space Weather Message Code: ALTTP4\r\nSerial Number: 563\r\nIssue Time: 2022 Mar 25 0546 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2022 Mar 25 0522 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1122\r\nIssue Time: 2022 Mar 25 0533 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Mar 25 0514 UTC\r\nEstimated Velocity: 959 km/s\r\n\r\nComment: Eclipse on GOES X-rays limiting source location identification \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 4058\r\nIssue Time: 2022 Mar 25 0306 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Mar 25 0305 UTC\r\nValid To: 2022 Mar 25 1500 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
@@ -147,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1648235404,
+    "lastchange": 1648246205,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
