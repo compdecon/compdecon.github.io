@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/03/25 00:10:04 EDT UTC-04:00",
-    "ext_localtime": "Fri 25 Mar 2022 12:10:04 AM EDT",
+    "ext_time": "2022/03/25 03:10:04 EDT UTC-04:00",
+    "ext_localtime": "Fri 25 Mar 2022 03:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2022-03-25T00:00:00-04:00",
+    "startTime": "2022-03-25T03:00:00-04:00",
     "endTime": "2022-03-25T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 45,
@@ -109,11 +109,13 @@
     "temperatureTrend": null,
     "windSpeed": "5 to 10 mph",
     "windDirection": "NW",
-    "icon": "https://preview-api.weather.gov/icons/land/night/tsra,70?size=medium",
-    "shortForecast": "Patchy Fog",
-    "detailedForecast": "Patchy fog and showers and thunderstorms likely before 5am, then patchy fog and a slight chance of rain showers. Cloudy, with a low around 45. Northwest wind 5 to 10 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "icon": "https://preview-api.weather.gov/icons/land/night/rain_showers,50?size=medium",
+    "shortForecast": "Chance Rain Showers",
+    "detailedForecast": "A chance of rain showers and patchy fog before 5am, then patchy fog and a slight chance of rain showers. Cloudy, with a low around 45. Northwest wind 5 to 10 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTTP4\r\nSerial Number: 563\r\nIssue Time: 2022 Mar 25 0546 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2022 Mar 25 0522 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1122\r\nIssue Time: 2022 Mar 25 0533 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Mar 25 0514 UTC\r\nEstimated Velocity: 959 km/s\r\n\r\nComment: Eclipse on GOES X-rays limiting source location identification \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 4058\r\nIssue Time: 2022 Mar 25 0306 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Mar 25 0305 UTC\r\nValid To: 2022 Mar 25 1500 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
@@ -145,7 +147,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1648181404,
+    "lastchange": 1648192204,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
