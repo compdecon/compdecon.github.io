@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/03/26 06:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sat 26 Mar 2022 06:10:04 AM EDT",
+    "ext_time": "2022/03/26 09:10:05 EDT UTC-04:00",
+    "ext_localtime": "Sat 26 Mar 2022 09:10:05 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2022-03-26T06:00:00-04:00",
+    "startTime": "2022-03-26T09:00:00-04:00",
     "endTime": "2022-03-26T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 53,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 to 15 mph",
+    "windSpeed": "10 to 15 mph",
     "windDirection": "W",
-    "icon": "https://preview-api.weather.gov/icons/land/day/rain_showers,40/tsra_sct,50?size=medium",
+    "icon": "https://preview-api.weather.gov/icons/land/day/rain_showers,40/tsra,50?size=medium",
     "shortForecast": "Scattered Rain Showers",
-    "detailedForecast": "Scattered rain showers between 9am and 1pm, then scattered showers and thunderstorms. Mostly cloudy, with a high near 53. West wind 5 to 15 mph. Chance of precipitation is 50%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "detailedForecast": "Scattered rain showers before 1pm, then scattered showers and thunderstorms. Mostly cloudy, with a high near 53. West wind 10 to 15 mph. Chance of precipitation is 50%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WATA20\r\nSerial Number: 911\r\nIssue Time: 2022 Mar 25 2136 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nMar 26:  None (Below G1)   Mar 27:  G1 (Minor)   Mar 28:  None (Below G1)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1648289404,
+    "lastchange": 1648300205,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
