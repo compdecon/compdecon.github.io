@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/03/28 09:10:04 EDT UTC-04:00",
-    "ext_localtime": "Mon 28 Mar 2022 09:10:04 AM EDT",
+    "ext_time": "2022/03/28 12:10:04 EDT UTC-04:00",
+    "ext_localtime": "Mon 28 Mar 2022 12:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2022-03-28T09:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2022-03-28T12:00:00-04:00",
     "endTime": "2022-03-28T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 34,
@@ -109,11 +109,12 @@
     "temperatureTrend": null,
     "windSpeed": "20 mph",
     "windDirection": "NW",
-    "icon": "https://preview-api.weather.gov/icons/land/day/bkn/snow?size=medium",
-    "shortForecast": "Partly Sunny then Scattered Snow Showers",
-    "detailedForecast": "Scattered snow showers after 2pm. Partly sunny, with a high near 34. Northwest wind around 20 mph."
+    "icon": "https://preview-api.weather.gov/icons/land/day/snow,20?size=medium",
+    "shortForecast": "Isolated Snow Showers",
+    "detailedForecast": "Isolated snow showers after 2pm. Partly sunny, with a high near 34. Northwest wind around 20 mph. Chance of precipitation is 20%."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTPX1\r\nSerial Number: 323\r\nIssue Time: 2022 Mar 28 1342 UTC\r\n\r\nALERT: Proton Event 10MeV Integral Flux exceeded 10pfu\r\nBegin Time: 2022 Mar 28 1325 UTC\r\nNOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.",
     "Space Weather Message Code: ALTPC0\r\nSerial Number: 48\r\nIssue Time: 2022 Mar 28 1302 UTC\r\n\r\nALERT: Proton Event 100MeV Integral Flux exceeded 1pfu\r\nBegin Time: 2022 Mar 28 1245 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: An enhancement in the energetic portion of the solar radiation spectrum may indicate increased biological risk to astronauts or passengers and crew in high latitude, high altitude flights. Additionally, energetic particles may represent an increased risk to all satellite systems susceptible to single event effects. This information should be used in conjunction with the current Solar Radiation Storm conditions when assessing overall impact.",
     "Space Weather Message Code: ALTTP4\r\nSerial Number: 564\r\nIssue Time: 2022 Mar 28 1219 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2022 Mar 28 1137 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1123\r\nIssue Time: 2022 Mar 28 1218 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Mar 28 1123 UTC\r\nEstimated Velocity: 1259 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
@@ -149,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1648473004,
+    "lastchange": 1648483804,
     "message": "We will be open from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
