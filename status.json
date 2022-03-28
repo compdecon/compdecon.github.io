@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/03/27 23:55:04 EDT UTC-04:00",
-    "ext_localtime": "Sun 27 Mar 2022 11:55:04 PM EDT",
+    "ext_time": "2022/03/28 00:10:04 EDT UTC-04:00",
+    "ext_localtime": "Mon 28 Mar 2022 12:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2022-03-27T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2022-03-28T00:00:00-04:00",
     "endTime": "2022-03-28T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 22,
@@ -109,9 +109,9 @@
     "temperatureTrend": null,
     "windSpeed": "15 to 20 mph",
     "windDirection": "NW",
-    "icon": "https://preview-api.weather.gov/icons/land/night/snow,20/bkn?size=medium",
-    "shortForecast": "Slight Chance Snow Showers then Mostly Cloudy",
-    "detailedForecast": "A slight chance of snow showers before 10pm. Mostly cloudy, with a low around 22. Northwest wind 15 to 20 mph, with gusts as high as 35 mph. Chance of precipitation is 20%."
+    "icon": "https://preview-api.weather.gov/icons/land/night/bkn?size=medium",
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": "Mostly cloudy, with a low around 22. Northwest wind 15 to 20 mph, with gusts as high as 35 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4060\r\nIssue Time: 2022 Mar 27 2051 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4059\r\nValid From: 2022 Mar 27 1129 UTC\r\nNow Valid Until: 2022 Mar 28 1200 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1648439704,
+    "lastchange": 1648440604,
     "message": "We will be open from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
