@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/03/30 15:10:04 EDT UTC-04:00",
-    "ext_localtime": "Wed 30 Mar 2022 03:10:04 PM EDT",
+    "ext_time": "2022/03/30 18:10:05 EDT UTC-04:00",
+    "ext_localtime": "Wed 30 Mar 2022 06:10:05 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,26 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 47
+        "value": 40
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2022-03-30T15:00:00-04:00",
-    "endTime": "2022-03-30T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 47,
+    "name": "Tonight",
+    "startTime": "2022-03-30T18:00:00-04:00",
+    "endTime": "2022-03-31T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 40,
     "temperatureUnit": "F",
-    "temperatureTrend": null,
+    "temperatureTrend": "rising",
     "windSpeed": "5 to 10 mph",
     "windDirection": "S",
-    "icon": "https://preview-api.weather.gov/icons/land/day/bkn?size=medium",
+    "icon": "https://preview-api.weather.gov/icons/land/night/bkn?size=medium",
     "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a high near 47. South wind 5 to 10 mph."
+    "detailedForecast": "Mostly cloudy. Low around 40, with temperatures rising to around 49 overnight. South wind 5 to 10 mph, with gusts as high as 25 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: WARPX1\r\nSerial Number: 488\r\nIssue Time: 2022 Mar 30 2012 UTC\r\n\r\nWARNING: Proton 10MeV Integral Flux above 10pfu expected\r\nValid From: 2022 Mar 30 2030 UTC\r\nValid To: 2022 Mar 31 2359 UTC\r\nWarning Condition: Onset\r\nPredicted NOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.",
+    "Space Weather Message Code: WARPC0\r\nSerial Number: 94\r\nIssue Time: 2022 Mar 30 2012 UTC\r\n\r\nWARNING: Proton 100MeV Integral Flux above 1pfu expected\r\nValid From: 2022 Mar 30 2030 UTC\r\nValid To: 2022 Mar 31 2359 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: An enhancement in the energetic portion of the solar radiation spectrum may indicate increased biological risk to astronauts or passengers and crew in high latitude, high altitude flights. Additionally, energetic particles may represent an increased risk to all satellite systems susceptible to single event effects. This information should be used in conjunction with the current Solar Radiation Storm conditions when assessing overall impact.",
     "Space Weather Message Code: SUMX01\r\nSerial Number: 120\r\nIssue Time: 2022 Mar 30 1824 UTC\r\n\r\nSUMMARY: X-ray Event exceeded X1\r\nBegin Time: 2022 Mar 30 1721 UTC\r\nMaximum Time: 2022 Mar 30 1737 UTC\r\nEnd Time: 2022 Mar 30 1746 UTC\r\nX-ray Class: X1.3\r\nLocation: N16W41\r\nNOAA Scale: R3 - Strong\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact consists of large portions of the sunlit side of Earth, strongest at the sub-solar point.\r\nRadio - Wide area blackout of HF (high frequency) radio communication for about an hour.",
     "Space Weather Message Code: ALTTP4\r\nSerial Number: 565\r\nIssue Time: 2022 Mar 30 1822 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2022 Mar 30 1734 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
     "Space Weather Message Code: SUMPX1\r\nSerial Number: 90\r\nIssue Time: 2022 Mar 29 0918 UTC\r\n\r\nSUMMARY: Proton Event 10MeV Integral Flux exceeded 10pfu\r\nBegin Time: 2022 Mar 28 1325 UTC\r\nMaximum Time: 2022 Mar 28 1450 UTC\r\nEnd Time: 2022 Mar 28 2115 UTC\r\nMaximum 10MeV Flux: 18.7 pfu\r\nNOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
@@ -150,7 +152,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1648667404,
+    "lastchange": 1648678205,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
