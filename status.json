@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/04/17 23:55:05 EDT UTC-04:00",
-    "ext_localtime": "Sun 17 Apr 2022 11:55:05 PM EDT",
+    "ext_time": "2022/04/18 00:10:04 EDT UTC-04:00",
+    "ext_localtime": "Mon 18 Apr 2022 12:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 35
+        "value": 36
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2022-04-17T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2022-04-18T00:00:00-04:00",
     "endTime": "2022-04-18T06:00:00-04:00",
     "isDaytime": false,
-    "temperature": 35,
+    "temperature": 36,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 mph",
     "windDirection": "N",
     "icon": "https://preview-api.weather.gov/icons/land/night/few?size=medium",
     "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 35. North wind around 5 mph."
+    "detailedForecast": "Mostly clear, with a low around 36. North wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1129\r\nIssue Time: 2022 Apr 17 2350 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Apr 17 2234 UTC\r\nEstimated Velocity: 837 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
@@ -151,7 +151,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1650254105,
+    "lastchange": 1650255004,
     "message": "We will be open from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
