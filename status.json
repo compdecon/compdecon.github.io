@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/04/20 03:10:04 EDT UTC-04:00",
-    "ext_localtime": "Wed 20 Apr 2022 03:10:04 AM EDT",
+    "ext_time": "2022/04/20 06:10:04 EDT UTC-04:00",
+    "ext_localtime": "Wed 20 Apr 2022 06:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 37
+        "value": 58
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2022-04-20T03:00:00-04:00",
-    "endTime": "2022-04-20T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 37,
+    "name": "Today",
+    "startTime": "2022-04-20T06:00:00-04:00",
+    "endTime": "2022-04-20T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 58,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "15 mph",
+    "windSpeed": "5 to 15 mph",
     "windDirection": "W",
-    "icon": "https://preview-api.weather.gov/icons/land/night/few?size=medium",
-    "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 37. West wind around 15 mph, with gusts as high as 30 mph."
+    "icon": "https://preview-api.weather.gov/icons/land/day/few?size=medium",
+    "shortForecast": "Sunny",
+    "detailedForecast": "Sunny, with a high near 58. West wind 5 to 15 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1130\r\nIssue Time: 2022 Apr 20 0426 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Apr 20 0355 UTC\r\nEstimated Velocity: 1630 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
@@ -150,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1650438604,
+    "lastchange": 1650449404,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
