@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/04/20 21:10:04 EDT UTC-04:00",
-    "ext_localtime": "Wed 20 Apr 2022 09:10:04 PM EDT",
+    "ext_time": "2022/04/21 00:10:04 EDT UTC-04:00",
+    "ext_localtime": "Thu 21 Apr 2022 12:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,34 +94,31 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 40
+        "value": 41
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2022-04-20T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2022-04-21T00:00:00-04:00",
     "endTime": "2022-04-21T06:00:00-04:00",
     "isDaytime": false,
-    "temperature": 40,
+    "temperature": 41,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "0 to 5 mph",
+    "windSpeed": "5 mph",
     "windDirection": "S",
     "icon": "https://preview-api.weather.gov/icons/land/night/few?size=medium",
     "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 40. South wind 0 to 5 mph."
+    "detailedForecast": "Mostly clear, with a low around 41. South wind around 5 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4089\r\nIssue Time: 2022 Apr 20 2312 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Apr 20 2312 UTC\r\nValid To: 2022 Apr 21 0600 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3227\r\nIssue Time: 2022 Apr 20 1328 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3226\r\nBegin Time: 2022 Apr 16 1715 UTC\r\nYesterday Maximum 2MeV Flux: 2219 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1130\r\nIssue Time: 2022 Apr 20 0426 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Apr 20 0355 UTC\r\nEstimated Velocity: 1630 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
-    "Space Weather Message Code: SUMX01\r\nSerial Number: 122\r\nIssue Time: 2022 Apr 20 0423 UTC\r\n\r\nSUMMARY: X-ray Event exceeded X1\r\nBegin Time: 2022 Apr 20 0341 UTC\r\nMaximum Time: 2022 Apr 20 0357 UTC\r\nEnd Time: 2022 Apr 20 0404 UTC\r\nX-ray Class: X2.2\r\nLocation: S30W90\r\nNOAA Scale: R3 - Strong\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact consists of large portions of the sunlit side of Earth, strongest at the sub-solar point.\r\nRadio - Wide area blackout of HF (high frequency) radio communication for about an hour.",
-    "Space Weather Message Code: SUM10R\r\nSerial Number: 733\r\nIssue Time: 2022 Apr 20 0421 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2022 Apr 20 0354 UTC\r\nMaximum Time: 2022 Apr 20 0355 UTC\r\nEnd Time: 2022 Apr 20 0355 UTC\r\nDuration: 1 minutes\r\nPeak Flux: 509 sfu\r\nLatest Penticton Noon Flux: 160 sfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
-    "Space Weather Message Code: ALTXMF\r\nSerial Number: 281\r\nIssue Time: 2022 Apr 20 0358 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2022 Apr 20 0355 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
-    "Space Weather Message Code: SUMXM5\r\nSerial Number: 155\r\nIssue Time: 2022 Apr 20 0155 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2022 Apr 20 0120 UTC\r\nMaximum Time: 2022 Apr 20 0136 UTC\r\nEnd Time: 2022 Apr 20 0144 UTC\r\nX-ray Class: M7.2\r\nLocation: S28W99\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
-    "Space Weather Message Code: ALTXMF\r\nSerial Number: 280\r\nIssue Time: 2022 Apr 20 0133 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2022 Apr 20 0131 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap."
+    "Space Weather Message Code: ALTTP4\r\nSerial Number: 567\r\nIssue Time: 2022 Apr 21 0309 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2022 Apr 21 0215 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1131\r\nIssue Time: 2022 Apr 21 0227 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Apr 21 0157 UTC\r\nEstimated Velocity: 1132 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
+    "Space Weather Message Code: SUM10R\r\nSerial Number: 734\r\nIssue Time: 2022 Apr 21 0219 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2022 Apr 21 0153 UTC\r\nMaximum Time: 2022 Apr 21 0155 UTC\r\nEnd Time: 2022 Apr 21 0156 UTC\r\nDuration: 3 minutes\r\nPeak Flux: 370 sfu\r\nLatest Penticton Noon Flux: 160 sfu\r\n\r\nComment: Castili-U\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
+    "Space Weather Message Code: SUMXM5\r\nSerial Number: 156\r\nIssue Time: 2022 Apr 21 0211 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2022 Apr 21 0147 UTC\r\nMaximum Time: 2022 Apr 21 0159 UTC\r\nEnd Time: 2022 Apr 21 0205 UTC\r\nX-ray Class: M9.6\r\nLocation: N20E24\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
+    "Space Weather Message Code: ALTXMF\r\nSerial Number: 282\r\nIssue Time: 2022 Apr 21 0158 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2022 Apr 21 0155 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -152,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1650503404,
+    "lastchange": 1650514204,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
