@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/04/23 23:55:04 EDT UTC-04:00",
-    "ext_localtime": "Sat 23 Apr 2022 11:55:04 PM EDT",
+    "ext_time": "2022/04/24 00:10:05 EDT UTC-04:00",
+    "ext_localtime": "Sun 24 Apr 2022 12:10:05 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,18 +100,18 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2022-04-23T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2022-04-24T00:00:00-04:00",
     "endTime": "2022-04-24T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 48,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "0 to 10 mph",
+    "windSpeed": "0 to 5 mph",
     "windDirection": "E",
     "icon": "https://preview-api.weather.gov/icons/land/night/bkn?size=medium",
     "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a low around 48. East wind 0 to 10 mph."
+    "detailedForecast": "Mostly cloudy, with a low around 48. East wind 0 to 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4092\r\nIssue Time: 2022 Apr 23 2138 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Apr 23 2137 UTC\r\nValid To: 2022 Apr 24 0300 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -147,7 +147,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1650772504,
+    "lastchange": 1650773405,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
