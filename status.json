@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/04/29 12:10:05 EDT UTC-04:00",
-    "ext_localtime": "Fri 29 Apr 2022 12:10:05 PM EDT",
+    "ext_time": "2022/04/29 15:10:04 EDT UTC-04:00",
+    "ext_localtime": "Fri 29 Apr 2022 03:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 63
+        "value": 64
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2022-04-29T12:00:00-04:00",
+    "startTime": "2022-04-29T15:00:00-04:00",
     "endTime": "2022-04-29T18:00:00-04:00",
     "isDaytime": true,
-    "temperature": 63,
+    "temperature": 64,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "15 mph",
     "windDirection": "NW",
     "icon": "https://preview-api.weather.gov/icons/land/day/skc?size=medium",
     "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 63. Northwest wind around 15 mph."
+    "detailedForecast": "Sunny, with a high near 64. Northwest wind around 15 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3228\r\nIssue Time: 2022 Apr 29 1255 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2022 Apr 29 1220 UTC\r\nStation: GOES16\r\n \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1651248605,
+    "lastchange": 1651259404,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
