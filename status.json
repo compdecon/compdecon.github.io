@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/05/04 06:10:04 EDT UTC-04:00",
-    "ext_localtime": "Wed 04 May 2022 06:10:04 AM EDT",
+    "ext_time": "2022/05/04 09:10:04 EDT UTC-04:00",
+    "ext_localtime": "Wed 04 May 2022 09:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,19 +101,20 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2022-05-04T06:00:00-04:00",
+    "startTime": "2022-05-04T09:00:00-04:00",
     "endTime": "2022-05-04T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 67,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 mph",
-    "windDirection": "E",
-    "icon": "https://preview-api.weather.gov/icons/land/day/rain_showers,70/tsra,30?size=medium",
-    "shortForecast": "Rain Showers Likely then Chance Showers And Thunderstorms",
-    "detailedForecast": "Rain showers likely before 4pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 67. East wind around 5 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "windDirection": "NE",
+    "icon": "https://preview-api.weather.gov/icons/land/day/rain_showers,40/tsra,30?size=medium",
+    "shortForecast": "Chance Rain Showers then Chance Showers And Thunderstorms",
+    "detailedForecast": "A chance of rain showers before 4pm, then a chance of showers and thunderstorms. Cloudy, with a high near 67. Northeast wind around 5 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3232\r\nIssue Time: 2022 May 04 1156 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3231\r\nBegin Time: 2022 May 01 1335 UTC\r\nYesterday Maximum 2MeV Flux: 2317 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
     "Space Weather Message Code: SUMXM5\r\nSerial Number: 158\r\nIssue Time: 2022 May 04 0919 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2022 May 04 0845 UTC\r\nMaximum Time: 2022 May 04 0859 UTC\r\nEnd Time: 2022 May 04 0910 UTC\r\nX-ray Class: M5.7\r\nLocation: S16W19\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
     "Space Weather Message Code: ALTXMF\r\nSerial Number: 286\r\nIssue Time: 2022 May 04 0901 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2022 May 04 0858 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
     "Space Weather Message Code: ALTTP4\r\nSerial Number: 569\r\nIssue Time: 2022 May 04 0040 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2022 May 04 0000 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
@@ -149,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1651659004,
+    "lastchange": 1651669804,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
