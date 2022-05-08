@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/05/08 12:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sun 08 May 2022 12:10:04 PM EDT",
+    "ext_time": "2022/05/08 15:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 08 May 2022 03:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2022-05-08T12:00:00-04:00",
+    "startTime": "2022-05-08T15:00:00-04:00",
     "endTime": "2022-05-08T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 51,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "20 mph",
+    "windSpeed": "15 to 20 mph",
     "windDirection": "NE",
-    "icon": "https://preview-api.weather.gov/icons/land/day/rain,40?size=medium",
+    "icon": "https://preview-api.weather.gov/icons/land/day/rain,30?size=medium",
     "shortForecast": "Chance Light Rain",
-    "detailedForecast": "A chance of rain. Cloudy, with a high near 51. Northeast wind around 20 mph, with gusts as high as 35 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "A chance of rain. Cloudy, with a high near 51. Northeast wind 15 to 20 mph, with gusts as high as 35 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3236\r\nIssue Time: 2022 May 08 1456 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3235\r\nBegin Time: 2022 May 01 1335 UTC\r\nYesterday Maximum 2MeV Flux: 1408 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1652026204,
+    "lastchange": 1652037004,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
