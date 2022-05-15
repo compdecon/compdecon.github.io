@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/05/15 15:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sun 15 May 2022 03:10:04 PM EDT",
+    "ext_time": "2022/05/15 18:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 15 May 2022 06:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 74
+        "value": 59
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2022-05-15T15:00:00-04:00",
-    "endTime": "2022-05-15T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 74,
+    "name": "Tonight",
+    "startTime": "2022-05-15T18:00:00-04:00",
+    "endTime": "2022-05-16T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 59,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 to 10 mph",
     "windDirection": "S",
-    "icon": "https://preview-api.weather.gov/icons/land/day/rain_showers,20?size=medium",
-    "shortForecast": "Slight Chance Rain Showers",
-    "detailedForecast": "A slight chance of rain showers after 4pm. Mostly cloudy, with a high near 74. South wind 5 to 10 mph. Chance of precipitation is 20%."
+    "icon": "https://preview-api.weather.gov/icons/land/night/rain_showers,20?size=medium",
+    "shortForecast": "Isolated Rain Showers then Areas Of Fog",
+    "detailedForecast": "Isolated rain showers between 7pm and 9pm, then areas of fog and isolated rain showers. Mostly cloudy, with a low around 59. South wind 5 to 10 mph. Chance of precipitation is 20%."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2295\r\nIssue Time: 2022 May 15 0253 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 May 15 0247 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -146,7 +146,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1652641804,
+    "lastchange": 1652652604,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
