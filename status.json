@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/05/16 18:55:04 EDT UTC-04:00",
-    "ext_localtime": "Mon 16 May 2022 06:55:04 PM EDT",
+    "ext_time": "2022/05/16 21:10:04 EDT UTC-04:00",
+    "ext_localtime": "Mon 16 May 2022 09:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 55
+        "value": 56
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2022-05-16T18:00:00-04:00",
+    "startTime": "2022-05-16T21:00:00-04:00",
     "endTime": "2022-05-17T06:00:00-04:00",
     "isDaytime": false,
-    "temperature": 55,
+    "temperature": 56,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "10 mph",
     "windDirection": "W",
-    "icon": "https://preview-api.weather.gov/icons/land/night/tsra_hi,90/sct?size=medium",
-    "shortForecast": "Showers And Thunderstorms then Partly Cloudy",
-    "detailedForecast": "Showers and thunderstorms before 11pm. Some of the storms could be severe. Partly cloudy, with a low around 55. West wind around 10 mph, with gusts as high as 25 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible."
+    "icon": "https://preview-api.weather.gov/icons/land/night/tsra_hi,30/few?size=medium",
+    "shortForecast": "Chance Showers And Thunderstorms then Mostly Clear",
+    "detailedForecast": "A chance of showers and thunderstorms before 11pm. Mostly clear, with a low around 56. West wind around 10 mph, with gusts as high as 25 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4102\r\nIssue Time: 2022 May 16 0500 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 May 16 0500 UTC\r\nValid To: 2022 May 16 0900 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1652741704,
+    "lastchange": 1652749804,
     "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
