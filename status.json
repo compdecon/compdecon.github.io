@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/05/19 06:10:04 EDT UTC-04:00",
-    "ext_localtime": "Thu 19 May 2022 06:10:04 AM EDT",
+    "ext_time": "2022/05/19 09:10:04 EDT UTC-04:00",
+    "ext_localtime": "Thu 19 May 2022 09:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2022-05-19T06:00:00-04:00",
+    "startTime": "2022-05-19T09:00:00-04:00",
     "endTime": "2022-05-19T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 69,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "5 mph",
     "windDirection": "NE",
-    "icon": "https://preview-api.weather.gov/icons/land/day/rain,100/bkn?size=medium",
-    "shortForecast": "Rain then Mostly Cloudy",
-    "detailedForecast": "Rain before 11am. Mostly cloudy, with a high near 69. Northeast wind 5 to 10 mph. Chance of precipitation is 100%. New rainfall amounts between a quarter and half of an inch possible."
+    "icon": "https://preview-api.weather.gov/icons/land/day/rain,60/bkn?size=medium",
+    "shortForecast": "Light Rain Likely then Mostly Cloudy",
+    "detailedForecast": "Rain likely before 11am. Mostly cloudy, with a high near 69. Northeast wind around 5 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: SUMXM5\r\nSerial Number: 159\r\nIssue Time: 2022 May 19 0736 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2022 May 19 0700 UTC\r\nMaximum Time: 2022 May 19 0719 UTC\r\nEnd Time: 2022 May 19 0731 UTC\r\nX-ray Class: M5.6\r\nOptical Class: 2b\r\nLocation: N16E31\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
@@ -146,7 +146,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1652955004,
+    "lastchange": 1652965804,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
