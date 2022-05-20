@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/05/20 15:10:05 EDT UTC-04:00",
-    "ext_localtime": "Fri 20 May 2022 03:10:05 PM EDT",
+    "ext_time": "2022/05/20 18:10:04 EDT UTC-04:00",
+    "ext_localtime": "Fri 20 May 2022 06:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 71
+        "value": 61
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2022-05-20T15:00:00-04:00",
-    "endTime": "2022-05-20T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 71,
+    "name": "Tonight",
+    "startTime": "2022-05-20T18:00:00-04:00",
+    "endTime": "2022-05-21T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 61,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "10 mph",
+    "windSpeed": "0 to 10 mph",
     "windDirection": "S",
-    "icon": "https://preview-api.weather.gov/icons/land/day/tsra_hi,60?size=medium",
-    "shortForecast": "Showers And Thunderstorms Likely",
-    "detailedForecast": "Showers and thunderstorms likely after 4pm. Some of the storms could be severe. Partly sunny, with a high near 71. South wind around 10 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://preview-api.weather.gov/icons/land/night/tsra,60/rain_showers?size=medium",
+    "shortForecast": "Showers And Thunderstorms Likely then Areas Of Fog",
+    "detailedForecast": "Showers and thunderstorms likely before 9pm, then areas of fog and scattered rain showers between 9pm and 5am. Mostly cloudy, with a low around 61. South wind 0 to 10 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: SUM10R\r\nSerial Number: 737\r\nIssue Time: 2022 May 20 0808 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2022 May 20 0743 UTC\r\nMaximum Time: 2022 May 20 0744 UTC\r\nEnd Time: 2022 May 20 0745 UTC\r\nDuration: 2 minutes\r\nPeak Flux: 210 sfu\r\nLatest Penticton Noon Flux: 173 sfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications."
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1653073805,
+    "lastchange": 1653084604,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
