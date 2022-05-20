@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/05/19 18:10:05 EDT UTC-04:00",
-    "ext_localtime": "Thu 19 May 2022 06:10:05 PM EDT",
+    "ext_time": "2022/05/19 21:10:04 EDT UTC-04:00",
+    "ext_localtime": "Thu 19 May 2022 09:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2022-05-19T18:00:00-04:00",
+    "startTime": "2022-05-19T21:00:00-04:00",
     "endTime": "2022-05-20T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 57,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "0 to 5 mph",
-    "windDirection": "SW",
-    "icon": "https://preview-api.weather.gov/icons/land/night/rain_showers,20/fog?size=medium",
-    "shortForecast": "Isolated Rain Showers then Areas Of Fog",
-    "detailedForecast": "Isolated rain showers before 10pm, then areas of fog. Partly cloudy, with a low around 57. Southwest wind 0 to 5 mph. Chance of precipitation is 20%."
+    "windDirection": "W",
+    "icon": "https://preview-api.weather.gov/icons/land/night/sct/fog?size=medium",
+    "shortForecast": "Partly Cloudy then Areas Of Fog",
+    "detailedForecast": "Areas of fog after 2am. Partly cloudy, with a low around 57. West wind 0 to 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1138\r\nIssue Time: 2022 May 19 1318 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 May 19 1202 UTC\r\nEstimated Velocity: 441 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
@@ -147,7 +147,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1652998205,
+    "lastchange": 1653009004,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
