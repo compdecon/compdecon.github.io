@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/05/21 23:55:04 EDT UTC-04:00",
-    "ext_localtime": "Sat 21 May 2022 11:55:04 PM EDT",
+    "ext_time": "2022/05/22 00:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 22 May 2022 12:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 70
+        "value": 71
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2022-05-21T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2022-05-22T00:00:00-04:00",
     "endTime": "2022-05-22T06:00:00-04:00",
     "isDaytime": false,
-    "temperature": 70,
+    "temperature": 71,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 mph",
     "windDirection": "SW",
     "icon": "https://preview-api.weather.gov/icons/land/night/few?size=medium",
     "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 70. Southwest wind around 5 mph."
+    "detailedForecast": "Mostly clear, with a low around 71. Southwest wind around 5 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4104\r\nIssue Time: 2022 May 20 2242 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 May 20 2240 UTC\r\nValid To: 2022 May 21 0600 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: SUM10R\r\nSerial Number: 737\r\nIssue Time: 2022 May 20 0808 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2022 May 20 0743 UTC\r\nMaximum Time: 2022 May 20 0744 UTC\r\nEnd Time: 2022 May 20 0745 UTC\r\nDuration: 2 minutes\r\nPeak Flux: 210 sfu\r\nLatest Penticton Noon Flux: 173 sfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications."
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2297\r\nIssue Time: 2022 May 22 0150 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 May 22 0150 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4105\r\nIssue Time: 2022 May 22 0121 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 May 22 0120 UTC\r\nValid To: 2022 May 22 0900 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -146,7 +146,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1653191704,
+    "lastchange": 1653192604,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
