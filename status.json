@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/05/29 23:55:05 EDT UTC-04:00",
-    "ext_localtime": "Sun 29 May 2022 11:55:05 PM EDT",
+    "ext_time": "2022/05/30 00:10:05 EDT UTC-04:00",
+    "ext_localtime": "Mon 30 May 2022 12:10:05 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2022-05-29T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2022-05-30T00:00:00-04:00",
     "endTime": "2022-05-30T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 60,
@@ -109,12 +109,12 @@
     "temperatureTrend": null,
     "windSpeed": "5 mph",
     "windDirection": "S",
-    "icon": "https://preview-api.weather.gov/icons/land/night/few/fog?size=medium",
-    "shortForecast": "Mostly Clear then Patchy Fog",
-    "detailedForecast": "Patchy fog after midnight. Mostly clear, with a low around 60. South wind around 5 mph."
+    "icon": "https://preview-api.weather.gov/icons/land/night/fog?size=medium",
+    "shortForecast": "Patchy Fog",
+    "detailedForecast": "Patchy fog. Mostly clear, with a low around 60. South wind around 5 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4111\r\nIssue Time: 2022 May 29 0821 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 May 29 0820 UTC\r\nValid To: 2022 May 29 2100 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3237\r\nIssue Time: 2022 May 30 0206 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2022 May 30 0135 UTC\r\nStation: GOES16\r\n \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1653882905,
+    "lastchange": 1653883805,
     "message": "We will be open from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
