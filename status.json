@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/06/02 09:10:04 EDT UTC-04:00",
-    "ext_localtime": "Thu 02 Jun 2022 09:10:04 AM EDT",
+    "ext_time": "2022/06/02 12:10:04 EDT UTC-04:00",
+    "ext_localtime": "Thu 02 Jun 2022 12:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 80
+        "value": 78
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2022-06-02T09:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2022-06-02T12:00:00-04:00",
     "endTime": "2022-06-02T18:00:00-04:00",
     "isDaytime": true,
-    "temperature": 80,
+    "temperature": 78,
     "temperatureUnit": "F",
-    "temperatureTrend": "falling",
-    "windSpeed": "0 to 5 mph",
+    "temperatureTrend": null,
+    "windSpeed": "5 mph",
     "windDirection": "S",
-    "icon": "https://preview-api.weather.gov/icons/land/day/rain_showers,20/tsra,80?size=medium",
-    "shortForecast": "Chance Rain Showers then Showers And Thunderstorms",
-    "detailedForecast": "Patchy fog before 10am, then a chance of rain showers and patchy fog between 10am and 2pm, then showers and thunderstorms. Mostly cloudy. High near 80, with temperatures falling to around 73 in the afternoon. South wind 0 to 5 mph. Chance of precipitation is 80%. New rainfall amounts between a quarter and half of an inch possible."
+    "icon": "https://preview-api.weather.gov/icons/land/day/tsra_sct,80?size=medium",
+    "shortForecast": "Showers And Thunderstorms",
+    "detailedForecast": "Showers and thunderstorms after 1pm. Partly sunny, with a high near 78. South wind around 5 mph. Chance of precipitation is 80%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3241\r\nIssue Time: 2022 Jun 02 0459 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3240\r\nBegin Time: 2022 May 30 0135 UTC\r\nYesterday Maximum 2MeV Flux: 6866 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1654175404,
+    "lastchange": 1654186204,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
