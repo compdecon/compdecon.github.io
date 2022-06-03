@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/06/03 06:10:04 EDT UTC-04:00",
-    "ext_localtime": "Fri 03 Jun 2022 06:10:04 AM EDT",
+    "ext_time": "2022/06/03 09:10:04 EDT UTC-04:00",
+    "ext_localtime": "Fri 03 Jun 2022 09:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2022-06-03T06:00:00-04:00",
+    "startTime": "2022-06-03T09:00:00-04:00",
     "endTime": "2022-06-03T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 76,
@@ -111,7 +111,7 @@
     "windDirection": "NW",
     "icon": "https://preview-api.weather.gov/icons/land/day/rain_showers,20/bkn?size=medium",
     "shortForecast": "Patchy Fog then Partly Sunny",
-    "detailedForecast": "Patchy fog before 8am, then patchy fog and a slight chance of rain showers between 8am and noon. Partly sunny, with a high near 76. Northwest wind around 5 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "Patchy fog and a slight chance of rain showers before noon. Partly sunny, with a high near 76. Northwest wind around 5 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3242\r\nIssue Time: 2022 Jun 03 0501 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3241\r\nBegin Time: 2022 May 30 0135 UTC\r\nYesterday Maximum 2MeV Flux: 9248 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1654251004,
+    "lastchange": 1654261804,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
