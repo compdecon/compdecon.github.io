@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/06/06 09:10:04 EDT UTC-04:00",
-    "ext_localtime": "Mon 06 Jun 2022 09:10:04 AM EDT",
+    "ext_time": "2022/06/06 12:10:04 EDT UTC-04:00",
+    "ext_localtime": "Mon 06 Jun 2022 12:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,18 +100,18 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2022-06-06T09:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2022-06-06T12:00:00-04:00",
     "endTime": "2022-06-06T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 77,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "0 to 10 mph",
+    "windSpeed": "5 to 10 mph",
     "windDirection": "S",
     "icon": "https://preview-api.weather.gov/icons/land/day/few?size=medium",
     "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 77. South wind 0 to 10 mph."
+    "detailedForecast": "Sunny, with a high near 77. South wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: SUMSUD\r\nSerial Number: 237\r\nIssue Time: 2022 Jun 06 1059 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse\r\nObserved: 2022 Jun 06 1041 UTC\r\nDeviation: 13 nT\r\nStation: Fredericksburg\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
@@ -146,7 +146,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1654521004,
+    "lastchange": 1654531804,
     "message": "We will be open from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
