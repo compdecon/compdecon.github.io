@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/06/07 15:10:04 EDT UTC-04:00",
-    "ext_localtime": "Tue 07 Jun 2022 03:10:04 PM EDT",
+    "ext_time": "2022/06/07 18:10:04 EDT UTC-04:00",
+    "ext_localtime": "Tue 07 Jun 2022 06:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 75
+        "value": 66
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2022-06-07T15:00:00-04:00",
-    "endTime": "2022-06-07T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 75,
+    "name": "Tonight",
+    "startTime": "2022-06-07T18:00:00-04:00",
+    "endTime": "2022-06-08T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 66,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "15 mph",
+    "windSpeed": "10 to 15 mph",
     "windDirection": "S",
-    "icon": "https://preview-api.weather.gov/icons/land/day/bkn?size=medium",
-    "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a high near 75. South wind around 15 mph, with gusts as high as 30 mph."
+    "icon": "https://preview-api.weather.gov/icons/land/night/tsra,50/tsra,60?size=medium",
+    "shortForecast": "Showers And Thunderstorms Likely",
+    "detailedForecast": "A chance of rain showers between 7pm and 11pm, then showers and thunderstorms likely. Cloudy, with a low around 66. South wind 10 to 15 mph, with gusts as high as 30 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4112\r\nIssue Time: 2022 Jun 06 1936 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Jun 06 1935 UTC\r\nValid To: 2022 Jun 06 2359 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -147,7 +147,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1654629004,
+    "lastchange": 1654639804,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
