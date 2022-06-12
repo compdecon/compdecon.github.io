@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/06/12 03:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sun 12 Jun 2022 03:10:04 AM EDT",
+    "ext_time": "2022/06/12 06:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 12 Jun 2022 06:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 61
+        "value": 73
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2022-06-12T03:00:00-04:00",
-    "endTime": "2022-06-12T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 61,
+    "name": "Today",
+    "startTime": "2022-06-12T06:00:00-04:00",
+    "endTime": "2022-06-12T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 73,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "0 mph",
-    "windDirection": "SW",
-    "icon": "https://preview-api.weather.gov/icons/land/night/rain_showers,30?size=medium",
-    "shortForecast": "Chance Rain Showers",
-    "detailedForecast": "A chance of rain showers. Mostly cloudy, with a low around 61. Southwest wind around 0 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "S",
+    "icon": "https://preview-api.weather.gov/icons/land/day/tsra,60?size=medium",
+    "shortForecast": "Showers And Thunderstorms Likely",
+    "detailedForecast": "Showers and thunderstorms likely before 5pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 73. South wind 5 to 10 mph. Chance of precipitation is 60%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4112\r\nIssue Time: 2022 Jun 06 1936 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Jun 06 1935 UTC\r\nValid To: 2022 Jun 06 2359 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -147,7 +147,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1655017804,
+    "lastchange": 1655028604,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
