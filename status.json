@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/06/12 15:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sun 12 Jun 2022 03:10:04 PM EDT",
+    "ext_time": "2022/06/12 18:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 12 Jun 2022 06:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 75
+        "value": 65
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2022-06-12T15:00:00-04:00",
-    "endTime": "2022-06-12T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 75,
+    "name": "Tonight",
+    "startTime": "2022-06-12T18:00:00-04:00",
+    "endTime": "2022-06-13T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 65,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "10 mph",
+    "windSpeed": "5 to 10 mph",
     "windDirection": "S",
-    "icon": "https://preview-api.weather.gov/icons/land/day/tsra,30?size=medium",
-    "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms. Some of the storms could produce heavy rain. Cloudy, with a high near 75. South wind around 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://preview-api.weather.gov/icons/land/night/tsra,60/tsra,40?size=medium",
+    "shortForecast": "Chance Showers And Thunderstorms then Areas Of Fog",
+    "detailedForecast": "A chance of showers and thunderstorms before 8pm, then showers and thunderstorms likely between 8pm and 9pm, then a chance of showers and thunderstorms between 9pm and midnight, then areas of fog and a chance of showers and thunderstorms. Some of the storms could produce heavy rain. Mostly cloudy, with a low around 65. South wind 5 to 10 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4113\r\nIssue Time: 2022 Jun 12 1652 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Jun 12 1653 UTC\r\nValid To: 2022 Jun 12 2100 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1655061004,
+    "lastchange": 1655071804,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
