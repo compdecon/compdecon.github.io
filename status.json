@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/06/14 06:10:04 EDT UTC-04:00",
-    "ext_localtime": "Tue 14 Jun 2022 06:10:04 AM EDT",
+    "ext_time": "2022/06/14 09:10:05 EDT UTC-04:00",
+    "ext_localtime": "Tue 14 Jun 2022 09:10:05 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2022-06-14T06:00:00-04:00",
+    "startTime": "2022-06-14T09:00:00-04:00",
     "endTime": "2022-06-14T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 78,
@@ -109,9 +109,9 @@
     "temperatureTrend": null,
     "windSpeed": "5 to 10 mph",
     "windDirection": "E",
-    "icon": "https://preview-api.weather.gov/icons/land/day/rain_showers,20/bkn?size=medium",
-    "shortForecast": "Slight Chance Rain Showers then Partly Sunny",
-    "detailedForecast": "A slight chance of rain showers before 9am. Partly sunny, with a high near 78. East wind 5 to 10 mph. Chance of precipitation is 20%."
+    "icon": "https://preview-api.weather.gov/icons/land/day/bkn?size=medium",
+    "shortForecast": "Partly Sunny",
+    "detailedForecast": "Partly sunny, with a high near 78. East wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WATA20\r\nSerial Number: 914\r\nIssue Time: 2022 Jun 13 1938 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nJun 14:  None (Below G1)   Jun 15:  G1 (Minor)   Jun 16:  None (Below G1)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -154,7 +154,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1655201404,
+    "lastchange": 1655212205,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
