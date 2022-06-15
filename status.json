@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/06/15 00:10:04 EDT UTC-04:00",
-    "ext_localtime": "Wed 15 Jun 2022 12:10:04 AM EDT",
+    "ext_time": "2022/06/15 03:10:04 EDT UTC-04:00",
+    "ext_localtime": "Wed 15 Jun 2022 03:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,29 +101,23 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2022-06-15T00:00:00-04:00",
+    "startTime": "2022-06-15T03:00:00-04:00",
     "endTime": "2022-06-15T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 64,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "0 to 5 mph",
-    "windDirection": "W",
+    "windSpeed": "5 mph",
+    "windDirection": "NW",
     "icon": "https://preview-api.weather.gov/icons/land/night/skc?size=medium",
     "shortForecast": "Clear",
-    "detailedForecast": "Clear, with a low around 64. West wind 0 to 5 mph."
+    "detailedForecast": "Clear, with a low around 64. Northwest wind around 5 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: WATA20\r\nSerial Number: 914\r\nIssue Time: 2022 Jun 13 1938 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nJun 14:  None (Below G1)   Jun 15:  G1 (Minor)   Jun 16:  None (Below G1)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: WARK05\r\nSerial Number: 1669\r\nIssue Time: 2022 Jun 13 1625 UTC\r\n\r\nCANCEL WARNING: Geomagnetic K-index of 5 expected\r\nCancel Serial Number: 1668\r\nOriginal Issue Time: 2022 Jun 13 0520 UTC\r\n\r\nComment: Conditions no longer indicative of imminent geomagnetic storm conditions.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: ALTK05\r\nSerial Number: 1393\r\nIssue Time: 2022 Jun 13 0602 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\nThreshold Reached: 2022 Jun 13 0559 UTC\r\nSynoptic Period: 0300-0600 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4115\r\nIssue Time: 2022 Jun 13 0523 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4114\r\nValid From: 2022 Jun 13 0232 UTC\r\nNow Valid Until: 2022 Jun 13 2100 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK05\r\nSerial Number: 1668\r\nIssue Time: 2022 Jun 13 0520 UTC\r\n\r\nWARNING: Geomagnetic K-index of 5 expected\r\nValid From: 2022 Jun 13 0518 UTC\r\nValid To: 2022 Jun 13 2100 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: SUM10R\r\nSerial Number: 739\r\nIssue Time: 2022 Jun 13 0515 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2022 Jun 13 0339 UTC\r\nMaximum Time: 2022 Jun 13 0356 UTC\r\nEnd Time: 2022 Jun 13 0432 UTC\r\nDuration: 53 minutes\r\nPeak Flux: 670 sfu\r\nLatest Penticton Noon Flux: 121 sfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
-    "Space Weather Message Code: ALTTP4\r\nSerial Number: 575\r\nIssue Time: 2022 Jun 13 0420 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2022 Jun 13 0336 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1142\r\nIssue Time: 2022 Jun 13 0406 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Jun 13 0324 UTC\r\nEstimated Velocity: 325 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
-    "Space Weather Message Code: ALTK04\r\nSerial Number: 2299\r\nIssue Time: 2022 Jun 13 0338 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 Jun 13 0338 UTC\r\nSynoptic Period: 0300-0600 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4114\r\nIssue Time: 2022 Jun 13 0232 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Jun 13 0232 UTC\r\nValid To: 2022 Jun 13 1200 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2300\r\nIssue Time: 2022 Jun 15 0455 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 Jun 15 0448 UTC\r\nSynoptic Period: 0300-0600 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: SUMSUD\r\nSerial Number: 238\r\nIssue Time: 2022 Jun 15 0445 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse\r\nObserved: 2022 Jun 15 0437 UTC\r\nDeviation: 18 nT\r\nStation: Canberra\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4116\r\nIssue Time: 2022 Jun 15 0442 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Jun 15 0445 UTC\r\nValid To: 2022 Jun 15 1500 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARSUD\r\nSerial Number: 191\r\nIssue Time: 2022 Jun 15 0420 UTC\r\n\r\nWARNING: Geomagnetic Sudden Impulse expected\r\nValid From: 2022 Jun 15 0425 UTC\r\nValid To: 2022 Jun 15 0525 UTC\r\nIP Shock Passage Observed: 2022 Jun 15 0400 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation"
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -154,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1655266204,
+    "lastchange": 1655277004,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
