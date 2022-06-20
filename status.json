@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/06/20 03:10:04 EDT UTC-04:00",
-    "ext_localtime": "Mon 20 Jun 2022 03:10:04 AM EDT",
+    "ext_time": "2022/06/20 06:10:04 EDT UTC-04:00",
+    "ext_localtime": "Mon 20 Jun 2022 06:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 54
+        "value": 79
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2022-06-20T03:00:00-04:00",
-    "endTime": "2022-06-20T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 54,
+    "name": "Today",
+    "startTime": "2022-06-20T06:00:00-04:00",
+    "endTime": "2022-06-20T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 79,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 to 10 mph",
     "windDirection": "NW",
-    "icon": "https://preview-api.weather.gov/icons/land/night/few?size=medium",
-    "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 54. Northwest wind 5 to 10 mph."
+    "icon": "https://preview-api.weather.gov/icons/land/day/sct?size=medium",
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny, with a high near 79. Northwest wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3247\r\nIssue Time: 2022 Jun 20 0537 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3246\r\nBegin Time: 2022 Jun 18 1235 UTC\r\nYesterday Maximum 2MeV Flux: 2951 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1655709004,
+    "lastchange": 1655719804,
     "message": "We will be open from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
