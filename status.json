@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/06/26 06:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sun 26 Jun 2022 06:10:04 AM EDT",
+    "ext_time": "2022/06/26 09:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 26 Jun 2022 09:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,19 +101,21 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2022-06-26T06:00:00-04:00",
+    "startTime": "2022-06-26T09:00:00-04:00",
     "endTime": "2022-06-26T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 85,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 to 15 mph",
-    "windDirection": "SW",
+    "windDirection": "S",
     "icon": "https://preview-api.weather.gov/icons/land/day/few?size=medium",
     "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 85. Southwest wind 5 to 15 mph."
+    "detailedForecast": "Sunny, with a high near 85. South wind 5 to 15 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK05\r\nSerial Number: 1673\r\nIssue Time: 2022 Jun 26 1029 UTC\r\n\r\nWARNING: Geomagnetic K-index of 5 expected\r\nValid From: 2022 Jun 26 1026 UTC\r\nValid To: 2022 Jun 26 1500 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4123\r\nIssue Time: 2022 Jun 26 1029 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4122\r\nValid From: 2022 Jun 25 2024 UTC\r\nNow Valid Until: 2022 Jun 26 1800 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: ALTK05\r\nSerial Number: 1396\r\nIssue Time: 2022 Jun 26 0230 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\nThreshold Reached: 2022 Jun 26 0220 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
   ],
   "contact": {
@@ -145,7 +147,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1656238204,
+    "lastchange": 1656249004,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
