@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/07/03 12:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sun 03 Jul 2022 12:10:04 PM EDT",
+    "ext_time": "2022/07/03 15:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 03 Jul 2022 03:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2022-07-03T12:00:00-04:00",
+    "startTime": "2022-07-03T15:00:00-04:00",
     "endTime": "2022-07-03T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 82,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 mph",
-    "windDirection": "E",
+    "windDirection": "SE",
     "icon": "https://preview-api.weather.gov/icons/land/day/sct?size=medium",
     "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 82. East wind around 5 mph."
+    "detailedForecast": "Mostly sunny, with a high near 82. Southeast wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: SUM10R\r\nSerial Number: 740\r\nIssue Time: 2022 Jul 02 2224 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2022 Jul 02 2158 UTC\r\nMaximum Time: 2022 Jul 02 2158 UTC\r\nEnd Time: 2022 Jul 02 2158 UTC\r\nDuration: 1 minutes\r\nPeak Flux: 120 sfu\r\nLatest Penticton Noon Flux: 100 sfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1656864604,
+    "lastchange": 1656875404,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
