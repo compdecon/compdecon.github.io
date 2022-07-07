@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/07/07 15:10:04 EDT UTC-04:00",
-    "ext_localtime": "Thu 07 Jul 2022 03:10:04 PM EDT",
+    "ext_time": "2022/07/07 18:10:04 EDT UTC-04:00",
+    "ext_localtime": "Thu 07 Jul 2022 06:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,26 +94,27 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 76
+        "value": 67
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2022-07-07T15:00:00-04:00",
-    "endTime": "2022-07-07T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 76,
+    "name": "Tonight",
+    "startTime": "2022-07-07T18:00:00-04:00",
+    "endTime": "2022-07-08T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 67,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "10 mph",
-    "windDirection": "E",
-    "icon": "https://preview-api.weather.gov/icons/land/day/rain_showers,20?size=medium",
-    "shortForecast": "Slight Chance Rain Showers",
-    "detailedForecast": "A slight chance of rain showers. Mostly cloudy, with a high near 76. East wind around 10 mph. Chance of precipitation is 20%."
+    "windSpeed": "0 to 10 mph",
+    "windDirection": "NE",
+    "icon": "https://preview-api.weather.gov/icons/land/night/rain_showers,20/fog?size=medium",
+    "shortForecast": "Slight Chance Rain Showers then Patchy Fog",
+    "detailedForecast": "A slight chance of rain showers before 8pm, then patchy fog. Mostly cloudy, with a low around 67. Northeast wind 0 to 10 mph. Chance of precipitation is 20%."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK05\r\nSerial Number: 1678\r\nIssue Time: 2022 Jul 07 2051 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 5 expected\r\nExtension to Serial Number: 1677\r\nValid From: 2022 Jul 07 1155 UTC\r\nNow Valid Until: 2022 Jul 08 0600 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 4130\r\nIssue Time: 2022 Jul 07 1643 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4129\r\nValid From: 2022 Jul 07 1100 UTC\r\nNow Valid Until: 2022 Jul 08 0600 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: WARK06\r\nSerial Number: 458\r\nIssue Time: 2022 Jul 07 1408 UTC\r\n\r\nWARNING: Geomagnetic K-Index of 6 expected\r\nValid From: 2022 Jul 07 1405 UTC\r\nValid To: 2022 Jul 07 2100 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
     "Space Weather Message Code: WARK05\r\nSerial Number: 1677\r\nIssue Time: 2022 Jul 07 1357 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 5 expected\r\nExtension to Serial Number: 1676\r\nValid From: 2022 Jul 07 1155 UTC\r\nNow Valid Until: 2022 Jul 07 2100 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -151,7 +152,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1657221004,
+    "lastchange": 1657231804,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
