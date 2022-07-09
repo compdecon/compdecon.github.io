@@ -330,9 +330,16 @@ if [ $? -ne 0 ]; then
     git add status.json
     git commit -m "Automated status update"
     ###
-    ### Should check for errors
+    ### Check for errors
     ###
-    git push
+    tfile=$(mktemp)
+    git push &>/tmp/${tfile}
+    rtn=$?
+    if [ ${rtn} -ne 0 ]; then
+        echo -e "Error: ${rtn}"
+        cat ${tfile}
+    fi
+    rm ${tfile}
 #else
     #echo 'No changes to report'
 fi
