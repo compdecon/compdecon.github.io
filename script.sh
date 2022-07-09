@@ -327,13 +327,13 @@ if [ $? -ne 0 ]; then
     ###
     source ~/tmp/dot.ssh-agent-njc.sh
     #
-    git add status.json
-    git commit -m "Automated status update"
     ###
     ### Check for errors
     ###
     tfile=$(mktemp)
-    git push &>/tmp/${tfile}
+    git add status.json &>> ${tfile}
+    git commit -m "Automated status update" &>> ${tfile}
+    git push  &>> ${tfile}
     rtn=$?
     if [ ${rtn} -ne 0 ]; then
         echo -e "Error: ${rtn}"
