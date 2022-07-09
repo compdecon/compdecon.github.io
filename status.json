@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/07/09 09:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sat 09 Jul 2022 09:10:04 AM EDT",
+    "ext_time": "2022/07/09 12:10:05 EDT UTC-04:00",
+    "ext_localtime": "Sat 09 Jul 2022 12:10:05 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,26 +100,21 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2022-07-09T09:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2022-07-09T12:00:00-04:00",
     "endTime": "2022-07-09T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 76,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "10 mph",
     "windDirection": "E",
-    "icon": "https://preview-api.weather.gov/icons/land/day/rain_showers,40/rain_showers,30?size=medium",
-    "shortForecast": "Chance Rain Showers",
-    "detailedForecast": "A chance of rain showers before 2pm. Mostly cloudy, with a high near 76. East wind 5 to 10 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://preview-api.weather.gov/icons/land/day/sct?size=medium",
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny, with a high near 76. East wind around 10 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: SUM10R\r\nSerial Number: 741\r\nIssue Time: 2022 Jul 08 2129 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2022 Jul 08 2050 UTC\r\nMaximum Time: 2022 Jul 08 2056 UTC\r\nEnd Time: 2022 Jul 08 2101 UTC\r\nDuration: 11 minutes\r\nPeak Flux: 230 sfu\r\nLatest Penticton Noon Flux: 130 sfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
-    "Space Weather Message Code: WARK05\r\nSerial Number: 1679\r\nIssue Time: 2022 Jul 08 0554 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 5 expected\r\nExtension to Serial Number: 1678\r\nValid From: 2022 Jul 07 1155 UTC\r\nNow Valid Until: 2022 Jul 08 1200 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: ALTK05\r\nSerial Number: 1402\r\nIssue Time: 2022 Jul 08 0459 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\nThreshold Reached: 2022 Jul 08 0459 UTC\r\nSynoptic Period: 0300-0600 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4131\r\nIssue Time: 2022 Jul 08 0401 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4130\r\nValid From: 2022 Jul 07 1100 UTC\r\nNow Valid Until: 2022 Jul 08 1500 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: ALTK05\r\nSerial Number: 1401\r\nIssue Time: 2022 Jul 08 0306 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\nThreshold Reached: 2022 Jul 08 0259 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: ALTK05\r\nSerial Number: 1400\r\nIssue Time: 2022 Jul 08 0005 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\nThreshold Reached: 2022 Jul 07 2359 UTC\r\nSynoptic Period: 2100-2400 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1145\r\nIssue Time: 2022 Jul 09 1426 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Jul 09 1351 UTC\r\nEstimated Velocity: 678 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -150,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1657372204,
+    "lastchange": 1657383005,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
