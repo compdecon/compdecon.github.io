@@ -3,8 +3,8 @@
     "14"
   ],
   "api": "0.13",
-  "version": "0.0.3",
-  "comment": "API is a work in progress",
+  "version": "0.0.4",
+  "comment": "API is a work in progress (0.0.4)",
   "space": "CDL - Computer Deconstruction Lab",
   "logo": "https://compdecon.github.io/images/CDL-Logo-black.png",
   "url": "https://compdecon.github.io/",
@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/07/10 09:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sun 10 Jul 2022 09:10:04 AM EDT",
+    "ext_time": "2022/07/10 11:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 10 Jul 2022 11:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1657458604,
+    "lastchange": 1657465804,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
