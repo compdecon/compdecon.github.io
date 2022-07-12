@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/07/12 06:10:04 EDT UTC-04:00",
-    "ext_localtime": "Tue 12 Jul 2022 06:10:04 AM EDT",
+    "ext_time": "2022/07/12 09:10:04 EDT UTC-04:00",
+    "ext_localtime": "Tue 12 Jul 2022 09:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,19 +101,20 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2022-07-12T06:00:00-04:00",
+    "startTime": "2022-07-12T09:00:00-04:00",
     "endTime": "2022-07-12T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 88,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 to 15 mph",
+    "windSpeed": "10 to 15 mph",
     "windDirection": "SW",
     "icon": "https://preview-api.weather.gov/icons/land/day/few?size=medium",
     "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 88. Southwest wind 5 to 15 mph, with gusts as high as 30 mph."
+    "detailedForecast": "Sunny, with a high near 88. Southwest wind 10 to 15 mph, with gusts as high as 30 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2310\r\nIssue Time: 2022 Jul 12 1202 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 Jul 12 1201 UTC\r\nSynoptic Period: 1200-1500 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 4134\r\nIssue Time: 2022 Jul 12 0854 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4133\r\nValid From: 2022 Jul 12 0435 UTC\r\nNow Valid Until: 2022 Jul 12 1500 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 4133\r\nIssue Time: 2022 Jul 12 0435 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Jul 12 0435 UTC\r\nValid To: 2022 Jul 12 0900 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
@@ -146,7 +147,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1657620604,
+    "lastchange": 1657631404,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
