@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/07/12 21:10:04 EDT UTC-04:00",
-    "ext_localtime": "Tue 12 Jul 2022 09:10:04 PM EDT",
+    "ext_time": "2022/07/13 00:10:04 EDT UTC-04:00",
+    "ext_localtime": "Wed 13 Jul 2022 12:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 71
+        "value": 70
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2022-07-12T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2022-07-13T00:00:00-04:00",
     "endTime": "2022-07-13T06:00:00-04:00",
     "isDaytime": false,
-    "temperature": 71,
+    "temperature": 70,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 to 10 mph",
-    "windDirection": "SW",
-    "icon": "https://preview-api.weather.gov/icons/land/night/tsra_sct,30/tsra_sct,20?size=medium",
-    "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms before 1am, then patchy fog. Some of the storms could be severe. Mostly cloudy, with a low around 71. Southwest wind 5 to 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "windDirection": "W",
+    "icon": "https://preview-api.weather.gov/icons/land/night/tsra_sct,20?size=medium",
+    "shortForecast": "Slight Chance Showers And Thunderstorms",
+    "detailedForecast": "A slight chance of showers and thunderstorms before 1am, then patchy fog. Mostly cloudy, with a low around 70. West wind 5 to 10 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4135\r\nIssue Time: 2022 Jul 12 1356 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4134\r\nValid From: 2022 Jul 12 0435 UTC\r\nNow Valid Until: 2022 Jul 13 0600 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -150,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1657674604,
+    "lastchange": 1657685404,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
