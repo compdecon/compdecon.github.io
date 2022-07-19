@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/07/18 18:55:04 EDT UTC-04:00",
-    "ext_localtime": "Mon 18 Jul 2022 06:55:04 PM EDT",
+    "ext_time": "2022/07/18 21:10:04 EDT UTC-04:00",
+    "ext_localtime": "Mon 18 Jul 2022 09:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2022-07-18T18:00:00-04:00",
+    "startTime": "2022-07-18T21:00:00-04:00",
     "endTime": "2022-07-19T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 72,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "7 to 15 mph",
+    "windSpeed": "7 to 20 mph",
     "windDirection": "SW",
-    "icon": "https://preview-api.weather.gov/icons/land/night/tsra,70/tsra,40?size=medium",
-    "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms before 8pm, then showers and thunderstorms likely between 8pm and 9pm, then a chance of showers and thunderstorms between 9pm and 11pm, then showers and thunderstorms likely between 11pm and midnight, then a chance of showers and thunderstorms between midnight and 2am. Some of the storms could produce heavy rain. Mostly cloudy, with a low around 72. Southwest wind 7 to 15 mph, with gusts as high as 25 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "icon": "https://preview-api.weather.gov/icons/land/night/tsra,60/tsra,40?size=medium",
+    "shortForecast": "Showers And Thunderstorms Likely",
+    "detailedForecast": "Showers and thunderstorms likely before 2am. Mostly cloudy, with a low around 72. Southwest wind 7 to 20 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4136\r\nIssue Time: 2022 Jul 18 2129 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Jul 18 2127 UTC\r\nValid To: 2022 Jul 19 0300 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -147,7 +147,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1658184904,
+    "lastchange": 1658193004,
     "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
