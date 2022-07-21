@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/07/21 06:10:05 EDT UTC-04:00",
-    "ext_localtime": "Thu 21 Jul 2022 06:10:05 AM EDT",
+    "ext_time": "2022/07/21 09:10:04 EDT UTC-04:00",
+    "ext_localtime": "Thu 21 Jul 2022 09:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,19 +101,20 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2022-07-21T06:00:00-04:00",
+    "startTime": "2022-07-21T09:00:00-04:00",
     "endTime": "2022-07-21T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 94,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "7 to 15 mph",
+    "windSpeed": "9 to 15 mph",
     "windDirection": "SW",
     "icon": "https://preview-api.weather.gov/icons/land/day/sct/tsra_hi,30?size=medium",
     "shortForecast": "Mostly Sunny then Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 94. Heat index values as high as 105. Southwest wind 7 to 15 mph. Chance of precipitation is 30%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "detailedForecast": "A chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 94. Heat index values as high as 105. Southwest wind 9 to 15 mph. Chance of precipitation is 30%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4141\r\nIssue Time: 2022 Jul 21 1107 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Jul 21 1107 UTC\r\nValid To: 2022 Jul 21 1800 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3262\r\nIssue Time: 2022 Jul 21 0802 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3261\r\nBegin Time: 2022 Jul 20 0935 UTC\r\nYesterday Maximum 2MeV Flux: 1916 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1146\r\nIssue Time: 2022 Jul 21 0203 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Jul 21 0121 UTC\r\nEstimated Velocity: 1063 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
     "Space Weather Message Code: ALTTP4\r\nSerial Number: 577\r\nIssue Time: 2022 Jul 21 0202 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2022 Jul 21 0128 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms."
@@ -147,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1658398205,
+    "lastchange": 1658409004,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
