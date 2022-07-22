@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/07/22 15:10:04 EDT UTC-04:00",
-    "ext_localtime": "Fri 22 Jul 2022 03:10:04 PM EDT",
+    "ext_time": "2022/07/22 18:10:05 EDT UTC-04:00",
+    "ext_localtime": "Fri 22 Jul 2022 06:10:05 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 94
+        "value": 77
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2022-07-22T15:00:00-04:00",
-    "endTime": "2022-07-22T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 94,
+    "name": "Tonight",
+    "startTime": "2022-07-22T18:00:00-04:00",
+    "endTime": "2022-07-23T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 77,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "14 mph",
-    "windDirection": "S",
-    "icon": "https://preview-api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 94. South wind around 14 mph."
+    "windSpeed": "2 to 12 mph",
+    "windDirection": "SW",
+    "icon": "https://preview-api.weather.gov/icons/land/night/few?size=medium",
+    "shortForecast": "Mostly Clear",
+    "detailedForecast": "Mostly clear, with a low around 77. Southwest wind 2 to 12 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4144\r\nIssue Time: 2022 Jul 22 0506 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4143\r\nValid From: 2022 Jul 21 1107 UTC\r\nNow Valid Until: 2022 Jul 22 2359 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1658517004,
+    "lastchange": 1658527805,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
