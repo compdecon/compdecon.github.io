@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/07/22 21:10:04 EDT UTC-04:00",
-    "ext_localtime": "Fri 22 Jul 2022 09:10:04 PM EDT",
+    "ext_time": "2022/07/23 00:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sat 23 Jul 2022 12:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,27 +94,31 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 77
+        "value": 75
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2022-07-22T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2022-07-23T00:00:00-04:00",
     "endTime": "2022-07-23T06:00:00-04:00",
     "isDaytime": false,
-    "temperature": 77,
+    "temperature": 75,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 mph",
     "windDirection": "SW",
-    "icon": "https://preview-api.weather.gov/icons/land/night/few?size=medium",
-    "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 77. Southwest wind around 5 mph."
+    "icon": "https://preview-api.weather.gov/icons/land/night/rain_showers,20?size=medium",
+    "shortForecast": "Isolated Rain Showers",
+    "detailedForecast": "Isolated rain showers between 3am and 5am. Mostly clear, with a low around 75. Southwest wind around 5 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4144\r\nIssue Time: 2022 Jul 22 0506 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4143\r\nValid From: 2022 Jul 21 1107 UTC\r\nNow Valid Until: 2022 Jul 22 2359 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: WARK05\r\nSerial Number: 1684\r\nIssue Time: 2022 Jul 23 0338 UTC\r\n\r\nWARNING: Geomagnetic K-index of 5 expected\r\nValid From: 2022 Jul 23 0336 UTC\r\nValid To: 2022 Jul 23 1800 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2313\r\nIssue Time: 2022 Jul 23 0337 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 Jul 23 0330 UTC\r\nSynoptic Period: 0300-0600 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: SUMSUD\r\nSerial Number: 239\r\nIssue Time: 2022 Jul 23 0312 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse\r\nObserved: 2022 Jul 23 0259 UTC\r\nDeviation: 103 nT\r\nStation: MEA\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4145\r\nIssue Time: 2022 Jul 23 0243 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Jul 23 0242 UTC\r\nValid To: 2022 Jul 23 1800 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARSUD\r\nSerial Number: 192\r\nIssue Time: 2022 Jul 23 0242 UTC\r\n\r\nWARNING: Geomagnetic Sudden Impulse expected\r\nValid From: 2022 Jul 23 0245 UTC\r\nValid To: 2022 Jul 23 0345 UTC\r\nIP Shock Passage Observed: 2022 Jul 23 0229 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation"
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -145,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1658538604,
+    "lastchange": 1658549404,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
