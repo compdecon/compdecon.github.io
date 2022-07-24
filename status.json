@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/07/24 09:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sun 24 Jul 2022 09:10:04 AM EDT",
+    "ext_time": "2022/07/24 12:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 24 Jul 2022 12:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,18 +100,18 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2022-07-24T09:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2022-07-24T12:00:00-04:00",
     "endTime": "2022-07-24T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 96,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "6 to 13 mph",
+    "windSpeed": "13 to 17 mph",
     "windDirection": "SW",
     "icon": "https://preview-api.weather.gov/icons/land/day/sct?size=medium",
     "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 96. Heat index values as high as 100. Southwest wind 6 to 13 mph, with gusts as high as 26 mph."
+    "detailedForecast": "Mostly sunny, with a high near 96. Southwest wind 13 to 17 mph, with gusts as high as 28 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK06\r\nSerial Number: 459\r\nIssue Time: 2022 Jul 23 0456 UTC\r\n\r\nWARNING: Geomagnetic K-Index of 6 expected\r\nValid From: 2022 Jul 23 0455 UTC\r\nValid To: 2022 Jul 23 1800 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
@@ -151,7 +151,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1658668204,
+    "lastchange": 1658679004,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
