@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/07/25 09:10:04 EDT UTC-04:00",
-    "ext_localtime": "Mon 25 Jul 2022 09:10:04 AM EDT",
+    "ext_time": "2022/07/25 12:10:05 EDT UTC-04:00",
+    "ext_localtime": "Mon 25 Jul 2022 12:10:05 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,27 +100,21 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2022-07-25T09:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2022-07-25T12:00:00-04:00",
     "endTime": "2022-07-25T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 92,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "10 to 14 mph",
+    "windSpeed": "15 to 20 mph",
     "windDirection": "SW",
-    "icon": "https://preview-api.weather.gov/icons/land/day/bkn/tsra_sct,70?size=medium",
-    "shortForecast": "Partly Sunny then Chance Showers And Thunderstorms",
-    "detailedForecast": "A slight chance of rain showers between noon and 1pm, then a chance of showers and thunderstorms between 1pm and 2pm, then showers and thunderstorms likely. Partly sunny, with a high near 92. Heat index values as high as 101. Southwest wind 10 to 14 mph. Chance of precipitation is 70%. New rainfall amounts between a half and three quarters of an inch possible."
+    "icon": "https://preview-api.weather.gov/icons/land/day/tsra_sct,70?size=medium",
+    "shortForecast": "Showers And Thunderstorms Likely",
+    "detailedForecast": "Showers and thunderstorms likely after 2pm. Mostly cloudy, with a high near 92. Heat index values as high as 101. Southwest wind 15 to 20 mph, with gusts as high as 30 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK06\r\nSerial Number: 459\r\nIssue Time: 2022 Jul 23 0456 UTC\r\n\r\nWARNING: Geomagnetic K-Index of 6 expected\r\nValid From: 2022 Jul 23 0455 UTC\r\nValid To: 2022 Jul 23 1800 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
-    "Space Weather Message Code: ALTK05\r\nSerial Number: 1407\r\nIssue Time: 2022 Jul 23 0407 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\nThreshold Reached: 2022 Jul 23 0359 UTC\r\nSynoptic Period: 0300-0600 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: WARK05\r\nSerial Number: 1684\r\nIssue Time: 2022 Jul 23 0338 UTC\r\n\r\nWARNING: Geomagnetic K-index of 5 expected\r\nValid From: 2022 Jul 23 0336 UTC\r\nValid To: 2022 Jul 23 1800 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: ALTK04\r\nSerial Number: 2313\r\nIssue Time: 2022 Jul 23 0337 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 Jul 23 0330 UTC\r\nSynoptic Period: 0300-0600 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: SUMSUD\r\nSerial Number: 239\r\nIssue Time: 2022 Jul 23 0312 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse\r\nObserved: 2022 Jul 23 0259 UTC\r\nDeviation: 103 nT\r\nStation: MEA\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4145\r\nIssue Time: 2022 Jul 23 0243 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Jul 23 0242 UTC\r\nValid To: 2022 Jul 23 1800 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARSUD\r\nSerial Number: 192\r\nIssue Time: 2022 Jul 23 0242 UTC\r\n\r\nWARNING: Geomagnetic Sudden Impulse expected\r\nValid From: 2022 Jul 23 0245 UTC\r\nValid To: 2022 Jul 23 0345 UTC\r\nIP Shock Passage Observed: 2022 Jul 23 0229 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation"
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3264\r\nIssue Time: 2022 Jul 25 1542 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2022 Jul 25 1525 UTC\r\nStation: GOES16\r\n \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -151,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1658754604,
+    "lastchange": 1658765405,
     "message": "We will be open from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
