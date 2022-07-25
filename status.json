@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/07/25 03:10:04 EDT UTC-04:00",
-    "ext_localtime": "Mon 25 Jul 2022 03:10:04 AM EDT",
+    "ext_time": "2022/07/25 06:10:04 EDT UTC-04:00",
+    "ext_localtime": "Mon 25 Jul 2022 06:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 77
+        "value": 92
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2022-07-25T03:00:00-04:00",
-    "endTime": "2022-07-25T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 77,
+    "name": "Today",
+    "startTime": "2022-07-25T06:00:00-04:00",
+    "endTime": "2022-07-25T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 92,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "12 mph",
+    "windSpeed": "10 to 14 mph",
     "windDirection": "SW",
-    "icon": "https://preview-api.weather.gov/icons/land/night/sct?size=medium",
-    "shortForecast": "Partly Cloudy",
-    "detailedForecast": "Partly cloudy, with a low around 77. Southwest wind around 12 mph."
+    "icon": "https://preview-api.weather.gov/icons/land/day/bkn/tsra_sct,70?size=medium",
+    "shortForecast": "Partly Sunny then Chance Showers And Thunderstorms",
+    "detailedForecast": "A slight chance of rain showers between noon and 1pm, then a chance of showers and thunderstorms between 1pm and 2pm, then showers and thunderstorms likely. Partly sunny, with a high near 92. Heat index values as high as 101. Southwest wind 10 to 14 mph. Chance of precipitation is 70%. New rainfall amounts between a half and three quarters of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK06\r\nSerial Number: 459\r\nIssue Time: 2022 Jul 23 0456 UTC\r\n\r\nWARNING: Geomagnetic K-Index of 6 expected\r\nValid From: 2022 Jul 23 0455 UTC\r\nValid To: 2022 Jul 23 1800 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
@@ -151,7 +151,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1658733004,
+    "lastchange": 1658743804,
     "message": "We will be open from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
