@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/07/27 09:10:04 EDT UTC-04:00",
-    "ext_localtime": "Wed 27 Jul 2022 09:10:04 AM EDT",
+    "ext_time": "2022/07/27 12:10:04 EDT UTC-04:00",
+    "ext_localtime": "Wed 27 Jul 2022 12:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2022-07-27T09:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2022-07-27T12:00:00-04:00",
     "endTime": "2022-07-27T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 84,
@@ -114,10 +114,7 @@
     "detailedForecast": "Partly sunny, with a high near 84. Southeast wind around 8 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3265\r\nIssue Time: 2022 Jul 26 1424 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3264\r\nBegin Time: 2022 Jul 25 1525 UTC\r\nYesterday Maximum 2MeV Flux: 1248 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4147\r\nIssue Time: 2022 Jul 26 0740 UTC\r\n\r\nCANCEL WARNING: Geomagnetic K-index of 4 expected\r\nCancel Serial Number: 4146\r\nOriginal Issue Time: 2022 Jul 26 0241 UTC\r\n\r\nComment: Conditions no longer warrant this warning \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: ALTK04\r\nSerial Number: 2314\r\nIssue Time: 2022 Jul 26 0242 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 Jul 26 0239 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4146\r\nIssue Time: 2022 Jul 26 0241 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Jul 26 0239 UTC\r\nValid To: 2022 Jul 26 1200 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3266\r\nIssue Time: 2022 Jul 27 1547 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3265\r\nBegin Time: 2022 Jul 25 1525 UTC\r\nYesterday Maximum 2MeV Flux: 1229 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -148,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1658927404,
+    "lastchange": 1658938204,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
