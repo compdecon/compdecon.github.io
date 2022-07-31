@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/07/31 12:10:05 EDT UTC-04:00",
-    "ext_localtime": "Sun 31 Jul 2022 12:10:05 PM EDT",
+    "ext_time": "2022/07/31 15:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 31 Jul 2022 03:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2022-07-31T12:00:00-04:00",
+    "startTime": "2022-07-31T15:00:00-04:00",
     "endTime": "2022-07-31T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 84,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "6 to 10 mph",
-    "windDirection": "SE",
+    "windSpeed": "10 mph",
+    "windDirection": "S",
     "icon": "https://preview-api.weather.gov/icons/land/day/bkn?size=medium",
     "shortForecast": "Partly Sunny",
-    "detailedForecast": "Partly sunny, with a high near 84. Southeast wind 6 to 10 mph."
+    "detailedForecast": "Partly sunny, with a high near 84. South wind around 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2315\r\nIssue Time: 2022 Jul 31 1601 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 Jul 31 1601 UTC\r\nSynoptic Period: 1500-1800 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -147,7 +147,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1659283805,
+    "lastchange": 1659294604,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
