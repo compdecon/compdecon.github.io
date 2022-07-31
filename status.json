@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/07/31 09:10:05 EDT UTC-04:00",
-    "ext_localtime": "Sun 31 Jul 2022 09:10:05 AM EDT",
+    "ext_time": "2022/07/31 12:10:05 EDT UTC-04:00",
+    "ext_localtime": "Sun 31 Jul 2022 12:10:05 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,21 +100,23 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2022-07-31T09:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2022-07-31T12:00:00-04:00",
     "endTime": "2022-07-31T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 84,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "6 to 10 mph",
     "windDirection": "SE",
     "icon": "https://preview-api.weather.gov/icons/land/day/bkn?size=medium",
     "shortForecast": "Partly Sunny",
-    "detailedForecast": "Partly sunny, with a high near 84. Southeast wind 5 to 10 mph."
+    "detailedForecast": "Partly sunny, with a high near 84. Southeast wind 6 to 10 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: SUM10R\r\nSerial Number: 743\r\nIssue Time: 2022 Jul 29 1015 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2022 Jul 29 0619 UTC\r\nMaximum Time: 2022 Jul 29 0619 UTC\r\nEnd Time: 2022 Jul 29 0619 UTC\r\nDuration: 1 minutes\r\nPeak Flux: 130 sfu\r\nLatest Penticton Noon Flux: 93 sfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications."
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2315\r\nIssue Time: 2022 Jul 31 1601 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 Jul 31 1601 UTC\r\nSynoptic Period: 1500-1800 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4148\r\nIssue Time: 2022 Jul 31 1558 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Jul 31 1558 UTC\r\nValid To: 2022 Jul 31 2359 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3268\r\nIssue Time: 2022 Jul 31 1541 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2022 Jul 31 1525 UTC\r\nStation: GOES16\r\n \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -145,7 +147,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1659273005,
+    "lastchange": 1659283805,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
