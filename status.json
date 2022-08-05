@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/08/05 03:10:04 EDT UTC-04:00",
-    "ext_localtime": "Fri 05 Aug 2022 03:10:04 AM EDT",
+    "ext_time": "2022/08/05 06:10:04 EDT UTC-04:00",
+    "ext_localtime": "Fri 05 Aug 2022 06:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,27 +94,27 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 73
+        "value": 90
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2022-08-05T03:00:00-04:00",
-    "endTime": "2022-08-05T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 73,
+    "name": "Today",
+    "startTime": "2022-08-05T06:00:00-04:00",
+    "endTime": "2022-08-05T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 90,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "3 mph",
-    "windDirection": "W",
-    "icon": "https://preview-api.weather.gov/icons/land/night/tsra_sct,20?size=medium",
-    "shortForecast": "Isolated Showers And Thunderstorms",
-    "detailedForecast": "Isolated showers and thunderstorms. Mostly cloudy, with a low around 73. West wind around 3 mph. Chance of precipitation is 20%."
+    "windSpeed": "3 to 9 mph",
+    "windDirection": "SW",
+    "icon": "https://preview-api.weather.gov/icons/land/day/tsra_sct,20/tsra_sct,50?size=medium",
+    "shortForecast": "Scattered Showers And Thunderstorms",
+    "detailedForecast": "Scattered showers and thunderstorms. Partly sunny, with a high near 90. Southwest wind 3 to 9 mph. Chance of precipitation is 50%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1124\r\nIssue Time: 2022 Aug 03 1809 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Aug 03 1705 UTC\r\nEstimated Velocity: 163 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1125\r\nIssue Time: 2022 Aug 05 0744 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Aug 05 0657 UTC\r\nEstimated Velocity: 1300 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1659683404,
+    "lastchange": 1659694204,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
