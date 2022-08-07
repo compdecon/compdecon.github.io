@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/08/07 15:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sun 07 Aug 2022 03:10:04 PM EDT",
+    "ext_time": "2022/08/07 18:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 07 Aug 2022 06:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,26 +94,27 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 94
+        "value": 75
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2022-08-07T15:00:00-04:00",
-    "endTime": "2022-08-07T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 94,
+    "name": "Tonight",
+    "startTime": "2022-08-07T18:00:00-04:00",
+    "endTime": "2022-08-08T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 75,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "12 mph",
+    "windSpeed": "8 to 12 mph",
     "windDirection": "SW",
-    "icon": "https://preview-api.weather.gov/icons/land/day/tsra_hi,20?size=medium",
-    "shortForecast": "Isolated Showers And Thunderstorms",
-    "detailedForecast": "Isolated showers and thunderstorms after 4pm. Mostly sunny, with a high near 94. Heat index values as high as 100. Southwest wind around 12 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://preview-api.weather.gov/icons/land/night/sct?size=medium",
+    "shortForecast": "Partly Cloudy",
+    "detailedForecast": "Partly cloudy, with a low around 75. Southwest wind 8 to 12 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: WATA20\r\nSerial Number: 912\r\nIssue Time: 2022 Aug 07 2119 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nAug 08:  G1 (Minor)   Aug 09:  None (Below G1)   Aug 10:  None (Below G1)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 4062\r\nIssue Time: 2022 Aug 07 1748 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4061\r\nValid From: 2022 Aug 07 0752 UTC\r\nNow Valid Until: 2022 Aug 08 0600 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: WARK05\r\nSerial Number: 1655\r\nIssue Time: 2022 Aug 07 1748 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 5 expected\r\nExtension to Serial Number: 1654\r\nValid From: 2022 Aug 07 1428 UTC\r\nNow Valid Until: 2022 Aug 07 2359 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
     "Space Weather Message Code: WARK05\r\nSerial Number: 1654\r\nIssue Time: 2022 Aug 07 1429 UTC\r\n\r\nWARNING: Geomagnetic K-index of 5 expected\r\nValid From: 2022 Aug 07 1428 UTC\r\nValid To: 2022 Aug 07 1800 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -150,7 +151,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1659899404,
+    "lastchange": 1659910204,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
