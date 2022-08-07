@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/08/07 06:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sun 07 Aug 2022 06:10:04 AM EDT",
+    "ext_time": "2022/08/07 09:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 07 Aug 2022 09:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,19 +101,20 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2022-08-07T06:00:00-04:00",
+    "startTime": "2022-08-07T09:00:00-04:00",
     "endTime": "2022-08-07T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 92,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "8 to 13 mph",
+    "windSpeed": "9 to 13 mph",
     "windDirection": "SW",
     "icon": "https://preview-api.weather.gov/icons/land/day/sct/tsra_hi,20?size=medium",
     "shortForecast": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
-    "detailedForecast": "A slight chance of showers and thunderstorms between 2pm and 3pm. Mostly sunny, with a high near 92. Heat index values as high as 100. Southwest wind 8 to 13 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "A slight chance of showers and thunderstorms between 2pm and 3pm. Mostly sunny, with a high near 92. Heat index values as high as 100. Southwest wind 9 to 13 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2281\r\nIssue Time: 2022 Aug 07 1203 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 Aug 07 1200 UTC\r\nSynoptic Period: 1200-1500 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 4061\r\nIssue Time: 2022 Aug 07 0752 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Aug 07 0752 UTC\r\nValid To: 2022 Aug 07 1800 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1126\r\nIssue Time: 2022 Aug 07 0312 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Aug 07 0226 UTC\r\nEstimated Velocity: 477 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
   ],
@@ -146,7 +147,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1659867004,
+    "lastchange": 1659877804,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
