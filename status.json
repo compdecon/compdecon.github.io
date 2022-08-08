@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/08/08 06:10:04 EDT UTC-04:00",
-    "ext_localtime": "Mon 08 Aug 2022 06:10:04 AM EDT",
+    "ext_time": "2022/08/08 09:10:04 EDT UTC-04:00",
+    "ext_localtime": "Mon 08 Aug 2022 09:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2022-08-08T06:00:00-04:00",
+    "startTime": "2022-08-08T09:00:00-04:00",
     "endTime": "2022-08-08T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 92,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "8 to 14 mph",
+    "windSpeed": "9 to 14 mph",
     "windDirection": "SW",
     "icon": "https://preview-api.weather.gov/icons/land/day/few?size=medium",
     "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 92. Southwest wind 8 to 14 mph."
+    "detailedForecast": "Sunny, with a high near 92. Southwest wind 9 to 14 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK05\r\nSerial Number: 1657\r\nIssue Time: 2022 Aug 08 0839 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 5 expected\r\nExtension to Serial Number: 1656\r\nValid From: 2022 Aug 07 1428 UTC\r\nNow Valid Until: 2022 Aug 08 1500 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -150,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1659953404,
+    "lastchange": 1659964204,
     "message": "We will be open from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
