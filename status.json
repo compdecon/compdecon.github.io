@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/08/08 18:55:05 EDT UTC-04:00",
-    "ext_localtime": "Mon 08 Aug 2022 06:55:05 PM EDT",
+    "ext_time": "2022/08/08 21:10:04 EDT UTC-04:00",
+    "ext_localtime": "Mon 08 Aug 2022 09:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2022-08-08T18:00:00-04:00",
+    "startTime": "2022-08-08T21:00:00-04:00",
     "endTime": "2022-08-09T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 77,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "7 to 13 mph",
+    "windSpeed": "7 to 10 mph",
     "windDirection": "SW",
-    "icon": "https://preview-api.weather.gov/icons/land/night/tsra_hi,20/sct?size=medium",
-    "shortForecast": "Slight Chance Showers And Thunderstorms then Partly Cloudy",
-    "detailedForecast": "A slight chance of showers and thunderstorms before 8pm. Partly cloudy, with a low around 77. Southwest wind 7 to 13 mph. Chance of precipitation is 20%."
+    "icon": "https://preview-api.weather.gov/icons/land/night/few?size=medium",
+    "shortForecast": "Mostly Clear",
+    "detailedForecast": "Mostly clear, with a low around 77. Southwest wind 7 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4065\r\nIssue Time: 2022 Aug 08 1740 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4064\r\nValid From: 2022 Aug 07 0752 UTC\r\nNow Valid Until: 2022 Aug 09 0600 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -152,7 +152,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1659999305,
+    "lastchange": 1660007404,
     "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
