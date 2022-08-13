@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/08/13 12:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sat 13 Aug 2022 12:10:04 PM EDT",
+    "ext_time": "2022/08/13 15:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sat 13 Aug 2022 03:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -99,7 +99,9 @@
     ]
   },
   "ext_weather": null,
-  "space_weather": [],
+  "space_weather": [
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3221\r\nIssue Time: 2022 Aug 13 0500 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3220\r\nBegin Time: 2022 Aug 08 1645 UTC\r\nYesterday Maximum 2MeV Flux: 3309 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
+  ],
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -129,7 +131,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1660407004,
+    "lastchange": 1660417804,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
