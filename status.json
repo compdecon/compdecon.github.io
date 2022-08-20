@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/08/20 15:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sat 20 Aug 2022 03:10:04 PM EDT",
+    "ext_time": "2022/08/20 18:10:05 EDT UTC-04:00",
+    "ext_localtime": "Sat 20 Aug 2022 06:10:05 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 85
+        "value": 68
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2022-08-20T12:00:00-04:00",
-    "endTime": "2022-08-20T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 85,
+    "name": "Tonight",
+    "startTime": "2022-08-20T18:00:00-04:00",
+    "endTime": "2022-08-21T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 68,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 to 10 mph",
-    "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 85. Southeast wind 5 to 10 mph."
+    "windSpeed": "0 to 10 mph",
+    "windDirection": "S",
+    "icon": "https://api.weather.gov/icons/land/night/sct/fog?size=medium",
+    "shortForecast": "Partly Cloudy then Patchy Fog",
+    "detailedForecast": "Patchy fog after 1am. Partly cloudy, with a low around 68. South wind 0 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: SUMSUD\r\nSerial Number: 238\r\nIssue Time: 2022 Aug 20 1837 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse\r\nObserved: 2022 Aug 20 1812 UTC\r\nDeviation: 8 nT\r\nStation: SIT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1661022604,
+    "lastchange": 1661033405,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
