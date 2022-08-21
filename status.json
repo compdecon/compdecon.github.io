@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/08/20 18:10:05 EDT UTC-04:00",
-    "ext_localtime": "Sat 20 Aug 2022 06:10:05 PM EDT",
+    "ext_time": "2022/08/20 21:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sat 20 Aug 2022 09:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,19 +101,21 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2022-08-20T18:00:00-04:00",
+    "startTime": "2022-08-20T21:00:00-04:00",
     "endTime": "2022-08-21T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 68,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "0 to 10 mph",
+    "windSpeed": "0 to 5 mph",
     "windDirection": "S",
     "icon": "https://api.weather.gov/icons/land/night/sct/fog?size=medium",
     "shortForecast": "Partly Cloudy then Patchy Fog",
-    "detailedForecast": "Patchy fog after 1am. Partly cloudy, with a low around 68. South wind 0 to 10 mph."
+    "detailedForecast": "Patchy fog after 4am. Partly cloudy, with a low around 68. South wind 0 to 5 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2285\r\nIssue Time: 2022 Aug 20 2307 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 Aug 20 2305 UTC\r\nSynoptic Period: 2100-2400 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4080\r\nIssue Time: 2022 Aug 20 2250 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Aug 20 2250 UTC\r\nValid To: 2022 Aug 21 0900 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: SUMSUD\r\nSerial Number: 238\r\nIssue Time: 2022 Aug 20 1837 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse\r\nObserved: 2022 Aug 20 1812 UTC\r\nDeviation: 8 nT\r\nStation: SIT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
     "Space Weather Message Code: WARSUD\r\nSerial Number: 191\r\nIssue Time: 2022 Aug 20 1755 UTC\r\n\r\nWARNING: Geomagnetic Sudden Impulse expected\r\nValid From: 2022 Aug 20 1800 UTC\r\nValid To: 2022 Aug 20 1845 UTC\r\nIP Shock Passage Observed: 2022 Aug 20 1724 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
     "Space Weather Message Code: WATA20\r\nSerial Number: 914\r\nIssue Time: 2022 Aug 20 1243 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nAug 20:  G1 (Minor)   Aug 21:  G1 (Minor)   Aug 22:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -148,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1661033405,
+    "lastchange": 1661044204,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
