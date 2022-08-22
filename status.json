@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/08/21 23:55:05 EDT UTC-04:00",
-    "ext_localtime": "Sun 21 Aug 2022 11:55:05 PM EDT",
+    "ext_time": "2022/08/22 00:10:04 EDT UTC-04:00",
+    "ext_localtime": "Mon 22 Aug 2022 12:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 82
+        "value": 70
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2022-08-21T15:00:00-04:00",
-    "endTime": "2022-08-21T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 82,
+    "name": "Overnight",
+    "startTime": "2022-08-22T00:00:00-04:00",
+    "endTime": "2022-08-22T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 70,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "10 mph",
-    "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-    "shortForecast": "Partly Sunny",
-    "detailedForecast": "Partly sunny, with a high near 82. Southeast wind around 10 mph."
+    "windSpeed": "5 mph",
+    "windDirection": "E",
+    "icon": "https://api.weather.gov/icons/land/night/tsra,80?size=medium",
+    "shortForecast": "Chance Showers And Thunderstorms",
+    "detailedForecast": "A chance of showers and thunderstorms before 2am, then showers and thunderstorms. Cloudy, with a low around 70. East wind around 5 mph. Chance of precipitation is 80%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4082\r\nIssue Time: 2022 Aug 21 2355 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4081\r\nValid From: 2022 Aug 21 1622 UTC\r\nNow Valid Until: 2022 Aug 22 0900 UTC\r\nWarning Condition: persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1661140505,
+    "lastchange": 1661141404,
     "message": "We will be open from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
