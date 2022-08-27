@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/08/27 03:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sat 27 Aug 2022 03:10:04 AM EDT",
+    "ext_time": "2022/08/27 04:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sat 27 Aug 2022 04:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2022-08-27T00:00:00-04:00",
+    "startTime": "2022-08-27T03:00:00-04:00",
     "endTime": "2022-08-27T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 71,
@@ -109,9 +109,9 @@
     "temperatureTrend": null,
     "windSpeed": "5 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/night/tsra_hi,20?size=medium",
-    "shortForecast": "Isolated Showers And Thunderstorms",
-    "detailedForecast": "Isolated showers and thunderstorms before 1am, then patchy fog. Mostly clear, with a low around 71. West wind around 5 mph. Chance of precipitation is 20%."
+    "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
+    "shortForecast": "Patchy Fog",
+    "detailedForecast": "Patchy fog after 5am. Mostly clear, with a low around 71. West wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP4\r\nSerial Number: 567\r\nIssue Time: 2022 Aug 27 0450 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2022 Aug 27 0212 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
@@ -147,7 +147,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1661584204,
+    "lastchange": 1661587804,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
