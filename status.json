@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/08/28 00:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sun 28 Aug 2022 12:10:04 AM EDT",
+    "ext_time": "2022/08/28 01:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 28 Aug 2022 01:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2022-08-27T18:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2022-08-28T00:00:00-04:00",
     "endTime": "2022-08-28T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 71,
@@ -109,9 +109,9 @@
     "temperatureTrend": null,
     "windSpeed": "5 to 10 mph",
     "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-    "shortForecast": "Partly Cloudy",
-    "detailedForecast": "Partly cloudy, with a low around 71. East wind 5 to 10 mph."
+    "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": "Mostly cloudy, with a low around 71. East wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: SUMPX1\r\nSerial Number: 91\r\nIssue Time: 2022 Aug 28 0126 UTC\r\n\r\nSUMMARY: Proton Event 10MeV Integral Flux exceeded 10pfu\r\nBegin Time: 2022 Aug 27 1155 UTC\r\nMaximum Time: 2022 Aug 27 1220 UTC\r\nEnd Time: 2022 Aug 27 2145 UTC\r\nMaximum 10MeV Flux: 27 pfu\r\nNOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation"
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1661659804,
+    "lastchange": 1661663404,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
