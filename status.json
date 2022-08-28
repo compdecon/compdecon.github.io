@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/08/28 11:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sun 28 Aug 2022 11:10:04 AM EDT",
+    "ext_time": "2022/08/28 13:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 28 Aug 2022 01:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2022-08-28T10:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2022-08-28T12:00:00-04:00",
     "endTime": "2022-08-28T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 81,
@@ -109,9 +109,9 @@
     "temperatureTrend": null,
     "windSpeed": "10 mph",
     "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/day/tsra_sct,50/tsra_sct,30?size=medium",
+    "icon": "https://api.weather.gov/icons/land/day/tsra_sct,30?size=medium",
     "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms before 1pm, then a slight chance of showers and thunderstorms. Partly sunny, with a high near 81. East wind around 10 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "A chance of showers and thunderstorms before 1pm, then a slight chance of showers and thunderstorms. Partly sunny, with a high near 81. East wind around 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4086\r\nIssue Time: 2022 Aug 28 1105 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4085\r\nValid From: 2022 Aug 27 1150 UTC\r\nNow Valid Until: 2022 Aug 28 2100 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -146,7 +146,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1661699404,
+    "lastchange": 1661706604,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
