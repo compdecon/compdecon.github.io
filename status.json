@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/08/28 18:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sun 28 Aug 2022 06:10:04 PM EDT",
+    "ext_time": "2022/08/28 19:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 28 Aug 2022 07:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,11 +94,25 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": null
+        "value": 70
       }
     ]
   },
-  "ext_weather": null,
+  "ext_weather": {
+    "number": 1,
+    "name": "Tonight",
+    "startTime": "2022-08-28T18:00:00-04:00",
+    "endTime": "2022-08-29T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 70,
+    "temperatureUnit": "F",
+    "temperatureTrend": null,
+    "windSpeed": "0 to 5 mph",
+    "windDirection": "SE",
+    "icon": "https://api.weather.gov/icons/land/night/tsra_hi,20/sct?size=medium",
+    "shortForecast": "Slight Chance Showers And Thunderstorms then Partly Cloudy",
+    "detailedForecast": "A slight chance of showers and thunderstorms before 7pm. Partly cloudy, with a low around 70. Southeast wind 0 to 5 mph. Chance of precipitation is 20%."
+  },
   "space_weather": [
     "Space Weather Message Code: SUM10R\r\nSerial Number: 731\r\nIssue Time: 2022 Aug 28 2027 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2022 Aug 28 1720 UTC\r\nMaximum Time: 2022 Aug 28 1814 UTC\r\nEnd Time: 2022 Aug 28 2001 UTC\r\nDuration: 281 minutes\r\nPeak Flux: 1800 sfu\r\nLatest Penticton Noon Flux: 128 sfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
     "Space Weather Message Code: SUMXM5\r\nSerial Number: 156\r\nIssue Time: 2022 Aug 28 1702 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2022 Aug 28 1548 UTC\r\nMaximum Time: 2022 Aug 28 1619 UTC\r\nEnd Time: 2022 Aug 28 1646 UTC\r\nX-ray Class: M6.7\r\nLocation: S27W82\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
@@ -136,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1661724604,
+    "lastchange": 1661728204,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
