@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/08/28 15:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sun 28 Aug 2022 03:10:04 PM EDT",
+    "ext_time": "2022/08/28 16:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 28 Aug 2022 04:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,25 +94,11 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 81
+        "value": null
       }
     ]
   },
-  "ext_weather": {
-    "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2022-08-28T12:00:00-04:00",
-    "endTime": "2022-08-28T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 81,
-    "temperatureUnit": "F",
-    "temperatureTrend": null,
-    "windSpeed": "10 mph",
-    "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/day/tsra_sct,30?size=medium",
-    "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms before 1pm, then a slight chance of showers and thunderstorms. Partly sunny, with a high near 81. East wind around 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
-  },
+  "ext_weather": null,
   "space_weather": [],
   "contact": {
     "email": "info@compdecon.org",
@@ -143,7 +129,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1661713804,
+    "lastchange": 1661717404,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
