@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/08/29 09:10:04 EDT UTC-04:00",
-    "ext_localtime": "Mon 29 Aug 2022 09:10:04 AM EDT",
+    "ext_time": "2022/08/29 11:10:04 EDT UTC-04:00",
+    "ext_localtime": "Mon 29 Aug 2022 11:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 84
+        "value": 83
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2022-08-29T06:00:00-04:00",
+    "startTime": "2022-08-29T10:00:00-04:00",
     "endTime": "2022-08-29T18:00:00-04:00",
     "isDaytime": true,
-    "temperature": 84,
+    "temperature": 83,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "0 to 10 mph",
+    "windSpeed": "5 to 10 mph",
     "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/day/fog/sct?size=medium",
-    "shortForecast": "Patchy Fog then Mostly Sunny",
-    "detailedForecast": "Patchy fog before 9am. Mostly sunny, with a high near 84. Southeast wind 0 to 10 mph. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny, with a high near 83. Southeast wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: SUMXM5\r\nSerial Number: 157\r\nIssue Time: 2022 Aug 29 1143 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2022 Aug 29 1048 UTC\r\nMaximum Time: 2022 Aug 29 1108 UTC\r\nEnd Time: 2022 Aug 29 1112 UTC\r\nX-ray Class: M8.6\r\nLocation: S27W95\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1661778604,
+    "lastchange": 1661785804,
     "message": "We will be open from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
