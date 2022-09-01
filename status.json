@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/09/01 13:10:04 EDT UTC-04:00",
-    "ext_localtime": "Thu 01 Sep 2022 01:10:04 PM EDT",
+    "ext_time": "2022/09/01 16:10:04 EDT UTC-04:00",
+    "ext_localtime": "Thu 01 Sep 2022 04:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2022-09-01T12:00:00-04:00",
+    "startTime": "2022-09-01T15:00:00-04:00",
     "endTime": "2022-09-01T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 86,
@@ -109,7 +109,7 @@
     "temperatureTrend": null,
     "windSpeed": "10 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
     "shortForecast": "Sunny",
     "detailedForecast": "Sunny, with a high near 86. West wind around 10 mph."
   },
@@ -147,7 +147,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1662052204,
+    "lastchange": 1662063004,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
