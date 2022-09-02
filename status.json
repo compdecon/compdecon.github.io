@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/09/02 11:10:04 EDT UTC-04:00",
-    "ext_localtime": "Fri 02 Sep 2022 11:10:04 AM EDT",
+    "ext_time": "2022/09/02 13:10:04 EDT UTC-04:00",
+    "ext_localtime": "Fri 02 Sep 2022 01:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2022-09-02T10:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2022-09-02T12:00:00-04:00",
     "endTime": "2022-09-02T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 77,
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1662131404,
+    "lastchange": 1662138604,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
