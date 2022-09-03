@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/09/03 11:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sat 03 Sep 2022 11:10:04 AM EDT",
+    "ext_time": "2022/09/03 13:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sat 03 Sep 2022 01:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,18 +100,18 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2022-09-03T10:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2022-09-03T12:00:00-04:00",
     "endTime": "2022-09-03T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 79,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 to 10 mph",
-    "windDirection": "E",
+    "windDirection": "SE",
     "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
     "shortForecast": "Partly Sunny",
-    "detailedForecast": "Partly sunny, with a high near 79. East wind 5 to 10 mph."
+    "detailedForecast": "Partly sunny, with a high near 79. Southeast wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4094\r\nIssue Time: 2022 Sep 03 1139 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4093\r\nValid From: 2022 Sep 02 2350 UTC\r\nNow Valid Until: 2022 Sep 03 2100 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1662217804,
+    "lastchange": 1662225004,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
