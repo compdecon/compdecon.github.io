@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/09/03 07:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sat 03 Sep 2022 07:10:04 AM EDT",
+    "ext_time": "2022/09/03 09:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sat 03 Sep 2022 09:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -114,6 +114,8 @@
     "detailedForecast": "Partly sunny, with a high near 79. East wind 5 to 10 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4094\r\nIssue Time: 2022 Sep 03 1139 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4093\r\nValid From: 2022 Sep 02 2350 UTC\r\nNow Valid Until: 2022 Sep 03 2100 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARK05\r\nSerial Number: 1672\r\nIssue Time: 2022 Sep 03 1139 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 5 expected\r\nExtension to Serial Number: 1671\r\nValid From: 2022 Sep 03 0158 UTC\r\nNow Valid Until: 2022 Sep 03 1800 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
     "Space Weather Message Code: ALTK05\r\nSerial Number: 1386\r\nIssue Time: 2022 Sep 03 0220 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\nThreshold Reached: 2022 Sep 03 0219 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
     "Space Weather Message Code: WARK05\r\nSerial Number: 1671\r\nIssue Time: 2022 Sep 03 0159 UTC\r\n\r\nWARNING: Geomagnetic K-index of 5 expected\r\nValid From: 2022 Sep 03 0158 UTC\r\nValid To: 2022 Sep 03 1200 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
   ],
@@ -146,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1662203404,
+    "lastchange": 1662210604,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
