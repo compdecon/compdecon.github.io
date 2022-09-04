@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/09/04 09:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sun 04 Sep 2022 09:10:04 AM EDT",
+    "ext_time": "2022/09/04 10:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 04 Sep 2022 10:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2022-09-04T06:00:00-04:00",
+    "startTime": "2022-09-04T09:00:00-04:00",
     "endTime": "2022-09-04T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 85,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "0 to 10 mph",
+    "windSpeed": "5 to 10 mph",
     "windDirection": "SW",
     "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-    "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a high near 85. Southwest wind 0 to 10 mph."
+    "shortForecast": "Partly Sunny",
+    "detailedForecast": "Partly sunny, with a high near 85. Southwest wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK06\r\nSerial Number: 499\r\nIssue Time: 2022 Sep 04 1150 UTC\r\n\r\nALERT: Geomagnetic K-index of 6\r\nThreshold Reached: 2022 Sep 04 1148 UTC\r\nSynoptic Period: 0900-1200 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
@@ -153,7 +153,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1662297004,
+    "lastchange": 1662300604,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
