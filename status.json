@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/09/09 16:10:04 EDT UTC-04:00",
-    "ext_localtime": "Fri 09 Sep 2022 04:10:04 PM EDT",
+    "ext_time": "2022/09/09 22:10:04 EDT UTC-04:00",
+    "ext_localtime": "Fri 09 Sep 2022 10:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 76
+        "value": 62
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2022-09-09T15:00:00-04:00",
-    "endTime": "2022-09-09T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 76,
+    "name": "Tonight",
+    "startTime": "2022-09-09T21:00:00-04:00",
+    "endTime": "2022-09-10T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 62,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "10 mph",
-    "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-    "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 76. East wind around 10 mph."
+    "windSpeed": "0 to 5 mph",
+    "windDirection": "S",
+    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+    "shortForecast": "Mostly Clear",
+    "detailedForecast": "Mostly clear, with a low around 62. South wind 0 to 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4107\r\nIssue Time: 2022 Sep 09 1056 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4106\r\nValid From: 2022 Sep 08 2133 UTC\r\nNow Valid Until: 2022 Sep 09 1800 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1662754204,
+    "lastchange": 1662775804,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
