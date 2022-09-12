@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/09/12 09:10:05 EDT UTC-04:00",
-    "ext_localtime": "Mon 12 Sep 2022 09:10:05 AM EDT",
+    "ext_time": "2022/09/12 10:10:04 EDT UTC-04:00",
+    "ext_localtime": "Mon 12 Sep 2022 10:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 79
+        "value": 80
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2022-09-12T06:00:00-04:00",
+    "startTime": "2022-09-12T09:00:00-04:00",
     "endTime": "2022-09-12T18:00:00-04:00",
     "isDaytime": true,
-    "temperature": 79,
+    "temperature": 80,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "0 to 5 mph",
-    "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/day/rain_showers,30/tsra,40?size=medium",
-    "shortForecast": "Chance Rain Showers then Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of rain showers and patchy fog before 7am, then areas of fog and a chance of rain showers between 7am and 2pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 79. Northwest wind 0 to 5 mph. Chance of precipitation is 40%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "NE",
+    "icon": "https://api.weather.gov/icons/land/day/fog/tsra_sct,50?size=medium",
+    "shortForecast": "Areas Of Fog then Chance Showers And Thunderstorms",
+    "detailedForecast": "Areas of fog before 10am, then a chance of showers and thunderstorms. Partly sunny, with a high near 80. Northeast wind 5 to 10 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARPX1\r\nSerial Number: 490\r\nIssue Time: 2022 Sep 12 1225 UTC\r\n\r\nWARNING: Proton 10MeV Integral Flux above 10pfu expected\r\nValid From: 2022 Sep 12 1300 UTC\r\nValid To: 2022 Sep 12 2200 UTC\r\nWarning Condition: Onset\r\nPredicted NOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.",
@@ -146,7 +146,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1662988205,
+    "lastchange": 1662991804,
     "message": "We will be open from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
