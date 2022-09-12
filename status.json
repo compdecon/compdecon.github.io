@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/09/12 16:10:05 EDT UTC-04:00",
-    "ext_localtime": "Mon 12 Sep 2022 04:10:05 PM EDT",
+    "ext_time": "2022/09/12 18:55:04 EDT UTC-04:00",
+    "ext_localtime": "Mon 12 Sep 2022 06:55:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": false
+        "value": true
       },
       {
         "location": "Front door",
-        "value": false
+        "value": true
       }
     ],
     "humidity": [
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 81
+        "value": 70
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2022-09-12T15:00:00-04:00",
-    "endTime": "2022-09-12T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 81,
+    "name": "Tonight",
+    "startTime": "2022-09-12T18:00:00-04:00",
+    "endTime": "2022-09-13T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 70,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 mph",
-    "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/day/tsra_hi,20?size=medium",
-    "shortForecast": "Slight Chance Showers And Thunderstorms",
-    "detailedForecast": "A slight chance of showers and thunderstorms after 4pm. Partly sunny, with a high near 81. Southeast wind around 5 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+    "windDirection": "S",
+    "icon": "https://api.weather.gov/icons/land/night/tsra,80/tsra,90?size=medium",
+    "shortForecast": "Chance Showers And Thunderstorms then Patchy Fog",
+    "detailedForecast": "A chance of showers and thunderstorms before 8pm, then patchy fog and showers and thunderstorms likely between 8pm and 11pm, then patchy fog and showers and thunderstorms between 11pm and 3am, then patchy fog and showers and thunderstorms likely. Cloudy, with a low around 70. South wind around 5 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARPX1\r\nSerial Number: 490\r\nIssue Time: 2022 Sep 12 1225 UTC\r\n\r\nWARNING: Proton 10MeV Integral Flux above 10pfu expected\r\nValid From: 2022 Sep 12 1300 UTC\r\nValid To: 2022 Sep 12 2200 UTC\r\nWarning Condition: Onset\r\nPredicted NOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.",
@@ -145,9 +145,9 @@
     {}
   ],
   "state": {
-    "open": false,
-    "lastchange": 1663013405,
-    "message": "We will be open from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": true,
+    "lastchange": 1663023304,
+    "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
     "blogUpdate": "(Title: Let there be light - 2022-02-14 - Updated: Feb. 15, 2022)",
