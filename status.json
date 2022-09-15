@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/09/14 21:10:04 EDT UTC-04:00",
-    "ext_localtime": "Wed 14 Sep 2022 09:10:04 PM EDT",
+    "ext_time": "2022/09/15 01:10:04 EDT UTC-04:00",
+    "ext_localtime": "Thu 15 Sep 2022 01:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 80
+        "value": 61
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2022-09-14T15:00:00-04:00",
-    "endTime": "2022-09-14T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 80,
+    "name": "Overnight",
+    "startTime": "2022-09-15T00:00:00-04:00",
+    "endTime": "2022-09-15T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 61,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "10 mph",
-    "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-    "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 80. West wind around 10 mph."
+    "windSpeed": "5 mph",
+    "windDirection": "NW",
+    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+    "shortForecast": "Mostly Clear",
+    "detailedForecast": "Mostly clear, with a low around 61. Northwest wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: SUMSUD\r\nSerial Number: 239\r\nIssue Time: 2022 Sep 14 2327 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse\r\nObserved: 2022 Sep 14 2315 UTC\r\nDeviation: 30 nT\r\nStation: BOU\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1663204204,
+    "lastchange": 1663218604,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
