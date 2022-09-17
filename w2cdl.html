@@ -1,0 +1,308 @@
+<?xml version="1.0"?> <!--  encoding="utf-8" -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<!-- meta -->
+<!-- -*- mode: html; fill-column: 96; mode: auto-fill; -*- -->
+
+   <meta name="MSSmartTagsPreventParsing" content="true" />
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+   <meta http-equiv="Cache-Control" content="must-revalidate"/>
+   <meta name="keywords" content="CDL, Computer Deconstruction Lab, Podcast, Makerspace, Hackerspace, IXR"/>
+   <meta name="description" content="CDL - Computer Deconstruction Lab Podcast and Makerspace"/>
+   <meta name="Copyright" content="Copyright (c) 2021 Neil Cherry, All rights reserved." />
+
+
+   <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+
+   <link rel="stylesheet" id="wp-block-library-css" href="css/style.min.css" type="text/css" media="all">
+
+   <title>w2CDL - Ham Radio &amp; Computer Deconstruction Lab Podcast and Makerspace</title>
+
+<style type="text/css">
+    /* Yes it's off but this pulls it up over the line and not below the line. */
+    .mail {
+       border:0; /* */
+       margin-top:-6px;
+       vertical-align:middle;/* */
+    }
+    table {
+        border: 1px solid black;
+    }
+    td.middle {
+        vertical-align: middle;
+    }
+    /* dk green - 5e8067 */
+    /* lt green - cfdaba */
+    .myBody {
+        background: #cfdaba;
+        color: black;
+        font-size: 120%;
+    }
+    .myBannerT {
+        background: #5e8067;
+        color: #cfdaba;
+        width: 100%;
+    }
+    .myBanner {
+        background: #5e8067;
+        color: #cfdaba;
+        /*clear: both; /* */
+    }
+    .myLogo {
+        background: #5e8067;
+        color: #cfdaba;
+        float: left; /* */
+        margin-right: .5em;
+    }
+    .myTitle {
+        background: #5e8067;
+        color: #cfdaba;
+        margin-right: .5em;
+    }
+    img.center {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid black;
+    }
+
+    widget {
+        position: relative;
+        margin-bottom: 55px;
+        padding-left: 5em;
+    }
+    txtwidget {
+        /* border: 1px solid black; /* */
+        padding-left:2em;
+    }
+</style>
+<script>
+  function toggleSign(flag) {
+      // ID="sign"
+      // 1 = Open:
+      // "./images/Open-sign.png"
+      // 0 = Closed:
+      // "./images/Closed-sign.png"
+      if(flag) {
+          document.getElementById("sign").src   = "./images/Open-sign.png";
+          document.getElementById("sign").alt   = "Open for business";
+          document.getElementById("sign").title = "Open for business";
+      } else {
+          document.getElementById("sign").src = "./images/Closed-sign.png";
+          document.getElementById("sign").alt   = "Closed for the day";
+          document.getElementById("sign").title = "Closed for the day";
+      }
+  }
+
+  function updateMsg(msg) {
+      document.getElementById("updateDiv").innerHTML = '<p>' + msg + '</p>';
+  }
+
+  function lastUpdated(lastchange) {
+      if(typeof lastchange != "number") {
+          lastchange = -1;
+      }
+      document.getElementById("lastUpdateOn").innerHTML = 'UPDATE <span style="font-size: 60%;">(' + new Date(lastchange*1000) + ')</span>';
+  }
+  
+  lastUpdate = '';
+  function currentWeather(weather) {
+      /*
+        "weather": {
+            "number": 1,
+            "name": "Tonight",
+            "startTime": "2021-06-25T21:00:00-04:00",
+            "endTime": "2021-06-26T06:00:00-04:00",
+            "isDaytime": false,
+            "temperature": 67,
+            "temperatureUnit": "F",
+            "temperatureTrend": null,
+            "windSpeed": "5 to 10 mph",
+            "windDirection": "S",
+            "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+            "shortForecast": "Mostly Cloudy",
+            "detailedForecast": "Mostly cloudy, with a low around 67. South wind 5 to 10 mph."
+        },
+      */
+      if(lastUpdate != weather.startTime) {
+          lastUpdate = weather.startTime;
+          document.getElementById("weatherDiv").innerHTML = '<table><tr><td><img src="' + weather.icon + '" alt=""></td><td>' + weather.detailedForecast + '(' + weather.startTime + ')' + '</td></tr></table>';
+      } 
+  }
+   
+  function getStatus(url) {
+      fetch(url, { 
+          method: 'GET'
+      })
+      .then(function(response) { return response.json(); })
+      .then(function(json) {
+          // use the json
+          if(debug) console.log(Date.now());
+          toggleSign(json.state.open);
+          updateMsg(json.state.message);
+          lastUpdated(json.state.lastchange)
+          currentWeather(json.ext_weather);
+      });
+  }
+</script>
+
+</head>
+<body class="myBody">
+<div id="page" class="hfeed site">
+  <table class="myBannerT">
+    <tr><td>
+      <a href="https://compdecon.org/" title="CDL - Computer Deconstruction Lab" target="_blank">
+        <img src="./images/CDL-Logo-green.png" title="Computer Deconstruction Laboratory - The Jersey Shore Makerspace"
+             alt="Computer Deconstruction Laboratory - The Jersey Shore Makerspace"/>
+      </a>
+    </td>
+    <td>
+      <!-- h1>CDL - Computer Deconstruction Lab Podcast studio and Makerspace</h1 -->
+      <h1>Computer Deconstruction Laboratory - The Jersey Shore Makerspace</h1>
+    </td>
+    <td class="middle">
+      <img id="sign" src="./images/Closed-sign.png" title="Closed for the day" alt="Closed for the day"/>
+    </td></tr>
+  </table>
+
+  <div>
+    <h2>W2CDL Projects</h2>
+
+    <p> There will be more here as the membership grows. </p>
+
+    <p> We're working on getting our rigs and antennas setup. It's a
+        little bit involved as we're on a historic site which means
+        changes to outside appearances are limitted. we have plans to
+        put our antennas in another location and network our rigs so
+        we can access them in the lab.<p>
+
+    <ul>
+      <li></li>
+      <!-- li><a href=""></a>/li -->
+    </ul>
+
+    <br/>
+  </div><!-- .entry-content -->
+
+  <div id="page" class="hfeed site" style="background: #5e8067; color: #cfdaba;">
+    <div id="sidebar-footer" class="footer-widgets widget-area" role="complementary">
+      <div class="container">
+        <div class="sidebar-column col-md-12">
+	  <aside id="simple-social-icons-2" class="widget simple-social-icons">
+            <ul class="alignleft" style="inline-style-type:none;">
+              <li class="ssi-email" style="display: inline-block;">
+                <a href="mailto:cdl@compdecon.org" target="_blank">
+                  <svg role="img" class="social-email" aria-labelledby="social-email-2" style="width:72px;height:72px;">
+                    <title id="social-email-2">Email</title>
+                    <use xlink:href="./svg/symbol-defs.svg#social-email"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="ssi-github" style="display: inline-block;">
+                <a href="https://github.com/compdecon" target="_blank">
+                  <svg role="img" class="social-github" aria-labelledby="social-github-2" style="width:72px;height:72px;">
+                    <title id="social-github">Github</title>
+                    <use xlink:href="./svg/symbol-defs.svg#social-github"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="ssi-facebook" style="display: inline-block;">
+                <a href="https://www.facebook.com/compdecon/" target="_blank">
+                  <svg role="img" class="social-facebook" aria-labelledby="social-facebook-2" style="width:72px;height:72px;">
+                    <title id="social-facebook-2">Facebook</title>
+                    <use xlink:href="./svg/symbol-defs.svg#social-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="ssi-gplus" style="display: inline-block;">
+                <a href="https://www.google.com/maps/place/2201+Marconi+Rd,+Wall+Township,+NJ+07719/@40.1854721,-74.0596964,17.25z/data=!4m5!3m4!1s0x89c228394da0728f:0xba9aa848932b58c1!8m2!3d40.1857926!4d-74.0595842?shorturl=1" target="_blank">
+                  <svg role="img" class="social-gplus" aria-labelledby="social-gplus-2" style="width:72px;height:72px;">
+                    <title id="social-gplus-2">Google+</title>
+                    <use xlink:href="./svg/symbol-defs.svg#social-gplus"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="ssi-twitter" style="display: inline-block;">
+                <a href="https://twitter.com/compdecon?lang=en" target="_blank">
+                  <svg role="img" class="social-twitter" aria-labelledby="social-twitter-2" style="width:72px;height:72px;">
+                    <title id="social-twitter-2">Twitter</title>
+                    <use xlink:href="./svg/symbol-defs.svg#social-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="ssi-youtube" style="display: inline-block;">
+                <a href="https://www.youtube.com/channel/UC2R27L8tMfrjCUdLClYDc8A" target="_blank">
+                  <svg role="img" class="social-youtube" aria-labelledby="social-youtube-2" style="width:72px;height:72px;">
+                    <title id="social-youtube-2">YouTube</title>
+                    <use xlink:href="./svg/symbol-defs.svg#social-youtube"></use>
+                  </svg>
+                </a>
+              </li>
+<!-- 
+              <li class="ssi-github" style="display: inline-block;">
+                <a href="https://github.com/compdecon" target="_blank">
+                  <svg role="img" class="social-github" aria-labelledby="social-github-2" style="width:72px;height:72px;">
+                    <title id="social-github">Github</title>
+                    <use xlink:href="./svg/symbol-defs.svg#social-github-2"></use>
+                  </svg>
+                </a>
+              </li>
+-->
+              <li class="ssi-phone" style="display: inline-block;">
+                <a href="tel:732-456-5001" target="_blank">
+                  <svg role="img" class="social-phone" aria-labelledby="social-phone-2" style="width:72px;height:72px;">
+                    <title id="social-phone-2">Phone</title>
+                    <use xlink:href="./svg/symbol-defs.svg#social-phone"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </aside>
+          <aside id="text-4" class="widget widget_text">
+            <div class="textwidget" style="padding-left:2em;">
+              Microcontroller Mondays &amp; Podcast - Mondays 7 - 10 PM<br/><br/>
+              Computer Deconstruction Lab<br/>
+              Building 9059<br/>
+              2201 Marconi Road<br/>
+              Wall Township, New Jersey 07719<br/>
+              <br/>
+            </div>
+          </aside>
+        </div>
+      </div>	
+    </div>
+  </div>
+</div>
+  <script>
+    const queryString = window.location.search;
+    console.log(queryString);
+
+    const urlParams = new URLSearchParams(queryString);
+    console.log(urlParams.has('debug'));
+
+    if(urlParams.has('debug')) {
+        debug = true;
+        tOut =  10000; // 10 seconds
+    } else {
+        debug = false;
+        tOut = 300000; // 300 seconds, 5 minutes
+    }
+    // This handles my weather stuff and hopefully adapted to deal with the sprinkler sysem
+    var url = "status.json";
+
+    window.onload = function() {
+        //
+        // Need to check for really old browsers that may not have fetch
+        // support for VCF and Vintage computers
+        //
+        //xmlHttpGet(url);
+        //setInterval("xmlHttpGet(url)", 10000); // Prod set to minutes, not seconds?
+        getStatus(url);
+        setInterval("getStatus(url)", tOut); // Prod set to appropriate minutes, not seconds?
+    }
+  </script>
+</body>
+</html>
