@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/09/18 04:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sun 18 Sep 2022 04:10:04 AM EDT",
+    "ext_time": "2022/09/18 09:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 18 Sep 2022 09:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -114,10 +114,7 @@
     "detailedForecast": "Mostly clear, with a low around 64. Southwest wind around 5 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: SUMXM5\r\nSerial Number: 159\r\nIssue Time: 2022 Sep 16 1627 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2022 Sep 16 1549 UTC\r\nMaximum Time: 2022 Sep 16 1559 UTC\r\nEnd Time: 2022 Sep 16 1612 UTC\r\nX-ray Class: M6.2\r\nLocation: N20W85\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
-    "Space Weather Message Code: ALTXMF\r\nSerial Number: 282\r\nIssue Time: 2022 Sep 16 1604 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2022 Sep 16 1557 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
-    "Space Weather Message Code: SUMXM5\r\nSerial Number: 158\r\nIssue Time: 2022 Sep 16 1010 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2022 Sep 16 0944 UTC\r\nMaximum Time: 2022 Sep 16 0949 UTC\r\nEnd Time: 2022 Sep 16 0956 UTC\r\nX-ray Class: M7.9\r\nLocation: N18W78\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
-    "Space Weather Message Code: ALTXMF\r\nSerial Number: 281\r\nIssue Time: 2022 Sep 16 0955 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2022 Sep 16 0949 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap."
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4111\r\nIssue Time: 2022 Sep 18 1130 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Sep 18 1130 UTC\r\nValid To: 2022 Sep 18 1800 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -148,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1663488604,
+    "lastchange": 1663506604,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
