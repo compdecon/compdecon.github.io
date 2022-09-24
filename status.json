@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/09/24 04:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sat 24 Sep 2022 04:10:04 AM EDT",
+    "ext_time": "2022/09/24 07:10:05 EDT UTC-04:00",
+    "ext_localtime": "Sat 24 Sep 2022 07:10:05 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 45
+        "value": 69
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2022-09-24T03:00:00-04:00",
-    "endTime": "2022-09-24T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 45,
+    "name": "Today",
+    "startTime": "2022-09-24T06:00:00-04:00",
+    "endTime": "2022-09-24T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 69,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "10 mph",
-    "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-    "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 45. Northwest wind around 10 mph."
+    "windDirection": "W",
+    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny, with a high near 69. West wind around 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2297\r\nIssue Time: 2022 Sep 24 0602 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 Sep 24 0559 UTC\r\nSynoptic Period: 0300-0600 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -146,7 +146,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1664007004,
+    "lastchange": 1664017805,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
