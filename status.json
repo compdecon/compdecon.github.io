@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/09/25 11:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sun 25 Sep 2022 11:10:04 AM EDT",
+    "ext_time": "2022/09/25 12:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 25 Sep 2022 12:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -114,9 +114,7 @@
     "detailedForecast": "A chance of showers and thunderstorms between 1pm and 5pm, then showers and thunderstorms likely. Mostly cloudy, with a high near 77. Southwest wind 10 to 15 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4115\r\nIssue Time: 2022 Sep 24 1444 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Sep 24 1445 UTC\r\nValid To: 2022 Sep 24 2100 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: ALTK04\r\nSerial Number: 2297\r\nIssue Time: 2022 Sep 24 0602 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 Sep 24 0559 UTC\r\nSynoptic Period: 0300-0600 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4114\r\nIssue Time: 2022 Sep 24 0338 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Sep 24 0338 UTC\r\nValid To: 2022 Sep 24 1200 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3246\r\nIssue Time: 2022 Sep 25 1311 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2022 Sep 25 1235 UTC\r\nStation: GOES16\r\n \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -147,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1664118604,
+    "lastchange": 1664122204,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
