@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/09/25 01:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sun 25 Sep 2022 01:10:04 AM EDT",
+    "ext_time": "2022/09/25 04:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 25 Sep 2022 04:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2022-09-25T00:00:00-04:00",
+    "startTime": "2022-09-25T03:00:00-04:00",
     "endTime": "2022-09-25T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 53,
@@ -109,9 +109,9 @@
     "temperatureTrend": null,
     "windSpeed": "5 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-    "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a low around 53. Southwest wind around 5 mph."
+    "icon": "https://api.weather.gov/icons/land/night/rain_showers?size=medium",
+    "shortForecast": "Isolated Rain Showers",
+    "detailedForecast": "Isolated rain showers after 5am. Mostly cloudy, with a low around 53. Southwest wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4115\r\nIssue Time: 2022 Sep 24 1444 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Sep 24 1445 UTC\r\nValid To: 2022 Sep 24 2100 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -147,7 +147,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1664082604,
+    "lastchange": 1664093404,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
