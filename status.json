@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/09/25 12:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sun 25 Sep 2022 12:10:04 PM EDT",
+    "ext_time": "2022/09/25 16:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun 25 Sep 2022 04:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 77
+        "value": 76
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2022-09-25T10:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2022-09-25T15:00:00-04:00",
     "endTime": "2022-09-25T18:00:00-04:00",
     "isDaytime": true,
-    "temperature": 77,
+    "temperature": 76,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "10 to 15 mph",
+    "windSpeed": "15 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/bkn/tsra_sct,60?size=medium",
-    "shortForecast": "Mostly Cloudy then Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms between 1pm and 5pm, then showers and thunderstorms likely. Mostly cloudy, with a high near 77. Southwest wind 10 to 15 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/day/tsra_sct,60?size=medium",
+    "shortForecast": "Chance Showers And Thunderstorms",
+    "detailedForecast": "A chance of showers and thunderstorms before 5pm, then showers and thunderstorms likely. Partly sunny, with a high near 76. Southwest wind around 15 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3246\r\nIssue Time: 2022 Sep 25 1311 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2022 Sep 25 1235 UTC\r\nStation: GOES16\r\n \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1664122204,
+    "lastchange": 1664136604,
     "message": "We will be open from 7 to 10 PM tomorrow night &#x28;Monday&#x29;. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
