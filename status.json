@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/09/26 01:10:04 EDT UTC-04:00",
-    "ext_localtime": "Mon 26 Sep 2022 01:10:04 AM EDT",
+    "ext_time": "2022/09/26 04:10:04 EDT UTC-04:00",
+    "ext_localtime": "Mon 26 Sep 2022 04:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2022-09-26T00:00:00-04:00",
+    "startTime": "2022-09-26T03:00:00-04:00",
     "endTime": "2022-09-26T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 59,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "15 mph",
-    "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,30?size=medium",
+    "windSpeed": "10 mph",
+    "windDirection": "W",
+    "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
     "shortForecast": "Patchy Fog",
-    "detailedForecast": "Patchy fog and a slight chance of rain showers before 1am, then a chance of rain showers and patchy fog. Partly cloudy, with a low around 59. Southwest wind around 15 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "Patchy fog. Partly cloudy, with a low around 59. West wind around 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3246\r\nIssue Time: 2022 Sep 25 1311 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2022 Sep 25 1235 UTC\r\nStation: GOES16\r\n \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1664169004,
+    "lastchange": 1664179804,
     "message": "We will be open from 7 to 10 PM tonight. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
