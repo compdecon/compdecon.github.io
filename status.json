@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/09/28 18:10:04 EDT UTC-04:00",
-    "ext_localtime": "Wed 28 Sep 2022 06:10:04 PM EDT",
+    "ext_time": "2022/09/28 22:10:04 EDT UTC-04:00",
+    "ext_localtime": "Wed 28 Sep 2022 10:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 70
+        "value": 53
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2022-09-28T15:00:00-04:00",
-    "endTime": "2022-09-28T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 70,
+    "name": "Tonight",
+    "startTime": "2022-09-28T21:00:00-04:00",
+    "endTime": "2022-09-29T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 53,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 to 10 mph",
-    "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 70. Northwest wind 5 to 10 mph."
+    "windDirection": "N",
+    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+    "shortForecast": "Partly Cloudy",
+    "detailedForecast": "Partly cloudy, with a low around 53. North wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WATA30\r\nSerial Number: 207\r\nIssue Time: 2022 Sep 28 2038 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G2 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nSep 29:  None (Below G1)   Sep 30:  G1 (Minor)   Oct 01:  G2 (Moderate)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state."
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1664403004,
+    "lastchange": 1664417404,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
