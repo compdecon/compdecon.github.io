@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/09/30 01:10:04 EDT UTC-04:00",
-    "ext_localtime": "Fri 30 Sep 2022 01:10:04 AM EDT",
+    "ext_time": "2022/09/30 03:10:04 EDT UTC-04:00",
+    "ext_localtime": "Fri 30 Sep 2022 03:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -114,8 +114,10 @@
     "detailedForecast": "Mostly cloudy, with a low around 55. Northeast wind 5 to 10 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: WATA30\r\nSerial Number: 208\r\nIssue Time: 2022 Sep 29 2047 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G2 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nSep 30:  G1 (Minor)   Oct 01:  G2 (Moderate)   Oct 02:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1138\r\nIssue Time: 2022 Sep 29 1222 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Sep 29 1159 UTC\r\nEstimated Velocity: 4335 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2299\r\nIssue Time: 2022 Sep 30 0556 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 Sep 30 0556 UTC\r\nSynoptic Period: 0300-0600 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: SUMSUD\r\nSerial Number: 240\r\nIssue Time: 2022 Sep 30 0532 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse\r\nObserved: 2022 Sep 30 0519 UTC\r\nDeviation: 20 nT\r\nStation: CNB\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4119\r\nIssue Time: 2022 Sep 30 0502 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Sep 30 0505 UTC\r\nValid To: 2022 Sep 30 1200 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARSUD\r\nSerial Number: 194\r\nIssue Time: 2022 Sep 30 0458 UTC\r\n\r\nWARNING: Geomagnetic Sudden Impulse expected\r\nValid From: 2022 Sep 30 0511 UTC\r\nValid To: 2022 Sep 30 0541 UTC\r\nIP Shock Passage Observed: 2022 Sep 30 0436 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation"
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -146,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1664514604,
+    "lastchange": 1664521804,
     "message": "Sorry we&#x27;re currently closed but we will be open next Monday at 7PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<span style=\"background-color: gold; font-weight: bold\">&nbspFacemasks are required.&nbsp</span>.",
     "postMessage": ".",
