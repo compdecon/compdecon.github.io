@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/10/02 19:10:07 EDT UTC-04:00",
-    "ext_localtime": "Sun 02 Oct 2022 07:10:07 PM EDT",
+    "ext_time": "2022/10/02 21:10:07 EDT UTC-04:00",
+    "ext_localtime": "Sun 02 Oct 2022 09:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -114,6 +114,9 @@
     "detailedForecast": "Rain. Cloudy, with a low around 50. Northeast wind 15 to 20 mph, with gusts as high as 50 mph. Chance of precipitation is 80%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTK05\r\nSerial Number: 1395\r\nIssue Time: 2022 Oct 02 2254 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\nThreshold Reached: 2022 Oct 02 2254 UTC\r\nSynoptic Period: 2100-2400 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+    "Space Weather Message Code: WARK05\r\nSerial Number: 1683\r\nIssue Time: 2022 Oct 02 2231 UTC\r\n\r\nWARNING: Geomagnetic K-index of 5 expected\r\nValid From: 2022 Oct 02 2230 UTC\r\nValid To: 2022 Oct 03 1200 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2300\r\nIssue Time: 2022 Oct 02 2222 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 Oct 02 2220 UTC\r\nSynoptic Period: 2100-2400 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 4121\r\nIssue Time: 2022 Oct 02 2142 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Oct 02 2142 UTC\r\nValid To: 2022 Oct 03 1200 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: SUMX01\r\nSerial Number: 120\r\nIssue Time: 2022 Oct 02 2047 UTC\r\n\r\nSUMMARY: X-ray Event exceeded X1\r\nBegin Time: 2022 Oct 02 1953 UTC\r\nMaximum Time: 2022 Oct 02 2025 UTC\r\nEnd Time: 2022 Oct 02 2034 UTC\r\nX-ray Class: X1.0\r\nLocation: N17W47\r\nNOAA Scale: R3 - Strong\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact consists of large portions of the sunlit side of Earth, strongest at the sub-solar point.\r\nRadio - Wide area blackout of HF (high frequency) radio communication for about an hour.",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1139\r\nIssue Time: 2022 Oct 02 2046 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2022 Oct 02 2024 UTC\r\nEstimated Velocity: 1157 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
@@ -152,7 +155,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1664752207,
+    "lastchange": 1664759407,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
