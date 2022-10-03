@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/10/03 12:10:07 EDT UTC-04:00",
-    "ext_localtime": "Mon 03 Oct 2022 12:10:07 PM EDT",
+    "ext_time": "2022/10/03 13:10:07 EDT UTC-04:00",
+    "ext_localtime": "Mon 03 Oct 2022 01:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2022-10-03T10:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2022-10-03T12:00:00-04:00",
     "endTime": "2022-10-03T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 57,
@@ -109,9 +109,9 @@
     "temperatureTrend": null,
     "windSpeed": "15 to 20 mph",
     "windDirection": "NE",
-    "icon": "https://api.weather.gov/icons/land/day/rain_showers,70/rain_showers,60?size=small",
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,60?size=small",
     "shortForecast": "Rain Showers Likely",
-    "detailedForecast": "Rain showers likely. Cloudy, with a high near 57. Northeast wind 15 to 20 mph, with gusts as high as 40 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "Rain showers likely. Cloudy, with a high near 57. Northeast wind 15 to 20 mph, with gusts as high as 40 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2301\r\nIssue Time: 2022 Oct 03 1424 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 Oct 03 1420 UTC\r\nSynoptic Period: 1200-1500 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1664813407,
+    "lastchange": 1664817007,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
