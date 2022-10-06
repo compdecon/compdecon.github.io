@@ -37,7 +37,10 @@ function lastUpdated(lastchange) {
     if(typeof lastchange != "number") {
         lastchange = -1;
     }
-    document.getElementById("lastUpdateOn").innerHTML = 'UPDATED: <span class="myH1z">(' + new Date(lastchange*1000) + ')</span>';
+    // Thu Oct 06 2022 12:10:04 GMT-0400 (Eastern Daylight Time)
+    var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric' };
+    //cument.getElementById("lastUpdateOn").innerHTML = 'UPDATED: <span class="myH1z">(' + new Date(lastchange*1000).toISOString() + ')</span>';
+    document.getElementById("lastUpdateOn").innerHTML = 'UPDATED: <span class="myH1z">(' + new Date(lastchange*1000).toLocaleDateString("en-US", options) + ')</span>';
 }
 
 lastUpdate = '';
@@ -63,7 +66,9 @@ function currentWeather(weather) {
         lastUpdate = weather.startTime;
         weather.icon = weather.icon.replace('medium', 'small');
         if(debug) console.log("URL=" + weather.icon);
-        document.getElementById("weatherDiv").innerHTML = '<div class="table-responsive"><table class="table"><tr><td width="20%" height="auto"><img width="100%" height="auto" src="' + weather.icon + '" alt="" width="20%" height="auto"></td><td style="font-size: 120%">' + weather.detailedForecast + '(' + weather.startTime + ')' + '</td></tr></table>';
+            //<img src="https://api.weather.gov/icons/land/day/few?size=small" alt="">
+            document.getElementById("weatherDiv").innerHTML = '<div class="table-responsive"><table class="table"><tr><td><img src="' + weather.icon + '" alt=" ' + weather.shortForecast + '"></td><td>' + weather.detailedForecast + '(' + weather.startTime + ')' + '</td></tr></table>';
+            //document.getElementById("weatherDiv").innerHTML = '<div class="table-responsive"><table class="table"><tr><td width="20%" height="auto"><img width="100%" height="auto" src="' + weather.icon + '" alt="" width="20%" height="auto"></td><td style="font-size: 120%">' + weather.detailedForecast + '(' + weather.startTime + ')' + '</td></tr></table>';
     } 
 }
 

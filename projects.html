@@ -1,153 +1,29 @@
-<?xml version="1.0"?> <!--  encoding="utf-8" -->
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- -*- mode: html; fill-column: 96; mode: auto-fill; -*- -->
 
-<!-- meta -->
-<!-- -*- mode: html; fill-column: 96; mode: auto-fill; -*- -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   <meta name="MSSmartTagsPreventParsing" content="true" />
-   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
-   <meta http-equiv="Cache-Control" content="must-revalidate"/>
-   <meta name="keywords" content="CDL, Computer Deconstruction Lab, Podcast, Makerspace, Hackerspace, IXR"/>
-   <meta name="description" content="CDL - Computer Deconstruction Lab Podcast and Makerspace"/>
-   <meta name="Copyright" content="Copyright (c) 2021 Neil Cherry, All rights reserved." />
+    <meta name="MSSmartTagsPreventParsing" content="true" />
 
+    <meta name="google-site-verification" content="xHe2H5z3d_apy71kf8JTabrugP6o9UIpJZ36eQJe0VM" />
+    <meta name="keywords" content="CDL, Computer Deconstruction Lab, makerspace near me, Podcast, NJ Podcast, Makerspace, Hackerspace, Makerspaces, Hackerspaces, NJ Makerspace, NJ Hackerspace, NJ Makerspaces, NJ Hackerspaces, Makerspaces in NJ, Hackerspaces in NJ, Institute for eXploratory Research, IXR, The Jersey Shore Makerspace"/>
+    <meta name="description" content="CDL - Computer Deconstruction Lab Podcast and Makerspace"/>
+    <meta name="Copyright" content="Copyright (c) 2022 Computer Deconstruction Lab, All rights reserved." />
 
-   <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
-   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+    <!-- link rel="icon" href="./images/favicon.ico" type="image/x-icon"/ -->
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" type="image/png" href="./images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="./images/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="./images/site.webmanifest">
 
-   <link rel="stylesheet" id="wp-block-library-css" href="css/style.min.css" type="text/css" media="all">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon"/>
 
-   <title>CDL - Computer Deconstruction Lab Podcast and Makerspace</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/compdecon.css" />
 
-<style type="text/css">
-    /* Yes it's off but this pulls it up over the line and not below the line. */
-    .mail {
-       border:0; /* */
-       margin-top:-6px;
-       vertical-align:middle;/* */
-    }
-    table {
-        border: 1px solid black;
-    }
-    td.middle {
-        vertical-align: middle;
-    }
-    /* dk green - 5e8067 */
-    /* lt green - cfdaba */
-    .myBody {
-        background: #cfdaba;
-        color: black;
-        font-size: 120%;
-    }
-    .myBannerT {
-        background: #5e8067;
-        color: #cfdaba;
-        width: 100%;
-    }
-    .myBanner {
-        background: #5e8067;
-        color: #cfdaba;
-        /*clear: both; /* */
-    }
-    .myLogo {
-        background: #5e8067;
-        color: #cfdaba;
-        float: left; /* */
-        margin-right: .5em;
-    }
-    .myTitle {
-        background: #5e8067;
-        color: #cfdaba;
-        margin-right: .5em;
-    }
-    img.center {
-        display: block;
-        margin: 0 auto;
-        border: 1px solid black;
-    }
-
-    widget {
-        position: relative;
-        margin-bottom: 55px;
-        padding-left: 5em;
-    }
-    txtwidget {
-        /* border: 1px solid black; /* */
-        padding-left:2em;
-    }
-</style>
-<script>
-  function toggleSign(flag) {
-      // ID="sign"
-      // 1 = Open:
-      // "./images/Open-sign.png"
-      // 0 = Closed:
-      // "./images/Closed-sign.png"
-      if(flag) {
-          document.getElementById("sign").src   = "./images/Open-sign.png";
-          document.getElementById("sign").alt   = "Open for business";
-          document.getElementById("sign").title = "Open for business";
-      } else {
-          document.getElementById("sign").src = "./images/Closed-sign.png";
-          document.getElementById("sign").alt   = "Closed for the day";
-          document.getElementById("sign").title = "Closed for the day";
-      }
-  }
-
-  function updateMsg(msg) {
-      document.getElementById("updateDiv").innerHTML = '<p>' + msg + '</p>';
-  }
-
-  function lastUpdated(lastchange) {
-      if(typeof lastchange != "number") {
-          lastchange = -1;
-      }
-      document.getElementById("lastUpdateOn").innerHTML = 'UPDATE <span style="font-size: 60%;">(' + new Date(lastchange*1000) + ')</span>';
-  }
-  
-  lastUpdate = '';
-  function currentWeather(weather) {
-      /*
-        "weather": {
-            "number": 1,
-            "name": "Tonight",
-            "startTime": "2021-06-25T21:00:00-04:00",
-            "endTime": "2021-06-26T06:00:00-04:00",
-            "isDaytime": false,
-            "temperature": 67,
-            "temperatureUnit": "F",
-            "temperatureTrend": null,
-            "windSpeed": "5 to 10 mph",
-            "windDirection": "S",
-            "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-            "shortForecast": "Mostly Cloudy",
-            "detailedForecast": "Mostly cloudy, with a low around 67. South wind 5 to 10 mph."
-        },
-      */
-      if(lastUpdate != weather.startTime) {
-          lastUpdate = weather.startTime;
-          document.getElementById("weatherDiv").innerHTML = '<table><tr><td><img src="' + weather.icon + '" alt=""></td><td>' + weather.detailedForecast + '(' + weather.startTime + ')' + '</td></tr></table>';
-      } 
-  }
-   
-  function getStatus(url) {
-      fetch(url, { 
-          method: 'GET'
-      })
-      .then(function(response) { return response.json(); })
-      .then(function(json) {
-          // use the json
-          if(debug) console.log(Date.now());
-          toggleSign(json.state.open);
-          updateMsg(json.state.message);
-          lastUpdated(json.state.lastchange)
-          currentWeather(json.ext_weather);
-      });
-  }
-</script>
+   <title>CDL - Computer Deconstruction Lab - Project page</title>
 
 </head>
 <body class="myBody">
@@ -288,33 +164,6 @@
     </div>
   </div>
 </div>
-  <script>
-    const queryString = window.location.search;
-    console.log(queryString);
-
-    const urlParams = new URLSearchParams(queryString);
-    console.log(urlParams.has('debug'));
-
-    if(urlParams.has('debug')) {
-        debug = true;
-        tOut =  10000; // 10 seconds
-    } else {
-        debug = false;
-        tOut = 300000; // 300 seconds, 5 minutes
-    }
-    // This handles my weather stuff and hopefully adapted to deal with the sprinkler sysem
-    var url = "status.json";
-
-    window.onload = function() {
-        //
-        // Need to check for really old browsers that may not have fetch
-        // support for VCF and Vintage computers
-        //
-        //xmlHttpGet(url);
-        //setInterval("xmlHttpGet(url)", 10000); // Prod set to minutes, not seconds?
-        getStatus(url);
-        setInterval("getStatus(url)", tOut); // Prod set to appropriate minutes, not seconds?
-    }
-  </script>
+    <script src="js/compdecon.js" async></script>
 </body>
 </html>
