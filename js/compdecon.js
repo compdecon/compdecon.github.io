@@ -25,11 +25,13 @@ function updateMsg(myId, msg) {
 }
 
 function updateBlog(myId, msg) {
-    // Should cover an empty message and a '.' message
-    if(msg && msg !== ".") {
-        document.getElementById(myId).innerHTML = msg;
-    } else {
-        document.getElementById(myId).innerHTML = '';
+    if(document.getElementById(myId) != null) {
+        // Should cover an empty message and a '.' message
+        if(msg && msg !== ".") {
+            document.getElementById(myId).innerHTML = msg;
+        } else {
+            document.getElementById(myId).innerHTML = '';
+        }
     }
 }
 
@@ -304,9 +306,11 @@ var url = "./status.json";
 //setSeason(); // Set the correct season image of the CDL front door.
 
 // Toggle Space Weather off
-document.getElementById("space_weatherDiv").style.display = "block";
-document.getElementById("spaceButton").src = "./images/more.jpg";
-toggleDiv();
+if(document.getElementById("space_weatherDiv") != null) {
+    document.getElementById("space_weatherDiv").style.display = "block";
+    document.getElementById("spaceButton").src = "./images/more.jpg";
+    toggleDiv();
+}
 
 window.onload = function() {
     //
@@ -315,6 +319,7 @@ window.onload = function() {
     //
     //xmlHttpGet(url);
     //setInterval("xmlHttpGet(url)", 10000); // Prod set to minutes, not seconds?
+    console.log("compdecon.js loaded");
     getStatus(url);
     setInterval("getStatus(url)", tOut); // Prod set to appropriate minutes, not seconds?
 }
