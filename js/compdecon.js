@@ -68,9 +68,7 @@ function currentWeather(weather) {
         lastUpdate = weather.startTime;
         weather.icon = weather.icon.replace('medium', 'small');
         if(debug) console.log("URL=" + weather.icon);
-            //<img src="https://api.weather.gov/icons/land/day/few?size=small" alt="">
-            document.getElementById("weatherDiv").innerHTML = '<div class="table-responsive"><table class="table"><tr><td><img src="' + weather.icon + '" alt=" ' + weather.shortForecast + '"></td><td>' + weather.detailedForecast + '(' + weather.startTime + ')' + '</td></tr></table>';
-            //document.getElementById("weatherDiv").innerHTML = '<div class="table-responsive"><table class="table"><tr><td width="20%" height="auto"><img width="100%" height="auto" src="' + weather.icon + '" alt="" width="20%" height="auto"></td><td style="font-size: 120%">' + weather.detailedForecast + '(' + weather.startTime + ')' + '</td></tr></table>';
+            document.getElementById("weatherDiv").innerHTML = '<div class="table-responsive"><table class="table"><tr><td><img src="' + weather.icon + '" alt="' + weather.shortForecast + '"></td><td style="width: 80%">' + weather.detailedForecast + '(' + weather.startTime + ')' + '</td></tr></table>';
     } 
 }
 
