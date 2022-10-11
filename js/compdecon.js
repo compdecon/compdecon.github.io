@@ -66,7 +66,7 @@ function currentWeather(weather) {
     */
     if(lastUpdate != weather.startTime) {
         lastUpdate = weather.startTime;
-        weather.icon = weather.icon.replace('medium', 'small');
+        //weather.icon = weather.icon.replace('medium', 'small');
         if(debug) console.log("URL=" + weather.icon);
             document.getElementById("weatherDiv").innerHTML = '<div class="table-responsive"><table class="table"><tr><td><img src="' + weather.icon + '" alt="' + weather.shortForecast + '"></td><td style="width: 80%">' + weather.detailedForecast + '(' + weather.startTime + ')' + '</td></tr></table>';
     } 
