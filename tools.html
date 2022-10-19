@@ -23,10 +23,11 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="css/compdecon.css" />
 
-    <title>CDL - Computer Deconstruction Lab Podcast and Makerspace</title>
+    <title>CDL - Computer Deconstruction Lab - Tools</title>
 
   </head>
   <body class="myBody">
+    <!-- =[ Header ]===========================================================[ Start ]= -->
     <div id="page" class="hfeed site">
       <div class="table-responsive">
         <table class="myBannerT table">
@@ -46,170 +47,112 @@
           </tr>
         </table>
       </div>
+    <!-- =[ Header ]============================================================[ Fini ]= -->
 
       <div id="mainPage">
-        <p> <b>Welcome</b> to the Computer Deconstruction Lab (CDL, aka IXR). We are a community Makerspace and Podcast Studio down the Jersey Shore. Below is a picture of our front door behind the fence of InfoAge/Camp Evens.</p>
-
+        <p> </p>
+        <!--
+        *** Pre-Update:  can be removed (this is menat for the main page, usually)
+        *** Update:      can be removed
+        *** Post-Update: can be removed
+        -->
+        <!-- =[ Pre-Update ]=======================================================[ Start ]= -->
         <div id="preUpdateDiv">
         </div>
+        <!-- =[ Pre-Update ]========================================================[ Fini ]= -->
 
+        <!-- =[ Update ]===========================================================[ Start ]= - ->
         <span class="myH1" id="lastUpdateOn">UPDATE</span>
         <div id="updateDiv">
           <p>Update currently not available</p>
         </div>
+        <!-- =[ Update ]============================================================[ Fini ]= -->
 
+        <!-- =[ Post-Update ]======================================================[ Start ]= -->
         <div id="postUpdateDiv">
         </div>
+        <!-- =[ Post-Update ]=======================================================[ Fini ]= -->
 
+        <!--
+        *** Current Weather
+        -->
+        <!-- =[ Current Weather ]==================================================[ Start ]= - ->
         <span class="myH1">Current Weather at CDL</span>
         <div id="weatherDiv">
           <p>Weather currently not available</p>
         </div>
+        <!-- =[ Current-Weather ]===================================================[ Fini ]= -->
 
+        <!--
+        *** Space Weather
+        -->
+        <!-- =[ Space Weather ]====================================================[ Start ]= - ->
         <button class="myButton" onclick="toggleDiv()"><span class="myH1a"><img id="spaceButton" src="./images/more.jpg" alt="Resize button" style="float: left;"> &nbsp; Space Weather</span></button>
         <div id="spaceOuter" style="border: thick double;">
           <div id="space_weatherDiv">
           </div>
         </div>
-        
+        <!-- =[ Space Weather ]=====================================================[ Fini ]= -->
+
+        <!-- =[ Main content ]=====================================================[ Start ]= -->
+        <div> <!-- entry-content -->
+          <h1>Tools - Show us what you've got!</h1>
+
+          <p>Everyone wants to know what tools you have and tools are an important part of a Makerspace.</p>
+
+          <ul>
+            <li>3D printers
+              <ul>
+                <li>Lulzbot Taz</li>
+                <li>Tarantula</li>
+                <li>Monoprice Select Mini V1</li>
+                <li>Delta</li>
+                <li>Smoothbot(?) - needs update and replace worn out parts</li>
+              </ul>
+            </li>
+            <li>Desktop CNC</li>
+            <li>Tool box
+              <ul>
+                <li>Screw drivers</li>
+                <li>Hex drivers</li>
+                <li>Torx drivers</li>
+                <li>pliers, cutters</li>
+                <li>Hammers</li>
+                <li>Saws</li>
+                <li>Straight edge</li>
+                <li>Digital Volt Meter (DVM)</li>
+                <li>Component checker</li>
+                <li>knives</li>
+                <li>tape</li>
+                <li>power tools</li>
+              </ul>
+            </li>
+            <li>Drill press</li>
+            <li>Jewelers lathe</li>
+            <li>Metal Brake</li>
+            <li>12" Telescope</li>
+            <li>Podcasting Studio</li>
+            <li>Projector (HDMI, VGA, ...)</li>
+            <li>Dremel table band saw</li>
+            <li>Dremel lathe</li>
+            <li>Key cutter</li>
+            <li>Various electronic components</li>
+            <li>Arduinos</li>
+            <li>Raspberry Pi</li>
+
+            <!--
+            <li></li>
+              -->
+          </ul>
+          
+        </div> <!-- entry content -->
+        <!-- =[ Main content ]======================================================[ Fini ]= -->
+
         <div style="clear: both;">
-          <p>Click <a href="mailto:cdl+subscribe@groups.io">to Subscribe to the CDL mailist</a> (click <a href="mailto:cdl+unsubscribe@groups.io">to Unsubscribe from CDL maillist</a>)</p>
-
-          <p>CDL is open on Sunday afternoons and Mondays nights and most Saturdays and Sundays! Send email to <a href="mailto:neil.cherry@compdecon.org">Neil Cherry</a> (best method) or give us a call (not text) on 732-456-5001 for more information!</p>
-
-          <!-- p>All visitors to the makerspace are required to mask as per the State of New
-            Jersey requirements and maintain appropriate social distancing while in the building</p -->
+          <p>Click <a href="mailto:cdl+subscribe@groups.io">Subscribe to the CDL mailist</a> (click <a href="mailto:cdl+unsubscribe@groups.io">Unsubscribe from CDL maillist</a>)</p>
         </div>
 
-        <p>    
-          <!-- a href="./images/CDL-front-Day.png" id="front-DayDoorHref" -->
-          <a href="./images/CDL-front-Day-b.jpg" id="front-DayDoorHref">
-            <img srcset="images/CDL-front-Day-b-laptop.jpg 1024w,
-                         images/CDL-front-Day-b-tablet.jpg 768w,
-                         images/CDL-front-Day-b-modelL.jpg 430w,
-                         images/CDL-front-Day-b-modelM.jpg 379w,
-                         images/CDL-front-Day-b-modelS.jpg 328w"
-                 sizes="(max-width: 1024px) 768px 430px 379px 328px"
-                 src="images/CDL-front-Day-b-laptop.jpg"
-                 alt="Picture of CDL Front Door"
-                 title="Picture of CDL Front Door"
-                 id="front-DayDoorImg">
-          </a>
-<!--
-          <a href="./images/CDL-front.jpg" id="frontDoorHref">
-            <img srcset="images/CDL-front-laptop.jpg 1024w,
-                         images/CDL-front-tablet.jpg 768w,
-                         images/CDL-front-modelL.jpg 430w,
-                         images/CDL-front-modelM.jpg 379w,
-                         images/CDL-front-modelS.jpg 328w"
-                 sizes="(max-width: 1024px) 768px 430px 379px 328px"
-                 src="images/CDL-front-laptop.jpg"
-                 alt="Picture of CDL Front Door"
-                 title="Picture of CDL Front Door"
-                 id="frontDoorImg">
-          </a>
--->
-        </p>
-
-        <div>
-          <h1>The Computer Deconstruction Lab - CDL</h1>
-
-          <p> CDL is a 501(c)3 non-profit Makerspace / Hackerspace and Podcasting Studio down the Jersey Shore. Located at the <a href="https://infoage.org/">InfoAge Science and History Learning Center</a>. We are an open collective of geeks, artists, and techie-creative-types who come together to share tools, resources, knowledge, and ideas.</p>
-
-          <p> We embrace the sharing of ideas and innovation, and that includes open source hardware and software. We also host workshops and run classes on a bunch of topics. CDL and is open to the public, walk-ins are welcome. A donation of $30 is suggested if you stay and participate. We do have monthly and yearly membership as well.</p>
-
-          <p> <abbr title="By the way">BTW</abbr>, the only difference between a makerspace and a hackerspace is that a hackspace encourages <b><i>"Hey look what I found, what can we do with it? How about hit it with a rock and see what happens?"</i></b> (Yes, that was a Galaxy Quest reference). All spaces encourage people working collaboratively together. Even people working on their own projects can pick the brains of the other people in the space.</p>
-
-          <h2>Github Projects</h2>
-
-          <p> There will be more here as the membership grows. </p>
-
-          <ul>
-            <li><a href="https://github.com/compdecon/smarthome" title="The Smart Home demo board. Opens a new tab.">Smart Home Project</a> - Various Smart Home Technology used in the <abbr title="Computer Deconstruction Lab, The Jersey Shore Makerspace">CDL</abbr> lab.</li>
-          </ul>
-
-          <p>
-            <a href="./images/Busy_Lab_Monday-laptop.jpg">
-              <img srcset="images/Busy_Lab_Monday-laptop.jpg 1024w,
-                           images/Busy_Lab_Monday-tablet.jpg 768w,
-                           images/Busy_Lab_Monday-modelL.jpg 430w,
-                           images/Busy_Lab_Monday-modelM.jpg 379w,
-                           images/Busy_Lab_Monday-modelS.jpg 328w"
-                   sizes="(max-width: 1024px) 768px 430px 379px 328px"
-                   src="images/Busy_Lab_Monday-laptop.jpg"
-                   alt="Picture of CDL Lab"
-                   title="Picture of CDL Lab" class="center">
-            </a>
-<!--
-            <a href="./images/lab-20220214.jpg">
-              <img srcset="images/lab-20220214-laptop.jpg 1024w,
-                           images/lab-20220214-tablet.jpg 768w,
-                           images/lab-20220214-modelL.jpg 430w,
-                           images/lab-20220214-modelM.jpg 379w,
-                           images/lab-20220214-modelS.jpg 328w"
-                   sizes="(max-width: 1024px) 768px 430px 379px 328px"
-                   src="images/lab-20220214-laptop.jpg"
-                   alt="Picture of CDL Lab"
-                   title="Picture of CDL Lab" class="center">
-            </a>
--->
-          </p>
-
-          <p> Our <abbr title="Computer Deconstruction Lab, The Jersey Shore Makerspace">CDL</abbr>
-            boasts a lab space with various equipment and despite being a bit
-            disorganized contains a great many tools and equipment for working
-            on electronic projects. At the moment we have 6 3D printers and
-            lots of tools.
-          </p>
-
-          <p>
-            <a href="./images/studio_04_19_2021.jpg">
-              <img srcset="images/studio-laptop.jpg 1024w,
-                           images/studio-tablet.jpg 768w,
-                           images/studio-modelL.jpg 430w,
-                           images/studio-modelM.jpg 379w,
-                           images/studio-modelS.jpg 328w"
-                   sizes="(max-width: 1024px) 768px 430px 379px 328px"
-                   src="./images/studio-laptop.jpg"
-                   alt="Picture of the CDL Podcast Studio"
-                   title="Picture of CDL Podcast Studio" class="center">
-            </a>
-          </p>
-
-          <p>The CDL Podcast Studio. A complete podcast studio. We have upgraded various equipment but I don't have pictures yet. Someday I hope to have a makerspace podcast running.</p>
-
-          <p>
-            <a href="./images/Classroom.jpg">
-              <img srcset="images/Classroom-laptop.jpg 1024w,
-                           images/Classroom-tablet.jpg 768w,
-                           images/Classroom-modelL.jpg 430w,
-                           images/Classroom-modelM.jpg 379w,
-                           images/Classroom-modelS.jpg 328w"
-                   sizes="(max-width: 1024px) 768px 430px 379px 328px"
-                   src="./images/Classroom-laptop.jpg"
-                   alt="Picture of the CDL Classroom"
-                   title="Picture of CDL classroom" class="center">
-            </a>
-          </p>
-
-          <p>The CDL Classroom, dedicated to Nick Lordi's wife.</p>
-
-          <p> A map for the <a href="./images/TourMap_16x20_self-download.jpg">InfoAge Campus</a> (CDL is in #11, Building 9059)</p>
-          
-          <h2>Links</h2>
-
-          <ul>
-            <li><a href="links.html">Links page</a> - for things like our projects, history, membership. etc.</li>
-            <li><a href="https://calendar.google.com/calendar/embed?src=compdeconlab%40gmail.com&ctz=America%2FNew_York">CDL's Calendar (Google)</a>
-            <li><a href="https://groups.io/g/cdl">CDL on groups.io</a> or just subscribe to <a title="Should open your default email app"  href="mailto:cdl+subscribe@groups.io">cdl+subscribe@groups.io</a></li>
-            <li><a href="https://www.google.com/maps/place/2201+Marconi+Rd,+Wall+Township,+NJ+07719/@40.1908371,-74.0650441,17z/data=!4m5!3m4!1s0x89c228394da0728f:0xba9aa848932b58c1!8m2!3d40.1858498!4d-74.0593685">Get Directions</a> (Google Maps) - Reference: Rt 18, Exit 7 or 7A Brighton Ave</li>
-          <!--
-            <li><a href=""></a></li>
-          -->
-          </ul>
-              <br />
-        </div><!-- .entry-content -->
-
+        <!-- =[ Footer ]===========================================================[ Start ]= -->
         <div class="hfeed site" style="background: #5e8067; color: #cfdaba;">
           <div id="sidebar-footer" class="footer-widgets widget-area" role="complementary">
             <div class="container">
@@ -309,6 +252,7 @@
             </div>	
           </div>
         </div>
+        <!-- =[ Footer ]============================================================[ Fini ]= -->
       </div>
     </div>
     <script src="js/compdecon.js" async></script>

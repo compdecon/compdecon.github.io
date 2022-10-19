@@ -16,11 +16,16 @@ function toggleSign(flag) {
 }
 
 function updateMsg(myId, msg) {
-    // Should cover an empty message and a '.' message
-    if(msg && msg !== ".") {
-        document.getElementById(myId).innerHTML = '<p>' + msg + '</p>';
+    // Should cover pages with no element.innerHTML
+    if(document.getElementById(myId) != null) {
+        // Should cover an empty message and a '.' message
+        if(msg && msg !== ".") {
+            document.getElementById(myId).innerHTML = '<p>' + msg + '</p>';
+        } else {
+            document.getElementById(myId).innerHTML = '';
+        }
     } else {
-        document.getElementById(myId).innerHTML = '';
+        if(debug) console.log(`document.getElementById(${myId}) not found`);
     }
 }
 
@@ -36,76 +41,81 @@ function updateBlog(myId, msg) {
 }
 
 function lastUpdated(lastchange) {
-    if(typeof lastchange != "number") {
-        lastchange = -1;
+    if(document.getElementById("lastUpdateOn") != null) {
+        if(typeof lastchange != "number") {
+            lastchange = -1;
+        }
+        // Thu Oct 06 2022 12:10:04 GMT-0400 (Eastern Daylight Time)
+        var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric' };
+        //cument.getElementById("lastUpdateOn").innerHTML = 'UPDATED: <span class="myH1z">(' + new Date(lastchange*1000).toISOString() + ')</span>';
+        document.getElementById("lastUpdateOn").innerHTML = 'UPDATED: <span class="myH1z">(' + new Date(lastchange*1000).toLocaleDateString("en-US", options) + ')</span>';
     }
-    // Thu Oct 06 2022 12:10:04 GMT-0400 (Eastern Daylight Time)
-    var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric' };
-    //cument.getElementById("lastUpdateOn").innerHTML = 'UPDATED: <span class="myH1z">(' + new Date(lastchange*1000).toISOString() + ')</span>';
-    document.getElementById("lastUpdateOn").innerHTML = 'UPDATED: <span class="myH1z">(' + new Date(lastchange*1000).toLocaleDateString("en-US", options) + ')</span>';
 }
 
 lastUpdate = '';
 function currentWeather(weather) {
-    /*
-      "weather": {
-      "number": 1,
-      "name": "Tonight",
-      "startTime": "2021-06-25T21:00:00-04:00",
-      "endTime": "2021-06-26T06:00:00-04:00",
-      "isDaytime": false,
-      "temperature": 67,
-      "temperatureUnit": "F",
-      "temperatureTrend": null,
-      "windSpeed": "5 to 10 mph",
-      "windDirection": "S",
-      "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-      "shortForecast": "Mostly Cloudy",
-      "detailedForecast": "Mostly cloudy, with a low around 67. South wind 5 to 10 mph."
-      },
-    */
-    if(lastUpdate != weather.startTime) {
-        lastUpdate = weather.startTime;
-        //weather.icon = weather.icon.replace('medium', 'small');
-        if(debug) console.log("URL=" + weather.icon);
+    if(document.getElementById("weatherDiv") != null) {
+        /*
+          "weather": {
+          "number": 1,
+          "name": "Tonight",
+          "startTime": "2021-06-25T21:00:00-04:00",
+          "endTime": "2021-06-26T06:00:00-04:00",
+          "isDaytime": false,
+          "temperature": 67,
+          "temperatureUnit": "F",
+          "temperatureTrend": null,
+          "windSpeed": "5 to 10 mph",
+          "windDirection": "S",
+          "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+          "shortForecast": "Mostly Cloudy",
+          "detailedForecast": "Mostly cloudy, with a low around 67. South wind 5 to 10 mph."
+          },
+        */
+        if(lastUpdate != weather.startTime) {
+            lastUpdate = weather.startTime;
+            //weather.icon = weather.icon.replace('medium', 'small');
+            if(debug) console.log("URL=" + weather.icon);
             document.getElementById("weatherDiv").innerHTML = '<div class="table-responsive"><table class="table"><tr><td><img src="' + weather.icon + '" alt="' + weather.shortForecast + '"></td><td style="width: 80%">' + weather.detailedForecast + '(' + weather.startTime + ')' + '</td></tr></table>';
-    } 
-}
-
-function currentSpaceWeather(weather) {
-    /*
-      space_weather is a JSON array of string that are preformated
-
-      "space_weather": [
-      "Space Weather Message Code: WARK04\r\nSerial Number: 4006\r\nIssue Time: 2022 Jan 24 2127 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Jan 24 2125 UTC\r\nValid To: 2022 Jan 25 0000 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-      "Space Weather Message Code: ALTEF3\r\nSerial Number: 3193\r\nIssue Time: 2022 Jan 24 0503 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3192\r\nBegin Time: 2022 Jan 16 1445 UTC\r\nYesterday Maximum 2MeV Flux: 6126 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
-      ],
-      
-      Perhaps we can stick each string into a div with pre
-    */
-    // a = s.split(/(www.*?)$/m)
-    // s.replace(a[1], "<a href=\"" + a[1] + "\">" + a[1] + "</a>")
-    if(Array.isArray(weather)) {
-        document.getElementById("space_weatherDiv").innerHTML = '  <span class="myH1">Current Space Weather at CDL</span><div id="space_weatherDivA" style="border: thick double; padding-left:0.5em;"></div>';
-
-        var i = 1;
-        weather.forEach(el => {
-            var a = el.split(/(www.*?)$/m); // m - multiline
-            var divElement = document.getElementById("space_weatherDivA");
-            divElement.innerHTML += '<div><pre>' + el.replace(a[1], "<a href=\"https://" + a[1] + "/\" rel=\"noreferrer\" target=\"_blank\">" + a[1] + "</a>") + '</pre></div>';
-            if(i < weather.length) {
-                divElement.innerHTML +=  '<hr>';
-                i++;
-            }
-        });
-        if(debug) console.log("i = " + i + "\nL = " + weather.length);
-
-    } else {
-        // debug message
-        if(debug) console.log(Date.now() + ": No Spacey weather");
+        } 
     }
 }
 
+function currentSpaceWeather(weather) {
+    if(document.getElementById("space_weatherDivA") != null) {
+        /*
+          space_weather is a JSON array of string that are preformated
+
+          "space_weather": [
+          "Space Weather Message Code: WARK04\r\nSerial Number: 4006\r\nIssue Time: 2022 Jan 24 2127 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Jan 24 2125 UTC\r\nValid To: 2022 Jan 25 0000 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+          "Space Weather Message Code: ALTEF3\r\nSerial Number: 3193\r\nIssue Time: 2022 Jan 24 0503 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3192\r\nBegin Time: 2022 Jan 16 1445 UTC\r\nYesterday Maximum 2MeV Flux: 6126 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
+          ],
+          
+          Perhaps we can stick each string into a div with pre
+        */
+        // a = s.split(/(www.*?)$/m)
+        // s.replace(a[1], "<a href=\"" + a[1] + "\">" + a[1] + "</a>")
+        if(Array.isArray(weather)) {
+            document.getElementById("space_weatherDiv").innerHTML = '  <span class="myH1">Current Space Weather at CDL</span><div id="space_weatherDivA" style="border: thick double; padding-left:0.5em;"></div>';
+
+            var i = 1;
+            weather.forEach(el => {
+                var a = el.split(/(www.*?)$/m); // m - multiline
+                var divElement = document.getElementById("space_weatherDivA");
+                divElement.innerHTML += '<div><pre>' + el.replace(a[1], "<a href=\"https://" + a[1] + "/\" rel=\"noreferrer\" target=\"_blank\">" + a[1] + "</a>") + '</pre></div>';
+                if(i < weather.length) {
+                    divElement.innerHTML +=  '<hr>';
+                    i++;
+                }
+            });
+            if(debug) console.log("i = " + i + "\nL = " + weather.length);
+
+        } else {
+            // debug message
+            if(debug) console.log(Date.now() + ": No Spacey weather");
+        }
+    }
+}
 /*
   Informational responses (100-199)
   Successful responses    (200-299)
@@ -317,7 +327,7 @@ window.onload = function() {
     //
     //xmlHttpGet(url);
     //setInterval("xmlHttpGet(url)", 10000); // Prod set to minutes, not seconds?
-    console.log("compdecon.js loaded");
+    if(debug) console.log("compdecon.js loaded");
     getStatus(url);
     setInterval("getStatus(url)", tOut); // Prod set to appropriate minutes, not seconds?
 }
