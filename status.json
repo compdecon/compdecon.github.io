@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/10/24 13:10:04 EDT UTC-04:00",
-    "ext_localtime": "Mon 24 Oct 2022 01:10:04 PM EDT",
+    "ext_time": "2022/10/24 16:10:04 EDT UTC-04:00",
+    "ext_localtime": "Mon 24 Oct 2022 04:10:04 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 64
+        "value": 63
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2022-10-24T12:00:00-04:00",
+    "startTime": "2022-10-24T15:00:00-04:00",
     "endTime": "2022-10-24T18:00:00-04:00",
     "isDaytime": true,
-    "temperature": 64,
+    "temperature": 63,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "10 to 15 mph",
     "windDirection": "NE",
-    "icon": "https://api.weather.gov/icons/land/day/rain,40?size=medium",
-    "shortForecast": "Chance Light Rain",
-    "detailedForecast": "A chance of rain. Cloudy, with a high near 64. Northeast wind 5 to 10 mph. Chance of precipitation is 40%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/day/rain,20?size=medium",
+    "shortForecast": "Areas Of Drizzle",
+    "detailedForecast": "Areas of drizzle. Cloudy, with a high near 63. Northeast wind 10 to 15 mph. Chance of precipitation is 20%."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4151\r\nIssue Time: 2022 Oct 24 0509 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4150\r\nValid From: 2022 Oct 22 0832 UTC\r\nNow Valid Until: 2022 Oct 24 1500 UTC\r\nWarning Condition: persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1666631404,
+    "lastchange": 1666642204,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": "To get current updates subscribe to our <a href=\"https://groups.io/g/cdl\">CDL Mail list</a> or <a href=\"mailto:cdl+subscribe@groups.io\">cdl+subscribe@groups.io</a>.",
