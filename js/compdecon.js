@@ -101,7 +101,7 @@ function currentSpaceWeather(weather) {
             var i = 1;
             weather.forEach(el => {
                 var a = el.split(/(www.*?)$/m); // m - multiline
-                var divElement = document.getElementById("space_weatherDivA");
+                var divElement = document.getElementById("space_weatherDiv");
                 divElement.innerHTML += '<div><pre>' + el.replace(a[1], "<a href=\"https://" + a[1] + "/\" rel=\"noreferrer\" target=\"_blank\">" + a[1] + "</a>") + '</pre></div>';
                 if(i < weather.length) {
                     divElement.innerHTML +=  '<hr>';
