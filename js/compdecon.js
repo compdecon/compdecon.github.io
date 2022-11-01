@@ -82,7 +82,7 @@ function currentWeather(weather) {
 }
 
 function currentSpaceWeather(weather) {
-    if(document.getElementById("space_weatherDivA") != null) {
+    if(document.getElementById("space_weatherDiv") != null) {
         /*
           space_weather is a JSON array of string that are preformated
 
