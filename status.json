@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/11/07 04:10:04 EST UTC-05:00",
-    "ext_localtime": "Mon 07 Nov 2022 04:10:04 AM EST",
+    "ext_time": "2022/11/07 07:10:05 EST UTC-05:00",
+    "ext_localtime": "Mon 07 Nov 2022 07:10:05 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 62
+        "value": 75
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2022-11-07T03:00:00-05:00",
-    "endTime": "2022-11-07T06:00:00-05:00",
-    "isDaytime": false,
-    "temperature": 62,
+    "name": "Today",
+    "startTime": "2022-11-07T06:00:00-05:00",
+    "endTime": "2022-11-07T18:00:00-05:00",
+    "isDaytime": true,
+    "temperature": 75,
     "temperatureUnit": "F",
-    "temperatureTrend": null,
-    "windSpeed": "5 mph",
-    "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,20?size=medium",
-    "shortForecast": "Isolated Rain Showers",
-    "detailedForecast": "Isolated rain showers. Mostly cloudy, with a low around 62. Southwest wind around 5 mph. Chance of precipitation is 20%."
+    "temperatureTrend": "falling",
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "W",
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,20/sct?size=medium",
+    "shortForecast": "Isolated Rain Showers then Mostly Sunny",
+    "detailedForecast": "Isolated rain showers before 10am. Mostly sunny. High near 75, with temperatures falling to around 67 in the afternoon. West wind 5 to 10 mph. Chance of precipitation is 20%."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3267\r\nIssue Time: 2022 Nov 07 0500 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3266\r\nBegin Time: 2022 Oct 30 1220 UTC\r\nYesterday Maximum 2MeV Flux: 8981 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1667812204,
+    "lastchange": 1667823005,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": "To get current updates subscribe to our <a href=\"https://groups.io/g/cdl\">CDL Mail list</a> or <a href=\"mailto:cdl+subscribe@groups.io\">cdl+subscribe@groups.io</a>.",
