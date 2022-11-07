@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/11/07 12:06:49 EST UTC-05:00",
-    "ext_localtime": "Mon 07 Nov 2022 12:06:49 PM EST",
+    "ext_time": "2022/11/07 12:07:51 EST UTC-05:00",
+    "ext_localtime": "Mon 07 Nov 2022 12:07:51 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -114,6 +114,8 @@
     "detailedForecast": "Sunny. High near 75, with temperatures falling to around 67 in the afternoon. Northwest wind 5 to 10 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK05\r\nSerial Number: 1703\r\nIssue Time: 2022 Nov 07 1425 UTC\r\n\r\nWARNING: Geomagnetic K-index of 5 expected\r\nValid From: 2022 Nov 07 1425 UTC\r\nValid To: 2022 Nov 07 1800 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2317\r\nIssue Time: 2022 Nov 07 1416 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2022 Nov 07 1415 UTC\r\nSynoptic Period: 1200-1500 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 4171\r\nIssue Time: 2022 Nov 07 1141 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2022 Nov 07 1140 UTC\r\nValid To: 2022 Nov 07 2359 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3267\r\nIssue Time: 2022 Nov 07 0500 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3266\r\nBegin Time: 2022 Oct 30 1220 UTC\r\nYesterday Maximum 2MeV Flux: 8981 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
     "Space Weather Message Code: SUMXM5\r\nSerial Number: 162\r\nIssue Time: 2022 Nov 07 0040 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2022 Nov 06 2359 UTC\r\nMaximum Time: 2022 Nov 07 0011 UTC\r\nEnd Time: 2022 Nov 07 0016 UTC\r\nX-ray Class: M5.2\r\nLocation: N15E51\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
@@ -150,9 +152,9 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1667840809,
+    "lastchange": 1667840871,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
-    "preMessage": "In memory of Nicholas Lordi, who passed away on Nov 4th. Nick was a supporter of the Information Age Learning Center (InfoAge) and and the IXR/CDL makerspace. A viewing on Saturday, November 12, 2022 from 2pm - 5pm at O’Brien Funeral Home, 2028 Hwy 35 at New Bedford Rd., Wall Twp. His family asks that if you are so moved, you make a donation to support the expanded Makerspace program at InfoAge..",
+    "preMessage": "<b>In memory of Nicholas Lordi<b>, who passed away on Nov 4th. Nick was a supporter of the Information Age Learning Center (InfoAge) and and the IXR/CDL makerspace. A viewing on Saturday, November 12, 2022 from 2pm - 5pm at O’Brien Funeral Home, 2028 Hwy 35 at New Bedford Rd., Wall Twp. His family asks that if you are so moved, you make a donation to support the expanded Makerspace program at InfoAge..",
     "postMessage": "To get current updates subscribe to our <a href=\"https://groups.io/g/cdl\">CDL Mail list</a> or <a href=\"mailto:cdl+subscribe@groups.io\">cdl+subscribe@groups.io</a>.",
     "blogUpdate": "(Title: Makerspace near me ... Can't find CDL - Updated: Oct. 05, 2022)",
     "icon": {
