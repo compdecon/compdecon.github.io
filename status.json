@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/11/14 16:10:01 EST UTC-05:00",
-    "ext_localtime": "Mon 14 Nov 2022 04:10:01 PM EST",
+    "ext_time": "2022/11/14 18:55:02 EST UTC-05:00",
+    "ext_localtime": "Mon 14 Nov 2022 06:55:02 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": false
+        "value": true
       },
       {
         "location": "Front door",
-        "value": false
+        "value": true
       }
     ],
     "humidity": [
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 46
+        "value": 35
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2022-11-14T15:00:00-05:00",
-    "endTime": "2022-11-14T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 46,
+    "name": "Tonight",
+    "startTime": "2022-11-14T18:00:00-05:00",
+    "endTime": "2022-11-15T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 35,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 to 10 mph",
-    "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
-    "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 46. Northwest wind 5 to 10 mph."
+    "windSpeed": "5 mph",
+    "windDirection": "N",
+    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+    "shortForecast": "Partly Cloudy then Patchy Frost",
+    "detailedForecast": "Patchy frost after 1am. Partly cloudy, with a low around 35. North wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3270\r\nIssue Time: 2022 Nov 11 1627 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3269\r\nBegin Time: 2022 Nov 10 1915 UTC\r\nYesterday Maximum 2MeV Flux: 1334 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
@@ -146,9 +146,9 @@
     {}
   ],
   "state": {
-    "open": false,
-    "lastchange": 1668460201,
-    "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": true,
+    "lastchange": 1668470102,
+    "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<b>In memory of Nicholas Lordi</b>, who passed away on Nov 4th. Nick was a supporter of the Information Age Learning Center (InfoAge) and and the IXR/CDL makerspace. His family asks that if you are so moved, you make a donation to support the expanded Makerspace program at InfoAge..",
     "postMessage": "To get current updates subscribe to our <a href=\"https://groups.io/g/cdl\">CDL Mail list</a> or <a href=\"mailto:cdl+subscribe@groups.io\">cdl+subscribe@groups.io</a>.",
     "blogUpdate": "(Title: Makerspace near me ... Can't find CDL - Updated: Oct. 05, 2022)",
