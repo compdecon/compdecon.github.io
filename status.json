@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/11/27 09:10:01 EST UTC-05:00",
-    "ext_localtime": "Sun 27 Nov 2022 09:10:01 AM EST",
+    "ext_time": "2022/11/27 10:10:01 EST UTC-05:00",
+    "ext_localtime": "Sun 27 Nov 2022 10:10:01 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2022-11-27T06:00:00-05:00",
+    "startTime": "2022-11-27T09:00:00-05:00",
     "endTime": "2022-11-27T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 61,
@@ -109,9 +109,9 @@
     "temperatureTrend": null,
     "windSpeed": "10 to 25 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/day/rain,40/rain,100?size=medium",
+    "icon": "https://api.weather.gov/icons/land/day/rain,40/tsra,100?size=medium",
     "shortForecast": "Rain",
-    "detailedForecast": "Rain after 10am. Cloudy, with a high near 61. South wind 10 to 25 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible."
+    "detailedForecast": "Rain between 10am and 2pm, then rain and a slight chance of thunderstorms. Cloudy, with a high near 61. South wind 10 to 25 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3271\r\nIssue Time: 2022 Nov 27 1400 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2022 Nov 27 1345 UTC\r\nStation: GOES16\r\n \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
@@ -146,7 +146,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1669558201,
+    "lastchange": 1669561801,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM and tomorrow, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<b>In memory of Nicholas Lordi</b>, who passed away on Nov 4th. Nick was a supporter of the Information Age Learning Center (InfoAge) and and the IXR/CDL makerspace. His family asks that if you are so moved, you make a donation to support the expanded Makerspace program at InfoAge..",
     "postMessage": "To get current updates subscribe to our <a href=\"https://groups.io/g/cdl\">CDL Mail list</a> or <a href=\"mailto:cdl+subscribe@groups.io\">cdl+subscribe@groups.io</a>.",
