@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/11/27 16:55:01 EST UTC-05:00",
-    "ext_localtime": "Sun 27 Nov 2022 04:55:01 PM EST",
+    "ext_time": "2022/11/27 18:10:01 EST UTC-05:00",
+    "ext_localtime": "Sun 27 Nov 2022 06:10:01 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -114,6 +114,7 @@
     "detailedForecast": "Thunderstorms and rain. Cloudy, with a high near 61. South wind around 20 mph, with gusts as high as 35 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4185\r\nIssue Time: 2022 Nov 27 2054 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4184\r\nValid From: 2022 Nov 25 1850 UTC\r\nNow Valid Until: 2022 Nov 27 2359 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 4184\r\nIssue Time: 2022 Nov 27 1428 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4183\r\nValid From: 2022 Nov 25 1850 UTC\r\nNow Valid Until: 2022 Nov 27 2100 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3271\r\nIssue Time: 2022 Nov 27 1400 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2022 Nov 27 1345 UTC\r\nStation: GOES16\r\n \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 4183\r\nIssue Time: 2022 Nov 27 0556 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4182\r\nValid From: 2022 Nov 25 1850 UTC\r\nNow Valid Until: 2022 Nov 27 1500 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
@@ -147,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1669586101,
+    "lastchange": 1669590601,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<b>In memory of Nicholas Lordi</b>, who passed away on Nov 4th. Nick was a supporter of the Information Age Learning Center (InfoAge) and and the IXR/CDL makerspace. His family asks that if you are so moved, you make a donation to support the expanded Makerspace program at InfoAge..",
     "postMessage": "To get current updates subscribe to our <a href=\"https://groups.io/g/cdl\">CDL Mail list</a> or <a href=\"mailto:cdl+subscribe@groups.io\">cdl+subscribe@groups.io</a>.",
