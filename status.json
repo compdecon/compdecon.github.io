@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/11/28 18:10:01 EST UTC-05:00",
-    "ext_localtime": "Mon 28 Nov 2022 06:10:01 PM EST",
+    "ext_time": "2022/11/28 18:55:01 EST UTC-05:00",
+    "ext_localtime": "Mon 28 Nov 2022 06:55:01 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": false
+        "value": true
       },
       {
         "location": "Front door",
-        "value": false
+        "value": true
       }
     ],
     "humidity": [
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 56
+        "value": 32
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2022-11-28T15:00:00-05:00",
-    "endTime": "2022-11-28T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 56,
+    "name": "Tonight",
+    "startTime": "2022-11-28T18:00:00-05:00",
+    "endTime": "2022-11-29T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 32,
     "temperatureUnit": "F",
-    "temperatureTrend": "falling",
-    "windSpeed": "10 to 15 mph",
+    "temperatureTrend": null,
+    "windSpeed": "5 to 10 mph",
     "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-    "shortForecast": "Partly Sunny",
-    "detailedForecast": "Partly sunny. High near 56, with temperatures falling to around 49 in the afternoon. Northwest wind 10 to 15 mph."
+    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+    "shortForecast": "Partly Cloudy",
+    "detailedForecast": "Partly cloudy, with a low around 32. Northwest wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WATA20\r\nSerial Number: 928\r\nIssue Time: 2022 Nov 28 2145 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nNov 29:  None (Below G1)   Nov 30:  None (Below G1)   Dec 01:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -151,9 +151,9 @@
     {}
   ],
   "state": {
-    "open": false,
-    "lastchange": 1669677001,
-    "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": true,
+    "lastchange": 1669679701,
+    "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<b>In memory of Nicholas Lordi</b>, who passed away on Nov 4th. Nick was a supporter of the Information Age Learning Center (InfoAge) and and the IXR/CDL makerspace. His family asks that if you are so moved, you make a donation to support the expanded Makerspace program at InfoAge..",
     "postMessage": "To get current updates subscribe to our <a href=\"https://groups.io/g/cdl\">CDL Mail list</a> or <a href=\"mailto:cdl+subscribe@groups.io\">cdl+subscribe@groups.io</a>.",
     "blogUpdate": "(Title: Makerspace near me ... Can't find CDL - Updated: Oct. 05, 2022)",
