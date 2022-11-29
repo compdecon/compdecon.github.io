@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/11/28 21:55:01 EST UTC-05:00",
-    "ext_localtime": "Mon 28 Nov 2022 09:55:01 PM EST",
+    "ext_time": "2022/11/29 01:10:01 EST UTC-05:00",
+    "ext_localtime": "Tue 29 Nov 2022 01:10:01 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,18 +100,18 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2022-11-28T21:00:00-05:00",
+    "name": "Overnight",
+    "startTime": "2022-11-29T00:00:00-05:00",
     "endTime": "2022-11-29T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 32,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "5 mph",
     "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-    "shortForecast": "Partly Cloudy",
-    "detailedForecast": "Partly cloudy, with a low around 32. Northwest wind 5 to 10 mph."
+    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+    "shortForecast": "Mostly Clear",
+    "detailedForecast": "Mostly clear, with a low around 32. Northwest wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WATA20\r\nSerial Number: 928\r\nIssue Time: 2022 Nov 28 2145 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nNov 29:  None (Below G1)   Nov 30:  None (Below G1)   Dec 01:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -152,7 +152,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1669690501,
+    "lastchange": 1669702201,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<b>In memory of Nicholas Lordi</b>, who passed away on Nov 4th. Nick was a supporter of the Information Age Learning Center (InfoAge) and and the IXR/CDL makerspace. His family asks that if you are so moved, you make a donation to support the expanded Makerspace program at InfoAge..",
     "postMessage": "To get current updates subscribe to our <a href=\"https://groups.io/g/cdl\">CDL Mail list</a> or <a href=\"mailto:cdl+subscribe@groups.io\">cdl+subscribe@groups.io</a>.",
