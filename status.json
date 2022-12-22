@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/12/22 01:10:01 EST UTC-05:00",
-    "ext_localtime": "Thu 22 Dec 2022 01:10:01 AM EST",
+    "ext_time": "2022/12/22 04:10:01 EST UTC-05:00",
+    "ext_localtime": "Thu 22 Dec 2022 04:10:01 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 31
+        "value": 29
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2022-12-22T00:00:00-05:00",
+    "startTime": "2022-12-22T03:00:00-05:00",
     "endTime": "2022-12-22T06:00:00-05:00",
     "isDaytime": false,
-    "temperature": 31,
+    "temperature": 29,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 mph",
     "windDirection": "E",
     "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
     "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a low around 31. East wind around 5 mph."
+    "detailedForecast": "Mostly cloudy, with a low around 29. East wind around 5 mph."
   },
   "space_weather": [
     "No alerts today"
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1671689401,
+    "lastchange": 1671700201,
     "message": "Sorry we&#x27;re currently closed but we will reopen Monday, January 2nd from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<b>In memory of Nicholas Lordi</b>, who passed away on Nov 4th. Nick was a supporter of the Information Age Learning Center (InfoAge) and and the IXR/CDL makerspace. His family asks that if you are so moved, you make a donation to support the expanded Makerspace program at InfoAge..",
     "postMessage": "We will be <b>closed</b> on Sunday December 25th and Monday December 26th<br/>May everyone have safe and happy Holiday season.<br/>To get current updates subscribe to our <a href=\"https://groups.io/g/cdl\">CDL Mail list</a> or <a href=\"mailto:cdl+subscribe@groups.io\">cdl+subscribe@groups.io</a>..",
