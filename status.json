@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2022/12/23 12:10:01 EST UTC-05:00",
-    "ext_localtime": "Fri 23 Dec 2022 12:10:01 PM EST",
+    "ext_time": "2022/12/23 13:10:01 EST UTC-05:00",
+    "ext_localtime": "Fri 23 Dec 2022 01:10:01 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,24 +94,24 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 50
+        "value": 49
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2022-12-23T10:00:00-05:00",
+    "name": "This Afternoon",
+    "startTime": "2022-12-23T12:00:00-05:00",
     "endTime": "2022-12-23T18:00:00-05:00",
     "isDaytime": true,
-    "temperature": 50,
+    "temperature": 49,
     "temperatureUnit": "F",
     "temperatureTrend": "falling",
-    "windSpeed": "20 to 25 mph",
+    "windSpeed": "25 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/rain,90/snow,70?size=medium",
-    "shortForecast": "Rain then Slight Chance Light Snow",
-    "detailedForecast": "Rain before 2pm, then a slight chance of snow between 2pm and 3pm. Mostly cloudy. High near 50, with temperatures falling to around 21 in the afternoon. Southwest wind 20 to 25 mph, with gusts as high as 50 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/day/snow,70?size=medium",
+    "shortForecast": "Slight Chance Snow Showers",
+    "detailedForecast": "Rain showers likely before 2pm, then a slight chance of snow showers between 2pm and 3pm. Mostly cloudy. High near 49, with temperatures falling to around 21 in the afternoon. Southwest wind around 25 mph, with gusts as high as 50 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK05\r\nSerial Number: 1412\r\nIssue Time: 2022 Dec 23 1417 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\nThreshold Reached: 2022 Dec 23 1415 UTC\r\nSynoptic Period: 1200-1500 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1671815401,
+    "lastchange": 1671819001,
     "message": "Sorry we&#x27;re currently closed but we will reopen Monday, January 2nd from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<b>In memory of Nicholas Lordi</b>, who passed away on Nov 4th. Nick was a supporter of the Information Age Learning Center (InfoAge) and and the IXR/CDL makerspace. His family asks that if you are so moved, you make a donation to support the expanded Makerspace program at InfoAge..",
     "postMessage": "We will be <b>closed</b> on Sunday December 25th and Monday December 26th<br/>May everyone have safe and happy Holiday season.<br/>To get current updates subscribe to our <a href=\"https://groups.io/g/cdl\">CDL Mail list</a> or <a href=\"mailto:cdl+subscribe@groups.io\">cdl+subscribe@groups.io</a>..",
