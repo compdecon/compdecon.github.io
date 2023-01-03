@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/01/02 21:55:05 EST UTC-05:00",
-    "ext_localtime": "Mon 02 Jan 2023 09:55:05 PM EST",
+    "ext_time": "2023/01/03 00:10:04 EST UTC-05:00",
+    "ext_localtime": "Tue 03 Jan 2023 12:10:04 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -114,8 +114,7 @@
     "detailedForecast": "Isolated rain showers before 4am, then areas of fog and isolated rain showers. Cloudy, with a low around 44. East wind 0 to 5 mph. Chance of precipitation is 20%."
   },
   "space_weather": [
-    "Space Weather Message Code: WATA20\r\nSerial Number: 933\r\nIssue Time: 2023 Jan 02 2117 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nJan 03:  None (Below G1)   Jan 04:  G1 (Minor)   Jan 05:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3290\r\nIssue Time: 2023 Jan 02 0459 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3289\r\nBegin Time: 2022 Dec 24 1415 UTC\r\nYesterday Maximum 2MeV Flux: 2888 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3291\r\nIssue Time: 2023 Jan 03 0459 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3290\r\nBegin Time: 2022 Dec 24 1415 UTC\r\nYesterday Maximum 2MeV Flux: 3546 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -146,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1672714505,
+    "lastchange": 1672722604,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<b>In memory of Nicholas Lordi</b>, who passed away on Nov 4th. Nick was a supporter of the Information Age Learning Center (InfoAge) and and the IXR/CDL makerspace. His family asks that if you are so moved, you make a donation to support the expanded Makerspace program at InfoAge..",
     "postMessage": ".",
