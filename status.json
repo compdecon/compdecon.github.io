@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/01/29 19:10:04 EST UTC-05:00",
-    "ext_localtime": "Sun 29 Jan 2023 07:10:04 PM EST",
+    "ext_time": "2023/01/29 22:10:04 EST UTC-05:00",
+    "ext_localtime": "Sun 29 Jan 2023 10:10:04 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,17 +101,17 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2023-01-29T18:00:00-05:00",
+    "startTime": "2023-01-29T21:00:00-05:00",
     "endTime": "2023-01-30T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 38,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "windSpeed": "5 to 10 mph",
-    "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/bkn?size=medium",
-    "shortForecast": "Slight Chance Rain Showers then Mostly Cloudy",
-    "detailedForecast": "A slight chance of rain showers before 7pm. Mostly cloudy, with a low around 38. Southwest wind 5 to 10 mph. Chance of precipitation is 20%."
+    "windDirection": "W",
+    "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": "Mostly cloudy, with a low around 38. West wind 5 to 10 mph."
   },
   "space_weather": [
     "No alerts today"
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1675037404,
+    "lastchange": 1675048204,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<b>In memory of Nicholas Lordi</b>, who passed away on Nov 4th. Nick was a supporter of the Information Age Learning Center (InfoAge) and and the IXR/CDL makerspace. His family asks that if you are so moved, you make a donation to support the expanded Makerspace program at InfoAge..",
     "postMessage": ".",
