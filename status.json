@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/01/30 13:10:04 EST UTC-05:00",
-    "ext_localtime": "Mon 30 Jan 2023 01:10:04 PM EST",
+    "ext_time": "2023/02/03 18:10:05 EST UTC-05:00",
+    "ext_localtime": "Fri 03 Feb 2023 06:10:05 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,27 +94,27 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 51
+        "value": 6
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2023-01-30T12:00:00-05:00",
-    "endTime": "2023-01-30T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 51,
+    "name": "Tonight",
+    "startTime": "2023-02-03T18:00:00-05:00",
+    "endTime": "2023-02-04T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 6,
     "temperatureUnit": "F",
     "temperatureTrend": null,
-    "windSpeed": "5 mph",
-    "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 51. South wind around 5 mph."
+    "windSpeed": "20 to 25 mph",
+    "windDirection": "NW",
+    "icon": "https://api.weather.gov/icons/land/night/cold?size=medium",
+    "shortForecast": "Mostly Clear",
+    "detailedForecast": "Mostly clear, with a low around 6. Wind chill values as low as -14. Northwest wind 20 to 25 mph, with gusts as high as 40 mph."
   },
   "space_weather": [
-    "No alerts today"
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4258\r\nIssue Time: 2023 Feb 03 1707 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2023 Feb 03 1706 UTC\r\nValid To: 2023 Feb 04 0300 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -145,7 +145,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1675102204,
+    "lastchange": 1675465805,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<b>In memory of Nicholas Lordi</b>, who passed away on Nov 4th. Nick was a supporter of the Information Age Learning Center (InfoAge) and and the IXR/CDL makerspace. His family asks that if you are so moved, you make a donation to support the expanded Makerspace program at InfoAge..",
     "postMessage": ".",
