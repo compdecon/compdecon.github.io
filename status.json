@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/02/13 01:10:07 EST UTC-05:00",
-    "ext_localtime": "Mon 13 Feb 2023 01:10:07 AM EST",
+    "ext_time": "2023/02/13 04:10:08 EST UTC-05:00",
+    "ext_localtime": "Mon 13 Feb 2023 04:10:08 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2023-02-13T00:00:00-05:00",
+    "startTime": "2023-02-13T03:00:00-05:00",
     "endTime": "2023-02-13T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 36,
@@ -109,11 +109,11 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 60
+      "value": 40
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 2.2222222222222223
+      "value": 1.6666666666666667
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
@@ -121,9 +121,9 @@
     },
     "windSpeed": "10 to 15 mph",
     "windDirection": "N",
-    "icon": "https://api.weather.gov/icons/land/night/rain,60?size=medium",
-    "shortForecast": "Light Rain Likely",
-    "detailedForecast": "Rain likely before 3am, then a chance of rain and patchy fog between 3am and 5am, then patchy fog and a slight chance of rain. Mostly cloudy, with a low around 36. North wind 10 to 15 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/rain,40?size=medium",
+    "shortForecast": "Chance Light Rain",
+    "detailedForecast": "A chance of rain and patchy fog before 5am, then patchy fog and a slight chance of rain. Mostly cloudy, with a low around 36. North wind 10 to 15 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3294\r\nIssue Time: 2023 Feb 12 1639 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2023 Feb 12 1600 UTC\r\nStation: GOES-16\r\n \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1676268607,
+    "lastchange": 1676279408,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
