@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/02/15 06:10:08 EST UTC-05:00",
-    "ext_localtime": "Wed 15 Feb 2023 06:10:08 AM EST",
+    "ext_time": "2023/02/15 07:10:07 EST UTC-05:00",
+    "ext_localtime": "Wed 15 Feb 2023 07:10:07 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 40
+        "value": 61
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2023-02-15T03:00:00-05:00",
-    "endTime": "2023-02-15T06:00:00-05:00",
-    "isDaytime": false,
-    "temperature": 40,
+    "name": "Today",
+    "startTime": "2023-02-15T06:00:00-05:00",
+    "endTime": "2023-02-15T18:00:00-05:00",
+    "isDaytime": true,
+    "temperature": 61,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 1.6666666666666667
+      "value": 7.777777777777778
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 77
+      "value": 79
     },
-    "windSpeed": "10 mph",
+    "windSpeed": "15 to 20 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
-    "shortForecast": "Cloudy",
-    "detailedForecast": "Cloudy, with a low around 40. South wind around 10 mph."
+    "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+    "shortForecast": "Partly Sunny",
+    "detailedForecast": "Partly sunny, with a high near 61. South wind 15 to 20 mph, with gusts as high as 35 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK06\r\nSerial Number: 469\r\nIssue Time: 2023 Feb 15 0841 UTC\r\n\r\nWARNING: Geomagnetic K-Index of 6 expected\r\nValid From: 2023 Feb 15 0840 UTC\r\nValid To: 2023 Feb 15 1200 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
@@ -162,7 +162,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1676459408,
+    "lastchange": 1676463007,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
