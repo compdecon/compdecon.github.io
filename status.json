@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/02/16 22:10:07 EST UTC-05:00",
-    "ext_localtime": "Thu 16 Feb 2023 10:10:07 PM EST",
+    "ext_time": "2023/02/17 01:10:07 EST UTC-05:00",
+    "ext_localtime": "Fri 17 Feb 2023 01:10:07 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2023-02-16T21:00:00-05:00",
+    "name": "Overnight",
+    "startTime": "2023-02-17T00:00:00-05:00",
     "endTime": "2023-02-17T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 50,
@@ -119,11 +119,11 @@
       "unitCode": "wmoUnit:percent",
       "value": 100
     },
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "10 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/rain_showers,30?size=medium",
+    "icon": "https://api.weather.gov/icons/land/night/rain_showers,30?size=medium",
     "shortForecast": "Scattered Rain Showers",
-    "detailedForecast": "Scattered rain showers. Cloudy. Low around 50, with temperatures rising to around 56 overnight. South wind 5 to 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "Scattered rain showers. Cloudy. Low around 50, with temperatures rising to around 56 overnight. South wind around 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK05\r\nSerial Number: 1428\r\nIssue Time: 2023 Feb 16 1802 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\nThreshold Reached: 2023 Feb 16 1759 UTC\r\nSynoptic Period: 1500-1800 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -166,7 +166,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1676603407,
+    "lastchange": 1676614207,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
