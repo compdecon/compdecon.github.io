@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/02/20 13:10:08 EST UTC-05:00",
-    "ext_localtime": "Mon 20 Feb 2023 01:10:08 PM EST",
+    "ext_time": "2023/02/20 16:10:07 EST UTC-05:00",
+    "ext_localtime": "Mon 20 Feb 2023 04:10:07 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Washington's Birthday",
-    "startTime": "2023-02-20T12:00:00-05:00",
+    "startTime": "2023-02-20T15:00:00-05:00",
     "endTime": "2023-02-20T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 59,
@@ -117,13 +117,13 @@
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 55
+      "value": 51
     },
     "windSpeed": "10 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-    "shortForecast": "Partly Sunny",
-    "detailedForecast": "Partly sunny, with a high near 59. West wind around 10 mph."
+    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny, with a high near 59. West wind around 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: SUMSUD\r\nSerial Number: 243\r\nIssue Time: 2023 Feb 20 1059 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse\r\nObserved: 2023 Feb 20 1039 UTC\r\nDeviation: 16 nT\r\nStation: WNG\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
@@ -159,7 +159,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1676916608,
+    "lastchange": 1676927407,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
