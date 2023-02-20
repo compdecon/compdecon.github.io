@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/02/20 04:10:08 EST UTC-05:00",
-    "ext_localtime": "Mon 20 Feb 2023 04:10:08 AM EST",
+    "ext_time": "2023/02/20 06:10:07 EST UTC-05:00",
+    "ext_localtime": "Mon 20 Feb 2023 06:10:07 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,8 +126,9 @@
     "detailedForecast": "Cloudy, with a low around 44. Southwest wind 10 to 15 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: WATA20\r\nSerial Number: 934\r\nIssue Time: 2023 Feb 18 2225 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nFeb 19:  None (Below G1)   Feb 20:  G1 (Minor)   Feb 21:  None (Below G1)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1171\r\nIssue Time: 2023 Feb 18 1856 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2023 Feb 18 1837 UTC\r\nEstimated Velocity: 740 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
+    "Space Weather Message Code: SUMSUD\r\nSerial Number: 243\r\nIssue Time: 2023 Feb 20 1059 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse\r\nObserved: 2023 Feb 20 1039 UTC\r\nDeviation: 16 nT\r\nStation: WNG\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4285\r\nIssue Time: 2023 Feb 20 1031 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2023 Feb 20 1035 UTC\r\nValid To: 2023 Feb 20 1800 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARSUD\r\nSerial Number: 197\r\nIssue Time: 2023 Feb 20 1004 UTC\r\n\r\nWARNING: Geomagnetic Sudden Impulse expected\r\nValid From: 2023 Feb 20 1035 UTC\r\nValid To: 2023 Feb 20 1105 UTC\r\nIP Shock Passage Observed: 2023 Feb 20 0952 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation"
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -158,7 +159,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1676884208,
+    "lastchange": 1676891407,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
