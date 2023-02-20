@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/02/19 23:55:07 EST UTC-05:00",
-    "ext_localtime": "Sun 19 Feb 2023 11:55:07 PM EST",
+    "ext_time": "2023/02/20 01:10:07 EST UTC-05:00",
+    "ext_localtime": "Mon 20 Feb 2023 01:10:07 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 42
+        "value": 44
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2023-02-19T21:00:00-05:00",
+    "name": "Overnight",
+    "startTime": "2023-02-20T00:00:00-05:00",
     "endTime": "2023-02-20T06:00:00-05:00",
     "isDaytime": false,
-    "temperature": 42,
+    "temperature": 44,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
@@ -117,13 +117,13 @@
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 96
+      "value": 93
     },
-    "windSpeed": "10 to 20 mph",
+    "windSpeed": "10 to 15 mph",
     "windDirection": "SW",
     "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
     "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a low around 42. Southwest wind 10 to 20 mph."
+    "detailedForecast": "Mostly cloudy, with a low around 44. Southwest wind 10 to 15 mph, with gusts as high as 25 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WATA20\r\nSerial Number: 934\r\nIssue Time: 2023 Feb 18 2225 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nFeb 19:  None (Below G1)   Feb 20:  G1 (Minor)   Feb 21:  None (Below G1)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -158,7 +158,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1676868907,
+    "lastchange": 1676873407,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
