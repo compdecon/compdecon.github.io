@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/02/20 18:55:07 EST UTC-05:00",
-    "ext_localtime": "Mon 20 Feb 2023 06:55:07 PM EST",
+    "ext_time": "2023/02/20 21:55:08 EST UTC-05:00",
+    "ext_localtime": "Mon 20 Feb 2023 09:55:08 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": true
+        "value": false
       },
       {
         "location": "Front door",
-        "value": true
+        "value": false
       }
     ],
     "humidity": [
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2023-02-20T18:00:00-05:00",
+    "startTime": "2023-02-20T21:00:00-05:00",
     "endTime": "2023-02-21T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 40,
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 3.888888888888889
+      "value": 4.444444444444445
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
       "value": 92
     },
     "windSpeed": "5 to 10 mph",
-    "windDirection": "NW",
+    "windDirection": "N",
     "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/rain_showers,60?size=medium",
     "shortForecast": "Rain Showers Likely",
-    "detailedForecast": "Rain showers likely after 11pm. Mostly cloudy, with a low around 40. Northwest wind 5 to 10 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "Rain showers likely after 11pm. Mostly cloudy, with a low around 40. North wind 5 to 10 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: SUMSUD\r\nSerial Number: 243\r\nIssue Time: 2023 Feb 20 1059 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse\r\nObserved: 2023 Feb 20 1039 UTC\r\nDeviation: 16 nT\r\nStation: WNG\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
@@ -158,9 +158,9 @@
     {}
   ],
   "state": {
-    "open": true,
-    "lastchange": 1676937307,
-    "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": false,
+    "lastchange": 1676948108,
+    "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
     "blogUpdate": "(Title: Makerspace near me ... Can't find CDL - Updated: Oct. 05, 2022)",
