@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/02/24 04:10:07 EST UTC-05:00",
-    "ext_localtime": "Fri 24 Feb 2023 04:10:07 AM EST",
+    "ext_time": "2023/02/24 07:10:07 EST UTC-05:00",
+    "ext_localtime": "Fri 24 Feb 2023 07:10:07 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,36 +94,36 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 39
+        "value": 45
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2023-02-24T03:00:00-05:00",
-    "endTime": "2023-02-24T06:00:00-05:00",
-    "isDaytime": false,
-    "temperature": 39,
+    "name": "Today",
+    "startTime": "2023-02-24T06:00:00-05:00",
+    "endTime": "2023-02-24T18:00:00-05:00",
+    "isDaytime": true,
+    "temperature": 45,
     "temperatureUnit": "F",
-    "temperatureTrend": "rising",
+    "temperatureTrend": "falling",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
       "value": null
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 6.666666666666667
+      "value": 3.3333333333333335
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 93
+      "value": 76
     },
-    "windSpeed": "10 mph",
+    "windSpeed": "10 to 20 mph",
     "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
-    "shortForecast": "Patchy Fog",
-    "detailedForecast": "Patchy fog before 5am. Mostly cloudy. Low around 39, with temperatures rising to around 45 overnight. Northwest wind around 10 mph."
+    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny. High near 45, with temperatures falling to around 38 in the afternoon. Northwest wind 10 to 20 mph, with gusts as high as 40 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4292\r\nIssue Time: 2023 Feb 24 0255 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4291\r\nValid From: 2023 Feb 23 0145 UTC\r\nNow Valid Until: 2023 Feb 24 1500 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1677229807,
+    "lastchange": 1677240607,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
