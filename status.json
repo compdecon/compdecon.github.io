@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/02/26 16:55:07 EST UTC-05:00",
-    "ext_localtime": "Sun 26 Feb 2023 04:55:07 PM EST",
+    "ext_time": "2023/02/26 18:10:07 EST UTC-05:00",
+    "ext_localtime": "Sun 26 Feb 2023 06:10:07 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,6 +126,9 @@
     "detailedForecast": "Sunny, with a high near 51. West wind around 15 mph, with gusts as high as 25 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK06\r\nSerial Number: 470\r\nIssue Time: 2023 Feb 26 2233 UTC\r\n\r\nWARNING: Geomagnetic K-Index of 6 expected\r\nValid From: 2023 Feb 26 2232 UTC\r\nValid To: 2023 Feb 27 0900 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
+    "Space Weather Message Code: ALTK05\r\nSerial Number: 1431\r\nIssue Time: 2023 Feb 26 2145 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\nThreshold Reached: 2023 Feb 26 2145 UTC\r\nSynoptic Period: 2100-2400 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+    "Space Weather Message Code: ALTK05\r\nSerial Number: 1430\r\nIssue Time: 2023 Feb 26 2055 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\nThreshold Reached: 2023 Feb 26 2055 UTC\r\nSynoptic Period: 1800-2100 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
     "Space Weather Message Code: WARK05\r\nSerial Number: 1747\r\nIssue Time: 2023 Feb 26 1936 UTC\r\n\r\nWARNING: Geomagnetic K-index of 5 expected\r\nValid From: 2023 Feb 26 1935 UTC\r\nValid To: 2023 Feb 27 1500 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
     "Space Weather Message Code: SUMSUD\r\nSerial Number: 244\r\nIssue Time: 2023 Feb 26 1933 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse\r\nObserved: 2023 Feb 26 1925 UTC\r\nDeviation: 34 nT\r\nStation: FRD\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
     "Space Weather Message Code: WARSUD\r\nSerial Number: 198\r\nIssue Time: 2023 Feb 26 1914 UTC\r\n\r\nWARNING: Geomagnetic Sudden Impulse expected\r\nValid From: 2023 Feb 26 1915 UTC\r\nValid To: 2023 Feb 26 2015 UTC\r\nIP Shock Passage Observed: 2023 Feb 26 1845 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
@@ -164,7 +167,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1677448507,
+    "lastchange": 1677453007,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
