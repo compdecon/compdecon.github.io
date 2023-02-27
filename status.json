@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/02/27 18:10:07 EST UTC-05:00",
-    "ext_localtime": "Mon 27 Feb 2023 06:10:07 PM EST",
+    "ext_time": "2023/02/27 18:55:07 EST UTC-05:00",
+    "ext_localtime": "Mon 27 Feb 2023 06:55:07 PM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": false
+        "value": true
       },
       {
         "location": "Front door",
-        "value": false
+        "value": true
       }
     ],
     "humidity": [
@@ -94,36 +94,36 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 40
+        "value": 35
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2023-02-27T15:00:00-05:00",
-    "endTime": "2023-02-27T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 40,
+    "name": "Tonight",
+    "startTime": "2023-02-27T18:00:00-05:00",
+    "endTime": "2023-02-28T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 35,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 30
+      "value": 100
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": -3.888888888888889
+      "value": 3.3333333333333335
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 61
+      "value": 96
     },
-    "windSpeed": "10 mph",
+    "windSpeed": "15 to 20 mph",
     "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/day/rain,30?size=medium",
-    "shortForecast": "Chance Light Rain",
-    "detailedForecast": "A chance of rain after 5pm. Cloudy, with a high near 40. East wind around 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/snow,100/sleet,90?size=medium",
+    "shortForecast": "Rain And Snow",
+    "detailedForecast": "Rain and snow before 2am, then rain and a slight chance of sleet. Cloudy, with a low around 35. East wind 15 to 20 mph, with gusts as high as 35 mph. Chance of precipitation is 100%. Little or no snow accumulation expected."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK06\r\nSerial Number: 509\r\nIssue Time: 2023 Feb 27 2147 UTC\r\n\r\nALERT: Geomagnetic K-index of 6\r\nThreshold Reached: 2023 Feb 27 2146 UTC\r\nSynoptic Period: 2100-2400 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
@@ -180,9 +180,9 @@
     {}
   ],
   "state": {
-    "open": false,
-    "lastchange": 1677539407,
-    "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": true,
+    "lastchange": 1677542107,
+    "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
     "blogUpdate": "(Title: Makerspace near me ... Can't find CDL - Updated: Oct. 05, 2022)",
