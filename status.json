@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/03/03 23:55:07 EST UTC-05:00",
-    "ext_localtime": "Fri 03 Mar 2023 11:55:07 PM EST",
+    "ext_time": "2023/03/04 01:10:08 EST UTC-05:00",
+    "ext_localtime": "Sat 04 Mar 2023 01:10:08 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2023-03-03T21:00:00-05:00",
+    "name": "Overnight",
+    "startTime": "2023-03-04T00:00:00-05:00",
     "endTime": "2023-03-04T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 40,
@@ -121,8 +121,8 @@
     },
     "windSpeed": "15 to 30 mph",
     "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/night/rain,100/tsra,100?size=medium",
-    "shortForecast": "Rain",
+    "icon": "https://api.weather.gov/icons/land/night/tsra,100?size=medium",
+    "shortForecast": "Heavy Rain",
     "detailedForecast": "Rain before 1am, then rain and a slight chance of thunderstorms. Some of the storms could produce heavy rain. Cloudy. Low around 40, with temperatures rising to around 51 overnight. Southeast wind 15 to 30 mph, with gusts as high as 50 mph. Chance of precipitation is 100%. New rainfall amounts between 1 and 2 inches possible."
   },
   "space_weather": [
@@ -166,7 +166,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1677905707,
+    "lastchange": 1677910208,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
