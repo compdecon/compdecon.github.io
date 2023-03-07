@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/03/07 03:10:07 EST UTC-05:00",
-    "ext_localtime": "Tue 07 Mar 2023 03:10:07 AM EST",
+    "ext_time": "2023/03/07 04:10:07 EST UTC-05:00",
+    "ext_localtime": "Tue 07 Mar 2023 04:10:07 AM EST",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2023-03-07T00:00:00-05:00",
+    "startTime": "2023-03-07T03:00:00-05:00",
     "endTime": "2023-03-07T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 33,
@@ -119,11 +119,11 @@
       "unitCode": "wmoUnit:percent",
       "value": 89
     },
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "10 mph",
     "windDirection": "N",
     "icon": "https://api.weather.gov/icons/land/night/snow,90?size=medium",
-    "shortForecast": "Light Snow",
-    "detailedForecast": "A chance of rain before 1am, then snow. Cloudy, with a low around 33. North wind 5 to 10 mph. Chance of precipitation is 90%. New snow accumulation of 1 to 2 inches possible."
+    "shortForecast": "Rain And Snow",
+    "detailedForecast": "Rain and snow. Cloudy, with a low around 33. North wind around 10 mph. Chance of precipitation is 90%. New snow accumulation of less than one inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3304\r\nIssue Time: 2023 Mar 07 0521 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3303\r\nBegin Time: 2023 Feb 28 2155 UTC\r\nYesterday Maximum 2MeV Flux: 3790 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1678176607,
+    "lastchange": 1678180207,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
