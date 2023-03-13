@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/03/13 13:10:08 EDT UTC-04:00",
-    "ext_localtime": "Mon 13 Mar 2023 01:10:08 PM EDT",
+    "ext_time": "2023/03/13 15:10:07 EDT UTC-04:00",
+    "ext_localtime": "Mon 13 Mar 2023 03:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,6 +126,7 @@
     "detailedForecast": "Rain. Cloudy, with a high near 46. East wind 10 to 15 mph. Chance of precipitation is 100%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: WARPX1\r\nSerial Number: 496\r\nIssue Time: 2023 Mar 13 1722 UTC\r\n\r\nEXTENDED WARNING: Proton 10MeV Integral Flux above 10pfu expected\r\nExtension to Serial Number: 495\r\nValid From: 2023 Mar 13 0745 UTC\r\nNow Valid Until: 2023 Mar 13 2359 UTC\r\nWarning Condition: Persistence\r\nPredicted NOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.",
     "Space Weather Message Code: ALTPX1\r\nSerial Number: 326\r\nIssue Time: 2023 Mar 13 0755 UTC\r\n\r\nALERT: Proton Event 10MeV Integral Flux exceeded 10pfu\r\nBegin Time: 2023 Mar 13 0750 UTC\r\nNOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.",
     "Space Weather Message Code: WARPX1\r\nSerial Number: 495\r\nIssue Time: 2023 Mar 13 0746 UTC\r\n\r\nWARNING: Proton 10MeV Integral Flux above 10pfu expected\r\nValid From: 2023 Mar 13 0745 UTC\r\nValid To: 2023 Mar 13 1800 UTC\r\nWarning Condition: Onset\r\nPredicted NOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies."
   ],
@@ -158,7 +159,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1678727408,
+    "lastchange": 1678734607,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
