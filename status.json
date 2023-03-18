@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/03/18 11:10:07 EDT UTC-04:00",
-    "ext_localtime": "Sat 18 Mar 2023 11:10:07 AM EDT",
+    "ext_time": "2023/03/18 13:10:07 EDT UTC-04:00",
+    "ext_localtime": "Sat 18 Mar 2023 01:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2023-03-18T10:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2023-03-18T12:00:00-04:00",
     "endTime": "2023-03-18T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 51,
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": -1.1111111111111112
+      "value": -1.6666666666666667
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 54
+      "value": 51
     },
     "windSpeed": "10 mph",
-    "windDirection": "NW",
+    "windDirection": "W",
     "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
     "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 51. Northwest wind around 10 mph."
+    "detailedForecast": "Mostly sunny, with a high near 51. West wind around 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP4\r\nSerial Number: 592\r\nIssue Time: 2023 Mar 18 0750 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2023 Mar 18 0722 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms."
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1679152207,
+    "lastchange": 1679159407,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
