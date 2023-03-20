@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/03/20 16:10:07 EDT UTC-04:00",
-    "ext_localtime": "Mon 20 Mar 2023 04:10:07 PM EDT",
+    "ext_time": "2023/03/20 18:55:07 EDT UTC-04:00",
+    "ext_localtime": "Mon 20 Mar 2023 06:55:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": false
+        "value": true
       },
       {
         "location": "Front door",
-        "value": false
+        "value": true
       }
     ],
     "humidity": [
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 50
+        "value": 31
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2023-03-20T15:00:00-04:00",
-    "endTime": "2023-03-20T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 50,
+    "name": "Tonight",
+    "startTime": "2023-03-20T18:00:00-04:00",
+    "endTime": "2023-03-21T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 31,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": -10
+      "value": -3.888888888888889
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 25
+      "value": 72
     },
     "windSpeed": "10 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
-    "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 50. Southwest wind around 10 mph."
+    "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+    "shortForecast": "Clear",
+    "detailedForecast": "Clear, with a low around 31. Southwest wind around 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2351\r\nIssue Time: 2023 Mar 20 1512 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2023 Mar 20 1459 UTC\r\nSynoptic Period: 1200-1500 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -157,9 +157,9 @@
     {}
   ],
   "state": {
-    "open": false,
-    "lastchange": 1679343007,
-    "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": true,
+    "lastchange": 1679352907,
+    "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
     "blogUpdate": "(Title: Makerspace near me ... Can't find CDL - Updated: Oct. 05, 2022)",
