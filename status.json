@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/03/27 03:10:05 EDT UTC-04:00",
-    "ext_localtime": "Mon 27 Mar 2023 03:10:05 AM EDT",
+    "ext_time": "2023/03/27 04:10:04 EDT UTC-04:00",
+    "ext_localtime": "Mon 27 Mar 2023 04:10:04 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2023-03-27T00:00:00-04:00",
+    "startTime": "2023-03-27T03:00:00-04:00",
     "endTime": "2023-03-27T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 39,
@@ -158,7 +158,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1679901005,
+    "lastchange": 1679904604,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<b>CDL Presents:</b> Monday, March 27th at 8PM, CDL presents: <a href=\"https://compdecon.github.io/CDL-Presents.html\">Does Linux Make Sense for You?</a>.",
     "postMessage": ".",
