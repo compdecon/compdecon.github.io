@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/04/02 01:10:05 EDT UTC-04:00",
-    "ext_localtime": "Sun 02 Apr 2023 01:10:05 AM EDT",
+    "ext_time": "2023/04/02 04:10:05 EDT UTC-04:00",
+    "ext_localtime": "Sun 02 Apr 2023 04:10:05 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2023-04-02T00:00:00-04:00",
+    "startTime": "2023-04-02T03:00:00-04:00",
     "endTime": "2023-04-02T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 37,
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 4.444444444444445
+      "value": 1.6666666666666667
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 74
+      "value": 70
     },
-    "windSpeed": "20 to 25 mph",
-    "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/night/wind_sct?size=medium",
+    "windSpeed": "20 mph",
+    "windDirection": "NW",
+    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
     "shortForecast": "Partly Cloudy",
-    "detailedForecast": "Partly cloudy, with a low around 37. West wind 20 to 25 mph, with gusts as high as 40 mph. New rainfall amounts between a tenth and quarter of an inch possible."
+    "detailedForecast": "Partly cloudy, with a low around 37. Northwest wind around 20 mph, with gusts as high as 35 mph. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2356\r\nIssue Time: 2023 Apr 01 2354 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2023 Apr 01 2354 UTC\r\nSynoptic Period: 2100-2400 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -160,7 +160,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1680412205,
+    "lastchange": 1680423005,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM and tomorrow, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<b>CDL Presents:</b> Monday, March 27th at 8PM, CDL presents: <a href=\"https://compdecon.github.io/CDL-Presents.html\">Does Linux Make Sense for You?</a>.",
     "postMessage": ".",
