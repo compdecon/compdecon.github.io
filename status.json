@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/04/03 16:10:04 EDT UTC-04:00",
-    "ext_localtime": "Mon 03 Apr 2023 04:10:04 PM EDT",
+    "ext_time": "2023/04/03 18:10:05 EDT UTC-04:00",
+    "ext_localtime": "Mon 03 Apr 2023 06:10:05 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,6 +126,8 @@
     "detailedForecast": "Partly sunny, with a high near 57. South wind around 15 mph, with gusts as high as 30 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2358\r\nIssue Time: 2023 Apr 03 2102 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2023 Apr 03 2059 UTC\r\nSynoptic Period: 1800-2100 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4337\r\nIssue Time: 2023 Apr 03 2024 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2023 Apr 03 2024 UTC\r\nValid To: 2023 Apr 04 0600 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3315\r\nIssue Time: 2023 Apr 03 0514 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3314\r\nBegin Time: 2023 Mar 31 2050 UTC\r\nYesterday Maximum 2MeV Flux: 1183 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3314\r\nIssue Time: 2023 Apr 03 0317 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3313\r\nBegin Time: 2023 Mar 31 2050 UTC\r\nYesterday Maximum 2MeV Flux: 1018 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2357\r\nIssue Time: 2023 Apr 03 0258 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2023 Apr 03 0258 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -160,7 +162,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1680552604,
+    "lastchange": 1680559805,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "<b>CDL Presents:</b> Monday, March 27th at 8PM, CDL presents: <a href=\"https://compdecon.github.io/CDL-Presents.html\">Does Linux Make Sense for You?</a>.",
     "postMessage": ".",
