@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/04/06 04:10:07 EDT UTC-04:00",
-    "ext_localtime": "Thu 06 Apr 2023 04:10:07 AM EDT",
+    "ext_time": "2023/04/06 07:10:08 EDT UTC-04:00",
+    "ext_localtime": "Thu 06 Apr 2023 07:10:08 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,36 +94,36 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 48
+        "value": 78
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2023-04-06T03:00:00-04:00",
-    "endTime": "2023-04-06T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 48,
+    "name": "Today",
+    "startTime": "2023-04-06T06:00:00-04:00",
+    "endTime": "2023-04-06T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 78,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 30
+      "value": 60
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 11.11111111111111
+      "value": 16.11111111111111
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
       "value": 96
     },
-    "windSpeed": "5 mph",
-    "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,30?size=medium",
-    "shortForecast": "Areas Of Fog",
-    "detailedForecast": "Areas of fog and a chance of rain showers. Cloudy, with a low around 48. South wind around 5 mph. Chance of precipitation is 30%."
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "SW",
+    "icon": "https://api.weather.gov/icons/land/day/bkn/tsra_sct,60?size=medium",
+    "shortForecast": "Partly Sunny then Chance Showers And Thunderstorms",
+    "detailedForecast": "A chance of showers and thunderstorms between 2pm and 5pm, then showers and thunderstorms likely. Partly sunny, with a high near 78. Southwest wind 5 to 10 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3317\r\nIssue Time: 2023 Apr 05 1237 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3316\r\nBegin Time: 2023 Mar 31 2050 UTC\r\nYesterday Maximum 2MeV Flux: 2419 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
@@ -158,7 +158,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1680768607,
+    "lastchange": 1680779408,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
