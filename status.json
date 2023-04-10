@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/04/10 06:10:07 EDT UTC-04:00",
-    "ext_localtime": "Mon 10 Apr 2023 06:10:07 AM EDT",
+    "ext_time": "2023/04/10 07:10:07 EDT UTC-04:00",
+    "ext_localtime": "Mon 10 Apr 2023 07:10:07 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 32
+        "value": 61
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2023-04-10T03:00:00-04:00",
-    "endTime": "2023-04-10T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 32,
+    "name": "Today",
+    "startTime": "2023-04-10T06:00:00-04:00",
+    "endTime": "2023-04-10T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 61,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 0.5555555555555556
+      "value": 1.6666666666666667
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
       "value": 100
     },
-    "windSpeed": "5 mph",
+    "windSpeed": "5 to 10 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
-    "shortForecast": "Widespread Frost",
-    "detailedForecast": "Widespread frost. Clear, with a low around 32. West wind around 5 mph."
+    "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+    "shortForecast": "Widespread Frost then Sunny",
+    "detailedForecast": "Widespread frost before 9am. Sunny, with a high near 61. West wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2359\r\nIssue Time: 2023 Apr 10 0900 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2023 Apr 10 0859 UTC\r\nSynoptic Period: 0600-0900 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -158,7 +158,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1681121407,
+    "lastchange": 1681125007,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
