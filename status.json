@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/04/29 03:10:07 EDT UTC-04:00",
-    "ext_localtime": "Sat 29 Apr 2023 03:10:07 AM EDT",
+    "ext_time": "2023/04/29 04:10:07 EDT UTC-04:00",
+    "ext_localtime": "Sat 29 Apr 2023 04:10:07 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2023-04-29T00:00:00-04:00",
+    "startTime": "2023-04-29T03:00:00-04:00",
     "endTime": "2023-04-29T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 49,
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 10
+      "value": 9.444444444444445
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 96
+      "value": 93
     },
     "windSpeed": "20 mph",
     "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/night/rain,100?size=medium",
-    "shortForecast": "Heavy Rain",
-    "detailedForecast": "Rain and patchy fog. Cloudy, with a low around 49. East wind around 20 mph, with gusts as high as 35 mph. Chance of precipitation is 100%. New rainfall amounts between three quarters and one inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/rain_showers,100?size=medium",
+    "shortForecast": "Rain Showers",
+    "detailedForecast": "Rain showers. Cloudy, with a low around 49. East wind around 20 mph, with gusts as high as 35 mph. Chance of precipitation is 100%. New rainfall amounts between three quarters and one inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3325\r\nIssue Time: 2023 Apr 29 0509 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3324\r\nBegin Time: 2023 Apr 26 1235 UTC\r\nYesterday Maximum 2MeV Flux: 5966 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1682752207,
+    "lastchange": 1682755807,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
