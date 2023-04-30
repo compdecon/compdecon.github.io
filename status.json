@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/04/30 16:55:07 EDT UTC-04:00",
-    "ext_localtime": "Sun 30 Apr 2023 04:55:07 PM EDT",
+    "ext_time": "2023/04/30 19:10:07 EDT UTC-04:00",
+    "ext_localtime": "Sun 30 Apr 2023 07:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 61
+        "value": 47
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2023-04-30T15:00:00-04:00",
-    "endTime": "2023-04-30T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 61,
+    "name": "Tonight",
+    "startTime": "2023-04-30T18:00:00-04:00",
+    "endTime": "2023-05-01T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 47,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 15
+      "value": 13.88888888888889
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
       "value": 100
     },
-    "windSpeed": "15 to 20 mph",
-    "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/day/tsra,90?size=medium",
+    "windSpeed": "15 to 25 mph",
+    "windDirection": "S",
+    "icon": "https://api.weather.gov/icons/land/night/tsra_sct,90/tsra_sct,50?size=medium",
     "shortForecast": "Showers And Thunderstorms",
-    "detailedForecast": "Showers and thunderstorms. Cloudy, with a high near 61. Southeast wind 15 to 20 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible."
+    "detailedForecast": "Showers and thunderstorms before 2am. Mostly cloudy, with a low around 47. South wind 15 to 25 mph. Chance of precipitation is 90%. New rainfall amounts between three quarters and one inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4361\r\nIssue Time: 2023 Apr 30 0851 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4360\r\nValid From: 2023 Apr 27 0315 UTC\r\nNow Valid Until: 2023 Apr 30 1500 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -158,7 +158,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1682888107,
+    "lastchange": 1682896207,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
