@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/05/03 06:10:08 EDT UTC-04:00",
-    "ext_localtime": "Wed 03 May 2023 06:10:08 AM EDT",
+    "ext_time": "2023/05/03 07:10:07 EDT UTC-04:00",
+    "ext_localtime": "Wed 03 May 2023 07:10:07 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,36 +94,36 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 43
+        "value": 54
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2023-05-03T03:00:00-04:00",
-    "endTime": "2023-05-03T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 43,
+    "name": "Today",
+    "startTime": "2023-05-03T06:00:00-04:00",
+    "endTime": "2023-05-03T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 54,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": null
+      "value": 50
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 2.7777777777777777
+      "value": 5
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 76
+      "value": 86
     },
-    "windSpeed": "5 mph",
+    "windSpeed": "5 to 10 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-    "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a low around 43. West wind around 5 mph."
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,20/tsra_sct,50?size=medium",
+    "shortForecast": "Chance Showers And Thunderstorms",
+    "detailedForecast": "A slight chance of rain showers between 11am and 1pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 54. West wind 5 to 10 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: SUM10R\r\nSerial Number: 751\r\nIssue Time: 2023 May 03 0846 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2023 May 03 0726 UTC\r\nMaximum Time: 2023 May 03 0728 UTC\r\nEnd Time: 2023 May 03 0731 UTC\r\nDuration: 5 minutes\r\nPeak Flux: 170 sfu\r\nLatest Penticton Noon Flux: 157 sfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
@@ -158,7 +158,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1683108608,
+    "lastchange": 1683112207,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
