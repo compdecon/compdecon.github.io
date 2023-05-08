@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/05/07 19:10:07 EDT UTC-04:00",
-    "ext_localtime": "Sun 07 May 2023 07:10:07 PM EDT",
+    "ext_time": "2023/05/07 22:10:08 EDT UTC-04:00",
+    "ext_localtime": "Sun 07 May 2023 10:10:08 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2023-05-07T18:00:00-04:00",
+    "startTime": "2023-05-07T21:00:00-04:00",
     "endTime": "2023-05-08T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 58,
@@ -121,9 +121,9 @@
     },
     "windSpeed": "10 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/night/tsra,70/tsra,40?size=medium",
-    "shortForecast": "Showers And Thunderstorms Likely",
-    "detailedForecast": "A slight chance of rain showers between 7pm and 8pm, then showers and thunderstorms likely. Mostly cloudy, with a low around 58. Southwest wind around 10 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/rain_showers,70/rain_showers,40?size=medium",
+    "shortForecast": "Rain Showers Likely",
+    "detailedForecast": "Rain showers likely. Mostly cloudy, with a low around 58. Southwest wind around 10 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2367\r\nIssue Time: 2023 May 07 1606 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2023 May 07 1605 UTC\r\nSynoptic Period: 1500-1800 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -161,7 +161,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1683501007,
+    "lastchange": 1683511808,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
