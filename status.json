@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/06/07 11:10:07 EDT UTC-04:00",
-    "ext_localtime": "Wed 07 Jun 2023 11:10:07 AM EDT",
+    "ext_time": "2023/06/07 13:10:07 EDT UTC-04:00",
+    "ext_localtime": "Wed 07 Jun 2023 01:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2023-06-07T10:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2023-06-07T12:00:00-04:00",
     "endTime": "2023-06-07T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 75,
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 7.777777777777778
+      "value": 6.666666666666667
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 45
+      "value": 35
     },
     "windSpeed": "10 mph",
-    "windDirection": "NW",
+    "windDirection": "W",
     "icon": "https://api.weather.gov/icons/land/day/smoke?size=medium",
     "shortForecast": "Haze",
-    "detailedForecast": "Haze and areas of smoke. Mostly sunny, with a high near 75. Northwest wind around 10 mph."
+    "detailedForecast": "Haze and areas of smoke. Partly sunny, with a high near 75. West wind around 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1195\r\nIssue Time: 2023 Jun 07 0944 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2023 Jun 07 0637 UTC\r\nEstimated Velocity: 543 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1686150607,
+    "lastchange": 1686157807,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
