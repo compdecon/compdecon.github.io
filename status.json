@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/06/07 01:10:08 EDT UTC-04:00",
-    "ext_localtime": "Wed 07 Jun 2023 01:10:08 AM EDT",
+    "ext_time": "2023/06/07 04:10:07 EDT UTC-04:00",
+    "ext_localtime": "Wed 07 Jun 2023 04:10:07 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 54
+        "value": 56
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2023-06-07T00:00:00-04:00",
+    "startTime": "2023-06-07T03:00:00-04:00",
     "endTime": "2023-06-07T06:00:00-04:00",
     "isDaytime": false,
-    "temperature": 54,
+    "temperature": 56,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 8.88888888888889
+      "value": 7.777777777777778
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 66
+      "value": 67
     },
-    "windSpeed": "5 mph",
+    "windSpeed": "5 to 10 mph",
     "windDirection": "NW",
     "icon": "https://api.weather.gov/icons/land/night/smoke?size=medium",
     "shortForecast": "Haze",
-    "detailedForecast": "Haze and patchy smoke. Mostly clear, with a low around 54. Northwest wind around 5 mph."
+    "detailedForecast": "Haze and patchy smoke. Mostly clear, with a low around 56. Northwest wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2377\r\nIssue Time: 2023 Jun 04 2102 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2023 Jun 04 2059 UTC\r\nSynoptic Period: 1800-2100 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -158,7 +158,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1686114608,
+    "lastchange": 1686125407,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
