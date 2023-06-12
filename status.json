@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/06/12 11:10:07 EDT UTC-04:00",
-    "ext_localtime": "Mon 12 Jun 2023 11:10:07 AM EDT",
+    "ext_time": "2023/06/12 13:10:07 EDT UTC-04:00",
+    "ext_localtime": "Mon 12 Jun 2023 01:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2023-06-12T10:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2023-06-12T12:00:00-04:00",
     "endTime": "2023-06-12T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 75,
@@ -121,8 +121,8 @@
     },
     "windSpeed": "15 mph",
     "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/day/bkn,20/tsra,70?size=medium",
-    "shortForecast": "Mostly Cloudy then Slight Chance Showers And Thunderstorms",
+    "icon": "https://api.weather.gov/icons/land/day/tsra,70?size=medium",
+    "shortForecast": "Slight Chance Showers And Thunderstorms",
     "detailedForecast": "A slight chance of showers and thunderstorms between 2pm and 3pm, then showers and thunderstorms likely. Mostly cloudy. High near 75, with temperatures falling to around 69 in the afternoon. Southeast wind around 15 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1686582607,
+    "lastchange": 1686589807,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
