@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/06/20 16:10:07 EDT UTC-04:00",
-    "ext_localtime": "Tue 20 Jun 2023 04:10:07 PM EDT",
+    "ext_time": "2023/06/20 18:10:07 EDT UTC-04:00",
+    "ext_localtime": "Tue 20 Jun 2023 06:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,6 +126,7 @@
     "detailedForecast": "Mostly cloudy, with a high near 71. East wind around 10 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: SUMX01\r\nSerial Number: 129\r\nIssue Time: 2023 Jun 20 1949 UTC\r\n\r\nSUMMARY: X-ray Event exceeded X1\r\nBegin Time: 2023 Jun 20 1642 UTC\r\nMaximum Time: 2023 Jun 20 1709 UTC\r\nEnd Time: 2023 Jun 20 1726 UTC\r\nX-ray Class: X1.1\r\nLocation: S19E80\r\nNOAA Scale: R3 - Strong\r\n\r\nComment: **Re-issuing due to failed initial dissemination attempt**\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact consists of large portions of the sunlit side of Earth, strongest at the sub-solar point.\r\nRadio - Wide area blackout of HF (high frequency) radio communication for about an hour.",
     "Space Weather Message Code: SUMX01\r\nSerial Number: 128\r\nIssue Time: 2023 Jun 20 1740 UTC\r\n\r\nSUMMARY: X-ray Event exceeded X1\r\nBegin Time: 2023 Jun 20 1642 UTC\r\nMaximum Time: 2023 Jun 20 1709 UTC\r\nEnd Time: 2023 Jun 20 1726 UTC\r\nX-ray Class: X1.1\r\nLocation: S19E80\r\nNOAA Scale: R3 - Strong\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact consists of large portions of the sunlit side of Earth, strongest at the sub-solar point.\r\nRadio - Wide area blackout of HF (high frequency) radio communication for about an hour.",
     "Space Weather Message Code: SUM10R\r\nSerial Number: 762\r\nIssue Time: 2023 Jun 20 1727 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2023 Jun 20 1658 UTC\r\nMaximum Time: 2023 Jun 20 1707 UTC\r\nEnd Time: 2023 Jun 20 1714 UTC\r\nDuration: 16 minutes\r\nPeak Flux: 480 sfu\r\nLatest Penticton Noon Flux: 169 sfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
     "Space Weather Message Code: ALTTP4\r\nSerial Number: 604\r\nIssue Time: 2023 Jun 20 1720 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2023 Jun 20 1707 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
@@ -162,7 +163,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1687291807,
+    "lastchange": 1687299007,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
