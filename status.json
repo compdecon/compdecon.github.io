@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/06/23 01:10:07 EDT UTC-04:00",
-    "ext_localtime": "Fri 23 Jun 2023 01:10:07 AM EDT",
+    "ext_time": "2023/06/23 04:10:07 EDT UTC-04:00",
+    "ext_localtime": "Fri 23 Jun 2023 04:10:07 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,36 +94,36 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 63
+        "value": 62
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2023-06-23T00:00:00-04:00",
+    "startTime": "2023-06-23T03:00:00-04:00",
     "endTime": "2023-06-23T06:00:00-04:00",
     "isDaytime": false,
-    "temperature": 63,
+    "temperature": 62,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 40
+      "value": 20
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 18.333333333333332
+      "value": 17.77777777777778
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 100
+      "value": 97
     },
     "windSpeed": "5 mph",
     "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,40?size=medium",
-    "shortForecast": "Chance Rain Showers",
-    "detailedForecast": "A chance of rain showers. Cloudy, with a low around 63. East wind around 5 mph. Chance of precipitation is 40%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/rain_showers,20?size=medium",
+    "shortForecast": "Isolated Rain Showers",
+    "detailedForecast": "Isolated rain showers. Cloudy, with a low around 62. East wind around 5 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3343\r\nIssue Time: 2023 Jun 22 1350 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2023 Jun 22 1320 UTC\r\nStation: GOES16\r\n \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
@@ -158,7 +158,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1687497007,
+    "lastchange": 1687507807,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
