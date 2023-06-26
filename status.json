@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/06/25 23:55:08 EDT UTC-04:00",
-    "ext_localtime": "Sun 25 Jun 2023 11:55:08 PM EDT",
+    "ext_time": "2023/06/26 01:10:08 EDT UTC-04:00",
+    "ext_localtime": "Mon 26 Jun 2023 01:10:08 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2023-06-25T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2023-06-26T00:00:00-04:00",
     "endTime": "2023-06-26T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 65,
@@ -113,7 +113,7 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 20.555555555555557
+      "value": 20
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
@@ -121,9 +121,9 @@
     },
     "windSpeed": "5 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/tsra_hi,40?size=medium",
-    "shortForecast": "Slight Chance Rain Showers then Chance Showers And Thunderstorms",
-    "detailedForecast": "A slight chance of rain showers before midnight, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 65. South wind around 5 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/tsra_sct,40?size=medium",
+    "shortForecast": "Chance Showers And Thunderstorms",
+    "detailedForecast": "A slight chance of rain showers before 1am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 65. South wind around 5 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1205\r\nIssue Time: 2023 Jun 25 2349 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2023 Jun 25 2105 UTC\r\nEstimated Velocity: 346 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
@@ -159,7 +159,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1687751708,
+    "lastchange": 1687756208,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
