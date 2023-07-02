@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/07/02 16:55:07 EDT UTC-04:00",
-    "ext_localtime": "Sun 02 Jul 2023 04:55:07 PM EDT",
+    "ext_time": "2023/07/02 19:10:07 EDT UTC-04:00",
+    "ext_localtime": "Sun 02 Jul 2023 07:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,36 +94,36 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 87
+        "value": 69
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2023-07-02T15:00:00-04:00",
-    "endTime": "2023-07-02T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 87,
+    "name": "Tonight",
+    "startTime": "2023-07-02T18:00:00-04:00",
+    "endTime": "2023-07-03T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 69,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 30
+      "value": 70
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 23.88888888888889
+      "value": 22.77777777777778
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 74
+      "value": 97
     },
-    "windSpeed": "10 mph",
+    "windSpeed": "5 to 10 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/day/tsra_sct,30?size=medium",
-    "shortForecast": "Scattered Showers And Thunderstorms",
-    "detailedForecast": "Isolated rain showers before 5pm, then scattered showers and thunderstorms. Partly sunny, with a high near 87. South wind around 10 mph. Chance of precipitation is 30%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/tsra_sct,70/tsra_sct,50?size=medium",
+    "shortForecast": "Showers And Thunderstorms Likely",
+    "detailedForecast": "Showers and thunderstorms likely before 11pm, then showers and thunderstorms likely. Some of the storms could be severe. Mostly cloudy, with a low around 69. South wind 5 to 10 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3351\r\nIssue Time: 2023 Jul 02 0540 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3350\r\nBegin Time: 2023 Jun 27 1250 UTC\r\nYesterday Maximum 2MeV Flux: 2571 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
@@ -158,7 +158,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1688331307,
+    "lastchange": 1688339407,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
