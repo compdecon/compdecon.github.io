@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/07/06 19:10:08 EDT UTC-04:00",
-    "ext_localtime": "Thu 06 Jul 2023 07:10:08 PM EDT",
+    "ext_time": "2023/07/06 21:10:07 EDT UTC-04:00",
+    "ext_localtime": "Thu 06 Jul 2023 09:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,7 +126,7 @@
     "detailedForecast": "Patchy fog after 11pm. Mostly cloudy, with a low around 70. Southeast wind 5 to 10 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3354\r\nIssue Time: 2023 Jul 05 0521 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3353\r\nBegin Time: 2023 Jun 27 1250 UTC\r\nYesterday Maximum 2MeV Flux: 3264 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4409\r\nIssue Time: 2023 Jul 06 2232 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2023 Jul 06 2230 UTC\r\nValid To: 2023 Jul 07 1800 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1688685008,
+    "lastchange": 1688692207,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
