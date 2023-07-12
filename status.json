@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/07/11 19:10:07 EDT UTC-04:00",
-    "ext_localtime": "Tue 11 Jul 2023 07:10:07 PM EDT",
+    "ext_time": "2023/07/11 21:10:08 EDT UTC-04:00",
+    "ext_localtime": "Tue 11 Jul 2023 09:10:08 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,6 +126,9 @@
     "detailedForecast": "Clear, with a low around 69. Southwest wind around 5 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTTP4\r\nSerial Number: 607\r\nIssue Time: 2023 Jul 11 2352 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2023 Jul 11 2317 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
+    "Space Weather Message Code: SUMXM5\r\nSerial Number: 189\r\nIssue Time: 2023 Jul 11 2236 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2023 Jul 11 2204 UTC\r\nMaximum Time: 2023 Jul 11 2215 UTC\r\nEnd Time: 2023 Jul 11 2224 UTC\r\nX-ray Class: M5.8\r\nLocation: N22E75\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
+    "Space Weather Message Code: ALTXMF\r\nSerial Number: 320\r\nIssue Time: 2023 Jul 11 2216 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2023 Jul 11 2214 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1215\r\nIssue Time: 2023 Jul 11 2022 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2023 Jul 11 1941 UTC\r\nEstimated Velocity: 162 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
     "Space Weather Message Code: SUMXM5\r\nSerial Number: 188\r\nIssue Time: 2023 Jul 11 1824 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2023 Jul 11 1751 UTC\r\nMaximum Time: 2023 Jul 11 1808 UTC\r\nEnd Time: 2023 Jul 11 1816 UTC\r\nX-ray Class: M6.8\r\nLocation: N21E90\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
     "Space Weather Message Code: ALTXMF\r\nSerial Number: 319\r\nIssue Time: 2023 Jul 11 1806 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2023 Jul 11 1804 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap."
@@ -159,7 +162,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1689117007,
+    "lastchange": 1689124208,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
