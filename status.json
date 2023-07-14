@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/07/14 11:10:07 EDT UTC-04:00",
-    "ext_localtime": "Fri 14 Jul 2023 11:10:07 AM EDT",
+    "ext_time": "2023/07/14 12:10:07 EDT UTC-04:00",
+    "ext_localtime": "Fri 14 Jul 2023 12:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,6 +126,8 @@
     "detailedForecast": "A chance of showers and thunderstorms. Partly sunny, with a high near 86. South wind around 10 mph. Chance of precipitation is 50%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4412\r\nIssue Time: 2023 Jul 14 1552 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2023 Jul 14 1552 UTC\r\nValid To: 2026 Jul 15 0600 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARSUD\r\nSerial Number: 204\r\nIssue Time: 2023 Jul 14 1551 UTC\r\n\r\nWARNING: Geomagnetic Sudden Impulse expected\r\nValid From: 2023 Jul 14 1549 UTC\r\nValid To: 2023 Jul 14 1654 UTC\r\nIP Shock Passage Observed: 2023 Jul 14 1526 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2382\r\nIssue Time: 2023 Jul 14 0602 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2023 Jul 14 0559 UTC\r\nSynoptic Period: 0300-0600 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 4411\r\nIssue Time: 2023 Jul 14 0243 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2023 Jul 14 0242 UTC\r\nValid To: 2023 Jul 14 1500 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
@@ -158,7 +160,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1689347407,
+    "lastchange": 1689351007,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
