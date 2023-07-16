@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/07/16 18:10:07 EDT UTC-04:00",
-    "ext_localtime": "Sun 16 Jul 2023 06:10:07 PM EDT",
+    "ext_time": "2023/07/16 19:10:07 EDT UTC-04:00",
+    "ext_localtime": "Sun 16 Jul 2023 07:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 86
+        "value": 71
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2023-07-16T15:00:00-04:00",
-    "endTime": "2023-07-16T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 86,
+    "name": "Tonight",
+    "startTime": "2023-07-16T18:00:00-04:00",
+    "endTime": "2023-07-17T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 71,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
@@ -117,13 +117,13 @@
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 85
+      "value": 100
     },
     "windSpeed": "5 mph",
-    "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/day/tsra,70?size=medium",
-    "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms. Mostly cloudy, with a high near 86. South wind around 5 mph. Chance of precipitation is 70%. New rainfall amounts between three quarters and one inch possible."
+    "windDirection": "SW",
+    "icon": "https://api.weather.gov/icons/land/night/tsra_hi,70/fog?size=medium",
+    "shortForecast": "Showers And Thunderstorms Likely then Patchy Fog",
+    "detailedForecast": "Showers and thunderstorms likely before 7pm, then a chance of showers and thunderstorms between 7pm and 11pm, then patchy fog. Mostly cloudy, with a low around 71. Southwest wind around 5 mph. Chance of precipitation is 70%. New rainfall amounts between three quarters and one inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP4\r\nSerial Number: 610\r\nIssue Time: 2023 Jul 16 2019 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2023 Jul 16 1927 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
@@ -167,7 +167,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1689545407,
+    "lastchange": 1689549007,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
