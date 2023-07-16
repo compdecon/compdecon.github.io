@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/07/16 11:55:07 EDT UTC-04:00",
-    "ext_localtime": "Sun 16 Jul 2023 11:55:07 AM EDT",
+    "ext_time": "2023/07/16 12:10:08 EDT UTC-04:00",
+    "ext_localtime": "Sun 16 Jul 2023 12:10:08 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,6 +126,9 @@
     "detailedForecast": "Widespread showers and thunderstorms. Mostly cloudy, with a high near 86. South wind 5 to 10 mph. Chance of precipitation is 80%. New rainfall amounts between 2 and 3 inches possible."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTTP4\r\nSerial Number: 609\r\nIssue Time: 2023 Jul 16 1531 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2023 Jul 16 1509 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
+    "Space Weather Message Code: SUMPX1\r\nSerial Number: 99\r\nIssue Time: 2023 Jul 16 1411 UTC\r\n\r\nSUMMARY: Proton Event 10MeV Integral Flux exceeded 10pfu\r\nBegin Time: 2023 Jul 16 0635 UTC\r\nMaximum Time: 2023 Jul 16 0735 UTC\r\nEnd Time: 2023 Jul 16 0910 UTC\r\nMaximum 10MeV Flux: 18 pfu\r\nNOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
+    "Space Weather Message Code: WARPX1\r\nSerial Number: 509\r\nIssue Time: 2023 Jul 16 1407 UTC\r\n\r\nCANCEL WARNING: Proton 10MeV Integral Flux above 10pfu expected\r\nCancel Serial Number: 508\r\nOriginal Issue Time: 2023 Jul 16 0616 UTC\r\n\r\nComment: Conditions have settled below threshold and current conditions no longer necessitate this warning.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.",
     "Space Weather Message Code: ALTPX1\r\nSerial Number: 331\r\nIssue Time: 2023 Jul 16 0652 UTC\r\n\r\nALERT: Proton Event 10MeV Integral Flux exceeded 10pfu\r\nBegin Time: 2023 Jul 16 0635 UTC\r\nNOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.",
     "Space Weather Message Code: WARPX1\r\nSerial Number: 508\r\nIssue Time: 2023 Jul 16 0616 UTC\r\n\r\nWARNING: Proton 10MeV Integral Flux above 10pfu expected\r\nValid From: 2023 Jul 16 0615 UTC\r\nValid To: 2023 Jul 16 2359 UTC\r\nWarning Condition: Onset\r\nPredicted NOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.",
     "Space Weather Message Code: WATA20\r\nSerial Number: 955\r\nIssue Time: 2023 Jul 16 0341 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nJul 17:  G1 (Minor)   Jul 18:  G1 (Minor)   Jul 19:  None (Below G1)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
@@ -159,7 +162,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1689522907,
+    "lastchange": 1689523808,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
