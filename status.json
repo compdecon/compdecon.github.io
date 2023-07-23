@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/07/23 18:10:07 EDT UTC-04:00",
-    "ext_localtime": "Sun 23 Jul 2023 06:10:07 PM EDT",
+    "ext_time": "2023/07/23 19:10:07 EDT UTC-04:00",
+    "ext_localtime": "Sun 23 Jul 2023 07:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 86
+        "value": 69
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2023-07-23T15:00:00-04:00",
-    "endTime": "2023-07-23T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 86,
+    "name": "Tonight",
+    "startTime": "2023-07-23T18:00:00-04:00",
+    "endTime": "2023-07-24T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 69,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 15
+      "value": 17.77777777777778
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 43
+      "value": 78
     },
-    "windSpeed": "10 mph",
-    "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-    "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 86. Southeast wind around 10 mph."
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "S",
+    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+    "shortForecast": "Partly Cloudy",
+    "detailedForecast": "Partly cloudy, with a low around 69. South wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP4\r\nSerial Number: 612\r\nIssue Time: 2023 Jul 23 2012 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2023 Jul 23 1424 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms."
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1690150207,
+    "lastchange": 1690153807,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
