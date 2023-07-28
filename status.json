@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/07/28 16:10:07 EDT UTC-04:00",
-    "ext_localtime": "Fri 28 Jul 2023 04:10:07 PM EDT",
+    "ext_time": "2023/07/28 18:10:07 EDT UTC-04:00",
+    "ext_localtime": "Fri 28 Jul 2023 06:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,6 +126,7 @@
     "detailedForecast": "Sunny, with a high near 93. Southwest wind around 10 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: WARPX1\r\nSerial Number: 517\r\nIssue Time: 2023 Jul 28 1923 UTC\r\n\r\nWARNING: Proton 10MeV Integral Flux above 10pfu expected\r\nValid From: 2023 Jul 28 1923 UTC\r\nValid To: 2023 Jul 29 0600 UTC\r\nWarning Condition: Onset\r\nPredicted NOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1230\r\nIssue Time: 2023 Jul 28 1627 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2023 Jul 28 1552 UTC\r\nEstimated Velocity: 550 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
   ],
   "contact": {
@@ -157,7 +158,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1690575007,
+    "lastchange": 1690582207,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
