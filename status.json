@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/07/30 13:10:08 EDT UTC-04:00",
-    "ext_localtime": "Sun 30 Jul 2023 01:10:08 PM EDT",
+    "ext_time": "2023/07/30 16:10:07 EDT UTC-04:00",
+    "ext_localtime": "Sun 30 Jul 2023 04:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2023-07-30T12:00:00-04:00",
+    "startTime": "2023-07-30T15:00:00-04:00",
     "endTime": "2023-07-30T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 82,
@@ -113,11 +113,11 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 14.444444444444445
+      "value": 13.333333333333334
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 52
+      "value": 44
     },
     "windSpeed": "10 mph",
     "windDirection": "NW",
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1690737008,
+    "lastchange": 1690747807,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
