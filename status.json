@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/08/02 01:10:08 EDT UTC-04:00",
-    "ext_localtime": "Wed 02 Aug 2023 01:10:08 AM EDT",
+    "ext_time": "2023/08/02 04:10:07 EDT UTC-04:00",
+    "ext_localtime": "Wed 02 Aug 2023 04:10:07 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2023-08-02T00:00:00-04:00",
+    "startTime": "2023-08-02T03:00:00-04:00",
     "endTime": "2023-08-02T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 59,
@@ -113,11 +113,11 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 12.777777777777779
+      "value": 14.444444444444445
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 75
+      "value": 90
     },
     "windSpeed": "5 mph",
     "windDirection": "N",
@@ -158,7 +158,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1690953008,
+    "lastchange": 1690963807,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
