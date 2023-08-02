@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/08/02 07:10:07 EDT UTC-04:00",
-    "ext_localtime": "Wed 02 Aug 2023 07:10:07 AM EDT",
+    "ext_time": "2023/08/02 09:10:07 EDT UTC-04:00",
+    "ext_localtime": "Wed 02 Aug 2023 09:10:07 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,6 +126,7 @@
     "detailedForecast": "Sunny, with a high near 80. Northeast wind around 5 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4426\r\nIssue Time: 2023 Aug 02 1012 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2023 Aug 02 1012 UTC\r\nValid To: 2023 Aug 02 1800 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: ALTTP4\r\nSerial Number: 613\r\nIssue Time: 2023 Aug 02 0858 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2023 Aug 02 0814 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1232\r\nIssue Time: 2023 Aug 02 0837 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2023 Aug 02 0758 UTC\r\nEstimated Velocity: 286 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
   ],
@@ -158,7 +159,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1690974607,
+    "lastchange": 1690981807,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
