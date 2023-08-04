@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/08/04 18:10:07 EDT UTC-04:00",
-    "ext_localtime": "Fri 04 Aug 2023 06:10:07 PM EDT",
+    "ext_time": "2023/08/04 19:10:07 EDT UTC-04:00",
+    "ext_localtime": "Fri 04 Aug 2023 07:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,36 +94,36 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 79
+        "value": 67
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2023-08-04T15:00:00-04:00",
-    "endTime": "2023-08-04T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 79,
+    "name": "Tonight",
+    "startTime": "2023-08-04T18:00:00-04:00",
+    "endTime": "2023-08-05T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 67,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 30
+      "value": 50
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 19.444444444444443
+      "value": 20.555555555555557
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 71
+      "value": 97
     },
-    "windSpeed": "10 to 15 mph",
-    "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/day/tsra,30?size=medium",
+    "windSpeed": "5 to 15 mph",
+    "windDirection": "SW",
+    "icon": "https://api.weather.gov/icons/land/night/tsra_sct,50/tsra_sct,40?size=medium",
     "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms before 5pm, then a chance of showers and thunderstorms. Some of the storms could produce heavy rain. Mostly cloudy, with a high near 79. South wind 10 to 15 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "A chance of rain showers before 8pm, then a chance of showers and thunderstorms between 8pm and 3am, then patchy fog between 4am and 5am. Some of the storms could produce heavy rain. Mostly cloudy, with a low around 67. Southwest wind 5 to 15 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK05\r\nSerial Number: 1797\r\nIssue Time: 2023 Aug 04 2025 UTC\r\n\r\nWARNING: Geomagnetic K-index of 5 expected\r\nValid From: 2023 Aug 04 2025 UTC\r\nValid To: 2023 Aug 05 0600 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -159,7 +159,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1691187007,
+    "lastchange": 1691190607,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
