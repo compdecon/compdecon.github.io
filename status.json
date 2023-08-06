@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/08/06 16:55:07 EDT UTC-04:00",
-    "ext_localtime": "Sun 06 Aug 2023 04:55:07 PM EDT",
+    "ext_time": "2023/08/06 18:10:08 EDT UTC-04:00",
+    "ext_localtime": "Sun 06 Aug 2023 06:10:08 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,6 +126,7 @@
     "detailedForecast": "Sunny, with a high near 82. Southeast wind around 10 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: SUMXM5\r\nSerial Number: 192\r\nIssue Time: 2023 Aug 06 1906 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2023 Aug 06 1820 UTC\r\nMaximum Time: 2023 Aug 06 1840 UTC\r\nEnd Time: 2023 Aug 06 1854 UTC\r\nX-ray Class: M5.5\r\nLocation: N08W85\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
     "Space Weather Message Code: ALTXMF\r\nSerial Number: 324\r\nIssue Time: 2023 Aug 06 1838 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2023 Aug 06 1837 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
     "Space Weather Message Code: SUMPX1\r\nSerial Number: 102\r\nIssue Time: 2023 Aug 06 1200 UTC\r\n\r\nSUMMARY: Proton Event 10MeV Integral Flux exceeded 10pfu\r\nBegin Time: 2023 Aug 05 1115 UTC\r\nMaximum Time: 2023 Aug 05 1745 UTC\r\nEnd Time: 2023 Aug 06 0455 UTC\r\nMaximum 10MeV Flux: 18 pfu\r\nNOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation"
   ],
@@ -158,7 +159,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1691355307,
+    "lastchange": 1691359808,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
