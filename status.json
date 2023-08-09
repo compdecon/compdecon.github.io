@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/08/09 13:10:07 EDT UTC-04:00",
-    "ext_localtime": "Wed 09 Aug 2023 01:10:07 PM EDT",
+    "ext_time": "2023/08/09 16:10:07 EDT UTC-04:00",
+    "ext_localtime": "Wed 09 Aug 2023 04:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2023-08-09T12:00:00-04:00",
+    "startTime": "2023-08-09T15:00:00-04:00",
     "endTime": "2023-08-09T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 87,
@@ -113,11 +113,11 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 16.11111111111111
+      "value": 15.555555555555555
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 49
+      "value": 43
     },
     "windSpeed": "10 mph",
     "windDirection": "W",
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1691601007,
+    "lastchange": 1691611807,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
