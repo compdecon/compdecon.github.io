@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/08/10 13:10:07 EDT UTC-04:00",
-    "ext_localtime": "Thu 10 Aug 2023 01:10:07 PM EDT",
+    "ext_time": "2023/08/10 15:10:07 EDT UTC-04:00",
+    "ext_localtime": "Thu 10 Aug 2023 03:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,6 +126,7 @@
     "detailedForecast": "Showers and thunderstorms. Cloudy. High near 82, with temperatures falling to around 73 in the afternoon. South wind 10 to 15 mph. Chance of precipitation is 90%. New rainfall amounts between 1 and 2 inches possible."
   },
   "space_weather": [
+    "Space Weather Message Code: SUMPX1\r\nSerial Number: 103\r\nIssue Time: 2023 Aug 10 1854 UTC\r\n\r\nSUMMARY: Proton Event 10MeV Integral Flux exceeded 10pfu\r\nBegin Time: 2023 Aug 08 0115 UTC\r\nMaximum Time: 2023 Aug 09 0025 UTC\r\nEnd Time: 2023 Aug 10 0955 UTC\r\nMaximum 10MeV Flux: 47 pfu\r\nNOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3359\r\nIssue Time: 2023 Aug 10 1431 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3358\r\nBegin Time: 2023 Aug 09 1530 UTC\r\nYesterday Maximum 2MeV Flux: 1772 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1237\r\nIssue Time: 2023 Aug 10 0312 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2023 Aug 10 0245 UTC\r\nEstimated Velocity: 587 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
   ],
@@ -158,7 +159,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1691687407,
+    "lastchange": 1691694607,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
