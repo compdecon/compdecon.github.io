@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/08/10 22:10:07 EDT UTC-04:00",
-    "ext_localtime": "Thu 10 Aug 2023 10:10:07 PM EDT",
+    "ext_time": "2023/08/11 01:10:07 EDT UTC-04:00",
+    "ext_localtime": "Fri 11 Aug 2023 01:10:07 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2023-08-10T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2023-08-11T00:00:00-04:00",
     "endTime": "2023-08-11T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 66,
@@ -109,21 +109,21 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 20
+      "value": null
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 21.666666666666668
+      "value": 20.555555555555557
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 97
+      "value": 100
     },
     "windSpeed": "5 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/fog?size=medium",
-    "shortForecast": "Slight Chance Rain Showers then Patchy Fog",
-    "detailedForecast": "A slight chance of rain showers before 11pm, then patchy fog. Partly cloudy, with a low around 66. West wind around 5 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
+    "shortForecast": "Areas Of Fog",
+    "detailedForecast": "Areas of fog after 1am. Mostly clear, with a low around 66. West wind around 5 mph. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: SUMPX1\r\nSerial Number: 103\r\nIssue Time: 2023 Aug 10 1854 UTC\r\n\r\nSUMMARY: Proton Event 10MeV Integral Flux exceeded 10pfu\r\nBegin Time: 2023 Aug 08 0115 UTC\r\nMaximum Time: 2023 Aug 09 0025 UTC\r\nEnd Time: 2023 Aug 10 0955 UTC\r\nMaximum 10MeV Flux: 47 pfu\r\nNOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
@@ -159,7 +159,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1691719807,
+    "lastchange": 1691730607,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
