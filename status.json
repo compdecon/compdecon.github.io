@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/08/16 16:10:07 EDT UTC-04:00",
-    "ext_localtime": "Wed 16 Aug 2023 04:10:07 PM EDT",
+    "ext_time": "2023/08/16 19:10:07 EDT UTC-04:00",
+    "ext_localtime": "Wed 16 Aug 2023 07:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 81
+        "value": 70
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2023-08-16T15:00:00-04:00",
-    "endTime": "2023-08-16T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 81,
+    "name": "Tonight",
+    "startTime": "2023-08-16T18:00:00-04:00",
+    "endTime": "2023-08-17T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 70,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 21.666666666666668
+      "value": 22.22222222222222
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 77
+      "value": 97
     },
     "windSpeed": "5 mph",
-    "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/day/rain_showers,20?size=medium",
-    "shortForecast": "Slight Chance Rain Showers",
-    "detailedForecast": "A slight chance of rain showers after 4pm. Mostly sunny, with a high near 81. East wind around 5 mph. Chance of precipitation is 20%."
+    "windDirection": "SE",
+    "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/fog?size=medium",
+    "shortForecast": "Isolated Rain Showers then Patchy Fog",
+    "detailedForecast": "Isolated rain showers before 7pm, then patchy fog. Mostly cloudy, with a low around 70. Southeast wind around 5 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4434\r\nIssue Time: 2023 Aug 16 1733 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2023 Aug 16 1729 UTC\r\nValid To: 2023 Aug 17 0300 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1692216607,
+    "lastchange": 1692227407,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
