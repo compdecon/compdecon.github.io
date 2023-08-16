@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/08/16 11:55:07 EDT UTC-04:00",
-    "ext_localtime": "Wed 16 Aug 2023 11:55:07 AM EDT",
+    "ext_time": "2023/08/16 13:10:07 EDT UTC-04:00",
+    "ext_localtime": "Wed 16 Aug 2023 01:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2023-08-16T10:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2023-08-16T12:00:00-04:00",
     "endTime": "2023-08-16T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 81,
@@ -117,12 +117,12 @@
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 88
+      "value": 78
     },
     "windSpeed": "5 mph",
     "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/day/sct/rain_showers,20?size=medium",
-    "shortForecast": "Mostly Sunny then Slight Chance Rain Showers",
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,20?size=medium",
+    "shortForecast": "Slight Chance Rain Showers",
     "detailedForecast": "A slight chance of rain showers after 5pm. Mostly sunny, with a high near 81. East wind around 5 mph. Chance of precipitation is 20%."
   },
   "space_weather": [
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1692201307,
+    "lastchange": 1692205807,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
