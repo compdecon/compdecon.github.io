@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/08/23 16:10:07 EDT UTC-04:00",
-    "ext_localtime": "Wed 23 Aug 2023 04:10:07 PM EDT",
+    "ext_time": "2023/08/23 19:10:07 EDT UTC-04:00",
+    "ext_localtime": "Wed 23 Aug 2023 07:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 76
+        "value": 65
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2023-08-23T15:00:00-04:00",
-    "endTime": "2023-08-23T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 76,
+    "name": "Tonight",
+    "startTime": "2023-08-23T18:00:00-04:00",
+    "endTime": "2023-08-24T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 65,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 15
+      "value": 15.555555555555555
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 59
+      "value": 78
     },
-    "windSpeed": "5 to 10 mph",
-    "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 76. East wind 5 to 10 mph."
+    "windSpeed": "5 mph",
+    "windDirection": "SE",
+    "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": "Mostly cloudy, with a low around 65. Southeast wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1240\r\nIssue Time: 2023 Aug 20 0724 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2023 Aug 20 0626 UTC\r\nEstimated Velocity: 488 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1692821407,
+    "lastchange": 1692832207,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
