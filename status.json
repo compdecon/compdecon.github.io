@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/08/24 07:10:07 EDT UTC-04:00",
-    "ext_localtime": "Thu 24 Aug 2023 07:10:07 AM EDT",
+    "ext_time": "2023/08/24 10:10:07 EDT UTC-04:00",
+    "ext_localtime": "Thu 24 Aug 2023 10:10:07 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2023-08-24T06:00:00-04:00",
+    "startTime": "2023-08-24T09:00:00-04:00",
     "endTime": "2023-08-24T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 76,
@@ -117,13 +117,13 @@
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 84
+      "value": 81
     },
     "windSpeed": "5 to 15 mph",
     "windDirection": "S",
     "icon": "https://api.weather.gov/icons/land/day/rain_showers,20/rain_showers,30?size=medium",
     "shortForecast": "Chance Rain Showers",
-    "detailedForecast": "A chance of rain showers after 9am. Cloudy, with a high near 76. South wind 5 to 15 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "A chance of rain showers. Cloudy, with a high near 76. South wind 5 to 15 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1240\r\nIssue Time: 2023 Aug 20 0724 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2023 Aug 20 0626 UTC\r\nEstimated Velocity: 488 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1692875407,
+    "lastchange": 1692886207,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
