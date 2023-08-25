@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/08/25 07:10:08 EDT UTC-04:00",
-    "ext_localtime": "Fri 25 Aug 2023 07:10:08 AM EDT",
+    "ext_time": "2023/08/25 10:10:08 EDT UTC-04:00",
+    "ext_localtime": "Fri 25 Aug 2023 10:10:08 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2023-08-25T06:00:00-04:00",
+    "startTime": "2023-08-25T09:00:00-04:00",
     "endTime": "2023-08-25T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 80,
@@ -109,7 +109,7 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 70
+      "value": 60
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
@@ -121,9 +121,9 @@
     },
     "windSpeed": "10 to 15 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/day/tsra,70/tsra,30?size=medium",
+    "icon": "https://api.weather.gov/icons/land/day/tsra,60/tsra,30?size=medium",
     "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms before 2pm, then isolated showers and thunderstorms. Mostly cloudy, with a high near 80. South wind 10 to 15 mph. Chance of precipitation is 70%. New rainfall amounts between a half and three quarters of an inch possible."
+    "detailedForecast": "A chance of showers and thunderstorms before 2pm, then isolated showers and thunderstorms. Mostly cloudy, with a high near 80. South wind 10 to 15 mph. Chance of precipitation is 60%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4437\r\nIssue Time: 2023 Aug 24 1659 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2023 Aug 24 1700 UTC\r\nValid To: 2023 Aug 24 2359 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1692961808,
+    "lastchange": 1692972608,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
