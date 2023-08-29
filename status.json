@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/08/28 18:55:07 EDT UTC-04:00",
-    "ext_localtime": "Mon 28 Aug 2023 06:55:07 PM EDT",
+    "ext_time": "2023/08/28 21:55:07 EDT UTC-04:00",
+    "ext_localtime": "Mon 28 Aug 2023 09:55:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": true
+        "value": false
       },
       {
         "location": "Front door",
-        "value": true
+        "value": false
       }
     ],
     "humidity": [
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 69
+        "value": 68
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2023-08-28T18:00:00-04:00",
+    "startTime": "2023-08-28T21:00:00-04:00",
     "endTime": "2023-08-29T06:00:00-04:00",
     "isDaytime": false,
-    "temperature": 69,
+    "temperature": 68,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 20
+      "value": 20.555555555555557
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 97
+      "value": 100
     },
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "5 mph",
     "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/night/ovc/tsra,60?size=medium",
-    "shortForecast": "Cloudy then Showers And Thunderstorms Likely",
-    "detailedForecast": "A chance of rain showers between midnight and 5am, then showers and thunderstorms likely. Cloudy, with a low around 69. East wind 5 to 10 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/rain_showers,30/tsra,60?size=medium",
+    "shortForecast": "Chance Rain Showers",
+    "detailedForecast": "A chance of rain showers before 2am, then a chance of showers and thunderstorms between 2am and 3am, then patchy fog and showers and thunderstorms likely. Cloudy, with a low around 68. East wind around 5 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2390\r\nIssue Time: 2023 Aug 27 0304 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2023 Aug 27 0259 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -157,9 +157,9 @@
     {}
   ],
   "state": {
-    "open": true,
-    "lastchange": 1693263307,
-    "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight Wednesday from 12 - 5PM and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": false,
+    "lastchange": 1693274107,
+    "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
     "blogUpdate": "(Title: Makerspace near me ... Can't find CDL - Updated: Oct. 05, 2022)",
