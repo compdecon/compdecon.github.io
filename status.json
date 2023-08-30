@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/08/30 01:10:07 EDT UTC-04:00",
-    "ext_localtime": "Wed 30 Aug 2023 01:10:07 AM EDT",
+    "ext_time": "2023/08/30 04:10:07 EDT UTC-04:00",
+    "ext_localtime": "Wed 30 Aug 2023 04:10:07 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2023-08-30T00:00:00-04:00",
+    "startTime": "2023-08-30T03:00:00-04:00",
     "endTime": "2023-08-30T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 70,
@@ -109,21 +109,21 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 40
+      "value": 20
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 22.22222222222222
+      "value": 21.11111111111111
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 100
+      "value": 97
     },
-    "windSpeed": "5 mph",
-    "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/night/tsra,40?size=medium",
-    "shortForecast": "Patchy Fog",
-    "detailedForecast": "Patchy fog and a slight chance of showers and thunderstorms before 3am, then patchy fog and a chance of showers and thunderstorms. Cloudy, with a low around 70. South wind around 5 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+    "windSpeed": "0 mph",
+    "windDirection": "SW",
+    "icon": "https://api.weather.gov/icons/land/night/rain_showers,20?size=medium",
+    "shortForecast": "Isolated Rain Showers",
+    "detailedForecast": "Isolated rain showers. Cloudy, with a low around 70. Southwest wind around 0 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2390\r\nIssue Time: 2023 Aug 27 0304 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2023 Aug 27 0259 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -158,7 +158,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1693372207,
+    "lastchange": 1693383007,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
