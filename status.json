@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/09/03 16:55:07 EDT UTC-04:00",
-    "ext_localtime": "Sun 03 Sep 2023 04:55:07 PM EDT",
+    "ext_time": "2023/09/03 19:10:07 EDT UTC-04:00",
+    "ext_localtime": "Sun 03 Sep 2023 07:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 88
+        "value": 69
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2023-09-03T15:00:00-04:00",
-    "endTime": "2023-09-03T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 88,
+    "name": "Tonight",
+    "startTime": "2023-09-03T18:00:00-04:00",
+    "endTime": "2023-09-04T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 69,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 18.333333333333332
+      "value": 19.444444444444443
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 48
+      "value": 87
     },
-    "windSpeed": "10 mph",
+    "windSpeed": "5 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
-    "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 88. West wind around 10 mph."
+    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+    "shortForecast": "Mostly Clear",
+    "detailedForecast": "Mostly clear, with a low around 69. West wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4441\r\nIssue Time: 2023 Sep 03 1112 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4440\r\nValid From: 2023 Sep 02 0328 UTC\r\nNow Valid Until: 2023 Sep 03 2359 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -163,7 +163,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1693774507,
+    "lastchange": 1693782607,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
