@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/09/06 12:10:08 EDT UTC-04:00",
-    "ext_localtime": "Wed 06 Sep 2023 12:10:08 PM EDT",
+    "ext_time": "2023/09/06 13:10:07 EDT UTC-04:00",
+    "ext_localtime": "Wed 06 Sep 2023 01:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2023-09-06T10:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2023-09-06T12:00:00-04:00",
     "endTime": "2023-09-06T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 91,
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 24.444444444444443
+      "value": 23.88888888888889
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 80
+      "value": 64
     },
     "windSpeed": "0 to 10 mph",
-    "windDirection": "N",
+    "windDirection": "E",
     "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
     "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 91. North wind 0 to 10 mph."
+    "detailedForecast": "Sunny, with a high near 91. East wind 0 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4444\r\nIssue Time: 2023 Sep 06 1442 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2023 Sep 06 1442 UTC\r\nValid To: 2023 Sep 06 2100 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1694016608,
+    "lastchange": 1694020207,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
