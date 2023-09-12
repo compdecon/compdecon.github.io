@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/09/11 21:55:07 EDT UTC-04:00",
-    "ext_localtime": "Mon 11 Sep 2023 09:55:07 PM EDT",
+    "ext_time": "2023/09/12 01:10:07 EDT UTC-04:00",
+    "ext_localtime": "Tue 12 Sep 2023 01:10:07 AM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2023-09-11T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2023-09-12T00:00:00-04:00",
     "endTime": "2023-09-12T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 67,
@@ -109,21 +109,21 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 20
+      "value": null
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 21.666666666666668
+      "value": 21.11111111111111
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
       "value": 100
     },
-    "windSpeed": "0 to 5 mph",
+    "windSpeed": "5 mph",
     "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/night/tsra_hi,20/fog?size=medium",
-    "shortForecast": "Slight Chance Showers And Thunderstorms then Patchy Fog",
-    "detailedForecast": "A slight chance of showers and thunderstorms before 10pm, then patchy fog. Mostly cloudy, with a low around 67. Northwest wind 0 to 5 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
+    "shortForecast": "Patchy Fog",
+    "detailedForecast": "Patchy fog after 4am. Mostly cloudy, with a low around 67. Northwest wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1245\r\nIssue Time: 2023 Sep 11 0213 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2023 Sep 11 0120 UTC\r\nEstimated Velocity: 547 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1694483707,
+    "lastchange": 1694495407,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
