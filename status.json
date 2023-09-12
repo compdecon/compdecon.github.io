@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/09/12 18:10:08 EDT UTC-04:00",
-    "ext_localtime": "Tue 12 Sep 2023 06:10:08 PM EDT",
+    "ext_time": "2023/09/12 19:10:07 EDT UTC-04:00",
+    "ext_localtime": "Tue 12 Sep 2023 07:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,36 +94,36 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 83
+        "value": 67
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2023-09-12T15:00:00-04:00",
-    "endTime": "2023-09-12T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 83,
+    "name": "Tonight",
+    "startTime": "2023-09-12T18:00:00-04:00",
+    "endTime": "2023-09-13T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 67,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": null
+      "value": 70
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 19.444444444444443
+      "value": 21.11111111111111
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 67
+      "value": 100
     },
     "windSpeed": "5 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 83. South wind around 5 mph."
+    "icon": "https://api.weather.gov/icons/land/night/bkn/tsra_sct,70?size=medium",
+    "shortForecast": "Mostly Cloudy then Showers And Thunderstorms Likely",
+    "detailedForecast": "Rain showers likely between midnight and 5am, then showers and thunderstorms likely. Mostly cloudy, with a low around 67. South wind around 5 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WATA20\r\nSerial Number: 965\r\nIssue Time: 2023 Sep 12 2102 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nSep 13:  G1 (Minor)   Sep 14:  None (Below G1)   Sep 15:  None (Below G1)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -168,7 +168,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1694556608,
+    "lastchange": 1694560207,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
