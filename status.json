@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/09/17 15:10:07 EDT UTC-04:00",
-    "ext_localtime": "Sun 17 Sep 2023 03:10:07 PM EDT",
+    "ext_time": "2023/09/17 16:10:07 EDT UTC-04:00",
+    "ext_localtime": "Sun 17 Sep 2023 04:10:07 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2023-09-17T12:00:00-04:00",
+    "startTime": "2023-09-17T15:00:00-04:00",
     "endTime": "2023-09-17T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 76,
@@ -109,7 +109,7 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": null
+      "value": 20
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
@@ -119,11 +119,11 @@
       "unitCode": "wmoUnit:percent",
       "value": 62
     },
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "10 mph",
     "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 76. Southeast wind 5 to 10 mph."
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,20?size=medium",
+    "shortForecast": "Slight Chance Rain Showers",
+    "detailedForecast": "A slight chance of rain showers after 5pm. Partly sunny, with a high near 76. Southeast wind around 10 mph. Chance of precipitation is 20%."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1246\r\nIssue Time: 2023 Sep 17 1643 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2023 Sep 17 1612 UTC\r\nEstimated Velocity: 344 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
@@ -162,7 +162,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1694977807,
+    "lastchange": 1694981407,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
