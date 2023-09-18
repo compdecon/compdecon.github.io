@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/09/18 15:10:08 EDT UTC-04:00",
-    "ext_localtime": "Mon 18 Sep 2023 03:10:08 PM EDT",
+    "ext_time": "2023/09/18 16:10:08 EDT UTC-04:00",
+    "ext_localtime": "Mon 18 Sep 2023 04:10:08 PM EDT",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2023-09-18T12:00:00-04:00",
+    "startTime": "2023-09-18T15:00:00-04:00",
     "endTime": "2023-09-18T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 70,
@@ -109,21 +109,21 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 70
+      "value": 30
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 18.88888888888889
+      "value": 18.333333333333332
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 94
+      "value": 90
     },
-    "windSpeed": "5 to 10 mph",
-    "windDirection": "N",
-    "icon": "https://api.weather.gov/icons/land/day/rain_showers,70?size=medium",
-    "shortForecast": "Rain Showers Likely",
-    "detailedForecast": "Rain showers likely before 5pm. Mostly cloudy, with a high near 70. North wind 5 to 10 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
+    "windSpeed": "15 mph",
+    "windDirection": "NW",
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,30?size=medium",
+    "shortForecast": "Chance Rain Showers",
+    "detailedForecast": "A chance of rain showers. Cloudy, with a high near 70. Northwest wind around 15 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK05\r\nSerial Number: 1498\r\nIssue Time: 2023 Sep 18 1759 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\nThreshold Reached: 2023 Sep 18 1759 UTC\r\nSynoptic Period: 1500-1800 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -165,7 +165,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1695064208,
+    "lastchange": 1695067808,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM, Wednesday from 12 - 5PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
