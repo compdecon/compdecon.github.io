@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/09/29 12:10:22 EDT UTC-04:00",
-    "ext_localtime": "Fri Sep 29 12:10:22 PM EDT 2023",
+    "ext_time": "2023/09/29 22:10:22 EDT UTC-04:00",
+    "ext_localtime": "Fri Sep 29 10:10:22 PM EDT 2023",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,22 +94,22 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 60
+        "value": 59
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2023-09-28T18:00:00-04:00",
-    "endTime": "2023-09-29T06:00:00-04:00",
+    "startTime": "2023-09-29T21:00:00-04:00",
+    "endTime": "2023-09-30T06:00:00-04:00",
     "isDaytime": false,
-    "temperature": 60,
+    "temperature": 59,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 90
+      "value": 70
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
@@ -121,9 +121,9 @@
     },
     "windSpeed": "10 to 15 mph",
     "windDirection": "NE",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,70/tsra,90?size=medium",
-    "shortForecast": "Rain Showers",
-    "detailedForecast": "Rain showers before 2am, then showers and thunderstorms. Some of the storms could produce heavy rain. Cloudy, with a low around 60. Northeast wind 10 to 15 mph. Chance of precipitation is 90%. New rainfall amounts between 1 and 2 inches possible."
+    "icon": "https://api.weather.gov/icons/land/night/tsra,70/tsra,60?size=medium",
+    "shortForecast": "Showers And Thunderstorms Likely",
+    "detailedForecast": "Showers and thunderstorms likely. Cloudy, with a low around 59. Northeast wind 10 to 15 mph. Chance of precipitation is 70%. New rainfall amounts between three quarters and one inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4467\r\nIssue Time: 2023 Sep 29 1455 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4466\r\nValid From: 2023 Sep 29 0830 UTC\r\nNow Valid Until: 2023 Sep 29 2100 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -160,7 +160,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1696003822,
+    "lastchange": 1696039822,
     "message": ".",
     "preMessage": ".",
     "postMessage": ".",
