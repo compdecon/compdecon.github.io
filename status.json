@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/10/06 01:10:10 EDT UTC-04:00",
-    "ext_localtime": "Fri Oct  6 01:10:10 AM EDT 2023",
+    "ext_time": "2023/10/06 02:10:10 EDT UTC-04:00",
+    "ext_localtime": "Fri Oct  6 02:10:10 AM EDT 2023",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2023-10-06T00:00:00-04:00",
+    "startTime": "2023-10-06T01:00:00-04:00",
     "endTime": "2023-10-06T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 63,
@@ -113,7 +113,7 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 18.333333333333332
+      "value": 18.88888888888889
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
@@ -122,8 +122,8 @@
     "windSpeed": "5 mph",
     "windDirection": "SE",
     "icon": "https://api.weather.gov/icons/land/night/rain_showers,30?size=medium",
-    "shortForecast": "Chance Rain Showers",
-    "detailedForecast": "Patchy drizzle and patchy fog between 1am and 2am, then a chance of rain showers and patchy drizzle and patchy fog. Mostly cloudy, with a low around 63. Southeast wind around 5 mph. Chance of precipitation is 30%."
+    "shortForecast": "Areas Of Fog",
+    "detailedForecast": "Areas of fog and patchy drizzle before 2am, then areas of fog and a chance of rain showers and patchy drizzle. Mostly cloudy, with a low around 63. Southeast wind around 5 mph. Chance of precipitation is 30%."
   },
   "space_weather": [
     "Space Weather Message Code: WATA20\r\nSerial Number: 969\r\nIssue Time: 2023 Oct 05 1748 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nOct 06:  G1 (Minor)   Oct 07:  G1 (Minor)   Oct 08:  None (Below G1)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -162,7 +162,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1696569010,
+    "lastchange": 1696572610,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
