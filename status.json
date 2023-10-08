@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/10/08 16:55:11 EDT UTC-04:00",
-    "ext_localtime": "Sun Oct  8 04:55:11 PM EDT 2023",
+    "ext_time": "2023/10/08 19:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sun Oct  8 07:10:10 PM EDT 2023",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 63
+        "value": 45
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2023-10-08T15:00:00-04:00",
-    "endTime": "2023-10-08T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 63,
+    "name": "Tonight",
+    "startTime": "2023-10-08T18:00:00-04:00",
+    "endTime": "2023-10-09T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 45,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 6.666666666666667
+      "value": 5.555555555555555
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 53
+      "value": 68
     },
-    "windSpeed": "15 mph",
+    "windSpeed": "5 to 15 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 63. West wind around 15 mph."
+    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+    "shortForecast": "Partly Cloudy",
+    "detailedForecast": "Partly cloudy, with a low around 45. West wind 5 to 15 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1251\r\nIssue Time: 2023 Oct 07 1846 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2023 Oct 07 1807 UTC\r\nEstimated Velocity: 598 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
@@ -158,7 +158,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1696798511,
+    "lastchange": 1696806610,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
