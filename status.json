@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/10/11 11:55:10 EDT UTC-04:00",
-    "ext_localtime": "Wed Oct 11 11:55:10 AM EDT 2023",
+    "ext_time": "2023/10/11 13:10:10 EDT UTC-04:00",
+    "ext_localtime": "Wed Oct 11 01:10:10 PM EDT 2023",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2023-10-11T10:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2023-10-11T12:00:00-04:00",
     "endTime": "2023-10-11T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 69,
@@ -117,13 +117,13 @@
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 69
+      "value": 60
     },
     "windSpeed": "5 mph",
-    "windDirection": "W",
+    "windDirection": "SW",
     "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
     "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 69. West wind around 5 mph."
+    "detailedForecast": "Sunny, with a high near 69. Southwest wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1252\r\nIssue Time: 2023 Oct 09 0513 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2023 Oct 09 0449 UTC\r\nEstimated Velocity: 728 km/s\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1697039710,
+    "lastchange": 1697044210,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
