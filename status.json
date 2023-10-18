@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/10/17 23:55:10 EDT UTC-04:00",
-    "ext_localtime": "Tue Oct 17 11:55:10 PM EDT 2023",
+    "ext_time": "2023/10/18 01:10:10 EDT UTC-04:00",
+    "ext_localtime": "Wed Oct 18 01:10:10 AM EDT 2023",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2023-10-17T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2023-10-18T00:00:00-04:00",
     "endTime": "2023-10-18T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 46,
@@ -117,13 +117,13 @@
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 96
+      "value": 93
     },
-    "windSpeed": "0 to 5 mph",
+    "windSpeed": "0 mph",
     "windDirection": "W",
     "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
     "shortForecast": "Partly Cloudy",
-    "detailedForecast": "Partly cloudy, with a low around 46. West wind 0 to 5 mph."
+    "detailedForecast": "Partly cloudy, with a low around 46. West wind around 0 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WATA20\r\nSerial Number: 971\r\nIssue Time: 2023 Oct 17 1700 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nOct 18:  None (Below G1)   Oct 19:  G1 (Minor)   Oct 20:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nComment: A CME that erupted from the Sun on 16 Oct is expected to pass near Earth on 19 Sep, which will increase the chance for G1 (Minor) geomagnetic storming on 19 and 20 Oct. \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1697601310,
+    "lastchange": 1697605810,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
