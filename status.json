@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/10/25 01:10:10 EDT UTC-04:00",
-    "ext_localtime": "Wed Oct 25 01:10:10 AM EDT 2023",
+    "ext_time": "2023/10/25 04:10:11 EDT UTC-04:00",
+    "ext_localtime": "Wed Oct 25 04:10:11 AM EDT 2023",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2023-10-25T00:00:00-04:00",
+    "startTime": "2023-10-25T03:00:00-04:00",
     "endTime": "2023-10-25T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 44,
@@ -119,11 +119,11 @@
       "unitCode": "wmoUnit:percent",
       "value": 100
     },
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "5 mph",
     "windDirection": "SW",
     "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
     "shortForecast": "Clear",
-    "detailedForecast": "Clear, with a low around 44. Southwest wind 5 to 10 mph."
+    "detailedForecast": "Clear, with a low around 44. Southwest wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4476\r\nIssue Time: 2023 Oct 21 1709 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4475\r\nValid From: 2023 Oct 21 0135 UTC\r\nNow Valid Until: 2023 Oct 22 0300 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -163,7 +163,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1698210610,
+    "lastchange": 1698221411,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
