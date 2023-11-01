@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/11/01 09:10:10 EDT UTC-04:00",
-    "ext_localtime": "Wed Nov  1 09:10:10 AM EDT 2023",
+    "ext_time": "2023/11/01 10:10:10 EDT UTC-04:00",
+    "ext_localtime": "Wed Nov  1 10:10:10 AM EDT 2023",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2023-11-01T06:00:00-04:00",
+    "startTime": "2023-11-01T09:00:00-04:00",
     "endTime": "2023-11-01T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 49,
@@ -109,21 +109,21 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 80
+      "value": 40
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 3.3333333333333335
+      "value": 2.7777777777777777
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 89
+      "value": 79
     },
     "windSpeed": "10 to 15 mph",
     "windDirection": "N",
-    "icon": "https://api.weather.gov/icons/land/day/rain,80/rain,30?size=medium",
-    "shortForecast": "Light Rain",
-    "detailedForecast": "Rain before 4pm. Mostly cloudy, with a high near 49. North wind 10 to 15 mph. Chance of precipitation is 80%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,40/rain_showers,20?size=medium",
+    "shortForecast": "Chance Rain Showers",
+    "detailedForecast": "A chance of rain showers before 3pm. Mostly cloudy, with a high near 49. North wind 10 to 15 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3377\r\nIssue Time: 2023 Nov 01 1218 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3376\r\nBegin Time: 2023 Oct 29 1520 UTC\r\nYesterday Maximum 2MeV Flux: 1705 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1698844210,
+    "lastchange": 1698847810,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
