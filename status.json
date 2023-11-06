@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/11/05 18:10:11 EST UTC-05:00",
-    "ext_localtime": "Sun Nov  5 06:10:11 PM EST 2023",
+    "ext_time": "2023/11/05 19:10:10 EST UTC-05:00",
+    "ext_localtime": "Sun Nov  5 07:10:10 PM EST 2023",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,36 +94,36 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 66
+        "value": 42
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2023-11-05T15:00:00-05:00",
-    "endTime": "2023-11-05T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 66,
+    "name": "Tonight",
+    "startTime": "2023-11-05T18:00:00-05:00",
+    "endTime": "2023-11-06T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 42,
     "temperatureUnit": "F",
-    "temperatureTrend": "falling",
+    "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
       "value": null
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 7.222222222222222
+      "value": 6.666666666666667
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 57
+      "value": 82
     },
-    "windSpeed": "5 mph",
+    "windSpeed": "5 to 10 mph",
     "windDirection": "N",
-    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-    "shortForecast": "Sunny",
-    "detailedForecast": "Sunny. High near 66, with temperatures falling to around 58 in the afternoon. North wind around 5 mph."
+    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+    "shortForecast": "Partly Cloudy",
+    "detailedForecast": "Partly cloudy, with a low around 42. North wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK05\r\nSerial Number: 1828\r\nIssue Time: 2023 Nov 05 2230 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 5 expected\r\nExtension to Serial Number: 1827\r\nValid From: 2023 Nov 05 0845 UTC\r\nNow Valid Until: 2023 Nov 06 1200 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -180,7 +180,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1699225811,
+    "lastchange": 1699229410,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
