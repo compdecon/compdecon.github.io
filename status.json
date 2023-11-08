@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/11/07 23:55:10 EST UTC-05:00",
-    "ext_localtime": "Tue Nov  7 11:55:10 PM EST 2023",
+    "ext_time": "2023/11/08 01:10:10 EST UTC-05:00",
+    "ext_localtime": "Wed Nov  8 01:10:10 AM EST 2023",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2023-11-07T21:00:00-05:00",
+    "name": "Overnight",
+    "startTime": "2023-11-08T00:00:00-05:00",
     "endTime": "2023-11-08T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 40,
@@ -113,23 +113,21 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 8.333333333333334
+      "value": 5
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
       "value": 73
     },
-    "windSpeed": "10 to 15 mph",
+    "windSpeed": "10 mph",
     "windDirection": "NW",
     "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
     "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 40. Northwest wind 10 to 15 mph."
+    "detailedForecast": "Mostly clear, with a low around 40. Northwest wind around 10 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: WATA30\r\nSerial Number: 223\r\nIssue Time: 2023 Nov 07 1639 UTC\r\n\r\nCANCEL WATCH: Geomagnetic Storm Category G2 Predicted\r\nCancel Serial Number: 222\r\nOriginal Issue Time: 2023 Nov 06 2024 UTC\r\n\r\nComment: Current geomagnetic conditions do not warrant this Watch.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3381\r\nIssue Time: 2023 Nov 07 1624 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2023 Nov 07 1600 UTC\r\nStation: GOES16\r\n \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
-    "Space Weather Message Code: ALTK05\r\nSerial Number: 1529\r\nIssue Time: 2023 Nov 07 0230 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\nThreshold Reached: 2023 Nov 07 0226 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: ALTK05\r\nSerial Number: 1528\r\nIssue Time: 2023 Nov 07 0007 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\nThreshold Reached: 2023 Nov 06 2359 UTC\r\nSynoptic Period: 2100-0000 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2410\r\nIssue Time: 2023 Nov 08 0424 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2023 Nov 08 0422 UTC\r\nSynoptic Period: 0300-0600 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4497\r\nIssue Time: 2023 Nov 08 0359 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2023 Nov 08 0359 UTC\r\nValid To: 2023 Nov 08 1200 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -160,7 +158,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1699419310,
+    "lastchange": 1699423810,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
