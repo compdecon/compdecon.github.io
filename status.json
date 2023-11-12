@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/11/12 13:10:10 EST UTC-05:00",
-    "ext_localtime": "Sun Nov 12 01:10:10 PM EST 2023",
+    "ext_time": "2023/11/12 16:10:11 EST UTC-05:00",
+    "ext_localtime": "Sun Nov 12 04:10:11 PM EST 2023",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2023-11-12T12:00:00-05:00",
+    "startTime": "2023-11-12T15:00:00-05:00",
     "endTime": "2023-11-12T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 47,
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 0
+      "value": -1.1111111111111112
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
       "value": 60
     },
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "5 mph",
     "windDirection": "N",
     "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
     "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 47. North wind 5 to 10 mph."
+    "detailedForecast": "Mostly sunny, with a high near 47. North wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2413\r\nIssue Time: 2023 Nov 12 0820 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\nThreshold Reached: 2023 Nov 12 0820 UTC\r\nSynoptic Period: 0600-0900 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -159,7 +159,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1699812610,
+    "lastchange": 1699823411,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
