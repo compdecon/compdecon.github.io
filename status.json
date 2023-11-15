@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/11/15 13:10:10 EST UTC-05:00",
-    "ext_localtime": "Wed Nov 15 01:10:10 PM EST 2023",
+    "ext_time": "2023/11/15 16:10:11 EST UTC-05:00",
+    "ext_localtime": "Wed Nov 15 04:10:11 PM EST 2023",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,29 +101,29 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2023-11-15T12:00:00-05:00",
+    "startTime": "2023-11-15T15:00:00-05:00",
     "endTime": "2023-11-15T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 54,
     "temperatureUnit": "F",
-    "temperatureTrend": "falling",
+    "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
       "value": null
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 1.6666666666666667
+      "value": 2.7777777777777777
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 60
+      "value": 61
     },
-    "windSpeed": "5 mph",
-    "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-    "shortForecast": "Partly Sunny",
-    "detailedForecast": "Partly sunny. High near 54, with temperatures falling to around 48 in the afternoon. Southwest wind around 5 mph."
+    "windSpeed": "10 mph",
+    "windDirection": "S",
+    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny, with a high near 54. South wind around 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4504\r\nIssue Time: 2023 Nov 15 1350 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2023 Nov 15 1349 UTC\r\nValid To: 2023 Nov 15 2100 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1700071810,
+    "lastchange": 1700082611,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
