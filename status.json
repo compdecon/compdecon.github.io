@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/11/15 18:10:10 EST UTC-05:00",
-    "ext_localtime": "Wed Nov 15 06:10:10 PM EST 2023",
+    "ext_time": "2023/11/15 19:10:10 EST UTC-05:00",
+    "ext_localtime": "Wed Nov 15 07:10:10 PM EST 2023",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 54
+        "value": 39
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2023-11-15T15:00:00-05:00",
-    "endTime": "2023-11-15T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 54,
+    "name": "Tonight",
+    "startTime": "2023-11-15T18:00:00-05:00",
+    "endTime": "2023-11-16T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 39,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 2.7777777777777777
+      "value": 3.888888888888889
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 61
+      "value": 89
     },
-    "windSpeed": "10 mph",
-    "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 54. South wind around 10 mph."
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "SW",
+    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+    "shortForecast": "Partly Cloudy",
+    "detailedForecast": "Partly cloudy, with a low around 39. Southwest wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4505\r\nIssue Time: 2023 Nov 15 2013 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4504\r\nValid From: 2023 Nov 15 1349 UTC\r\nNow Valid Until: 2023 Nov 16 0300 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -158,7 +158,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1700089810,
+    "lastchange": 1700093410,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
