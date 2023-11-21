@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/11/21 01:10:11 EST UTC-05:00",
-    "ext_localtime": "Tue Nov 21 01:10:11 AM EST 2023",
+    "ext_time": "2023/11/21 03:10:10 EST UTC-05:00",
+    "ext_localtime": "Tue Nov 21 03:10:10 AM EST 2023",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,7 +126,7 @@
     "detailedForecast": "Mostly cloudy, with a low around 36. Northeast wind 5 to 10 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: WATA20\r\nSerial Number: 978\r\nIssue Time: 2023 Nov 20 1711 UTC\r\n\r\nCANCEL WATCH: Geomagnetic Storm Category G1 Predicted\r\nCancel Serial Number: 977\r\nOriginal Issue Time: 2023 Nov 17 1654 UTC\r\n\r\nComment: The solar wind environment is not likely to drive G1 geomagnetic storm levels.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4506\r\nIssue Time: 2023 Nov 21 0635 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2023 Nov 21 0635 UTC\r\nValid To: 2023 Nov 21 1200 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1700547011,
+    "lastchange": 1700554210,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
