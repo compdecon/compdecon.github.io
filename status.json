@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/11/23 01:10:10 EST UTC-05:00",
-    "ext_localtime": "Thu Nov 23 01:10:10 AM EST 2023",
+    "ext_time": "2023/11/23 04:10:10 EST UTC-05:00",
+    "ext_localtime": "Thu Nov 23 04:10:10 AM EST 2023",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 41
+        "value": 40
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2023-11-23T00:00:00-05:00",
+    "startTime": "2023-11-23T03:00:00-05:00",
     "endTime": "2023-11-23T06:00:00-05:00",
     "isDaytime": false,
-    "temperature": 41,
+    "temperature": 40,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 6.666666666666667
+      "value": 6.111111111111111
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 93
+      "value": 86
     },
-    "windSpeed": "10 to 15 mph",
+    "windSpeed": "15 mph",
     "windDirection": "NW",
     "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
     "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a low around 41. Northwest wind 10 to 15 mph."
+    "detailedForecast": "Mostly cloudy, with a low around 40. Northwest wind around 15 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4511\r\nIssue Time: 2023 Nov 22 2356 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4510\r\nValid From: 2023 Nov 21 0635 UTC\r\nNow Valid Until: 2023 Nov 23 0600 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -163,7 +163,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1700719810,
+    "lastchange": 1700730610,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
