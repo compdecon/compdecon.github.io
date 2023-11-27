@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/11/26 19:10:11 EST UTC-05:00",
-    "ext_localtime": "Sun Nov 26 07:10:11 PM EST 2023",
+    "ext_time": "2023/11/26 22:10:10 EST UTC-05:00",
+    "ext_localtime": "Sun Nov 26 10:10:10 PM EST 2023",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2023-11-26T18:00:00-05:00",
+    "startTime": "2023-11-26T21:00:00-05:00",
     "endTime": "2023-11-27T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 42,
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 10.555555555555555
+      "value": 11.11111111111111
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 96
+      "value": 100
     },
     "windSpeed": "10 to 15 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/night/tsra,90/tsra,70?size=medium",
+    "icon": "https://api.weather.gov/icons/land/night/tsra,90/tsra,60?size=medium",
     "shortForecast": "Rain",
-    "detailedForecast": "Rain likely before 7pm, then rain and a slight chance of thunderstorms between 7pm and 1am, then a slight chance of thunderstorms and a slight chance of rain between 1am and 2am. Mostly cloudy, with a low around 42. Southwest wind 10 to 15 mph. Chance of precipitation is 90%. New rainfall amounts between three quarters and one inch possible."
+    "detailedForecast": "Rain and a slight chance of thunderstorms before 2am. Mostly cloudy, with a low around 42. Southwest wind 10 to 15 mph. Chance of precipitation is 90%. New rainfall amounts between three quarters and one inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4515\r\nIssue Time: 2023 Nov 26 1155 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4514\r\nValid From: 2023 Nov 25 0422 UTC\r\nNow Valid Until: 2023 Nov 26 1800 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -159,7 +159,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1701043811,
+    "lastchange": 1701054610,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
