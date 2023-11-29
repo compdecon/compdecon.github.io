@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/11/29 11:55:10 EST UTC-05:00",
-    "ext_localtime": "Wed Nov 29 11:55:10 AM EST 2023",
+    "ext_time": "2023/11/29 13:10:11 EST UTC-05:00",
+    "ext_localtime": "Wed Nov 29 01:10:11 PM EST 2023",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2023-11-29T10:00:00-05:00",
+    "name": "This Afternoon",
+    "startTime": "2023-11-29T12:00:00-05:00",
     "endTime": "2023-11-29T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 39,
@@ -117,13 +117,13 @@
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 51
+      "value": 49
     },
     "windSpeed": "10 mph",
-    "windDirection": "W",
+    "windDirection": "SW",
     "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
     "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 39. West wind around 10 mph."
+    "detailedForecast": "Mostly sunny, with a high near 39. Southwest wind around 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1257\r\nIssue Time: 2023 Nov 28 2027 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2023 Nov 28 1959 UTC\r\nEstimated Velocity: 854 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
@@ -164,7 +164,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1701276910,
+    "lastchange": 1701281411,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
