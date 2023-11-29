@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/11/29 04:10:10 EST UTC-05:00",
-    "ext_localtime": "Wed Nov 29 04:10:10 AM EST 2023",
+    "ext_time": "2023/11/29 07:10:10 EST UTC-05:00",
+    "ext_localtime": "Wed Nov 29 07:10:10 AM EST 2023",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 22
+        "value": 39
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2023-11-29T03:00:00-05:00",
-    "endTime": "2023-11-29T06:00:00-05:00",
-    "isDaytime": false,
-    "temperature": 22,
+    "name": "Today",
+    "startTime": "2023-11-29T06:00:00-05:00",
+    "endTime": "2023-11-29T18:00:00-05:00",
+    "isDaytime": true,
+    "temperature": 39,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": -8.88888888888889
+      "value": -7.777777777777778
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 71
+      "value": 65
     },
-    "windSpeed": "10 to 15 mph",
+    "windSpeed": "10 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-    "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 22. West wind 10 to 15 mph."
+    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny, with a high near 39. West wind around 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1257\r\nIssue Time: 2023 Nov 28 2027 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2023 Nov 28 1959 UTC\r\nEstimated Velocity: 854 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
@@ -164,7 +164,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1701249010,
+    "lastchange": 1701259810,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
