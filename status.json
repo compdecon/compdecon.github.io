@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/11/30 22:10:10 EST UTC-05:00",
-    "ext_localtime": "Thu Nov 30 10:10:10 PM EST 2023",
+    "ext_time": "2023/12/01 01:10:10 EST UTC-05:00",
+    "ext_localtime": "Fri Dec  1 01:10:10 AM EST 2023",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2023-11-30T21:00:00-05:00",
+    "name": "Overnight",
+    "startTime": "2023-12-01T00:00:00-05:00",
     "endTime": "2023-12-01T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 36,
@@ -117,7 +117,7 @@
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 89
+      "value": 92
     },
     "windSpeed": "10 mph",
     "windDirection": "SW",
@@ -126,7 +126,12 @@
     "detailedForecast": "Mostly clear, with a low around 36. Southwest wind around 10 mph."
   },
   "space_weather": [
-    "No alerts today"
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4517\r\nIssue Time: 2023 Dec 01 0452 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4516\r\nValid From: 2023 Dec 01 0028 UTC\r\nNow Valid Until: 2023 Dec 01 2100 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2416\r\nIssue Time: 2023 Dec 01 0206 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2023 Dec 01 0205 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARK05\r\nSerial Number: 1840\r\nIssue Time: 2023 Dec 01 0036 UTC\r\n\r\nWARNING: Geomagnetic K-index of 5 expected\r\nValid From: 2023 Dec 01 0035 UTC\r\nValid To: 2023 Dec 01 0600 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+    "Space Weather Message Code: SUMSUD\r\nSerial Number: 264\r\nIssue Time: 2023 Dec 01 0032 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse\r\nObserved: 2023 Dec 01 0021 UTC\r\nDeviation: 36 nT\r\nStation: FRD\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4516\r\nIssue Time: 2023 Dec 01 0029 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2023 Dec 01 0028 UTC\r\nValid To: 2023 Dec 01 0900 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARSUD\r\nSerial Number: 217\r\nIssue Time: 2023 Dec 01 0013 UTC\r\n\r\nWARNING: Geomagnetic Sudden Impulse expected\r\nValid From: 2023 Dec 01 0030 UTC\r\nValid To: 2023 Dec 01 0130 UTC\r\nIP Shock Passage Observed: 2023 Dec 01 0000 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation"
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -157,7 +162,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1701400210,
+    "lastchange": 1701411010,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
