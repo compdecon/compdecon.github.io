@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/12/02 18:10:10 EST UTC-05:00",
-    "ext_localtime": "Sat Dec  2 06:10:10 PM EST 2023",
+    "ext_time": "2023/12/02 19:10:10 EST UTC-05:00",
+    "ext_localtime": "Sat Dec  2 07:10:10 PM EST 2023",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,36 +94,36 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 55
+        "value": 47
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2023-12-02T15:00:00-05:00",
-    "endTime": "2023-12-02T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 55,
+    "name": "Tonight",
+    "startTime": "2023-12-02T18:00:00-05:00",
+    "endTime": "2023-12-03T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 47,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": null
+      "value": 70
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 10
+      "value": 9.444444444444445
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 89
+      "value": 100
     },
-    "windSpeed": "5 mph",
-    "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-    "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a high near 55. Southwest wind around 5 mph."
+    "windSpeed": "0 to 10 mph",
+    "windDirection": "SE",
+    "icon": "https://api.weather.gov/icons/land/night/fog/rain,70?size=medium",
+    "shortForecast": "Areas Of Fog",
+    "detailedForecast": "Areas of fog between 7pm and 1am, then areas of fog and a chance of rain between 1am and 2am, then rain likely and patchy fog. Cloudy, with a low around 47. Southeast wind 0 to 10 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WATA30\r\nSerial Number: 226\r\nIssue Time: 2023 Dec 02 2121 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G2 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nDec 03:  None (Below G1)   Dec 04:  G2 (Moderate)   Dec 05:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
@@ -160,7 +160,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1701558610,
+    "lastchange": 1701562210,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
