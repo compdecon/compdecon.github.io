@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/12/11 10:10:10 EST UTC-05:00",
-    "ext_localtime": "Mon Dec 11 10:10:10 AM EST 2023",
+    "ext_time": "2023/12/11 11:10:10 EST UTC-05:00",
+    "ext_localtime": "Mon Dec 11 11:10:10 AM EST 2023",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2023-12-11T09:00:00-05:00",
+    "startTime": "2023-12-11T10:00:00-05:00",
     "endTime": "2023-12-11T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 46,
@@ -109,7 +109,7 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 40
+      "value": 20
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
@@ -119,11 +119,11 @@
       "unitCode": "wmoUnit:percent",
       "value": 85
     },
-    "windSpeed": "15 to 25 mph",
+    "windSpeed": "15 to 20 mph",
     "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/day/rain,40/wind_bkn?size=medium",
-    "shortForecast": "Chance Light Rain then Partly Sunny",
-    "detailedForecast": "A chance of rain before 11am. Partly sunny, with a high near 46. Northwest wind 15 to 25 mph, with gusts as high as 40 mph. Chance of precipitation is 40%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/day/rain,20/sct?size=medium",
+    "shortForecast": "Slight Chance Light Rain then Mostly Sunny",
+    "detailedForecast": "A slight chance of rain before 11am. Mostly sunny, with a high near 46. Northwest wind 15 to 20 mph, with gusts as high as 35 mph. Chance of precipitation is 20%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3388\r\nIssue Time: 2023 Dec 09 1333 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3387\r\nBegin Time: 2023 Dec 08 1200 UTC\r\nYesterday Maximum 2MeV Flux: 1399 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1702307410,
+    "lastchange": 1702311010,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM, Wednesday from 12 - 5PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
