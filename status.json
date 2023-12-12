@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/12/12 07:10:10 EST UTC-05:00",
-    "ext_localtime": "Tue Dec 12 07:10:10 AM EST 2023",
+    "ext_time": "2023/12/12 09:10:11 EST UTC-05:00",
+    "ext_localtime": "Tue Dec 12 09:10:11 AM EST 2023",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,7 +126,7 @@
     "detailedForecast": "Sunny, with a high near 43. Southwest wind 5 to 10 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3389\r\nIssue Time: 2023 Dec 11 1420 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2023 Dec 11 1410 UTC\r\nStation: GOES16\r\n \r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4525\r\nIssue Time: 2023 Dec 12 1252 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2023 Dec 12 1251 UTC\r\nValid To: 2023 Dec 12 1800 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1702383010,
+    "lastchange": 1702390211,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
