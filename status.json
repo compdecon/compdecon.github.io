@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2023/12/18 18:55:10 EST UTC-05:00",
-    "ext_localtime": "Mon Dec 18 06:55:10 PM EST 2023",
+    "ext_time": "2023/12/18 21:55:10 EST UTC-05:00",
+    "ext_localtime": "Mon Dec 18 09:55:10 PM EST 2023",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": true
+        "value": false
       },
       {
         "location": "Front door",
-        "value": true
+        "value": false
       }
     ],
     "humidity": [
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2023-12-18T18:00:00-05:00",
+    "startTime": "2023-12-18T21:00:00-05:00",
     "endTime": "2023-12-19T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 34,
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 3.3333333333333335
+      "value": 1.6666666666666667
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
       "value": 75
     },
-    "windSpeed": "10 to 15 mph",
+    "windSpeed": "10 mph",
     "windDirection": "W",
     "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
     "shortForecast": "Partly Cloudy",
-    "detailedForecast": "Partly cloudy, with a low around 34. West wind 10 to 15 mph, with gusts as high as 30 mph. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "Partly cloudy, with a low around 34. West wind around 10 mph, with gusts as high as 30 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4537\r\nIssue Time: 2023 Dec 18 2249 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4536\r\nValid From: 2023 Dec 17 0155 UTC\r\nNow Valid Until: 2023 Dec 19 0900 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -163,9 +163,9 @@
     {}
   ],
   "state": {
-    "open": true,
-    "lastchange": 1702943710,
-    "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight Wednesday from 12 - 5PM and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": false,
+    "lastchange": 1702954510,
+    "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
     "blogUpdate": "",
