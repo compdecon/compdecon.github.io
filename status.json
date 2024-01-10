@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/01/10 11:55:10 EST UTC-05:00",
-    "ext_localtime": "Wed Jan 10 11:55:10 AM EST 2024",
+    "ext_time": "2024/01/10 15:10:10 EST UTC-05:00",
+    "ext_localtime": "Wed Jan 10 03:10:10 PM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,7 +126,7 @@
     "detailedForecast": "Mostly cloudy, with a high near 51. East wind around 3 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: SUMPX1\r\nSerial Number: 106\r\nIssue Time: 2024 Jan 05 1936 UTC\r\n\r\nSUMMARY: Proton Event 10MeV Integral Flux exceeded 10pfu\r\nBegin Time: 2024 Jan 03 2005 UTC\r\nMaximum Time: 2024 Jan 04 0835 UTC\r\nEnd Time: 2024 Jan 04 2215 UTC\r\nMaximum 10MeV Flux: 20 pfu\r\nNOAA Scale: S1 - Minor\r\n\r\nComment: Peak value of 25 pfu at 05/0035 UTC and end time of 04/2215 UTC suspect due to sensor issue. Best known good value used for both peak and end time values instead.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation"
+    "Space Weather Message Code: SUM10R\r\nSerial Number: 775\r\nIssue Time: 2024 Jan 10 1920 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2024 Jan 10 1901 UTC\r\nMaximum Time: 2024 Jan 10 1902 UTC\r\nEnd Time: 2024 Jan 10 1904 UTC\r\nDuration: 3 minutes\r\nPeak Flux: 229 sfu\r\nLatest Penticton Noon Flux: 186 sfu\r\n\r\n\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -157,7 +157,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1704905710,
+    "lastchange": 1704917410,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
