@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/02/22 03:10:10 EST UTC-05:00",
-    "ext_localtime": "Thu Feb 22 03:10:10 AM EST 2024",
+    "ext_time": "2024/02/22 06:10:10 EST UTC-05:00",
+    "ext_localtime": "Thu Feb 22 06:10:10 AM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,6 +126,7 @@
     "detailedForecast": "Sunny, with a high near 42. Southwest wind 15 to 20 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1276\r\nIssue Time: 2024 Feb 22 1008 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2024 Feb 22 0944 UTC\r\nEstimated Velocity: 154 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
     "Space Weather Message Code: SUMX01\r\nSerial Number: 138\r\nIssue Time: 2024 Feb 22 0647 UTC\r\n\r\nSUMMARY: X-ray Event exceeded X1\r\nBegin Time: 2024 Feb 22 0617 UTC\r\nMaximum Time: 2024 Feb 22 0632 UTC\r\nEnd Time: 2024 Feb 22 0640 UTC\r\nX-ray Class: X1.7\r\nOptical Class: 2b\r\nLocation: N14E35\r\nNOAA Scale: R3 - Strong\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact consists of large portions of the sunlit side of Earth, strongest at the sub-solar point.\r\nRadio - Wide area blackout of HF (high frequency) radio communication for about an hour.",
     "Space Weather Message Code: ALTXMF\r\nSerial Number: 344\r\nIssue Time: 2024 Feb 22 0631 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2024 Feb 22 0629 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap."
   ],
@@ -158,7 +159,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1708589410,
+    "lastchange": 1708600210,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
