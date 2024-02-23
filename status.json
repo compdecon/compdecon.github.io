@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/02/22 18:10:10 EST UTC-05:00",
-    "ext_localtime": "Thu Feb 22 06:10:10 PM EST 2024",
+    "ext_time": "2024/02/22 21:10:10 EST UTC-05:00",
+    "ext_localtime": "Thu Feb 22 09:10:10 PM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,6 +126,7 @@
     "detailedForecast": "Sunny, with a high near 42. Southwest wind 15 to 20 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: SUM10R\r\nSerial Number: 784\r\nIssue Time: 2024 Feb 22 2341 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2024 Feb 22 2224 UTC\r\nMaximum Time: 2024 Feb 22 2225 UTC\r\nEnd Time: 2024 Feb 22 2235 UTC\r\nDuration: 11 minutes\r\nPeak Flux: 240 sfu\r\nLatest Penticton Noon Flux: 173 sfu\r\n\r\n\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
     "Space Weather Message Code: SUMX01\r\nSerial Number: 139\r\nIssue Time: 2024 Feb 22 2253 UTC\r\n\r\nSUMMARY: X-ray Event exceeded X1\r\nBegin Time: 2024 Feb 22 2208 UTC\r\nMaximum Time: 2024 Feb 22 2234 UTC\r\nEnd Time: 2024 Feb 22 2243 UTC\r\nX-ray Class: X6.3\r\nOptical Class: 3b\r\nLocation: N22E24\r\nNOAA Scale: R3 - Strong\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact consists of large portions of the sunlit side of Earth, strongest at the sub-solar point.\r\nRadio - Wide area blackout of HF (high frequency) radio communication for about an hour.",
     "Space Weather Message Code: ALTXMF\r\nSerial Number: 345\r\nIssue Time: 2024 Feb 22 2230 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2024 Feb 22 2225 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
     "Space Weather Message Code: WATA20\r\nSerial Number: 989\r\nIssue Time: 2024 Feb 22 1917 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nFeb 23:  None (Below G1)   Feb 24:  None (Below G1)   Feb 25:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -163,7 +164,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1708643410,
+    "lastchange": 1708654210,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
