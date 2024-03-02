@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/03/01 06:10:10 EST UTC-05:00",
-    "ext_localtime": "Fri Mar  1 06:10:10 AM EST 2024",
+    "ext_time": "2024/03/01 20:10:11 EST UTC-05:00",
+    "ext_localtime": "Fri Mar  1 08:10:11 PM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,40 +94,12 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 42
+        "value": -1
       }
     ]
   },
-  "ext_weather": {
-    "number": 1,
-    "name": "Today",
-    "startTime": "2024-02-18T11:00:00-05:00",
-    "endTime": "2024-02-18T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 42,
-    "temperatureUnit": "F",
-    "temperatureTrend": null,
-    "probabilityOfPrecipitation": {
-      "unitCode": "wmoUnit:percent",
-      "value": null
-    },
-    "dewpoint": {
-      "unitCode": "wmoUnit:degC",
-      "value": -7.777777777777778
-    },
-    "relativeHumidity": {
-      "unitCode": "wmoUnit:percent",
-      "value": 45
-    },
-    "windSpeed": "15 to 20 mph",
-    "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-    "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 42. Southwest wind 15 to 20 mph."
-  },
-  "space_weather": [
-    "No alerts today"
-  ],
+  "ext_weather": {},
+  "space_weather": [],
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -157,7 +129,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1709291410,
+    "lastchange": 1709341811,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
