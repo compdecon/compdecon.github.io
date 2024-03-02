@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/03/01 20:10:11 EST UTC-05:00",
-    "ext_localtime": "Fri Mar  1 08:10:11 PM EST 2024",
+    "ext_time": "2024/03/01 21:10:11 EST UTC-05:00",
+    "ext_localtime": "Fri Mar  1 09:10:11 PM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -99,7 +99,9 @@
     ]
   },
   "ext_weather": {},
-  "space_weather": [],
+  "space_weather": [
+    "No alerts today"
+  ],
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -129,7 +131,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1709341811,
+    "lastchange": 1709345411,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
