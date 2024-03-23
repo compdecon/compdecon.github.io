@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/03/22 23:55:10 EDT UTC-04:00",
-    "ext_localtime": "Fri Mar 22 11:55:10 PM EDT 2024",
+    "ext_time": "2024/03/23 00:10:11 EDT UTC-04:00",
+    "ext_localtime": "Sat Mar 23 12:10:11 AM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,9 +126,10 @@
     "detailedForecast": "Mostly cloudy. High near 54, with temperatures falling to around 47 in the afternoon. East wind 5 to 10 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: WATA20\r\nSerial Number: 992\r\nIssue Time: 2024 Mar 22 2013 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nMar 23:  None (Below G1)   Mar 24:  None (Below G1)   Mar 25:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4565\r\nIssue Time: 2024 Mar 22 1155 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4564\r\nValid From: 2024 Mar 21 0304 UTC\r\nNow Valid Until: 2024 Mar 22 1500 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4564\r\nIssue Time: 2024 Mar 22 0855 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4563\r\nValid From: 2024 Mar 21 0304 UTC\r\nNow Valid Until: 2024 Mar 22 1200 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: SUM10R\r\nSerial Number: 787\r\nIssue Time: 2024 Mar 23 0233 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2024 Mar 23 0107 UTC\r\nMaximum Time: 2024 Mar 23 0117 UTC\r\nEnd Time: 2024 Mar 23 0213 UTC\r\nDuration: 66 minutes\r\nPeak Flux: 240 sfu\r\nLatest Penticton Noon Flux: 198 sfu\r\n\r\n\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
+    "Space Weather Message Code: SUMX01\r\nSerial Number: 140\r\nIssue Time: 2024 Mar 23 0231 UTC\r\n\r\nSUMMARY: X-ray Event exceeded X1\r\nBegin Time: 2024 Mar 23 0058 UTC\r\nMaximum Time: 2024 Mar 23 0133 UTC\r\nEnd Time: 2024 Mar 23 0222 UTC\r\nX-ray Class: X1.1\r\nLocation: N17E03\r\nNOAA Scale: R3 - Strong\r\n\r\nComment: Location is difficult to ascertain with certainty because both Region 3614 and Region 3615 (S13E10) erupted with nearly similar intensity.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact consists of large portions of the sunlit side of Earth, strongest at the sub-solar point.\r\nRadio - Wide area blackout of HF (high frequency) radio communication for about an hour.",
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1283\r\nIssue Time: 2024 Mar 23 0202 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2024 Mar 23 0109 UTC\r\nEstimated Velocity: 791 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
+    "Space Weather Message Code: ALTXMF\r\nSerial Number: 349\r\nIssue Time: 2024 Mar 23 0119 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2024 Mar 23 0116 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -159,7 +160,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1711166110,
+    "lastchange": 1711167011,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
