@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/03/29 23:55:11 EDT UTC-04:00",
-    "ext_localtime": "Fri Mar 29 11:55:11 PM EDT 2024",
+    "ext_time": "2024/03/30 18:10:11 EDT UTC-04:00",
+    "ext_localtime": "Sat Mar 30 06:10:11 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,13 +100,7 @@
   },
   "ext_weather": {},
   "space_weather": [
-    "Space Weather Message Code: SUMXM5\r\nSerial Number: 212\r\nIssue Time: 2024 Mar 28 2112 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2024 Mar 28 2029 UTC\r\nMaximum Time: 2024 Mar 28 2056 UTC\r\nEnd Time: 2024 Mar 28 2101 UTC\r\nX-ray Class: X1.1\r\nOptical Class: 3b\r\nLocation: S14W61\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
-    "Space Weather Message Code: SUMXM5\r\nSerial Number: 212\r\nIssue Time: 2024 Mar 28 2112 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2024 Mar 28 2029 UTC\r\nMaximum Time: 2024 Mar 28 2056 UTC\r\nEnd Time: 2024 Mar 28 2101 UTC\r\nX-ray Class: X1.1\r\nOptical Class: 3b\r\nLocation: S14W61\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
-    "Space Weather Message Code: ALTXMF\r\nSerial Number: 353\r\nIssue Time: 2024 Mar 28 2045 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2024 Mar 28 2041 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
-    "Space Weather Message Code: SUMXM5\r\nSerial Number: 211\r\nIssue Time: 2024 Mar 28 1633 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2024 Mar 28 1540 UTC\r\nMaximum Time: 2024 Mar 28 1556 UTC\r\nEnd Time: 2024 Mar 28 1603 UTC\r\nX-ray Class: M6.1\r\nOptical Class: 1n\r\nLocation: S13W56\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
-    "Space Weather Message Code: ALTXMF\r\nSerial Number: 352\r\nIssue Time: 2024 Mar 28 1600 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2024 Mar 28 1556 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
-    "Space Weather Message Code: SUMXM5\r\nSerial Number: 210\r\nIssue Time: 2024 Mar 28 0645 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2024 Mar 28 0616 UTC\r\nMaximum Time: 2024 Mar 28 0629 UTC\r\nEnd Time: 2024 Mar 28 0636 UTC\r\nX-ray Class: M7.0\r\nLocation: S13W52\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
-    "Space Weather Message Code: ALTXMF\r\nSerial Number: 351\r\nIssue Time: 2024 Mar 28 0629 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2024 Mar 28 0627 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap."
+    "Space Weather Message Code: ALTXMF\r\nSerial Number: 354\r\nIssue Time: 2024 Mar 30 2116 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2024 Mar 30 2114 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -137,7 +131,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1711770911,
+    "lastchange": 1711836611,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
