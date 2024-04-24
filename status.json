@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/04/23 18:10:10 EDT UTC-04:00",
-    "ext_localtime": "Tue Apr 23 06:10:10 PM EDT 2024",
+    "ext_time": "2024/04/24 12:10:11 EDT UTC-04:00",
+    "ext_localtime": "Wed Apr 24 12:10:11 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {},
   "space_weather": [
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1286\r\nIssue Time: 2024 Apr 23 1916 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2024 Apr 23 1710 UTC\r\nEstimated Velocity: 358 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
-    "Space Weather Message Code: SUM10R\r\nSerial Number: 789\r\nIssue Time: 2024 Apr 23 0357 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2024 Apr 23 0313 UTC\r\nMaximum Time: 2024 Apr 23 0314 UTC\r\nEnd Time: 2024 Apr 23 0315 UTC\r\nDuration: 2 minutes\r\nPeak Flux: 290 sfu\r\nLatest Penticton Noon Flux: 227 sfu\r\n\r\n\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications."
+    "Space Weather Message Code: ALTTP4\r\nSerial Number: 630\r\nIssue Time: 2024 Apr 24 1500 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2024 Apr 24 1440 UTC\r\n\r\n\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1287\r\nIssue Time: 2024 Apr 24 1432 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2024 Apr 24 1415 UTC\r\nEstimated Velocity: 800 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -132,7 +132,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1713910210,
+    "lastchange": 1713975011,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
