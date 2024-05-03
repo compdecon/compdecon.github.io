@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/05/03 07:10:11 EDT UTC-04:00",
-    "ext_localtime": "Fri May  3 07:10:11 AM EDT 2024",
+    "ext_time": "2024/05/03 10:10:10 EDT UTC-04:00",
+    "ext_localtime": "Fri May  3 10:10:10 AM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2024-05-03T06:00:00-04:00",
+    "startTime": "2024-05-03T09:00:00-04:00",
     "endTime": "2024-05-03T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 56,
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 8.88888888888889
+      "value": 8.333333333333334
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 83
+      "value": 77
     },
     "windSpeed": "10 to 15 mph",
     "windDirection": "E",
     "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-    "shortForecast": "Partly Sunny",
-    "detailedForecast": "Partly sunny, with a high near 56. East wind 10 to 15 mph."
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": "Mostly cloudy, with a high near 56. East wind 10 to 15 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP4\r\nSerial Number: 631\r\nIssue Time: 2024 May 03 0251 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2024 May 03 0232 UTC\r\n\r\n\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
@@ -161,7 +161,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1714734611,
+    "lastchange": 1714745410,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
