@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/05/03 18:10:10 EDT UTC-04:00",
-    "ext_localtime": "Fri May  3 06:10:10 PM EDT 2024",
+    "ext_time": "2024/05/03 19:10:10 EDT UTC-04:00",
+    "ext_localtime": "Fri May  3 07:10:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 55
+        "value": 48
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2024-05-03T15:00:00-04:00",
-    "endTime": "2024-05-03T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 55,
+    "name": "Tonight",
+    "startTime": "2024-05-03T18:00:00-04:00",
+    "endTime": "2024-05-04T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 48,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
@@ -117,13 +117,13 @@
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 77
+      "value": 89
     },
-    "windSpeed": "10 to 15 mph",
+    "windSpeed": "5 to 10 mph",
     "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+    "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
     "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a high near 55. East wind 10 to 15 mph."
+    "detailedForecast": "Mostly cloudy, with a low around 48. East wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1289\r\nIssue Time: 2024 May 03 2102 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2024 May 03 2023 UTC\r\nEstimated Velocity: 453 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
@@ -163,7 +163,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1714774210,
+    "lastchange": 1714777810,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
