@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/05/05 16:55:10 EDT UTC-04:00",
-    "ext_localtime": "Sun May  5 04:55:10 PM EDT 2024",
+    "ext_time": "2024/05/05 18:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sun May  5 06:10:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,6 +126,7 @@
     "detailedForecast": "Rain showers likely. Cloudy, with a high near 60. Southeast wind around 15 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4603\r\nIssue Time: 2024 May 05 1932 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2024 May 05 1930 UTC\r\nValid To: 2024 May 06 1200 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: SUMX01\r\nSerial Number: 143\r\nIssue Time: 2024 May 05 1232 UTC\r\n\r\nSUMMARY: X-ray Event exceeded X1\r\nBegin Time: 2024 May 05 1141 UTC\r\nMaximum Time: 2024 May 05 1154 UTC\r\nEnd Time: 2024 May 05 1243 UTC\r\nX-ray Class: X1.2\r\nOptical Class: sn\r\nLocation: N24W24\r\nNOAA Scale: R3 - Strong\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact consists of large portions of the sunlit side of Earth, strongest at the sub-solar point.\r\nRadio - Wide area blackout of HF (high frequency) radio communication for about an hour.",
     "Space Weather Message Code: ALTXMF\r\nSerial Number: 363\r\nIssue Time: 2024 May 05 1152 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2024 May 05 1150 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
     "Space Weather Message Code: SUMXM5\r\nSerial Number: 219\r\nIssue Time: 2024 May 05 1038 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2024 May 05 0953 UTC\r\nMaximum Time: 2024 May 05 1000 UTC\r\nEnd Time: 2024 May 05 1019 UTC\r\nX-ray Class: M7.4\r\nLocation: N26W24\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
@@ -166,7 +167,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1714942510,
+    "lastchange": 1714947010,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
