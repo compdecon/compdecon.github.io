@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/05/08 10:10:10 EDT UTC-04:00",
-    "ext_localtime": "Wed May  8 10:10:10 AM EDT 2024",
+    "ext_time": "2024/05/08 12:10:10 EDT UTC-04:00",
+    "ext_localtime": "Wed May  8 12:10:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,6 +126,7 @@
     "detailedForecast": "A chance of showers and thunderstorms before 11am. Partly sunny, with a high near 83. Southwest wind around 10 mph, with gusts as high as 25 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: WATA30\r\nSerial Number: 231\r\nIssue Time: 2024 May 08 1603 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G2 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nMay 09:  None (Below G1)   May 10:  G1 (Minor)   May 11:  G2 (Moderate)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
     "Space Weather Message Code: SUMXM5\r\nSerial Number: 223\r\nIssue Time: 2024 May 08 1236 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2024 May 08 1126 UTC\r\nMaximum Time: 2024 May 08 1204 UTC\r\nEnd Time: 2024 May 08 1217 UTC\r\nX-ray Class: M8.6\r\nLocation: S35W01\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
     "Space Weather Message Code: ALTXMF\r\nSerial Number: 370\r\nIssue Time: 2024 May 08 1149 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2024 May 08 1147 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
     "Space Weather Message Code: SUMXM5\r\nSerial Number: 222\r\nIssue Time: 2024 May 08 0709 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2024 May 08 0644 UTC\r\nMaximum Time: 2024 May 08 0653 UTC\r\nEnd Time: 2024 May 08 0703 UTC\r\nX-ray Class: M7.1\r\nOptical Class: sf\r\nLocation: S20W12\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
@@ -167,7 +168,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1715177410,
+    "lastchange": 1715184610,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
