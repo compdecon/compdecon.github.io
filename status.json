@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/05/10 09:10:10 EDT UTC-04:00",
-    "ext_localtime": "Fri May 10 09:10:10 AM EDT 2024",
+    "ext_time": "2024/05/10 10:10:10 EDT UTC-04:00",
+    "ext_localtime": "Fri May 10 10:10:10 AM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2024-05-10T06:00:00-04:00",
+    "startTime": "2024-05-10T09:00:00-04:00",
     "endTime": "2024-05-10T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 52,
@@ -121,9 +121,9 @@
     },
     "windSpeed": "15 to 20 mph",
     "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/day/rain,90/rain,80?size=medium",
+    "icon": "https://api.weather.gov/icons/land/day/rain,60/rain,90?size=medium",
     "shortForecast": "Periods Of Light Rain",
-    "detailedForecast": "Periods of rain. Cloudy, with a high near 52. East wind 15 to 20 mph, with gusts as high as 35 mph. Chance of precipitation is 90%. New rainfall amounts between a half and three quarters of an inch possible."
+    "detailedForecast": "Periods of rain. Cloudy, with a high near 52. East wind 15 to 20 mph, with gusts as high as 35 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARPX1\r\nSerial Number: 555\r\nIssue Time: 2024 May 10 1303 UTC\r\n\r\nWARNING: Proton 10MeV Integral Flux above 10pfu expected\r\nValid From: 2024 May 10 1305 UTC\r\nValid To: 2024 May 10 2359 UTC\r\nWarning Condition: Onset\r\nPredicted NOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.",
@@ -162,7 +162,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1715346610,
+    "lastchange": 1715350210,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
