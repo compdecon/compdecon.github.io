@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/05/12 07:10:10 EDT UTC-04:00",
-    "ext_localtime": "Sun May 12 07:10:10 AM EDT 2024",
+    "ext_time": "2024/05/12 09:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sun May 12 09:10:10 AM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,6 +126,7 @@
     "detailedForecast": "Rain showers likely before 5pm. Mostly cloudy, with a high near 54. Southeast wind 5 to 10 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: SUMPX2\r\nSerial Number: 50\r\nIssue Time: 2024 May 12 1103 UTC\r\n\r\nSUMMARY: Proton Event 10MeV Integral Flux exceeded 100pfu\r\nBegin Time: 2024 May 10 1754 UTC\r\nMaximum Time: 2024 May 11 0910 UTC\r\nEnd Time: 2024 May 11 1440 UTC\r\nMaximum 10MeV Flux: 207 pfu\r\nNOAA Scale: S2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
     "Space Weather Message Code: ALTK07\r\nSerial Number: 155\r\nIssue Time: 2024 May 12 0437 UTC\r\n\r\nALERT: Geomagnetic K-index of 7\r\n Threshold Reached: 2024 May 12 0433 UTC\r\nSynoptic Period: 0300-0600 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G3 - Strong\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 50 degrees Geomagnetic Latitude.\r\nInduced Currents - Power system voltage irregularities possible, false alarms may be triggered on some protection devices.\r\nSpacecraft - Systems may experience surface charging; increased drag on low Earth-orbit satellites and orientation problems may occur.\r\nNavigation - Intermittent satellite navigation (GPS) problems, including loss-of-lock and increased range error may occur.\r\nRadio - HF (high frequency) radio may be intermittent.\r\nAurora - Aurora may be seen as low as Pennsylvania to Iowa to Oregon.",
     "Space Weather Message Code: ALTK06\r\nSerial Number: 568\r\nIssue Time: 2024 May 12 0421 UTC\r\n\r\nALERT: Geomagnetic K-index of 6\r\n Threshold Reached: 2024 May 12 0420 UTC\r\nSynoptic Period: 0300-0600 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
     "Space Weather Message Code: ALTK05\r\nSerial Number: 1588\r\nIssue Time: 2024 May 12 0346 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\n Threshold Reached: 2024 May 12 0340 UTC\r\nSynoptic Period: 0300-0600 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -162,7 +163,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1715512210,
+    "lastchange": 1715519410,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM and tomorrow, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
