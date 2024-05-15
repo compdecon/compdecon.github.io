@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/05/15 10:10:10 EDT UTC-04:00",
-    "ext_localtime": "Wed May 15 10:10:10 AM EDT 2024",
+    "ext_time": "2024/05/15 12:10:10 EDT UTC-04:00",
+    "ext_localtime": "Wed May 15 12:10:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,6 +126,12 @@
     "detailedForecast": "Rain showers. Cloudy, with a high near 64. East wind 10 to 20 mph. Chance of precipitation is 90%. New rainfall amounts between a half and three quarters of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3396\r\nIssue Time: 2024 May 15 1533 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2024 May 15 1525 UTC\r\nStation: GOES16\r\n \r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
+    "Space Weather Message Code: SUMX01\r\nSerial Number: 158\r\nIssue Time: 2024 May 15 1513 UTC\r\n\r\nSUMMARY: X-ray Event exceeded X1\r\nBegin Time: 2024 May 15 1420 UTC\r\nMaximum Time: 2024 May 15 1438 UTC\r\nEnd Time: 2024 May 15 1451 UTC\r\nX-ray Class: X2.9\r\nLocation: S07E90\r\nNOAA Scale: R3 - Strong\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact consists of large portions of the sunlit side of Earth, strongest at the sub-solar point.\r\nRadio - Wide area blackout of HF (high frequency) radio communication for about an hour.",
+    "Space Weather Message Code: ALTTP4\r\nSerial Number: 645\r\nIssue Time: 2024 May 15 1509 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2024 May 15 1427 UTC\r\n\r\n\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1301\r\nIssue Time: 2024 May 15 1508 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2024 May 15 1427 UTC\r\nEstimated Velocity: 1064 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
+    "Space Weather Message Code: ALTXMF\r\nSerial Number: 385\r\nIssue Time: 2024 May 15 1427 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2024 May 15 1424 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
+    "Space Weather Message Code: SUMPX2\r\nSerial Number: 51\r\nIssue Time: 2024 May 15 1329 UTC\r\n\r\nSUMMARY: Proton Event 10MeV Integral Flux exceeded 100pfu\r\nBegin Time: 2024 May 14 0315 UTC\r\nMaximum Time: 2024 May 14 0505 UTC\r\nEnd Time: 2024 May 14 0650 UTC\r\nMaximum 10MeV Flux: 121 pfu\r\nNOAA Scale: S2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
     "Space Weather Message Code: SUM10R\r\nSerial Number: 804\r\nIssue Time: 2024 May 15 1149 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2024 May 15 1039 UTC\r\nMaximum Time: 2024 May 15 1044 UTC\r\nEnd Time: 2024 May 15 1048 UTC\r\nDuration: 9 minutes\r\nPeak Flux: 250 sfu\r\nLatest Penticton Noon Flux: 220 sfu\r\n\r\n\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
     "Space Weather Message Code: SUMX01\r\nSerial Number: 157\r\nIssue Time: 2024 May 15 0905 UTC\r\n\r\nSUMMARY: X-ray Event exceeded X1\r\nBegin Time: 2024 May 15 0818 UTC\r\nMaximum Time: 2024 May 15 0837 UTC\r\nEnd Time: 2024 May 15 0852 UTC\r\nX-ray Class: X3.4\r\nOptical Class: na\r\nLocation: S22W90\r\nNOAA Scale: R3 - Strong\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact consists of large portions of the sunlit side of Earth, strongest at the sub-solar point.\r\nRadio - Wide area blackout of HF (high frequency) radio communication for about an hour.",
     "Space Weather Message Code: ALTTP4\r\nSerial Number: 644\r\nIssue Time: 2024 May 15 0903 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2024 May 15 0827 UTC\r\n\r\n\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
@@ -161,7 +167,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1715782210,
+    "lastchange": 1715789410,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
