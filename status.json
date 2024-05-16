@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/05/16 15:10:11 EDT UTC-04:00",
-    "ext_localtime": "Thu May 16 03:10:11 PM EDT 2024",
+    "ext_time": "2024/05/16 16:10:10 EDT UTC-04:00",
+    "ext_localtime": "Thu May 16 04:10:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2024-05-16T12:00:00-04:00",
+    "startTime": "2024-05-16T15:00:00-04:00",
     "endTime": "2024-05-16T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 63,
@@ -117,13 +117,13 @@
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 87
+      "value": 90
     },
-    "windSpeed": "15 to 20 mph",
+    "windSpeed": "15 mph",
     "windDirection": "N",
     "icon": "https://api.weather.gov/icons/land/day/rain,30?size=medium",
-    "shortForecast": "Patchy Drizzle",
-    "detailedForecast": "Patchy drizzle and a slight chance of rain before 5pm, then areas of drizzle and a chance of rain and patchy fog. Cloudy, with a high near 63. North wind 15 to 20 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "shortForecast": "Areas Of Drizzle",
+    "detailedForecast": "Areas of drizzle and a chance of rain before 5pm, then areas of drizzle and a chance of rain and patchy fog. Cloudy, with a high near 63. North wind around 15 mph, with gusts as high as 30 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4611\r\nIssue Time: 2024 May 16 1737 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4610\r\nValid From: 2024 May 16 0456 UTC\r\nNow Valid Until: 2024 May 17 0600 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -169,7 +169,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1715886611,
+    "lastchange": 1715890210,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
