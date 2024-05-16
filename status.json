@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/05/16 03:10:11 EDT UTC-04:00",
-    "ext_localtime": "Thu May 16 03:10:11 AM EDT 2024",
+    "ext_time": "2024/05/16 04:10:10 EDT UTC-04:00",
+    "ext_localtime": "Thu May 16 04:10:10 AM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2024-05-16T00:00:00-04:00",
+    "startTime": "2024-05-16T03:00:00-04:00",
     "endTime": "2024-05-16T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 56,
@@ -109,21 +109,21 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 60
+      "value": 30
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 12.777777777777779
+      "value": 13.333333333333334
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 96
+      "value": 100
     },
     "windSpeed": "15 mph",
     "windDirection": "NE",
-    "icon": "https://api.weather.gov/icons/land/night/rain,60?size=medium",
-    "shortForecast": "Light Rain Likely",
-    "detailedForecast": "Rain likely and patchy fog. Cloudy, with a low around 56. Northeast wind around 15 mph, with gusts as high as 30 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/rain,30?size=medium",
+    "shortForecast": "Chance Light Rain",
+    "detailedForecast": "A chance of rain. Cloudy, with a low around 56. Northeast wind around 15 mph, with gusts as high as 30 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: SUMSUD\r\nSerial Number: 270\r\nIssue Time: 2024 May 16 0643 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse\r\nObserved: 2024 May 16 0620 UTC\r\nDeviation: 146 nT\r\nStation: Sitka\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
@@ -162,7 +162,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1715843411,
+    "lastchange": 1715847010,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
