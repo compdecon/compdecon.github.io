@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/05/27 16:10:10 EDT UTC-04:00",
-    "ext_localtime": "Mon May 27 04:10:10 PM EDT 2024",
+    "ext_time": "2024/05/27 18:55:11 EDT UTC-04:00",
+    "ext_localtime": "Mon May 27 06:55:11 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": false
+        "value": true
       },
       {
         "location": "Front door",
-        "value": false
+        "value": true
       }
     ],
     "humidity": [
@@ -94,36 +94,36 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 73
+        "value": 65
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Memorial Day",
-    "startTime": "2024-05-27T15:00:00-04:00",
-    "endTime": "2024-05-27T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 73,
+    "name": "Tonight",
+    "startTime": "2024-05-27T18:00:00-04:00",
+    "endTime": "2024-05-28T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 65,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 80
+      "value": 90
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 18.88888888888889
+      "value": 19.444444444444443
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 87
+      "value": 93
     },
-    "windSpeed": "15 mph",
+    "windSpeed": "10 to 15 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/day/tsra,80?size=medium",
+    "icon": "https://api.weather.gov/icons/land/night/tsra,90/tsra,40?size=medium",
     "shortForecast": "Widespread Showers And Thunderstorms",
-    "detailedForecast": "Widespread showers and thunderstorms. Some of the storms could be severe and produce heavy rain. Cloudy, with a high near 73. South wind around 15 mph. Chance of precipitation is 80%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "detailedForecast": "Widespread showers and thunderstorms before 11pm, then a chance of showers and thunderstorms between 11pm and midnight, then scattered showers and thunderstorms between midnight and 4am. Some of the storms could be severe and produce heavy rain. Mostly cloudy, with a low around 65. South wind 10 to 15 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4618\r\nIssue Time: 2024 May 27 1052 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2024 May 27 1051 UTC\r\nValid To: 2024 May 27 1500 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -161,9 +161,9 @@
     {}
   ],
   "state": {
-    "open": false,
-    "lastchange": 1716840610,
-    "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM, Wednesday from 12 - 5PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": true,
+    "lastchange": 1716850511,
+    "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight Wednesday from 12 - 5PM and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
     "blogUpdate": "",
