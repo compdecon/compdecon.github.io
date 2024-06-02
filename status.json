@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/06/02 04:10:10 EDT UTC-04:00",
-    "ext_localtime": "Sun Jun  2 04:10:10 AM EDT 2024",
+    "ext_time": "2024/06/02 07:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sun Jun  2 07:10:10 AM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 59
+        "value": 83
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2024-06-02T03:00:00-04:00",
-    "endTime": "2024-06-02T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 59,
+    "name": "Today",
+    "startTime": "2024-06-02T06:00:00-04:00",
+    "endTime": "2024-06-02T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 83,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
@@ -113,17 +113,17 @@
     },
     "dewpoint": {
       "unitCode": "wmoUnit:degC",
-      "value": 9.444444444444445
+      "value": 13.88888888888889
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 65
+      "value": 78
     },
-    "windSpeed": "5 mph",
-    "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-    "shortForecast": "Partly Cloudy",
-    "detailedForecast": "Partly cloudy, with a low around 59. West wind around 5 mph."
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "SW",
+    "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+    "shortForecast": "Partly Sunny",
+    "detailedForecast": "Partly sunny, with a high near 83. Southwest wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: SUMXM5\r\nSerial Number: 230\r\nIssue Time: 2024 Jun 01 2104 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2024 Jun 01 1903 UTC\r\nMaximum Time: 2024 Jun 01 1939 UTC\r\nEnd Time: 2024 Jun 01 2028 UTC\r\nX-ray Class: M7.3\r\nOptical Class: sf\r\nLocation: S18E23\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
@@ -165,7 +165,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1717315810,
+    "lastchange": 1717326610,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM and tomorrow, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
