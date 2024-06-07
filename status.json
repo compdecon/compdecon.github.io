@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/06/07 15:10:11 EDT UTC-04:00",
-    "ext_localtime": "Fri Jun  7 03:10:11 PM EDT 2024",
+    "ext_time": "2024/06/07 16:10:10 EDT UTC-04:00",
+    "ext_localtime": "Fri Jun  7 04:10:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 83
+        "value": 84
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2024-06-07T12:00:00-04:00",
+    "startTime": "2024-06-07T15:00:00-04:00",
     "endTime": "2024-06-07T18:00:00-04:00",
     "isDaytime": true,
-    "temperature": 83,
+    "temperature": 84,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
@@ -117,13 +117,13 @@
     },
     "relativeHumidity": {
       "unitCode": "wmoUnit:percent",
-      "value": 51
+      "value": 49
     },
-    "windSpeed": "5 to 15 mph",
+    "windSpeed": "10 mph",
     "windDirection": "W",
     "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
     "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 83. West wind 5 to 15 mph."
+    "detailedForecast": "Mostly sunny, with a high near 84. West wind around 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK06\r\nSerial Number: 575\r\nIssue Time: 2024 Jun 07 1801 UTC\r\n\r\nALERT: Geomagnetic K-index of 6\r\n Threshold Reached: 2024 Jun 07 1759 UTC\r\nSynoptic Period: 1500-1800 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
@@ -166,7 +166,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1717787411,
+    "lastchange": 1717791010,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
