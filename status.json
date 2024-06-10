@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/06/10 16:10:10 EDT UTC-04:00",
-    "ext_localtime": "Mon Jun 10 04:10:10 PM EDT 2024",
+    "ext_time": "2024/06/10 18:10:11 EDT UTC-04:00",
+    "ext_localtime": "Mon Jun 10 06:10:11 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,6 +126,9 @@
     "detailedForecast": "Mostly sunny, with a high near 80. West wind 5 to 10 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4627\r\nIssue Time: 2024 Jun 10 2155 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4626\r\nValid From: 2024 Jun 10 1705 UTC\r\nNow Valid Until: 2024 Jun 11 0300 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: SUMXM5\r\nSerial Number: 233\r\nIssue Time: 2024 Jun 10 1938 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2024 Jun 10 1811 UTC\r\nMaximum Time: 2024 Jun 10 1840 UTC\r\nEnd Time: 2024 Jun 10 1918 UTC\r\nX-ray Class: M9.5\r\nLocation: S19W89\r\nNOAA Scale: R2 - Moderate\r\n\r\nComment: Region 3697\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1308\r\nIssue Time: 2024 Jun 10 1934 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2024 Jun 10 1829 UTC\r\nEstimated Velocity: 754 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
     "Space Weather Message Code: ALTXMF\r\nSerial Number: 397\r\nIssue Time: 2024 Jun 10 1834 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2024 Jun 10 1828 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2453\r\nIssue Time: 2024 Jun 10 1746 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2024 Jun 10 1746 UTC\r\nSynoptic Period: 1500-1800 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: SUMSUD\r\nSerial Number: 273\r\nIssue Time: 2024 Jun 10 1745 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse\r\nObserved: 2024 Jun 10 1725 UTC\r\nDeviation: 52 nT\r\nStation: NGK\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
@@ -164,7 +167,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1718050210,
+    "lastchange": 1718057411,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
