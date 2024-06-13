@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/06/12 19:10:10 EDT UTC-04:00",
-    "ext_localtime": "Wed Jun 12 07:10:10 PM EDT 2024",
+    "ext_time": "2024/06/12 21:10:11 EDT UTC-04:00",
+    "ext_localtime": "Wed Jun 12 09:10:11 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -126,6 +126,7 @@
     "detailedForecast": "Mostly clear, with a low around 61. Southwest wind 5 to 10 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: WARPX1\r\nSerial Number: 568\r\nIssue Time: 2024 Jun 12 2356 UTC\r\n\r\nEXTENDED WARNING: Proton 10MeV Integral Flux above 10pfu expected\r\nExtension to Serial Number: 567\r\nValid From: 2024 Jun 12 0310 UTC\r\nNow Valid Until: 2024 Jun 13 1500 UTC\r\nWarning Condition: Onset\r\nPredicted NOAA Scale: S1 - Minor\r\n\r\nComment: 10 MeV proton flux is fluctuating close to the 10 pfu (S1/Minor) threshold.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.",
     "Space Weather Message Code: WARPX1\r\nSerial Number: 567\r\nIssue Time: 2024 Jun 12 1410 UTC\r\n\r\nEXTENDED WARNING: Proton 10MeV Integral Flux above 10pfu expected\r\nExtension to Serial Number: 566\r\nValid From: 2024 Jun 12 0310 UTC\r\nNow Valid Until: 2024 Jun 12 2359 UTC\r\nWarning Condition: Onset\r\nPredicted NOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.",
     "Space Weather Message Code: WARPX1\r\nSerial Number: 566\r\nIssue Time: 2024 Jun 12 0308 UTC\r\n\r\nWARNING: Proton 10MeV Integral Flux above 10pfu expected\r\nValid From: 2024 Jun 12 0310 UTC\r\nValid To: 2024 Jun 12 1500 UTC\r\nWarning Condition: Onset\r\nPredicted NOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies."
   ],
@@ -158,7 +159,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1718233810,
+    "lastchange": 1718241011,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
