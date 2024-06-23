@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/06/23 18:10:10 EDT UTC-04:00",
-    "ext_localtime": "Sun Jun 23 06:10:10 PM EDT 2024",
+    "ext_time": "2024/06/23 19:10:11 EDT UTC-04:00",
+    "ext_localtime": "Sun Jun 23 07:10:11 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 94
+        "value": 74
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2024-06-23T15:00:00-04:00",
-    "endTime": "2024-06-23T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 94,
+    "name": "Tonight",
+    "startTime": "2024-06-23T18:00:00-04:00",
+    "endTime": "2024-06-24T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 74,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 40
+      "value": 80
     },
-    "windSpeed": "15 mph",
-    "windDirection": "S",
-    "icon": "/icons/land/day/tsra_sct,40?size=medium",
-    "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms. Partly sunny, with a high near 94. Heat index values as high as 102. South wind around 15 mph, with gusts as high as 30 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+    "windSpeed": "10 to 15 mph",
+    "windDirection": "SW",
+    "icon": "/icons/land/night/tsra,80/tsra,60?size=medium",
+    "shortForecast": "Showers And Thunderstorms",
+    "detailedForecast": "Showers and thunderstorms. Some of the storms could be severe. Mostly cloudy, with a low around 74. Southwest wind 10 to 15 mph, with gusts as high as 30 mph. Chance of precipitation is 80%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4636\r\nIssue Time: 2024 Jun 23 2056 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4635\r\nValid From: 2024 Jun 23 1030 UTC\r\nNow Valid Until: 2024 Jun 24 0600 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -152,7 +152,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1719180610,
+    "lastchange": 1719184211,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
