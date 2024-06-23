@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/06/23 12:10:10 EDT UTC-04:00",
-    "ext_localtime": "Sun Jun 23 12:10:10 PM EDT 2024",
+    "ext_time": "2024/06/23 13:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sun Jun 23 01:10:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2024-06-23T09:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2024-06-23T12:00:00-04:00",
     "endTime": "2024-06-23T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 94,
@@ -111,11 +111,11 @@
       "unitCode": "wmoUnit:percent",
       "value": 50
     },
-    "windSpeed": "10 to 15 mph",
-    "windDirection": "SW",
-    "icon": "/icons/land/day/sct/tsra_hi,50?size=medium",
-    "shortForecast": "Mostly Sunny then Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms after 3pm. Mostly sunny, with a high near 94. Heat index values as high as 103. Southwest wind 10 to 15 mph, with gusts as high as 30 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
+    "windSpeed": "15 mph",
+    "windDirection": "S",
+    "icon": "/icons/land/day/tsra_hi,50?size=medium",
+    "shortForecast": "Chance Showers And Thunderstorms",
+    "detailedForecast": "A chance of showers and thunderstorms after 3pm. Mostly sunny, with a high near 94. Heat index values as high as 103. South wind around 15 mph, with gusts as high as 30 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: SUMXM5\r\nSerial Number: 235\r\nIssue Time: 2024 Jun 23 1326 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2024 Jun 23 1251 UTC\r\nMaximum Time: 2024 Jun 23 1301 UTC\r\nEnd Time: 2024 Jun 23 1311 UTC\r\nX-ray Class: M9.3\r\nLocation: S18E70\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
@@ -151,7 +151,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1719159010,
+    "lastchange": 1719162610,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
