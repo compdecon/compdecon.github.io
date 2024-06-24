@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/06/24 01:10:10 EDT UTC-04:00",
-    "ext_localtime": "Mon Jun 24 01:10:10 AM EDT 2024",
+    "ext_time": "2024/06/24 04:10:10 EDT UTC-04:00",
+    "ext_localtime": "Mon Jun 24 04:10:10 AM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2024-06-24T00:00:00-04:00",
+    "startTime": "2024-06-24T03:00:00-04:00",
     "endTime": "2024-06-24T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 74,
@@ -109,13 +109,13 @@
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 60
+      "value": 30
     },
     "windSpeed": "10 mph",
     "windDirection": "SW",
-    "icon": "/icons/land/night/tsra,60?size=medium",
-    "shortForecast": "Showers And Thunderstorms Likely",
-    "detailedForecast": "Showers and thunderstorms likely. Cloudy, with a low around 74. Southwest wind around 10 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "icon": "/icons/land/night/tsra,30?size=medium",
+    "shortForecast": "Chance Showers And Thunderstorms",
+    "detailedForecast": "A chance of showers and thunderstorms. Mostly cloudy, with a low around 74. Southwest wind around 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4636\r\nIssue Time: 2024 Jun 23 2056 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4635\r\nValid From: 2024 Jun 23 1030 UTC\r\nNow Valid Until: 2024 Jun 24 0600 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -152,7 +152,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1719205810,
+    "lastchange": 1719216610,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
