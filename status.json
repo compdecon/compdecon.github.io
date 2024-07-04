@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/07/04 10:10:10 EDT UTC-04:00",
-    "ext_localtime": "Thu Jul  4 10:10:10 AM EDT 2024",
+    "ext_time": "2024/07/04 12:10:10 EDT UTC-04:00",
+    "ext_localtime": "Thu Jul  4 12:10:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,8 +118,7 @@
     "detailedForecast": "Isolated showers and thunderstorms after 3pm. Some of the storms could produce heavy rain. Partly sunny, with a high near 86. South wind 10 to 15 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3397\r\nIssue Time: 2024 Jul 03 1859 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2024 Jul 03 1840 UTC\r\nStation: GOES16\r\n \r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1312\r\nIssue Time: 2024 Jul 03 0903 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2024 Jul 03 0742 UTC\r\nEstimated Velocity: 1254 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1313\r\nIssue Time: 2024 Jul 04 1528 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2024 Jul 04 1427 UTC\r\nEstimated Velocity: 815 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -150,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1720102210,
+    "lastchange": 1720109410,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
