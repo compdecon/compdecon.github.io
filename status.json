@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/07/14 11:55:10 EDT UTC-04:00",
-    "ext_localtime": "Sun Jul 14 11:55:10 AM EDT 2024",
+    "ext_time": "2024/07/14 13:10:11 EDT UTC-04:00",
+    "ext_localtime": "Sun Jul 14 01:10:11 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2024-07-14T09:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2024-07-14T12:00:00-04:00",
     "endTime": "2024-07-14T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 86,
@@ -113,8 +113,8 @@
     },
     "windSpeed": "5 to 10 mph",
     "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/day/sct/tsra_hi,20?size=medium",
-    "shortForecast": "Mostly Sunny then Isolated Showers And Thunderstorms",
+    "icon": "https://api.weather.gov/icons/land/day/tsra_hi,20?size=medium",
+    "shortForecast": "Isolated Showers And Thunderstorms",
     "detailedForecast": "Isolated showers and thunderstorms after 2pm. Mostly sunny, with a high near 86. Southeast wind 5 to 10 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
@@ -151,7 +151,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1720972510,
+    "lastchange": 1720977011,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
