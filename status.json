@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/07/15 16:10:10 EDT UTC-04:00",
-    "ext_localtime": "Mon Jul 15 04:10:10 PM EDT 2024",
+    "ext_time": "2024/07/15 18:10:10 EDT UTC-04:00",
+    "ext_localtime": "Mon Jul 15 06:10:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,33 +94,13 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 93
+        "value": -1
       }
     ]
   },
-  "ext_weather": {
-    "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2024-07-15T15:00:00-04:00",
-    "endTime": "2024-07-15T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 93,
-    "temperatureUnit": "F",
-    "temperatureTrend": "",
-    "probabilityOfPrecipitation": {
-      "unitCode": "wmoUnit:percent",
-      "value": 30
-    },
-    "windSpeed": "15 mph",
-    "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/tsra_hi,30?size=medium",
-    "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms after 4pm. Some of the storms could produce heavy rain. Mostly sunny, with a high near 93. Heat index values as high as 103. Southwest wind around 15 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
-  },
+  "ext_weather": {},
   "space_weather": [
-    "Space Weather Message Code: SUMX01\r\nSerial Number: 164\r\nIssue Time: 2024 Jul 14 0303 UTC\r\n\r\nSUMMARY: X-ray Event exceeded X1\r\nBegin Time: 2024 Jul 14 0233 UTC\r\nMaximum Time: 2024 Jul 14 0234 UTC\r\nEnd Time: 2024 Jul 14 0248 UTC\r\nX-ray Class: X1.2\r\nLocation: S09W40\r\nNOAA Scale: R3 - Strong\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact consists of large portions of the sunlit side of Earth, strongest at the sub-solar point.\r\nRadio - Wide area blackout of HF (high frequency) radio communication for about an hour.",
-    "Space Weather Message Code: SUM10R\r\nSerial Number: 812\r\nIssue Time: 2024 Jul 14 0251 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2024 Jul 14 0231 UTC\r\nMaximum Time: 2024 Jul 14 0232 UTC\r\nEnd Time: 2024 Jul 14 0235 UTC\r\nDuration: 4 minutes\r\nPeak Flux: 380 sfu\r\nLatest Penticton Noon Flux: 238 sfu\r\n\r\n\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
-    "Space Weather Message Code: ALTXMF\r\nSerial Number: 402\r\nIssue Time: 2024 Jul 14 0234 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2024 Jul 14 0233 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap."
+    "No alerts today"
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -151,7 +131,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1721074210,
+    "lastchange": 1721081410,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
