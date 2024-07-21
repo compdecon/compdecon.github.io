@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/07/21 13:10:11 EDT UTC-04:00",
-    "ext_localtime": "Sun Jul 21 01:10:11 PM EDT 2024",
+    "ext_time": "2024/07/21 15:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sun Jul 21 03:10:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,7 +118,7 @@
     "detailedForecast": "A slight chance of rain showers between 3pm and 5pm. Mostly sunny, with a high near 85. South wind 5 to 10 mph. Chance of precipitation is 20%."
   },
   "space_weather": [
-    "Space Weather Message Code: SUM10R\r\nSerial Number: 815\r\nIssue Time: 2024 Jul 19 1816 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2024 Jul 19 1801 UTC\r\nMaximum Time: 2024 Jul 19 1802 UTC\r\nEnd Time: 2024 Jul 19 1803 UTC\r\nDuration: 2 minutes\r\nPeak Flux: 470 sfu\r\nLatest Penticton Noon Flux: 209 sfu\r\n\r\n\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications."
+    "Space Weather Message Code: WATA20\r\nSerial Number: 1005\r\nIssue Time: 2024 Jul 21 1805 UTC\r\n\r\nCANCEL WATCH: Geomagnetic Storm Category G1 Predicted\r\nCancel Serial Number: 1004\r\nOriginal Issue Time: 2024 Jul 18 1845 UTC\r\n\r\nComment: G1 (Minor) conditions are no longer anticipated.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1721581811,
+    "lastchange": 1721589010,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
