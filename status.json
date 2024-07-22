@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/07/21 19:10:10 EDT UTC-04:00",
-    "ext_localtime": "Sun Jul 21 07:10:10 PM EDT 2024",
+    "ext_time": "2024/07/21 22:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sun Jul 21 10:10:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 70
+        "value": 69
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2024-07-21T18:00:00-04:00",
+    "startTime": "2024-07-21T21:00:00-04:00",
     "endTime": "2024-07-22T06:00:00-04:00",
     "isDaytime": false,
-    "temperature": 70,
+    "temperature": 69,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
       "value": 20
     },
-    "windSpeed": "0 to 5 mph",
+    "windSpeed": "5 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/fog?size=medium",
-    "shortForecast": "Slight Chance Rain Showers then Patchy Fog",
-    "detailedForecast": "A slight chance of rain showers before 8pm, then patchy fog. Partly cloudy, with a low around 70. South wind 0 to 5 mph. Chance of precipitation is 20%."
+    "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/bkn?size=medium",
+    "shortForecast": "Slight Chance Rain Showers then Mostly Cloudy",
+    "detailedForecast": "A slight chance of rain showers before 10pm. Mostly cloudy, with a low around 69. South wind around 5 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WATA20\r\nSerial Number: 1005\r\nIssue Time: 2024 Jul 21 1805 UTC\r\n\r\nCANCEL WATCH: Geomagnetic Storm Category G1 Predicted\r\nCancel Serial Number: 1004\r\nOriginal Issue Time: 2024 Jul 18 1845 UTC\r\n\r\nComment: G1 (Minor) conditions are no longer anticipated.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1721603410,
+    "lastchange": 1721614210,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
