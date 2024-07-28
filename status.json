@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/07/28 16:55:11 EDT UTC-04:00",
-    "ext_localtime": "Sun Jul 28 04:55:11 PM EDT 2024",
+    "ext_time": "2024/07/28 19:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sun Jul 28 07:10:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 86
+        "value": 70
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2024-07-28T15:00:00-04:00",
-    "endTime": "2024-07-28T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 86,
+    "name": "Tonight",
+    "startTime": "2024-07-28T18:00:00-04:00",
+    "endTime": "2024-07-29T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 70,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": null
+      "value": 30
     },
-    "windSpeed": "5 mph",
-    "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 86. Southeast wind around 5 mph."
+    "windSpeed": "0 to 5 mph",
+    "windDirection": "S",
+    "icon": "https://api.weather.gov/icons/land/night/bkn/tsra_sct,30?size=medium",
+    "shortForecast": "Mostly Cloudy then Slight Chance Showers And Thunderstorms",
+    "detailedForecast": "A slight chance of showers and thunderstorms between 1am and 2am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 70. South wind 0 to 5 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WATA50\r\nSerial Number: 77\r\nIssue Time: 2024 Jul 28 1846 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G3 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nJul 29:  G1 (Minor)   Jul 30:  G3 (Strong)   Jul 31:  G2 (Moderate)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 50 degrees Geomagnetic Latitude.\r\nInduced Currents - Power system voltage irregularities possible, false alarms may be triggered on some protection devices.\r\nSpacecraft - Systems may experience surface charging; increased drag on low Earth-orbit satellites and orientation problems may occur.\r\nNavigation - Intermittent satellite navigation (GPS) problems, including loss-of-lock and increased range error may occur.\r\nRadio - HF (high frequency) radio may be intermittent.\r\nAurora - Aurora may be seen as low as Pennsylvania to Iowa to Oregon.",
@@ -155,7 +155,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1722200111,
+    "lastchange": 1722208210,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
