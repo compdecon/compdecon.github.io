@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/07/29 18:55:10 EDT UTC-04:00",
-    "ext_localtime": "Mon Jul 29 06:55:10 PM EDT 2024",
+    "ext_time": "2024/07/29 21:10:10 EDT UTC-04:00",
+    "ext_localtime": "Mon Jul 29 09:10:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,6 +118,7 @@
     "detailedForecast": "Scattered showers and thunderstorms before 4am. Mostly cloudy, with a low around 71. South wind 10 to 15 mph. Chance of precipitation is 40%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: WARSUD\r\nSerial Number: 232\r\nIssue Time: 2024 Jul 29 2335 UTC\r\n\r\nWARNING: Geomagnetic Sudden Impulse expected\r\nValid From: 2024 Jul 30 0000 UTC\r\nValid To: 2027 Jul 30 0100 UTC\r\nIP Shock Passage Observed: 2024 Jul 29 2330 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
     "Space Weather Message Code: WATA50\r\nSerial Number: 78\r\nIssue Time: 2024 Jul 29 2024 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G3 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nJul 30:  G3 (Strong)   Jul 31:  G2 (Moderate)   Aug 01:  G2 (Moderate)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 50 degrees Geomagnetic Latitude.\r\nInduced Currents - Power system voltage irregularities possible, false alarms may be triggered on some protection devices.\r\nSpacecraft - Systems may experience surface charging; increased drag on low Earth-orbit satellites and orientation problems may occur.\r\nNavigation - Intermittent satellite navigation (GPS) problems, including loss-of-lock and increased range error may occur.\r\nRadio - HF (high frequency) radio may be intermittent.\r\nAurora - Aurora may be seen as low as Pennsylvania to Iowa to Oregon.",
     "Space Weather Message Code: SUMXM5\r\nSerial Number: 242\r\nIssue Time: 2024 Jul 29 2017 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2024 Jul 29 1940 UTC\r\nMaximum Time: 2024 Jul 29 1957 UTC\r\nEnd Time: 2024 Jul 29 2010 UTC\r\nX-ray Class: M6.3\r\nOptical Class: sf\r\nLocation: S25E90\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
     "Space Weather Message Code: ALTXMF\r\nSerial Number: 409\r\nIssue Time: 2024 Jul 29 1955 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2024 Jul 29 1952 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
@@ -161,7 +162,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1722293710,
+    "lastchange": 1722301810,
     "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
