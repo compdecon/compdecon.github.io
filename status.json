@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/08/02 04:10:10 EDT UTC-04:00",
-    "ext_localtime": "Fri Aug  2 04:10:10 AM EDT 2024",
+    "ext_time": "2024/08/02 07:10:10 EDT UTC-04:00",
+    "ext_localtime": "Fri Aug  2 07:10:10 AM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 75
+        "value": 90
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2024-08-02T03:00:00-04:00",
-    "endTime": "2024-08-02T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 75,
+    "name": "Today",
+    "startTime": "2024-08-02T06:00:00-04:00",
+    "endTime": "2024-08-02T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 90,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": null
+      "value": 30
     },
-    "windSpeed": "5 mph",
-    "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-    "shortForecast": "Partly Cloudy",
-    "detailedForecast": "Partly cloudy, with a low around 75. Southwest wind around 5 mph."
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "S",
+    "icon": "https://api.weather.gov/icons/land/day/bkn/tsra_hi,30?size=medium",
+    "shortForecast": "Partly Sunny then Chance Showers And Thunderstorms",
+    "detailedForecast": "A chance of showers and thunderstorms after 4pm. Some of the storms could be severe. Partly sunny, with a high near 90. Heat index values as high as 101. South wind 5 to 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: SUM10R\r\nSerial Number: 824\r\nIssue Time: 2024 Aug 02 0559 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2024 Aug 02 0502 UTC\r\nMaximum Time: 2024 Aug 02 0511 UTC\r\nEnd Time: 2024 Aug 02 0520 UTC\r\nDuration: 18 minutes\r\nPeak Flux: 440 sfu\r\nLatest Penticton Noon Flux: 234 sfu\r\n\r\n\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
@@ -153,7 +153,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1722586210,
+    "lastchange": 1722597010,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
