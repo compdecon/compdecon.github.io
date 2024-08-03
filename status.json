@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/08/03 15:10:10 EDT UTC-04:00",
-    "ext_localtime": "Sat Aug  3 03:10:10 PM EDT 2024",
+    "ext_time": "2024/08/03 16:10:11 EDT UTC-04:00",
+    "ext_localtime": "Sat Aug  3 04:10:11 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2024-08-03T12:00:00-04:00",
+    "startTime": "2024-08-03T15:00:00-04:00",
     "endTime": "2024-08-03T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 89,
@@ -114,8 +114,8 @@
     "windSpeed": "10 mph",
     "windDirection": "S",
     "icon": "https://api.weather.gov/icons/land/day/tsra_hi,60?size=medium",
-    "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms between 1pm and 5pm, then showers and thunderstorms likely. Mostly sunny, with a high near 89. South wind around 10 mph. Chance of precipitation is 60%. New rainfall amounts between a half and three quarters of an inch possible."
+    "shortForecast": "Showers And Thunderstorms Likely",
+    "detailedForecast": "Showers and thunderstorms likely. Some of the storms could be severe and produce heavy rain. Mostly sunny, with a high near 89. South wind around 10 mph. Chance of precipitation is 60%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: SUMXM5\r\nSerial Number: 250\r\nIssue Time: 2024 Aug 03 1855 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2024 Aug 03 1829 UTC\r\nMaximum Time: 2024 Aug 03 1839 UTC\r\nEnd Time: 2024 Aug 03 1844 UTC\r\nX-ray Class: M7.3\r\nOptical Class: na\r\nLocation: S07W83\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
@@ -150,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1722712210,
+    "lastchange": 1722715811,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
