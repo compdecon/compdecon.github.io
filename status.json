@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/08/03 13:10:10 EDT UTC-04:00",
-    "ext_localtime": "Sat Aug  3 01:10:10 PM EDT 2024",
+    "ext_time": "2024/08/03 15:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sat Aug  3 03:10:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,11 +118,8 @@
     "detailedForecast": "A chance of showers and thunderstorms between 1pm and 5pm, then showers and thunderstorms likely. Mostly sunny, with a high near 89. South wind around 10 mph. Chance of precipitation is 60%. New rainfall amounts between a half and three quarters of an inch possible."
   },
   "space_weather": [
-    "Space Weather Message Code: SUM10R\r\nSerial Number: 824\r\nIssue Time: 2024 Aug 02 0559 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2024 Aug 02 0502 UTC\r\nMaximum Time: 2024 Aug 02 0511 UTC\r\nEnd Time: 2024 Aug 02 0520 UTC\r\nDuration: 18 minutes\r\nPeak Flux: 440 sfu\r\nLatest Penticton Noon Flux: 234 sfu\r\n\r\n\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
-    "Space Weather Message Code: SUMXM5\r\nSerial Number: 249\r\nIssue Time: 2024 Aug 02 0537 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2024 Aug 02 0423 UTC\r\nMaximum Time: 2024 Aug 02 0455 UTC\r\nEnd Time: 2024 Aug 02 0535 UTC\r\nX-ray Class: M7.4\r\nLocation: S16W85\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
-    "Space Weather Message Code: ALTTP4\r\nSerial Number: 661\r\nIssue Time: 2024 Aug 02 0523 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2024 Aug 02 0457 UTC\r\n\r\n\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1334\r\nIssue Time: 2024 Aug 02 0515 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2024 Aug 02 0449 UTC\r\nEstimated Velocity: 438 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
-    "Space Weather Message Code: ALTXMF\r\nSerial Number: 416\r\nIssue Time: 2024 Aug 02 0445 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2024 Aug 02 0441 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap."
+    "Space Weather Message Code: SUMXM5\r\nSerial Number: 250\r\nIssue Time: 2024 Aug 03 1855 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2024 Aug 03 1829 UTC\r\nMaximum Time: 2024 Aug 03 1839 UTC\r\nEnd Time: 2024 Aug 03 1844 UTC\r\nX-ray Class: M7.3\r\nOptical Class: na\r\nLocation: S07W83\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
+    "Space Weather Message Code: ALTXMF\r\nSerial Number: 417\r\nIssue Time: 2024 Aug 03 1842 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2024 Aug 03 1838 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -153,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1722705010,
+    "lastchange": 1722712210,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
