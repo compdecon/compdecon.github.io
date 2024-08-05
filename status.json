@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/08/04 21:10:10 EDT UTC-04:00",
-    "ext_localtime": "Sun Aug  4 09:10:10 PM EDT 2024",
+    "ext_time": "2024/08/04 22:10:11 EDT UTC-04:00",
+    "ext_localtime": "Sun Aug  4 10:10:11 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 71
+        "value": 70
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2024-08-04T18:00:00-04:00",
+    "startTime": "2024-08-04T21:00:00-04:00",
     "endTime": "2024-08-05T06:00:00-04:00",
     "isDaytime": false,
-    "temperature": 71,
+    "temperature": 70,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 60
+      "value": 20
     },
     "windSpeed": "0 to 5 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/night/tsra_hi,60/sct?size=medium",
-    "shortForecast": "Chance Showers And Thunderstorms then Partly Cloudy",
-    "detailedForecast": "A chance of showers and thunderstorms before 9pm, then isolated showers and thunderstorms between 9pm and 10pm. Partly cloudy, with a low around 71. Southwest wind 0 to 5 mph. Chance of precipitation is 60%. New rainfall amounts between a quarter and half of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/tsra_hi,20/sct?size=medium",
+    "shortForecast": "Isolated Showers And Thunderstorms then Partly Cloudy",
+    "detailedForecast": "Isolated showers and thunderstorms before 10pm. Some of the storms could produce heavy rain. Partly cloudy, with a low around 70. Southwest wind 0 to 5 mph. Chance of precipitation is 20%."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1335\r\nIssue Time: 2024 Aug 04 2234 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2024 Aug 04 2208 UTC\r\nEstimated Velocity: 472 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
@@ -162,7 +162,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1722820210,
+    "lastchange": 1722823811,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
