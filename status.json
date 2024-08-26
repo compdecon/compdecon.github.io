@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/08/26 16:10:10 EDT UTC-04:00",
-    "ext_localtime": "Mon Aug 26 04:10:10 PM EDT 2024",
+    "ext_time": "2024/08/26 18:55:10 EDT UTC-04:00",
+    "ext_localtime": "Mon Aug 26 06:55:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": false
+        "value": true
       },
       {
         "location": "Front door",
-        "value": false
+        "value": true
       }
     ],
     "humidity": [
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 84
+        "value": 66
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2024-08-26T15:00:00-04:00",
-    "endTime": "2024-08-26T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 84,
+    "name": "Tonight",
+    "startTime": "2024-08-26T18:00:00-04:00",
+    "endTime": "2024-08-27T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 66,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 40
+      "value": 30
     },
-    "windSpeed": "10 mph",
-    "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/day/tsra_hi,40?size=medium",
-    "shortForecast": "Scattered Showers And Thunderstorms",
-    "detailedForecast": "Scattered showers and thunderstorms. Partly sunny, with a high near 84. South wind around 10 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+    "windSpeed": "0 to 10 mph",
+    "windDirection": "W",
+    "icon": "https://api.weather.gov/icons/land/night/tsra_hi,30/sct?size=medium",
+    "shortForecast": "Scattered Showers And Thunderstorms then Partly Cloudy",
+    "detailedForecast": "Scattered showers and thunderstorms before 10pm. Partly cloudy, with a low around 66. West wind 0 to 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "No alerts today"
@@ -148,9 +148,9 @@
     {}
   ],
   "state": {
-    "open": false,
-    "lastchange": 1724703010,
-    "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": true,
+    "lastchange": 1724712910,
+    "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
     "blogUpdate": "",
