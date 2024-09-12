@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/09/12 04:10:10 EDT UTC-04:00",
-    "ext_localtime": "Thu Sep 12 04:10:10 AM EDT 2024",
+    "ext_time": "2024/09/12 06:10:10 EDT UTC-04:00",
+    "ext_localtime": "Thu Sep 12 06:10:10 AM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,6 +118,10 @@
     "detailedForecast": "Patchy fog after 5am. Partly cloudy, with a low around 56. Northwest wind around 5 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: SUM10R\r\nSerial Number: 835\r\nIssue Time: 2024 Sep 12 0956 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2024 Sep 12 0939 UTC\r\nMaximum Time: 2024 Sep 12 0940 UTC\r\nEnd Time: 2024 Sep 12 0941 UTC\r\nDuration: 2 minutes\r\nPeak Flux: 240 sfu\r\nLatest Penticton Noon Flux: 207 sfu\r\n\r\n\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
+    "Space Weather Message Code: ALTXMF\r\nSerial Number: 431\r\nIssue Time: 2024 Sep 12 0945 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2024 Sep 12 0939 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
+    "Space Weather Message Code: ALTK05\r\nSerial Number: 1634\r\nIssue Time: 2024 Sep 12 0755 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\n Threshold Reached: 2024 Sep 12 0754 UTC\r\nSynoptic Period: 0600-0900 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+    "Space Weather Message Code: WARK06\r\nSerial Number: 541\r\nIssue Time: 2024 Sep 12 0755 UTC\r\n\r\nWARNING: Geomagnetic K-Index of 6 expected\r\nValid From: 2024 Sep 12 0755 UTC\r\nValid To: 2024 Sep 12 1500 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
     "Space Weather Message Code: SUM10R\r\nSerial Number: 834\r\nIssue Time: 2024 Sep 12 0511 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2024 Sep 12 0431 UTC\r\nMaximum Time: 2024 Sep 12 0431 UTC\r\nEnd Time: 2024 Sep 12 0431 UTC\r\nDuration: 1 minutes\r\nPeak Flux: 230 sfu\r\nLatest Penticton Noon Flux: 207 sfu\r\n\r\n\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
     "Space Weather Message Code: WARK05\r\nSerial Number: 1922\r\nIssue Time: 2024 Sep 12 0419 UTC\r\n\r\nWARNING: Geomagnetic K-index of 5 expected\r\nValid From: 2024 Sep 12 0419 UTC\r\nValid To: 2024 Sep 12 1500 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
     "Space Weather Message Code: SUMSUD\r\nSerial Number: 278\r\nIssue Time: 2024 Sep 12 0401 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse\r\nObserved: 2024 Sep 12 0350 UTC\r\nDeviation: 32 nT\r\nStation: CNB\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
@@ -156,7 +160,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1726128610,
+    "lastchange": 1726135810,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
