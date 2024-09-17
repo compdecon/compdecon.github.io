@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/09/17 16:10:10 EDT UTC-04:00",
-    "ext_localtime": "Tue Sep 17 04:10:10 PM EDT 2024",
+    "ext_time": "2024/09/17 19:10:10 EDT UTC-04:00",
+    "ext_localtime": "Tue Sep 17 07:10:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 74
+        "value": 65
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2024-09-17T15:00:00-04:00",
-    "endTime": "2024-09-17T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 74,
+    "name": "Tonight",
+    "startTime": "2024-09-17T18:00:00-04:00",
+    "endTime": "2024-09-18T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 65,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": null
+      "value": 20
     },
     "windSpeed": "10 mph",
     "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-    "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a high near 74. East wind around 10 mph."
+    "icon": "https://api.weather.gov/icons/land/night/bkn/rain_showers,20?size=medium",
+    "shortForecast": "Mostly Cloudy then Slight Chance Rain Showers",
+    "detailedForecast": "A slight chance of rain showers after 3am. Mostly cloudy, with a low around 65. East wind around 10 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4700\r\nIssue Time: 2024 Sep 17 1756 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4699\r\nValid From: 2024 Sep 12 0355 UTC\r\nNow Valid Until: 2024 Sep 18 0600 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -169,7 +169,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1726603810,
+    "lastchange": 1726614610,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
