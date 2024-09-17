@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/09/15 16:55:10 EDT UTC-04:00",
-    "ext_localtime": "Sun Sep 15 04:55:10 PM EDT 2024",
+    "ext_time": "2024/09/17 11:10:10 EDT UTC-04:00",
+    "ext_localtime": "Tue Sep 17 11:10:10 AM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,34 +94,12 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 76
+        "value": -1
       }
     ]
   },
-  "ext_weather": {
-    "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2024-09-15T15:00:00-04:00",
-    "endTime": "2024-09-15T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 76,
-    "temperatureUnit": "F",
-    "temperatureTrend": "",
-    "probabilityOfPrecipitation": {
-      "unitCode": "wmoUnit:percent",
-      "value": null
-    },
-    "windSpeed": "10 mph",
-    "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-    "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 76. East wind around 10 mph."
-  },
-  "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4694\r\nIssue Time: 2024 Sep 15 1755 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4693\r\nValid From: 2024 Sep 12 0355 UTC\r\nNow Valid Until: 2024 Sep 16 0300 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3400\r\nIssue Time: 2024 Sep 15 1230 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2024 Sep 15 1215 UTC\r\nStation: GOES16\r\n \r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4693\r\nIssue Time: 2024 Sep 15 1127 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4692\r\nValid From: 2024 Sep 12 0355 UTC\r\nNow Valid Until: 2024 Sep 15 1800 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
-  ],
+  "ext_weather": {},
+  "space_weather": [],
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -151,7 +129,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1726433710,
+    "lastchange": 1726585810,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
