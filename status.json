@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/09/29 11:55:10 EDT UTC-04:00",
-    "ext_localtime": "Sun Sep 29 11:55:10 AM EDT 2024",
+    "ext_time": "2024/09/29 16:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sun Sep 29 04:10:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2024-09-29T11:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2024-09-29T15:00:00-04:00",
     "endTime": "2024-09-29T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 68,
@@ -111,11 +111,11 @@
       "unitCode": "wmoUnit:percent",
       "value": 30
     },
-    "windSpeed": "10 to 15 mph",
+    "windSpeed": "10 mph",
     "windDirection": "E",
     "icon": "https://api.weather.gov/icons/land/day/rain,30?size=medium",
     "shortForecast": "Chance Light Rain",
-    "detailedForecast": "A chance of rain. Cloudy, with a high near 68. East wind 10 to 15 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "A chance of rain. Cloudy, with a high near 68. East wind around 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4709\r\nIssue Time: 2024 Sep 29 0425 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2024 Sep 29 0424 UTC\r\nValid To: 2024 Sep 29 2359 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1727625310,
+    "lastchange": 1727640610,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
