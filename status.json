@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/10/03 13:10:10 EDT UTC-04:00",
-    "ext_localtime": "Thu Oct  3 01:10:10 PM EDT 2024",
+    "ext_time": "2024/10/03 16:10:11 EDT UTC-04:00",
+    "ext_localtime": "Thu Oct  3 04:10:11 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2024-10-03T12:00:00-04:00",
+    "startTime": "2024-10-03T15:00:00-04:00",
     "endTime": "2024-10-03T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 72,
@@ -111,11 +111,11 @@
       "unitCode": "wmoUnit:percent",
       "value": null
     },
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "5 mph",
     "windDirection": "SE",
     "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
     "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 72. Southeast wind 5 to 10 mph."
+    "detailedForecast": "Mostly sunny, with a high near 72. Southeast wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: SUM10R\r\nSerial Number: 839\r\nIssue Time: 2024 Oct 03 1343 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2024 Oct 03 1214 UTC\r\nMaximum Time: 2024 Oct 03 1215 UTC\r\nEnd Time: 2024 Oct 03 1224 UTC\r\nDuration: 10 minutes\r\nPeak Flux: 3500 sfu\r\nLatest Penticton Noon Flux: 275 sfu\r\n\r\nComment: Castelli-U Burst \r\n\r\n\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
@@ -156,7 +156,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1727975410,
+    "lastchange": 1727986211,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
