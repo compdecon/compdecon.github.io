@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/10/04 16:10:10 EDT UTC-04:00",
-    "ext_localtime": "Fri Oct  4 04:10:10 PM EDT 2024",
+    "ext_time": "2024/10/04 19:10:10 EDT UTC-04:00",
+    "ext_localtime": "Fri Oct  4 07:10:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 74
+        "value": 60
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2024-10-04T15:00:00-04:00",
-    "endTime": "2024-10-04T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 74,
+    "name": "Tonight",
+    "startTime": "2024-10-04T18:00:00-04:00",
+    "endTime": "2024-10-05T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 60,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": null
+      "value": 20
     },
-    "windSpeed": "5 to 10 mph",
-    "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-    "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a high near 74. Southeast wind 5 to 10 mph."
+    "windSpeed": "5 mph",
+    "windDirection": "S",
+    "icon": "https://api.weather.gov/icons/land/night/bkn/rain_showers,20?size=medium",
+    "shortForecast": "Mostly Cloudy then Isolated Rain Showers",
+    "detailedForecast": "Isolated rain showers after 2am. Mostly cloudy, with a low around 60. South wind around 5 mph. Chance of precipitation is 20%."
   },
   "space_weather": [
     "Space Weather Message Code: WATA50\r\nSerial Number: 82\r\nIssue Time: 2024 Oct 04 1857 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G3 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nOct 05:  G3 (Strong)   Oct 06:  G3 (Strong)   Oct 07:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nComment: G1 (Minor) geomagnetic storm watch added to new day three (07 Oct).\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 50 degrees Geomagnetic Latitude.\r\nInduced Currents - Power system voltage irregularities possible, false alarms may be triggered on some protection devices.\r\nSpacecraft - Systems may experience surface charging; increased drag on low Earth-orbit satellites and orientation problems may occur.\r\nNavigation - Intermittent satellite navigation (GPS) problems, including loss-of-lock and increased range error may occur.\r\nRadio - HF (high frequency) radio may be intermittent.\r\nAurora - Aurora may be seen as low as Pennsylvania to Iowa to Oregon."
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1728072610,
+    "lastchange": 1728083410,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
