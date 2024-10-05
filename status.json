@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/10/05 10:10:11 EDT UTC-04:00",
-    "ext_localtime": "Sat Oct  5 10:10:11 AM EDT 2024",
+    "ext_time": "2024/10/05 13:10:11 EDT UTC-04:00",
+    "ext_localtime": "Sat Oct  5 01:10:11 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2024-10-05T09:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2024-10-05T12:00:00-04:00",
     "endTime": "2024-10-05T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 76,
@@ -150,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1728137411,
+    "lastchange": 1728148211,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
