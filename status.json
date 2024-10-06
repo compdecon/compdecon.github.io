@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/10/05 23:55:10 EDT UTC-04:00",
-    "ext_localtime": "Sat Oct  5 11:55:10 PM EDT 2024",
+    "ext_time": "2024/10/06 01:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sun Oct  6 01:10:10 AM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2024-10-05T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2024-10-06T00:00:00-04:00",
     "endTime": "2024-10-06T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 54,
@@ -111,11 +111,11 @@
       "unitCode": "wmoUnit:percent",
       "value": null
     },
-    "windSpeed": "0 to 5 mph",
-    "windDirection": "NE",
+    "windSpeed": "5 mph",
+    "windDirection": "N",
     "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
     "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 54. Northeast wind 0 to 5 mph."
+    "detailedForecast": "Mostly clear, with a low around 54. North wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4711\r\nIssue Time: 2024 Oct 04 2259 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2024 Oct 04 2300 UTC\r\nValid To: 2024 Oct 05 1500 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -150,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1728186910,
+    "lastchange": 1728191410,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM and tomorrow, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
