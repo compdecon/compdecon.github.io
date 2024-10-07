@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/10/07 12:10:10 EDT UTC-04:00",
-    "ext_localtime": "Mon Oct  7 12:10:10 PM EDT 2024",
+    "ext_time": "2024/10/07 13:10:10 EDT UTC-04:00",
+    "ext_localtime": "Mon Oct  7 01:10:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2024-10-07T09:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2024-10-07T12:00:00-04:00",
     "endTime": "2024-10-07T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 74,
@@ -109,13 +109,13 @@
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 20
+      "value": null
     },
     "windSpeed": "10 mph",
-    "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/rain_showers,20/sct?size=medium",
-    "shortForecast": "Isolated Rain Showers then Mostly Sunny",
-    "detailedForecast": "Isolated rain showers before 10am. Mostly sunny, with a high near 74. West wind around 10 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+    "windDirection": "NW",
+    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny, with a high near 74. Northwest wind around 10 mph. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK05\r\nSerial Number: 1939\r\nIssue Time: 2024 Oct 07 1338 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 5 expected\r\nExtension to Serial Number: 1938\r\nValid From: 2024 Oct 06 2220 UTC\r\nNow Valid Until: 2024 Oct 07 2100 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -161,7 +161,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1728317410,
+    "lastchange": 1728321010,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
