@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/10/09 15:10:11 EDT UTC-04:00",
-    "ext_localtime": "Wed Oct  9 03:10:11 PM EDT 2024",
+    "ext_time": "2024/10/09 16:10:10 EDT UTC-04:00",
+    "ext_localtime": "Wed Oct  9 04:10:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2024-10-09T12:00:00-04:00",
+    "startTime": "2024-10-09T15:00:00-04:00",
     "endTime": "2024-10-09T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 69,
@@ -111,11 +111,11 @@
       "unitCode": "wmoUnit:percent",
       "value": null
     },
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "10 mph",
     "windDirection": "W",
     "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
     "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 69. West wind 5 to 10 mph."
+    "detailedForecast": "Sunny, with a high near 69. West wind around 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTPX3\r\nSerial Number: 32\r\nIssue Time: 2024 Oct 09 1724 UTC\r\n\r\nALERT: Proton Event 10MeV Integral Flux exceeded 1000pfu\r\nBegin Time: 2024 Oct 09 1705 UTC\r\nNOAA Scale: S3 - Strong\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radiation - Passengers and crew in high latitude, high altitude flights may experience increasing radiation exposures. Astronauts on EVA (extra-vehicular activity) are exposed to elevated radiation levels.\r\nSpacecraft - Single-event upsets to satellite operations, noise in imaging systems, and slight reduction of efficiency in solar panels are likely.\r\nRadio - Degraded or episodically blacked-out polar HF (high frequency) radio propagation.",
@@ -170,7 +170,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1728501011,
+    "lastchange": 1728504610,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
