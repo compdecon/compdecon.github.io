@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/10/09 07:10:10 EDT UTC-04:00",
-    "ext_localtime": "Wed Oct  9 07:10:10 AM EDT 2024",
+    "ext_time": "2024/10/09 09:10:10 EDT UTC-04:00",
+    "ext_localtime": "Wed Oct  9 09:10:10 AM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,6 +118,8 @@
     "detailedForecast": "Sunny, with a high near 69. West wind 5 to 10 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTPX3\r\nSerial Number: 31\r\nIssue Time: 2024 Oct 09 1255 UTC\r\n\r\nALERT: Proton Event 10MeV Integral Flux exceeded 1000pfu\r\nBegin Time: 2024 Oct 09 1240 UTC\r\nNOAA Scale: S3 - Strong\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radiation - Passengers and crew in high latitude, high altitude flights may experience increasing radiation exposures. Astronauts on EVA (extra-vehicular activity) are exposed to elevated radiation levels.\r\nSpacecraft - Single-event upsets to satellite operations, noise in imaging systems, and slight reduction of efficiency in solar panels are likely.\r\nRadio - Degraded or episodically blacked-out polar HF (high frequency) radio propagation.",
+    "Space Weather Message Code: WATA99\r\nSerial Number: 8\r\nIssue Time: 2024 Oct 09 1233 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G4 or Greater Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nOct 10:  G4 (Severe)   Oct 11:  G4 (Severe)   Oct 12:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 45 degrees Geomagnetic Latitude.\r\nInduced Currents - Possible widespread voltage control problems and some protective systems may mistakenly trip out key assets from the power grid. Induced pipeline currents intensify.\r\nSpacecraft - Systems may experience surface charging; increased drag on low earth orbit satellites, and tracking and orientation problems may occur.\r\nNavigation - Satellite navigation (GPS) degraded or inoperable for hours.\r\nRadio - HF (high frequency) radio propagation sporadic or blacked out.\r\nAurora - Aurora may be seen as low as Alabama and northern California.",
     "Space Weather Message Code: ALTPX2\r\nSerial Number: 74\r\nIssue Time: 2024 Oct 09 0801 UTC\r\n\r\nALERT: Proton Event 10MeV Integral Flux exceeded 100pfu\r\nBegin Time: 2024 Oct 09 0740 UTC\r\nNOAA Scale: S2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radiation - Passengers and crew in high latitude, high altitude flights may experience small, increased radiation exposures.\r\nSpacecraft - Infrequent single-event upsets to satellites are possible.\r\nRadio - Small effects on polar HF (high frequency) propagation resulting in fades at lower frequencies.",
     "Space Weather Message Code: ALTK05\r\nSerial Number: 1664\r\nIssue Time: 2024 Oct 09 0558 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\n Threshold Reached: 2024 Oct 09 0554 UTC\r\nSynoptic Period: 0300-0600 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
     "Space Weather Message Code: ALTPX1\r\nSerial Number: 352\r\nIssue Time: 2024 Oct 09 0522 UTC\r\n\r\nALERT: Proton Event 10MeV Integral Flux exceeded 10pfu\r\nBegin Time: 2024 Oct 09 0505 UTC\r\nNOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.",
@@ -161,7 +163,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1728472210,
+    "lastchange": 1728479410,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
