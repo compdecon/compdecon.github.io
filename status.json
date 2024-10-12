@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/10/11 23:55:10 EDT UTC-04:00",
-    "ext_localtime": "Fri Oct 11 11:55:10 PM EDT 2024",
+    "ext_time": "2024/10/12 01:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sat Oct 12 01:10:10 AM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 55
+        "value": 52
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2024-10-11T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2024-10-12T00:00:00-04:00",
     "endTime": "2024-10-12T06:00:00-04:00",
     "isDaytime": false,
-    "temperature": 55,
+    "temperature": 52,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
@@ -115,7 +115,7 @@
     "windDirection": "W",
     "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
     "shortForecast": "Clear",
-    "detailedForecast": "Clear, with a low around 55. West wind around 10 mph."
+    "detailedForecast": "Clear, with a low around 52. West wind around 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WATA50\r\nSerial Number: 83\r\nIssue Time: 2024 Oct 11 1714 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G3 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nOct 11:  G3 (Strong)   Oct 12:  G1 (Minor)   Oct 13:  None (Below G1)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nComment: This supersedes the previous G4 (Severe) geomagnetic storm watch for 11 Oct as potential has diminished. A G3 (Strong) geomagnetic storm watch remains in place for 11 Oct, along with a G1 (Minor) watch for 12 Oct,  as CME effects continue to wane.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 50 degrees Geomagnetic Latitude.\r\nInduced Currents - Power system voltage irregularities possible, false alarms may be triggered on some protection devices.\r\nSpacecraft - Systems may experience surface charging; increased drag on low Earth-orbit satellites and orientation problems may occur.\r\nNavigation - Intermittent satellite navigation (GPS) problems, including loss-of-lock and increased range error may occur.\r\nRadio - HF (high frequency) radio may be intermittent.\r\nAurora - Aurora may be seen as low as Pennsylvania to Iowa to Oregon.",
@@ -179,7 +179,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1728705310,
+    "lastchange": 1728709810,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
