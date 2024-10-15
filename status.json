@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/10/14 18:55:10 EDT UTC-04:00",
-    "ext_localtime": "Mon Oct 14 06:55:10 PM EDT 2024",
+    "ext_time": "2024/10/14 21:10:10 EDT UTC-04:00",
+    "ext_localtime": "Mon Oct 14 09:10:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,7 +118,9 @@
     "detailedForecast": "Mostly clear, with a low around 40. Northwest wind 5 to 15 mph, with gusts as high as 35 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: WATA20\r\nSerial Number: 1016\r\nIssue Time: 2024 Oct 13 2042 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nOct 14:  None (Below G1)   Oct 15:  None (Below G1)   Oct 16:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2489\r\nIssue Time: 2024 Oct 14 2246 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2024 Oct 14 2246 UTC\r\nSynoptic Period: 2100-2400 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4725\r\nIssue Time: 2024 Oct 14 2237 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2024 Oct 14 2237 UTC\r\nValid To: 2024 Oct 15 0600 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1365\r\nIssue Time: 2024 Oct 14 0032 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2024 Oct 14 0014 UTC\r\nEstimated Velocity: 545 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -149,7 +151,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1728946510,
+    "lastchange": 1728954610,
     "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
