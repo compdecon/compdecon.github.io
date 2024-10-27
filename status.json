@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/10/27 12:10:10 EDT UTC-04:00",
-    "ext_localtime": "Sun Oct 27 12:10:10 PM EDT 2024",
+    "ext_time": "2024/10/27 13:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sun Oct 27 01:10:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 61
+        "value": 57
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2024-10-27T09:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2024-10-27T12:00:00-04:00",
     "endTime": "2024-10-27T18:00:00-04:00",
     "isDaytime": true,
-    "temperature": 61,
+    "temperature": 57,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
@@ -115,7 +115,7 @@
     "windDirection": "NW",
     "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
     "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 61. Northwest wind 5 to 10 mph."
+    "detailedForecast": "Sunny, with a high near 57. Northwest wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4738\r\nIssue Time: 2024 Oct 27 1455 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4737\r\nValid From: 2024 Oct 26 1538 UTC\r\nNow Valid Until: 2024 Oct 28 0900 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -153,7 +153,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1730045410,
+    "lastchange": 1730049010,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
