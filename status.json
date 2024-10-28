@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/10/27 23:55:10 EDT UTC-04:00",
-    "ext_localtime": "Sun Oct 27 11:55:10 PM EDT 2024",
+    "ext_time": "2024/10/28 01:10:10 EDT UTC-04:00",
+    "ext_localtime": "Mon Oct 28 01:10:10 AM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2024-10-27T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2024-10-28T00:00:00-04:00",
     "endTime": "2024-10-28T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 35,
@@ -113,9 +113,9 @@
     },
     "windSpeed": "5 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-    "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 35. West wind around 5 mph."
+    "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+    "shortForecast": "Clear",
+    "detailedForecast": "Clear, with a low around 35. West wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARPX1\r\nSerial Number: 583\r\nIssue Time: 2024 Oct 27 2355 UTC\r\n\r\nEXTENDED WARNING: Proton 10MeV Integral Flux above 10pfu expected\r\nExtension to Serial Number: 582\r\nValid From: 2024 Oct 26 1638 UTC\r\nNow Valid Until: 2024 Oct 28 2359 UTC\r\nWarning Condition: Persistence\r\nPredicted NOAA Scale: S2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.",
@@ -154,7 +154,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1730087710,
+    "lastchange": 1730092210,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
