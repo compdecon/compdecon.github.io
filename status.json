@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/11/01 16:10:10 EDT UTC-04:00",
-    "ext_localtime": "Fri Nov  1 04:10:10 PM EDT 2024",
+    "ext_time": "2024/11/01 19:10:10 EDT UTC-04:00",
+    "ext_localtime": "Fri Nov  1 07:10:10 PM EDT 2024",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 78
+        "value": 45
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2024-11-01T15:00:00-04:00",
-    "endTime": "2024-11-01T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 78,
+    "name": "Tonight",
+    "startTime": "2024-11-01T18:00:00-04:00",
+    "endTime": "2024-11-02T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 45,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
       "value": null
     },
-    "windSpeed": "15 mph",
-    "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-    "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 78. West wind around 15 mph, with gusts as high as 30 mph."
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "NW",
+    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+    "shortForecast": "Mostly Clear",
+    "detailedForecast": "Mostly clear, with a low around 45. Northwest wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: SUMPX1\r\nSerial Number: 118\r\nIssue Time: 2024 Nov 01 1727 UTC\r\n\r\nSUMMARY: Proton Event 10MeV Integral Flux exceeded 10pfu\r\nBegin Time: 2024 Oct 26 1910 UTC\r\nMaximum Time: 2024 Oct 28 1350 UTC\r\nEnd Time: 2024 Nov 01 0735 UTC\r\nMaximum 10MeV Flux: 364 pfu\r\nNOAA Scale: S2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
@@ -152,7 +152,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1730491810,
+    "lastchange": 1730502610,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
