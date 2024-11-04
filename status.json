@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/11/04 10:10:11 EST UTC-05:00",
-    "ext_localtime": "Mon Nov  4 10:10:11 AM EST 2024",
+    "ext_time": "2024/11/04 12:10:10 EST UTC-05:00",
+    "ext_localtime": "Mon Nov  4 12:10:10 PM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,6 +118,8 @@
     "detailedForecast": "Mostly cloudy, with a high near 60. Southeast wind 5 to 10 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: SUMXM5\r\nSerial Number: 267\r\nIssue Time: 2024 Nov 04 1600 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2024 Nov 04 1526 UTC\r\nMaximum Time: 2024 Nov 04 1538 UTC\r\nEnd Time: 2024 Nov 04 1541 UTC\r\nX-ray Class: M5.5\r\nLocation: S10E40\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
+    "Space Weather Message Code: ALTXMF\r\nSerial Number: 448\r\nIssue Time: 2024 Nov 04 1541 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2024 Nov 04 1537 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
     "Space Weather Message Code: ALTTP4\r\nSerial Number: 672\r\nIssue Time: 2024 Nov 04 0224 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2024 Nov 04 0134 UTC\r\n\r\n\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1371\r\nIssue Time: 2024 Nov 04 0222 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2024 Nov 04 0128 UTC\r\nEstimated Velocity: 307 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
   ],
@@ -150,7 +152,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1730733011,
+    "lastchange": 1730740210,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
