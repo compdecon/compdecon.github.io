@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/11/04 06:10:10 EST UTC-05:00",
-    "ext_localtime": "Mon Nov  4 06:10:10 AM EST 2024",
+    "ext_time": "2024/11/04 09:10:11 EST UTC-05:00",
+    "ext_localtime": "Mon Nov  4 09:10:11 AM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -99,7 +99,10 @@
     ]
   },
   "ext_weather": null,
-  "space_weather": [],
+  "space_weather": [
+    "Space Weather Message Code: ALTTP4\r\nSerial Number: 672\r\nIssue Time: 2024 Nov 04 0224 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2024 Nov 04 0134 UTC\r\n\r\n\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1371\r\nIssue Time: 2024 Nov 04 0222 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2024 Nov 04 0128 UTC\r\nEstimated Velocity: 307 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
+  ],
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -129,7 +132,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1730718610,
+    "lastchange": 1730729411,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
