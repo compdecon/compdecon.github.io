@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/11/03 23:55:10 EST UTC-05:00",
-    "ext_localtime": "Sun Nov  3 11:55:10 PM EST 2024",
+    "ext_time": "2024/11/04 01:10:11 EST UTC-05:00",
+    "ext_localtime": "Mon Nov  4 01:10:11 AM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 41
+        "value": 39
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2024-11-03T21:00:00-05:00",
+    "name": "Overnight",
+    "startTime": "2024-11-04T00:00:00-05:00",
     "endTime": "2024-11-04T06:00:00-05:00",
     "isDaytime": false,
-    "temperature": 41,
+    "temperature": 39,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
@@ -115,11 +115,11 @@
     "windDirection": "E",
     "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
     "shortForecast": "Partly Cloudy",
-    "detailedForecast": "Partly cloudy, with a low around 41. East wind around 5 mph."
+    "detailedForecast": "Partly cloudy, with a low around 39. East wind around 5 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: ALTK04\r\nSerial Number: 2498\r\nIssue Time: 2024 Nov 03 2152 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2024 Nov 03 2152 UTC\r\nSynoptic Period: 2100-2400 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4746\r\nIssue Time: 2024 Nov 03 2132 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2024 Nov 03 2130 UTC\r\nValid To: 2024 Nov 04 0900 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: ALTTP4\r\nSerial Number: 672\r\nIssue Time: 2024 Nov 04 0224 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2024 Nov 04 0134 UTC\r\n\r\n\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1371\r\nIssue Time: 2024 Nov 04 0222 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2024 Nov 04 0128 UTC\r\nEstimated Velocity: 307 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -150,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1730696110,
+    "lastchange": 1730700611,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
