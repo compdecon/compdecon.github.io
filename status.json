@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/11/17 13:10:10 EST UTC-05:00",
-    "ext_localtime": "Sun Nov 17 01:10:10 PM EST 2024",
+    "ext_time": "2024/11/17 16:10:10 EST UTC-05:00",
+    "ext_localtime": "Sun Nov 17 04:10:10 PM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 63
+        "value": 65
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2024-11-17T12:00:00-05:00",
+    "startTime": "2024-11-17T15:00:00-05:00",
     "endTime": "2024-11-17T18:00:00-05:00",
     "isDaytime": true,
-    "temperature": 63,
+    "temperature": 65,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
@@ -115,7 +115,7 @@
     "windDirection": "W",
     "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
     "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny. High near 63, with temperatures falling to around 57 in the afternoon. West wind around 5 mph."
+    "detailedForecast": "Mostly sunny. High near 65, with temperatures falling to around 57 in the afternoon. West wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4758\r\nIssue Time: 2024 Nov 16 1204 UTC\r\n\r\nCANCEL WARNING: Geomagnetic K-index of 4 expected\r\nCancel Serial Number: 4757\r\nOriginal Issue Time: 2024 Nov 16 0245 UTC\r\n\r\nComment: Incorrect date. This warning is canceled as of 16/1200 UTC.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -151,7 +151,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1731867010,
+    "lastchange": 1731877810,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
