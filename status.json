@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/11/20 16:10:10 EST UTC-05:00",
-    "ext_localtime": "Wed Nov 20 04:10:10 PM EST 2024",
+    "ext_time": "2024/11/20 19:10:11 EST UTC-05:00",
+    "ext_localtime": "Wed Nov 20 07:10:11 PM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 61
+        "value": 50
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2024-11-20T15:00:00-05:00",
-    "endTime": "2024-11-20T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 61,
+    "name": "Tonight",
+    "startTime": "2024-11-20T18:00:00-05:00",
+    "endTime": "2024-11-21T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 50,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": null
+      "value": 100
     },
-    "windSpeed": "5 mph",
+    "windSpeed": "5 to 15 mph",
     "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-    "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a high near 61. East wind around 5 mph."
+    "icon": "https://api.weather.gov/icons/land/night/rain,20/rain,100?size=medium",
+    "shortForecast": "Heavy Rain",
+    "detailedForecast": "Rain after 11pm. Cloudy, with a low around 50. East wind 5 to 15 mph, with gusts as high as 30 mph. Chance of precipitation is 100%. New rainfall amounts between 1 and 2 inches possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4760\r\nIssue Time: 2024 Nov 20 0452 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2024 Nov 20 0452 UTC\r\nValid To: 2024 Nov 20 1200 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1732137010,
+    "lastchange": 1732147811,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
