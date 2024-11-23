@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/11/22 21:10:10 EST UTC-05:00",
-    "ext_localtime": "Fri Nov 22 09:10:10 PM EST 2024",
+    "ext_time": "2024/11/22 22:10:10 EST UTC-05:00",
+    "ext_localtime": "Fri Nov 22 10:10:10 PM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 37
+        "value": 34
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2024-11-22T18:00:00-05:00",
+    "startTime": "2024-11-22T21:00:00-05:00",
     "endTime": "2024-11-23T06:00:00-05:00",
     "isDaytime": false,
-    "temperature": 37,
+    "temperature": 34,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 80
+      "value": 90
     },
     "windSpeed": "5 to 15 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/night/rain,80/rain,60?size=medium",
-    "shortForecast": "Light Rain",
-    "detailedForecast": "Rain. Cloudy, with a low around 37. West wind 5 to 15 mph. Chance of precipitation is 80%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/snow,90/snow,80?size=medium",
+    "shortForecast": "Rain And Snow",
+    "detailedForecast": "Rain and snow. Cloudy, with a low around 34. West wind 5 to 15 mph, with gusts as high as 25 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4762\r\nIssue Time: 2024 Nov 22 2316 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4761\r\nValid From: 2024 Nov 22 1719 UTC\r\nNow Valid Until: 2024 Nov 23 0600 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -156,7 +156,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1732327810,
+    "lastchange": 1732331410,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
