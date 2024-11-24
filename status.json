@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/11/24 11:55:11 EST UTC-05:00",
-    "ext_localtime": "Sun Nov 24 11:55:11 AM EST 2024",
+    "ext_time": "2024/11/24 13:10:10 EST UTC-05:00",
+    "ext_localtime": "Sun Nov 24 01:10:10 PM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 54
+        "value": 53
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2024-11-24T09:00:00-05:00",
+    "name": "This Afternoon",
+    "startTime": "2024-11-24T12:00:00-05:00",
     "endTime": "2024-11-24T18:00:00-05:00",
     "isDaytime": true,
-    "temperature": 54,
+    "temperature": 53,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
       "value": null
     },
-    "windSpeed": "10 to 20 mph",
+    "windSpeed": "15 mph",
     "windDirection": "W",
     "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
     "shortForecast": "Partly Sunny",
-    "detailedForecast": "Partly sunny, with a high near 54. West wind 10 to 20 mph, with gusts as high as 35 mph."
+    "detailedForecast": "Partly sunny, with a high near 53. West wind around 15 mph, with gusts as high as 30 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4762\r\nIssue Time: 2024 Nov 22 2316 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4761\r\nValid From: 2024 Nov 22 1719 UTC\r\nNow Valid Until: 2024 Nov 23 0600 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -156,7 +156,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1732467311,
+    "lastchange": 1732471810,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
