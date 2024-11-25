@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/11/24 19:10:10 EST UTC-05:00",
-    "ext_localtime": "Sun Nov 24 07:10:10 PM EST 2024",
+    "ext_time": "2024/11/24 21:10:10 EST UTC-05:00",
+    "ext_localtime": "Sun Nov 24 09:10:10 PM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,14 +118,8 @@
     "detailedForecast": "Partly cloudy, with a low around 37. West wind 10 to 15 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4762\r\nIssue Time: 2024 Nov 22 2316 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4761\r\nValid From: 2024 Nov 22 1719 UTC\r\nNow Valid Until: 2024 Nov 23 0600 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: SUMPX1\r\nSerial Number: 119\r\nIssue Time: 2024 Nov 22 2035 UTC\r\n\r\nSUMMARY: Proton Event 10MeV Integral Flux exceeded 10pfu\r\nBegin Time: 2024 Nov 21 1925 UTC\r\nMaximum Time: 2024 Nov 22 0355 UTC\r\nEnd Time: 2024 Nov 22 1845 UTC\r\nMaximum 10MeV Flux: 125 pfu\r\nNOAA Scale: S2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
-    "Space Weather Message Code: ALTK04\r\nSerial Number: 2501\r\nIssue Time: 2024 Nov 22 1759 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2024 Nov 22 1759 UTC\r\nSynoptic Period: 1500-1800 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4761\r\nIssue Time: 2024 Nov 22 1720 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2024 Nov 22 1719 UTC\r\nValid To: 2024 Nov 22 2359 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: SUMPX2\r\nSerial Number: 55\r\nIssue Time: 2024 Nov 22 1508 UTC\r\n\r\nSUMMARY: Proton Event 10MeV Integral Flux exceeded 100pfu\r\nBegin Time: 2024 Nov 21 1925 UTC\r\nMaximum Time: 2024 Nov 22 0355 UTC\r\nEnd Time: 2024 Nov 22 0530 UTC\r\nMaximum 10MeV Flux: 125 pfu\r\nNOAA Scale: S2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
-    "Space Weather Message Code: SUMPC0\r\nSerial Number: 37\r\nIssue Time: 2024 Nov 22 0955 UTC\r\n\r\nSUMMARY: Proton Event 100MeV Integral Flux exceeded 1pfu\r\nBegin Time: 2024 Nov 21 1855 UTC\r\nMaximum Time: 2024 Nov 21 2010 UTC\r\nEnd Time: 2024 Nov 22 0305 UTC\r\nMaximum 100MeV Flux: 7 pfu\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
-    "Space Weather Message Code: WARPC0\r\nSerial Number: 116\r\nIssue Time: 2024 Nov 22 0950 UTC\r\n\r\nCANCEL WARNING: Proton 100MeV Integral Flux above 1pfu expected\r\nCancel Serial Number: 115\r\nOriginal Issue Time: 2024 Nov 21 1900 UTC\r\n\r\nComment: 100MeV proton flux has steadily decreased and is anticipated to remain below the 1 pfu threshold barring another event.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: An enhancement in the energetic portion of the solar radiation spectrum may indicate increased biological risk to astronauts or passengers and crew in high latitude, high altitude flights. Additionally, energetic particles may represent an increased risk to all satellite systems susceptible to single event effects. This information should be used in conjunction with the current Solar Radiation Storm conditions when assessing overall impact.",
-    "Space Weather Message Code: ALTPX2\r\nSerial Number: 76\r\nIssue Time: 2024 Nov 22 0112 UTC\r\n\r\nALERT: Proton Event 10MeV Integral Flux exceeded 100pfu\r\nBegin Time: 2024 Nov 22 0112 UTC\r\nNOAA Scale: S2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radiation - Passengers and crew in high latitude, high altitude flights may experience small, increased radiation exposures.\r\nSpacecraft - Infrequent single-event upsets to satellites are possible.\r\nRadio - Small effects on polar HF (high frequency) propagation resulting in fades at lower frequencies."
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2502\r\nIssue Time: 2024 Nov 24 2336 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2024 Nov 24 2328 UTC\r\nSynoptic Period: 2100-2400 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4763\r\nIssue Time: 2024 Nov 24 2308 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2024 Nov 24 2308 UTC\r\nValid To: 2024 Nov 25 0600 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -156,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1732493410,
+    "lastchange": 1732500610,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
