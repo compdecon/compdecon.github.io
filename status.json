@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/11/25 04:10:10 EST UTC-05:00",
-    "ext_localtime": "Mon Nov 25 04:10:10 AM EST 2024",
+    "ext_time": "2024/11/25 06:10:10 EST UTC-05:00",
+    "ext_localtime": "Mon Nov 25 06:10:10 AM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,6 +118,8 @@
     "detailedForecast": "Partly cloudy, with a low around 34. Northwest wind around 5 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: SUM10R\r\nSerial Number: 849\r\nIssue Time: 2024 Nov 25 0821 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2024 Nov 25 0733 UTC\r\nMaximum Time: 2024 Nov 25 0734 UTC\r\nEnd Time: 2024 Nov 25 0736 UTC\r\nDuration: 3 minutes\r\nPeak Flux: 210 sfu\r\nLatest Penticton Noon Flux: 203 sfu\r\n\r\n\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
+    "Space Weather Message Code: SUMXM5\r\nSerial Number: 271\r\nIssue Time: 2024 Nov 25 0815 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2024 Nov 25 0724 UTC\r\nMaximum Time: 2024 Nov 25 0742 UTC\r\nEnd Time: 2024 Nov 25 0802 UTC\r\nX-ray Class: M9.4\r\nLocation: N21E90\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
     "Space Weather Message Code: ALTXMF\r\nSerial Number: 453\r\nIssue Time: 2024 Nov 25 0738 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2024 Nov 25 0736 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap."
   ],
   "contact": {
@@ -149,7 +151,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1732525810,
+    "lastchange": 1732533010,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
