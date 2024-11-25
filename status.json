@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/11/25 18:10:10 EST UTC-05:00",
-    "ext_localtime": "Mon Nov 25 06:10:10 PM EST 2024",
+    "ext_time": "2024/11/25 18:55:10 EST UTC-05:00",
+    "ext_localtime": "Mon Nov 25 06:55:10 PM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": false
+        "value": true
       },
       {
         "location": "Front door",
-        "value": false
+        "value": true
       }
     ],
     "humidity": [
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 55
+        "value": 45
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2024-11-25T15:00:00-05:00",
-    "endTime": "2024-11-25T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 55,
+    "name": "Tonight",
+    "startTime": "2024-11-25T18:00:00-05:00",
+    "endTime": "2024-11-26T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 45,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": null
+      "value": 30
     },
     "windSpeed": "5 mph",
-    "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 55. West wind around 5 mph."
+    "windDirection": "S",
+    "icon": "https://api.weather.gov/icons/land/night/bkn/rain,30?size=medium",
+    "shortForecast": "Mostly Cloudy then Chance Light Rain",
+    "detailedForecast": "A chance of rain after 3am. Mostly cloudy. Low around 45, with temperatures rising to around 52 overnight. South wind around 5 mph. Chance of precipitation is 30%."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1376\r\nIssue Time: 2024 Nov 25 2107 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2024 Nov 25 2043 UTC\r\nEstimated Velocity: 248 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
@@ -151,9 +151,9 @@
     {}
   ],
   "state": {
-    "open": false,
-    "lastchange": 1732576210,
-    "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": true,
+    "lastchange": 1732578910,
+    "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
     "blogUpdate": "",
