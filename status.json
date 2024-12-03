@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/12/02 18:55:10 EST UTC-05:00",
-    "ext_localtime": "Mon Dec  2 06:55:10 PM EST 2024",
+    "ext_time": "2024/12/02 21:10:10 EST UTC-05:00",
+    "ext_localtime": "Mon Dec  2 09:10:10 PM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,10 +118,7 @@
     "detailedForecast": "Mostly clear, with a low around 25. Northwest wind around 5 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: ALTK05\r\nSerial Number: 1679\r\nIssue Time: 2024 Nov 30 0242 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\n Threshold Reached: 2024 Nov 30 0242 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: WARK05\r\nSerial Number: 1954\r\nIssue Time: 2024 Nov 30 0155 UTC\r\n\r\nWARNING: Geomagnetic K-index of 5 expected\r\nValid From: 2024 Nov 30 0155 UTC\r\nValid To: 2024 Nov 30 1500 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: ALTK04\r\nSerial Number: 2503\r\nIssue Time: 2024 Nov 30 0124 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2024 Nov 30 0123 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4764\r\nIssue Time: 2024 Nov 30 0115 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2024 Nov 30 0112 UTC\r\nValid To: 2024 Nov 30 1500 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4765\r\nIssue Time: 2024 Dec 02 2322 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2024 Dec 02 2321 UTC\r\nValid To: 2024 Dec 03 0900 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -152,7 +149,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1733183710,
+    "lastchange": 1733191810,
     "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
