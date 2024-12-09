@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/12/09 07:10:10 EST UTC-05:00",
-    "ext_localtime": "Mon Dec  9 07:10:10 AM EST 2024",
+    "ext_time": "2024/12/09 10:10:10 EST UTC-05:00",
+    "ext_localtime": "Mon Dec  9 10:10:10 AM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 52
+        "value": 53
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2024-12-09T06:00:00-05:00",
+    "startTime": "2024-12-09T09:00:00-05:00",
     "endTime": "2024-12-09T18:00:00-05:00",
     "isDaytime": true,
-    "temperature": 52,
+    "temperature": 53,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 90
+      "value": 100
     },
-    "windSpeed": "0 to 5 mph",
+    "windSpeed": "5 to 10 mph",
     "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/day/rain,50/rain,90?size=medium",
+    "icon": "https://api.weather.gov/icons/land/day/rain,40/rain,100?size=medium",
     "shortForecast": "Light Rain Likely",
-    "detailedForecast": "Rain likely between 8am and 1pm, then rain and patchy fog. Cloudy, with a high near 52. Southeast wind 0 to 5 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "detailedForecast": "Rain likely between 10am and 1pm, then rain and patchy fog. Cloudy, with a high near 53. Southeast wind 5 to 10 mph. Chance of precipitation is 100%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2505\r\nIssue Time: 2024 Dec 09 0216 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2024 Dec 09 0215 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -150,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1733746210,
+    "lastchange": 1733757010,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
