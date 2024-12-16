@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/12/16 18:10:11 EST UTC-05:00",
-    "ext_localtime": "Mon Dec 16 06:10:11 PM EST 2024",
+    "ext_time": "2024/12/16 18:55:10 EST UTC-05:00",
+    "ext_localtime": "Mon Dec 16 06:55:10 PM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": false
+        "value": true
       },
       {
         "location": "Front door",
-        "value": false
+        "value": true
       }
     ],
     "humidity": [
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 52
+        "value": 48
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2024-12-16T15:00:00-05:00",
-    "endTime": "2024-12-16T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 52,
+    "name": "Tonight",
+    "startTime": "2024-12-16T18:00:00-05:00",
+    "endTime": "2024-12-17T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 48,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 30
+      "value": 90
     },
-    "windSpeed": "5 to 10 mph",
-    "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/day/rain,30?size=medium",
-    "shortForecast": "Chance Drizzle",
-    "detailedForecast": "A chance of drizzle. Cloudy, with a high near 52. Southeast wind 5 to 10 mph. Chance of precipitation is 30%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "windSpeed": "10 to 15 mph",
+    "windDirection": "S",
+    "icon": "https://api.weather.gov/icons/land/night/rain,80/rain,90?size=medium",
+    "shortForecast": "Rain",
+    "detailedForecast": "Rain after 8pm. Cloudy, with a low around 48. South wind 10 to 15 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2507\r\nIssue Time: 2024 Dec 16 2059 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2024 Dec 16 2059 UTC\r\nSynoptic Period: 1800-2100 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -149,9 +149,9 @@
     {}
   ],
   "state": {
-    "open": false,
-    "lastchange": 1734390611,
-    "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": true,
+    "lastchange": 1734393310,
+    "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
     "blogUpdate": "",
