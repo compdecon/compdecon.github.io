@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/12/16 21:10:10 EST UTC-05:00",
-    "ext_localtime": "Mon Dec 16 09:10:10 PM EST 2024",
+    "ext_time": "2024/12/16 21:55:10 EST UTC-05:00",
+    "ext_localtime": "Mon Dec 16 09:55:10 PM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": true
+        "value": false
       },
       {
         "location": "Front door",
-        "value": true
+        "value": false
       }
     ],
     "humidity": [
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2024-12-16T18:00:00-05:00",
+    "startTime": "2024-12-16T21:00:00-05:00",
     "endTime": "2024-12-17T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 48,
@@ -109,13 +109,13 @@
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 90
+      "value": 100
     },
     "windSpeed": "10 to 15 mph",
-    "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/night/rain,80/rain,90?size=medium",
-    "shortForecast": "Rain",
-    "detailedForecast": "Rain after 8pm. Cloudy, with a low around 48. South wind 10 to 15 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "windDirection": "SW",
+    "icon": "https://api.weather.gov/icons/land/night/rain,80/rain,100?size=medium",
+    "shortForecast": "Areas Of Fog then Light Rain",
+    "detailedForecast": "Areas of fog and a chance of rain and patchy drizzle before 10pm, then rain and patchy fog. Cloudy, with a low around 48. Southwest wind 10 to 15 mph. Chance of precipitation is 100%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4772\r\nIssue Time: 2024 Dec 16 2341 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4771\r\nValid From: 2024 Dec 16 1935 UTC\r\nNow Valid Until: 2024 Dec 17 1500 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -150,9 +150,9 @@
     {}
   ],
   "state": {
-    "open": true,
-    "lastchange": 1734401410,
-    "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": false,
+    "lastchange": 1734404110,
+    "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
     "blogUpdate": "",
