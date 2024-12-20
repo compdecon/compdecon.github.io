@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/12/20 04:10:10 EST UTC-05:00",
-    "ext_localtime": "Fri Dec 20 04:10:10 AM EST 2024",
+    "ext_time": "2024/12/20 06:10:11 EST UTC-05:00",
+    "ext_localtime": "Fri Dec 20 06:10:11 AM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,6 +118,7 @@
     "detailedForecast": "Cloudy, with a low around 35. Northeast wind around 5 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1382\r\nIssue Time: 2024 Dec 20 1030 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2024 Dec 20 1013 UTC\r\nEstimated Velocity: 726 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2508\r\nIssue Time: 2024 Dec 20 0301 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2024 Dec 20 0300 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 4779\r\nIssue Time: 2024 Dec 20 0058 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2024 Dec 20 0057 UTC\r\nValid To: 2024 Dec 20 0900 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
@@ -150,7 +151,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1734685810,
+    "lastchange": 1734693011,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
