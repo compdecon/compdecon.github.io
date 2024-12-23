@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/12/23 13:10:10 EST UTC-05:00",
-    "ext_localtime": "Mon Dec 23 01:10:10 PM EST 2024",
+    "ext_time": "2024/12/23 15:10:10 EST UTC-05:00",
+    "ext_localtime": "Mon Dec 23 03:10:10 PM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,6 +118,7 @@
     "detailedForecast": "Mostly sunny, with a high near 29. West wind 0 to 5 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4784\r\nIssue Time: 2024 Dec 23 1723 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2024 Dec 23 1730 UTC\r\nValid To: 2024 Dec 23 2359 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3409\r\nIssue Time: 2024 Dec 23 1538 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2024 Dec 23 1520 UTC\r\nStation: GOES-16\r\n \r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
     "Space Weather Message Code: SUMXM5\r\nSerial Number: 274\r\nIssue Time: 2024 Dec 23 1141 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2024 Dec 23 1106 UTC\r\nMaximum Time: 2024 Dec 23 1112 UTC\r\nEnd Time: 2024 Dec 23 1116 UTC\r\nX-ray Class: M8.9\r\nLocation: S18E30\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1384\r\nIssue Time: 2024 Dec 23 1125 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2024 Dec 23 1111 UTC\r\nEstimated Velocity: 731 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
@@ -154,7 +155,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1734977410,
+    "lastchange": 1734984610,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
