@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/12/29 12:10:10 EST UTC-05:00",
-    "ext_localtime": "Sun Dec 29 12:10:10 PM EST 2024",
+    "ext_time": "2024/12/29 13:10:10 EST UTC-05:00",
+    "ext_localtime": "Sun Dec 29 01:10:10 PM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2024-12-29T09:00:00-05:00",
+    "name": "This Afternoon",
+    "startTime": "2024-12-29T12:00:00-05:00",
     "endTime": "2024-12-29T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 59,
@@ -109,13 +109,13 @@
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 30
+      "value": null
     },
-    "windSpeed": "5 to 15 mph",
+    "windSpeed": "10 to 15 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/day/rain_showers,30/bkn?size=medium",
-    "shortForecast": "Chance Rain Showers then Mostly Cloudy",
-    "detailedForecast": "A chance of rain showers before noon. Mostly cloudy, with a high near 59. South wind 5 to 15 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": "Mostly cloudy, with a high near 59. South wind 10 to 15 mph. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: SUMXM5\r\nSerial Number: 276\r\nIssue Time: 2024 Dec 29 1536 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2024 Dec 29 1502 UTC\r\nMaximum Time: 2024 Dec 29 1509 UTC\r\nEnd Time: 2024 Dec 29 1524 UTC\r\nX-ray Class: M7.1\r\nLocation: N12W38\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
@@ -153,7 +153,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1735492210,
+    "lastchange": 1735495810,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
