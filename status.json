@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/12/29 16:55:10 EST UTC-05:00",
-    "ext_localtime": "Sun Dec 29 04:55:10 PM EST 2024",
+    "ext_time": "2024/12/29 19:10:10 EST UTC-05:00",
+    "ext_localtime": "Sun Dec 29 07:10:10 PM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 63
+        "value": 50
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2024-12-29T15:00:00-05:00",
-    "endTime": "2024-12-29T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 63,
+    "name": "Tonight",
+    "startTime": "2024-12-29T18:00:00-05:00",
+    "endTime": "2024-12-30T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 50,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": null
+      "value": 100
     },
-    "windSpeed": "10 mph",
+    "windSpeed": "10 to 15 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-    "shortForecast": "Partly Sunny",
-    "detailedForecast": "Partly sunny. High near 63, with temperatures falling to around 55 in the afternoon. South wind around 10 mph, with gusts as high as 25 mph."
+    "icon": "https://api.weather.gov/icons/land/night/tsra,40/tsra,100?size=medium",
+    "shortForecast": "Patchy Fog",
+    "detailedForecast": "A slight chance of rain showers between 7pm and 9pm, then a chance of showers and thunderstorms between 9pm and midnight, then patchy fog and showers and thunderstorms. Cloudy, with a low around 50. South wind 10 to 15 mph, with gusts as high as 30 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WATA50\r\nSerial Number: 84\r\nIssue Time: 2024 Dec 29 2000 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G3 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nDec 30:  None (Below G1)   Dec 31:  G3 (Strong)   Jan 01:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nComment: Isolated periods of strong geomagnetic storming are likely on 31 Dec due to CME effects. Lingering effects will likely wane to minor storming levels over the course of 01 Jan.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 50 degrees Geomagnetic Latitude.\r\nInduced Currents - Power system voltage irregularities possible, false alarms may be triggered on some protection devices.\r\nSpacecraft - Systems may experience surface charging; increased drag on low Earth-orbit satellites and orientation problems may occur.\r\nNavigation - Intermittent satellite navigation (GPS) problems, including loss-of-lock and increased range error may occur.\r\nRadio - HF (high frequency) radio may be intermittent.\r\nAurora - Aurora may be seen as low as Pennsylvania to Iowa to Oregon.",
@@ -154,7 +154,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1735509310,
+    "lastchange": 1735517410,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
