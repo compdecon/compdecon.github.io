@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/12/31 13:10:10 EST UTC-05:00",
-    "ext_localtime": "Tue Dec 31 01:10:10 PM EST 2024",
+    "ext_time": "2024/12/31 15:10:10 EST UTC-05:00",
+    "ext_localtime": "Tue Dec 31 03:10:10 PM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,6 +118,8 @@
     "detailedForecast": "A slight chance of rain showers after 5pm. Partly sunny, with a high near 54. Southeast wind around 10 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: SUMSUD\r\nSerial Number: 284\r\nIssue Time: 2024 Dec 31 1746 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse\r\nObserved: 2024 Dec 31 1621 UTC\r\nDeviation: 17 nT\r\nStation: Boulder\r\n\r\nComment: This is a correction to the previous Summary message that had an incorrect SI time at Earth.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
+    "Space Weather Message Code: SUMSUD\r\nSerial Number: 283\r\nIssue Time: 2024 Dec 31 1713 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse\r\nObserved: 2024 Dec 31 1555 UTC\r\nDeviation: 17 nT\r\nStation: Boulder\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2512\r\nIssue Time: 2024 Dec 31 1656 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2024 Dec 31 1654 UTC\r\nSynoptic Period: 1500-1800 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: WARK05\r\nSerial Number: 1958\r\nIssue Time: 2024 Dec 31 1614 UTC\r\n\r\nWARNING: Geomagnetic K-index of 5 expected\r\nValid From: 2024 Dec 31 1615 UTC\r\nValid To: 2024 Dec 31 2359 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 4787\r\nIssue Time: 2024 Dec 31 1614 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2024 Dec 31 1615 UTC\r\nValid To: 2025 Jan 01 0600 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -152,7 +154,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1735668610,
+    "lastchange": 1735675810,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
