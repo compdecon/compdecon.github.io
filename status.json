@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2024/12/30 18:55:10 EST UTC-05:00",
-    "ext_localtime": "Mon Dec 30 06:55:10 PM EST 2024",
+    "ext_time": "2024/12/30 21:55:10 EST UTC-05:00",
+    "ext_localtime": "Mon Dec 30 09:55:10 PM EST 2024",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": true
+        "value": false
       },
       {
         "location": "Front door",
-        "value": true
+        "value": false
       }
     ],
     "humidity": [
@@ -94,17 +94,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 37
+        "value": 35
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2024-12-30T18:00:00-05:00",
+    "startTime": "2024-12-30T21:00:00-05:00",
     "endTime": "2024-12-31T06:00:00-05:00",
     "isDaytime": false,
-    "temperature": 37,
+    "temperature": 35,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
@@ -112,10 +112,10 @@
       "value": null
     },
     "windSpeed": "5 mph",
-    "windDirection": "SW",
+    "windDirection": "W",
     "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
     "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 37. Southwest wind around 5 mph."
+    "detailedForecast": "Mostly clear, with a low around 35. West wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: SUMXM5\r\nSerial Number: 277\r\nIssue Time: 2024 Dec 30 1727 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2024 Dec 30 1645 UTC\r\nMaximum Time: 2024 Dec 30 1654 UTC\r\nEnd Time: 2025 Dec 30 1701 UTC\r\nX-ray Class: M5.0\r\nOptical Class: 1n\r\nLocation: N11W52\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
@@ -154,9 +154,9 @@
     {}
   ],
   "state": {
-    "open": true,
-    "lastchange": 1735602910,
-    "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": false,
+    "lastchange": 1735613710,
+    "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
     "blogUpdate": "",
