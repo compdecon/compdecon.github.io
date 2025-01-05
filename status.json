@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/01/05 15:10:11 EST UTC-05:00",
-    "ext_localtime": "Sun Jan  5 03:10:11 PM EST 2025",
+    "ext_time": "2025/01/05 16:10:10 EST UTC-05:00",
+    "ext_localtime": "Sun Jan  5 04:10:10 PM EST 2025",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2025-01-05T12:00:00-05:00",
+    "startTime": "2025-01-05T15:00:00-05:00",
     "endTime": "2025-01-05T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 34,
@@ -111,11 +111,11 @@
       "unitCode": "wmoUnit:percent",
       "value": null
     },
-    "windSpeed": "15 to 20 mph",
+    "windSpeed": "15 mph",
     "windDirection": "W",
     "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
     "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 34. West wind 15 to 20 mph, with gusts as high as 35 mph."
+    "detailedForecast": "Sunny, with a high near 34. West wind around 15 mph, with gusts as high as 30 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WATA20\r\nSerial Number: 1023\r\nIssue Time: 2025 Jan 05 1738 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nJan 06:  G1 (Minor)   Jan 07:  None (Below G1)   Jan 08:  None (Below G1)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nComment: Two CMEs that originated from or near AR 3939 left the Sun on 04 Jan. Modeling of these events suggest a glancing blow to Earth is possible by late on 06 Jan.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -151,7 +151,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1736107811,
+    "lastchange": 1736111410,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
