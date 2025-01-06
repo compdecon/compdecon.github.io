@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/01/05 23:55:10 EST UTC-05:00",
-    "ext_localtime": "Sun Jan  5 11:55:10 PM EST 2025",
+    "ext_time": "2025/01/06 01:10:10 EST UTC-05:00",
+    "ext_localtime": "Mon Jan  6 01:10:10 AM EST 2025",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2025-01-05T21:00:00-05:00",
+    "name": "Overnight",
+    "startTime": "2025-01-06T00:00:00-05:00",
     "endTime": "2025-01-06T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 24,
@@ -113,15 +113,12 @@
     },
     "windSpeed": "5 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/night/bkn/snow,20?size=medium",
-    "shortForecast": "Mostly Cloudy then Slight Chance Light Snow",
+    "icon": "https://api.weather.gov/icons/land/night/snow,20?size=medium",
+    "shortForecast": "Slight Chance Light Snow",
     "detailedForecast": "A slight chance of snow after 5am. Mostly cloudy, with a low around 24. West wind around 5 mph. Chance of precipitation is 20%. New snow accumulation of less than half an inch possible."
   },
   "space_weather": [
-    "Space Weather Message Code: SUMPX1\r\nSerial Number: 120\r\nIssue Time: 2025 Jan 05 2222 UTC\r\n\r\nSUMMARY: Proton Event 10MeV Integral Flux exceeded 10pfu\r\nBegin Time: 2025 Jan 04 2235 UTC\r\nMaximum Time: 2025 Jan 05 0055 UTC\r\nEnd Time: 2025 Jan 05 0940 UTC\r\nMaximum 10MeV Flux: 20 pfu\r\nNOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
-    "Space Weather Message Code: WATA20\r\nSerial Number: 1023\r\nIssue Time: 2025 Jan 05 1738 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nJan 06:  G1 (Minor)   Jan 07:  None (Below G1)   Jan 08:  None (Below G1)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nComment: Two CMEs that originated from or near AR 3939 left the Sun on 04 Jan. Modeling of these events suggest a glancing blow to Earth is possible by late on 06 Jan.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: WARPX1\r\nSerial Number: 592\r\nIssue Time: 2025 Jan 05 1155 UTC\r\n\r\nEXTENDED WARNING: Proton 10MeV Integral Flux above 10pfu expected\r\nExtension to Serial Number: 591\r\nValid From: 2025 Jan 04 2140 UTC\r\nNow Valid Until: 2025 Jan 05 2359 UTC\r\nWarning Condition: Persistence\r\nPredicted NOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4796\r\nIssue Time: 2025 Jan 05 1148 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4795\r\nValid From: 2025 Jan 04 0244 UTC\r\nNow Valid Until: 2025 Jan 05 2359 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4797\r\nIssue Time: 2025 Jan 06 0503 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2025 Jan 06 0503 UTC\r\nValid To: 2025 Jan 06 1200 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -152,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1736139310,
+    "lastchange": 1736143810,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
