@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/01/28 01:10:10 EST UTC-05:00",
-    "ext_localtime": "Tue Jan 28 01:10:10 AM EST 2025",
+    "ext_time": "2025/01/28 04:10:10 EST UTC-05:00",
+    "ext_localtime": "Tue Jan 28 04:10:10 AM EST 2025",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2025-01-28T00:00:00-05:00",
+    "startTime": "2025-01-28T03:00:00-05:00",
     "endTime": "2025-01-28T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 31,
@@ -112,10 +112,10 @@
       "value": null
     },
     "windSpeed": "15 mph",
-    "windDirection": "SW",
+    "windDirection": "W",
     "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
     "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 31. Southwest wind around 15 mph, with gusts as high as 30 mph."
+    "detailedForecast": "Mostly clear, with a low around 31. West wind around 15 mph, with gusts as high as 30 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3417\r\nIssue Time: 2025 Jan 27 1430 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2025 Jan 27 1415 UTC\r\nStation: GOES-16\r\n \r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1738044610,
+    "lastchange": 1738055410,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
