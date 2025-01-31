@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/01/31 12:10:10 EST UTC-05:00",
-    "ext_localtime": "Fri Jan 31 12:10:10 PM EST 2025",
+    "ext_time": "2025/01/31 13:10:10 EST UTC-05:00",
+    "ext_localtime": "Fri Jan 31 01:10:10 PM EST 2025",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2025-01-31T09:00:00-05:00",
+    "name": "This Afternoon",
+    "startTime": "2025-01-31T12:00:00-05:00",
     "endTime": "2025-01-31T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 49,
@@ -112,10 +112,10 @@
       "value": 90
     },
     "windSpeed": "5 mph",
-    "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/day/rain,40/rain,90?size=medium",
+    "windDirection": "SW",
+    "icon": "https://api.weather.gov/icons/land/day/rain,90?size=medium",
     "shortForecast": "Rain",
-    "detailedForecast": "Rain. Cloudy, with a high near 49. South wind around 5 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible."
+    "detailedForecast": "Rain. Cloudy, with a high near 49. Southwest wind around 5 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: SUMXM5\r\nSerial Number: 281\r\nIssue Time: 2025 Jan 31 1430 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2025 Jan 31 1340 UTC\r\nMaximum Time: 2025 Jan 31 1406 UTC\r\nEnd Time: 2025 Jan 31 1425 UTC\r\nX-ray Class: M6.7\r\nLocation: N14E41\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
@@ -152,7 +152,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1738343410,
+    "lastchange": 1738347010,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
