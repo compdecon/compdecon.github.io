@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/02/08 22:10:11 EST UTC-05:00",
-    "ext_localtime": "Sat Feb  8 10:10:11 PM EST 2025",
+    "ext_time": "2025/02/09 01:10:11 EST UTC-05:00",
+    "ext_localtime": "Sun Feb  9 01:10:11 AM EST 2025",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,34 +94,12 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 31
+        "value": -1
       }
     ]
   },
-  "ext_weather": {
-    "number": 1,
-    "name": "Tonight",
-    "startTime": "2025-02-08T21:00:00-05:00",
-    "endTime": "2025-02-09T06:00:00-05:00",
-    "isDaytime": false,
-    "temperature": 31,
-    "temperatureUnit": "F",
-    "temperatureTrend": "",
-    "probabilityOfPrecipitation": {
-      "unitCode": "wmoUnit:percent",
-      "value": 100
-    },
-    "windSpeed": "5 mph",
-    "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/night/sleet,100/rain_snow,100?size=medium",
-    "shortForecast": "Snow then Rain",
-    "detailedForecast": "Snow and sleet before 11pm, then sleet and rain and snow between 11pm and midnight, then rain and a slight chance of sleet. Cloudy, with a low around 31. Southeast wind around 5 mph. Chance of precipitation is 100%. New snow accumulation of 1 to 2 inches possible."
-  },
-  "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4824\r\nIssue Time: 2025 Feb 08 1452 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4823\r\nValid From: 2025 Feb 08 0803 UTC\r\nNow Valid Until: 2025 Feb 08 2100 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: ALTK04\r\nSerial Number: 2524\r\nIssue Time: 2025 Feb 08 0902 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2025 Feb 08 0859 UTC\r\nSynoptic Period: 0600-0900 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4823\r\nIssue Time: 2025 Feb 08 0804 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2025 Feb 08 0803 UTC\r\nValid To: 2025 Feb 08 1500 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
-  ],
+  "ext_weather": {},
+  "space_weather": [],
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -151,7 +129,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1739070611,
+    "lastchange": 1739081411,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
