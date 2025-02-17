@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/02/16 23:55:10 EST UTC-05:00",
-    "ext_localtime": "Sun Feb 16 11:55:10 PM EST 2025",
+    "ext_time": "2025/02/17 01:10:10 EST UTC-05:00",
+    "ext_localtime": "Mon Feb 17 01:10:10 AM EST 2025",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2025-02-16T21:00:00-05:00",
+    "name": "Overnight",
+    "startTime": "2025-02-17T00:00:00-05:00",
     "endTime": "2025-02-17T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 26,
@@ -111,17 +111,15 @@
       "unitCode": "wmoUnit:percent",
       "value": null
     },
-    "windSpeed": "30 to 35 mph",
+    "windSpeed": "30 mph",
     "windDirection": "W",
     "icon": "https://api.weather.gov/icons/land/night/wind_bkn?size=medium",
     "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a low around 26. West wind 30 to 35 mph, with gusts as high as 65 mph."
+    "detailedForecast": "Mostly cloudy, with a low around 26. West wind around 30 mph, with gusts as high as 60 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4838\r\nIssue Time: 2025 Feb 16 2020 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4837\r\nValid From: 2025 Feb 13 0527 UTC\r\nNow Valid Until: 2025 Feb 17 0600 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4837\r\nIssue Time: 2025 Feb 16 1422 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4836\r\nValid From: 2025 Feb 13 0527 UTC\r\nNow Valid Until: 2025 Feb 16 2359 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3424\r\nIssue Time: 2025 Feb 16 0437 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3423\r\nBegin Time: 2025 Feb 11 1405 UTC\r\nYesterday Maximum 2MeV Flux: 4741 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4836\r\nIssue Time: 2025 Feb 16 0418 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4835\r\nValid From: 2025 Feb 13 0527 UTC\r\nNow Valid Until: 2025 Feb 16 1500 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4839\r\nIssue Time: 2025 Feb 17 0444 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4838\r\nValid From: 2025 Feb 13 0527 UTC\r\nNow Valid Until: 2025 Feb 17 1200 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3425\r\nIssue Time: 2025 Feb 17 0347 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3424\r\nBegin Time: 2025 Feb 11 1405 UTC\r\nYesterday Maximum 2MeV Flux: 3934 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -152,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1739768110,
+    "lastchange": 1739772610,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
