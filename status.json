@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/02/16 19:10:10 EST UTC-05:00",
-    "ext_localtime": "Sun Feb 16 07:10:10 PM EST 2025",
+    "ext_time": "2025/02/16 22:10:11 EST UTC-05:00",
+    "ext_localtime": "Sun Feb 16 10:10:11 PM EST 2025",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 28
+        "value": 26
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2025-02-16T18:00:00-05:00",
+    "startTime": "2025-02-16T21:00:00-05:00",
     "endTime": "2025-02-17T06:00:00-05:00",
     "isDaytime": false,
-    "temperature": 28,
+    "temperature": 26,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 30
+      "value": null
     },
     "windSpeed": "30 to 35 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,30/wind_bkn?size=medium",
-    "shortForecast": "Chance Rain Showers then Mostly Cloudy",
-    "detailedForecast": "A chance of rain showers before 7pm. Mostly cloudy, with a low around 28. West wind 30 to 35 mph, with gusts as high as 60 mph. Chance of precipitation is 30%. New rainfall amounts between a quarter and half of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/wind_bkn?size=medium",
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": "Mostly cloudy, with a low around 26. West wind 30 to 35 mph, with gusts as high as 65 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4838\r\nIssue Time: 2025 Feb 16 2020 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4837\r\nValid From: 2025 Feb 13 0527 UTC\r\nNow Valid Until: 2025 Feb 17 0600 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -152,7 +152,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1739751010,
+    "lastchange": 1739761811,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
