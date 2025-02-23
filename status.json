@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/02/23 11:55:10 EST UTC-05:00",
-    "ext_localtime": "Sun Feb 23 11:55:10 AM EST 2025",
+    "ext_time": "2025/02/23 13:10:10 EST UTC-05:00",
+    "ext_localtime": "Sun Feb 23 01:10:10 PM EST 2025",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2025-02-23T09:00:00-05:00",
+    "name": "This Afternoon",
+    "startTime": "2025-02-23T12:00:00-05:00",
     "endTime": "2025-02-23T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 44,
@@ -150,7 +150,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1740329710,
+    "lastchange": 1740334210,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
