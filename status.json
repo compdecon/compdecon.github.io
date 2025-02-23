@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/02/23 13:10:10 EST UTC-05:00",
-    "ext_localtime": "Sun Feb 23 01:10:10 PM EST 2025",
+    "ext_time": "2025/02/23 15:10:10 EST UTC-05:00",
+    "ext_localtime": "Sun Feb 23 03:10:10 PM EST 2025",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,8 +118,7 @@
     "detailedForecast": "Mostly sunny, with a high near 44. West wind 5 to 10 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: SUM10R\r\nSerial Number: 860\r\nIssue Time: 2025 Feb 20 0909 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2025 Feb 20 0444 UTC\r\nMaximum Time: 2025 Feb 20 0444 UTC\r\nEnd Time: 2025 Feb 20 0445 UTC\r\nDuration: 1 minutes\r\nPeak Flux: 200 sfu\r\nLatest Penticton Noon Flux: 178 sfu\r\n\r\n\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1401\r\nIssue Time: 2025 Feb 20 0837 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2025 Feb 19 2338 UTC\r\nEstimated Velocity: 553 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
+    "Space Weather Message Code: ALTXMF\r\nSerial Number: 476\r\nIssue Time: 2025 Feb 23 1931 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2025 Feb 23 1925 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -150,7 +149,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1740334210,
+    "lastchange": 1740341410,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
