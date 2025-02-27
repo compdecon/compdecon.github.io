@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/02/27 15:10:10 EST UTC-05:00",
-    "ext_localtime": "Thu Feb 27 03:10:10 PM EST 2025",
+    "ext_time": "2025/02/27 16:10:11 EST UTC-05:00",
+    "ext_localtime": "Thu Feb 27 04:10:11 PM EST 2025",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 60
+        "value": 57
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2025-02-27T12:00:00-05:00",
+    "startTime": "2025-02-27T15:00:00-05:00",
     "endTime": "2025-02-27T18:00:00-05:00",
     "isDaytime": true,
-    "temperature": 60,
+    "temperature": 57,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 80
+      "value": 60
     },
-    "windSpeed": "15 to 20 mph",
+    "windSpeed": "15 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/rain_showers,80?size=medium",
-    "shortForecast": "Rain Showers",
-    "detailedForecast": "Rain showers. Cloudy, with a high near 60. Southwest wind 15 to 20 mph. Chance of precipitation is 80%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,60?size=medium",
+    "shortForecast": "Rain Showers Likely",
+    "detailedForecast": "Rain showers likely. Cloudy, with a high near 57. Southwest wind around 15 mph, with gusts as high as 30 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK05\r\nSerial Number: 1701\r\nIssue Time: 2025 Feb 27 1802 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\n Threshold Reached: 2025 Feb 27 1759 UTC\r\nSynoptic Period: 1500-1800 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -158,7 +158,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1740687010,
+    "lastchange": 1740690611,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
