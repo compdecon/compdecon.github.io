@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/03/01 13:10:10 EST UTC-05:00",
-    "ext_localtime": "Sat Mar  1 01:10:10 PM EST 2025",
+    "ext_time": "2025/03/01 16:10:11 EST UTC-05:00",
+    "ext_localtime": "Sat Mar  1 04:10:11 PM EST 2025",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 58
+        "value": 65
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2025-03-01T12:00:00-05:00",
+    "startTime": "2025-03-01T15:00:00-05:00",
     "endTime": "2025-03-01T18:00:00-05:00",
     "isDaytime": true,
-    "temperature": 58,
+    "temperature": 65,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
       "value": null
     },
-    "windSpeed": "15 to 25 mph",
+    "windSpeed": "20 to 25 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/wind_bkn?size=medium",
-    "shortForecast": "Partly Sunny",
-    "detailedForecast": "Partly sunny. High near 58, with temperatures falling to around 47 in the afternoon. West wind 15 to 25 mph, with gusts as high as 40 mph."
+    "icon": "https://api.weather.gov/icons/land/day/wind_sct?size=medium",
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny. High near 65, with temperatures falling to around 46 in the afternoon. West wind 20 to 25 mph, with gusts as high as 40 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK05\r\nSerial Number: 1704\r\nIssue Time: 2025 Feb 28 1757 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\n Threshold Reached: 2025 Feb 28 1757 UTC\r\nSynoptic Period: 1500-1800 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -155,7 +155,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1740852610,
+    "lastchange": 1740863411,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
