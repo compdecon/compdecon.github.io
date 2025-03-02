@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/03/02 13:10:10 EST UTC-05:00",
-    "ext_localtime": "Sun Mar  2 01:10:10 PM EST 2025",
+    "ext_time": "2025/03/02 16:10:10 EST UTC-05:00",
+    "ext_localtime": "Sun Mar  2 04:10:10 PM EST 2025",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2025-03-02T12:00:00-05:00",
+    "startTime": "2025-03-02T15:00:00-05:00",
     "endTime": "2025-03-02T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 35,
@@ -111,11 +111,11 @@
       "unitCode": "wmoUnit:percent",
       "value": null
     },
-    "windSpeed": "10 to 15 mph",
+    "windSpeed": "15 to 20 mph",
     "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
     "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 35. Northwest wind 10 to 15 mph."
+    "detailedForecast": "Sunny, with a high near 35. Northwest wind 15 to 20 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3426\r\nIssue Time: 2025 Mar 02 1548 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2025 Mar 02 1510 UTC\r\nStation: GOES-16\r\n \r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
@@ -150,7 +150,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1740939010,
+    "lastchange": 1740949810,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
