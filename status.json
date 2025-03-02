@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/03/02 01:10:10 EST UTC-05:00",
-    "ext_localtime": "Sun Mar  2 01:10:10 AM EST 2025",
+    "ext_time": "2025/03/02 03:10:11 EST UTC-05:00",
+    "ext_localtime": "Sun Mar  2 03:10:11 AM EST 2025",
     "ext_tz": "EST",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,8 +118,7 @@
     "detailedForecast": "Mostly clear, with a low around 20. Northwest wind around 15 mph, with gusts as high as 30 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4857\r\nIssue Time: 2025 Mar 01 2111 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4856\r\nValid From: 2025 Feb 27 0101 UTC\r\nNow Valid Until: 2025 Mar 02 1200 UTC\r\nWarning Condition: Persistence\r\n\r\nComment: Correction for valid time date from 01 Mar to 02 Mar.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4856\r\nIssue Time: 2025 Mar 01 2055 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4855\r\nValid From: 2025 Feb 27 0101 UTC\r\nNow Valid Until: 2025 Mar 01 1200 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: WATA20\r\nSerial Number: 1031\r\nIssue Time: 2025 Mar 02 0522 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nMar 03:  None (Below G1)   Mar 04:  G1 (Minor)   Mar 05:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -150,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1740895810,
+    "lastchange": 1740903011,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM and tomorrow, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
