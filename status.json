@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/03/16 06:10:10 EDT UTC-04:00",
-    "ext_localtime": "Sun Mar 16 06:10:10 AM EDT 2025",
+    "ext_time": "2025/03/16 07:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sun Mar 16 07:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 46
+        "value": 60
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2025-03-16T03:00:00-04:00",
-    "endTime": "2025-03-16T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 46,
+    "name": "Today",
+    "startTime": "2025-03-16T06:00:00-04:00",
+    "endTime": "2025-03-16T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 60,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": null
+      "value": 40
     },
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "10 to 20 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
-    "shortForecast": "Patchy Fog",
-    "detailedForecast": "Patchy fog. Cloudy. Low around 46, with temperatures rising to around 52 overnight. South wind 5 to 10 mph."
+    "icon": "https://api.weather.gov/icons/land/day/fog/rain,40?size=medium",
+    "shortForecast": "Patchy Fog then Chance Light Rain",
+    "detailedForecast": "Patchy fog before 8am, then a chance of rain. Cloudy, with a high near 60. South wind 10 to 20 mph, with gusts as high as 40 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3436\r\nIssue Time: 2025 Mar 16 0737 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3435\r\nBegin Time: 2025 Mar 10 1150 UTC\r\nYesterday Maximum 2MeV Flux: 4951 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1742119810,
+    "lastchange": 1742123410,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM and tomorrow, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
