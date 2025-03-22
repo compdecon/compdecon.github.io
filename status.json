@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/03/22 03:10:11 EDT UTC-04:00",
-    "ext_localtime": "Sat Mar 22 03:10:11 AM EDT 2025",
+    "ext_time": "2025/03/22 04:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sat Mar 22 04:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2025-03-22T00:00:00-04:00",
+    "startTime": "2025-03-22T03:00:00-04:00",
     "endTime": "2025-03-22T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 37,
@@ -113,9 +113,9 @@
     },
     "windSpeed": "5 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-    "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 37. Southwest wind around 5 mph."
+    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+    "shortForecast": "Partly Cloudy",
+    "detailedForecast": "Partly cloudy, with a low around 37. Southwest wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4882\r\nIssue Time: 2025 Mar 22 0603 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4881\r\nValid From: 2025 Mar 21 1715 UTC\r\nNow Valid Until: 2025 Mar 22 1500 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -153,7 +153,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1742627411,
+    "lastchange": 1742631010,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
