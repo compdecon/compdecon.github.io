@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/03/24 13:10:11 EDT UTC-04:00",
-    "ext_localtime": "Mon Mar 24 01:10:11 PM EDT 2025",
+    "ext_time": "2025/03/24 16:10:10 EDT UTC-04:00",
+    "ext_localtime": "Mon Mar 24 04:10:10 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2025-03-24T12:00:00-04:00",
+    "startTime": "2025-03-24T15:00:00-04:00",
     "endTime": "2025-03-24T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 53,
@@ -109,13 +109,13 @@
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 90
+      "value": 70
     },
-    "windSpeed": "10 to 15 mph",
+    "windSpeed": "10 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/rain,90?size=medium",
-    "shortForecast": "Rain",
-    "detailedForecast": "Rain. Cloudy, with a high near 53. Southwest wind 10 to 15 mph, with gusts as high as 25 mph. Chance of precipitation is 90%. New rainfall amounts between a half and three quarters of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/day/rain,70?size=medium",
+    "shortForecast": "Rain Likely",
+    "detailedForecast": "Rain likely. Cloudy, with a high near 53. Southwest wind around 10 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WATA30\r\nSerial Number: 247\r\nIssue Time: 2025 Mar 24 1107 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G2 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nMar 24:  G1 (Minor)   Mar 25:  G2 (Moderate)   Mar 26:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
@@ -154,7 +154,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1742836211,
+    "lastchange": 1742847010,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
