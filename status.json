@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/03/28 16:10:11 EDT UTC-04:00",
-    "ext_localtime": "Fri Mar 28 04:10:11 PM EDT 2025",
+    "ext_time": "2025/03/28 19:10:10 EDT UTC-04:00",
+    "ext_localtime": "Fri Mar 28 07:10:10 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 64
+        "value": 52
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2025-03-28T15:00:00-04:00",
-    "endTime": "2025-03-28T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 64,
+    "name": "Tonight",
+    "startTime": "2025-03-28T18:00:00-04:00",
+    "endTime": "2025-03-29T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 52,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": null
+      "value": 40
     },
-    "windSpeed": "10 mph",
+    "windSpeed": "5 to 15 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-    "shortForecast": "Partly Sunny",
-    "detailedForecast": "Partly sunny, with a high near 64. Southwest wind around 10 mph."
+    "icon": "https://api.weather.gov/icons/land/night/rain_showers,40/rain_showers,30?size=medium",
+    "shortForecast": "Scattered Rain Showers",
+    "detailedForecast": "Scattered rain showers between 7pm and 5am. Mostly cloudy, with a low around 52. Southwest wind 5 to 15 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: SUMX01\r\nSerial Number: 191\r\nIssue Time: 2025 Mar 28 1609 UTC\r\n\r\nSUMMARY: X-ray Event exceeded X1\r\nBegin Time: 2025 Mar 28 1503 UTC\r\nMaximum Time: 2025 Mar 28 1521 UTC\r\nEnd Time: 2025 Mar 28 1542 UTC\r\nX-ray Class: X1.1\r\nLocation: N06E75\r\nNOAA Scale: R3 - Strong\r\n\r\nComment: This summary is resent to correct the X-ray Class of this event to an X1.1 vs an X1.4.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact consists of large portions of the sunlit side of Earth, strongest at the sub-solar point.\r\nRadio - Wide area blackout of HF (high frequency) radio communication for about an hour.",
@@ -155,7 +155,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1743192611,
+    "lastchange": 1743203410,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
