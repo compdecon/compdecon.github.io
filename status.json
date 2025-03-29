@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/03/28 19:10:10 EDT UTC-04:00",
-    "ext_localtime": "Fri Mar 28 07:10:10 PM EDT 2025",
+    "ext_time": "2025/03/28 21:10:10 EDT UTC-04:00",
+    "ext_localtime": "Fri Mar 28 09:10:10 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,6 +118,7 @@
     "detailedForecast": "Scattered rain showers between 7pm and 5am. Mostly cloudy, with a low around 52. Southwest wind 5 to 15 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4894\r\nIssue Time: 2025 Mar 28 2357 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4893\r\nValid From: 2025 Mar 25 2017 UTC\r\nNow Valid Until: 2025 Mar 29 1200 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: SUMX01\r\nSerial Number: 191\r\nIssue Time: 2025 Mar 28 1609 UTC\r\n\r\nSUMMARY: X-ray Event exceeded X1\r\nBegin Time: 2025 Mar 28 1503 UTC\r\nMaximum Time: 2025 Mar 28 1521 UTC\r\nEnd Time: 2025 Mar 28 1542 UTC\r\nX-ray Class: X1.1\r\nLocation: N06E75\r\nNOAA Scale: R3 - Strong\r\n\r\nComment: This summary is resent to correct the X-ray Class of this event to an X1.1 vs an X1.4.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact consists of large portions of the sunlit side of Earth, strongest at the sub-solar point.\r\nRadio - Wide area blackout of HF (high frequency) radio communication for about an hour.",
     "Space Weather Message Code: SUMX01\r\nSerial Number: 190\r\nIssue Time: 2025 Mar 28 1550 UTC\r\n\r\nSUMMARY: X-ray Event exceeded X1\r\nBegin Time: 2025 Mar 28 1503 UTC\r\nMaximum Time: 2025 Mar 28 1521 UTC\r\nEnd Time: 2025 Mar 28 1542 UTC\r\nX-ray Class: X1.4\r\nLocation: N06E75\r\nNOAA Scale: R3 - Strong\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact consists of large portions of the sunlit side of Earth, strongest at the sub-solar point.\r\nRadio - Wide area blackout of HF (high frequency) radio communication for about an hour.",
     "Space Weather Message Code: SUM10R\r\nSerial Number: 862\r\nIssue Time: 2025 Mar 28 1542 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2025 Feb 28 1506 UTC\r\nMaximum Time: 2025 Feb 28 1514 UTC\r\nEnd Time: 2025 Feb 28 1530 UTC\r\nDuration: 24 minutes\r\nPeak Flux: 380 sfu\r\nLatest Penticton Noon Flux: 153 sfu\r\n\r\n\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
@@ -155,7 +156,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1743203410,
+    "lastchange": 1743210610,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
