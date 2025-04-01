@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/04/01 09:10:10 EDT UTC-04:00",
-    "ext_localtime": "Tue Apr  1 09:10:10 AM EDT 2025",
+    "ext_time": "2025/04/01 10:10:10 EDT UTC-04:00",
+    "ext_localtime": "Tue Apr  1 10:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 54
+        "value": 57
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2025-04-01T06:00:00-04:00",
+    "startTime": "2025-04-01T09:00:00-04:00",
     "endTime": "2025-04-01T18:00:00-04:00",
     "isDaytime": true,
-    "temperature": 54,
+    "temperature": 57,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 20
+      "value": null
     },
     "windSpeed": "10 to 15 mph",
     "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/day/rain,20/sct?size=medium",
-    "shortForecast": "Slight Chance Light Rain then Mostly Sunny",
-    "detailedForecast": "A slight chance of rain before 7am. Mostly sunny, with a high near 54. Northwest wind 10 to 15 mph, with gusts as high as 30 mph. Chance of precipitation is 20%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+    "shortForecast": "Sunny",
+    "detailedForecast": "Sunny, with a high near 57. Northwest wind 10 to 15 mph, with gusts as high as 30 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3443\r\nIssue Time: 2025 Apr 01 1012 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3442\r\nBegin Time: 2025 Mar 28 1410 UTC\r\nYesterday Maximum 2MeV Flux: 2039 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
@@ -153,7 +153,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1743513010,
+    "lastchange": 1743516610,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
