@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/04/07 04:10:10 EDT UTC-04:00",
-    "ext_localtime": "Mon Apr  7 04:10:10 AM EDT 2025",
+    "ext_time": "2025/04/07 07:10:10 EDT UTC-04:00",
+    "ext_localtime": "Mon Apr  7 07:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 40
+        "value": 47
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2025-04-07T03:00:00-04:00",
-    "endTime": "2025-04-07T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 40,
+    "name": "Today",
+    "startTime": "2025-04-07T06:00:00-04:00",
+    "endTime": "2025-04-07T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 47,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 90
+      "value": 100
     },
-    "windSpeed": "10 mph",
-    "windDirection": "N",
-    "icon": "https://api.weather.gov/icons/land/night/rain,90?size=medium",
-    "shortForecast": "Light Rain",
-    "detailedForecast": "Rain. Cloudy, with a low around 40. North wind around 10 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "windSpeed": "10 to 15 mph",
+    "windDirection": "NE",
+    "icon": "https://api.weather.gov/icons/land/day/rain,100?size=medium",
+    "shortForecast": "Rain",
+    "detailedForecast": "Rain. Cloudy, with a high near 47. Northeast wind 10 to 15 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3446\r\nIssue Time: 2025 Apr 07 0459 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3445\r\nBegin Time: 2025 Apr 05 1225 UTC\r\nYesterday Maximum 2MeV Flux: 9243 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1744013410,
+    "lastchange": 1744024210,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
