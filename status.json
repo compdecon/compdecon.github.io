@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/04/08 07:10:10 EDT UTC-04:00",
-    "ext_localtime": "Tue Apr  8 07:10:10 AM EDT 2025",
+    "ext_time": "2025/04/08 10:10:10 EDT UTC-04:00",
+    "ext_localtime": "Tue Apr  8 10:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2025-04-08T06:00:00-04:00",
+    "startTime": "2025-04-08T09:00:00-04:00",
     "endTime": "2025-04-08T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 47,
@@ -109,13 +109,13 @@
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 30
+      "value": null
     },
-    "windSpeed": "15 to 30 mph",
-    "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/snow,30/wind_sct?size=medium",
-    "shortForecast": "Slight Chance Rain And Snow Showers then Mostly Sunny",
-    "detailedForecast": "A chance of rain showers before 7am, then a slight chance of rain and snow showers between 7am and 8am. Mostly sunny, with a high near 47. West wind 15 to 30 mph, with gusts as high as 45 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "windSpeed": "25 to 30 mph",
+    "windDirection": "NW",
+    "icon": "https://api.weather.gov/icons/land/day/wind_sct?size=medium",
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny, with a high near 47. Northwest wind 25 to 30 mph, with gusts as high as 45 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1410\r\nIssue Time: 2025 Apr 08 0614 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2025 Apr 08 0553 UTC\r\nEstimated Velocity: 456 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
@@ -151,7 +151,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1744110610,
+    "lastchange": 1744121410,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
