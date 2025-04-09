@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/04/08 19:10:10 EDT UTC-04:00",
-    "ext_localtime": "Tue Apr  8 07:10:10 PM EDT 2025",
+    "ext_time": "2025/04/08 22:10:10 EDT UTC-04:00",
+    "ext_localtime": "Tue Apr  8 10:10:10 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2025-04-08T18:00:00-04:00",
+    "startTime": "2025-04-08T21:00:00-04:00",
     "endTime": "2025-04-09T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 28,
@@ -111,11 +111,11 @@
       "unitCode": "wmoUnit:percent",
       "value": null
     },
-    "windSpeed": "15 to 25 mph",
-    "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/night/wind_few?size=medium",
+    "windSpeed": "15 mph",
+    "windDirection": "W",
+    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
     "shortForecast": "Mostly Clear then Patchy Frost",
-    "detailedForecast": "Patchy frost after 2am. Mostly clear, with a low around 28. Northwest wind 15 to 25 mph, with gusts as high as 40 mph."
+    "detailedForecast": "Patchy frost after 2am. Mostly clear, with a low around 28. West wind around 15 mph, with gusts as high as 30 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK05\r\nSerial Number: 2014\r\nIssue Time: 2025 Apr 08 2056 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 5 expected\r\nExtension to Serial Number: 2013\r\nValid From: 2025 Apr 08 1436 UTC\r\nNow Valid Until: 2025 Apr 09 0900 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -156,7 +156,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1744153810,
+    "lastchange": 1744164610,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
