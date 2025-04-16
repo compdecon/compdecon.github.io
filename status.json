@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/04/16 09:10:10 EDT UTC-04:00",
-    "ext_localtime": "Wed Apr 16 09:10:10 AM EDT 2025",
+    "ext_time": "2025/04/16 10:10:10 EDT UTC-04:00",
+    "ext_localtime": "Wed Apr 16 10:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2025-04-16T06:00:00-04:00",
+    "startTime": "2025-04-16T09:00:00-04:00",
     "endTime": "2025-04-16T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 53,
@@ -114,8 +114,8 @@
     "windSpeed": "15 to 20 mph",
     "windDirection": "W",
     "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-    "shortForecast": "Partly Sunny",
-    "detailedForecast": "Partly sunny, with a high near 53. West wind 15 to 20 mph, with gusts as high as 40 mph."
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": "Mostly cloudy, with a high near 53. West wind 15 to 20 mph, with gusts as high as 40 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4927\r\nIssue Time: 2025 Apr 16 1239 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4926\r\nValid From: 2025 Apr 15 1705 UTC\r\nNow Valid Until: 2025 Apr 17 0000 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -154,7 +154,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1744809010,
+    "lastchange": 1744812610,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
