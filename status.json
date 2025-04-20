@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/04/20 01:10:11 EDT UTC-04:00",
-    "ext_localtime": "Sun Apr 20 01:10:11 AM EDT 2025",
+    "ext_time": "2025/04/20 04:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sun Apr 20 04:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2025-04-20T00:00:00-04:00",
+    "startTime": "2025-04-20T03:00:00-04:00",
     "endTime": "2025-04-20T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 59,
@@ -111,11 +111,11 @@
       "unitCode": "wmoUnit:percent",
       "value": null
     },
-    "windSpeed": "5 to 10 mph",
-    "windDirection": "W",
+    "windSpeed": "10 mph",
+    "windDirection": "NW",
     "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
     "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a low around 59. West wind 5 to 10 mph."
+    "detailedForecast": "Mostly cloudy, with a low around 59. Northwest wind around 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WATA30\r\nSerial Number: 250\r\nIssue Time: 2025 Apr 19 2047 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G2 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nApr 20:  None (Below G1)   Apr 21:  None (Below G1)   Apr 22:  G2 (Moderate)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
@@ -153,7 +153,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1745125811,
+    "lastchange": 1745136610,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM and tomorrow, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
