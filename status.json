@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/04/21 18:10:10 EDT UTC-04:00",
-    "ext_localtime": "Mon Apr 21 06:10:10 PM EDT 2025",
+    "ext_time": "2025/04/21 18:55:11 EDT UTC-04:00",
+    "ext_localtime": "Mon Apr 21 06:55:11 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": false
+        "value": true
       },
       {
         "location": "Front door",
-        "value": false
+        "value": true
       }
     ],
     "humidity": [
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 56
+        "value": 51
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2025-04-21T15:00:00-04:00",
-    "endTime": "2025-04-21T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 56,
+    "name": "Tonight",
+    "startTime": "2025-04-21T18:00:00-04:00",
+    "endTime": "2025-04-22T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 51,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": null
+      "value": 60
     },
-    "windSpeed": "10 mph",
-    "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-    "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a high near 56. Southeast wind around 10 mph, with gusts as high as 25 mph."
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "S",
+    "icon": "https://api.weather.gov/icons/land/night/rain_showers,40/rain_showers,60?size=medium",
+    "shortForecast": "Rain Showers Likely",
+    "detailedForecast": "Rain showers likely after 8pm. Cloudy, with a low around 51. South wind 5 to 10 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK05\r\nSerial Number: 1756\r\nIssue Time: 2025 Apr 21 2034 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\n Threshold Reached: 2025 Apr 21 2033 UTC\r\nSynoptic Period: 1800-2100 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -156,9 +156,9 @@
     {}
   ],
   "state": {
-    "open": false,
-    "lastchange": 1745273410,
-    "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": true,
+    "lastchange": 1745276111,
+    "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
     "blogUpdate": "",
