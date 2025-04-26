@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/04/26 04:10:10 EDT UTC-04:00",
-    "ext_localtime": "Sat Apr 26 04:10:10 AM EDT 2025",
+    "ext_time": "2025/04/26 07:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sat Apr 26 07:10:11 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 58
+        "value": 73
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2025-04-26T03:00:00-04:00",
-    "endTime": "2025-04-26T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 58,
+    "name": "Today",
+    "startTime": "2025-04-26T06:00:00-04:00",
+    "endTime": "2025-04-26T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 73,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
       "value": 70
     },
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "10 to 15 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/night/tsra,70?size=medium",
-    "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms. Cloudy, with a low around 58. South wind 5 to 10 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/day/tsra,70?size=medium",
+    "shortForecast": "Scattered Showers And Thunderstorms",
+    "detailedForecast": "A chance of rain showers before 11am, then scattered showers and thunderstorms between 11am and 1pm, then a chance of showers and thunderstorms. Cloudy, with a high near 73. South wind 10 to 15 mph, with gusts as high as 30 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4939\r\nIssue Time: 2025 Apr 24 1716 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4938\r\nValid From: 2025 Apr 24 0655 UTC\r\nNow Valid Until: 2025 Apr 25 0900 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -152,7 +152,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1745655010,
+    "lastchange": 1745665811,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
