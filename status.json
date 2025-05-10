@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/05/10 07:10:11 EDT UTC-04:00",
-    "ext_localtime": "Sat May 10 07:10:11 AM EDT 2025",
+    "ext_time": "2025/05/10 09:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sat May 10 09:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,6 +118,7 @@
     "detailedForecast": "Sunny, with a high near 72. Northwest wind around 15 mph, with gusts as high as 30 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK05\r\nSerial Number: 2040\r\nIssue Time: 2025 May 10 1026 UTC\r\n\r\nCANCEL WARNING: Geomagnetic K-index of 5 expected\r\nCancel Serial Number: 2039\r\nOriginal Issue Time: 2025 May 09 2348 UTC\r\n\r\nComment: Geomagnetic K-index of 5 no longer expected.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 4959\r\nIssue Time: 2025 May 10 0606 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4958\r\nValid From: 2025 May 09 1953 UTC\r\nNow Valid Until: 2025 May 10 1800 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: WARK05\r\nSerial Number: 2039\r\nIssue Time: 2025 May 10 0559 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 5 expected\r\nExtension to Serial Number: 2038\r\nValid From: 2025 May 09 2348 UTC\r\nNow Valid Until: 2025 May 10 1200 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
   ],
@@ -150,7 +151,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1746875411,
+    "lastchange": 1746882610,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
