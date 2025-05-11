@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/05/11 13:10:11 EDT UTC-04:00",
-    "ext_localtime": "Sun May 11 01:10:11 PM EDT 2025",
+    "ext_time": "2025/05/11 16:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sun May 11 04:10:10 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 76
+        "value": 79
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2025-05-11T12:00:00-04:00",
+    "startTime": "2025-05-11T15:00:00-04:00",
     "endTime": "2025-05-11T18:00:00-04:00",
     "isDaytime": true,
-    "temperature": 76,
+    "temperature": 79,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
       "value": null
     },
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "5 mph",
     "windDirection": "N",
     "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
     "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 76. North wind 5 to 10 mph."
+    "detailedForecast": "Mostly sunny. High near 79, with temperatures falling to around 73 in the afternoon. North wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 4961\r\nIssue Time: 2025 May 11 1455 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 4960\r\nValid From: 2025 May 11 0420 UTC\r\nNow Valid Until: 2025 May 12 1800 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -150,7 +150,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1746983411,
+    "lastchange": 1746994210,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
