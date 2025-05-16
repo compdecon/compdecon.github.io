@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/05/16 16:10:10 EDT UTC-04:00",
-    "ext_localtime": "Fri May 16 04:10:10 PM EDT 2025",
+    "ext_time": "2025/05/16 19:10:10 EDT UTC-04:00",
+    "ext_localtime": "Fri May 16 07:10:10 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 72
+        "value": 61
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2025-05-16T15:00:00-04:00",
-    "endTime": "2025-05-16T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 72,
+    "name": "Tonight",
+    "startTime": "2025-05-16T18:00:00-04:00",
+    "endTime": "2025-05-17T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 61,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 60
+      "value": 40
     },
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "5 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/day/tsra_hi,60?size=medium",
-    "shortForecast": "Showers And Thunderstorms Likely",
-    "detailedForecast": "Showers and thunderstorms likely. Partly sunny, with a high near 72. South wind 5 to 10 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/tsra,40/tsra,30?size=medium",
+    "shortForecast": "Chance Showers And Thunderstorms then Widespread Fog",
+    "detailedForecast": "A chance of showers and thunderstorms before 8pm, then a chance of showers and thunderstorms between 8pm and 9pm, then patchy fog and a chance of showers and thunderstorms between 9pm and midnight, then widespread fog and a chance of showers and thunderstorms. Mostly cloudy, with a low around 61. South wind around 5 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WATA20\r\nSerial Number: 1041\r\nIssue Time: 2025 May 16 1900 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nMay 17:  None (Below G1)   May 18:  G1 (Minor)   May 19:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nComment: Coronal Hole High Speed Stream influences will likely lead to G1 storm potential 18-19 May.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -150,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1747426210,
+    "lastchange": 1747437010,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
