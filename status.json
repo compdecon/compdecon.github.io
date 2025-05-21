@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/05/20 22:10:10 EDT UTC-04:00",
-    "ext_localtime": "Tue May 20 10:10:10 PM EDT 2025",
+    "ext_time": "2025/05/21 00:10:11 EDT UTC-04:00",
+    "ext_localtime": "Wed May 21 12:10:11 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,9 +118,8 @@
     "detailedForecast": "Mostly cloudy, with a low around 53. Southeast wind 0 to 5 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: SUM10R\r\nSerial Number: 866\r\nIssue Time: 2025 May 20 2255 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2025 May 20 2239 UTC\r\nMaximum Time: 2025 May 20 2239 UTC\r\nEnd Time: 2025 May 20 2243 UTC\r\nDuration: 4 minutes\r\nPeak Flux: 190 sfu\r\nLatest Penticton Noon Flux: 119 sfu\r\n\r\n\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3467\r\nIssue Time: 2025 May 20 1427 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3466\r\nBegin Time: 2025 May 18 1705 UTC\r\nYesterday Maximum 2MeV Flux: 1870 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 4971\r\nIssue Time: 2025 May 20 0711 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2025 May 20 0711 UTC\r\nValid To: 2025 May 20 1500 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2561\r\nIssue Time: 2025 May 21 0140 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2025 May 21 0140 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 4972\r\nIssue Time: 2025 May 21 0138 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2025 May 21 0138 UTC\r\nValid To: 2025 May 21 1200 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -151,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1747793410,
+    "lastchange": 1747800611,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
