@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/05/25 16:55:10 EDT UTC-04:00",
-    "ext_localtime": "Sun May 25 04:55:10 PM EDT 2025",
+    "ext_time": "2025/05/25 19:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sun May 25 07:10:10 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 70
+        "value": 51
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2025-05-25T15:00:00-04:00",
-    "endTime": "2025-05-25T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 70,
+    "name": "Tonight",
+    "startTime": "2025-05-25T18:00:00-04:00",
+    "endTime": "2025-05-26T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 51,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
       "value": 10
     },
-    "windSpeed": "10 mph",
+    "windSpeed": "5 to 10 mph",
     "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-    "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a high near 70. Northwest wind around 10 mph."
+    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+    "shortForecast": "Partly Cloudy",
+    "detailedForecast": "Partly cloudy, with a low around 51. Northwest wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: SUMXM5\r\nSerial Number: 290\r\nIssue Time: 2025 May 25 1646 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2025 May 25 1618 UTC\r\nMaximum Time: 2025 May 25 1630 UTC\r\nEnd Time: 2025 May 25 1636 UTC\r\nX-ray Class: M8.9\r\nLocation: S04W53\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
@@ -154,7 +154,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1748206510,
+    "lastchange": 1748214610,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
