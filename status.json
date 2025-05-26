@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/05/26 16:10:11 EDT UTC-04:00",
-    "ext_localtime": "Mon May 26 04:10:11 PM EDT 2025",
+    "ext_time": "2025/05/26 18:10:11 EDT UTC-04:00",
+    "ext_localtime": "Mon May 26 06:10:11 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,6 +118,7 @@
     "detailedForecast": "Sunny, with a high near 70. Southeast wind around 5 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: WATA20\r\nSerial Number: 1042\r\nIssue Time: 2025 May 26 2117 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nMay 27:  None (Below G1)   May 28:  G1 (Minor)   May 29:  None (Below G1)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1414\r\nIssue Time: 2025 May 26 1420 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2025 May 26 1336 UTC\r\nEstimated Velocity: 1104 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
   ],
   "contact": {
@@ -149,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1748290211,
+    "lastchange": 1748297411,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
