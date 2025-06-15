@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/06/15 11:55:10 EDT UTC-04:00",
-    "ext_localtime": "Sun Jun 15 11:55:10 AM EDT 2025",
+    "ext_time": "2025/06/15 15:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sun Jun 15 03:10:10 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,6 +118,12 @@
     "detailedForecast": "A chance of rain showers between 7am and 9am, then a chance of rain showers and patchy fog. Cloudy, with a high near 66. Northeast wind 5 to 10 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTTP4\r\nSerial Number: 683\r\nIssue Time: 2025 Jun 15 1841 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2025 Jun 15 1800 UTC\r\n\r\n\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1418\r\nIssue Time: 2025 Jun 15 1841 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2025 Jun 15 1819 UTC\r\nEstimated Velocity: 397 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
+    "Space Weather Message Code: SUMXM5\r\nSerial Number: 293\r\nIssue Time: 2025 Jun 15 1840 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2025 Jun 15 1745 UTC\r\nMaximum Time: 2025 Jun 15 1807 UTC\r\nEnd Time: 2025 Jun 15 1825 UTC\r\nX-ray Class: M8.4\r\nOptical Class: sf\r\nLocation: N17E16\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
+    "Space Weather Message Code: SUM10R\r\nSerial Number: 873\r\nIssue Time: 2025 Jun 15 1825 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2025 Jun 15 1755 UTC\r\nMaximum Time: 2025 Jun 15 1800 UTC\r\nEnd Time: 2025 Jun 15 1810 UTC\r\nDuration: 15 minutes\r\nPeak Flux: 1800 sfu\r\nLatest Penticton Noon Flux: 151 sfu\r\n\r\n\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
+    "Space Weather Message Code: ALTXMF\r\nSerial Number: 487\r\nIssue Time: 2025 Jun 15 1805 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2025 Jun 15 1800 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
+    "Space Weather Message Code: ALTXMF\r\nSerial Number: 487\r\nIssue Time: 2025 Jun 15 1803 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2025 Jun 15 1800 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1417\r\nIssue Time: 2025 Jun 15 0823 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2025 Jun 15 0756 UTC\r\nEstimated Velocity: 485 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
   ],
   "contact": {
@@ -149,7 +155,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1750002910,
+    "lastchange": 1750014610,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
