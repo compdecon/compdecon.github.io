@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/06/17 01:10:10 EDT UTC-04:00",
-    "ext_localtime": "Tue Jun 17 01:10:10 AM EDT 2025",
+    "ext_time": "2025/06/17 04:10:10 EDT UTC-04:00",
+    "ext_localtime": "Tue Jun 17 04:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 72
+        "value": 60
       }
     ]
   },
   "ext_weather": {
-    "number": 2,
-    "name": "Tuesday",
-    "startTime": "2025-06-17T06:00:00-04:00",
-    "endTime": "2025-06-17T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 72,
+    "number": 1,
+    "name": "Overnight",
+    "startTime": "2025-06-17T03:00:00-04:00",
+    "endTime": "2025-06-17T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 60,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 21
+      "value": 31
     },
-    "windSpeed": "0 to 5 mph",
+    "windSpeed": "5 mph",
     "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/day/rain_showers,20?size=medium",
-    "shortForecast": "Slight Chance Rain Showers",
-    "detailedForecast": "A slight chance of rain showers. Mostly cloudy, with a high near 72. East wind 0 to 5 mph. Chance of precipitation is 20%."
+    "icon": "https://api.weather.gov/icons/land/night/rain_showers,30?size=medium",
+    "shortForecast": "Areas Of Drizzle",
+    "detailedForecast": "Areas of drizzle and areas of fog before 4am, then areas of drizzle and areas of fog and a chance of rain showers. Cloudy, with a low around 60. East wind around 5 mph. Chance of precipitation is 30%."
   },
   "space_weather": [
     "Space Weather Message Code: SUMXM5\r\nSerial Number: 294\r\nIssue Time: 2025 Jun 16 1013 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2025 Jun 16 0917 UTC\r\nMaximum Time: 2025 Jun 16 0938 UTC\r\nEnd Time: 2025 Jun 16 0948 UTC\r\nX-ray Class: M6.5\r\nLocation: N18E06\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
@@ -154,7 +154,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1750137010,
+    "lastchange": 1750147810,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
