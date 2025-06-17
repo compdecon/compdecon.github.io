@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/06/17 07:10:10 EDT UTC-04:00",
-    "ext_localtime": "Tue Jun 17 07:10:10 AM EDT 2025",
+    "ext_time": "2025/06/17 12:10:11 EDT UTC-04:00",
+    "ext_localtime": "Tue Jun 17 12:10:11 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,12 +118,7 @@
     "detailedForecast": "Areas of drizzle and areas of fog and a slight chance of rain showers. Cloudy, with a high near 73. East wind 5 to 10 mph. Chance of precipitation is 20%."
   },
   "space_weather": [
-    "Space Weather Message Code: SUMXM5\r\nSerial Number: 294\r\nIssue Time: 2025 Jun 16 1013 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2025 Jun 16 0917 UTC\r\nMaximum Time: 2025 Jun 16 0938 UTC\r\nEnd Time: 2025 Jun 16 0948 UTC\r\nX-ray Class: M6.5\r\nLocation: N18E06\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
-    "Space Weather Message Code: SUM10R\r\nSerial Number: 874\r\nIssue Time: 2025 Jun 16 1011 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2025 Jun 16 0933 UTC\r\nMaximum Time: 2025 Jun 16 0934 UTC\r\nEnd Time: 2025 Jun 16 0941 UTC\r\nDuration: 8 minutes\r\nPeak Flux: 530 sfu\r\nLatest Penticton Noon Flux: 12 sfu\r\n\r\n\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
-    "Space Weather Message Code: ALTXMF\r\nSerial Number: 488\r\nIssue Time: 2025 Jun 16 0938 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2025 Jun 16 0935 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
-    "Space Weather Message Code: ALTK04\r\nSerial Number: 2566\r\nIssue Time: 2025 Jun 16 0748 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2025 Jun 16 0746 UTC\r\nSynoptic Period: 0600-0900 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5004\r\nIssue Time: 2025 Jun 16 0710 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2025 Jun 16 0710 UTC\r\nValid To: 2025 Jun 16 2359 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1419\r\nIssue Time: 2025 Jun 16 0215 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2025 Jun 16 0151 UTC\r\nEstimated Velocity: 1108 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3480\r\nIssue Time: 2025 Jun 17 1350 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2025 Jun 17 1340 UTC\r\nStation: GOES19\r\n \r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -154,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1750158610,
+    "lastchange": 1750176611,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
