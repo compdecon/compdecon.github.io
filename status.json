@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/06/18 01:10:10 EDT UTC-04:00",
-    "ext_localtime": "Wed Jun 18 01:10:10 AM EDT 2025",
+    "ext_time": "2025/06/18 03:10:10 EDT UTC-04:00",
+    "ext_localtime": "Wed Jun 18 03:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,6 +118,7 @@
     "detailedForecast": "Areas of drizzle and areas of fog before 1am, then areas of drizzle and areas of fog and a slight chance of rain showers between 1am and 2am, then areas of drizzle and areas of fog and a chance of showers and thunderstorms. Cloudy, with a low around 65. South wind around 0 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1420\r\nIssue Time: 2025 Jun 18 0501 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2025 Jun 18 0434 UTC\r\nEstimated Velocity: 1110 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 5005\r\nIssue Time: 2025 Jun 18 0128 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2025 Jun 18 0128 UTC\r\nValid To: 2025 Jun 18 0900 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
@@ -149,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1750223410,
+    "lastchange": 1750230610,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
