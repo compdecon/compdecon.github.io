@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/06/17 21:10:11 EDT UTC-04:00",
-    "ext_localtime": "Tue Jun 17 09:10:11 PM EDT 2025",
+    "ext_time": "2025/06/18 01:10:10 EDT UTC-04:00",
+    "ext_localtime": "Wed Jun 18 01:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2025-06-17T18:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2025-06-18T00:00:00-04:00",
     "endTime": "2025-06-18T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 65,
@@ -111,18 +111,14 @@
       "unitCode": "wmoUnit:percent",
       "value": 47
     },
-    "windSpeed": "0 to 5 mph",
-    "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/tsra,50?size=medium",
-    "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A slight chance of rain showers before 8pm, then a chance of showers and thunderstorms between 1am and 2am, then a slight chance of showers and thunderstorms between 2am and 4am, then a chance of showers and thunderstorms. Cloudy, with a low around 65. Southeast wind 0 to 5 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
+    "windSpeed": "0 mph",
+    "windDirection": "",
+    "icon": "https://api.weather.gov/icons/land/night/tsra,50?size=medium",
+    "shortForecast": "Areas Of Drizzle",
+    "detailedForecast": "Areas of drizzle and areas of fog before 1am, then areas of drizzle and areas of fog and a slight chance of rain showers between 1am and 2am, then areas of drizzle and areas of fog and a chance of showers and thunderstorms. Cloudy, with a low around 65. South wind around 0 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
-    "Space Weather Message Code: SUM10R\r\nSerial Number: 875\r\nIssue Time: 2025 Jun 17 2237 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2025 Jun 17 2146 UTC\r\nMaximum Time: 2025 Jun 17 2147 UTC\r\nEnd Time: 2025 Jun 17 2147 UTC\r\nDuration: 1 minutes\r\nPeak Flux: 200 sfu\r\nLatest Penticton Noon Flux: 139 sfu\r\n\r\n\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
-    "Space Weather Message Code: SUMX01\r\nSerial Number: 195\r\nIssue Time: 2025 Jun 17 2204 UTC\r\n\r\nSUMMARY: X-ray Event exceeded X1\r\nBegin Time: 2025 Jun 17 2138 UTC\r\nMaximum Time: 2025 Jun 17 2149 UTC\r\nEnd Time: 2025 Jun 17 2154 UTC\r\nX-ray Class: X1.2\r\nOptical Class: 2b\r\nLocation: N18W10\r\nNOAA Scale: R3 - Strong\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact consists of large portions of the sunlit side of Earth, strongest at the sub-solar point.\r\nRadio - Wide area blackout of HF (high frequency) radio communication for about an hour.",
-    "Space Weather Message Code: ALTXMF\r\nSerial Number: 489\r\nIssue Time: 2025 Jun 17 2150 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2025 Jun 17 2147 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
-    "Space Weather Message Code: WATA20\r\nSerial Number: 1047\r\nIssue Time: 2025 Jun 17 2027 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nJun 18:  None (Below G1)   Jun 19:  None (Below G1)   Jun 20:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3480\r\nIssue Time: 2025 Jun 17 1350 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2025 Jun 17 1340 UTC\r\nStation: GOES19\r\n \r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5005\r\nIssue Time: 2025 Jun 18 0128 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2025 Jun 18 0128 UTC\r\nValid To: 2025 Jun 18 0900 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -153,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1750209011,
+    "lastchange": 1750223410,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
