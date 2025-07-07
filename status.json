@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/07/07 13:10:11 EDT UTC-04:00",
-    "ext_localtime": "Mon Jul  7 01:10:11 PM EDT 2025",
+    "ext_time": "2025/07/07 18:55:10 EDT UTC-04:00",
+    "ext_localtime": "Mon Jul  7 06:55:10 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": false
+        "value": true
       },
       {
         "location": "Front door",
-        "value": false
+        "value": true
       }
     ],
     "humidity": [
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 85
+        "value": 73
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2025-07-07T12:00:00-04:00",
-    "endTime": "2025-07-07T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 85,
+    "name": "Tonight",
+    "startTime": "2025-07-07T18:00:00-04:00",
+    "endTime": "2025-07-08T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 73,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 43
+      "value": 57
     },
-    "windSpeed": "10 mph",
+    "windSpeed": "0 to 5 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/day/tsra_sct,40?size=medium",
-    "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms before 2pm, then a chance of showers and thunderstorms. Some of the storms could produce heavy rain. Partly sunny, with a high near 85. South wind around 10 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/tsra_sct,60/bkn?size=medium",
+    "shortForecast": "Chance Showers And Thunderstorms then Mostly Cloudy",
+    "detailedForecast": "A chance of showers and thunderstorms before 7pm, then showers and thunderstorms likely between 7pm and 8pm, then a slight chance of showers and thunderstorms between 8pm and 11pm. Mostly cloudy, with a low around 73. South wind 0 to 5 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 5025\r\nIssue Time: 2025 Jul 07 0550 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5024\r\nValid From: 2025 Jul 04 2248 UTC\r\nNow Valid Until: 2025 Jul 07 1800 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -151,9 +151,9 @@
     {}
   ],
   "state": {
-    "open": false,
-    "lastchange": 1751908211,
-    "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": true,
+    "lastchange": 1751928910,
+    "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
     "blogUpdate": "",
