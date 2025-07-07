@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/07/07 03:10:10 EDT UTC-04:00",
-    "ext_localtime": "Mon Jul  7 03:10:10 AM EDT 2025",
+    "ext_time": "2025/07/07 07:10:10 EDT UTC-04:00",
+    "ext_localtime": "Mon Jul  7 07:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 73
+        "value": 85
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2025-07-07T00:00:00-04:00",
-    "endTime": "2025-07-07T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 73,
+    "name": "Today",
+    "startTime": "2025-07-07T06:00:00-04:00",
+    "endTime": "2025-07-07T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 85,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 15
+      "value": 43
     },
-    "windSpeed": "5 mph",
+    "windSpeed": "5 to 10 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/night/tsra_sct,20?size=medium",
-    "shortForecast": "Slight Chance Showers And Thunderstorms",
-    "detailedForecast": "A slight chance of showers and thunderstorms after 5am. Mostly cloudy, with a low around 73. South wind around 5 mph. Chance of precipitation is 20%."
+    "icon": "https://api.weather.gov/icons/land/day/tsra_sct,20/tsra_sct,40?size=medium",
+    "shortForecast": "Slight Chance Showers And Thunderstorms then Chance Showers And Thunderstorms",
+    "detailedForecast": "A slight chance of showers and thunderstorms between 7am and noon, then a chance of showers and thunderstorms between noon and 2pm, then a chance of showers and thunderstorms. Some of the storms could produce heavy rain. Mostly cloudy, with a high near 85. South wind 5 to 10 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 5025\r\nIssue Time: 2025 Jul 07 0550 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5024\r\nValid From: 2025 Jul 04 2248 UTC\r\nNow Valid Until: 2025 Jul 07 1800 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -152,7 +152,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1751872210,
+    "lastchange": 1751886610,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
