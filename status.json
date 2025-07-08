@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/07/08 03:10:10 EDT UTC-04:00",
-    "ext_localtime": "Tue Jul  8 03:10:10 AM EDT 2025",
+    "ext_time": "2025/07/08 07:10:10 EDT UTC-04:00",
+    "ext_localtime": "Tue Jul  8 07:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 93
+        "value": 94
       }
     ]
   },
   "ext_weather": {
-    "number": 2,
-    "name": "Tuesday",
+    "number": 1,
+    "name": "Today",
     "startTime": "2025-07-08T06:00:00-04:00",
     "endTime": "2025-07-08T18:00:00-04:00",
     "isDaytime": true,
-    "temperature": 93,
+    "temperature": 94,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 38
+      "value": 47
     },
     "windSpeed": "0 to 5 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/sct/tsra_hi,40?size=medium",
+    "icon": "https://api.weather.gov/icons/land/day/sct/tsra_hi,50?size=medium",
     "shortForecast": "Mostly Sunny then Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 93. Heat index values as high as 101. Southwest wind 0 to 5 mph. Chance of precipitation is 40%. New rainfall amounts between a quarter and half of an inch possible."
+    "detailedForecast": "A chance of showers and thunderstorms after 2pm. Some of the storms could produce heavy rain. Mostly sunny. High near 94, with temperatures falling to around 88 in the afternoon. Heat index values as high as 103. Southwest wind 0 to 5 mph. Chance of precipitation is 50%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2574\r\nIssue Time: 2025 Jul 08 0603 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2025 Jul 08 0559 UTC\r\nSynoptic Period: 0300-0600 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -150,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1751958610,
+    "lastchange": 1751973010,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
