@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/07/07 18:55:10 EDT UTC-04:00",
-    "ext_localtime": "Mon Jul  7 06:55:10 PM EDT 2025",
+    "ext_time": "2025/07/07 21:10:10 EDT UTC-04:00",
+    "ext_localtime": "Mon Jul  7 09:10:10 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,6 +118,7 @@
     "detailedForecast": "A chance of showers and thunderstorms before 7pm, then showers and thunderstorms likely between 7pm and 8pm, then a slight chance of showers and thunderstorms between 8pm and 11pm. Mostly cloudy, with a low around 73. South wind 0 to 5 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5026\r\nIssue Time: 2025 Jul 07 2321 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2025 Jul 07 2321 UTC\r\nValid To: 2025 Jul 08 0600 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 5025\r\nIssue Time: 2025 Jul 07 0550 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5024\r\nValid From: 2025 Jul 04 2248 UTC\r\nNow Valid Until: 2025 Jul 07 1800 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: WARK05\r\nSerial Number: 2074\r\nIssue Time: 2025 Jul 07 0549 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 5 expected\r\nExtension to Serial Number: 2073\r\nValid From: 2025 Jul 06 2320 UTC\r\nNow Valid Until: 2025 Jul 07 1200 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
     "Space Weather Message Code: WARK06\r\nSerial Number: 597\r\nIssue Time: 2025 Jul 07 0151 UTC\r\n\r\nWARNING: Geomagnetic K-Index of 6 expected\r\nValid From: 2025 Jul 07 0150 UTC\r\nValid To: 2025 Jul 07 0600 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
@@ -152,7 +153,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1751928910,
+    "lastchange": 1751937010,
     "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
