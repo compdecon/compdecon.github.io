@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/07/09 04:10:11 EDT UTC-04:00",
-    "ext_localtime": "Wed Jul  9 04:10:11 AM EDT 2025",
+    "ext_time": "2025/07/09 07:10:10 EDT UTC-04:00",
+    "ext_localtime": "Wed Jul  9 07:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 73
+        "value": 88
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2025-07-09T03:00:00-04:00",
-    "endTime": "2025-07-09T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 73,
+    "name": "Today",
+    "startTime": "2025-07-09T06:00:00-04:00",
+    "endTime": "2025-07-09T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 88,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 14
+      "value": 33
     },
-    "windSpeed": "0 mph",
-    "windDirection": "",
-    "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-    "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a low around 73. Southwest wind around 0 mph. New rainfall amounts less than a tenth of an inch possible."
+    "windSpeed": "0 to 5 mph",
+    "windDirection": "SW",
+    "icon": "https://api.weather.gov/icons/land/day/tsra_sct,20/tsra_sct,30?size=medium",
+    "shortForecast": "Chance Showers And Thunderstorms",
+    "detailedForecast": "Patchy fog before 7am, then patchy fog and a slight chance of rain showers between 7am and 11am, then a chance of showers and thunderstorms. Partly sunny, with a high near 88. Southwest wind 0 to 5 mph. Chance of precipitation is 30%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2574\r\nIssue Time: 2025 Jul 08 0603 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2025 Jul 08 0559 UTC\r\nSynoptic Period: 0300-0600 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -150,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1752048611,
+    "lastchange": 1752059410,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
