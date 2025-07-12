@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/07/12 06:10:10 EDT UTC-04:00",
-    "ext_localtime": "Sat Jul 12 06:10:10 AM EDT 2025",
+    "ext_time": "2025/07/12 07:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sat Jul 12 07:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 72
+        "value": 82
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2025-07-12T03:00:00-04:00",
-    "endTime": "2025-07-12T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 72,
+    "name": "Today",
+    "startTime": "2025-07-12T06:00:00-04:00",
+    "endTime": "2025-07-12T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 82,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 2
+      "value": 8
     },
-    "windSpeed": "5 mph",
-    "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
-    "shortForecast": "Areas Of Fog",
-    "detailedForecast": "Patchy fog before 4am, then areas of fog and a chance of drizzle. Cloudy, with a low around 72. Southeast wind around 5 mph."
+    "windSpeed": "5 to 15 mph",
+    "windDirection": "E",
+    "icon": "https://api.weather.gov/icons/land/day/rain/bkn?size=medium",
+    "shortForecast": "Areas Of Fog then Mostly Cloudy",
+    "detailedForecast": "Areas of fog and a chance of drizzle before 9am. Mostly cloudy, with a high near 82. East wind 5 to 15 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 5031\r\nIssue Time: 2025 Jul 12 0831 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5030\r\nValid From: 2025 Jul 11 0510 UTC\r\nNow Valid Until: 2025 Jul 12 2359 UTC\r\nWarning Condition: persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1752315010,
+    "lastchange": 1752318610,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
