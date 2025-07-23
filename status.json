@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/07/23 12:10:10 EDT UTC-04:00",
-    "ext_localtime": "Wed Jul 23 12:10:10 PM EDT 2025",
+    "ext_time": "2025/07/23 13:10:10 EDT UTC-04:00",
+    "ext_localtime": "Wed Jul 23 01:10:10 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2025-07-23T09:00:00-04:00",
+    "startTime": "2025-07-23T06:00:00-04:00",
     "endTime": "2025-07-23T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 81,
@@ -112,10 +112,10 @@
       "value": 1
     },
     "windSpeed": "0 to 5 mph",
-    "windDirection": "SE",
+    "windDirection": "E",
     "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
     "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 81. Southeast wind 0 to 5 mph."
+    "detailedForecast": "Mostly sunny, with a high near 81. East wind 0 to 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK05\r\nSerial Number: 1832\r\nIssue Time: 2025 Jul 23 1504 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\n Threshold Reached: 2025 Jul 23 1459 UTC\r\nSynoptic Period: 1200-1500 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nComment: Minor geomagnetic storming levels were reached due to continued negative polarity CH HSS effects.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -152,7 +152,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1753287010,
+    "lastchange": 1753290610,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
