@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/07/26 23:55:10 EDT UTC-04:00",
-    "ext_localtime": "Sat Jul 26 11:55:10 PM EDT 2025",
+    "ext_time": "2025/07/27 01:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sun Jul 27 01:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 70
+        "value": 82
       }
     ]
   },
   "ext_weather": {
-    "number": 1,
-    "name": "Tonight",
-    "startTime": "2025-07-26T21:00:00-04:00",
-    "endTime": "2025-07-27T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 70,
+    "number": 2,
+    "name": "Sunday",
+    "startTime": "2025-07-27T06:00:00-04:00",
+    "endTime": "2025-07-27T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 82,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 35
+      "value": 92
     },
-    "windSpeed": "5 mph",
+    "windSpeed": "5 to 10 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/night/smoke/tsra,40?size=medium",
-    "shortForecast": "Areas Of Smoke",
-    "detailedForecast": "Areas of smoke before midnight, then areas of smoke and a slight chance of rain showers between midnight and 2am, then areas of smoke and a slight chance of showers and thunderstorms between 2am and 4am, then areas of smoke and a chance of showers and thunderstorms. Mostly cloudy, with a low around 70. South wind around 5 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/day/tsra,30/tsra,90?size=medium",
+    "shortForecast": "Showers And Thunderstorms",
+    "detailedForecast": "A chance of showers and thunderstorms before 7am, then showers and thunderstorms. Cloudy, with a high near 82. South wind 5 to 10 mph. Chance of precipitation is 90%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2582\r\nIssue Time: 2025 Jul 26 1753 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2025 Jul 26 1750 UTC\r\nSynoptic Period: 1500-1800 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -151,7 +151,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1753588510,
+    "lastchange": 1753593010,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM, tomorrow, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
