@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/07/29 23:55:10 EDT UTC-04:00",
-    "ext_localtime": "Tue Jul 29 11:55:10 PM EDT 2025",
+    "ext_time": "2025/07/30 01:10:10 EDT UTC-04:00",
+    "ext_localtime": "Wed Jul 30 01:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 76
+        "value": 94
       }
     ]
   },
   "ext_weather": {
-    "number": 1,
-    "name": "Tonight",
-    "startTime": "2025-07-29T18:00:00-04:00",
-    "endTime": "2025-07-30T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 76,
+    "number": 2,
+    "name": "Wednesday",
+    "startTime": "2025-07-30T06:00:00-04:00",
+    "endTime": "2025-07-30T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 94,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 1
+      "value": 4
     },
     "windSpeed": "0 to 5 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-    "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 76. Southwest wind 0 to 5 mph."
+    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+    "shortForecast": "Sunny",
+    "detailedForecast": "Sunny, with a high near 94. Heat index values as high as 101. Southwest wind 0 to 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3507\r\nIssue Time: 2025 Jul 28 0846 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3506\r\nBegin Time: 2025 Jul 24 1320 UTC\r\nYesterday Maximum 2MeV Flux: 1686 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1753847710,
+    "lastchange": 1753852210,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
