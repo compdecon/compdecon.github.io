@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/07/31 22:10:10 EDT UTC-04:00",
-    "ext_localtime": "Thu Jul 31 10:10:10 PM EDT 2025",
+    "ext_time": "2025/08/01 01:10:10 EDT UTC-04:00",
+    "ext_localtime": "Fri Aug  1 01:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 66
+        "value": 75
       }
     ]
   },
   "ext_weather": {
-    "number": 1,
-    "name": "Tonight",
-    "startTime": "2025-07-31T21:00:00-04:00",
-    "endTime": "2025-08-01T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 66,
+    "number": 2,
+    "name": "Friday",
+    "startTime": "2025-08-01T06:00:00-04:00",
+    "endTime": "2025-08-01T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 75,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 76
+      "value": 39
     },
-    "windSpeed": "5 to 15 mph",
+    "windSpeed": "15 mph",
     "windDirection": "NE",
-    "icon": "https://api.weather.gov/icons/land/night/tsra,70/tsra,80?size=medium",
-    "shortForecast": "Showers And Thunderstorms",
-    "detailedForecast": "Showers and thunderstorms before 4am, then a chance of showers and thunderstorms. Some of the storms could produce heavy rain. Cloudy, with a low around 66. Northeast wind 5 to 15 mph, with gusts as high as 30 mph. Chance of precipitation is 80%. New rainfall amounts between three quarters and one inch possible."
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,40/rain_showers,30?size=medium",
+    "shortForecast": "Chance Rain Showers",
+    "detailedForecast": "A chance of rain showers before 4pm. Mostly cloudy, with a high near 75. Northeast wind around 15 mph, with gusts as high as 30 mph. Chance of precipitation is 40%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3508\r\nIssue Time: 2025 Jul 31 1652 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2025 Jul 31 1635 UTC\r\nStation: GOES19\r\n \r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1754014210,
+    "lastchange": 1754025010,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
