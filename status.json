@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/08/13 01:10:10 EDT UTC-04:00",
-    "ext_localtime": "Wed Aug 13 01:10:10 AM EDT 2025",
+    "ext_time": "2025/08/13 03:10:10 EDT UTC-04:00",
+    "ext_localtime": "Wed Aug 13 03:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,11 +118,7 @@
     "detailedForecast": "Patchy fog before 9am, then a slight chance of rain showers between 1pm and 2pm, then a slight chance of showers and thunderstorms between 2pm and 3pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 87. South wind 0 to 10 mph. Chance of precipitation is 40%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5060\r\nIssue Time: 2025 Aug 12 2354 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5059\r\nValid From: 2025 Aug 08 1415 UTC\r\nNow Valid Until: 2025 Aug 13 0600 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5059\r\nIssue Time: 2025 Aug 12 1406 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5058\r\nValid From: 2025 Aug 08 1415 UTC\r\nNow Valid Until: 2025 Aug 13 0000 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5058\r\nIssue Time: 2025 Aug 12 1113 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5057\r\nValid From: 2025 Aug 08 1415 UTC\r\nNow Valid Until: 2025 Aug 12 1500 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3512\r\nIssue Time: 2025 Aug 12 0803 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3511\r\nBegin Time: 2025 Aug 10 1145 UTC\r\nYesterday Maximum 2MeV Flux: 6326 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5057\r\nIssue Time: 2025 Aug 12 0144 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5056\r\nValid From: 2025 Aug 08 1415 UTC\r\nNow Valid Until: 2025 Aug 12 1200 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3513\r\nIssue Time: 2025 Aug 13 0517 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3512\r\nBegin Time: 2025 Aug 10 1145 UTC\r\nYesterday Maximum 2MeV Flux: 3163 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -153,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1755061810,
+    "lastchange": 1755069010,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
