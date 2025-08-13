@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/08/13 18:10:11 EDT UTC-04:00",
-    "ext_localtime": "Wed Aug 13 06:10:11 PM EDT 2025",
+    "ext_time": "2025/08/13 19:10:10 EDT UTC-04:00",
+    "ext_localtime": "Wed Aug 13 07:10:10 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 87
+        "value": 71
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2025-08-13T15:00:00-04:00",
-    "endTime": "2025-08-13T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 87,
+    "name": "Tonight",
+    "startTime": "2025-08-13T18:00:00-04:00",
+    "endTime": "2025-08-14T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 71,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 16
+      "value": 70
     },
-    "windSpeed": "5 to 10 mph",
-    "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/day/tsra_hi,20?size=medium",
-    "shortForecast": "Slight Chance Showers And Thunderstorms",
-    "detailedForecast": "A slight chance of showers and thunderstorms after 5pm. Mostly sunny, with a high near 87. South wind 5 to 10 mph. Chance of precipitation is 20%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "windSpeed": "0 to 5 mph",
+    "windDirection": "SW",
+    "icon": "https://api.weather.gov/icons/land/night/tsra,70?size=medium",
+    "shortForecast": "Chance Showers And Thunderstorms",
+    "detailedForecast": "A chance of showers and thunderstorms before 8pm, then showers and thunderstorms likely between 8pm and 10pm, then a chance of showers and thunderstorms between 10pm and 2am, then showers and thunderstorms likely. Mostly cloudy, with a low around 71. Southwest wind 0 to 5 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 5061\r\nIssue Time: 2025 Aug 13 2149 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2025 Aug 13 2149 UTC\r\nValid To: 2025 Aug 14 0300 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -150,7 +150,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1755123011,
+    "lastchange": 1755126610,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
