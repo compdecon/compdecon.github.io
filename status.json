@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/08/16 12:10:10 EDT UTC-04:00",
-    "ext_localtime": "Sat Aug 16 12:10:10 PM EDT 2025",
+    "ext_time": "2025/08/16 13:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sat Aug 16 01:10:10 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2025-08-16T09:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2025-08-16T12:00:00-04:00",
     "endTime": "2025-08-16T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 81,
@@ -111,11 +111,11 @@
       "unitCode": "wmoUnit:percent",
       "value": 14
     },
-    "windSpeed": "0 to 5 mph",
-    "windDirection": "E",
+    "windSpeed": "5 mph",
+    "windDirection": "SE",
     "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
     "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 81. East wind 0 to 5 mph."
+    "detailedForecast": "Mostly sunny, with a high near 81. Southeast wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WATA20\r\nSerial Number: 1055\r\nIssue Time: 2025 Aug 16 1601 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nAug 17:  None (Below G1)   Aug 18:  None (Below G1)   Aug 19:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -151,7 +151,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1755360610,
+    "lastchange": 1755364210,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM, next Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
