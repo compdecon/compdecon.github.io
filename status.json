@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/08/16 23:55:11 EDT UTC-04:00",
-    "ext_localtime": "Sat Aug 16 11:55:11 PM EDT 2025",
+    "ext_time": "2025/08/17 01:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sun Aug 17 01:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 68
+        "value": 88
       }
     ]
   },
   "ext_weather": {
-    "number": 1,
-    "name": "Tonight",
-    "startTime": "2025-08-16T18:00:00-04:00",
-    "endTime": "2025-08-17T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 68,
+    "number": 2,
+    "name": "Sunday",
+    "startTime": "2025-08-17T06:00:00-04:00",
+    "endTime": "2025-08-17T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 88,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 8
+      "value": 6
     },
     "windSpeed": "0 to 5 mph",
-    "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-    "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 68. South wind 0 to 5 mph."
+    "windDirection": "SW",
+    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+    "shortForecast": "Sunny",
+    "detailedForecast": "Sunny, with a high near 88. Southwest wind 0 to 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WATA20\r\nSerial Number: 1055\r\nIssue Time: 2025 Aug 16 1601 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nAug 17:  None (Below G1)   Aug 18:  None (Below G1)   Aug 19:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -151,7 +151,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1755402911,
+    "lastchange": 1755407410,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM, tomorrow, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
