@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/08/18 07:10:10 EDT UTC-04:00",
-    "ext_localtime": "Mon Aug 18 07:10:10 AM EDT 2025",
+    "ext_time": "2025/08/18 15:10:10 EDT UTC-04:00",
+    "ext_localtime": "Mon Aug 18 03:10:10 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,6 +118,7 @@
     "detailedForecast": "A slight chance of rain showers before 9am. Mostly cloudy, with a high near 74. Northeast wind 15 to 20 mph. Chance of precipitation is 20%."
   },
   "space_weather": [
+    "Space Weather Message Code: WATA20\r\nSerial Number: 1056\r\nIssue Time: 2025 Aug 18 1839 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nAug 19:  G1 (Minor)   Aug 20:  G1 (Minor)   Aug 21:  None (Below G1)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nComment: Isolated periods of G1 (Minor) geomagnetic storming are likely 19 August due to recurrent, negative polarity CH HSS effects. Isolated periods of G1 (Minor) geomagnetic storming are likely again on 20 August with continued CH HSS effects coupled with the possibility of glancing influences from a CME that left the Sun on 17 August. \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3518\r\nIssue Time: 2025 Aug 18 0622 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3517\r\nBegin Time: 2025 Aug 10 1145 UTC\r\nYesterday Maximum 2MeV Flux: 8023 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
   ],
   "contact": {
@@ -149,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1755515410,
+    "lastchange": 1755544210,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM, Wednesday from 12 - 5PM, and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
