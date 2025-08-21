@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/08/21 10:10:10 EDT UTC-04:00",
-    "ext_localtime": "Thu Aug 21 10:10:10 AM EDT 2025",
+    "ext_time": "2025/08/21 13:10:10 EDT UTC-04:00",
+    "ext_localtime": "Thu Aug 21 01:10:10 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2025-08-21T09:00:00-04:00",
+    "startTime": "2025-08-21T06:00:00-04:00",
     "endTime": "2025-08-21T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 73,
@@ -109,13 +109,13 @@
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 20
+      "value": 38
     },
-    "windSpeed": "20 to 25 mph",
+    "windSpeed": "15 to 25 mph",
     "windDirection": "NE",
-    "icon": "https://api.weather.gov/icons/land/day/rain_showers,20/wind_ovc?size=medium",
-    "shortForecast": "Slight Chance Rain Showers then Cloudy",
-    "detailedForecast": "A slight chance of rain showers before 11am. Cloudy, with a high near 73. Northeast wind 20 to 25 mph, with gusts as high as 40 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,40/wind_ovc?size=medium",
+    "shortForecast": "Chance Rain Showers then Cloudy",
+    "detailedForecast": "A chance of rain showers before 11am. Cloudy, with a high near 73. Northeast wind 15 to 25 mph, with gusts as high as 40 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1425\r\nIssue Time: 2025 Aug 21 1123 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2025 Aug 21 0822 UTC\r\nEstimated Velocity: 1323 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1755785410,
+    "lastchange": 1755796210,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
