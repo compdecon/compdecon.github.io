@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/08/24 13:10:10 EDT UTC-04:00",
-    "ext_localtime": "Sun Aug 24 01:10:10 PM EDT 2025",
+    "ext_time": "2025/08/24 15:10:11 EDT UTC-04:00",
+    "ext_localtime": "Sun Aug 24 03:10:11 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -118,8 +118,7 @@
     "detailedForecast": "Mostly sunny, with a high near 80. South wind around 10 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3519\r\nIssue Time: 2025 Aug 21 1744 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2025 Aug 21 1735 UTC\r\nStation: GOES19\r\n \r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1425\r\nIssue Time: 2025 Aug 21 1123 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2025 Aug 21 0822 UTC\r\nEstimated Velocity: 1323 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3520\r\nIssue Time: 2025 Aug 24 1639 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2025 Aug 24 1620 UTC\r\nStation: GOES19\r\n \r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -150,7 +149,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1756055410,
+    "lastchange": 1756062611,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
