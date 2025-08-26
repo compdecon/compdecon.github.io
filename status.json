@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/08/25 21:55:11 EDT UTC-04:00",
-    "ext_localtime": "Mon Aug 25 09:55:11 PM EDT 2025",
+    "ext_time": "2025/08/26 01:10:10 EDT UTC-04:00",
+    "ext_localtime": "Tue Aug 26 01:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 60
+        "value": 80
       }
     ]
   },
   "ext_weather": {
-    "number": 1,
-    "name": "Tonight",
-    "startTime": "2025-08-25T18:00:00-04:00",
-    "endTime": "2025-08-26T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 60,
+    "number": 2,
+    "name": "Tuesday",
+    "startTime": "2025-08-26T06:00:00-04:00",
+    "endTime": "2025-08-26T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 80,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 0
+      "value": 1
     },
     "windSpeed": "5 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-    "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 60. West wind around 5 mph."
+    "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+    "shortForecast": "Sunny",
+    "detailedForecast": "Sunny, with a high near 80. West wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARPX1\r\nSerial Number: 606\r\nIssue Time: 2025 Aug 25 1924 UTC\r\n\r\nEXTENDED WARNING: Proton 10MeV Integral Flux above 10pfu expected\r\nExtension to Serial Number: 605\r\nValid From: 2025 Aug 24 2340 UTC\r\nNow Valid Until: 2025 Aug 26 1200 UTC\r\nWarning Condition: Persistence\r\nPredicted NOAA Scale: S1 - Minor\r\n\r\nComment: The greater than 10MeV proton flux continues to be at or near the 10 pfu threshold.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.",
@@ -152,7 +152,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1756173311,
+    "lastchange": 1756185010,
     "message": "Sorry we&#x27;re currently closed but we will be open next Wednesday from 12 - 5PM, Sunday from 12 - 5PM, and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
