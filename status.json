@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/08/31 16:55:10 EDT UTC-04:00",
-    "ext_localtime": "Sun Aug 31 04:55:10 PM EDT 2025",
+    "ext_time": "2025/08/31 19:10:11 EDT UTC-04:00",
+    "ext_localtime": "Sun Aug 31 07:10:11 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 76
+        "value": 60
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2025-08-31T06:00:00-04:00",
-    "endTime": "2025-08-31T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 76,
+    "name": "Tonight",
+    "startTime": "2025-08-31T18:00:00-04:00",
+    "endTime": "2025-09-01T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 60,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
       "value": 0
     },
-    "windSpeed": "5 mph",
-    "windDirection": "NE",
-    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-    "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 76. Northeast wind around 5 mph."
+    "windSpeed": "0 to 5 mph",
+    "windDirection": "E",
+    "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": "Mostly cloudy, with a low around 60. East wind 0 to 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WATA50\r\nSerial Number: 89\r\nIssue Time: 2025 Aug 31 0458 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G3 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nAug 31:  None (Below G1)   Sep 01:  G2 (Moderate)   Sep 02:  G3 (Strong)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 50 degrees Geomagnetic Latitude.\r\nInduced Currents - Power system voltage irregularities possible, false alarms may be triggered on some protection devices.\r\nSpacecraft - Systems may experience surface charging; increased drag on low Earth-orbit satellites and orientation problems may occur.\r\nNavigation - Intermittent satellite navigation (GPS) problems, including loss-of-lock and increased range error may occur.\r\nRadio - HF (high frequency) radio may be intermittent.\r\nAurora - Aurora may be seen as low as Pennsylvania to Iowa to Oregon."
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1756673710,
+    "lastchange": 1756681811,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM, Wednesday from 12 - 5PM, and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
