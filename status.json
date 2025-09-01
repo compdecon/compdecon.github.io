@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/09/01 18:10:10 EDT UTC-04:00",
-    "ext_localtime": "Mon Sep  1 06:10:10 PM EDT 2025",
+    "ext_time": "2025/09/01 18:55:11 EDT UTC-04:00",
+    "ext_localtime": "Mon Sep  1 06:55:11 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": false
+        "value": true
       },
       {
         "location": "Front door",
-        "value": false
+        "value": true
       }
     ],
     "humidity": [
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 75
+        "value": 59
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Labor Day",
-    "startTime": "2025-09-01T15:00:00-04:00",
-    "endTime": "2025-09-01T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 75,
+    "name": "Tonight",
+    "startTime": "2025-09-01T18:00:00-04:00",
+    "endTime": "2025-09-02T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 59,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
       "value": 0
     },
-    "windSpeed": "10 mph",
-    "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 75. East wind around 10 mph."
+    "windSpeed": "0 to 5 mph",
+    "windDirection": "NE",
+    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+    "shortForecast": "Mostly Clear",
+    "detailedForecast": "Mostly clear, with a low around 59. Northeast wind 0 to 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: SUMSUD\r\nSerial Number: 288\r\nIssue Time: 2025 Sep 01 2122 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse\r\nObserved: 2025 Sep 01 2101 UTC\r\nDeviation: 58 nT\r\nStation: CNB\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
@@ -155,9 +155,9 @@
     {}
   ],
   "state": {
-    "open": false,
-    "lastchange": 1756764610,
-    "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM, Wednesday from 12 - 5PM, and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": true,
+    "lastchange": 1756767311,
+    "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight, Wednesday from 12 - 5PM, and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
     "blogUpdate": "",
