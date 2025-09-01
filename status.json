@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/09/01 07:10:10 EDT UTC-04:00",
-    "ext_localtime": "Mon Sep  1 07:10:10 AM EDT 2025",
+    "ext_time": "2025/09/01 16:10:10 EDT UTC-04:00",
+    "ext_localtime": "Mon Sep  1 04:10:10 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 74
+        "value": 75
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "Labor Day",
-    "startTime": "2025-09-01T06:00:00-04:00",
+    "startTime": "2025-09-01T15:00:00-04:00",
     "endTime": "2025-09-01T18:00:00-04:00",
     "isDaytime": true,
-    "temperature": 74,
+    "temperature": 75,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
       "value": 0
     },
-    "windSpeed": "5 to 10 mph",
-    "windDirection": "NE",
+    "windSpeed": "10 mph",
+    "windDirection": "E",
     "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
     "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 74. Northeast wind 5 to 10 mph."
+    "detailedForecast": "Mostly sunny, with a high near 75. East wind around 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARPX1\r\nSerial Number: 610\r\nIssue Time: 2025 Sep 01 0934 UTC\r\n\r\nWARNING: Proton 10MeV Integral Flux above 10pfu expected\r\nValid From: 2025 Sep 01 0930 UTC\r\nValid To: 2025 Sep 01 2359 UTC\r\nWarning Condition: Onset\r\nPredicted NOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies."
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1756725010,
+    "lastchange": 1756757410,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM, Wednesday from 12 - 5PM, and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
