@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/09/04 19:10:10 EDT UTC-04:00",
-    "ext_localtime": "Thu Sep  4 07:10:10 PM EDT 2025",
+    "ext_time": "2025/09/05 01:10:11 EDT UTC-04:00",
+    "ext_localtime": "Fri Sep  5 01:10:11 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 64
+        "value": 83
       }
     ]
   },
   "ext_weather": {
-    "number": 1,
-    "name": "Tonight",
-    "startTime": "2025-09-04T18:00:00-04:00",
-    "endTime": "2025-09-05T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 64,
+    "number": 2,
+    "name": "Friday",
+    "startTime": "2025-09-05T06:00:00-04:00",
+    "endTime": "2025-09-05T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 83,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 41
+      "value": 3
     },
     "windSpeed": "5 to 15 mph",
-    "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/night/tsra_hi,40?size=medium",
-    "shortForecast": "Slight Chance Showers And Thunderstorms then Chance Showers And Thunderstorms",
-    "detailedForecast": "A slight chance of showers and thunderstorms between 9pm and 11pm, then a chance of showers and thunderstorms between 11pm and 4am. Mostly cloudy, with a low around 64. South wind 5 to 15 mph, with gusts as high as 25 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+    "windDirection": "SW",
+    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+    "shortForecast": "Sunny",
+    "detailedForecast": "Sunny, with a high near 83. Southwest wind 5 to 15 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WATA20\r\nSerial Number: 1059\r\nIssue Time: 2025 Sep 04 1917 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nSep 05:  G1 (Minor)   Sep 06:  G1 (Minor)   Sep 07:  None (Below G1)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nComment: G1 (Minor) geomagnetic storming due to recurrent positive polarity coronal hole high speed stream effects is ikely by late on the 05 Sep UTC day and continuing into 06 Sep.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1757027410,
+    "lastchange": 1757049011,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
