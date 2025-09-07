@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/09/07 11:55:11 EDT UTC-04:00",
-    "ext_localtime": "Sun Sep  7 11:55:11 AM EDT 2025",
+    "ext_time": "2025/09/07 13:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sun Sep  7 01:10:10 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2025-09-07T06:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2025-09-07T12:00:00-04:00",
     "endTime": "2025-09-07T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 72,
@@ -109,13 +109,13 @@
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 87
+      "value": 57
     },
-    "windSpeed": "5 mph",
+    "windSpeed": "5 to 15 mph",
     "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/day/rain_showers,90/rain_showers,70?size=medium",
-    "shortForecast": "Rain Showers",
-    "detailedForecast": "Rain showers. Cloudy, with a high near 72. Northwest wind around 5 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,60?size=medium",
+    "shortForecast": "Rain Showers Likely",
+    "detailedForecast": "Rain showers likely. Cloudy, with a high near 72. Northwest wind 5 to 15 mph. Chance of precipitation is 60%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 5071\r\nIssue Time: 2025 Sep 06 2228 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5070\r\nValid From: 2025 Sep 06 0235 UTC\r\nNow Valid Until: 2025 Sep 07 2359 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -153,7 +153,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1757260511,
+    "lastchange": 1757265010,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
