@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/09/10 21:55:10 EDT UTC-04:00",
-    "ext_localtime": "Wed Sep 10 09:55:10 PM EDT 2025",
+    "ext_time": "2025/09/11 01:10:10 EDT UTC-04:00",
+    "ext_localtime": "Thu Sep 11 01:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2025-09-10T18:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2025-09-11T00:00:00-04:00",
     "endTime": "2025-09-11T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 59,
@@ -109,19 +109,17 @@
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 25
+      "value": 1
     },
     "windSpeed": "5 mph",
     "windDirection": "N",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,30/bkn?size=medium",
-    "shortForecast": "Scattered Rain Showers then Mostly Cloudy",
-    "detailedForecast": "Scattered rain showers before 7pm. Mostly cloudy, with a low around 59. North wind around 5 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+    "shortForecast": "Partly Cloudy",
+    "detailedForecast": "Partly cloudy, with a low around 59. North wind around 5 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK05\r\nSerial Number: 2098\r\nIssue Time: 2025 Sep 10 0908 UTC\r\n\r\nWARNING: Geomagnetic K-index of 5 expected\r\nValid From: 2025 Sep 10 0908 UTC\r\nValid To: 2025 Sep 10 1500 UTC\r\nWarning Condition: Persistence\r\nNOAA Scale: G1 - Minor\r\n\r\nComment: Corrected dates.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: WARK05\r\nSerial Number: 2097\r\nIssue Time: 2025 Sep 10 0906 UTC\r\n\r\nCANCEL WARNING: Geomagnetic K-index of 5 expected\r\nCancel Serial Number: 2096\r\nOriginal Issue Time: 2025 Sep 09 2240 UTC\r\n\r\nComment: Wrong Valid to date. Correction being issued.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5076\r\nIssue Time: 2025 Sep 10 0546 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5075\r\nValid From: 2025 Sep 09 2100 UTC\r\nNow Valid Until: 2025 Sep 10 1800 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK05\r\nSerial Number: 2096\r\nIssue Time: 2025 Sep 10 0546 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 5 expected\r\nExtension to Serial Number: 2095\r\nValid From: 2025 Sep 09 2240 UTC\r\nNow Valid Until: 2025 May 10 1500 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2590\r\nIssue Time: 2025 Sep 11 0251 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2025 Sep 11 0244 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5077\r\nIssue Time: 2025 Sep 11 0108 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2025 Sep 11 0108 UTC\r\nValid To: 2025 Sep 11 0900 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -152,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1757555710,
+    "lastchange": 1757567410,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
