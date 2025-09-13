@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/09/13 16:10:10 EDT UTC-04:00",
-    "ext_localtime": "Sat Sep 13 04:10:10 PM EDT 2025",
+    "ext_time": "2025/09/13 19:10:10 EDT UTC-04:00",
+    "ext_localtime": "Sat Sep 13 07:10:10 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 76
+        "value": 60
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2025-09-13T12:00:00-04:00",
-    "endTime": "2025-09-13T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 76,
+    "name": "Tonight",
+    "startTime": "2025-09-13T18:00:00-04:00",
+    "endTime": "2025-09-14T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 60,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 2
+      "value": 4
     },
-    "windSpeed": "5 mph",
-    "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-    "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 76. Southeast wind around 5 mph."
+    "windSpeed": "0 to 5 mph",
+    "windDirection": "SW",
+    "icon": "https://api.weather.gov/icons/land/night/sct/fog?size=medium",
+    "shortForecast": "Partly Cloudy then Patchy Fog",
+    "detailedForecast": "Patchy fog after 2am. Partly cloudy, with a low around 60. Southwest wind 0 to 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3523\r\nIssue Time: 2025 Sep 13 1902 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2025 Sep 13 1820 UTC\r\nStation: GOES19\r\n \r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
@@ -150,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1757794210,
+    "lastchange": 1757805010,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM, next Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
