@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/09/22 13:10:11 EDT UTC-04:00",
-    "ext_localtime": "Mon Sep 22 01:10:11 PM EDT 2025",
+    "ext_time": "2025/09/22 18:55:10 EDT UTC-04:00",
+    "ext_localtime": "Mon Sep 22 06:55:10 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -23,11 +23,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": false
+        "value": true
       },
       {
         "location": "Front door",
-        "value": false
+        "value": true
       }
     ],
     "humidity": [
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 73
+        "value": 60
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2025-09-22T06:00:00-04:00",
-    "endTime": "2025-09-22T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 73,
+    "name": "Tonight",
+    "startTime": "2025-09-22T18:00:00-04:00",
+    "endTime": "2025-09-23T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 60,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 3
+      "value": 4
     },
     "windSpeed": "0 to 5 mph",
-    "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 73. East wind 0 to 5 mph."
+    "windDirection": "S",
+    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+    "shortForecast": "Partly Cloudy",
+    "detailedForecast": "Partly cloudy, with a low around 60. South wind 0 to 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3531\r\nIssue Time: 2025 Sep 22 1211 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3530\r\nBegin Time: 2025 Sep 16 1100 UTC\r\nYesterday Maximum 2MeV Flux: 4819 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
@@ -149,9 +149,9 @@
     {}
   ],
   "state": {
-    "open": false,
-    "lastchange": 1758561011,
-    "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM, Wednesday from 12 - 5PM, and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": true,
+    "lastchange": 1758581710,
+    "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight, Wednesday from 12 - 5PM, and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
     "blogUpdate": "",
