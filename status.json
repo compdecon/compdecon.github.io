@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/09/24 11:55:11 EDT UTC-04:00",
-    "ext_localtime": "Wed Sep 24 11:55:11 AM EDT 2025",
+    "ext_time": "2025/09/24 19:10:10 EDT UTC-04:00",
+    "ext_localtime": "Wed Sep 24 07:10:10 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 78
+        "value": 68
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2025-09-24T06:00:00-04:00",
-    "endTime": "2025-09-24T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 78,
+    "name": "Tonight",
+    "startTime": "2025-09-24T18:00:00-04:00",
+    "endTime": "2025-09-25T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 68,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 24
+      "value": 76
     },
     "windSpeed": "0 to 5 mph",
-    "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/day/bkn/tsra_sct,20?size=medium",
-    "shortForecast": "Mostly Cloudy then Slight Chance Showers And Thunderstorms",
-    "detailedForecast": "A slight chance of rain showers between 3pm and 5pm, then a slight chance of showers and thunderstorms. Mostly cloudy, with a high near 78. South wind 0 to 5 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+    "windDirection": "SE",
+    "icon": "https://api.weather.gov/icons/land/night/tsra,50/tsra,80?size=medium",
+    "shortForecast": "Showers And Thunderstorms",
+    "detailedForecast": "A slight chance of rain showers before 7pm, then a chance of showers and thunderstorms between 7pm and 8pm, then a chance of showers and thunderstorms between 8pm and midnight, then showers and thunderstorms. Cloudy, with a low around 68. Southeast wind 0 to 5 mph. Chance of precipitation is 80%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1426\r\nIssue Time: 2025 Sep 23 1111 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2025 Sep 23 1042 UTC\r\nEstimated Velocity: 835 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1758729311,
+    "lastchange": 1758755410,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
