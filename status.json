@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/10/10 03:10:11 EDT UTC-04:00",
-    "ext_localtime": "Fri Oct 10 03:10:11 AM EDT 2025",
+    "ext_time": "2025/10/10 07:10:10 EDT UTC-04:00",
+    "ext_localtime": "Fri Oct 10 07:10:10 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 45
+        "value": 63
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2025-10-10T00:00:00-04:00",
-    "endTime": "2025-10-10T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 45,
+    "name": "Today",
+    "startTime": "2025-10-10T06:00:00-04:00",
+    "endTime": "2025-10-10T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 63,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 0
+      "value": 1
     },
     "windSpeed": "5 mph",
-    "windDirection": "NE",
-    "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
-    "shortForecast": "Clear",
-    "detailedForecast": "Clear, with a low around 45. Northeast wind around 5 mph."
+    "windDirection": "E",
+    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny, with a high near 63. East wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3542\r\nIssue Time: 2025 Oct 10 0646 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3541\r\nBegin Time: 2025 Oct 01 1325 UTC\r\nYesterday Maximum 2MeV Flux: 5051 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
@@ -151,7 +151,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1760080211,
+    "lastchange": 1760094610,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
