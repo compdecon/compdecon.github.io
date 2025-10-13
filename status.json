@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/10/12 23:55:10 EDT UTC-04:00",
-    "ext_localtime": "Sun Oct 12 11:55:10 PM EDT 2025",
+    "ext_time": "2025/10/13 01:10:11 EDT UTC-04:00",
+    "ext_localtime": "Mon Oct 13 01:10:11 AM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -100,8 +100,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2025-10-12T18:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2025-10-13T00:00:00-04:00",
     "endTime": "2025-10-13T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 56,
@@ -111,20 +111,16 @@
       "unitCode": "wmoUnit:percent",
       "value": 98
     },
-    "windSpeed": "20 to 25 mph",
+    "windSpeed": "25 mph",
     "windDirection": "NE",
     "icon": "https://api.weather.gov/icons/land/night/rain,100?size=medium",
     "shortForecast": "Periods Of Rain",
-    "detailedForecast": "Periods of rain. Cloudy, with a low around 56. Northeast wind 20 to 25 mph, with gusts as high as 60 mph. Chance of precipitation is 100%. New rainfall amounts between 1 and 2 inches possible."
+    "detailedForecast": "Periods of rain. Cloudy, with a low around 56. Northeast wind around 25 mph, with gusts as high as 60 mph. Chance of precipitation is 100%. New rainfall amounts between three quarters and one inch possible."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5107\r\nIssue Time: 2025 Oct 12 2359 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5106\r\nValid From: 2025 Oct 11 0502 UTC\r\nNow Valid Until: 2025 Oct 13 1800 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK06\r\nSerial Number: 614\r\nIssue Time: 2025 Oct 12 1913 UTC\r\n\r\nWARNING: Geomagnetic K-Index of 6 expected\r\nValid From: 2025 Oct 12 1913 UTC\r\nValid To: 2025 Oct 12 2359 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
-    "Space Weather Message Code: ALTK05\r\nSerial Number: 1879\r\nIssue Time: 2025 Oct 12 1849 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\n Threshold Reached: 2025 Oct 12 1842 UTC\r\nSynoptic Period: 1800-2100 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3544\r\nIssue Time: 2025 Oct 12 1302 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3543\r\nBegin Time: 2025 Oct 01 1325 UTC\r\nYesterday Maximum 2MeV Flux: 2785 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
-    "Space Weather Message Code: WARK05\r\nSerial Number: 2118\r\nIssue Time: 2025 Oct 12 0336 UTC\r\n\r\nWARNING: Geomagnetic K-index of 5 expected\r\nValid From: 2025 Oct 12 0334 UTC\r\nValid To: 2025 Oct 12 2359 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5106\r\nIssue Time: 2025 Oct 12 0336 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5105\r\nValid From: 2025 Oct 11 0502 UTC\r\nNow Valid Until: 2025 Oct 12 2359 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5105\r\nIssue Time: 2025 Oct 12 0020 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5104\r\nValid From: 2025 Oct 11 0502 UTC\r\nNow Valid Until: 2025 Oct 12 1800 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3545\r\nIssue Time: 2025 Oct 13 0302 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3544\r\nBegin Time: 2025 Oct 01 1325 UTC\r\nYesterday Maximum 2MeV Flux: 1707 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
+    "Space Weather Message Code: ALTK05\r\nSerial Number: 1880\r\nIssue Time: 2025 Oct 13 0257 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\n Threshold Reached: 2025 Oct 13 0256 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+    "Space Weather Message Code: WARK05\r\nSerial Number: 2119\r\nIssue Time: 2025 Oct 13 0000 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 5 expected\r\nExtension to Serial Number: 2118\r\nValid From: 2025 Oct 12 0334 UTC\r\nNow Valid Until: 2025 Oct 13 1500 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -155,7 +151,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1760327710,
+    "lastchange": 1760332211,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM, Wednesday from 12 - 5PM, and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
