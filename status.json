@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/10/15 15:10:11 EDT UTC-04:00",
-    "ext_localtime": "Wed Oct 15 03:10:11 PM EDT 2025",
+    "ext_time": "2025/10/15 16:10:10 EDT UTC-04:00",
+    "ext_localtime": "Wed Oct 15 04:10:10 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -101,7 +101,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2025-10-15T09:00:00-04:00",
+    "startTime": "2025-10-15T06:00:00-04:00",
     "endTime": "2025-10-15T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 68,
@@ -152,7 +152,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1760555411,
+    "lastchange": 1760559010,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
