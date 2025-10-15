@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/10/15 16:10:10 EDT UTC-04:00",
-    "ext_localtime": "Wed Oct 15 04:10:10 PM EDT 2025",
+    "ext_time": "2025/10/15 19:10:10 EDT UTC-04:00",
+    "ext_localtime": "Wed Oct 15 07:10:10 PM EDT 2025",
     "ext_tz": "EDT",
     "comment": "date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5"
   },
@@ -94,28 +94,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 68
+        "value": 43
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2025-10-15T06:00:00-04:00",
-    "endTime": "2025-10-15T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 68,
+    "name": "Tonight",
+    "startTime": "2025-10-15T18:00:00-04:00",
+    "endTime": "2025-10-16T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 43,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 5
+      "value": 0
     },
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "10 mph",
     "windDirection": "N",
-    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 68. North wind 5 to 10 mph."
+    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+    "shortForecast": "Mostly Clear",
+    "detailedForecast": "Mostly clear, with a low around 43. North wind around 10 mph, with gusts as high as 25 mph."
   },
   "space_weather": [
     "Space Weather Message Code: SUM10R\r\nSerial Number: 881\r\nIssue Time: 2025 Oct 15 1615 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2025 Oct 15 1521 UTC\r\nMaximum Time: 2025 Oct 15 1524 UTC\r\nEnd Time: 2025 Oct 15 1532 UTC\r\nDuration: 11 minutes\r\nPeak Flux: 180 sfu\r\nLatest Penticton Noon Flux: 154 sfu\r\n\r\n\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
@@ -152,7 +152,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1760559010,
+    "lastchange": 1760569810,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
