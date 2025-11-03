@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/11/02 23:55:10 EST UTC-05:00",
-    "ext_localtime": "Sun Nov  2 11:55:10 PM EST 2025",
+    "ext_time": "2025/11/03 01:10:10 EST UTC-05:00",
+    "ext_localtime": "Mon Nov  3 01:10:10 AM EST 2025",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -99,8 +99,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2025-11-02T21:00:00-05:00",
+    "name": "Overnight",
+    "startTime": "2025-11-03T00:00:00-05:00",
     "endTime": "2025-11-03T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 46,
@@ -114,13 +114,10 @@
     "windDirection": "",
     "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
     "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a low around 46. South wind around 0 mph."
+    "detailedForecast": "Mostly cloudy, with a low around 46. Southwest wind around 0 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: ALTK04\r\nSerial Number: 2603\r\nIssue Time: 2025 Nov 02 1755 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2025 Nov 02 1749 UTC\r\nSynoptic Period: 1500-1800 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5132\r\nIssue Time: 2025 Nov 02 1712 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2025 Nov 02 1711 UTC\r\nValid To: 2025 Nov 03 0900 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3553\r\nIssue Time: 2025 Nov 02 0459 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3552\r\nBegin Time: 2025 Oct 31 1250 UTC\r\nYesterday Maximum 2MeV Flux: 10574 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5131\r\nIssue Time: 2025 Nov 02 0236 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5130\r\nValid From: 2025 Oct 27 2325 UTC\r\nNow Valid Until: 2025 Nov 02 1200 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3554\r\nIssue Time: 2025 Nov 03 0459 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3553\r\nBegin Time: 2025 Oct 31 1250 UTC\r\nYesterday Maximum 2MeV Flux: 12611 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -151,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1762145710,
+    "lastchange": 1762150210,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM, Wednesday from 12 - 5PM, and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
