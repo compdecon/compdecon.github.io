@@ -2,7 +2,7 @@
 
 # https://spaceapi.io/
 # https://directory.spaceapi.io/
-jsonVersion="0.0.3"
+jsonVersion="0.0.4"
 FILE=status.json
 TOPIC="cdl/status"
 #QTTHOST=localhost.uucp
@@ -17,7 +17,7 @@ MQTTPORT=1883
 LAT="40.18652189759892"
 LON="-74.06013028703497"
 
-cd ~/dev/git/compdecon.github.io/
+cd ${HOME}/dev/git/compdecon.github.io/
 
 sub () {
     topic="${1}"
@@ -59,7 +59,7 @@ toKelvin() {
 # ------------------------------------------------------------------------------
 # getops
 OPEN=0
-MSG="All visitors to the makerspace are required to mask as per the State of New Jersey requirements and maintain appropriate social distancing while in the building"
+#MSG="All visitors to the makerspace are required to mask as per the State of New Jersey requirements and maintain appropriate social distancing while in the building"
 MSG="Sorry we're closed for the day."
 # ------------------------------------------------------------------------------
 
@@ -110,7 +110,7 @@ TUNIT="\u00b0F"
 TLAB=70
 TCLASS=70
 TSTUDIO=70
-TOUTSIDE=$(jq '.temperature' /tmp/forecast)
+TOUTSIDE=$(jq '.temperature' /tmp/forecast || echo '-1')
 
 #
 # Probably need this to be in another cron that runs 4 times a day (every 6 hours)
@@ -137,7 +137,7 @@ JSON="{
   \"api_compatability\": [\"14\"],
   \"api\": \"0.13\",
   \"version\": \"${jsonVersion}\",
-  \"comment\": \"API is a work in progress\",
+  \"comment\": \"API is a work in progress (${jsonVersion})\",
   \"space\": \"CDL - Computer Deconstruction Lab\",
   \"logo\": \"https://compdecon.github.io/images/CDL-Logo-black.png\",
   \"url\": \"https://compdecon.github.io/\",
@@ -148,8 +148,7 @@ JSON="{
       \"timezone\": \"America/New_York\",
       \"ext_time\": \"$(date '+%Y/%m/%d %H:%M:%S %Z UTC%:z')\",
       \"ext_localtime\": \"$(date)\",
-      \"ext_tz\": \"$(date +%Z)\",
-      \"comment\": \"date '+%Y/%m/%d %H:%M:%S %Z UTC%:z'# EDT/GMT+4 EST/GMT+5\"
+      \"ext_tz\": \"$(date +%Z)\"
   },
   \"sensors\": {
       \"comment\": \"optional\",
@@ -274,7 +273,7 @@ JSON="{
           \"name\": \"Git push\",
           \"type\": \"git push\",
           \"timestamp\": 1624916770,
-          \"extra\": \"ncherry@linuxha.com git push'd updates for the compdecon.github.io related code\"
+          \"extra\": \"ncherry@linuxha.com git pushed updates for the compdecon.github.io related code\"
       }
   ],
   \"projects\": [
@@ -325,12 +324,13 @@ if [ $? -ne 0 ]; then
     ###
     ### ssh-agent stuff here
     ###
-    source ~/tmp/dot.ssh-agent-njc.sh
-    #
+
     ###
     ### Check for errors
     ###
     tfile=$(mktemp)
+    source ~/tmp/dot.ssh-agent-njc.sh &>> ${tfile}
+    #
     git add status.json &>> ${tfile}
     git commit -m "Automated status update" &>> ${tfile}
     git push  &>> ${tfile}
@@ -340,8 +340,8 @@ if [ $? -ne 0 ]; then
         cat ${tfile}
     fi
     rm ${tfile}
-#else
-    #echo 'No changes to report'
+else
+    echo 'No changes to report'
 fi
 
 exit 0
