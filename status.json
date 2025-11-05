@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/11/05 15:10:10 EST UTC-05:00",
-    "ext_localtime": "Wed Nov  5 03:10:10 PM EST 2025",
+    "ext_time": "2025/11/05 16:10:10 EST UTC-05:00",
+    "ext_localtime": "Wed Nov  5 04:10:10 PM EST 2025",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -99,8 +99,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2025-11-05T09:00:00-05:00",
+    "name": "This Afternoon",
+    "startTime": "2025-11-05T15:00:00-05:00",
     "endTime": "2025-11-05T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 65,
@@ -108,13 +108,13 @@
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 2
+      "value": 1
     },
-    "windSpeed": "5 to 15 mph",
+    "windSpeed": "15 mph",
     "windDirection": "SW",
     "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
     "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 65. Southwest wind 5 to 15 mph, with gusts as high as 30 mph."
+    "detailedForecast": "Mostly sunny, with a high near 65. Southwest wind around 15 mph, with gusts as high as 30 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK05\r\nSerial Number: 2130\r\nIssue Time: 2025 Nov 05 1950 UTC\r\n\r\nWARNING: Geomagnetic K-index of 5 expected\r\nValid From: 2025 Nov 05 1950 UTC\r\nValid To: 2025 Nov 06 0900 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -158,7 +158,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1762373410,
+    "lastchange": 1762377010,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
