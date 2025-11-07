@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/11/07 09:10:11 EST UTC-05:00",
-    "ext_localtime": "Fri Nov  7 09:10:11 AM EST 2025",
+    "ext_time": "2025/11/07 10:10:11 EST UTC-05:00",
+    "ext_localtime": "Fri Nov  7 10:10:11 AM EST 2025",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2025-11-07T06:00:00-05:00",
+    "startTime": "2025-11-07T09:00:00-05:00",
     "endTime": "2025-11-07T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 61,
@@ -110,11 +110,11 @@
       "unitCode": "wmoUnit:percent",
       "value": 1
     },
-    "windSpeed": "0 to 15 mph",
+    "windSpeed": "5 to 15 mph",
     "windDirection": "S",
     "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
     "shortForecast": "Partly Sunny",
-    "detailedForecast": "Partly sunny, with a high near 61. South wind 0 to 15 mph, with gusts as high as 30 mph."
+    "detailedForecast": "Partly sunny, with a high near 61. South wind 5 to 15 mph, with gusts as high as 30 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK05\r\nSerial Number: 2133\r\nIssue Time: 2025 Nov 07 1358 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 5 expected\r\nExtension to Serial Number: 2132\r\nValid From: 2025 Nov 06 2347 UTC\r\nNow Valid Until: 2025 Nov 07 2359 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -158,7 +158,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1762524611,
+    "lastchange": 1762528211,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
