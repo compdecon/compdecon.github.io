@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/11/08 04:10:10 EST UTC-05:00",
-    "ext_localtime": "Sat Nov  8 04:10:10 AM EST 2025",
+    "ext_time": "2025/11/08 07:10:10 EST UTC-05:00",
+    "ext_localtime": "Sat Nov  8 07:10:10 AM EST 2025",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 54
+        "value": 65
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2025-11-08T03:00:00-05:00",
-    "endTime": "2025-11-08T06:00:00-05:00",
-    "isDaytime": false,
-    "temperature": 54,
+    "name": "Today",
+    "startTime": "2025-11-08T06:00:00-05:00",
+    "endTime": "2025-11-08T18:00:00-05:00",
+    "isDaytime": true,
+    "temperature": 65,
     "temperatureUnit": "F",
     "temperatureTrend": "",
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 52
+      "value": 48
     },
-    "windSpeed": "10 mph",
-    "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,50?size=medium",
-    "shortForecast": "Scattered Rain Showers",
-    "detailedForecast": "Scattered rain showers. Cloudy, with a low around 54. Southwest wind around 10 mph. Chance of precipitation is 50%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "windSpeed": "0 to 15 mph",
+    "windDirection": "W",
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,50/sct?size=medium",
+    "shortForecast": "Scattered Rain Showers then Mostly Sunny",
+    "detailedForecast": "Scattered rain showers before 11am. Mostly sunny, with a high near 65. West wind 0 to 15 mph. Chance of precipitation is 50%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK05\r\nSerial Number: 1902\r\nIssue Time: 2025 Nov 08 0751 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\n Threshold Reached: 2025 Nov 08 0737 UTC\r\nSynoptic Period: 0600-0900 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -155,7 +155,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1762593010,
+    "lastchange": 1762603810,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM, next Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
