@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/12/08 13:55:25 EST UTC-05:00",
-    "ext_localtime": "Mon 08 Dec 2025 01:55:25 PM EST",
+    "ext_time": "2025/12/08 16:10:10 EST UTC-05:00",
+    "ext_localtime": "Mon 08 Dec 2025 04:10:10 PM EST",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2025-12-08T13:00:00-05:00",
+    "startTime": "2025-12-08T15:00:00-05:00",
     "endTime": "2025-12-08T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 32,
@@ -110,11 +110,11 @@
       "unitCode": "wmoUnit:percent",
       "value": 0
     },
-    "windSpeed": "10 to 15 mph",
+    "windSpeed": "10 mph",
     "windDirection": "N",
     "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
     "shortForecast": "Cloudy",
-    "detailedForecast": "Cloudy, with a high near 32. North wind 10 to 15 mph."
+    "detailedForecast": "Cloudy, with a high near 32. North wind around 10 mph, with gusts as high as 25 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3574\r\nIssue Time: 2025 Dec 08 1237 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3573\r\nBegin Time: 2025 Dec 05 1530 UTC\r\nYesterday Maximum 2MeV Flux: 1453 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
@@ -151,7 +151,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1765220125,
+    "lastchange": 1765228210,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM, Wednesday from 12 - 5PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook </a>.",
     "preMessage": ".",
     "postMessage": ".",
