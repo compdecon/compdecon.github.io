@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/12/08 21:55:10 EST UTC-05:00",
-    "ext_localtime": "Mon 08 Dec 2025 09:55:10 PM EST",
+    "ext_time": "2025/12/09 01:10:10 EST UTC-05:00",
+    "ext_localtime": "Tue 09 Dec 2025 01:10:10 AM EST",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -99,8 +99,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2025-12-08T18:00:00-05:00",
+    "name": "Overnight",
+    "startTime": "2025-12-09T00:00:00-05:00",
     "endTime": "2025-12-09T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 19,
@@ -112,15 +112,14 @@
     },
     "windSpeed": "5 mph",
     "windDirection": "N",
-    "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-    "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a low around 19. North wind around 5 mph, with gusts as high as 25 mph."
+    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+    "shortForecast": "Partly Cloudy",
+    "detailedForecast": "Partly cloudy, with a low around 19. North wind around 5 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3574\r\nIssue Time: 2025 Dec 08 1237 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3573\r\nBegin Time: 2025 Dec 05 1530 UTC\r\nYesterday Maximum 2MeV Flux: 1453 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
-    "Space Weather Message Code: SUMX01\r\nSerial Number: 204\r\nIssue Time: 2025 Dec 08 0513 UTC\r\n\r\nSUMMARY: X-ray Event exceeded X1\r\nBegin Time: 2025 Dec 08 0449 UTC\r\nMaximum Time: 2025 Dec 08 0501 UTC\r\nEnd Time: 2025 Dec 08 0504 UTC\r\nX-ray Class: X1.1\r\nLocation: S18W55\r\nNOAA Scale: R3 - Strong\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact consists of large portions of the sunlit side of Earth, strongest at the sub-solar point.\r\nRadio - Wide area blackout of HF (high frequency) radio communication for about an hour.",
-    "Space Weather Message Code: ALTXMF\r\nSerial Number: 505\r\nIssue Time: 2025 Dec 08 0502 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2025 Dec 08 0500 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1452\r\nIssue Time: 2025 Dec 08 0046 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2025 Dec 08 0017 UTC\r\nEstimated Velocity: 317 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
+    "Space Weather Message Code: ALTTP4\r\nSerial Number: 699\r\nIssue Time: 2025 Dec 09 0256 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2025 Dec 09 0220 UTC\r\n\r\n\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1454\r\nIssue Time: 2025 Dec 09 0215 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2025 Dec 09 0152 UTC\r\nEstimated Velocity: 759 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1453\r\nIssue Time: 2025 Dec 09 0204 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2025 Dec 09 0141 UTC\r\nEstimated Velocity: 1825 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -151,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1765248910,
+    "lastchange": 1765260610,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
