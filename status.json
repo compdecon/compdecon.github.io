@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/12/09 16:10:10 EST UTC-05:00",
-    "ext_localtime": "Tue 09 Dec 2025 04:10:10 PM EST",
+    "ext_time": "2025/12/09 18:10:11 EST UTC-05:00",
+    "ext_localtime": "Tue 09 Dec 2025 06:10:11 PM EST",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -117,6 +117,7 @@
     "detailedForecast": "Mostly sunny, with a high near 37. Southwest wind around 5 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: WATA50\r\nSerial Number: 95\r\nIssue Time: 2025 Dec 09 2103 UTC\r\n\r\nCANCEL WATCH: Geomagnetic Storm Category G3 Predicted\r\nCancel Serial Number: 94\r\nOriginal Issue Time: 2025 Dec 07 0443 UTC\r\n\r\nComment: Enhancement from anticipated CME did not occur\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 50 degrees Geomagnetic Latitude.\r\nInduced Currents - Power system voltage irregularities possible, false alarms may be triggered on some protection devices.\r\nSpacecraft - Systems may experience surface charging; increased drag on low Earth-orbit satellites and orientation problems may occur.\r\nNavigation - Intermittent satellite navigation (GPS) problems, including loss-of-lock and increased range error may occur.\r\nRadio - HF (high frequency) radio may be intermittent.\r\nAurora - Aurora may be seen as low as Pennsylvania to Iowa to Oregon.",
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3575\r\nIssue Time: 2025 Dec 09 1210 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3574\r\nBegin Time: 2025 Dec 05 1530 UTC\r\nYesterday Maximum 2MeV Flux: 1040 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
     "Space Weather Message Code: ALTTP4\r\nSerial Number: 699\r\nIssue Time: 2025 Dec 09 0256 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2025 Dec 09 0220 UTC\r\n\r\n\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1454\r\nIssue Time: 2025 Dec 09 0215 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2025 Dec 09 0152 UTC\r\nEstimated Velocity: 759 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
@@ -151,7 +152,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1765314610,
+    "lastchange": 1765321811,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
