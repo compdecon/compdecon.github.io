@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/12/10 03:10:10 EST UTC-05:00",
-    "ext_localtime": "Wed 10 Dec 2025 03:10:10 AM EST",
+    "ext_time": "2025/12/10 04:10:10 EST UTC-05:00",
+    "ext_localtime": "Wed 10 Dec 2025 04:10:10 AM EST",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 48
+        "value": 28
       }
     ]
   },
   "ext_weather": {
-    "number": 2,
-    "name": "Wednesday",
-    "startTime": "2025-12-10T06:00:00-05:00",
-    "endTime": "2025-12-10T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 48,
+    "number": 1,
+    "name": "Overnight",
+    "startTime": "2025-12-10T03:00:00-05:00",
+    "endTime": "2025-12-10T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 28,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 73
+      "value": 6
     },
-    "windSpeed": "10 to 15 mph",
+    "windSpeed": "10 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/bkn/rain,70?size=medium",
-    "shortForecast": "Mostly Cloudy then Light Rain Likely",
-    "detailedForecast": "Rain likely after 1pm. Mostly cloudy, with a high near 48. Southwest wind 10 to 15 mph, with gusts as high as 35 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": "Mostly cloudy, with a low around 28. Southwest wind around 10 mph, with gusts as high as 25 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 5177\r\nIssue Time: 2025 Dec 10 0708 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2025 Dec 10 0707 UTC\r\nValid To: 2025 Dec 10 1500 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1765354210,
+    "lastchange": 1765357810,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
