@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/12/09 23:55:11 EST UTC-05:00",
-    "ext_localtime": "Tue 09 Dec 2025 11:55:11 PM EST",
+    "ext_time": "2025/12/10 01:10:10 EST UTC-05:00",
+    "ext_localtime": "Wed 10 Dec 2025 01:10:10 AM EST",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 29
+        "value": 48
       }
     ]
   },
   "ext_weather": {
-    "number": 1,
-    "name": "Tonight",
-    "startTime": "2025-12-09T18:00:00-05:00",
-    "endTime": "2025-12-10T06:00:00-05:00",
-    "isDaytime": false,
-    "temperature": 29,
+    "number": 2,
+    "name": "Wednesday",
+    "startTime": "2025-12-10T06:00:00-05:00",
+    "endTime": "2025-12-10T18:00:00-05:00",
+    "isDaytime": true,
+    "temperature": 48,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 2
+      "value": 73
     },
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "10 to 15 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-    "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a low around 29. Southwest wind 5 to 10 mph, with gusts as high as 25 mph."
+    "icon": "https://api.weather.gov/icons/land/day/bkn/rain,70?size=medium",
+    "shortForecast": "Mostly Cloudy then Light Rain Likely",
+    "detailedForecast": "Rain likely after 1pm. Mostly cloudy, with a high near 48. Southwest wind 10 to 15 mph, with gusts as high as 35 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WATA50\r\nSerial Number: 95\r\nIssue Time: 2025 Dec 09 2103 UTC\r\n\r\nCANCEL WATCH: Geomagnetic Storm Category G3 Predicted\r\nCancel Serial Number: 94\r\nOriginal Issue Time: 2025 Dec 07 0443 UTC\r\n\r\nComment: Enhancement from anticipated CME did not occur\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 50 degrees Geomagnetic Latitude.\r\nInduced Currents - Power system voltage irregularities possible, false alarms may be triggered on some protection devices.\r\nSpacecraft - Systems may experience surface charging; increased drag on low Earth-orbit satellites and orientation problems may occur.\r\nNavigation - Intermittent satellite navigation (GPS) problems, including loss-of-lock and increased range error may occur.\r\nRadio - HF (high frequency) radio may be intermittent.\r\nAurora - Aurora may be seen as low as Pennsylvania to Iowa to Oregon.",
@@ -152,7 +152,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1765342511,
+    "lastchange": 1765347010,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
