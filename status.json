@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/12/15 07:10:10 EST UTC-05:00",
-    "ext_localtime": "Mon 15 Dec 2025 07:10:10 AM EST",
+    "ext_time": "2025/12/15 18:10:10 EST UTC-05:00",
+    "ext_localtime": "Mon 15 Dec 2025 06:10:10 PM EST",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -117,7 +117,7 @@
     "detailedForecast": "Mostly sunny, with a high near 29. West wind 5 to 10 mph, with gusts as high as 25 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1458\r\nIssue Time: 2025 Dec 14 0932 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2025 Dec 14 0744 UTC\r\nEstimated Velocity: 585 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
+    "Space Weather Message Code: WATA20\r\nSerial Number: 1081\r\nIssue Time: 2025 Dec 15 2245 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nDec 16:  None (Below G1)   Dec 17:  None (Below G1)   Dec 18:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1765800610,
+    "lastchange": 1765840210,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM, Wednesday from 12 - 5PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
