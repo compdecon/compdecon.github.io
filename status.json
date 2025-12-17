@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/12/16 23:55:10 EST UTC-05:00",
-    "ext_localtime": "Tue 16 Dec 2025 11:55:10 PM EST",
+    "ext_time": "2025/12/17 01:10:10 EST UTC-05:00",
+    "ext_localtime": "Wed 17 Dec 2025 01:10:10 AM EST",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -99,8 +99,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2025-12-16T21:00:00-05:00",
+    "name": "Overnight",
+    "startTime": "2025-12-17T00:00:00-05:00",
     "endTime": "2025-12-17T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 22,
@@ -110,11 +110,11 @@
       "unitCode": "wmoUnit:percent",
       "value": 0
     },
-    "windSpeed": "0 to 5 mph",
+    "windSpeed": "5 mph",
     "windDirection": "SW",
     "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
     "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear. Low around 22, with temperatures rising to around 28 overnight. Southwest wind 0 to 5 mph."
+    "detailedForecast": "Mostly clear. Low around 22, with temperatures rising to around 28 overnight. Southwest wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 5185\r\nIssue Time: 2025 Dec 16 0111 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2025 Dec 16 0110 UTC\r\nValid To: 2025 Dec 16 0600 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1765947310,
+    "lastchange": 1765951810,
     "message": " Sorry, we&#x27;re currently closed but we will be open today, Wednesday, from 12PM - 5PM,  Sunday from 12 - 5PM, and Monday 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
