@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/12/20 23:55:10 EST UTC-05:00",
-    "ext_localtime": "Sat 20 Dec 2025 11:55:10 PM EST",
+    "ext_time": "2025/12/21 00:10:10 EST UTC-05:00",
+    "ext_localtime": "Sun 21 Dec 2025 12:10:10 AM EST",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -117,9 +117,9 @@
     "detailedForecast": "Mostly clear, with a low around 31. Southwest wind 5 to 10 mph, with gusts as high as 25 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: WATA20\r\nSerial Number: 1083\r\nIssue Time: 2025 Dec 20 1236 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nDec 21:  None (Below G1)   Dec 22:  G1 (Minor)   Dec 23:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1459\r\nIssue Time: 2025 Dec 20 0809 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2025 Dec 20 0759 UTC\r\nEstimated Velocity: 558 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3579\r\nIssue Time: 2025 Dec 20 0459 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3578\r\nBegin Time: 2025 Dec 17 1405 UTC\r\nYesterday Maximum 2MeV Flux: 3239 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5192\r\nIssue Time: 2025 Dec 21 0414 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5191\r\nValid From: 2025 Dec 21 0240 UTC\r\nNow Valid Until: 2025 Dec 21 1800 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2617\r\nIssue Time: 2025 Dec 21 0304 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2025 Dec 21 0300 UTC\r\nSynoptic Period: 0300-0600 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5191\r\nIssue Time: 2025 Dec 21 0240 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2025 Dec 21 0240 UTC\r\nValid To: 2025 Dec 22 2359 UTC\r\nWarning Condition: Onset\r\n\r\nComment: Onset of + CH HSS influence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -150,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1766292910,
+    "lastchange": 1766293810,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM, tomorrow, Monday from 7 - 10PM, and Wednesday from 12- 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
