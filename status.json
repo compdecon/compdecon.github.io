@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/12/22 16:10:10 EST UTC-05:00",
-    "ext_localtime": "Mon 22 Dec 2025 04:10:10 PM EST",
+    "ext_time": "2025/12/22 18:55:11 EST UTC-05:00",
+    "ext_localtime": "Mon 22 Dec 2025 06:55:11 PM EST",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -22,11 +22,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": false
+        "value": true
       },
       {
         "location": "Front door",
-        "value": false
+        "value": true
       }
     ],
     "humidity": [
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 39
+        "value": 29
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2025-12-22T15:00:00-05:00",
-    "endTime": "2025-12-22T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 39,
+    "name": "Tonight",
+    "startTime": "2025-12-22T18:00:00-05:00",
+    "endTime": "2025-12-23T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 29,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 1
+      "value": 62
     },
-    "windSpeed": "10 to 15 mph",
-    "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-    "shortForecast": "Partly Sunny",
-    "detailedForecast": "Partly sunny, with a high near 39. West wind 10 to 15 mph."
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "SW",
+    "icon": "https://api.weather.gov/icons/land/night/bkn/snow,60?size=medium",
+    "shortForecast": "Mostly Cloudy then Light Snow Likely",
+    "detailedForecast": "Snow likely after 2am. Mostly cloudy, with a low around 29. Southwest wind 5 to 10 mph. Chance of precipitation is 60%. New snow accumulation of less than half an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 5194\r\nIssue Time: 2025 Dec 22 1755 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5193\r\nValid From: 2025 Dec 21 0240 UTC\r\nNow Valid Until: 2025 Dec 23 2359 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -150,9 +150,9 @@
     {}
   ],
   "state": {
-    "open": false,
-    "lastchange": 1766437810,
-    "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM, Wednesday from 12 - 5PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": true,
+    "lastchange": 1766447711,
+    "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight, Monday. We will next open on Wednesday from 12 - 5PM and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
     "blogUpdate": "",
