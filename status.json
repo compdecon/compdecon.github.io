@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/12/25 22:10:10 EST UTC-05:00",
-    "ext_localtime": "Thu 25 Dec 2025 10:10:10 PM EST",
+    "ext_time": "2025/12/26 01:10:10 EST UTC-05:00",
+    "ext_localtime": "Fri 26 Dec 2025 01:10:10 AM EST",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 22
+        "value": 32
       }
     ]
   },
   "ext_weather": {
-    "number": 1,
-    "name": "Tonight",
-    "startTime": "2025-12-25T21:00:00-05:00",
-    "endTime": "2025-12-26T06:00:00-05:00",
-    "isDaytime": false,
-    "temperature": 22,
+    "number": 2,
+    "name": "Friday",
+    "startTime": "2025-12-26T06:00:00-05:00",
+    "endTime": "2025-12-26T18:00:00-05:00",
+    "isDaytime": true,
+    "temperature": 32,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 0
+      "value": 35
     },
-    "windSpeed": "5 to 10 mph",
-    "windDirection": "N",
-    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-    "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 22. North wind 5 to 10 mph."
+    "windSpeed": "0 to 5 mph",
+    "windDirection": "NE",
+    "icon": "https://api.weather.gov/icons/land/day/bkn/snow,40?size=medium",
+    "shortForecast": "Mostly Cloudy then Chance Light Snow",
+    "detailedForecast": "A chance of snow after 3pm. Mostly cloudy, with a high near 32. Northeast wind 0 to 5 mph. Chance of precipitation is 40%. New snow accumulation of less than half an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3584\r\nIssue Time: 2025 Dec 25 0501 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3583\r\nBegin Time: 2025 Dec 21 1425 UTC\r\nYesterday Maximum 2MeV Flux: 7351 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1766718610,
+    "lastchange": 1766729410,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
