@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/12/26 19:10:11 EST UTC-05:00",
-    "ext_localtime": "Fri 26 Dec 2025 07:10:11 PM EST",
+    "ext_time": "2025/12/26 22:10:10 EST UTC-05:00",
+    "ext_localtime": "Fri 26 Dec 2025 10:10:10 PM EST",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2025-12-26T18:00:00-05:00",
+    "startTime": "2025-12-26T21:00:00-05:00",
     "endTime": "2025-12-27T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 27,
@@ -108,13 +108,13 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 99
+      "value": 94
     },
     "windSpeed": "5 mph",
     "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/night/sleet,100/snow,90?size=medium",
+    "icon": "https://api.weather.gov/icons/land/night/sleet,90/snow,90?size=medium",
     "shortForecast": "Snow then Rain And Snow",
-    "detailedForecast": "Snow before 7pm, then snow and a slight chance of sleet between 7pm and 10pm, then rain and snow between 10pm and midnight, then rain and snow. Cloudy. Low around 27, with temperatures rising to around 35 overnight. East wind around 5 mph. Chance of precipitation is 100%. New snow accumulation of 1 to 3 inches possible."
+    "detailedForecast": "Snow and a slight chance of sleet before 10pm, then rain and snow between 10pm and midnight, then rain and snow between midnight and 3am, then rain and snow likely. Cloudy. Low around 27, with temperatures rising to around 35 overnight. East wind around 5 mph. Chance of precipitation is 90%. New snow accumulation of less than one inch possible. Little or no ice accumulation expected."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3585\r\nIssue Time: 2025 Dec 26 0512 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3584\r\nBegin Time: 2025 Dec 21 1425 UTC\r\nYesterday Maximum 2MeV Flux: 8651 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1766794211,
+    "lastchange": 1766805010,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
