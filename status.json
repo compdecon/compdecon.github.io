@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/12/29 16:10:10 EST UTC-05:00",
-    "ext_localtime": "Mon 29 Dec 2025 04:10:10 PM EST",
+    "ext_time": "2025/12/29 18:55:10 EST UTC-05:00",
+    "ext_localtime": "Mon 29 Dec 2025 06:55:10 PM EST",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -22,11 +22,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": false
+        "value": true
       },
       {
         "location": "Front door",
-        "value": false
+        "value": true
       }
     ],
     "humidity": [
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 54
+        "value": 24
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2025-12-29T10:00:00-05:00",
-    "endTime": "2025-12-29T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 54,
+    "name": "Tonight",
+    "startTime": "2025-12-29T18:00:00-05:00",
+    "endTime": "2025-12-30T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 24,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 97
+      "value": 2
     },
-    "windSpeed": "15 to 30 mph",
+    "windSpeed": "15 to 20 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/rain_showers,100/rain_showers,80?size=medium",
-    "shortForecast": "Rain Showers",
-    "detailedForecast": "Rain showers before 3pm. Mostly cloudy. High near 54, with temperatures falling to around 40 in the afternoon. West wind 15 to 30 mph, with gusts as high as 45 mph. Chance of precipitation is 100%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+    "shortForecast": "Partly Cloudy",
+    "detailedForecast": "Partly cloudy, with a low around 24. West wind 15 to 20 mph, with gusts as high as 50 mph. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WATA20\r\nSerial Number: 1084\r\nIssue Time: 2025 Dec 29 1542 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nDec 30:  None (Below G1)   Dec 31:  None (Below G1)   Jan 01:  G1 (Minor)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -148,9 +148,9 @@
     {}
   ],
   "state": {
-    "open": false,
-    "lastchange": 1767042610,
-    "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM, Wednesday from 12 - 5PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": true,
+    "lastchange": 1767052510,
+    "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight, Monday. We will next open on Wednesday from 12 - 5PM and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
     "blogUpdate": "",
