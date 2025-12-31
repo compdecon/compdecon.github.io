@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/12/31 13:10:10 EST UTC-05:00",
-    "ext_localtime": "Wed 31 Dec 2025 01:10:10 PM EST",
+    "ext_time": "2025/12/31 16:10:11 EST UTC-05:00",
+    "ext_localtime": "Wed 31 Dec 2025 04:10:11 PM EST",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -99,8 +99,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2025-12-31T12:00:00-05:00",
+    "name": "Today",
+    "startTime": "2025-12-31T10:00:00-05:00",
     "endTime": "2025-12-31T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 35,
@@ -108,13 +108,13 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 7
+      "value": 8
     },
     "windSpeed": "10 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 35. Southwest wind around 10 mph, with gusts as high as 25 mph."
+    "icon": "https://api.weather.gov/icons/land/day/snow/bkn?size=medium",
+    "shortForecast": "Chance Snow Showers then Partly Sunny",
+    "detailedForecast": "A chance of snow showers before 11am. Partly sunny, with a high near 35. Southwest wind around 10 mph, with gusts as high as 25 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3591\r\nIssue Time: 2025 Dec 31 1632 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3590\r\nBegin Time: 2025 Dec 21 1425 UTC\r\nYesterday Maximum 2MeV Flux: 5613 pfu\r\n\r\nComment: Electrons went over threshold at 31/1255 through 31/1530 UTC.\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
@@ -154,7 +154,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1767204610,
+    "lastchange": 1767215411,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
