@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2025/12/30 19:10:11 EST UTC-05:00",
-    "ext_localtime": "Tue 30 Dec 2025 07:10:11 PM EST",
+    "ext_time": "2025/12/30 22:10:11 EST UTC-05:00",
+    "ext_localtime": "Tue 30 Dec 2025 10:10:11 PM EST",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2025-12-30T18:00:00-05:00",
+    "startTime": "2025-12-30T21:00:00-05:00",
     "endTime": "2025-12-31T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 23,
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1767139811,
+    "lastchange": 1767150611,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Wednesday from 12 - 5PM, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
