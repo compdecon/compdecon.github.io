@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/01/01 07:10:11 EST UTC-05:00",
-    "ext_localtime": "Thu 01 Jan 2026 07:10:11 AM EST",
+    "ext_time": "2026/01/01 12:10:11 EST UTC-05:00",
+    "ext_localtime": "Thu 01 Jan 2026 12:10:11 PM EST",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -117,6 +117,7 @@
     "detailedForecast": "Snow showers likely before 10am. Mostly sunny. High near 34, with temperatures falling to around 26 in the afternoon. West wind 10 to 15 mph, with gusts as high as 30 mph. Chance of precipitation is 70%. New snow accumulation of less than half an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5201\r\nIssue Time: 2026 Jan 01 1444 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2026 Jan 01 1444 UTC\r\nValid To: 2026 Jan 01 2359 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 5200\r\nIssue Time: 2026 Jan 01 0843 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5199\r\nValid From: 2026 Jan 01 0430 UTC\r\nNow Valid Until: 2026 Jan 01 1200 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 5199\r\nIssue Time: 2026 Jan 01 0409 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2026 Jan 01 0430 UTC\r\nValid To: 2026 Jan 01 0900 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
@@ -149,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1767269411,
+    "lastchange": 1767287411,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
