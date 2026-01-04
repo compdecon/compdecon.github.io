@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/01/03 16:10:10 EST UTC-05:00",
-    "ext_localtime": "Sat 03 Jan 2026 04:10:10 PM EST",
+    "ext_time": "2026/01/03 19:10:10 EST UTC-05:00",
+    "ext_localtime": "Sat 03 Jan 2026 07:10:10 PM EST",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 32
+        "value": 24
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2026-01-03T15:00:00-05:00",
-    "endTime": "2026-01-03T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 32,
+    "name": "Tonight",
+    "startTime": "2026-01-03T18:00:00-05:00",
+    "endTime": "2026-01-04T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 24,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 0
+      "value": 17
     },
-    "windSpeed": "10 mph",
-    "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
-    "shortForecast": "Cloudy",
-    "detailedForecast": "Cloudy, with a high near 32. West wind around 10 mph."
+    "windSpeed": "5 mph",
+    "windDirection": "NW",
+    "icon": "https://api.weather.gov/icons/land/night/ovc/snow,20?size=medium",
+    "shortForecast": "Cloudy then Slight Chance Snow Showers",
+    "detailedForecast": "A slight chance of snow showers between midnight and 4am. Cloudy, with a low around 24. Northwest wind around 5 mph. Chance of precipitation is 20%."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3593\r\nIssue Time: 2026 Jan 03 1348 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3592\r\nBegin Time: 2025 Dec 21 1425 UTC\r\nYesterday Maximum 2MeV Flux: 4197 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1767474610,
+    "lastchange": 1767485410,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
