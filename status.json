@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/01/09 04:10:10 EST UTC-05:00",
-    "ext_localtime": "Fri 09 Jan 2026 04:10:10 AM EST",
+    "ext_time": "2026/01/09 06:10:10 EST UTC-05:00",
+    "ext_localtime": "Fri 09 Jan 2026 06:10:10 AM EST",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -117,6 +117,9 @@
     "detailedForecast": "Mostly cloudy, with a low around 34. South wind around 5 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTTP4\r\nSerial Number: 703\r\nIssue Time: 2026 Jan 09 1059 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2026 Jan 09 0944 UTC\r\n\r\n\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1464\r\nIssue Time: 2026 Jan 09 1024 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2026 Jan 09 0932 UTC\r\nEstimated Velocity: 203 km/s\r\n\r\nComment: Current imagery does not suggest any on-disk source at this time.\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5211\r\nIssue Time: 2026 Jan 09 0848 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5210\r\nValid From: 2026 Jan 09 0140 UTC\r\nNow Valid Until: 2026 Jan 09 1200 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2622\r\nIssue Time: 2026 Jan 09 0306 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2026 Jan 09 0300 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 5210\r\nIssue Time: 2026 Jan 09 0142 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2026 Jan 09 0140 UTC\r\nValid To: 2026 Jan 09 0900 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
@@ -149,7 +152,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1767949810,
+    "lastchange": 1767957010,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
