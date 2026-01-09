@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/01/09 00:10:11 EST UTC-05:00",
-    "ext_localtime": "Fri 09 Jan 2026 12:10:11 AM EST",
+    "ext_time": "2026/01/09 01:10:10 EST UTC-05:00",
+    "ext_localtime": "Fri 09 Jan 2026 01:10:10 AM EST",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -99,8 +99,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2026-01-08T21:00:00-05:00",
+    "name": "Overnight",
+    "startTime": "2026-01-09T00:00:00-05:00",
     "endTime": "2026-01-09T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 34,
@@ -112,9 +112,9 @@
     },
     "windSpeed": "0 to 5 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-    "shortForecast": "Partly Cloudy",
-    "detailedForecast": "Partly cloudy, with a low around 34. South wind 0 to 5 mph."
+    "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": "Mostly cloudy, with a low around 34. South wind 0 to 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2622\r\nIssue Time: 2026 Jan 09 0306 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2026 Jan 09 0300 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1767935411,
+    "lastchange": 1767939010,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
