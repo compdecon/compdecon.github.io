@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/01/11 11:55:10 EST UTC-05:00",
-    "ext_localtime": "Sun 11 Jan 2026 11:55:10 AM EST",
+    "ext_time": "2026/01/11 12:10:11 EST UTC-05:00",
+    "ext_localtime": "Sun 11 Jan 2026 12:10:11 PM EST",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -117,6 +117,8 @@
     "detailedForecast": "A chance of rain before 10am, then a chance of rain showers. Partly sunny. High near 47, with temperatures falling to around 37 in the afternoon. West wind 5 to 10 mph, with gusts as high as 30 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTK05\r\nSerial Number: 1940\r\nIssue Time: 2026 Jan 11 1439 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\n Threshold Reached: 2026 Jan 11 1439 UTC\r\nSynoptic Period: 1200-1500 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+    "Space Weather Message Code: WARK05\r\nSerial Number: 2169\r\nIssue Time: 2026 Jan 11 1419 UTC\r\n\r\nWARNING: Geomagnetic K-index of 5 expected\r\nValid From: 2026 Jan 11 1419 UTC\r\nValid To: 2026 Jan 11 2100 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 5216\r\nIssue Time: 2026 Jan 11 1106 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5215\r\nValid From: 2026 Jan 10 0732 UTC\r\nNow Valid Until: 2026 Jan 11 2359 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: ALTK05\r\nSerial Number: 1939\r\nIssue Time: 2026 Jan 11 0303 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\n Threshold Reached: 2026 Jan 11 0259 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
   ],
@@ -149,7 +151,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1768150510,
+    "lastchange": 1768151411,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
