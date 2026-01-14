@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/01/14 11:55:11 EST UTC-05:00",
-    "ext_localtime": "Wed 14 Jan 2026 11:55:11 AM EST",
+    "ext_time": "2026/01/14 16:10:10 EST UTC-05:00",
+    "ext_localtime": "Wed 14 Jan 2026 04:10:10 PM EST",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -99,8 +99,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2026-01-14T09:00:00-05:00",
+    "name": "This Afternoon",
+    "startTime": "2026-01-14T15:00:00-05:00",
     "endTime": "2026-01-14T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 51,
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1768409711,
+    "lastchange": 1768425010,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
