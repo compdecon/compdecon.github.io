@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/01/15 13:10:10 EST UTC-05:00",
-    "ext_localtime": "Thu 15 Jan 2026 01:10:10 PM EST",
+    "ext_time": "2026/01/15 16:10:10 EST UTC-05:00",
+    "ext_localtime": "Thu 15 Jan 2026 04:10:10 PM EST",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -99,8 +99,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2026-01-15T12:00:00-05:00",
+    "name": "Today",
+    "startTime": "2026-01-15T06:00:00-05:00",
     "endTime": "2026-01-15T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 40,
@@ -108,13 +108,13 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 0
+      "value": 12
     },
-    "windSpeed": "20 mph",
+    "windSpeed": "10 to 20 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny. High near 40, with temperatures falling to around 32 in the afternoon. West wind around 20 mph."
+    "icon": "https://api.weather.gov/icons/land/day/rain/sct?size=medium",
+    "shortForecast": "Slight Chance Light Rain then Mostly Sunny",
+    "detailedForecast": "A slight chance of rain before 7am. Mostly sunny. High near 40, with temperatures falling to around 32 in the afternoon. West wind 10 to 20 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3601\r\nIssue Time: 2026 Jan 15 0459 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3600\r\nBegin Time: 2026 Jan 12 1040 UTC\r\nYesterday Maximum 2MeV Flux: 9399 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1768500610,
+    "lastchange": 1768511410,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
