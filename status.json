@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/01/16 10:10:10 EST UTC-05:00",
-    "ext_localtime": "Fri Jan 16 10:10:10 AM EST 2026",
+    "ext_time": "2026/01/16 11:10:10 EST UTC-05:00",
+    "ext_localtime": "Fri Jan 16 11:10:10 AM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -33,22 +33,22 @@
       {
         "location": "Lab",
         "unit": "%",
-        "value": 60
+        "value": 60.0
       },
       {
         "location": "Studio",
         "unit": "%",
-        "value": 60
+        "value": 60.0
       },
       {
         "location": "Classroom",
         "unit": "%",
-        "value": 60
+        "value": 60.0
       },
       {
         "location": "Outside",
         "unit": "%",
-        "value": -1
+        "value": -1.0
       }
     ],
     "network_connections": [
@@ -93,11 +93,29 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": -1
+        "value": 35
       }
     ]
   },
-  "ext_weather": {},
+  "ext_weather": {
+    "number": 1,
+    "name": "Today",
+    "startTime": "2026-01-16T06:00:00-05:00",
+    "endTime": "2026-01-16T18:00:00-05:00",
+    "isDaytime": true,
+    "temperature": 35,
+    "temperatureUnit": "F",
+    "temperatureTrend": null,
+    "probabilityOfPrecipitation": {
+      "unitCode": "wmoUnit:percent",
+      "value": 1
+    },
+    "windSpeed": "10 to 15 mph",
+    "windDirection": "W",
+    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+    "shortForecast": "Sunny",
+    "detailedForecast": "Sunny, with a high near 35. West wind 10 to 15 mph, with gusts as high as 35 mph."
+  },
   "space_weather": [],
   "contact": {
     "email": "info@compdecon.org",
@@ -128,7 +146,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1768576210,
+    "lastchange": 1768579810,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
