@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/01/16 18:10:11 EST UTC-05:00",
-    "ext_localtime": "Fri Jan 16 06:10:11 PM EST 2026",
+    "ext_time": "2026/01/16 19:10:11 EST UTC-05:00",
+    "ext_localtime": "Fri Jan 16 07:10:11 PM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 35
+        "value": 29
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2026-01-16T15:00:00-05:00",
-    "endTime": "2026-01-16T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 35,
+    "name": "Tonight",
+    "startTime": "2026-01-16T18:00:00-05:00",
+    "endTime": "2026-01-17T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 29,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 0
+      "value": 18
     },
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "5 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-    "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 35. Southwest wind 5 to 10 mph."
+    "icon": "https://api.weather.gov/icons/land/night/sct/snow,20?size=medium",
+    "shortForecast": "Partly Cloudy then Slight Chance Light Snow",
+    "detailedForecast": "A slight chance of snow after 4am. Partly cloudy, with a low around 29. Southwest wind around 5 mph. Chance of precipitation is 20%."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK05\r\nSerial Number: 1944\r\nIssue Time: 2026 Jan 16 2257 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\n Threshold Reached: 2026 Jan 16 2255 UTC\r\nSynoptic Period: 2100-2400 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -155,7 +155,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1768605011,
+    "lastchange": 1768608611,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
