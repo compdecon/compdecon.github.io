@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/01/18 15:10:10 EST UTC-05:00",
-    "ext_localtime": "Sun Jan 18 03:10:10 PM EST 2026",
+    "ext_time": "2026/01/18 16:10:11 EST UTC-05:00",
+    "ext_localtime": "Sun Jan 18 04:10:11 PM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 37
+        "value": 36
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2026-01-18T09:00:00-05:00",
+    "name": "This Afternoon",
+    "startTime": "2026-01-18T15:00:00-05:00",
     "endTime": "2026-01-18T18:00:00-05:00",
     "isDaytime": true,
-    "temperature": 37,
+    "temperature": 36,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 91
+      "value": 88
     },
-    "windSpeed": "0 to 5 mph",
+    "windSpeed": "5 mph",
     "windDirection": "N",
-    "icon": "https://api.weather.gov/icons/land/day/snow,80/snow,90?size=medium",
+    "icon": "https://api.weather.gov/icons/land/day/snow,90?size=medium",
     "shortForecast": "Rain And Snow",
-    "detailedForecast": "Rain and snow before 10am, then rain and snow between 10am and noon, then rain and snow. Cloudy, with a high near 37. North wind 0 to 5 mph. Chance of precipitation is 90%. New snow accumulation of less than half an inch possible."
+    "detailedForecast": "Rain and snow before 4pm, then rain and snow. Cloudy, with a high near 36. North wind around 5 mph. Chance of precipitation is 90%. New snow accumulation of less than half an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: SUM10R\r\nSerial Number: 899\r\nIssue Time: 2026 Jan 18 1955 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2026 Jan 18 1739 UTC\r\nMaximum Time: 2026 Jan 18 1757 UTC\r\nEnd Time: 2026 Jan 18 1944 UTC\r\nDuration: 122 minutes\r\nPeak Flux: 3200 sfu\r\nLatest Penticton Noon Flux: 148 sfu\r\n\r\n\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
@@ -153,7 +153,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1768767010,
+    "lastchange": 1768770611,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
