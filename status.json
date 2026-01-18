@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/01/18 11:55:10 EST UTC-05:00",
-    "ext_localtime": "Sun Jan 18 11:55:10 AM EST 2026",
+    "ext_time": "2026/01/18 13:10:10 EST UTC-05:00",
+    "ext_localtime": "Sun Jan 18 01:10:10 PM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2026-01-18T06:00:00-05:00",
+    "startTime": "2026-01-18T09:00:00-05:00",
     "endTime": "2026-01-18T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 37,
@@ -113,8 +113,8 @@
     "windSpeed": "0 to 5 mph",
     "windDirection": "N",
     "icon": "https://api.weather.gov/icons/land/day/snow,80/snow,90?size=medium",
-    "shortForecast": "Rain And Snow Likely then Rain And Snow",
-    "detailedForecast": "Rain and snow likely before 7am, then rain and snow between 7am and 10am, then rain and snow between 10am and noon, then rain and snow. Cloudy, with a high near 37. North wind 0 to 5 mph. Chance of precipitation is 90%. New snow accumulation of less than half an inch possible."
+    "shortForecast": "Rain And Snow",
+    "detailedForecast": "Rain and snow before 10am, then rain and snow between 10am and noon, then rain and snow. Cloudy, with a high near 37. North wind 0 to 5 mph. Chance of precipitation is 90%. New snow accumulation of less than half an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3604\r\nIssue Time: 2026 Jan 18 0602 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3603\r\nBegin Time: 2026 Jan 12 1040 UTC\r\nYesterday Maximum 2MeV Flux: 2763 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1768755310,
+    "lastchange": 1768759810,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
