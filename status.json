@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/01/18 03:10:10 EST UTC-05:00",
-    "ext_localtime": "Sun Jan 18 03:10:10 AM EST 2026",
+    "ext_time": "2026/01/18 07:10:10 EST UTC-05:00",
+    "ext_localtime": "Sun Jan 18 07:10:10 AM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 35
+        "value": 37
       }
     ]
   },
   "ext_weather": {
-    "number": 2,
-    "name": "Sunday",
+    "number": 1,
+    "name": "Today",
     "startTime": "2026-01-18T06:00:00-05:00",
     "endTime": "2026-01-18T18:00:00-05:00",
     "isDaytime": true,
-    "temperature": 35,
+    "temperature": 37,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 79
+      "value": 91
     },
     "windSpeed": "0 to 5 mph",
     "windDirection": "N",
-    "icon": "https://api.weather.gov/icons/land/day/snow,80?size=medium",
-    "shortForecast": "Rain And Snow",
-    "detailedForecast": "Rain and snow. Cloudy, with a high near 35. North wind 0 to 5 mph. Chance of precipitation is 80%. New snow accumulation of 1 to 2 inches possible."
+    "icon": "https://api.weather.gov/icons/land/day/snow,80/snow,90?size=medium",
+    "shortForecast": "Rain And Snow Likely then Rain And Snow",
+    "detailedForecast": "Rain and snow likely before 7am, then rain and snow between 7am and 10am, then rain and snow between 10am and noon, then rain and snow. Cloudy, with a high near 37. North wind 0 to 5 mph. Chance of precipitation is 90%. New snow accumulation of less than half an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3604\r\nIssue Time: 2026 Jan 18 0602 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3603\r\nBegin Time: 2026 Jan 12 1040 UTC\r\nYesterday Maximum 2MeV Flux: 2763 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1768723810,
+    "lastchange": 1768738210,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM, tomorrow, Monday from 7 - 10PM, and Wednesday from 12- 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
