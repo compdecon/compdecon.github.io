@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/01/19 11:10:10 EST UTC-05:00",
-    "ext_localtime": "Mon Jan 19 11:10:10 AM EST 2026",
+    "ext_time": "2026/01/19 13:10:10 EST UTC-05:00",
+    "ext_localtime": "Mon Jan 19 01:10:10 PM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "M.L. King Jr. Day",
-    "startTime": "2026-01-19T10:00:00-05:00",
+    "startTime": "2026-01-19T06:00:00-05:00",
     "endTime": "2026-01-19T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 36,
@@ -153,7 +153,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1768839010,
+    "lastchange": 1768846210,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM, Wednesday from 12 - 5PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
