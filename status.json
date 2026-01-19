@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/01/18 19:10:10 EST UTC-05:00",
-    "ext_localtime": "Sun Jan 18 07:10:10 PM EST 2026",
+    "ext_time": "2026/01/18 21:10:10 EST UTC-05:00",
+    "ext_localtime": "Sun Jan 18 09:10:10 PM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -117,6 +117,8 @@
     "detailedForecast": "Rain and snow before midnight. Mostly cloudy, with a low around 20. Northwest wind 5 to 10 mph. Chance of precipitation is 80%. New snow accumulation of 1 to 2 inches possible."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5225\r\nIssue Time: 2026 Jan 18 2354 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5224\r\nValid From: 2026 Jan 16 0254 UTC\r\nNow Valid Until: 2026 Jan 19 2359 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: ALTPX1\r\nSerial Number: 362\r\nIssue Time: 2026 Jan 18 2311 UTC\r\n\r\nALERT: Proton Event 10MeV Integral Flux exceeded 10pfu\r\nBegin Time: 2026 Jan 18 2255 UTC\r\nNOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.",
     "Space Weather Message Code: WARPX1\r\nSerial Number: 617\r\nIssue Time: 2026 Jan 18 2130 UTC\r\n\r\nWARNING: Proton 10MeV Integral Flux above 10pfu expected\r\nValid From: 2026 Jan 18 2130 UTC\r\nValid To: 2026 Jan 19 1200 UTC\r\nWarning Condition: Onset\r\nPredicted NOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.",
     "Space Weather Message Code: SUM10R\r\nSerial Number: 899\r\nIssue Time: 2026 Jan 18 1955 UTC\r\n\r\nSUMMARY: 10cm Radio Burst\r\nBegin Time: 2026 Jan 18 1739 UTC\r\nMaximum Time: 2026 Jan 18 1757 UTC\r\nEnd Time: 2026 Jan 18 1944 UTC\r\nDuration: 122 minutes\r\nPeak Flux: 3200 sfu\r\nLatest Penticton Noon Flux: 148 sfu\r\n\r\n\r\n\r\nDescription: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.",
     "Space Weather Message Code: SUMX01\r\nSerial Number: 205\r\nIssue Time: 2026 Jan 18 1900 UTC\r\n\r\nSUMMARY: X-ray Event exceeded X1\r\nBegin Time: 2026 Jan 18 1727 UTC\r\nMaximum Time: 2026 Jan 18 1809 UTC\r\nEnd Time: 2026 Jan 18 1851 UTC\r\nX-ray Class: X1.9\r\nOptical Class: 3b\r\nLocation: S12E20\r\nNOAA Scale: R3 - Strong\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact consists of large portions of the sunlit side of Earth, strongest at the sub-solar point.\r\nRadio - Wide area blackout of HF (high frequency) radio communication for about an hour.",
@@ -154,7 +156,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1768781410,
+    "lastchange": 1768788610,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM, and Wednesday from 12- 5PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
