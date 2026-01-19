@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/01/18 21:10:10 EST UTC-05:00",
-    "ext_localtime": "Sun Jan 18 09:10:10 PM EST 2026",
+    "ext_time": "2026/01/18 22:10:11 EST UTC-05:00",
+    "ext_localtime": "Sun Jan 18 10:10:11 PM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2026-01-18T18:00:00-05:00",
+    "startTime": "2026-01-18T21:00:00-05:00",
     "endTime": "2026-01-19T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 20,
@@ -108,13 +108,13 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 83
+      "value": 46
     },
     "windSpeed": "5 to 10 mph",
-    "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/night/snow,80/bkn?size=medium",
-    "shortForecast": "Rain And Snow then Mostly Cloudy",
-    "detailedForecast": "Rain and snow before midnight. Mostly cloudy, with a low around 20. Northwest wind 5 to 10 mph. Chance of precipitation is 80%. New snow accumulation of 1 to 2 inches possible."
+    "windDirection": "W",
+    "icon": "https://api.weather.gov/icons/land/night/snow,50/bkn?size=medium",
+    "shortForecast": "Chance Light Snow then Mostly Cloudy",
+    "detailedForecast": "A chance of snow before midnight. Mostly cloudy, with a low around 20. West wind 5 to 10 mph. Chance of precipitation is 50%. New snow accumulation of around one inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 5225\r\nIssue Time: 2026 Jan 18 2354 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5224\r\nValid From: 2026 Jan 16 0254 UTC\r\nNow Valid Until: 2026 Jan 19 2359 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -156,7 +156,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1768788610,
+    "lastchange": 1768792211,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM, and Wednesday from 12- 5PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
