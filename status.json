@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/01/20 21:10:10 EST UTC-05:00",
-    "ext_localtime": "Tue Jan 20 09:10:10 PM EST 2026",
+    "ext_time": "2026/01/20 22:10:10 EST UTC-05:00",
+    "ext_localtime": "Tue Jan 20 10:10:10 PM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2026-01-20T18:00:00-05:00",
+    "startTime": "2026-01-20T21:00:00-05:00",
     "endTime": "2026-01-21T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 10,
@@ -110,11 +110,11 @@
       "unitCode": "wmoUnit:percent",
       "value": 0
     },
-    "windSpeed": "0 to 15 mph",
+    "windSpeed": "0 to 10 mph",
     "windDirection": "W",
     "icon": "https://api.weather.gov/icons/land/night/cold?size=medium",
     "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 10. West wind 0 to 15 mph."
+    "detailedForecast": "Mostly clear, with a low around 10. West wind 0 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARPX1\r\nSerial Number: 621\r\nIssue Time: 2026 Jan 20 2355 UTC\r\n\r\nEXTENDED WARNING: Proton 10MeV Integral Flux above 10pfu expected\r\nExtension to Serial Number: 620\r\nValid From: 2026 Jan 18 2130 UTC\r\nNow Valid Until: 2026 Jan 21 2359 UTC\r\nWarning Condition: Persistence\r\nPredicted NOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.",
@@ -180,7 +180,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1768961410,
+    "lastchange": 1768965010,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Wednesday from 12 - 5PM, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
