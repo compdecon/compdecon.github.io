@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/01/22 01:10:10 EST UTC-05:00",
-    "ext_localtime": "Thu Jan 22 01:10:10 AM EST 2026",
+    "ext_time": "2026/01/22 03:10:10 EST UTC-05:00",
+    "ext_localtime": "Thu Jan 22 03:10:10 AM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -117,6 +117,7 @@
     "detailedForecast": "Mostly cloudy, with a low around 34. Southwest wind around 10 mph, with gusts as high as 25 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTPX1\r\nSerial Number: 363\r\nIssue Time: 2026 Jan 22 0537 UTC\r\n\r\nALERT: Proton Event 10MeV Integral Flux exceeded 10pfu\r\nBegin Time: 2026 Jan 22 0520 UTC\r\nNOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.",
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3607\r\nIssue Time: 2026 Jan 22 0459 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3606\r\nBegin Time: 2026 Jan 21 0950 UTC\r\nYesterday Maximum 2MeV Flux: 3332 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
     "Space Weather Message Code: WARPX1\r\nSerial Number: 622\r\nIssue Time: 2026 Jan 22 0124 UTC\r\n\r\nWARNING: Proton 10MeV Integral Flux above 10pfu expected\r\nValid From: 2026 Jan 22 0124 UTC\r\nValid To: 2026 Jan 22 1200 UTC\r\nWarning Condition: Onset\r\nPredicted NOAA Scale: S1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies."
   ],
@@ -149,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1769062210,
+    "lastchange": 1769069410,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
