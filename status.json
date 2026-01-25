@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/01/25 11:32:36 EST UTC-05:00",
-    "ext_localtime": "Sun Jan 25 11:32:36 AM EST 2026",
+    "ext_time": "2026/01/25 11:36:22 EST UTC-05:00",
+    "ext_localtime": "Sun Jan 25 11:36:22 AM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -150,8 +150,8 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1769358756,
-    "message": "Sorry we&#x27;re currently closed but we will be open today, Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "lastchange": 1769358982,
+    "message": "Sorry we&#x27;re currently closed but we will be open next Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
     "blogUpdate": "",
