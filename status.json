@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/01/25 19:10:10 EST UTC-05:00",
-    "ext_localtime": "Sun Jan 25 07:10:10 PM EST 2026",
+    "ext_time": "2026/01/25 22:10:10 EST UTC-05:00",
+    "ext_localtime": "Sun Jan 25 10:10:10 PM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2026-01-25T18:00:00-05:00",
+    "startTime": "2026-01-25T21:00:00-05:00",
     "endTime": "2026-01-26T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 24,
@@ -108,13 +108,13 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 100
+      "value": 69
     },
-    "windSpeed": "5 to 15 mph",
-    "windDirection": "NE",
-    "icon": "https://api.weather.gov/icons/land/night/rain_fzra,100/snow_sleet,30?size=medium",
-    "shortForecast": "Freezing Rain then Chance Sleet",
-    "detailedForecast": "Sleet before 7pm, then freezing rain and a chance of sleet between 7pm and 8pm, then rain and a chance of sleet between 8pm and midnight, then a chance of freezing rain between midnight and 2am, then a chance of sleet between 2am and 3am, then a chance of freezing rain. Cloudy, with a low around 24. Northeast wind 5 to 15 mph, with gusts as high as 35 mph. Chance of precipitation is 100%. New snow accumulation of 1 to 3 inches possible. Little or no ice accumulation expected."
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "N",
+    "icon": "https://api.weather.gov/icons/land/night/rain_snow,70/snow_sleet,30?size=medium",
+    "shortForecast": "Rain Likely then Chance Sleet",
+    "detailedForecast": "Rain likely and a chance of sleet before midnight, then a chance of freezing rain between midnight and 2am, then a chance of sleet between 2am and 3am, then a chance of freezing rain. Cloudy, with a low around 24. North wind 5 to 10 mph, with gusts as high as 25 mph. Chance of precipitation is 70%. New snow accumulation of less than half an inch possible. Little or no ice accumulation expected."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 5239\r\nIssue Time: 2026 Jan 25 1754 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5238\r\nValid From: 2026 Jan 25 0245 UTC\r\nNow Valid Until: 2026 Jan 26 0300 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -151,7 +151,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1769386210,
+    "lastchange": 1769397010,
     "message": "Sorry we&#x27;re currently closed but we will be open next Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
