@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/01/26 06:10:10 EST UTC-05:00",
-    "ext_localtime": "Mon Jan 26 06:10:10 AM EST 2026",
+    "ext_time": "2026/01/26 07:10:11 EST UTC-05:00",
+    "ext_localtime": "Mon Jan 26 07:10:11 AM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 24
+        "value": 31
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2026-01-26T00:00:00-05:00",
-    "endTime": "2026-01-26T06:00:00-05:00",
-    "isDaytime": false,
-    "temperature": 24,
+    "name": "Today",
+    "startTime": "2026-01-26T06:00:00-05:00",
+    "endTime": "2026-01-26T18:00:00-05:00",
+    "isDaytime": true,
+    "temperature": 31,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 30
+      "value": 16
     },
-    "windSpeed": "5 mph",
-    "windDirection": "N",
-    "icon": "https://api.weather.gov/icons/land/night/snow_sleet,30?size=medium",
-    "shortForecast": "Chance Sleet",
-    "detailedForecast": "A chance of freezing rain before 2am, then a chance of sleet between 2am and 3am, then a chance of freezing rain. Cloudy, with a low around 24. North wind around 5 mph. Chance of precipitation is 30%. New snow accumulation of less than half an inch possible. Little or no ice accumulation expected."
+    "windSpeed": "0 to 10 mph",
+    "windDirection": "NW",
+    "icon": "https://api.weather.gov/icons/land/day/snow,20/bkn?size=medium",
+    "shortForecast": "Slight Chance Light Snow then Mostly Cloudy",
+    "detailedForecast": "A slight chance of snow between 7am and 9am. Mostly cloudy, with a high near 31. Northwest wind 0 to 10 mph, with gusts as high as 25 mph. Chance of precipitation is 20%."
   },
   "space_weather": [
     "Space Weather Message Code: WATA20\r\nSerial Number: 1091\r\nIssue Time: 2026 Jan 26 0906 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nJan 27:  None (Below G1)   Jan 28:  G1 (Minor)   Jan 29:  None (Below G1)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nComment: Negative polarity CH influences will likely lead to isolated G1 (Minor) geomanetic storming periods on 28 Jan.\r\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1769425810,
+    "lastchange": 1769429411,
     "message": "Sorry we&#x27;re currently closed but we will be open next Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
