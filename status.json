@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/01/25 22:10:10 EST UTC-05:00",
-    "ext_localtime": "Sun Jan 25 10:10:10 PM EST 2026",
+    "ext_time": "2026/01/26 00:10:11 EST UTC-05:00",
+    "ext_localtime": "Mon Jan 26 12:10:11 AM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -117,10 +117,7 @@
     "detailedForecast": "Rain likely and a chance of sleet before midnight, then a chance of freezing rain between midnight and 2am, then a chance of sleet between 2am and 3am, then a chance of freezing rain. Cloudy, with a low around 24. North wind 5 to 10 mph, with gusts as high as 25 mph. Chance of precipitation is 70%. New snow accumulation of less than half an inch possible. Little or no ice accumulation expected."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5239\r\nIssue Time: 2026 Jan 25 1754 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5238\r\nValid From: 2026 Jan 25 0245 UTC\r\nNow Valid Until: 2026 Jan 26 0300 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5238\r\nIssue Time: 2026 Jan 25 1150 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5237\r\nValid From: 2026 Jan 25 0245 UTC\r\nNow Valid Until: 2026 Jan 25 1800 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3610\r\nIssue Time: 2026 Jan 25 0500 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3609\r\nBegin Time: 2026 Jan 21 0950 UTC\r\nYesterday Maximum 2MeV Flux: 5171 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5237\r\nIssue Time: 2026 Jan 25 0248 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2026 Jan 25 0245 UTC\r\nValid To: 2026 Jan 25 1200 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3611\r\nIssue Time: 2026 Jan 26 0501 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3610\r\nBegin Time: 2026 Jan 21 0950 UTC\r\nYesterday Maximum 2MeV Flux: 6155 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -151,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1769397010,
+    "lastchange": 1769404211,
     "message": "Sorry we&#x27;re currently closed but we will be open next Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
