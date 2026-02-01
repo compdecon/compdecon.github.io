@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/02/01 01:10:10 EST UTC-05:00",
-    "ext_localtime": "Sun Feb  1 01:10:10 AM EST 2026",
+    "ext_time": "2026/02/01 06:10:10 EST UTC-05:00",
+    "ext_localtime": "Sun Feb  1 06:10:10 AM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -117,6 +117,8 @@
     "detailedForecast": "Mostly cloudy, with a high near 25. Wind chill values as low as -1. North wind 15 to 20 mph, with gusts as high as 40 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: SUMXM5\r\nSerial Number: 304\r\nIssue Time: 2026 Feb 01 1018 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2026 Feb 01 0953 UTC\r\nMaximum Time: 2026 Feb 01 1002 UTC\r\nEnd Time: 2026 Feb 01 1006 UTC\r\nX-ray Class: M6.6\r\nLocation: N16E39\r\nNOAA Scale: R2 - Moderate\r\n\r\nComment: Flare originated from AR 4366 and appears to be impulsive in nature at this time.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
+    "Space Weather Message Code: ALTXMF\r\nSerial Number: 509\r\nIssue Time: 2026 Feb 01 1005 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2026 Feb 01 1001 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3617\r\nIssue Time: 2026 Feb 01 0459 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3616\r\nBegin Time: 2026 Jan 21 0950 UTC\r\nYesterday Maximum 2MeV Flux: 11100 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
   ],
   "contact": {
@@ -148,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1769926210,
+    "lastchange": 1769944210,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM, tomorrow, Monday from 7 - 10PM, and Wednesday from 12- 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
