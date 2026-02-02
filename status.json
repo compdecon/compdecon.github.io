@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/02/01 19:10:11 EST UTC-05:00",
-    "ext_localtime": "Sun Feb  1 07:10:11 PM EST 2026",
+    "ext_time": "2026/02/01 21:10:10 EST UTC-05:00",
+    "ext_localtime": "Sun Feb  1 09:10:10 PM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -117,6 +117,7 @@
     "detailedForecast": "Partly cloudy, with a low around 11. Northwest wind around 10 mph, with gusts as high as 25 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTXMF\r\nSerial Number: 513\r\nIssue Time: 2026 Feb 01 2356 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2026 Feb 01 2356 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
     "Space Weather Message Code: SUMXM5\r\nSerial Number: 306\r\nIssue Time: 2026 Feb 01 1629 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2026 Feb 01 1557 UTC\r\nMaximum Time: 2026 Feb 01 1605 UTC\r\nEnd Time: 2026 Feb 01 1616 UTC\r\nX-ray Class: M5.1\r\nLocation: N17E40\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
     "Space Weather Message Code: ALTXMF\r\nSerial Number: 512\r\nIssue Time: 2026 Feb 01 1608 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2026 Feb 01 1608 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
     "Space Weather Message Code: SUMXM5\r\nSerial Number: 305\r\nIssue Time: 2026 Feb 01 1313 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2026 Feb 01 1245 UTC\r\nMaximum Time: 2026 Feb 01 1250 UTC\r\nEnd Time: 2026 Feb 01 1304 UTC\r\nX-ray Class: M5.8\r\nLocation: N16E36\r\nNOAA Scale: R2 - Moderate\r\n\r\nComment: Additional flaring from Region 4366. No radio sweeps reported by USAF observatories indicating a CME at this time.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
@@ -156,7 +157,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1769991011,
+    "lastchange": 1769998210,
     "message": " Sorry, we&#x27;re currently closed but we will be open tomorrow night, Monday from 7 - 10PM, and Wednesday from 12- 5PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
