@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/02/04 12:10:10 EST UTC-05:00",
-    "ext_localtime": "Wed Feb  4 12:10:10 PM EST 2026",
+    "ext_time": "2026/02/04 13:10:10 EST UTC-05:00",
+    "ext_localtime": "Wed Feb  4 01:10:10 PM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -93,17 +93,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 31
+        "value": 32
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2026-02-04T10:00:00-05:00",
+    "name": "This Afternoon",
+    "startTime": "2026-02-04T12:00:00-05:00",
     "endTime": "2026-02-04T18:00:00-05:00",
     "isDaytime": true,
-    "temperature": 31,
+    "temperature": 32,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
@@ -114,7 +114,7 @@
     "windDirection": "NW",
     "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
     "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 31. Northwest wind 5 to 10 mph."
+    "detailedForecast": "Sunny, with a high near 32. Northwest wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2627\r\nIssue Time: 2026 Feb 04 1700 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2026 Feb 03 1700 UTC\r\nSynoptic Period: 1500-1800 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -154,7 +154,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1770225010,
+    "lastchange": 1770228610,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
