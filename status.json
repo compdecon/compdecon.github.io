@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/02/04 11:55:10 EST UTC-05:00",
-    "ext_localtime": "Wed Feb  4 11:55:10 AM EST 2026",
+    "ext_time": "2026/02/04 12:10:10 EST UTC-05:00",
+    "ext_localtime": "Wed Feb  4 12:10:10 PM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -117,6 +117,10 @@
     "detailedForecast": "Sunny, with a high near 31. Northwest wind 5 to 10 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2627\r\nIssue Time: 2026 Feb 04 1700 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2026 Feb 03 1700 UTC\r\nSynoptic Period: 1500-1800 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: SUMSUD\r\nSerial Number: 295\r\nIssue Time: 2026 Feb 04 1535 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse\r\nObserved: 2026 Feb 04 1506 UTC\r\nDeviation: 16 nT\r\nStation: BOU\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5244\r\nIssue Time: 2026 Feb 04 1508 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2026 Feb 04 1515 UTC\r\nValid To: 2026 Feb 04 2359 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARSUD\r\nSerial Number: 250\r\nIssue Time: 2026 Feb 04 1433 UTC\r\n\r\nWARNING: Geomagnetic Sudden Impulse expected\r\nValid From: 2026 Feb 04 1505 UTC\r\nValid To: 2026 Feb 04 1535 UTC\r\nIP Shock Passage Observed: 2026 Feb 04 1421 UTC\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation",
     "Space Weather Message Code: SUMX01\r\nSerial Number: 211\r\nIssue Time: 2026 Feb 04 1239 UTC\r\n\r\nSUMMARY: X-ray Event exceeded X1\r\nBegin Time: 2026 Feb 04 1202 UTC\r\nMaximum Time: 2026 Feb 04 1213 UTC\r\nEnd Time: 2026 Feb 04 1218 UTC\r\nX-ray Class: X4.2\r\nOptical Class: na\r\nLocation: N14E04\r\nNOAA Scale: R3 - Strong\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact consists of large portions of the sunlit side of Earth, strongest at the sub-solar point.\r\nRadio - Wide area blackout of HF (high frequency) radio communication for about an hour.",
     "Space Weather Message Code: ALTXMF\r\nSerial Number: 520\r\nIssue Time: 2026 Feb 04 1212 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2026 Feb 04 1209 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3620\r\nIssue Time: 2026 Feb 04 0927 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3619\r\nBegin Time: 2026 Jan 21 0950 UTC\r\nYesterday Maximum 2MeV Flux: 10480 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -150,7 +154,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1770224110,
+    "lastchange": 1770225010,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
