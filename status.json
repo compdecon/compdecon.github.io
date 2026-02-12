@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/02/12 12:10:11 EST UTC-05:00",
-    "ext_localtime": "Thu Feb 12 12:10:11 PM EST 2026",
+    "ext_time": "2026/02/12 16:10:10 EST UTC-05:00",
+    "ext_localtime": "Thu Feb 12 04:10:10 PM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 35
+        "value": 37
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2026-02-12T06:00:00-05:00",
+    "name": "This Afternoon",
+    "startTime": "2026-02-12T15:00:00-05:00",
     "endTime": "2026-02-12T18:00:00-05:00",
     "isDaytime": true,
-    "temperature": 35,
+    "temperature": 37,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 5
+      "value": 0
     },
-    "windSpeed": "10 to 20 mph",
+    "windSpeed": "10 to 15 mph",
     "windDirection": "NW",
     "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
     "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a high near 35. Northwest wind 10 to 20 mph."
+    "detailedForecast": "Mostly cloudy, with a high near 37. Northwest wind 10 to 15 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3625\r\nIssue Time: 2026 Feb 12 1527 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2026 Feb 12 1510 UTC\r\nStation: GOES19\r\n \r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1770916211,
+    "lastchange": 1770930610,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
