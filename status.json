@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/02/15 03:10:11 EST UTC-05:00",
-    "ext_localtime": "Sun Feb 15 03:10:11 AM EST 2026",
+    "ext_time": "2026/02/15 04:10:11 EST UTC-05:00",
+    "ext_localtime": "Sun Feb 15 04:10:11 AM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 39
+        "value": 25
       }
     ]
   },
   "ext_weather": {
-    "number": 2,
-    "name": "Sunday",
-    "startTime": "2026-02-15T06:00:00-05:00",
-    "endTime": "2026-02-15T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 39,
+    "number": 1,
+    "name": "Overnight",
+    "startTime": "2026-02-15T03:00:00-05:00",
+    "endTime": "2026-02-15T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 25,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 14
+      "value": 1
     },
-    "windSpeed": "0 to 5 mph",
-    "windDirection": "NE",
-    "icon": "https://api.weather.gov/icons/land/day/fog/bkn?size=medium",
-    "shortForecast": "Patchy Freezing Fog then Mostly Cloudy",
-    "detailedForecast": "Patchy freezing fog before 9am. Mostly cloudy, with a high near 39. Northeast wind 0 to 5 mph."
+    "windSpeed": "0 mph",
+    "windDirection": "",
+    "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
+    "shortForecast": "Patchy Freezing Fog",
+    "detailedForecast": "Patchy freezing fog. Mostly cloudy, with a low around 25. Northwest wind around 0 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK06\r\nSerial Number: 639\r\nIssue Time: 2026 Feb 15 0514 UTC\r\n\r\nWARNING: Geomagnetic K-Index of 6 expected\r\nValid From: 2026 Feb 15 0515 UTC\r\nValid To: 2026 Feb 15 1500 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
@@ -152,7 +152,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1771143011,
+    "lastchange": 1771146611,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM, tomorrow, Monday from 7 - 10PM, and Wednesday from 12- 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
