@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/02/14 23:55:10 EST UTC-05:00",
-    "ext_localtime": "Sat Feb 14 11:55:10 PM EST 2026",
+    "ext_time": "2026/02/15 01:10:10 EST UTC-05:00",
+    "ext_localtime": "Sun Feb 15 01:10:10 AM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -93,34 +93,32 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 25
+        "value": 39
       }
     ]
   },
   "ext_weather": {
-    "number": 1,
-    "name": "Tonight",
-    "startTime": "2026-02-14T18:00:00-05:00",
-    "endTime": "2026-02-15T06:00:00-05:00",
-    "isDaytime": false,
-    "temperature": 25,
+    "number": 2,
+    "name": "Sunday",
+    "startTime": "2026-02-15T06:00:00-05:00",
+    "endTime": "2026-02-15T18:00:00-05:00",
+    "isDaytime": true,
+    "temperature": 39,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 1
+      "value": 14
     },
-    "windSpeed": "0 mph",
-    "windDirection": "",
-    "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
-    "shortForecast": "Patchy Freezing Fog",
-    "detailedForecast": "Patchy freezing fog after 10pm. Partly cloudy, with a low around 25. West wind around 0 mph."
+    "windSpeed": "0 to 5 mph",
+    "windDirection": "NE",
+    "icon": "https://api.weather.gov/icons/land/day/fog/bkn?size=medium",
+    "shortForecast": "Patchy Freezing Fog then Mostly Cloudy",
+    "detailedForecast": "Patchy freezing fog before 9am. Mostly cloudy, with a high near 39. Northeast wind 0 to 5 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK05\r\nSerial Number: 2190\r\nIssue Time: 2026 Feb 14 2135 UTC\r\n\r\nWARNING: Geomagnetic K-index of 5 expected\r\nValid From: 2026 Feb 14 2135 UTC\r\nValid To: 2026 Feb 15 0600 UTC\r\nWarning Condition: Onset\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5256\r\nIssue Time: 2026 Feb 14 2135 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5255\r\nValid From: 2026 Feb 14 2000 UTC\r\nNow Valid Until: 2026 Feb 15 0900 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: ALTK04\r\nSerial Number: 2632\r\nIssue Time: 2026 Feb 14 2133 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2026 Feb 14 2133 UTC\r\nSynoptic Period: 2100-2400 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5255\r\nIssue Time: 2026 Feb 14 1959 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2026 Feb 14 2000 UTC\r\nValid To: 2026 Feb 15 0300 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: ALTK05\r\nSerial Number: 1965\r\nIssue Time: 2026 Feb 15 0435 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\n Threshold Reached: 2026 Feb 15 0429 UTC\r\nSynoptic Period: 0300-0600 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+    "Space Weather Message Code: ALTK05\r\nSerial Number: 1964\r\nIssue Time: 2026 Feb 15 0213 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\n Threshold Reached: 2026 Feb 15 0204 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -151,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1771131310,
+    "lastchange": 1771135810,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM, tomorrow, Monday from 7 - 10PM, and Wednesday from 12- 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
