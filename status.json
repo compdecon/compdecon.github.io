@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/02/18 23:55:10 EST UTC-05:00",
-    "ext_localtime": "Wed Feb 18 11:55:10 PM EST 2026",
+    "ext_time": "2026/02/19 01:10:11 EST UTC-05:00",
+    "ext_localtime": "Thu Feb 19 01:10:11 AM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 33
+        "value": 41
       }
     ]
   },
   "ext_weather": {
-    "number": 1,
-    "name": "Tonight",
-    "startTime": "2026-02-18T21:00:00-05:00",
-    "endTime": "2026-02-19T06:00:00-05:00",
-    "isDaytime": false,
-    "temperature": 33,
+    "number": 2,
+    "name": "Thursday",
+    "startTime": "2026-02-19T06:00:00-05:00",
+    "endTime": "2026-02-19T18:00:00-05:00",
+    "isDaytime": true,
+    "temperature": 41,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 62
+      "value": 31
     },
     "windSpeed": "10 to 15 mph",
-    "windDirection": "NE",
-    "icon": "https://api.weather.gov/icons/land/night/rain,60/rain,50?size=medium",
-    "shortForecast": "Very Light Rain Likely then Areas Of Fog",
-    "detailedForecast": "Rain likely and areas of fog before midnight, then areas of fog and a chance of rain between midnight and 2am, then a chance of rain and patchy fog between 2am and 5am, then patchy fog and a slight chance of rain. Cloudy, with a low around 33. Northeast wind 10 to 15 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
+    "windDirection": "E",
+    "icon": "https://api.weather.gov/icons/land/day/rain,20/rain,30?size=medium",
+    "shortForecast": "Chance Very Light Rain",
+    "detailedForecast": "A chance of rain and patchy fog. Cloudy, with a high near 41. East wind 10 to 15 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3629\r\nIssue Time: 2026 Feb 18 0527 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3628\r\nBegin Time: 2026 Feb 16 1635 UTC\r\nYesterday Maximum 2MeV Flux: 2215 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1771476910,
+    "lastchange": 1771481411,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
