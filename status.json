@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/02/18 17:59:10 EST UTC-05:00",
-    "ext_localtime": "Wed Feb 18 05:59:10 PM EST 2026",
+    "ext_time": "2026/02/18 19:10:11 EST UTC-05:00",
+    "ext_localtime": "Wed Feb 18 07:10:11 PM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 45
+        "value": 33
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2026-02-18T15:00:00-05:00",
-    "endTime": "2026-02-18T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 45,
+    "name": "Tonight",
+    "startTime": "2026-02-18T18:00:00-05:00",
+    "endTime": "2026-02-19T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 33,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 33
+      "value": 63
     },
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "10 to 15 mph",
     "windDirection": "NE",
-    "icon": "https://api.weather.gov/icons/land/day/rain,30?size=medium",
+    "icon": "https://api.weather.gov/icons/land/night/rain,60/rain,50?size=medium",
     "shortForecast": "Areas Of Fog",
-    "detailedForecast": "Areas of fog and a chance of rain. Cloudy, with a high near 45. Northeast wind 5 to 10 mph. Chance of precipitation is 30%."
+    "detailedForecast": "Areas of fog and a chance of rain before 8pm, then rain likely and areas of fog between 8pm and midnight, then areas of fog and a chance of rain between midnight and 2am, then a chance of rain and patchy fog between 2am and 5am, then patchy fog and a slight chance of rain. Cloudy, with a low around 33. Northeast wind 10 to 15 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3629\r\nIssue Time: 2026 Feb 18 0527 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3628\r\nBegin Time: 2026 Feb 16 1635 UTC\r\nYesterday Maximum 2MeV Flux: 2215 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1771455550,
+    "lastchange": 1771459811,
     "message": "Sorry we&#x27;re currently closed but we will be open next Wednesday from 12 - 5PM, Sunday from 12 - 5PM and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
