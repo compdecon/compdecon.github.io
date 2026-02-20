@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/02/20 01:10:10 EST UTC-05:00",
-    "ext_localtime": "Fri Feb 20 01:10:10 AM EST 2026",
+    "ext_time": "2026/02/20 03:10:10 EST UTC-05:00",
+    "ext_localtime": "Fri Feb 20 03:10:10 AM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -117,9 +117,7 @@
     "detailedForecast": "A chance of rain before 1am, then patchy fog between 2am and 5am, then a chance of rain and patchy fog. Cloudy, with a low around 36. East wind around 5 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3630\r\nIssue Time: 2026 Feb 19 1206 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3629\r\nBegin Time: 2026 Feb 16 1635 UTC\r\nYesterday Maximum 2MeV Flux: 3801 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5263\r\nIssue Time: 2026 Feb 19 0855 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5262\r\nValid From: 2026 Feb 19 0205 UTC\r\nNow Valid Until: 2026 Feb 19 1800 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5262\r\nIssue Time: 2026 Feb 19 0205 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2026 Feb 19 0205 UTC\r\nValid To: 2026 Feb 19 0900 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3631\r\nIssue Time: 2026 Feb 20 0716 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3630\r\nBegin Time: 2026 Feb 16 1635 UTC\r\nYesterday Maximum 2MeV Flux: 3261 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -150,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1771567810,
+    "lastchange": 1771575010,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
