@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/02/20 07:10:10 EST UTC-05:00",
-    "ext_localtime": "Fri Feb 20 07:10:10 AM EST 2026",
+    "ext_time": "2026/02/20 11:10:11 EST UTC-05:00",
+    "ext_localtime": "Fri Feb 20 11:10:11 AM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2026-02-20T06:00:00-05:00",
+    "startTime": "2026-02-20T10:00:00-05:00",
     "endTime": "2026-02-20T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 43,
@@ -108,13 +108,13 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 98
+      "value": 83
     },
     "windSpeed": "0 to 10 mph",
     "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/day/rain,100/rain,70?size=medium",
+    "icon": "https://api.weather.gov/icons/land/day/rain,80/rain,70?size=medium",
     "shortForecast": "Rain",
-    "detailedForecast": "Rain and patchy fog. Cloudy, with a high near 43. East wind 0 to 10 mph. Chance of precipitation is 100%. New rainfall amounts between a quarter and half of an inch possible."
+    "detailedForecast": "Rain. Cloudy, with a high near 43. East wind 0 to 10 mph. Chance of precipitation is 80%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3631\r\nIssue Time: 2026 Feb 20 0716 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3630\r\nBegin Time: 2026 Feb 16 1635 UTC\r\nYesterday Maximum 2MeV Flux: 3261 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1771589411,
+    "lastchange": 1771603811,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
