@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/02/21 18:10:11 EST UTC-05:00",
-    "ext_localtime": "Sat Feb 21 06:10:11 PM EST 2026",
+    "ext_time": "2026/02/21 19:10:10 EST UTC-05:00",
+    "ext_localtime": "Sat Feb 21 07:10:10 PM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 47
+        "value": 33
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2026-02-21T06:00:00-05:00",
-    "endTime": "2026-02-21T18:00:00-05:00",
-    "isDaytime": true,
-    "temperature": 47,
+    "name": "Tonight",
+    "startTime": "2026-02-21T18:00:00-05:00",
+    "endTime": "2026-02-22T06:00:00-05:00",
+    "isDaytime": false,
+    "temperature": 33,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 0
+      "value": 19
     },
-    "windSpeed": "0 to 5 mph",
-    "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 47. West wind 0 to 5 mph."
+    "windSpeed": "0 mph",
+    "windDirection": "",
+    "icon": "https://api.weather.gov/icons/land/night/bkn/rain,20?size=medium",
+    "shortForecast": "Mostly Cloudy then Slight Chance Light Rain",
+    "detailedForecast": "A slight chance of rain after 3am. Mostly cloudy, with a low around 33. Southeast wind around 0 mph. Chance of precipitation is 20%."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2634\r\nIssue Time: 2026 Feb 21 2243 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2026 Feb 21 2242 UTC\r\nSynoptic Period: 2100-2400 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -150,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1771715411,
+    "lastchange": 1771719010,
     "message": "Sorry we&#x27;re currently closed due to a snow day but we will be open Sunday 3/1 from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\"href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
