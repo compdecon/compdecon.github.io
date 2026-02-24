@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/02/24 13:10:10 EST UTC-05:00",
-    "ext_localtime": "Tue Feb 24 01:10:10 PM EST 2026",
+    "ext_time": "2026/02/24 16:10:10 EST UTC-05:00",
+    "ext_localtime": "Tue Feb 24 04:10:10 PM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2026-02-24T12:00:00-05:00",
+    "startTime": "2026-02-24T15:00:00-05:00",
     "endTime": "2026-02-24T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 32,
@@ -110,11 +110,11 @@
       "unitCode": "wmoUnit:percent",
       "value": 0
     },
-    "windSpeed": "5 to 15 mph",
+    "windSpeed": "5 to 10 mph",
     "windDirection": "W",
     "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
     "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 32. West wind 5 to 15 mph."
+    "detailedForecast": "Mostly sunny, with a high near 32. West wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 5270\r\nIssue Time: 2026 Feb 24 1155 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5269\r\nValid From: 2026 Feb 21 2230 UTC\r\nNow Valid Until: 2026 Feb 24 2100 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1771956610,
+    "lastchange": 1771967410,
     "message": "Sorry we&#x27;re currently closed due to a snow storm. But we will be open Sunday 3/1 from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
