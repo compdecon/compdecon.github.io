@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/02/24 23:55:11 EST UTC-05:00",
-    "ext_localtime": "Tue Feb 24 11:55:11 PM EST 2026",
+    "ext_time": "2026/02/25 01:10:10 EST UTC-05:00",
+    "ext_localtime": "Wed Feb 25 01:10:10 AM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -93,32 +93,33 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 20
+        "value": 44
       }
     ]
   },
   "ext_weather": {
-    "number": 1,
-    "name": "Tonight",
-    "startTime": "2026-02-24T18:00:00-05:00",
-    "endTime": "2026-02-25T06:00:00-05:00",
-    "isDaytime": false,
-    "temperature": 20,
+    "number": 2,
+    "name": "Wednesday",
+    "startTime": "2026-02-25T06:00:00-05:00",
+    "endTime": "2026-02-25T18:00:00-05:00",
+    "isDaytime": true,
+    "temperature": 44,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 57
+      "value": 77
     },
-    "windSpeed": "0 to 5 mph",
+    "windSpeed": "5 to 10 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/night/sct/snow,60?size=medium",
-    "shortForecast": "Partly Cloudy then Light Snow Likely",
-    "detailedForecast": "Snow likely after 2am. Partly cloudy. Low around 20, with temperatures rising to around 32 overnight. Southwest wind 0 to 5 mph, with gusts as high as 25 mph. Chance of precipitation is 60%. New snow accumulation of less than half an inch possible."
+    "icon": "https://api.weather.gov/icons/land/day/snow,80/bkn?size=medium",
+    "shortForecast": "Rain And Snow then Partly Sunny",
+    "detailedForecast": "Rain and snow before 11am. Partly sunny, with a high near 44. Southwest wind 5 to 10 mph, with gusts as high as 25 mph. Chance of precipitation is 80%. New snow accumulation of less than half an inch possible."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5270\r\nIssue Time: 2026 Feb 24 1155 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5269\r\nValid From: 2026 Feb 21 2230 UTC\r\nNow Valid Until: 2026 Feb 24 2100 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3633\r\nIssue Time: 2026 Feb 24 0502 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3632\r\nBegin Time: 2026 Feb 23 1045 UTC\r\nYesterday Maximum 2MeV Flux: 4958 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3634\r\nIssue Time: 2026 Feb 25 0501 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3633\r\nBegin Time: 2026 Feb 23 1045 UTC\r\nYesterday Maximum 2MeV Flux: 13748 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2635\r\nIssue Time: 2026 Feb 25 0301 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2026 Feb 25 0259 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5271\r\nIssue Time: 2026 Feb 25 0135 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2026 Feb 25 0134 UTC\r\nValid To: 2026 Feb 25 0900 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -149,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1771995311,
+    "lastchange": 1771999810,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
