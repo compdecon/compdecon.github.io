@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/02/25 03:10:10 EST UTC-05:00",
-    "ext_localtime": "Wed Feb 25 03:10:10 AM EST 2026",
+    "ext_time": "2026/02/25 06:10:10 EST UTC-05:00",
+    "ext_localtime": "Wed Feb 25 06:10:10 AM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -117,6 +117,7 @@
     "detailedForecast": "Rain and snow before 11am. Partly sunny, with a high near 44. Southwest wind 5 to 10 mph, with gusts as high as 25 mph. Chance of precipitation is 80%. New snow accumulation of less than half an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5272\r\nIssue Time: 2026 Feb 25 0855 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5271\r\nValid From: 2026 Feb 25 0134 UTC\r\nNow Valid Until: 2026 Feb 25 1800 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1468\r\nIssue Time: 2026 Feb 25 0728 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2026 Feb 25 0653 UTC\r\nEstimated Velocity: 595 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3634\r\nIssue Time: 2026 Feb 25 0501 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3633\r\nBegin Time: 2026 Feb 23 1045 UTC\r\nYesterday Maximum 2MeV Flux: 13748 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2635\r\nIssue Time: 2026 Feb 25 0301 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2026 Feb 25 0259 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -151,7 +152,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1772007010,
+    "lastchange": 1772017810,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
