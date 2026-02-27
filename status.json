@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/02/27 10:52:43 EST UTC-05:00",
-    "ext_localtime": "Fri Feb 27 10:52:43 AM EST 2026",
+    "ext_time": "2026/02/27 13:03:18 EST UTC-05:00",
+    "ext_localtime": "Fri Feb 27 01:03:18 PM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -148,8 +148,8 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1772207563,
-    "message": "Sorry we&#x27;re currently closed due to a power problems due to the snow storm. But we hope be open Sunday 3/8 from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "lastchange": 1772215398,
+    "message": "Sorry we&#x27;re currently closed due to a power problems from the snow storm. But we hope to be open Sunday 3/8 from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
     "blogUpdate": "",
