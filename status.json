@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/02/26 19:10:10 EST UTC-05:00",
-    "ext_localtime": "Thu Feb 26 07:10:10 PM EST 2026",
+    "ext_time": "2026/02/26 22:10:10 EST UTC-05:00",
+    "ext_localtime": "Thu Feb 26 10:10:10 PM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Tonight",
-    "startTime": "2026-02-26T18:00:00-05:00",
+    "startTime": "2026-02-26T21:00:00-05:00",
     "endTime": "2026-02-27T06:00:00-05:00",
     "isDaytime": false,
     "temperature": 25,
@@ -108,13 +108,13 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 23
+      "value": 2
     },
     "windSpeed": "0 mph",
     "windDirection": "",
-    "icon": "https://api.weather.gov/icons/land/night/snow,20/bkn?size=medium",
-    "shortForecast": "Slight Chance Light Snow then Mostly Cloudy",
-    "detailedForecast": "A slight chance of snow before 7pm. Mostly cloudy, with a low around 25. Northeast wind around 0 mph. Chance of precipitation is 20%."
+    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+    "shortForecast": "Partly Cloudy",
+    "detailedForecast": "Partly cloudy, with a low around 25. North wind around 0 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 5275\r\nIssue Time: 2026 Feb 26 1155 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5274\r\nValid From: 2026 Feb 25 2140 UTC\r\nNow Valid Until: 2026 Feb 26 1800 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -151,7 +151,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1772151010,
+    "lastchange": 1772161810,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
