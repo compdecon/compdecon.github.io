@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/03/01 10:10:10 EST UTC-05:00",
-    "ext_localtime": "Sun Mar  1 10:10:10 AM EST 2026",
+    "ext_time": "2026/03/01 11:10:11 EST UTC-05:00",
+    "ext_localtime": "Sun Mar  1 11:10:11 AM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2026-03-01T09:00:00-05:00",
+    "startTime": "2026-03-01T06:00:00-05:00",
     "endTime": "2026-03-01T18:00:00-05:00",
     "isDaytime": true,
     "temperature": 38,
@@ -114,7 +114,7 @@
     "windDirection": "N",
     "icon": "https://api.weather.gov/icons/land/day/snow,50/snow,20?size=medium",
     "shortForecast": "Chance Snow Showers",
-    "detailedForecast": "A chance of snow showers before 11am, then a chance of rain and snow showers between 11am and 1pm. Mostly cloudy, with a high near 38. North wind 5 to 10 mph. Chance of precipitation is 50%. New snow accumulation of less than half an inch possible."
+    "detailedForecast": "A chance of rain showers between 8am and 9am, then a chance of snow showers between 9am and 11am, then a chance of rain and snow showers between 11am and 1pm. Mostly cloudy, with a high near 38. North wind 5 to 10 mph. Chance of precipitation is 50%. New snow accumulation of less than half an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3638\r\nIssue Time: 2026 Mar 01 0509 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3637\r\nBegin Time: 2026 Feb 23 1045 UTC\r\nYesterday Maximum 2MeV Flux: 7143 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1772377810,
+    "lastchange": 1772381411,
     "message": "Sorry we&#x27;re currently closed due to a power problems from the snow storm. But we hope to be open Sunday 3/8 from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
