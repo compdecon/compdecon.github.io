@@ -177,7 +177,7 @@ function getStatus(url) {
         updateMsg("preUpdateDiv",  json.state.preMessage);
         updateMsg("updateDiv",     json.state.message);
         updateMsg("postUpdateDiv", json.state.postMessage);
-        updateBlog("blogUpdate",   json.state.blogUpdate);
+        updateBlog("blogUpdateDiv",json.state.blogUpdate);
 
         lastUpdated(json.state.lastchange)
         currentWeather(json.ext_weather);
