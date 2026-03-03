@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/03/02 22:10:10 EST UTC-05:00",
-    "ext_localtime": "Mon Mar  2 10:10:10 PM EST 2026",
+    "ext_time": "2026/03/02 22:58:21 EST UTC-05:00",
+    "ext_localtime": "Mon Mar  2 10:58:21 PM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -148,11 +148,11 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1772507410,
+    "lastchange": 1772510301,
     "message": "Sorry we&#x27;re currently closed due to a power problems from the snow storm. But we hope to be open Sunday 3/8 from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
-    "blogUpdate": "",
+    "blogUpdate": "Blog post: <a href=\"https://compdecon.blogspot.com/\">Cold and Powerless</a> Mon Mar  2 10:57:16 PM EST 2026",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
       "closed": "https://compdecon.github.io/images/closed.png"
