@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/03/06 19:10:07 EST UTC-05:00",
-    "ext_localtime": "Fri Mar  6 07:10:07 PM EST 2026",
+    "ext_time": "2026/03/07 00:10:07 EST UTC-05:00",
+    "ext_localtime": "Sat Mar  7 12:10:07 AM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -117,7 +117,8 @@
     "detailedForecast": "Patchy fog between 8pm and 1am, then patchy fog and a slight chance of rain between 1am and 4am, then a chance of rain and patchy fog. Cloudy, with a low around 36. East wind 0 to 5 mph. Chance of precipitation is 30%."
   },
   "space_weather": [
-    "Space Weather Message Code: WATA20\r\nSerial Number: 1099\r\nIssue Time: 2026 Mar 06 1752 UTC\r\n\r\nCANCEL WATCH: Geomagnetic Storm Category G1 Predicted\r\nCancel Serial Number: 1098\r\nOriginal Issue Time: 2026 Mar 03 2305 UTC\r\n\r\nComment: G1 (Minor) geomagnetic storms are no longer expected.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2638\r\nIssue Time: 2026 Mar 07 0206 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2026 Mar 07 0206 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5277\r\nIssue Time: 2026 Mar 07 0026 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2026 Mar 07 0025 UTC\r\nValid To: 2026 Mar 07 1800 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -148,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1772842207,
+    "lastchange": 1772860207,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
