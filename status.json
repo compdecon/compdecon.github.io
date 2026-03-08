@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/03/08 12:10:07 EDT UTC-04:00",
-    "ext_localtime": "Sun Mar  8 12:10:07 PM EDT 2026",
+    "ext_time": "2026/03/08 13:10:07 EDT UTC-04:00",
+    "ext_localtime": "Sun Mar  8 01:10:07 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2026-03-08T10:00:00-04:00",
+    "startTime": "2026-03-08T06:00:00-04:00",
     "endTime": "2026-03-08T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 65,
@@ -108,13 +108,13 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 29
+      "value": 48
     },
     "windSpeed": "5 to 10 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/rain_showers,30/rain_showers,20?size=medium",
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,50/rain_showers,20?size=medium",
     "shortForecast": "Chance Rain Showers",
-    "detailedForecast": "A chance of rain showers before 3pm. Mostly cloudy, with a high near 65. West wind 5 to 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "A chance of rain showers and patchy fog before 3pm. Mostly cloudy, with a high near 65. West wind 5 to 10 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3641\r\nIssue Time: 2026 Mar 08 1527 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2026 Mar 08 1510 UTC\r\nStation: GOES19\r\n \r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
@@ -152,7 +152,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1772986207,
+    "lastchange": 1772989807,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
