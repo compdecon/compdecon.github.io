@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/03/09 03:10:07 EDT UTC-04:00",
-    "ext_localtime": "Mon Mar  9 03:10:07 AM EDT 2026",
+    "ext_time": "2026/03/09 04:10:07 EDT UTC-04:00",
+    "ext_localtime": "Mon Mar  9 04:10:07 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 62
+        "value": 41
       }
     ]
   },
   "ext_weather": {
-    "number": 2,
-    "name": "Monday",
-    "startTime": "2026-03-09T06:00:00-04:00",
-    "endTime": "2026-03-09T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 62,
+    "number": 1,
+    "name": "Overnight",
+    "startTime": "2026-03-09T03:00:00-04:00",
+    "endTime": "2026-03-09T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 41,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
       "value": 0
     },
-    "windSpeed": "0 to 5 mph",
-    "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-    "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 62. Southwest wind 0 to 5 mph."
+    "windSpeed": "5 mph",
+    "windDirection": "W",
+    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+    "shortForecast": "Mostly Clear",
+    "detailedForecast": "Mostly clear, with a low around 41. West wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3641\r\nIssue Time: 2026 Mar 08 1527 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nThreshold Reached: 2026 Mar 08 1510 UTC\r\nStation: GOES19\r\n \r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
@@ -152,7 +152,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1773040207,
+    "lastchange": 1773043807,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM, Wednesday from 12 - 5PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
