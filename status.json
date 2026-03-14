@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/03/14 12:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sat Mar 14 12:10:04 PM EDT 2026",
+    "ext_time": "2026/03/14 13:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sat Mar 14 01:10:04 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 51
+        "value": 52
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2026-03-14T10:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2026-03-14T12:00:00-04:00",
     "endTime": "2026-03-14T18:00:00-04:00",
     "isDaytime": true,
-    "temperature": 51,
+    "temperature": 52,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
       "value": 0
     },
-    "windSpeed": "15 to 20 mph",
+    "windSpeed": "25 to 30 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+    "icon": "https://api.weather.gov/icons/land/day/wind_few?size=medium",
     "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 51. West wind 15 to 20 mph, with gusts as high as 35 mph."
+    "detailedForecast": "Sunny, with a high near 52. West wind 25 to 30 mph, with gusts as high as 45 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK05\r\nSerial Number: 1978\r\nIssue Time: 2026 Mar 14 1450 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\n Threshold Reached: 2026 Mar 14 1448 UTC\r\nSynoptic Period: 1200-1500 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -156,7 +156,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1773504604,
+    "lastchange": 1773508204,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today, Sunday. We will next be open on Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "Today we celebrate: Maker's Day at InfoAge and CDL.",
     "postMessage": ".",
