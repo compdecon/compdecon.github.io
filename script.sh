@@ -310,7 +310,7 @@ egrep -v 'lastchange|timezone|localtime|ext_time' ${FILE} | jq '.' > /tmp/t-${FI
 ### compare the two, if it has changed update
 ### Special handling: At midnight, update anyway so we're updated at least once a day
 ###
-STR=$(date +%H:%S)
+STR=$(date +%H:%M)
 # crontab is currently:
 # 10 * * * * bash -c ${HOME}/dev/git/compdecon.github.io/script.sh
 if [ $STR == "00:10" ]; then
@@ -340,6 +340,11 @@ if [ $? -ne 0 ]; then
         cat ${tfile}
     fi
     rm ${tfile}
+
+    # copy the status
+    #cp -q status.json  mozart.uucp:hp/ixr/cdl/
+    scp -q status.json  mozart.uucp:hp/ixr/
+    ssh mozart.uucp -- sitecopy -u ixr.org &> /tmp/mozart.sitecopy.log
 else
     echo 'No changes to report'
 fi
