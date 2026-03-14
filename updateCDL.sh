@@ -1,5 +1,11 @@
 #!/bin/bash
 
+###
+### cron eats 2 backslashes when passing from cron to bash, 2 more are needed for
+### getopts below. So 5 '\'s are needed in cron to crrectly escape things like double
+### quotes
+###
+
 echo "<$*>" >/tmp/updateCDL.log
 
 FILE=status.json
