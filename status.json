@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/03/16 18:10:04 EDT UTC-04:00",
-    "ext_localtime": "Mon Mar 16 06:10:04 PM EDT 2026",
+    "ext_time": "2026/03/16 18:55:04 EDT UTC-04:00",
+    "ext_localtime": "Mon Mar 16 06:55:04 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -22,11 +22,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": false
+        "value": true
       },
       {
         "location": "Front door",
-        "value": false
+        "value": true
       }
     ],
     "humidity": [
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 61
+        "value": 31
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2026-03-16T15:00:00-04:00",
-    "endTime": "2026-03-16T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 61,
+    "name": "Tonight",
+    "startTime": "2026-03-16T18:00:00-04:00",
+    "endTime": "2026-03-17T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 31,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 72
+      "value": 97
     },
-    "windSpeed": "25 mph",
-    "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/day/tsra,70?size=medium",
-    "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms before 4pm, then showers and thunderstorms likely. Some of the storms could be severe. Cloudy, with a high near 61. South wind around 25 mph, with gusts as high as 40 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "windSpeed": "20 to 45 mph",
+    "windDirection": "SW",
+    "icon": "https://api.weather.gov/icons/land/night/tsra,100/tsra,90?size=medium",
+    "shortForecast": "Showers And Thunderstorms",
+    "detailedForecast": "Showers and thunderstorms before 9pm, then a chance of showers and thunderstorms between 9pm and 11pm, then showers and thunderstorms between 11pm and 3am. Some of the storms could be severe. Mostly cloudy, with a low around 31. Southwest wind 20 to 45 mph. Chance of precipitation is 100%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WATA30\r\nSerial Number: 264\r\nIssue Time: 2026 Mar 16 2108 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G2 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nMar 17:  None (Below G1)   Mar 18:  None (Below G1)   Mar 19:  G2 (Moderate)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nComment: G2 (Moderate) geomagnetic storming is likely on 19 Mar with the arrival of a CME that left the Sun on 16 Mar. This is a reissue of the previous watch to correct an internal system error.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
@@ -152,9 +152,9 @@
     {}
   ],
   "state": {
-    "open": false,
-    "lastchange": 1773699004,
-    "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM, Wednesday from 12 - 5PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": true,
+    "lastchange": 1773701704,
+    "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight, Monday. We will next open on Wednesday from 12 - 5PM and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "Today we celebrate: Maker's Day at InfoAge and CDL.",
     "postMessage": ".",
     "blogUpdate": "Blog post: <a href=\"https://compdecon.blogspot.com/\">Cold and Powerless</a> <b>Update</b> Power restored Sun Mar  8 10:57:16 AM EST 2026",
