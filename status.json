@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/03/18 23:55:04 EDT UTC-04:00",
-    "ext_localtime": "Wed Mar 18 11:55:04 PM EDT 2026",
+    "ext_time": "2026/03/19 01:10:04 EDT UTC-04:00",
+    "ext_localtime": "Thu Mar 19 01:10:04 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 28
+        "value": 44
       }
     ]
   },
   "ext_weather": {
-    "number": 1,
-    "name": "Tonight",
-    "startTime": "2026-03-18T18:00:00-04:00",
-    "endTime": "2026-03-19T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 28,
+    "number": 2,
+    "name": "Thursday",
+    "startTime": "2026-03-19T06:00:00-04:00",
+    "endTime": "2026-03-19T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 44,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 1
+      "value": 3
     },
-    "windSpeed": "0 to 5 mph",
+    "windSpeed": "0 to 10 mph",
     "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-    "shortForecast": "Mostly Clear",
-    "detailedForecast": "Mostly clear, with a low around 28. Southeast wind 0 to 5 mph."
+    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny, with a high near 44. Southeast wind 0 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WATA30\r\nSerial Number: 265\r\nIssue Time: 2026 Mar 18 2114 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G2 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nMar 19:  G2 (Moderate)   Mar 20:  G2 (Moderate)   Mar 21:  G2 (Moderate)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
@@ -151,7 +151,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1773892504,
+    "lastchange": 1773897004,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": "Today we celebrate: Maker's Day at InfoAge and CDL.",
     "postMessage": ".",
