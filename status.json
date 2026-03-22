@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/03/21 23:55:07 EDT UTC-04:00",
-    "ext_localtime": "Sat Mar 21 11:55:07 PM EDT 2026",
+    "ext_time": "2026/03/22 01:10:08 EDT UTC-04:00",
+    "ext_localtime": "Sun Mar 22 01:10:08 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 41
+        "value": 67
       }
     ]
   },
   "ext_weather": {
-    "number": 1,
-    "name": "Tonight",
-    "startTime": "2026-03-21T21:00:00-04:00",
-    "endTime": "2026-03-22T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 41,
+    "number": 2,
+    "name": "Sunday",
+    "startTime": "2026-03-22T06:00:00-04:00",
+    "endTime": "2026-03-22T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 67,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 6
+      "value": 9
     },
-    "windSpeed": "5 mph",
-    "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-    "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a low around 41. Southeast wind around 5 mph."
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "S",
+    "icon": "https://api.weather.gov/icons/land/day/fog/bkn?size=medium",
+    "shortForecast": "Patchy Fog then Mostly Cloudy",
+    "detailedForecast": "Patchy fog before 7am. Mostly cloudy, with a high near 67. South wind 5 to 10 mph. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WATA30\r\nSerial Number: 266\r\nIssue Time: 2026 Mar 21 1946 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G2 Predicted\r\n\r\nHighest Storm Level Predicted by Day:\r\nMar 22:  G2 (Moderate)   Mar 23:  G1 (Minor)   Mar 24:  None (Below G1)\r\n\r\nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\r\n\r\nComment: G2 (Moderate) geomagnetic storming is likely on 22 Mar due to waning CME influences followed by the anticipated arrival of CH HSS effects. Isolated periods of G1 (Minor) geomagnetic storming is likely to continue into 23 Mar as CH HSS effects continue.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
@@ -159,7 +159,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1774151707,
+    "lastchange": 1774156208,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM, tomorrow, Monday from 7 - 10PM, and Wednesday from 12- 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
