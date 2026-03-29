@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/03/29 13:10:08 EDT UTC-04:00",
-    "ext_localtime": "Sun Mar 29 01:10:08 PM EDT 2026",
+    "ext_time": "2026/03/29 16:10:08 EDT UTC-04:00",
+    "ext_localtime": "Sun Mar 29 04:10:08 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2026-03-29T10:00:00-04:00",
+    "startTime": "2026-03-29T06:00:00-04:00",
     "endTime": "2026-03-29T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 55,
@@ -110,11 +110,11 @@
       "unitCode": "wmoUnit:percent",
       "value": 2
     },
-    "windSpeed": "5 to 15 mph",
+    "windSpeed": "0 to 15 mph",
     "windDirection": "S",
     "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
     "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 55. South wind 5 to 15 mph."
+    "detailedForecast": "Sunny, with a high near 55. South wind 0 to 15 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 5304\r\nIssue Time: 2026 Mar 29 1548 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2026 Mar 29 1546 UTC\r\nValid To: 2026 Mar 30 0900 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -151,7 +151,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1774804208,
+    "lastchange": 1774815008,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
