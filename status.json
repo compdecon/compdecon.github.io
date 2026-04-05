@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/04/04 23:55:07 EDT UTC-04:00",
-    "ext_localtime": "Sat Apr  4 11:55:07 PM EDT 2026",
+    "ext_time": "2026/04/05 01:10:07 EDT UTC-04:00",
+    "ext_localtime": "Sun Apr  5 01:10:07 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -93,17 +93,17 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 44
+        "value": 43
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2026-04-04T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2026-04-05T00:00:00-04:00",
     "endTime": "2026-04-05T06:00:00-04:00",
     "isDaytime": false,
-    "temperature": 44,
+    "temperature": 43,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
@@ -111,17 +111,13 @@
       "value": 32
     },
     "windSpeed": "5 to 15 mph",
-    "windDirection": "SE",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/tsra,30?size=medium",
-    "shortForecast": "Chance Rain Showers",
-    "detailedForecast": "A chance of rain showers before 5am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 44. Southeast wind 5 to 15 mph, with gusts as high as 30 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "windDirection": "E",
+    "icon": "https://api.weather.gov/icons/land/night/tsra,30?size=medium",
+    "shortForecast": "Chance Showers And Thunderstorms",
+    "detailedForecast": "A chance of rain showers before 5am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 43. East wind 5 to 15 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5311\r\nIssue Time: 2026 Apr 04 2356 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5310\r\nValid From: 2026 Apr 02 0047 UTC\r\nNow Valid Until: 2026 Apr 05 0300 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3665\r\nIssue Time: 2026 Apr 04 1158 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3664\r\nBegin Time: 2026 Apr 03 0920 UTC\r\nYesterday Maximum 2MeV Flux: 4465 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.",
-    "Space Weather Message Code: ALTK05\r\nSerial Number: 2006\r\nIssue Time: 2026 Apr 04 0254 UTC\r\n\r\nALERT: Geomagnetic K-index of 5\r\n Threshold Reached: 2026 Apr 04 0248 UTC\r\nSynoptic Period: 0000-0300 UTC\r\n \r\nActive Warning: Yes\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: SUMXM5\r\nSerial Number: 312\r\nIssue Time: 2026 Apr 04 0146 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5\r\nBegin Time: 2026 Apr 04 0107 UTC\r\nMaximum Time: 2026 Apr 04 0117 UTC\r\nEnd Time: 2026 Apr 04 0123 UTC\r\nX-ray Class: M7.5\r\nLocation: N04W04\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
-    "Space Weather Message Code: ALTXMF\r\nSerial Number: 522\r\nIssue Time: 2026 Apr 04 0117 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5\r\nThreshold Reached: 2026 Apr 04 0117 UTC\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap."
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5312\r\nIssue Time: 2026 Apr 05 0248 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5311\r\nValid From: 2026 Apr 02 0047 UTC\r\nNow Valid Until: 2026 Apr 05 0900 UTC\r\nWarning Condition: Persistence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -152,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1775361307,
+    "lastchange": 1775365807,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM, tomorrow, Monday from 7 - 10PM, and Wednesday from 12- 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
