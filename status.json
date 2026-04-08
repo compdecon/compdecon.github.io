@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/04/08 10:10:08 EDT UTC-04:00",
-    "ext_localtime": "Wed Apr  8 10:10:08 AM EDT 2026",
+    "ext_time": "2026/04/08 11:55:07 EDT UTC-04:00",
+    "ext_localtime": "Wed Apr  8 11:55:07 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -22,11 +22,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": false
+        "value": true
       },
       {
         "location": "Front door",
-        "value": false
+        "value": true
       }
     ],
     "humidity": [
@@ -148,9 +148,9 @@
     {}
   ],
   "state": {
-    "open": false,
-    "lastchange": 1775657408,
-    "message": "Sorry we&#x27;re currently closed but we will be open today, Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "open": true,
+    "lastchange": 1775663707,
+    "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
     "blogUpdate": "Blog post: <a href=\"https://compdecon.blogspot.com/\">Maker's Day done, we prepare for VCF East next</a> Sun Mar 16 10:57:16 AM EST 2026",
