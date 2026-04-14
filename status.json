@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/04/14 01:10:07 EDT UTC-04:00",
-    "ext_localtime": "Tue Apr 14 01:10:07 AM EDT 2026",
+    "ext_time": "2026/04/14 07:10:08 EDT UTC-04:00",
+    "ext_localtime": "Tue Apr 14 07:10:08 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 57
+        "value": 83
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2026-04-14T00:00:00-04:00",
-    "endTime": "2026-04-14T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 57,
+    "name": "Today",
+    "startTime": "2026-04-14T06:00:00-04:00",
+    "endTime": "2026-04-14T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 83,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 35
+      "value": 8
     },
-    "windSpeed": "5 mph",
-    "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/night/tsra_hi,40?size=medium",
-    "shortForecast": "Scattered Showers And Thunderstorms",
-    "detailedForecast": "Scattered showers and thunderstorms before 2am. Mostly clear, with a low around 57. West wind around 5 mph. Chance of precipitation is 40%."
+    "windSpeed": "0 to 10 mph",
+    "windDirection": "SW",
+    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+    "shortForecast": "Sunny",
+    "detailedForecast": "Sunny, with a high near 83. Southwest wind 0 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3674\r\nIssue Time: 2026 Apr 13 1101 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3673\r\nBegin Time: 2026 Apr 03 0920 UTC\r\nYesterday Maximum 2MeV Flux: 1610 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1776143407,
+    "lastchange": 1776165008,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Wednesday from 12 - 5PM, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
