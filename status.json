@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/04/20 15:10:07 EDT UTC-04:00",
-    "ext_localtime": "Mon Apr 20 03:10:07 PM EDT 2026",
+    "ext_time": "2026/04/20 16:10:07 EDT UTC-04:00",
+    "ext_localtime": "Mon Apr 20 04:10:07 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -93,37 +93,12 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 50
+        "value": -1
       }
     ]
   },
-  "ext_weather": {
-    "number": 1,
-    "name": "Today",
-    "startTime": "2026-04-20T06:00:00-04:00",
-    "endTime": "2026-04-20T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 50,
-    "temperatureUnit": "F",
-    "temperatureTrend": null,
-    "probabilityOfPrecipitation": {
-      "unitCode": "wmoUnit:percent",
-      "value": 31
-    },
-    "windSpeed": "0 to 10 mph",
-    "windDirection": "NW",
-    "icon": "https://api.weather.gov/icons/land/day/rain_showers,30?size=medium",
-    "shortForecast": "Chance Rain Showers",
-    "detailedForecast": "A chance of rain showers between 9am and 3pm. Partly sunny, with a high near 50. Northwest wind 0 to 10 mph. Chance of precipitation is 30%."
-  },
-  "space_weather": [
-    "\n    Space Weather Message Code: ALTK05\n\n    Serial Number: 1782\n\n    Issue Time: 2026-04-20T17:36:00\n\n    \n\n    ALERT: Geomagnetic K-index of 5 \nTHRESHOLD: 2026-04-20 17:34 UTC\nISSUED BY: Forecaster User\nSYNOPTIC PERIOD: 1500-1800\nACTIVE WARNING: YES\nNOAA SCALE: G1 - Minor\nCOMMENT: \n\n    \n\n    \n    G1 - Minor",
-    "\n    Space Weather Message Code: WARK04\n\n    Serial Number: 5001\n\n    Issue Time: 2026-04-20T17:21:00\n\n    \n\n    EXTENDED WARNING: Geomagnetic K-index of 4 expected\nExtension to Serial Number: 5323\nValid From: 2026-04-20T08:05:00\nNow Valid Until: 2026-04-21 03:00\nWarning Condition: Persistence\nExtended 2026-04-20 17:21 by Forecaster User \n\n    \n\n    Extended 2026-04-20 17:21 by Forecaster User \n    ",
-    "\n    Space Weather Message Code: WARK05\n\n    Serial Number: 2065\n\n    Issue Time: 2026-04-20T17:20:00\n\n    \n\n    WARNING: Geomagnetic K-index of 5 expected \nISSUED BY: Forecaster User\nVALID FROM: 2026-04-20 17:20 UTC\nVALID TO: 2026-04-20 23:59 UTC\nWARNING CONDITIONS: Onset\nNOAA SCALE: G1 - Minor\nCOMMENT: \n\n    \n\n    \n    G1 - Minor",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5323\r\nIssue Time: 2026 Apr 20 1420 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\r\nExtension to Serial Number: 5322\r\nValid From: 2026 Apr 20 0805 UTC\r\nNow Valid Until: 2026 Apr 20 2100 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: ALTK04\r\nSerial Number: 2651\r\nIssue Time: 2026 Apr 20 0819 UTC\r\n\r\nALERT: Geomagnetic K-index of 4\r\n Threshold Reached: 2026 Apr 20 0820 UTC\r\nSynoptic Period: 0600-0900 UTC\r\n \r\nActive Warning: Yes\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5322\r\nIssue Time: 2026 Apr 20 0805 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected\r\nValid From: 2026 Apr 20 0805 UTC\r\nValid To: 2026 Apr 20 1500 UTC\r\nWarning Condition: Onset\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
-  ],
+  "ext_weather": {},
+  "space_weather": [],
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -153,7 +128,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1776712207,
+    "lastchange": 1776715807,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM, Wednesday from 12 - 5PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
