@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/04/22 23:55:07 EDT UTC-04:00",
-    "ext_localtime": "Wed Apr 22 11:55:07 PM EDT 2026",
+    "ext_time": "2026/04/23 01:10:07 EDT UTC-04:00",
+    "ext_localtime": "Thu Apr 23 01:10:07 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -99,8 +99,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2026-04-22T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2026-04-23T00:00:00-04:00",
     "endTime": "2026-04-23T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 45,
@@ -108,13 +108,13 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 4
+      "value": 3
     },
-    "windSpeed": "0 to 5 mph",
-    "windDirection": "N",
-    "icon": "https://api.weather.gov/icons/land/night/sct/fog?size=medium",
-    "shortForecast": "Partly Cloudy then Patchy Fog",
-    "detailedForecast": "Patchy fog after midnight. Partly cloudy, with a low around 45. North wind 0 to 5 mph."
+    "windSpeed": "0 mph",
+    "windDirection": "",
+    "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
+    "shortForecast": "Patchy Fog",
+    "detailedForecast": "Patchy fog. Partly cloudy, with a low around 45. North wind around 0 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3682\r\nIssue Time: 2026 Apr 22 0503 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\r\nContinuation of Serial Number: 3681\r\nBegin Time: 2026 Apr 19 1920 UTC\r\nYesterday Maximum 2MeV Flux: 4987 pfu\r\n\r\n\r\n\r\nPotential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems."
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1776916507,
+    "lastchange": 1776921007,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
