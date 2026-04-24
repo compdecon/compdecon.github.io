@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/04/24 07:10:07 EDT UTC-04:00",
-    "ext_localtime": "Fri Apr 24 07:10:07 AM EDT 2026",
+    "ext_time": "2026/04/24 09:10:07 EDT UTC-04:00",
+    "ext_localtime": "Fri Apr 24 09:10:07 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,6 +117,7 @@
     "detailedForecast": "Partly sunny, with a high near 61. Southeast wind 5 to 15 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTTP4\r\nSerial Number: 707\r\nIssue Time: 2026 Apr 24 1041 UTC\r\n\r\nALERT: Type IV Radio Emission\r\nBegin Time: 2026 Apr 24 0840 UTC\r\n\r\n\r\n\r\nDescription: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1479\r\nIssue Time: 2026 Apr 24 0928 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2026 Apr 24 0815 UTC\r\nEstimated Velocity: 1293 km/s\r\n\r\nComment: Reissued with adjusted shock speed.\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1478\r\nIssue Time: 2026 Apr 24 0927 UTC\r\n\r\nCANCEL ALERT: Type II Radio Emission\r\nCancel Serial Number: 1477\r\nOriginal Issue Time: 2026 Apr 24 0857 UTC\r\n\r\nComment: Reissuing with corrected shock speed.\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1477\r\nIssue Time: 2026 Apr 24 0857 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2026 Apr 24 0815 UTC\r\nEstimated Velocity: 1869 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.",
@@ -157,7 +158,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1777029007,
+    "lastchange": 1777036207,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
