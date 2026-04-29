@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/04/29 13:10:07 EDT UTC-04:00",
-    "ext_localtime": "Wed Apr 29 01:10:07 PM EDT 2026",
+    "ext_time": "2026/04/29 16:10:07 EDT UTC-04:00",
+    "ext_localtime": "Wed Apr 29 04:10:07 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -99,8 +99,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2026-04-29T12:00:00-04:00",
+    "name": "Today",
+    "startTime": "2026-04-29T06:00:00-04:00",
     "endTime": "2026-04-29T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 60,
@@ -110,11 +110,11 @@
       "unitCode": "wmoUnit:percent",
       "value": 8
     },
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "0 to 10 mph",
     "windDirection": "SE",
     "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
     "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a high near 60. Southeast wind 5 to 10 mph."
+    "detailedForecast": "Mostly cloudy, with a high near 60. Southeast wind 0 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1480\r\nIssue Time: 2026 Apr 27 0106 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2026 Apr 26 2257 UTC\r\nEstimated Velocity: 834 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1777482607,
+    "lastchange": 1777493407,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
