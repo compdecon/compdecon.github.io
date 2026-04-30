@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/04/30 01:10:07 EDT UTC-04:00",
-    "ext_localtime": "Thu Apr 30 01:10:07 AM EDT 2026",
+    "ext_time": "2026/04/30 04:10:08 EDT UTC-04:00",
+    "ext_localtime": "Thu Apr 30 04:10:08 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Overnight",
-    "startTime": "2026-04-30T00:00:00-04:00",
+    "startTime": "2026-04-30T03:00:00-04:00",
     "endTime": "2026-04-30T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 48,
@@ -108,13 +108,13 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 92
+      "value": 94
     },
-    "windSpeed": "5 mph",
+    "windSpeed": "0 to 5 mph",
     "windDirection": "SE",
     "icon": "https://api.weather.gov/icons/land/night/rain_showers,90?size=medium",
     "shortForecast": "Rain Showers",
-    "detailedForecast": "Rain showers. Cloudy, with a low around 48. Southeast wind around 5 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible."
+    "detailedForecast": "Rain showers. Cloudy, with a low around 48. Southeast wind 0 to 5 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1480\r\nIssue Time: 2026 Apr 27 0106 UTC\r\n\r\nALERT: Type II Radio Emission\r\nBegin Time: 2026 Apr 26 2257 UTC\r\nEstimated Velocity: 834 km/s\r\n\r\n\r\n\r\nDescription: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1777525807,
+    "lastchange": 1777536608,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
