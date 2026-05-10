@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/05/10 11:55:08 EDT UTC-04:00",
-    "ext_localtime": "Sun May 10 11:55:08 AM EDT 2026",
+    "ext_time": "2026/05/10 12:10:07 EDT UTC-04:00",
+    "ext_localtime": "Sun May 10 12:10:07 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,7 +117,10 @@
     "detailedForecast": "Mostly sunny, with a high near 81. South wind 0 to 5 mph. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5336\r\nIssue Time: 2026 May 08 1725 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected \nValid From: 2026 May 08 1724 UTC\nValid To: 2026 May 08 2359 UTC\nWarning Conditions: Onset\nComment: \r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: SUMXM5\r\nSerial Number: 316\r\nIssue Time: 2026 May 10 1414 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5 \nBegin Time: 2026 May 10 1319 UTC\nMaximum Time: 2026 May 10 1339 UTC\nEnd Time: 2026 May 10 1402 UTC\nXray Class: M5.7\nOptical Class: \nLocation: N18E65\nNoaa Scale: R2 - Moderate\nComment: \r\n\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
+    "Space Weather Message Code: SUM10R\r\nSerial Number: 911\r\nIssue Time: 2026 May 10 1355 UTC\r\n\r\nSUMMARY: 10cm Radio Burst \nBegin Time: 2026 May 10 1328 UTC\nMaximum Time: 2026 May 10 1334 UTC\nEnd Time: 2026 May 10 1343 UTC\nPeak Flux: 550 sfu\nDuration: 15 minutes\nLatest Penticton Noon Flux: 122 sfu\nComment: \r\n\n",
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1484\r\nIssue Time: 2026 May 10 1347 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 May 10 1329 UTC\nEstimate Velocity: 650 km/s\nComment: \r\n\n",
+    "Space Weather Message Code: ALTXMF\r\nSerial Number: 528\r\nIssue Time: 2026 May 10 1338 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5 \nThreshold Reached: 2026 May 10 1335 UTC\nNoaa Scale: R2 - Moderate\nComment: \r\n\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -148,7 +151,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1778428508,
+    "lastchange": 1778429407,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
