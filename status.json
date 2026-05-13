@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/05/13 04:10:08 EDT UTC-04:00",
-    "ext_localtime": "Wed May 13 04:10:08 AM EDT 2026",
+    "ext_time": "2026/05/13 06:10:07 EDT UTC-04:00",
+    "ext_localtime": "Wed May 13 06:10:07 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,7 +117,7 @@
     "detailedForecast": "Mostly cloudy, with a low around 49. South wind around 10 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: WATA20\r\nSerial Number: 1111\r\nIssue Time: 2026 May 12 1326 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted \nHighest Storm Level Predicted by Day:\nMay 13:  None (Below G1)   May 14:  None (Below G1)   May 15:  G1 (Minor)   \nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\nComment: Negative CH influence\n\r\n\nNegative CH influence\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+    "Space Weather Message Code: WATA30\r\nSerial Number: 273\r\nIssue Time: 2026 May 13 0907 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G2 Predicted \nHighest Storm Level Predicted by Day:\nMay 14:  None (Below G1)   May 15:  G2 (Moderate)   May 16:  G1 (Minor)   \nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\nComment: \r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1778659808,
+    "lastchange": 1778667007,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
