@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/05/14 01:10:07 EDT UTC-04:00",
-    "ext_localtime": "Thu May 14 01:10:07 AM EDT 2026",
+    "ext_time": "2026/05/14 03:10:07 EDT UTC-04:00",
+    "ext_localtime": "Thu May 14 03:10:07 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -116,7 +116,9 @@
     "shortForecast": "Showers And Thunderstorms Likely",
     "detailedForecast": "Showers and thunderstorms likely before 5pm. Mostly cloudy, with a high near 68. West wind 5 to 10 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
-  "space_weather": [],
+  "space_weather": [
+    "No alerts today"
+  ],
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -146,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1778735407,
+    "lastchange": 1778742607,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
