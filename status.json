@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/05/14 10:10:08 EDT UTC-04:00",
-    "ext_localtime": "Thu May 14 10:10:08 AM EDT 2026",
+    "ext_time": "2026/05/14 11:10:07 EDT UTC-04:00",
+    "ext_localtime": "Thu May 14 11:10:07 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2026-05-14T09:00:00-04:00",
+    "startTime": "2026-05-14T10:00:00-04:00",
     "endTime": "2026-05-14T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 69,
@@ -108,13 +108,13 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 56
+      "value": 48
     },
     "windSpeed": "0 to 5 mph",
-    "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/rain_showers,60/rain_showers,40?size=medium",
-    "shortForecast": "Rain Showers Likely",
-    "detailedForecast": "Rain showers likely. Partly sunny, with a high near 69. West wind 0 to 5 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "windDirection": "NW",
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,50/rain_showers,40?size=medium",
+    "shortForecast": "Chance Rain Showers",
+    "detailedForecast": "A chance of rain showers. Partly sunny, with a high near 69. Northwest wind 0 to 5 mph. Chance of precipitation is 50%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WATA30\r\nSerial Number: 273\r\nIssue Time: 2026 May 14 0853 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G2 Predicted \nHighest Storm Level Predicted by Day:\nMay 15:  G2 (Moderate)   May 16:  G1 (Minor)   May 17:  G1 (Minor)   \nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\nComment: included the G1 watch for day3 (17 May)\n\r\n\nincluded the G1 watch for day3 (17 May)\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state."
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1778767808,
+    "lastchange": 1778771407,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
