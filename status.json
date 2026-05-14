@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/05/13 23:55:08 EDT UTC-04:00",
-    "ext_localtime": "Wed May 13 11:55:08 PM EDT 2026",
+    "ext_time": "2026/05/14 01:10:07 EDT UTC-04:00",
+    "ext_localtime": "Thu May 14 01:10:07 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -93,33 +93,30 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 55
+        "value": 68
       }
     ]
   },
   "ext_weather": {
-    "number": 1,
-    "name": "Tonight",
-    "startTime": "2026-05-13T21:00:00-04:00",
-    "endTime": "2026-05-14T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 55,
+    "number": 2,
+    "name": "Thursday",
+    "startTime": "2026-05-14T06:00:00-04:00",
+    "endTime": "2026-05-14T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 68,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 79
+      "value": 69
     },
-    "windSpeed": "5 to 15 mph",
-    "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/night/tsra,30/tsra,80?size=medium",
-    "shortForecast": "Showers And Thunderstorms",
-    "detailedForecast": "A slight chance of rain showers between 10pm and 11pm, then showers and thunderstorms. Cloudy, with a low around 55. South wind 5 to 15 mph, with gusts as high as 30 mph. Chance of precipitation is 80%. New rainfall amounts less than a tenth of an inch possible."
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "W",
+    "icon": "https://api.weather.gov/icons/land/day/tsra,70/tsra,60?size=medium",
+    "shortForecast": "Showers And Thunderstorms Likely",
+    "detailedForecast": "Showers and thunderstorms likely before 5pm. Mostly cloudy, with a high near 68. West wind 5 to 10 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
-  "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5337\r\nIssue Time: 2026 May 13 2027 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected \nValid From: 2026 May 13 2026 UTC\nValid To: 2026 May 14 0600 UTC\nWarning Conditions: Onset\nComment: \r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WATA30\r\nSerial Number: 273\r\nIssue Time: 2026 May 13 0907 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G2 Predicted \nHighest Storm Level Predicted by Day:\nMay 14:  None (Below G1)   May 15:  G2 (Moderate)   May 16:  G1 (Minor)   \nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\nComment: \r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state."
-  ],
+  "space_weather": [],
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -149,7 +146,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1778730908,
+    "lastchange": 1778735407,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
