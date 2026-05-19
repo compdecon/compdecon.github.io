@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/05/19 18:10:07 EDT UTC-04:00",
-    "ext_localtime": "Tue May 19 06:10:07 PM EDT 2026",
+    "ext_time": "2026/05/19 19:10:07 EDT UTC-04:00",
+    "ext_localtime": "Tue May 19 07:10:07 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 95
+        "value": 73
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2026-05-19T15:00:00-04:00",
-    "endTime": "2026-05-19T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 95,
+    "name": "Tonight",
+    "startTime": "2026-05-19T18:00:00-04:00",
+    "endTime": "2026-05-20T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 73,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
       "value": 7
     },
-    "windSpeed": "15 mph",
+    "windSpeed": "5 to 10 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-    "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 95. Southwest wind around 15 mph."
+    "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+    "shortForecast": "Partly Cloudy",
+    "detailedForecast": "Partly cloudy, with a low around 73. Southwest wind 5 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 5345\r\nIssue Time: 2026 May 19 2057 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\nExtension to Serial Number: 5344\nValid From: 2026-05-19T07:01:00\nNow Valid Until: 2026-05-19 24:00\nWarning Condition: Persistence\nExtended 2026-05-19 20:57 by Forecaster User \r\n\nExtended 2026-05-19 20:57 by Forecaster User \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -153,7 +153,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1779228607,
+    "lastchange": 1779232207,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Wednesday from 12 - 5PM, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
