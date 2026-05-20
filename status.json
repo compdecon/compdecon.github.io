@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/05/20 07:10:08 EDT UTC-04:00",
-    "ext_localtime": "Wed May 20 07:10:08 AM EDT 2026",
+    "ext_time": "2026/05/20 09:10:08 EDT UTC-04:00",
+    "ext_localtime": "Wed May 20 09:10:08 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,13 +117,7 @@
     "detailedForecast": "A chance of showers and thunderstorms between 2pm and 5pm, then showers and thunderstorms likely. Mostly sunny. High near 95, with temperatures falling to around 89 in the afternoon. West wind 5 to 10 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5346\r\nIssue Time: 2026 May 19 2356 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\nExtension to Serial Number: 5345\nValid From: 2026-05-19T07:01:00\nNow Valid Until: 2026-05-20 06:00\nWarning Condition: Persistence\nExtended 2026-05-19 23:56 by Forecaster User \r\n\nExtended 2026-05-19 23:56 by Forecaster User \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5345\r\nIssue Time: 2026 May 19 2057 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\nExtension to Serial Number: 5344\nValid From: 2026-05-19T07:01:00\nNow Valid Until: 2026-05-19 24:00\nWarning Condition: Persistence\nExtended 2026-05-19 20:57 by Forecaster User \r\n\nExtended 2026-05-19 20:57 by Forecaster User \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5344\r\nIssue Time: 2026 May 19 1642 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\nExtension to Serial Number: 5343\nValid From: 2026-05-19T07:01:00\nNow Valid Until: 2026-05-19 21:00\nWarning Condition: Persistence\nExtended 2026-05-19 16:41 by Forecaster User \r\n\nExtended 2026-05-19 16:41 by Forecaster User \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: ALTK04\r\nSerial Number: 2657\r\nIssue Time: 2026 May 19 0855 UTC\r\n\r\nALERT: Geomagnetic K-index of 4 \nThreshold Reached: 2026 May 19 0828 UTC\nSynoptic Period: 0600-0900\nActive Warning: YES\nComment: \r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5343\r\nIssue Time: 2026 May 19 0703 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected \nValid From: 2026 May 19 0701 UTC\nValid To: 2026 May 19 1800 UTC\nWarning Conditions: Onset\nComment: \r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3689\r\nIssue Time: 2026 May 19 0514 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu \nThreshold Reached: 2026 May 16 1740 UTC\nStation: GOES-19\nComment: Yesterday's max: 6667 pfu \n\r\n\nYesterday's max: 6667 pfu ",
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3689\r\nIssue Time: 2026 May 19 0456 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\nContinuation of Serial Number: 3688\nBegin Time: 2026-05-16 17:40\nYesterday Maximum 2MeV Flux: 6118 pfu\nContinued 2026-05-19 05:00 by Forecaster User \r\n\nContinued 2026-05-19 05:00 by Forecaster User "
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3690\r\nIssue Time: 2026 May 20 1006 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\nContinuation of Serial Number: 3689\nBegin Time: 2026-05-16 17:40\nYesterday Maximum 2MeV Flux: 2860 pfu\nContinued 2026-05-20 10:06 by Forecaster User \r\n\nContinued 2026-05-20 10:06 by Forecaster User "
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -154,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1779275408,
+    "lastchange": 1779282608,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
