@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/05/22 13:10:07 EDT UTC-04:00",
-    "ext_localtime": "Fri May 22 01:10:07 PM EDT 2026",
+    "ext_time": "2026/05/22 16:10:07 EDT UTC-04:00",
+    "ext_localtime": "Fri May 22 04:10:07 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2026-05-22T12:00:00-04:00",
+    "startTime": "2026-05-22T15:00:00-04:00",
     "endTime": "2026-05-22T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 64,
@@ -108,13 +108,13 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 8
+      "value": 5
     },
-    "windSpeed": "10 to 15 mph",
+    "windSpeed": "15 mph",
     "windDirection": "E",
     "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
     "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a high near 64. East wind 10 to 15 mph."
+    "detailedForecast": "Mostly cloudy, with a high near 64. East wind around 15 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3692\r\nIssue Time: 2026 May 22 0507 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\nContinuation of Serial Number: 3691\nBegin Time: 2026-05-16 17:40\nYesterday Maximum 2MeV Flux: 2842 pfu\nContinued 2026-05-22 05:06 by Forecaster User \r\n\nContinued 2026-05-22 05:06 by Forecaster User "
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1779469807,
+    "lastchange": 1779480607,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
