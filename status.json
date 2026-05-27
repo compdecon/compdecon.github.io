@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/05/27 11:55:07 EDT UTC-04:00",
-    "ext_localtime": "Wed May 27 11:55:07 AM EDT 2026",
+    "ext_time": "2026/05/27 12:10:07 EDT UTC-04:00",
+    "ext_localtime": "Wed May 27 12:10:07 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,6 +117,7 @@
     "detailedForecast": "A slight chance of rain showers before 2pm. Mostly cloudy, with a high near 86. Southwest wind around 5 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: SUMPX1\r\nSerial Number: 131\r\nIssue Time: 2026 May 27 1445 UTC\r\n\r\nCANCELLED SUMMARY: Proton Event 10MeV Integral Flux exceeded 10pfu \nCancel Serial Number: 130\nOriginal Issued Time: 2026-05-27T02:28:00\nCancelled 2026-05-27 14:44 by Forecaster User duplicate\r\n\nCancelled 2026-05-27 14:44 by Forecaster User duplicateNOAA Scale: S1 - Minor",
     "Space Weather Message Code: WARK04\r\nSerial Number: 5348\r\nIssue Time: 2026 May 27 0547 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\nExtension to Serial Number: 5347\nValid From: 2026-05-26T21:37:00\nNow Valid Until: 2026-05-27 12:00\nWarning Condition: Persistence\nExtended 2026-05-27 05:47 by Forecaster User \r\n\nExtended 2026-05-27 05:47 by Forecaster User \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: SUMPX1\r\nSerial Number: 130\r\nIssue Time: 2026 May 27 0228 UTC\r\n\r\nSUMMARY: Proton Event 10MeV Integral Flux exceeded 10pfu \nBegin Time: 2026 May 27 0015 UTC\nMaximum Time: 2026 May 26 0110 UTC\nEnd Time: 2026 May 26 0425 UTC\nMaximum 10MeV Flux: 23 pfu\nNoaa Scale: S1 - Minor\nComment: \r\n\nNOAA Scale: S1 - Minor",
     "Space Weather Message Code: SUMPX1\r\nSerial Number: 129\r\nIssue Time: 2026 May 27 0227 UTC\r\n\r\nSUMMARY: Proton Event 10MeV Integral Flux exceeded 10pfu \nBegin Time: 2026 May 26 0015 UTC\nMaximum Time: 2026 May 26 0110 UTC\nEnd Time: 2026 May 26 0425 UTC\nMaximum 10MeV Flux: 23 pfu\nNoaa Scale: S1 - Minor\nComment: \r\n\nNOAA Scale: S1 - Minor",
@@ -151,7 +152,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1779897307,
+    "lastchange": 1779898207,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
