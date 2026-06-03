@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/06/03 03:10:07 EDT UTC-04:00",
-    "ext_localtime": "Wed Jun  3 03:10:07 AM EDT 2026",
+    "ext_time": "2026/06/03 04:10:08 EDT UTC-04:00",
+    "ext_localtime": "Wed Jun  3 04:10:08 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 79
+        "value": 58
       }
     ]
   },
   "ext_weather": {
-    "number": 2,
-    "name": "Wednesday",
-    "startTime": "2026-06-03T06:00:00-04:00",
-    "endTime": "2026-06-03T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 79,
+    "number": 1,
+    "name": "Overnight",
+    "startTime": "2026-06-03T03:00:00-04:00",
+    "endTime": "2026-06-03T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 58,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 1
+      "value": 0
     },
     "windSpeed": "5 mph",
-    "windDirection": "NE",
-    "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-    "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 79. Northeast wind around 5 mph."
+    "windDirection": "NW",
+    "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+    "shortForecast": "Mostly Clear",
+    "detailedForecast": "Mostly clear, with a low around 58. Northwest wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTXMF\r\nSerial Number: 530\r\nIssue Time: 2026 Jun 03 0700 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5 \nThreshold Reached: 2026 Jun 03 0700 UTC\nNoaa Scale: R2 - Moderate\nComment: \r\n\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
@@ -153,7 +153,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1780470607,
+    "lastchange": 1780474208,
     "message": " Sorry, we&#x27;re currently closed but we will be open today, Wednesday, from 12PM - 5PM,  Sunday from 12 - 5PM, and Monday 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
