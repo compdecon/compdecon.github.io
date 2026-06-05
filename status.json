@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/06/05 03:10:07 EDT UTC-04:00",
-    "ext_localtime": "Fri Jun  5 03:10:07 AM EDT 2026",
+    "ext_time": "2026/06/05 07:10:07 EDT UTC-04:00",
+    "ext_localtime": "Fri Jun  5 07:10:07 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -110,11 +110,11 @@
       "unitCode": "wmoUnit:percent",
       "value": 0
     },
-    "windSpeed": "0 to 5 mph",
-    "windDirection": "W",
+    "windSpeed": "0 to 10 mph",
+    "windDirection": "SW",
     "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
     "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 87. West wind 0 to 5 mph."
+    "detailedForecast": "Mostly sunny, with a high near 87. Southwest wind 0 to 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: SUMSUD\r\nSerial Number: 300\r\nIssue Time: 2026 Jun 05 0513 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse \nObserved: 2026 Jun 05 0511 UTC\nDeviation: 70 nT\nStation: MEA\nComment: \r\n\n",
@@ -150,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1780643407,
+    "lastchange": 1780657807,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
