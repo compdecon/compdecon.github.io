@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/06/06 19:10:07 EDT UTC-04:00",
-    "ext_localtime": "Sat Jun  6 07:10:07 PM EDT 2026",
+    "ext_time": "2026/06/06 21:10:07 EDT UTC-04:00",
+    "ext_localtime": "Sat Jun  6 09:10:07 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,6 +117,7 @@
     "detailedForecast": "A chance of showers and thunderstorms between 8pm and 10pm, then showers and thunderstorms likely between 10pm and midnight, then a slight chance of showers and thunderstorms between midnight and 2am. Some of the storms could be severe. Mostly cloudy, with a low around 70. West wind 5 to 10 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: WATA50\r\nSerial Number: 99\r\nIssue Time: 2026 Jun 06 2211 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G3 Predicted \nHighest Storm Level Predicted by Day:\nJun 07:  None (Below G1)   Jun 08:  G3 (Strong)   Jun 09:  G2 (Moderate)   \nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\nComment: \r\n\n",
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3695\r\nIssue Time: 2026 Jun 06 1655 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu \nThreshold Reached: 2026 Jun 06 1640 UTC\nStation: GOES-19\nComment: Yesterday's max: 536 pfu\n\r\n\nYesterday's max: 536 pfu",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1498\r\nIssue Time: 2026 Jun 06 1415 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Jun 06 1347 UTC\nEstimate Velocity: 838 km/s\nComment: \r\n\n",
     "Space Weather Message Code: SUM10R\r\nSerial Number: 918\r\nIssue Time: 2026 Jun 06 1414 UTC\r\n\r\nSUMMARY: 10cm Radio Burst \nBegin Time: 2026 Jun 06 1344 UTC\nMaximum Time: 2026 Jun 06 1344 UTC\nEnd Time: 2026 Jun 06 1359 UTC\nPeak Flux: 190 sfu\nDuration: 5 minutes\nLatest Penticton Noon Flux: 141 sfu\nComment: \r\n\n",
@@ -152,7 +153,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1780787407,
+    "lastchange": 1780794607,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
