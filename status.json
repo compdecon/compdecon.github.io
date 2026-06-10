@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/06/10 13:10:07 EDT UTC-04:00",
-    "ext_localtime": "Wed Jun 10 01:10:07 PM EDT 2026",
+    "ext_time": "2026/06/10 15:10:07 EDT UTC-04:00",
+    "ext_localtime": "Wed Jun 10 03:10:07 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,13 +117,7 @@
     "detailedForecast": "A slight chance of rain showers before noon, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 83. South wind 5 to 10 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5362\r\nIssue Time: 2026 Jun 09 2022 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected \nValid From: 2026 Jun 09 2020 UTC\nValid To: 2026 Jun 09 2359 UTC\nWarning Conditions: Onset\nComment: \r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1501\r\nIssue Time: 2026 Jun 09 1629 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Jun 09 1557 UTC\nEstimate Velocity: 917 km/s\nComment: SVI: 482 km/s; SAG: 917 km/s (closer station to the subsolar point. Report came later)\n\r\n\nSVI: 482 km/s; SAG: 917 km/s (closer station to the subsolar point. Report came later)",
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1501\r\nIssue Time: 2026 Jun 09 1625 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Jun 09 1557 UTC\nEstimate Velocity: 482 km/s\nComment: \r\n\n",
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1500\r\nIssue Time: 2026 Jun 09 1624 UTC\r\n\r\nCANCELLED ALERT: Type II Radio Emission \nCancel Serial Number: 1499\nOriginal Issued Time: 2026 Jun 09 1624 UTC\nduplicated\r\n\nduplicated",
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1499\r\nIssue Time: 2026 Jun 09 1624 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Jun 09 1557 UTC\nEstimate Velocity: 482 km/s\nComment: \r\n\n",
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1499\r\nIssue Time: 2026 Jun 09 1624 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Jun 09 1557 UTC\nEstimate Velocity: 482 km/s\nComment: \r\n\n",
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3698\r\nIssue Time: 2026 Jun 09 1141 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\nContinuation of Serial Number: 3697\nBegin Time: 2026 Jun 07 1143 UTC\nYesterday Maximum 2MeV Flux: 1315 pfu\n\r\n\n"
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1502\r\nIssue Time: 2026 Jun 10 1738 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Jun 10 1715 UTC\nEstimate Velocity: 1127 km/s\nComment: \r\n\n"
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -154,7 +148,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1781111407,
+    "lastchange": 1781118607,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
