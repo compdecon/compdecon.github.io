@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/06/10 11:55:07 EDT UTC-04:00",
-    "ext_localtime": "Wed Jun 10 11:55:07 AM EDT 2026",
+    "ext_time": "2026/06/10 12:10:08 EDT UTC-04:00",
+    "ext_localtime": "Wed Jun 10 12:10:08 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -154,7 +154,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1781106907,
+    "lastchange": 1781107808,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
