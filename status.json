@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/06/14 01:10:07 EDT UTC-04:00",
-    "ext_localtime": "Sun Jun 14 01:10:07 AM EDT 2026",
+    "ext_time": "2026/06/14 06:10:07 EDT UTC-04:00",
+    "ext_localtime": "Sun Jun 14 06:10:07 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,10 +117,7 @@
     "detailedForecast": "Partly sunny, with a high near 88. Southwest wind 5 to 15 mph, with gusts as high as 30 mph. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5365\r\nIssue Time: 2026 Jun 13 2356 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\nExtension to Serial Number: 5364\nValid From: 2026 Jun 13 0126 UTC\nNow Valid Until: 2026 Jun 14 0600 UTC\nWarning Condition: Persistence\n\r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: ALTK04\r\nSerial Number: 2666\r\nIssue Time: 2026 Jun 13 2101 UTC\r\n\r\nALERT: Geomagnetic K-index of 4 \nThreshold Reached: 2026 Jun 13 2059 UTC\nSynoptic Period: 1800-2100\nActive Warning: YES\nComment: \r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3699\r\nIssue Time: 2026 Jun 13 1333 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1000pfu \nThreshold Reached: 2026 Jun 13 1332 UTC\nStation: GOES-19\nComment: \r\n\n",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5364\r\nIssue Time: 2026 Jun 13 0127 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected \nValid From: 2026 Jun 13 0126 UTC\nValid To: 2026 Jun 13 2359 UTC\nWarning Conditions: Onset\nComment: \r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: WATA30\r\nSerial Number: 276\r\nIssue Time: 2026 Jun 14 0830 UTC\r\n\r\nCANCELLED WATCH: Geomagnetic Storm Category G2 Predicted \nCancel Serial Number: 275\nOriginal Issued Time: 2026 Jun 11 2029 UTC\nG1 (Minor) geomagnetic storm conditions are no longer expected. \r\n\nG1 (Minor) geomagnetic storm conditions are no longer expected. \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -151,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1781413807,
+    "lastchange": 1781431807,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM, tomorrow, Monday from 7 - 10PM, and Wednesday from 12- 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
