@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/06/14 12:10:07 EDT UTC-04:00",
-    "ext_localtime": "Sun Jun 14 12:10:07 PM EDT 2026",
+    "ext_time": "2026/06/14 13:10:08 EDT UTC-04:00",
+    "ext_localtime": "Sun Jun 14 01:10:08 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2026-06-14T08:00:00-04:00",
+    "startTime": "2026-06-14T06:00:00-04:00",
     "endTime": "2026-06-14T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 89,
@@ -110,11 +110,11 @@
       "unitCode": "wmoUnit:percent",
       "value": 5
     },
-    "windSpeed": "5 to 15 mph",
+    "windSpeed": "0 to 15 mph",
     "windDirection": "SW",
     "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
     "shortForecast": "Partly Sunny",
-    "detailedForecast": "Partly sunny, with a high near 89. Southwest wind 5 to 15 mph."
+    "detailedForecast": "Partly sunny, with a high near 89. Southwest wind 0 to 15 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3700\r\nIssue Time: 2026 Jun 14 1328 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\nContinuation of Serial Number: 3699\nBegin Time: 2026 Jun 13 1332 UTC\nYesterday Maximum 2MeV Flux: 1520 pfu\n\r\n\n",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1781453407,
+    "lastchange": 1781457008,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
