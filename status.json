@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/06/20 01:10:07 EDT UTC-04:00",
-    "ext_localtime": "Sat Jun 20 01:10:07 AM EDT 2026",
+    "ext_time": "2026/06/20 03:10:08 EDT UTC-04:00",
+    "ext_localtime": "Sat Jun 20 03:10:08 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,6 +117,7 @@
     "detailedForecast": "Mostly clear, with a low around 66. West wind around 15 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1506\r\nIssue Time: 2026 Jun 20 0407 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Jun 20 0407 UTC\nEstimate Velocity: 300 km/s\nComment: \r\n\n",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1505\r\nIssue Time: 2026 Jun 20 0406 UTC\r\n\r\nCANCEL ALERT: Type II Radio Emission \nCancel Serial Number: 1504\nOriginal Issue Time: 2026 Jun 20 0403 UTC\nCancelling duplicate Type-II Alert\r\n\nCancelling duplicate Type-II Alert",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1504\r\nIssue Time: 2026 Jun 20 0403 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Jun 20 0300 UTC\nEstimate Velocity: 300 km/s\nComment: \r\n\n",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1504\r\nIssue Time: 2026 Jun 20 0403 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Jun 20 0300 UTC\nEstimate Velocity: 300 km/s\nComment: \r\n\n",
@@ -151,7 +152,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1781932207,
+    "lastchange": 1781939408,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
