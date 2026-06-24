@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/06/24 11:55:08 EDT UTC-04:00",
-    "ext_localtime": "Wed Jun 24 11:55:08 AM EDT 2026",
+    "ext_time": "2026/06/24 15:10:08 EDT UTC-04:00",
+    "ext_localtime": "Wed Jun 24 03:10:08 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,9 +117,9 @@
     "detailedForecast": "Sunny, with a high near 84. Northwest wind 5 to 10 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1507\r\nIssue Time: 2026 Jun 21 1951 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Jun 21 1932 UTC\nEstimate Velocity: 380 km/s\nComment: \r\n\n",
-    "Space Weather Message Code: SUMXM5\r\nSerial Number: 319\r\nIssue Time: 2026 Jun 21 1948 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5 \nBegin Time: 2026 Jun 21 1917 UTC\nMaximum Time: 2026 Jun 21 1929 UTC\nEnd Time: 2026 Jun 22 1935 UTC\nXray Class: M6.8\nOptical Class: 2b\nLocation: S07E55\nNoaa Scale: R2 - Moderate\nComment: \r\n\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
-    "Space Weather Message Code: ALTXMF\r\nSerial Number: 532\r\nIssue Time: 2026 Jun 21 1930 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5 \nThreshold Reached: 2026 Jun 21 1927 UTC\nNoaa Scale: R2 - Moderate\nComment: \r\n\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap."
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5366\r\nIssue Time: 2026 Jun 24 1904 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected \nValid From: 2026 Jun 24 1740 UTC\nValid To: 2026 Jun 24 2359 UTC\nWarning Conditions: Onset\nComment: Correcting the wrong End Date\n\r\n\nCorrecting the wrong End Date\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2667\r\nIssue Time: 2026 Jun 24 1748 UTC\r\n\r\nALERT: Geomagnetic K-index of 4 \nThreshold Reached: 2026 Jun 24 1746 UTC\nSynoptic Period: 1500-1800\nActive Warning: YES\nComment: \r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5366\r\nIssue Time: 2026 Jun 24 1746 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected \nValid From: 2026 Jun 24 1740 UTC\nValid To: 2026 Jun 25 2359 UTC\nWarning Conditions: Onset\nComment: \r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -150,7 +150,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1782316508,
+    "lastchange": 1782328208,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
