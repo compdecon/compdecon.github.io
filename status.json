@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/06/30 16:10:07 EDT UTC-04:00",
-    "ext_localtime": "Tue Jun 30 04:10:07 PM EDT 2026",
+    "ext_time": "2026/06/30 18:10:07 EDT UTC-04:00",
+    "ext_localtime": "Tue Jun 30 06:10:07 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,6 +117,14 @@
     "detailedForecast": "Partly sunny, with a high near 89. South wind 15 to 20 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTTP4\r\nSerial Number: 712\r\nIssue Time: 2026 Jun 30 2109 UTC\r\n\r\nALERT: Type IV Radio Emission \nBegin Time: 2026 Jun 30 2055 UTC\nComment: PAL\n\r\n\nPAL",
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1508\r\nIssue Time: 2026 Jun 30 2107 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Jun 30 2044 UTC\nEstimate Velocity: 1496 km/s\nComment: PAL\n\r\n\nPAL",
+    "Space Weather Message Code: SUM10R\r\nSerial Number: 919\r\nIssue Time: 2026 Jun 30 2106 UTC\r\n\r\nSUMMARY: 10cm Radio Burst \nBegin Time: 2026 Jun 30 2040 UTC\nMaximum Time: 2026 Jun 30 2045 UTC\nEnd Time: 2026 Jul 01 2049 UTC\nPeak Flux: 409 sfu\nDuration: 9 minutes\nLatest Penticton Noon Flux: 203 sfu\nComment: \r\n\n",
+    "Space Weather Message Code: SUMX01\r\nSerial Number: 219\r\nIssue Time: 2026 Jun 30 2104 UTC\r\n\r\nSUMMARY: X-ray Event exceeded X1 \nBegin Time: 2026 Jun 30 2034 UTC\nMaximum Time: 2026 Jun 30 2050 UTC\nEnd Time: 2026 Jun 30 2100 UTC\nXray Class: X1.1\nOptical Class: Sf\nLocation: N18W18\nNoaa Scale: R3 - Strong\nComment: \r\n\nNOAA Scale: R3 - Strong\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact consists of large portions of the sunlit side of Earth, strongest at the sub-solar point.\r\nRadio - Wide area blackout of HF (high frequency) radio communication for about an hour.",
+    "Space Weather Message Code: ALTXMF\r\nSerial Number: 534\r\nIssue Time: 2026 Jun 30 2048 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5 \nThreshold Reached: 2026 Jun 30 2045 UTC\nNoaa Scale: R2 - Moderate\nComment: \r\n\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
+    "Space Weather Message Code: ALTK05\r\nSerial Number: 2029\r\nIssue Time: 2026 Jun 30 2028 UTC\r\n\r\nALERT: Geomagnetic K-index of 5 \nThreshold Reached: 2026 Jun 30 2027 UTC\nSynoptic Period: 1800-2100\nActive Warning: YES\nNoaa Scale: G1 - Minor\nComment: \r\n\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+    "Space Weather Message Code: WARK05\r\nSerial Number: 2244\r\nIssue Time: 2026 Jun 30 1943 UTC\r\n\r\nWARNING: Geomagnetic K-index of 5 expected \nValid From: 2026 Jun 30 1943 UTC\nValid To: 2026 Jul 01 0600 UTC\nWarning Conditions: Onset\nNoaa Scale: G1 - Minor\nComment:\r\n\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5372\r\nIssue Time: 2026 Jun 30 1946 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\nExtension to Serial Number: 5371\nValid From: 2026 Jun 30 1209 UTC\nNow Valid Until: 2026 Jul 01 0900 UTC\nWarning Condition: Persistence\n\r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2669\r\nIssue Time: 2026 Jun 30 1711 UTC\r\n\r\nALERT: Geomagnetic K-index of 4 \nThreshold Reached: 2026 Jun 30 1711 UTC\nSynoptic Period: 1500-1800\nActive Warning: YES\nComment: \r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: WARPX1\r\nSerial Number: 627\r\nIssue Time: 2026 Jun 30 1636 UTC\r\n\r\nCANCEL WARNING: Proton 10MeV Integral Flux above 10pfu expected \nCancel Serial Number: 626\nOriginal Issue Time: 2026 Jun 30 1600 UTC\nConditions no longer justify warning.\r\n\nConditions no longer justify warning.NOAA Scale: S1 - Minor",
     "Space Weather Message Code: WARPX1\r\nSerial Number: 626\r\nIssue Time: 2026 Jun 30 1600 UTC\r\n\r\nWARNING: Proton 10MeV Integral Flux above 10pfu expected \nValid From: 2026 Jun 30 1600 UTC\nValid To: 2026 Jun 30 2359 UTC\nWarning Conditions: Onset\nNoaa Scale: S1 - Minor\nComment: \r\n\nNOAA Scale: S1 - Minor",
@@ -155,7 +163,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1782850207,
+    "lastchange": 1782857407,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Wednesday from 12 - 5PM, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
