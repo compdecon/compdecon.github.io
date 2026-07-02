@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/07/02 07:10:13 EDT UTC-04:00",
-    "ext_localtime": "Thu Jul  2 07:10:13 AM EDT 2026",
+    "ext_time": "2026/07/02 10:10:13 EDT UTC-04:00",
+    "ext_localtime": "Thu Jul  2 10:10:13 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -98,9 +98,9 @@
     ]
   },
   "ext_weather": {
-    "number": 2,
-    "name": "Thursday",
-    "startTime": "2026-07-02T06:00:00-04:00",
+    "number": 1,
+    "name": "Today",
+    "startTime": "2026-07-02T07:00:00-04:00",
     "endTime": "2026-07-02T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 99,
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1782990613,
+    "lastchange": 1783001413,
     "message": ".",
     "preMessage": ".",
     "postMessage": ".",
