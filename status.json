@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/07/03 01:10:13 EDT UTC-04:00",
-    "ext_localtime": "Fri Jul  3 01:10:13 AM EDT 2026",
+    "ext_time": "2026/07/03 07:10:13 EDT UTC-04:00",
+    "ext_localtime": "Fri Jul  3 07:10:13 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 96
+        "value": 101
       }
     ]
   },
   "ext_weather": {
-    "number": 2,
-    "name": "Friday",
+    "number": 1,
+    "name": "Today",
     "startTime": "2026-07-03T06:00:00-04:00",
     "endTime": "2026-07-03T18:00:00-04:00",
     "isDaytime": true,
-    "temperature": 96,
+    "temperature": 101,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 20
+      "value": 16
     },
-    "windSpeed": "5 to 15 mph",
+    "windSpeed": "5 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/few/tsra_hi,20?size=medium",
-    "shortForecast": "Sunny then Slight Chance Showers And Thunderstorms",
-    "detailedForecast": "A slight chance of showers and thunderstorms after 5pm. Sunny, with a high near 96. Heat index values as high as 103. West wind 5 to 15 mph. Chance of precipitation is 20%."
+    "icon": "https://api.weather.gov/icons/land/day/hot/tsra_hi,20?size=medium",
+    "shortForecast": "Sunny then Isolated Showers And Thunderstorms",
+    "detailedForecast": "Isolated showers and thunderstorms after 5pm. Sunny, with a high near 101. Heat index values as high as 108. West wind around 5 mph. Chance of precipitation is 20%."
   },
   "space_weather": [
     "Space Weather Message Code: WATA30\r\nSerial Number: 278\r\nIssue Time: 2026 Jul 02 0935 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G2 Predicted \nHighest Storm Level Predicted by Day:\nJul 02:  None (Below G1)   Jul 03:  G2 (Moderate)   Jul 04:  G2 (Moderate)   \nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\nComment: \r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state."
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1783055413,
+    "lastchange": 1783077013,
     "message": ".",
     "preMessage": ".",
     "postMessage": ".",
