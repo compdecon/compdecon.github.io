@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/07/03 17:10:08 EDT UTC-04:00",
-    "ext_localtime": "Fri Jul  3 05:10:08 PM EDT 2026",
+    "ext_time": "2026/07/03 18:10:07 EDT UTC-04:00",
+    "ext_localtime": "Fri Jul  3 06:10:07 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,6 +117,7 @@
     "detailedForecast": "A slight chance of showers and thunderstorms after 5pm. Some of the storms could be severe. Mostly sunny, with a high near 104. Heat index values as high as 109. Southwest wind around 10 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2670\r\nIssue Time: 2026 Jul 03 2054 UTC\r\n\r\nALERT: Geomagnetic K-index of 4 \nThreshold Reached: 2026 Jul 03 2049 UTC\nSynoptic Period: 1800-2100\nActive Warning: YES\nComment: \r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: SUM10R\r\nSerial Number: 921\r\nIssue Time: 2026 Jul 03 2020 UTC\r\n\r\nSUMMARY: 10cm Radio Burst \nBegin Time: 2026 Jul 03 1856 UTC\nMaximum Time: 2026 Jul 03 1857 UTC\nEnd Time: 2026 Jul 04 1859 UTC\nPeak Flux: 780 sfu\nDuration: 3 minutes\nLatest Penticton Noon Flux: 203 sfu\nComment: \r\n\n",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1510\r\nIssue Time: 2026 Jul 03 1939 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Jul 03 1900 UTC\nEstimate Velocity: 579 km/s\nComment: \r\n\n",
     "Space Weather Message Code: SUMXM5\r\nSerial Number: 323\r\nIssue Time: 2026 Jul 03 1911 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5 \nBegin Time: 2026 Jul 03 1857 UTC\nMaximum Time: 2026 Jul 03 1859 UTC\nEnd Time: 2026 Jul 04 1903 UTC\nXray Class: M6.3\nOptical Class: \nLocation: S06W46\nNoaa Scale: R2 - Moderate\nComment: \r\n\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
@@ -158,7 +159,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1783113008,
+    "lastchange": 1783116607,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
