@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/07/03 16:10:07 EDT UTC-04:00",
-    "ext_localtime": "Fri Jul  3 04:10:07 PM EDT 2026",
+    "ext_time": "2026/07/03 17:10:08 EDT UTC-04:00",
+    "ext_localtime": "Fri Jul  3 05:10:08 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -93,12 +93,42 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": -1
+        "value": 104
       }
     ]
   },
-  "ext_weather": {},
-  "space_weather": [],
+  "ext_weather": {
+    "number": 1,
+    "name": "This Afternoon",
+    "startTime": "2026-07-03T16:00:00-04:00",
+    "endTime": "2026-07-03T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 104,
+    "temperatureUnit": "F",
+    "temperatureTrend": null,
+    "probabilityOfPrecipitation": {
+      "unitCode": "wmoUnit:percent",
+      "value": 23
+    },
+    "windSpeed": "10 mph",
+    "windDirection": "SW",
+    "icon": "https://api.weather.gov/icons/land/day/tsra_hi,20?size=medium",
+    "shortForecast": "Slight Chance Showers And Thunderstorms",
+    "detailedForecast": "A slight chance of showers and thunderstorms after 5pm. Some of the storms could be severe. Mostly sunny, with a high near 104. Heat index values as high as 109. Southwest wind around 10 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+  },
+  "space_weather": [
+    "Space Weather Message Code: SUM10R\r\nSerial Number: 921\r\nIssue Time: 2026 Jul 03 2020 UTC\r\n\r\nSUMMARY: 10cm Radio Burst \nBegin Time: 2026 Jul 03 1856 UTC\nMaximum Time: 2026 Jul 03 1857 UTC\nEnd Time: 2026 Jul 04 1859 UTC\nPeak Flux: 780 sfu\nDuration: 3 minutes\nLatest Penticton Noon Flux: 203 sfu\nComment: \r\n\n",
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1510\r\nIssue Time: 2026 Jul 03 1939 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Jul 03 1900 UTC\nEstimate Velocity: 579 km/s\nComment: \r\n\n",
+    "Space Weather Message Code: SUMXM5\r\nSerial Number: 323\r\nIssue Time: 2026 Jul 03 1911 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5 \nBegin Time: 2026 Jul 03 1857 UTC\nMaximum Time: 2026 Jul 03 1859 UTC\nEnd Time: 2026 Jul 04 1903 UTC\nXray Class: M6.3\nOptical Class: \nLocation: S06W46\nNoaa Scale: R2 - Moderate\nComment: \r\n\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
+    "Space Weather Message Code: ALTXMF\r\nSerial Number: 537\r\nIssue Time: 2026 Jul 03 1900 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5 \nThreshold Reached: 2026 Jul 03 1856 UTC\nNoaa Scale: R2 - Moderate\nComment: \r\n\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
+    "Space Weather Message Code: SUMXM5\r\nSerial Number: 322\r\nIssue Time: 2026 Jul 03 1859 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5 \nBegin Time: 2026 Jul 03 1749 UTC\nMaximum Time: 2026 Jul 03 1811 UTC\nEnd Time: 2026 Jul 04 1832 UTC\nXray Class: M6.7\nOptical Class: \nLocation: N17W66\nNoaa Scale: R2 - Moderate\nComment: \r\n\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1509\r\nIssue Time: 2026 Jul 03 1847 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Jul 03 1805 UTC\nEstimate Velocity: 1831 km/s\nComment: \r\n\n",
+    "Space Weather Message Code: SUM10R\r\nSerial Number: 920\r\nIssue Time: 2026 Jul 03 1818 UTC\r\n\r\nSUMMARY: 10cm Radio Burst \nBegin Time: 2026 Jul 03 1806 UTC\nMaximum Time: 2026 Jul 03 1808 UTC\nEnd Time: 2026 Jul 04 1809 UTC\nPeak Flux: 220 sfu\nDuration: 3 minutes\nLatest Penticton Noon Flux: 203 sfu\nComment: \r\n\n",
+    "Space Weather Message Code: ALTXMF\r\nSerial Number: 536\r\nIssue Time: 2026 Jul 03 1810 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5 \nThreshold Reached: 2026 Jul 03 1807 UTC\nNoaa Scale: R2 - Moderate\nComment: \r\n\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5374\r\nIssue Time: 2026 Jul 03 1209 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected \nValid From: 2026 Jul 03 1209 UTC\nValid To: 2026 Jul 04 0300 UTC\nWarning Conditions: Onset\nComment: \r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARSUD\r\nSerial Number: 256\r\nIssue Time: 2026 Jul 03 1138 UTC\r\n\r\nWARNING: Geomagnetic Sudden Impulse expected \nValid From: 2026 Jul 03 1157 UTC\nValid To: 2026 Jul 03 1227 UTC\nIp Shock: 2026-07-03 11:20\nComment: \r\n\n",
+    "Space Weather Message Code: WATA30\r\nSerial Number: 278\r\nIssue Time: 2026 Jul 03 1123 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G2 Predicted \nHighest Storm Level Predicted by Day:\nJul 03:  G2 (Moderate)   Jul 04:  G2 (Moderate)   Jul 05:  G1 (Minor)   \nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\nComment: Added G1 (Minor) Watch for 05 Jul.\n\r\n\nAdded G1 (Minor) Watch for 05 Jul.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state."
+  ],
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -128,7 +158,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1783109407,
+    "lastchange": 1783113008,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
