@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/07/05 13:10:08 EDT UTC-04:00",
-    "ext_localtime": "Sun Jul  5 01:10:08 PM EDT 2026",
+    "ext_time": "2026/07/05 15:10:08 EDT UTC-04:00",
+    "ext_localtime": "Sun Jul  5 03:10:08 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,6 +117,11 @@
     "detailedForecast": "A chance of showers and thunderstorms after 4pm. Some of the storms could produce heavy rain. Partly sunny, with a high near 85. East wind around 5 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1512\r\nIssue Time: 2026 Jul 05 1822 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Jul 05 1626 UTC\nEstimate Velocity: 959 km/s\nComment: \r\n\n",
+    "Space Weather Message Code: SUMXM5\r\nSerial Number: 324\r\nIssue Time: 2026 Jul 05 1809 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5 \nBegin Time: 2026 Jul 05 1751 UTC\nMaximum Time: 2026 Jul 05 1757 UTC\nEnd Time: 2026 Jul 05 1802 UTC\nXray Class: M5.5\nOptical Class: \nLocation: N15W87\nNoaa Scale: R2 - Moderate\nComment: \r\n\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2671\r\nIssue Time: 2026 Jul 05 1802 UTC\r\n\r\nALERT: Geomagnetic K-index of 4 \nThreshold Reached: 2026 Jul 05 1759 UTC\nSynoptic Period: 1500-1800\nActive Warning: YES\nComment: \r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: ALTXMF\r\nSerial Number: 539\r\nIssue Time: 2026 Jul 05 1800 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5 \nThreshold Reached: 2026 Jul 05 1758 UTC\nNoaa Scale: R2 - Moderate\nComment: \r\n\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5379\r\nIssue Time: 2026 Jul 05 1659 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected \nValid From: 2026 Jul 05 1658 UTC\nValid To: 2026 Jul 06 0300 UTC\nWarning Conditions: Onset\nComment: \r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 5378\r\nIssue Time: 2026 Jul 05 0256 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\nExtension to Serial Number: 5377\nValid From: 2026 Jul 03 1209 UTC\nNow Valid Until: 2026 Jul 05 1500 UTC\nWarning Condition: Persistence\n\r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: WARK07\r\nSerial Number: 152\r\nIssue Time: 2026 Jul 05 0027 UTC\r\n\r\nCANCEL WARNING: Geomagnetic K-index of 7 or greater expected \nCancel Serial Number: 151\nOriginal Issue Time: 2026 Jul 04 0501 UTC\nWrong date in the original end time. Warning was supposed to expire at 04/1200z. \r\n\nWrong date in the original end time. Warning was supposed to expire at 04/1200z. NOAA Scale: G3 - Greater",
     "Space Weather Message Code: WARK06\r\nSerial Number: 666\r\nIssue Time: 2026 Jul 05 0005 UTC\r\n\r\nCANCEL WARNING: Geomagnetic K-index of 6 expected \nCancel Serial Number: 665\nOriginal Issue Time: 2026 Jul 04 1357 UTC\nWrong date in the original end time. Warning was supposed to expire at 04/2100z.\r\n\nWrong date in the original end time. Warning was supposed to expire at 04/2100z.NOAA Scale: G2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state."
@@ -150,7 +155,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1783271408,
+    "lastchange": 1783278608,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
