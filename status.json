@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/07/05 15:10:08 EDT UTC-04:00",
-    "ext_localtime": "Sun Jul  5 03:10:08 PM EDT 2026",
+    "ext_time": "2026/07/05 16:10:07 EDT UTC-04:00",
+    "ext_localtime": "Sun Jul  5 04:10:07 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2026-07-05T12:00:00-04:00",
+    "startTime": "2026-07-05T15:00:00-04:00",
     "endTime": "2026-07-05T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 85,
@@ -108,13 +108,13 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 32
+      "value": 35
     },
     "windSpeed": "5 mph",
-    "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/day/tsra_sct,30?size=medium",
+    "windDirection": "SE",
+    "icon": "https://api.weather.gov/icons/land/day/tsra_sct,40?size=medium",
     "shortForecast": "Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms after 4pm. Some of the storms could produce heavy rain. Partly sunny, with a high near 85. East wind around 5 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "A chance of showers and thunderstorms. Some of the storms could produce heavy rain. Partly sunny, with a high near 85. Southeast wind around 5 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1512\r\nIssue Time: 2026 Jul 05 1822 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Jul 05 1626 UTC\nEstimate Velocity: 959 km/s\nComment: \r\n\n",
@@ -155,7 +155,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1783278608,
+    "lastchange": 1783282207,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
