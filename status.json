@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/07/04 19:10:08 EDT UTC-04:00",
-    "ext_localtime": "Sat Jul  4 07:10:08 PM EDT 2026",
+    "ext_time": "2026/07/04 21:10:07 EDT UTC-04:00",
+    "ext_localtime": "Sat Jul  4 09:10:07 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,6 +117,7 @@
     "detailedForecast": "A chance of showers and thunderstorms before 8pm, then showers and thunderstorms between 8pm and 4am. Some of the storms could be severe. Mostly cloudy, with a low around 73. Heat index values as high as 102. West wind 0 to 5 mph. Chance of precipitation is 80%. New rainfall amounts between a quarter and half of an inch possible."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTK05\r\nSerial Number: 2038\r\nIssue Time: 2026 Jul 04 2300 UTC\r\n\r\nALERT: Geomagnetic K-index of 5 \nThreshold Reached: 2026 Jul 04 2301 UTC\nSynoptic Period: 2100-2400\nActive Warning: YES\nNoaa Scale: G1 - Minor\nComment:\r\n\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
     "Space Weather Message Code: SUMX01\r\nSerial Number: 220\r\nIssue Time: 2026 Jul 04 2116 UTC\r\n\r\nSUMMARY: X-ray Event exceeded X1 \nBegin Time: 2026 Jul 04 2029 UTC\nMaximum Time: 2026 Jul 04 2041 UTC\nEnd Time: 2026 Jul 04 2047 UTC\nXray Class: X1.3\nOptical Class: \nLocation: N15W75\nNoaa Scale: R3 - Strong\nComment: \r\n\nNOAA Scale: R3 - Strong\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact consists of large portions of the sunlit side of Earth, strongest at the sub-solar point.\r\nRadio - Wide area blackout of HF (high frequency) radio communication for about an hour.",
     "Space Weather Message Code: SUM10R\r\nSerial Number: 922\r\nIssue Time: 2026 Jul 04 2115 UTC\r\n\r\nSUMMARY: 10cm Radio Burst \nBegin Time: 2026 Jul 04 2040 UTC\nMaximum Time: 2026 Jul 04 2041 UTC\nEnd Time: 2026 Jul 04 2047 UTC\nPeak Flux: 890 sfu\nDuration: 7 minutes\nLatest Penticton Noon Flux: 161 sfu\nComment: \r\n\n",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1511\r\nIssue Time: 2026 Jul 04 2112 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Jul 04 2043 UTC\nEstimate Velocity: 2714 km/s\nComment: \r\n\n",
@@ -175,7 +176,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1783206608,
+    "lastchange": 1783213807,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
