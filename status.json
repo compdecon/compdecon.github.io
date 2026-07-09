@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/07/09 13:10:07 EDT UTC-04:00",
-    "ext_localtime": "Thu Jul  9 01:10:07 PM EDT 2026",
+    "ext_time": "2026/07/09 16:10:07 EDT UTC-04:00",
+    "ext_localtime": "Thu Jul  9 04:10:07 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -99,8 +99,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2026-07-09T11:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2026-07-09T15:00:00-04:00",
     "endTime": "2026-07-09T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 85,
@@ -108,13 +108,13 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 53
+      "value": 62
     },
-    "windSpeed": "5 to 10 mph",
+    "windSpeed": "10 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/day/bkn/tsra_sct,50?size=medium",
-    "shortForecast": "Partly Sunny then Chance Showers And Thunderstorms",
-    "detailedForecast": "A chance of showers and thunderstorms after noon. Partly sunny, with a high near 85. South wind 5 to 10 mph. Chance of precipitation is 50%. New rainfall amounts between a quarter and half of an inch possible."
+    "icon": "https://api.weather.gov/icons/land/day/tsra,60?size=medium",
+    "shortForecast": "Showers And Thunderstorms Likely",
+    "detailedForecast": "Showers and thunderstorms likely. Mostly cloudy. High near 85, with temperatures falling to around 79 in the afternoon. South wind around 10 mph. Chance of precipitation is 60%. New rainfall amounts between a half and three quarters of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2672\r\nIssue Time: 2026 Jul 09 1120 UTC\r\n\r\nALERT: Geomagnetic K-index of 4 \nThreshold Reached: 2026 Jul 09 1120 UTC\nSynoptic Period: 0900-1200\nActive Warning: YES\nComment: \r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1783617007,
+    "lastchange": 1783627807,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
