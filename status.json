@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/07/10 13:10:07 EDT UTC-04:00",
-    "ext_localtime": "Fri Jul 10 01:10:07 PM EDT 2026",
+    "ext_time": "2026/07/10 16:10:07 EDT UTC-04:00",
+    "ext_localtime": "Fri Jul 10 04:10:07 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 86
+        "value": 88
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2026-07-10T12:00:00-04:00",
+    "startTime": "2026-07-10T15:00:00-04:00",
     "endTime": "2026-07-10T18:00:00-04:00",
     "isDaytime": true,
-    "temperature": 86,
+    "temperature": 88,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 38
+      "value": 40
     },
     "windSpeed": "5 mph",
     "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/tsra_sct,40?size=medium",
-    "shortForecast": "Slight Chance Showers And Thunderstorms",
-    "detailedForecast": "A slight chance of showers and thunderstorms between 3pm and 4pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 86. Heat index values as high as 104. West wind around 5 mph. Chance of precipitation is 40%."
+    "icon": "https://api.weather.gov/icons/land/day/tsra,40?size=medium",
+    "shortForecast": "Chance Showers And Thunderstorms",
+    "detailedForecast": "A chance of showers and thunderstorms. Mostly cloudy, with a high near 88. West wind around 5 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 5382\r\nIssue Time: 2026 Jul 10 1151 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\nExtension to Serial Number: 5381\nValid From: 2026 Jul 09 1119 UTC\nNow Valid Until: 2026 Jul 11 0300 UTC\nWarning Condition: Persistence\n\r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1783703407,
+    "lastchange": 1783714207,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
