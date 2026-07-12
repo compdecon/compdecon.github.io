@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/07/11 23:55:08 EDT UTC-04:00",
-    "ext_localtime": "Sat Jul 11 11:55:08 PM EDT 2026",
+    "ext_time": "2026/07/12 01:10:07 EDT UTC-04:00",
+    "ext_localtime": "Sun Jul 12 01:10:07 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -99,8 +99,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2026-07-11T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2026-07-12T00:00:00-04:00",
     "endTime": "2026-07-12T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 69,
@@ -108,7 +108,7 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 5
+      "value": 3
     },
     "windSpeed": "0 to 5 mph",
     "windDirection": "NE",
@@ -117,7 +117,10 @@
     "detailedForecast": "Partly cloudy, with a low around 69. Northeast wind 0 to 5 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3714\r\nIssue Time: 2026 Jul 11 0501 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\nContinuation of Serial Number: 3713\nBegin Time: 2026 Jul 10 1126 UTC\nYesterday Maximum 2MeV Flux: 2029 pfu\nYesterday's max: 2,030 pfu\r\n\nYesterday's max: 2,030 pfu"
+    "Space Weather Message Code: ALTK04\r\nSerial Number: 2673\r\nIssue Time: 2026 Jul 12 0346 UTC\r\n\r\nALERT: Geomagnetic K-index of 4 \nThreshold Reached: 2026 Jul 12 0259 UTC\nSynoptic Period: 0000-0300\nActive Warning: YES\nComment: \r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: ALTTP4\r\nSerial Number: 714\r\nIssue Time: 2026 Jul 12 0212 UTC\r\n\r\nALERT: Type IV Radio Emission \nBegin Time: 2026 Jul 12 0053 UTC\nComment: \r\n\n",
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1515\r\nIssue Time: 2026 Jul 12 0211 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Jul 12 0135 UTC\nEstimate Velocity: 678 km/s\nComment: \r\n\n",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5383\r\nIssue Time: 2026 Jul 12 0134 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected \nValid From: 2026 Jul 12 0135 UTC\nValid To: 2026 Jul 12 2359 UTC\nWarning Conditions: Onset\nComment: \r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -148,7 +151,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1783828508,
+    "lastchange": 1783833007,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM, tomorrow, Monday from 7 - 10PM, and Wednesday from 12- 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
