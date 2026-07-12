@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/07/12 01:10:07 EDT UTC-04:00",
-    "ext_localtime": "Sun Jul 12 01:10:07 AM EDT 2026",
+    "ext_time": "2026/07/12 03:10:07 EDT UTC-04:00",
+    "ext_localtime": "Sun Jul 12 03:10:07 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,6 +117,7 @@
     "detailedForecast": "Partly cloudy, with a low around 69. Northeast wind 0 to 5 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3715\r\nIssue Time: 2026 Jul 12 0532 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\nContinuation of Serial Number: 3714\nBegin Time: 2026 Jul 10 1126 UTC\nYesterday Maximum 2MeV Flux: 4620 pfu\nYesterday's max: 4,620 pfu\r\n\nYesterday's max: 4,620 pfu",
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2673\r\nIssue Time: 2026 Jul 12 0346 UTC\r\n\r\nALERT: Geomagnetic K-index of 4 \nThreshold Reached: 2026 Jul 12 0259 UTC\nSynoptic Period: 0000-0300\nActive Warning: YES\nComment: \r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: ALTTP4\r\nSerial Number: 714\r\nIssue Time: 2026 Jul 12 0212 UTC\r\n\r\nALERT: Type IV Radio Emission \nBegin Time: 2026 Jul 12 0053 UTC\nComment: \r\n\n",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1515\r\nIssue Time: 2026 Jul 12 0211 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Jul 12 0135 UTC\nEstimate Velocity: 678 km/s\nComment: \r\n\n",
@@ -151,7 +152,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1783833007,
+    "lastchange": 1783840207,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM, tomorrow, Monday from 7 - 10PM, and Wednesday from 12- 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
