@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/07/13 18:55:08 EDT UTC-04:00",
-    "ext_localtime": "Mon Jul 13 06:55:08 PM EDT 2026",
+    "ext_time": "2026/07/13 21:10:07 EDT UTC-04:00",
+    "ext_localtime": "Mon Jul 13 09:10:07 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,6 +117,7 @@
     "detailedForecast": "Mostly clear, with a low around 67. Southwest wind 5 to 10 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5384\r\nIssue Time: 2026 Jul 13 2350 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected \nValid From: 2026 Jul 13 2349 UTC\nValid To: 2026 Jul 14 0900 UTC\nWarning Conditions: Onset\nComment: \r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3716\r\nIssue Time: 2026 Jul 13 1027 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1000pfu\nContinuation of Serial Number: 3715\nBegin Time: 2026 Jul 10 1126 UTC\nYesterday Maximum 2MeV Flux: 3729 pfu\nYesterday's max: 3,730 pfu\r\n\nYesterday's max: 3,730 pfu"
   ],
   "contact": {
@@ -148,7 +149,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1783983308,
+    "lastchange": 1783991407,
     "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight, Monday. We will next open on Wednesday from 12 - 5PM and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
