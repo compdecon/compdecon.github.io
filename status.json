@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/07/15 18:10:13 EDT UTC-04:00",
-    "ext_localtime": "Wed Jul 15 06:10:13 PM EDT 2026",
+    "ext_time": "2026/07/15 19:10:12 EDT UTC-04:00",
+    "ext_localtime": "Wed Jul 15 07:10:12 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 102
+        "value": 75
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2026-07-15T15:00:00-04:00",
-    "endTime": "2026-07-15T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 102,
+    "name": "Tonight",
+    "startTime": "2026-07-15T18:00:00-04:00",
+    "endTime": "2026-07-16T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 75,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 18
+      "value": 25
     },
-    "windSpeed": "15 mph",
-    "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/tsra_hi,20?size=medium",
-    "shortForecast": "Slight Chance Showers And Thunderstorms",
-    "detailedForecast": "A slight chance of showers and thunderstorms after 5pm. Mostly sunny, with a high near 102. Heat index values as high as 108. West wind around 15 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "NW",
+    "icon": "https://api.weather.gov/icons/land/night/tsra_hi,30/tsra_hi,20?size=medium",
+    "shortForecast": "Smoke",
+    "detailedForecast": "Areas of smoke and a slight chance of showers and thunderstorms between 7pm and 9pm, then areas of smoke and a chance of showers and thunderstorms between 9pm and 10pm, then smoke and a slight chance of showers and thunderstorms. Mostly cloudy, with a low around 75. Heat index values as high as 105. Northwest wind 5 to 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 5387\r\nIssue Time: 2026 Jul 15 0853 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\nExtension to Serial Number: 5386\nValid From: 2026 Jul 15 0143 UTC\nNow Valid Until: 2026 Jul 15 1500 UTC\nWarning Condition: Persistence\n\r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -151,7 +151,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1784153413,
+    "lastchange": 1784157012,
     "message": ".",
     "preMessage": ".",
     "postMessage": ".",
