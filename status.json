@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/07/15 17:59:08 EDT UTC-04:00",
-    "ext_localtime": "Wed Jul 15 05:59:08 PM EDT 2026",
+    "ext_time": "2026/07/15 18:10:13 EDT UTC-04:00",
+    "ext_localtime": "Wed Jul 15 06:10:13 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -151,11 +151,11 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1784152748,
-    "message": "Sorry we&#x27;re currently closed but we will be open next Wednesday from 12 - 5PM, Sunday from 12 - 5PM and Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
+    "lastchange": 1784153413,
+    "message": ".",
     "preMessage": ".",
     "postMessage": ".",
-    "blogUpdate": "Blog post: <a href=\"https://compdecon.blogspot.com/\">Summer of CDL</a> Fri Jul  3 08:27:07 AM EDT 2026",
+    "blogUpdate": "",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
       "closed": "https://compdecon.github.io/images/closed.png"
