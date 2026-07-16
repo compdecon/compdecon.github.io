@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/07/16 07:10:13 EDT UTC-04:00",
-    "ext_localtime": "Thu Jul 16 07:10:13 AM EDT 2026",
+    "ext_time": "2026/07/16 10:10:07 EDT UTC-04:00",
+    "ext_localtime": "Thu Jul 16 10:10:07 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -22,11 +22,11 @@
     "door_locked": [
       {
         "location": "Front gate",
-        "value": false
+        "value": true
       },
       {
         "location": "Front door",
-        "value": false
+        "value": true
       }
     ],
     "humidity": [
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2026-07-16T06:00:00-04:00",
+    "startTime": "2026-07-16T09:00:00-04:00",
     "endTime": "2026-07-16T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 94,
@@ -150,12 +150,12 @@
     {}
   ],
   "state": {
-    "open": false,
-    "lastchange": 1784200213,
-    "message": ".",
+    "open": true,
+    "lastchange": 1784211007,
+    "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
-    "blogUpdate": "",
+    "blogUpdate": "Blog post: <a href=\"https://compdecon.blogspot.com/\">Summer of CDL</a> Fri Jul  3 08:27:07 AM EDT 2026",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
       "closed": "https://compdecon.github.io/images/closed.png"
