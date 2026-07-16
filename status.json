@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/07/16 16:10:08 EDT UTC-04:00",
-    "ext_localtime": "Thu Jul 16 04:10:08 PM EDT 2026",
+    "ext_time": "2026/07/16 19:10:07 EDT UTC-04:00",
+    "ext_localtime": "Thu Jul 16 07:10:07 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 94
+        "value": 71
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2026-07-16T15:00:00-04:00",
-    "endTime": "2026-07-16T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 94,
+    "name": "Tonight",
+    "startTime": "2026-07-16T18:00:00-04:00",
+    "endTime": "2026-07-17T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 71,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 25
+      "value": 27
     },
-    "windSpeed": "15 mph",
-    "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/tsra_hi,30?size=medium",
-    "shortForecast": "Areas Of Smoke",
-    "detailedForecast": "Smoke and isolated rain showers before 5pm, then areas of smoke and scattered showers and thunderstorms. Partly sunny, with a high near 94. West wind around 15 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "NW",
+    "icon": "https://api.weather.gov/icons/land/night/tsra_hi,30/tsra_hi?size=medium",
+    "shortForecast": "Smoke",
+    "detailedForecast": "Areas of smoke and a chance of showers and thunderstorms before 7pm, then smoke and a slight chance of showers and thunderstorms. Partly cloudy, with a low around 71. Northwest wind 5 to 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 5387\r\nIssue Time: 2026 Jul 15 0853 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\nExtension to Serial Number: 5386\nValid From: 2026 Jul 15 0143 UTC\nNow Valid Until: 2026 Jul 15 1500 UTC\nWarning Condition: Persistence\n\r\n\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -151,7 +151,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1784232608,
+    "lastchange": 1784243407,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
