@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/07/22 11:55:07 EDT UTC-04:00",
-    "ext_localtime": "Wed Jul 22 11:55:07 AM EDT 2026",
+    "ext_time": "2026/07/22 12:10:08 EDT UTC-04:00",
+    "ext_localtime": "Wed Jul 22 12:10:08 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,6 +117,7 @@
     "detailedForecast": "A slight chance of showers and thunderstorms after 2pm. Partly sunny, with a high near 85. West wind 10 to 15 mph. Chance of precipitation is 20%."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5390\r\nIssue Time: 2026 Jul 22 1456 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected \nValid From: 2026 Jul 22 1454 UTC\nValid To: 2026 Jul 22 2359 UTC\nWarning Conditions: Onset\nComment: \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: SUM10R\r\nSerial Number: 923\r\nIssue Time: 2026 Jul 22 0652 UTC\r\n\r\nSUMMARY: 10cm Radio Burst \nBegin Time: 2026 Jul 22 0632 UTC\nMaximum Time: 2026 Jul 22 0633 UTC\nEnd Time: 2026 Jul 22 0634 UTC\nPeak Flux: 200 sfu\nDuration: 2 minutes\nLatest Penticton Noon Flux: 149 sfu\nComment: "
   ],
   "contact": {
@@ -148,7 +149,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1784735707,
+    "lastchange": 1784736608,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
