@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/07/22 01:10:08 EDT UTC-04:00",
-    "ext_localtime": "Wed Jul 22 01:10:08 AM EDT 2026",
+    "ext_time": "2026/07/22 03:10:08 EDT UTC-04:00",
+    "ext_localtime": "Wed Jul 22 03:10:08 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,9 +117,7 @@
     "detailedForecast": "A chance of showers and thunderstorms before 5am, then a slight chance of showers and thunderstorms. Mostly cloudy, with a low around 72. Southwest wind around 10 mph. Chance of precipitation is 50%. New rainfall amounts between a half and three quarters of an inch possible."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5389\r\nIssue Time: 2026 Jul 21 1709 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\nExtension to Serial Number: 5388\nValid From: 2026 Jul 21 0910 UTC\nNow Valid Until: 2026 Jul 22 0600 UTC\nWarning Condition: Persistence\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: ALTK04\r\nSerial Number: 2676\r\nIssue Time: 2026 Jul 21 1201 UTC\r\n\r\nALERT: Geomagnetic K-index of 4 \nThreshold Reached: 2026 Jul 21 1159 UTC\nSynoptic Period: 0900-1200\nActive Warning: YES\nComment: \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5388\r\nIssue Time: 2026 Jul 21 0911 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected \nValid From: 2026 Jul 21 0910 UTC\nValid To: 2026 Jul 21 1800 UTC\nWarning Conditions: Onset\nComment: \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: SUM10R\r\nSerial Number: 923\r\nIssue Time: 2026 Jul 22 0652 UTC\r\n\r\nSUMMARY: 10cm Radio Burst \nBegin Time: 2026 Jul 22 0632 UTC\nMaximum Time: 2026 Jul 22 0633 UTC\nEnd Time: 2026 Jul 22 0634 UTC\nPeak Flux: 200 sfu\nDuration: 2 minutes\nLatest Penticton Noon Flux: 149 sfu\nComment: "
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -150,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1784697008,
+    "lastchange": 1784704208,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
