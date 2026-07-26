@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/07/26 11:55:08 EDT UTC-04:00",
-    "ext_localtime": "Sun Jul 26 11:55:08 AM EDT 2026",
+    "ext_time": "2026/07/26 12:10:07 EDT UTC-04:00",
+    "ext_localtime": "Sun Jul 26 12:10:07 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,7 +117,8 @@
     "detailedForecast": "Sunny, with a high near 82. East wind around 5 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: WARK04\r\nSerial Number: 5392\r\nIssue Time: 2026 Jul 24 0856 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\nExtension to Serial Number: 5391\nValid From: 2026 Jul 23 1432 UTC\nNow Valid Until: 2026 Jul 24 1500 UTC\nWarning Condition: Persistence\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1516\r\nIssue Time: 2026 Jul 26 1546 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Jul 26 1529 UTC\nEstimate Velocity: 1057 km/s\nComment: ",
+    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3721\r\nIssue Time: 2026 Jul 26 1535 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1,000pfu \nThreshold Reached: 2026 Jul 26 1534 UTC\nStation: GOES-19\nComment: Yesterday's max: 1077 pfu\n"
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -148,7 +149,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1785081308,
+    "lastchange": 1785082207,
     "message": " We are <b><i>Open</i></b> and will be here from 12 to 5PM, we will also be open tomorrow night, Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
