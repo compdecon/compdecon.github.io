@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/07/28 23:55:07 EDT UTC-04:00",
-    "ext_localtime": "Tue Jul 28 11:55:07 PM EDT 2026",
+    "ext_time": "2026/07/29 01:10:08 EDT UTC-04:00",
+    "ext_localtime": "Wed Jul 29 01:10:08 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -99,8 +99,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2026-07-28T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2026-07-29T00:00:00-04:00",
     "endTime": "2026-07-29T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 68,
@@ -108,13 +108,13 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 95
+      "value": 92
     },
     "windSpeed": "5 to 15 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/night/tsra,100/tsra,90?size=medium",
+    "icon": "https://api.weather.gov/icons/land/night/tsra,90?size=medium",
     "shortForecast": "Showers And Thunderstorms",
-    "detailedForecast": "Showers and thunderstorms. Cloudy, with a low around 68. South wind 5 to 15 mph. Chance of precipitation is 100%. New rainfall amounts between three quarters and one inch possible."
+    "detailedForecast": "Showers and thunderstorms. Cloudy, with a low around 68. South wind 5 to 15 mph. Chance of precipitation is 90%. New rainfall amounts between three quarters and one inch possible."
   },
   "space_weather": [
     "No alerts today"
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1785297307,
+    "lastchange": 1785301808,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
