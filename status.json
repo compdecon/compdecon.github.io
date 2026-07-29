@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/07/29 10:10:08 EDT UTC-04:00",
-    "ext_localtime": "Wed Jul 29 10:10:08 AM EDT 2026",
+    "ext_time": "2026/07/29 11:10:08 EDT UTC-04:00",
+    "ext_localtime": "Wed Jul 29 11:10:08 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2026-07-29T09:00:00-04:00",
+    "startTime": "2026-07-29T10:00:00-04:00",
     "endTime": "2026-07-29T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 83,
@@ -111,10 +111,10 @@
       "value": 26
     },
     "windSpeed": "5 to 10 mph",
-    "windDirection": "NW",
+    "windDirection": "N",
     "icon": "https://api.weather.gov/icons/land/day/bkn/tsra_sct,30?size=medium",
     "shortForecast": "Partly Sunny then Slight Chance Showers And Thunderstorms",
-    "detailedForecast": "A slight chance of showers and thunderstorms between 3pm and 4pm, then a chance of showers and thunderstorms between 4pm and 5pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 83. Northwest wind 5 to 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "A slight chance of showers and thunderstorms between 3pm and 4pm, then a chance of showers and thunderstorms between 4pm and 5pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 83. North wind 5 to 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "No alerts today"
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1785334208,
+    "lastchange": 1785337808,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Wednesday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
