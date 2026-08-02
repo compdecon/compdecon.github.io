@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/08/02 07:10:07 EDT UTC-04:00",
-    "ext_localtime": "Sun Aug  2 07:10:07 AM EDT 2026",
+    "ext_time": "2026/08/02 09:10:08 EDT UTC-04:00",
+    "ext_localtime": "Sun Aug  2 09:10:08 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,8 +117,9 @@
     "detailedForecast": "A slight chance of showers and thunderstorms between 3pm and 4pm, then a chance of showers and thunderstorms between 4pm and 5pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 83. Southeast wind 5 to 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
-    "Space Weather Message Code: SUMPX1\r\nSerial Number: 133\r\nIssue Time: 2026 Aug 01 1702 UTC\r\n\r\nSUMMARY: Proton Event 10MeV Integral Flux exceeded 10pfu \nBegin Time: 2026 Jul 31 1320 UTC\nMaximum Time: 2026 Jul 31 1555 UTC\nEnd Time: 2026 Jul 31 1745 UTC\nMaximum 10MeV Flux: 18 pfu\nNoaa Scale: S1 - Minor\nComment: \r\n\r\nNOAA Scale: S1 - Minor",
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3723\r\nIssue Time: 2026 Aug 01 1644 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1,000pfu \nThreshold Reached: 2026 Aug 01 1644 UTC\nStation: GOES-19\nComment: Yesterday's max: 1157 pfu\n"
+    "Space Weather Message Code: SUMSUD\r\nSerial Number: 301\r\nIssue Time: 2026 Aug 02 1246 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse \nObserved: 2026 Aug 02 1229 UTC\nDeviation: 27 nT\nStation: FRD\nComment: ",
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5393\r\nIssue Time: 2026 Aug 02 1238 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected \nValid From: 2026 Aug 02 1237 UTC\nValid To: 2026 Aug 03 0300 UTC\nWarning Conditions: Onset\nComment: \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
+    "Space Weather Message Code: WARSUD\r\nSerial Number: 257\r\nIssue Time: 2026 Aug 02 1140 UTC\r\n\r\nWARNING: Geomagnetic Sudden Impulse expected \nValid From: 2026 Aug 02 1215 UTC\nValid To: 2026 Aug 02 1315 UTC\nIp Shock: 2026-08-02 11:29\nComment: "
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -149,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1785669007,
+    "lastchange": 1785676208,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM, tomorrow, Monday from 7 - 10PM, and Wednesday from 12- 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
