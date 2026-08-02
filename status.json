@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/08/02 04:10:07 EDT UTC-04:00",
-    "ext_localtime": "Sun Aug  2 04:10:07 AM EDT 2026",
+    "ext_time": "2026/08/02 07:10:07 EDT UTC-04:00",
+    "ext_localtime": "Sun Aug  2 07:10:07 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 72
+        "value": 83
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2026-08-02T03:00:00-04:00",
-    "endTime": "2026-08-02T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 72,
+    "name": "Today",
+    "startTime": "2026-08-02T06:00:00-04:00",
+    "endTime": "2026-08-02T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 83,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 7
+      "value": 31
     },
-    "windSpeed": "10 mph",
-    "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-    "shortForecast": "Mostly Cloudy",
-    "detailedForecast": "Mostly cloudy, with a low around 72. South wind around 10 mph."
+    "windSpeed": "5 to 10 mph",
+    "windDirection": "SE",
+    "icon": "https://api.weather.gov/icons/land/day/bkn/tsra,30?size=medium",
+    "shortForecast": "Mostly Cloudy then Slight Chance Showers And Thunderstorms",
+    "detailedForecast": "A slight chance of showers and thunderstorms between 3pm and 4pm, then a chance of showers and thunderstorms between 4pm and 5pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 83. Southeast wind 5 to 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: SUMPX1\r\nSerial Number: 133\r\nIssue Time: 2026 Aug 01 1702 UTC\r\n\r\nSUMMARY: Proton Event 10MeV Integral Flux exceeded 10pfu \nBegin Time: 2026 Jul 31 1320 UTC\nMaximum Time: 2026 Jul 31 1555 UTC\nEnd Time: 2026 Jul 31 1745 UTC\nMaximum 10MeV Flux: 18 pfu\nNoaa Scale: S1 - Minor\nComment: \r\n\r\nNOAA Scale: S1 - Minor",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1785658207,
+    "lastchange": 1785669007,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM, tomorrow, Monday from 7 - 10PM, and Wednesday from 12- 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
