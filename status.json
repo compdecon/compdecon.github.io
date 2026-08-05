@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/08/05 11:55:07 EDT UTC-04:00",
-    "ext_localtime": "Wed Aug  5 11:55:07 AM EDT 2026",
+    "ext_time": "2026/08/05 12:10:07 EDT UTC-04:00",
+    "ext_localtime": "Wed Aug  5 12:10:07 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -98,7 +98,9 @@
     ]
   },
   "ext_weather": {},
-  "space_weather": [],
+  "space_weather": [
+    "No alerts today"
+  ],
   "contact": {
     "email": "info@compdecon.org",
     "phone": "+1-732-456-5001",
@@ -128,7 +130,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1785945307,
+    "lastchange": 1785946207,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
