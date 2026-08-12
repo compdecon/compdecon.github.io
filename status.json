@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/08/12 11:55:07 EDT UTC-04:00",
-    "ext_localtime": "Wed Aug 12 11:55:07 AM EDT 2026",
+    "ext_time": "2026/08/12 13:10:08 EDT UTC-04:00",
+    "ext_localtime": "Wed Aug 12 01:10:08 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -99,8 +99,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2026-08-12T10:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2026-08-12T12:00:00-04:00",
     "endTime": "2026-08-12T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 87,
@@ -108,13 +108,13 @@
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 6
+      "value": 2
     },
     "windSpeed": "5 mph",
-    "windDirection": "NE",
+    "windDirection": "E",
     "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
     "shortForecast": "Sunny",
-    "detailedForecast": "Sunny, with a high near 87. Northeast wind around 5 mph. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "Sunny, with a high near 87. East wind around 5 mph. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WATA20\r\nSerial Number: 1120\r\nIssue Time: 2026 Aug 11 2055 UTC\r\n\r\nCANCEL WATCH: Geomagnetic Storm Category G1 Predicted \nCancel Serial Number: 1119\nOriginal Issue Time: 2026 Aug 09 1338 UTC\nCancelled Level Predicted:\nAug 10  : None (Bellow G1)  Aug 11  : None (Bellow G1)  Aug 12  : None (Bellow G1)  \nCME arrival 11AUG\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -150,7 +150,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1786550107,
+    "lastchange": 1786554608,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
