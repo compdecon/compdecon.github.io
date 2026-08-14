@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/08/14 04:10:08 EDT UTC-04:00",
-    "ext_localtime": "Fri Aug 14 04:10:08 AM EDT 2026",
+    "ext_time": "2026/08/14 06:10:07 EDT UTC-04:00",
+    "ext_localtime": "Fri Aug 14 06:10:07 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,9 +117,7 @@
     "detailedForecast": "Partly cloudy, with a low around 71. Northwest wind around 0 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: WATA20\r\nSerial Number: 1120\r\nIssue Time: 2026 Aug 11 2055 UTC\r\n\r\nCANCEL WATCH: Geomagnetic Storm Category G1 Predicted \nCancel Serial Number: 1119\nOriginal Issue Time: 2026 Aug 09 1338 UTC\nCancelled Level Predicted:\nAug 10  : None (Bellow G1)  Aug 11  : None (Bellow G1)  Aug 12  : None (Bellow G1)  \nCME arrival 11AUG\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: SUMSUD\r\nSerial Number: 302\r\nIssue Time: 2026 Aug 11 1141 UTC\r\n\r\nSUMMARY: Geomagnetic Sudden Impulse \nObserved: 2026 Aug 11 1133 UTC\nDeviation: 12 nT\nStation: BOU\nComment: ",
-    "Space Weather Message Code: WARSUD\r\nSerial Number: 258\r\nIssue Time: 2026 Aug 11 1047 UTC\r\n\r\nWARNING: Geomagnetic Sudden Impulse expected \nValid From: 2026 Aug 11 1040 UTC\nValid To: 2026 Aug 11 1248 UTC\nIp Shock: 2026-08-11 10:43\nComment: Weak shock detected at L1.\n"
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1520\r\nIssue Time: 2026 Aug 14 0715 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Aug 14 0650 UTC\nEstimate Velocity: 671 km/s\nComment: "
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -150,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1786695008,
+    "lastchange": 1786702207,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
