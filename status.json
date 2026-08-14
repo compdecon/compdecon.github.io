@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/08/14 11:10:08 EDT UTC-04:00",
-    "ext_localtime": "Fri Aug 14 11:10:08 AM EDT 2026",
+    "ext_time": "2026/08/14 13:10:08 EDT UTC-04:00",
+    "ext_localtime": "Fri Aug 14 01:10:08 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -99,8 +99,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2026-08-14T10:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2026-08-14T12:00:00-04:00",
     "endTime": "2026-08-14T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 87,
@@ -111,10 +111,10 @@
       "value": 2
     },
     "windSpeed": "5 mph",
-    "windDirection": "E",
+    "windDirection": "SE",
     "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
     "shortForecast": "Partly Sunny",
-    "detailedForecast": "Partly sunny, with a high near 87. East wind around 5 mph."
+    "detailedForecast": "Partly sunny, with a high near 87. Southeast wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 5401\r\nIssue Time: 2026 Aug 14 1054 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected \nValid From: 2026 Aug 14 1052 UTC\nValid To: 2026 Aug 14 2359 UTC\nWarning Conditions: Onset\nComment: \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1786720208,
+    "lastchange": 1786727408,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
