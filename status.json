@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/08/17 18:55:07 EDT UTC-04:00",
-    "ext_localtime": "Mon Aug 17 06:55:07 PM EDT 2026",
+    "ext_time": "2026/08/17 21:10:07 EDT UTC-04:00",
+    "ext_localtime": "Mon Aug 17 09:10:07 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,6 +117,7 @@
     "detailedForecast": "A slight chance of showers and thunderstorms between 10pm and 1am. Mostly cloudy, with a low around 72. North wind around 0 mph. Chance of precipitation is 20%."
   },
   "space_weather": [
+    "Space Weather Message Code: WATA20\r\nSerial Number: 1121\r\nIssue Time: 2026 Aug 17 2246 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted \nHighest Storm Level Predicted by Day:\nAug 18:  None (Below G1)   Aug 19:  G1 (Minor)   Aug 20:  None (Below G1)   \nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\nComment: \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2680\r\nIssue Time: 2026 Aug 17 2105 UTC\r\n\r\nALERT: Geomagnetic K-index of 4 \nThreshold Reached: 2026 Aug 17 2059 UTC\nSynoptic Period: 1800-2100\nActive Warning: YES\nComment: \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 5402\r\nIssue Time: 2026 Aug 17 2101 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected \nValid From: 2026 Aug 17 2101 UTC\nValid To: 2026 Aug 18 0600 UTC\nWarning Conditions: Onset\nComment: \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1521\r\nIssue Time: 2026 Aug 17 1719 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Aug 17 1637 UTC\nEstimate Velocity: 825 km/s\nComment: "
@@ -150,7 +151,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1787007307,
+    "lastchange": 1787015407,
     "message": "We are <b><i>Open</i></b> and will be here from 7 to 10 PM tonight, Monday. We will next open on Wednesday from 12 - 5PM and Sunday from 12 - 5PM. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
