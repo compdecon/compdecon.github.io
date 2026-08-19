@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/08/19 11:55:08 EDT UTC-04:00",
-    "ext_localtime": "Wed Aug 19 11:55:08 AM EDT 2026",
+    "ext_time": "2026/08/19 13:10:07 EDT UTC-04:00",
+    "ext_localtime": "Wed Aug 19 01:10:07 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -99,8 +99,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2026-08-19T10:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2026-08-19T12:00:00-04:00",
     "endTime": "2026-08-19T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 86,
@@ -112,8 +112,8 @@
     },
     "windSpeed": "5 to 10 mph",
     "windDirection": "SW",
-    "icon": "https://api.weather.gov/icons/land/day/few/rain_showers,20?size=medium",
-    "shortForecast": "Sunny then Slight Chance Rain Showers",
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,20?size=medium",
+    "shortForecast": "Slight Chance Rain Showers",
     "detailedForecast": "A slight chance of rain showers after 2pm. Sunny, with a high near 86. Southwest wind 5 to 10 mph. Chance of precipitation is 20%."
   },
   "space_weather": [
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1787154908,
+    "lastchange": 1787159407,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
