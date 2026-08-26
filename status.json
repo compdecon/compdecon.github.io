@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/08/26 01:10:07 EDT UTC-04:00",
-    "ext_localtime": "Wed Aug 26 01:10:07 AM EDT 2026",
+    "ext_time": "2026/08/26 03:10:07 EDT UTC-04:00",
+    "ext_localtime": "Wed Aug 26 03:10:07 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,12 +117,8 @@
     "detailedForecast": "Mostly clear, with a low around 63. Northwest wind around 0 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: WATA30\r\nSerial Number: 280\r\nIssue Time: 2026 Aug 25 1838 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G2 Predicted \nHighest Storm Level Predicted by Day:\nAug 26:  None (Below G1)   Aug 27:  G1 (Minor)   Aug 28:  G2 (Moderate)   \nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\nComment: HSS on 27 Aug + CMEs on 28 Aug. \n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
-    "Space Weather Message Code: SUMXM5\r\nSerial Number: 326\r\nIssue Time: 2026 Aug 25 1027 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5 \nBegin Time: 2026 Aug 25 0932 UTC\nMaximum Time: 2026 Aug 25 1002 UTC\nEnd Time: 2026 Aug 25 1013 UTC\nXray Class: M6.9\nOptical Class: \nLocation: N04E04\nNoaa Scale: R2 - Moderate\nComment: \r\n\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
-    "Space Weather Message Code: SUM10R\r\nSerial Number: 927\r\nIssue Time: 2026 Aug 25 1020 UTC\r\n\r\nSUMMARY: 10cm Radio Burst \nBegin Time: 2026 Aug 25 0956 UTC\nMaximum Time: 2026 Aug 25 0957 UTC\nEnd Time: 2026 Aug 25 1006 UTC\nPeak Flux: 160 sfu\nDuration: 10 minutes\nLatest Penticton Noon Flux: 143 sfu\nComment: ",
-    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1524\r\nIssue Time: 2026 Aug 25 1015 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Aug 25 0959 UTC\nEstimate Velocity: 603 km/s\nComment: Likely associated with the M6.9 flare at 25/0959 UTC from Region 4513.\n",
-    "Space Weather Message Code: ALTXMF\r\nSerial Number: 541\r\nIssue Time: 2026 Aug 25 1001 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5 \nThreshold Reached: 2026 Aug 25 0959 UTC\nNoaa Scale: R2 - Moderate\nComment: \r\n\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3728\r\nIssue Time: 2026 Aug 25 0718 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1,000pfu\nContinuation of Serial Number: 3727\nBegin Time: 2026 Aug 21 1105 UTC\n\nYesterday Maximum 2MeV Flux: 1030 pfu\nMax time: 2026 Aug 25 0710 UTC"
+    "Space Weather Message Code: ALTTP2\r\nSerial Number: 1525\r\nIssue Time: 2026 Aug 26 0658 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Aug 26 0635 UTC\nEstimate Velocity: 930 km/s\nComment: ",
+    "Space Weather Message Code: SUM10R\r\nSerial Number: 928\r\nIssue Time: 2026 Aug 26 0645 UTC\r\n\r\nSUMMARY: 10cm Radio Burst \nBegin Time: 2026 Aug 26 0631 UTC\nMaximum Time: 2026 Aug 26 0632 UTC\nEnd Time: 2026 Aug 26 0632 UTC\nPeak Flux: 140 sfu\nDuration: 1 minutes\nLatest Penticton Noon Flux: 132 sfu\nComment: "
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -153,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1787721007,
+    "lastchange": 1787728207,
     "message": " Sorry, we&#x27;re currently closed but we will be open today, Wednesday, from 12PM - 5PM,  Sunday from 12 - 5PM, and Monday 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
