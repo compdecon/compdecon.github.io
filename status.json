@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/08/26 13:10:07 EDT UTC-04:00",
-    "ext_localtime": "Wed Aug 26 01:10:07 PM EDT 2026",
+    "ext_time": "2026/08/26 15:10:08 EDT UTC-04:00",
+    "ext_localtime": "Wed Aug 26 03:10:08 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,6 +117,7 @@
     "detailedForecast": "Sunny, with a high near 82. South wind 5 to 10 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: WATA30\r\nSerial Number: 280\r\nIssue Time: 2026 Aug 26 1636 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G2 Predicted \nHighest Storm Level Predicted by Day:\nAug 27:  G1 (Minor)   Aug 28:  G2 (Moderate)   Aug 29:  G2 (Moderate)   \nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\nComment: HSS on 27 + CMEs on 28-29.\n\nCORRECTED\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state.",
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3729\r\nIssue Time: 2026 Aug 26 0813 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1,000pfu\nContinuation of Serial Number: 3728\nBegin Time: 2026 Aug 21 1105 UTC\n\nYesterday Maximum 2MeV Flux: 1039 pfu\nMax time: 2026 Aug 26 0805 UTC",
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1525\r\nIssue Time: 2026 Aug 26 0658 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Aug 26 0635 UTC\nEstimate Velocity: 930 km/s\nComment: ",
     "Space Weather Message Code: SUM10R\r\nSerial Number: 928\r\nIssue Time: 2026 Aug 26 0645 UTC\r\n\r\nSUMMARY: 10cm Radio Burst \nBegin Time: 2026 Aug 26 0631 UTC\nMaximum Time: 2026 Aug 26 0632 UTC\nEnd Time: 2026 Aug 26 0632 UTC\nPeak Flux: 140 sfu\nDuration: 1 minutes\nLatest Penticton Noon Flux: 132 sfu\nComment: "
@@ -150,7 +151,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1787764207,
+    "lastchange": 1787771408,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
