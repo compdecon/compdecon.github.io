@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/08/31 11:10:07 EDT UTC-04:00",
-    "ext_localtime": "Mon Aug 31 11:10:07 AM EDT 2026",
+    "ext_time": "2026/08/31 13:04:10 EDT UTC-04:00",
+    "ext_localtime": "Mon Aug 31 01:04:10 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -99,8 +99,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2026-08-31T10:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2026-08-31T12:00:00-04:00",
     "endTime": "2026-08-31T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 79,
@@ -149,10 +149,10 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1788189007,
+    "lastchange": 1788195850,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM, Wednesday from 12 - 5PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
-    "postMessage": ".",
+    "postMessage": "CDL presents <a href=\"https://github.com/Computer-Deconstruction-Lab/Software_Development_using_AI/blob/main/AI_Class_Flyer%203.pdf\">Software Development using AI</a>, Wednedays - Sept 23, 30, Oct 7, 14, 21 .",
     "blogUpdate": "Blog post: <a href=\"https://compdecon.blogspot.com/\">Summer of CDL</a> Fri Jul  3 08:27:07 AM EDT 2026",
     "icon": {
       "open": "https://compdecon.github.io/images/open.png",
