@@ -67,10 +67,11 @@
     </style>
 
     <!-- Add your JSON-LD Structured Data right before the closing </head> tag -->
-    <script type="application/ld+json"> 
+  <script type="application/ld+json"> 
     {
         "@context": "https://schema.org",
         "@type": "NGO",
+        "naics": 81,
         "alternateName": "CDL",
         "name": "Computer Deconstruction Lab",
         "url": "https://compdecon.github.io/",
@@ -85,7 +86,7 @@
             "addressLocality": "Wall Township",
             "addressRegion": "NJ",
             "postalCode": "07719",
-            "addressCountry": "United States"
+            "addressCountry": "US"
         },
         "contactPoint": [
             {
@@ -110,9 +111,33 @@
             "name": "Neil Cherry",
             "url": "https://ushomeautomation.com/"
         },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday"
+                ],
+                "opens": "19:00",
+                "closes": "22:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Sunday",
+                    "Wednesday"
+                ],
+                "opens": "12:00",
+                "closes": "17:00"
+            }
+        ],
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.186521,
+            "longitude": -74.060130
+        },
         "isAccessibleForFree": true
     }
-    </script>
+  </script>
 
     <title>CDL - Computer Deconstruction Lab Podcast and Makerspace</title>
 
