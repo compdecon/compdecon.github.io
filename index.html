@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <!-- -*- mode: html; fill-column: 96; mode: auto-fill; -*- -->
-    <!-- Wed 12 Oct 2022 08:59:46 AM EDT -->
+    <!-- Tue Sep  1 03:32:53 PM EDT 2026 -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -11,7 +11,7 @@
     <meta name="google-site-verification" content="xHe2H5z3d_apy71kf8JTabrugP6o9UIpJZ36eQJe0VM" />
     <meta name="keywords" content="CDL, Computer Deconstruction Lab, makerspace near me, Podcast, NJ Podcast, Makerspace, Hackerspace, Makerspaces, Hackerspaces, NJ Makerspace, NJ Hackerspace, NJ Makerspaces, NJ Hackerspaces, Makerspaces in NJ, Hackerspaces in NJ, Institute for eXploratory Research, IXR, The Jersey Shore Makerspace"/>
     <meta name="description" content="CDL - Computer Deconstruction Lab Podcast and Makerspace"/>
-    <meta name="Copyright" content="Copyright (c) 2022 Computer Deconstruction Lab, All rights reserved." />
+    <meta name="Copyright" content="Copyright (c) 2026 Computer Deconstruction Lab, All rights reserved." />
 
     <!-- link rel="icon" href="./images/favicon.ico" type="image/x-icon"/ -->
     <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
@@ -21,31 +21,118 @@
 
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon"/>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="css/compdecon.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/compdecon.css" />
+
+    <style>
+      /* Scoped to this page: replaces the old table-based banner with a semantic
+         header for screen readers, while preserving the original layout/sizing. */
+      .myBanner-flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        width: 100%;
+      }
+      .myBanner-flex .xLeft,
+      .myBanner-flex .xRight {
+        flex: 0 0 auto;
+      }
+      .myBanner-flex .xMiddle {
+        flex: 1 1 auto;
+        min-width: 0;
+        text-align: center;
+        overflow-wrap: break-word;
+      }
+      .myBanner-flex .xLeft img,
+      .myBanner-flex .xRight img {
+        height: 2.5em;
+        width: auto;
+        max-width: 6em;
+      }
+      #mainPage h1 {
+        overflow-wrap: break-word;
+      }
+      @media screen and (max-width: 380px) {
+        .myBanner-flex { font-size: 75%; }
+      }
+      @media screen and (min-width: 380px) and (max-width: 640px) {
+        .myBanner-flex { font-size: 100%; }
+      }
+      @media screen and (min-width: 640px) and (max-width: 892px) {
+        .myBanner-flex { font-size: 150%; }
+      }
+      @media screen and (min-width: 892px) {
+        .myBanner-flex { font-size: 200%; }
+      }
+    </style>
+
+    <!-- Add your JSON-LD Structured Data right before the closing </head> tag -->
+    <script type="application/ld+json"> 
+    {
+        "@context": "https://schema.org",
+        "@type": "NGO",
+        "alternateName": "CDL",
+        "name": "Computer Deconstruction Lab",
+        "url": "https://compdecon.github.io/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://compdecon.github.io/images/CDL-Logo-green.png"
+        },
+        "description": "Computer Deconstruction Laboratory - The Jersey Shore Makerspace, Podcast Studio, Hackerspace",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Building 9059B, 2201 Marconi Road",
+            "addressLocality": "Wall Township",
+            "addressRegion": "NJ",
+            "postalCode": "07719",
+            "addressCountry": "United States"
+        },
+        "contactPoint": [
+            {
+                "@type": "ContactPoint",
+                "telephone": "1-732-456-5001",
+                "contactType": "customer service",
+                "email": "neil.cherrry@compdecon.org",
+                "areaServed": "US",
+                "availableLanguage": "English"
+            }
+        ],
+        "sameAs": [
+            "https://groups.io/g/cdl",
+            "https://compdecon.blogspot.com/",
+            "https://github.com/Computer-Deconstruction-Lab",
+            "https://github.com/compdecon",
+            "https://www.facebook.com/profile.php?id=61591975311003"
+        ],
+        "foundingDate": "2011-04-08",
+        "founder": {
+            "@type": "Person",
+            "name": "Neil Cherry",
+            "url": "https://ushomeautomation.com/"
+        },
+        "isAccessibleForFree": true
+    }
+    </script>
 
     <title>CDL - Computer Deconstruction Lab Podcast and Makerspace</title>
 
   </head>
   <body class="myBody">
     <div id="page" class="hfeed site">
-      <div class="table-responsive">
-        <table class="myBannerT table">
-          <tr>
-            <td class="xLeft">
-              <a href="https://compdecon.org/" title="CDL - Computer Deconstruction Lab">
-                <img src="./images/CDL-Logo-green.png" title="Computer Deconstruction Laboratory - The Jersey Shore Makerspace"
-                     alt="Computer Deconstruction Laboratory - The Jersey Shore Makerspace"/>
-              </a>
-            </td>
-            <td class="xMiddle">
-              <span class="title"> Computer Deconstruction Laboratory - The Jersey Shore Makerspace</span>
-            </td>
-            <td class="xRight">
-              <img id="sign" src="./images/Closed-sign.png" title="Closed for the day" alt="Closed for the day"/>
-            </td>
-          </tr>
-        </table>
-      </div>
+      <header class="myBannerT myBanner-flex">
+        <div class="xLeft">
+          <a href="https://compdecon.org/" title="CDL - Computer Deconstruction Lab">
+            <img src="./images/CDL-Logo-green.png" title="Computer Deconstruction Laboratory - The Jersey Shore Makerspace"
+                 alt="Computer Deconstruction Laboratory - The Jersey Shore Makerspace"/>
+          </a>
+        </div>
+        <div class="xMiddle">
+          <span class="title"> Computer Deconstruction Laboratory - The Jersey Shore Makerspace</span>
+        </div>
+        <div class="xRight">
+          <img id="sign" src="./images/Closed-sign.png" title="Closed for the day" alt="Closed for the day"/>
+        </div>
+      </header>
 
       <div id="mainPage">
         <p> <b>Welcome</b> to the Computer Deconstruction Lab (CDL, aka IXR). We are a community Makerspace and Podcast Studio down the Jersey Shore. Below is a picture of our front door behind the fence of InfoAge/Camp Evens.</p>
@@ -69,7 +156,7 @@
           <p>Weather currently not available</p>
         </div>
 
-        <button class="myButton" onclick="toggleDiv()"><span class="myH1a"><img id="spaceButton" src="./images/more.jpg" alt="Resize button" style="float: left;"> &nbsp; Space Weather</span></button>
+        <button class="myButton" onclick="toggleDiv()"><span class="myH1a"><img id="spaceButton" src="../images/more.jpg" alt="Resize button" style="float: left;"> &nbsp; Space Weather</span></button>
         <div id="spaceOuter" style="border: thick double;">
           <div id="space_weatherDiv">
           </div>
@@ -85,33 +172,18 @@
         </div>
 
         <p>    
-          <!-- a href="./images/CDL-front-Day.png" id="front-DayDoorHref" -->
           <a href="./images/CDL-front-Day-b.jpg" id="front-DayDoorHref">
-            <img srcset="images/CDL-front-Day-b-laptop.jpg 1024w,
-                         images/CDL-front-Day-b-tablet.jpg 768w,
-                         images/CDL-front-Day-b-modelL.jpg 430w,
-                         images/CDL-front-Day-b-modelM.jpg 379w,
-                         images/CDL-front-Day-b-modelS.jpg 328w"
-                 sizes="(max-width: 1024px) 768px 430px 379px 328px"
-                 src="images/CDL-front-Day-b-laptop.jpg"
+            <img srcset="./images/CDL-front-Day-b-laptop.jpg 1024w,
+                         ./images/CDL-front-Day-b-tablet.jpg 768w,
+                         ./images/CDL-front-Day-b-modelL.jpg 430w,
+                         ./images/CDL-front-Day-b-modelM.jpg 379w,
+                         ./images/CDL-front-Day-b-modelS.jpg 328w"
+                 sizes="(max-width: 380px) 328px, (max-width: 640px) 379px, (max-width: 892px) 430px, (max-width: 1024px) 768px, 1024px"
+                 src="./images/CDL-front-Day-b-laptop.jpg"
                  alt="Picture of CDL Front Door"
                  title="Picture of CDL Front Door"
                  id="front-DayDoorImg">
           </a>
-<!--
-          <a href="./images/CDL-front.jpg" id="frontDoorHref">
-            <img srcset="images/CDL-front-laptop.jpg 1024w,
-                         images/CDL-front-tablet.jpg 768w,
-                         images/CDL-front-modelL.jpg 430w,
-                         images/CDL-front-modelM.jpg 379w,
-                         images/CDL-front-modelS.jpg 328w"
-                 sizes="(max-width: 1024px) 768px 430px 379px 328px"
-                 src="images/CDL-front-laptop.jpg"
-                 alt="Picture of CDL Front Door"
-                 title="Picture of CDL Front Door"
-                 id="frontDoorImg">
-          </a>
--->
         </p>
 
         <div>
@@ -133,29 +205,16 @@
 
           <p>
             <a href="./images/Busy_Lab_Monday-laptop.jpg">
-              <img srcset="images/Busy_Lab_Monday-laptop.jpg 1024w,
-                           images/Busy_Lab_Monday-tablet.jpg 768w,
-                           images/Busy_Lab_Monday-modelL.jpg 430w,
-                           images/Busy_Lab_Monday-modelM.jpg 379w,
-                           images/Busy_Lab_Monday-modelS.jpg 328w"
-                   sizes="(max-width: 1024px) 768px 430px 379px 328px"
-                   src="images/Busy_Lab_Monday-laptop.jpg"
+              <img srcset="./images/Busy_Lab_Monday-laptop.jpg 1024w,
+                           ./images/Busy_Lab_Monday-tablet.jpg 768w,
+                           ./images/Busy_Lab_Monday-modelL.jpg 430w,
+                           ./images/Busy_Lab_Monday-modelM.jpg 379w,
+                           ./images/Busy_Lab_Monday-modelS.jpg 328w"
+                   sizes="(max-width: 380px) 328px, (max-width: 640px) 379px, (max-width: 892px) 430px, (max-width: 1024px) 768px, 1024px"
+                   src="./images/Busy_Lab_Monday-laptop.jpg"
                    alt="Picture of CDL Lab"
                    title="Picture of CDL Lab" class="center">
             </a>
-<!--
-            <a href="./images/lab-20220214.jpg">
-              <img srcset="images/lab-20220214-laptop.jpg 1024w,
-                           images/lab-20220214-tablet.jpg 768w,
-                           images/lab-20220214-modelL.jpg 430w,
-                           images/lab-20220214-modelM.jpg 379w,
-                           images/lab-20220214-modelS.jpg 328w"
-                   sizes="(max-width: 1024px) 768px 430px 379px 328px"
-                   src="images/lab-20220214-laptop.jpg"
-                   alt="Picture of CDL Lab"
-                   title="Picture of CDL Lab" class="center">
-            </a>
--->
           </p>
 
           <p> Our <abbr title="Computer Deconstruction Lab, The Jersey Shore Makerspace">CDL</abbr>
@@ -167,12 +226,12 @@
 
           <p>
             <a href="./images/studio_04_19_2021.jpg">
-              <img srcset="images/studio-laptop.jpg 1024w,
-                           images/studio-tablet.jpg 768w,
-                           images/studio-modelL.jpg 430w,
-                           images/studio-modelM.jpg 379w,
-                           images/studio-modelS.jpg 328w"
-                   sizes="(max-width: 1024px) 768px 430px 379px 328px"
+              <img srcset="./images/studio-laptop.jpg 1024w,
+                           ./images/studio-tablet.jpg 768w,
+                           ./images/studio-modelL.jpg 430w,
+                           ./images/studio-modelM.jpg 379w,
+                           ./images/studio-modelS.jpg 328w"
+                   sizes="(max-width: 380px) 328px, (max-width: 640px) 379px, (max-width: 892px) 430px, (max-width: 1024px) 768px, 1024px"
                    src="./images/studio-laptop.jpg"
                    alt="Picture of the CDL Podcast Studio"
                    title="Picture of CDL Podcast Studio" class="center">
@@ -183,12 +242,12 @@
 
           <p>
             <a href="./images/Classroom.jpg">
-              <img srcset="images/Classroom-laptop.jpg 1024w,
-                           images/Classroom-tablet.jpg 768w,
-                           images/Classroom-modelL.jpg 430w,
-                           images/Classroom-modelM.jpg 379w,
-                           images/Classroom-modelS.jpg 328w"
-                   sizes="(max-width: 1024px) 768px 430px 379px 328px"
+              <img srcset="./images/Classroom-laptop.jpg 1024w,
+                           ./images/Classroom-tablet.jpg 768w,
+                           ./images/Classroom-modelL.jpg 430w,
+                           ./images/Classroom-modelM.jpg 379w,
+                           ./images/Classroom-modelS.jpg 328w"
+                   sizes="(max-width: 380px) 328px, (max-width: 640px) 379px, (max-width: 892px) 430px, (max-width: 1024px) 768px, 1024px"
                    src="./images/Classroom-laptop.jpg"
                    alt="Picture of the CDL Classroom"
                    title="Picture of CDL classroom" class="center">
@@ -314,6 +373,6 @@
         </div>
       </div>
     </div>
-    <script src="js/compdecon.js" async></script>
+    <script src="./js/compdecon.js" async></script>
   </body>
 </html>
