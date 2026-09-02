@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/09/02 11:55:04 EDT UTC-04:00",
-    "ext_localtime": "Wed Sep  2 11:55:04 AM EDT 2026",
+    "ext_time": "2026/09/02 13:10:04 EDT UTC-04:00",
+    "ext_localtime": "Wed Sep  2 01:10:04 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -99,8 +99,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Today",
-    "startTime": "2026-09-02T09:00:00-04:00",
+    "name": "This Afternoon",
+    "startTime": "2026-09-02T12:00:00-04:00",
     "endTime": "2026-09-02T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 75,
@@ -112,8 +112,8 @@
     },
     "windSpeed": "5 to 10 mph",
     "windDirection": "E",
-    "icon": "https://api.weather.gov/icons/land/day/bkn/rain_showers,20?size=medium",
-    "shortForecast": "Mostly Cloudy then Slight Chance Rain Showers",
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,20?size=medium",
+    "shortForecast": "Slight Chance Rain Showers",
     "detailedForecast": "A slight chance of rain showers between 1pm and 5pm. Mostly cloudy, with a high near 75. East wind 5 to 10 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
@@ -148,7 +148,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1788364504,
+    "lastchange": 1788369004,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": "CDL presents <a href=\"https://github.com/Computer-Deconstruction-Lab/Software_Development_using_AI/blob/main/AI_Class_Flyer%203.pdf\">Software Development using AI</a>, Wednedays - Sept 23, 30, Oct 7, 14, 21 .",
