@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/09/02 23:55:05 EDT UTC-04:00",
-    "ext_localtime": "Wed Sep  2 11:55:05 PM EDT 2026",
+    "ext_time": "2026/09/03 01:10:04 EDT UTC-04:00",
+    "ext_localtime": "Thu Sep  3 01:10:04 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -99,8 +99,8 @@
   },
   "ext_weather": {
     "number": 1,
-    "name": "Tonight",
-    "startTime": "2026-09-02T21:00:00-04:00",
+    "name": "Overnight",
+    "startTime": "2026-09-03T00:00:00-04:00",
     "endTime": "2026-09-03T06:00:00-04:00",
     "isDaytime": false,
     "temperature": 69,
@@ -112,9 +112,9 @@
     },
     "windSpeed": "0 to 5 mph",
     "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/tsra,60?size=medium",
+    "icon": "https://api.weather.gov/icons/land/night/tsra,60?size=medium",
     "shortForecast": "Showers And Thunderstorms Likely",
-    "detailedForecast": "A chance of rain showers between 10pm and 2am, then showers and thunderstorms likely between 2am and 3am, then a chance of showers and thunderstorms between 3am and 5am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 69. South wind 0 to 5 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "detailedForecast": "A chance of rain showers before 2am, then showers and thunderstorms likely between 2am and 3am, then a chance of showers and thunderstorms between 3am and 5am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 69. South wind 0 to 5 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP4\r\nSerial Number: 716\r\nIssue Time: 2026 Sep 02 1955 UTC\r\n\r\nALERT: Type IV Radio Emission \nBegin Time: 2026 Sep 02 1920 UTC\nComment: ",
@@ -150,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1788407705,
+    "lastchange": 1788412204,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": "CDL presents <a href=\"https://github.com/Computer-Deconstruction-Lab/Software_Development_using_AI/blob/main/AI_Class_Flyer%203.pdf\">Software Development using AI</a>, Wednedays - Sept 23, 30, Oct 7, 14, 21 .",
