@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/09/03 15:10:04 EDT UTC-04:00",
-    "ext_localtime": "Thu Sep  3 03:10:04 PM EDT 2026",
+    "ext_time": "2026/09/03 16:10:05 EDT UTC-04:00",
+    "ext_localtime": "Thu Sep  3 04:10:05 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2026-09-03T12:00:00-04:00",
+    "startTime": "2026-09-03T15:00:00-04:00",
     "endTime": "2026-09-03T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 85,
@@ -111,10 +111,10 @@
       "value": 22
     },
     "windSpeed": "5 mph",
-    "windDirection": "SW",
+    "windDirection": "W",
     "icon": "https://api.weather.gov/icons/land/day/tsra_sct,20?size=medium",
     "shortForecast": "Slight Chance Showers And Thunderstorms",
-    "detailedForecast": "A slight chance of showers and thunderstorms after 5pm. Partly sunny, with a high near 85. Southwest wind around 5 mph. Chance of precipitation is 20%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "detailedForecast": "A slight chance of showers and thunderstorms after 5pm. Partly sunny, with a high near 85. West wind around 5 mph. Chance of precipitation is 20%."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1527\r\nIssue Time: 2026 Sep 03 1644 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Sep 03 1629 UTC\nEstimate Velocity: 1,359 km/s\nComment: ",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1788462604,
+    "lastchange": 1788466205,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": "CDL presents <a href=\"https://github.com/Computer-Deconstruction-Lab/Software_Development_using_AI/blob/main/AI_Class_Flyer%203.pdf\">Software Development using AI</a>, Wednedays - Sept 23, 30, Oct 7, 14, 21 .",
