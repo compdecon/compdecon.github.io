@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/09/03 16:10:05 EDT UTC-04:00",
-    "ext_localtime": "Thu Sep  3 04:10:05 PM EDT 2026",
+    "ext_time": "2026/09/03 19:10:05 EDT UTC-04:00",
+    "ext_localtime": "Thu Sep  3 07:10:05 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 85
+        "value": 71
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "This Afternoon",
-    "startTime": "2026-09-03T15:00:00-04:00",
-    "endTime": "2026-09-03T18:00:00-04:00",
-    "isDaytime": true,
-    "temperature": 85,
+    "name": "Tonight",
+    "startTime": "2026-09-03T18:00:00-04:00",
+    "endTime": "2026-09-04T06:00:00-04:00",
+    "isDaytime": false,
+    "temperature": 71,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 22
+      "value": 40
     },
-    "windSpeed": "5 mph",
-    "windDirection": "W",
-    "icon": "https://api.weather.gov/icons/land/day/tsra_sct,20?size=medium",
-    "shortForecast": "Slight Chance Showers And Thunderstorms",
-    "detailedForecast": "A slight chance of showers and thunderstorms after 5pm. Partly sunny, with a high near 85. West wind around 5 mph. Chance of precipitation is 20%."
+    "windSpeed": "0 mph",
+    "windDirection": "",
+    "icon": "https://api.weather.gov/icons/land/night/tsra_sct,40?size=medium",
+    "shortForecast": "Chance Showers And Thunderstorms",
+    "detailedForecast": "A chance of showers and thunderstorms before 2am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 71. West wind around 0 mph. Chance of precipitation is 40%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: ALTTP2\r\nSerial Number: 1527\r\nIssue Time: 2026 Sep 03 1644 UTC\r\n\r\nALERT: Type II Radio Emission \nBegin Time: 2026 Sep 03 1629 UTC\nEstimate Velocity: 1,359 km/s\nComment: ",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1788466205,
+    "lastchange": 1788477005,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": "CDL presents <a href=\"https://github.com/Computer-Deconstruction-Lab/Software_Development_using_AI/blob/main/AI_Class_Flyer%203.pdf\">Software Development using AI</a>, Wednedays - Sept 23, 30, Oct 7, 14, 21 .",
