@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/09/05 12:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sat Sep  5 12:10:04 PM EDT 2026",
+    "ext_time": "2026/09/05 15:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sat Sep  5 03:10:04 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,6 +117,8 @@
     "detailedForecast": "Mostly sunny, with a high near 82. North wind around 5 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: ALTPX1\r\nSerial Number: 368\r\nIssue Time: 2026 Sep 05 1633 UTC\r\n\r\nALERT: Proton Event 10meV Integral Flux exceeded 10pfu \nBegin Time: 2026 Sep 05 1615 UTC\nNoaa Scale: S1 - Minor\nComment: \r\n\r\nNOAA Scale: S1 - Minor",
+    "Space Weather Message Code: WARPX1\r\nSerial Number: 631\r\nIssue Time: 2026 Sep 05 1620 UTC\r\n\r\nWARNING: Proton 10MeV Integral Flux above 10pfu expected \nValid From: 2026 Sep 05 1620 UTC\nValid To: 2026 Sep 05 2359 UTC\nWarning Conditions: Onset\nNoaa Scale: S1 - Minor\nComment: \r\n\r\nNOAA Scale: S1 - Minor",
     "Space Weather Message Code: ALTPC0\r\nSerial Number: 58\r\nIssue Time: 2026 Sep 05 1556 UTC\r\n\r\nALERT: Proton Event 100MeV Integral Flux exceeded 1pfu \nBegin Time: 2026 Sep 05 1552 UTC\nComment: ",
     "Space Weather Message Code: WARPC0\r\nSerial Number: 123\r\nIssue Time: 2026 Sep 05 1555 UTC\r\n\r\nWARNING: Proton 100MeV Integral Flux above 1pfu expected \nValid From: 2026 Sep 05 1554 UTC\nValid To: 2026 Sep 05 2359 UTC\nWarning Conditions: Onset\nComment: "
   ],
@@ -149,7 +151,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1788624604,
+    "lastchange": 1788635404,
     "message": "Sorry we&#x27;re currently closed but we will be open tomorrow, Sunday from 12 - 5PM and next Monday from 7 - 10PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": "CDL presents <a href=\"https://github.com/Computer-Deconstruction-Lab/Software_Development_using_AI/blob/main/AI_Class_Flyer%203.pdf\">Software Development using AI</a>, Wednedays - Sept 23, 30, Oct 7, 14, 21 .",
