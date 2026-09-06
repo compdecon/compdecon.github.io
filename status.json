@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/09/05 23:55:05 EDT UTC-04:00",
-    "ext_localtime": "Sat Sep  5 11:55:05 PM EDT 2026",
+    "ext_time": "2026/09/06 01:10:04 EDT UTC-04:00",
+    "ext_localtime": "Sun Sep  6 01:10:04 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 63
+        "value": 73
       }
     ]
   },
   "ext_weather": {
-    "number": 1,
-    "name": "Tonight",
-    "startTime": "2026-09-05T18:00:00-04:00",
-    "endTime": "2026-09-06T06:00:00-04:00",
-    "isDaytime": false,
-    "temperature": 63,
+    "number": 2,
+    "name": "Sunday",
+    "startTime": "2026-09-06T06:00:00-04:00",
+    "endTime": "2026-09-06T18:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 73,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 37
+      "value": 31
     },
-    "windSpeed": "0 to 5 mph",
-    "windDirection": "NE",
-    "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/rain_showers,40?size=medium",
+    "windSpeed": "5 mph",
+    "windDirection": "E",
+    "icon": "https://api.weather.gov/icons/land/day/rain_showers,30/rain_showers,20?size=medium",
     "shortForecast": "Chance Rain Showers",
-    "detailedForecast": "A chance of rain showers after 9pm. Partly cloudy, with a low around 63. Northeast wind 0 to 5 mph. Chance of precipitation is 40%. New rainfall amounts between a tenth and quarter of an inch possible."
+    "detailedForecast": "A chance of rain showers before 2pm. Mostly sunny, with a high near 73. East wind around 5 mph. Chance of precipitation is 30%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARPX1\r\nSerial Number: 632\r\nIssue Time: 2026 Sep 05 2358 UTC\r\n\r\nEXTENDED WARNING: Proton 10MeV Integral Flux above 10pfu expected\nExtension to Serial Number: 631\nValid From: 2026 Sep 05 1620 UTC\nNow Valid Until: 2026 Sep 06 1200 UTC\nWarning Condition: Persistence\n\r\n\r\nNOAA Scale: S1 - Minor",
@@ -154,7 +154,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1788666905,
+    "lastchange": 1788671404,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM, tomorrow, Monday from 7 - 10PM, and Wednesday from 12- 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": "CDL presents <a href=\"https://github.com/Computer-Deconstruction-Lab/Software_Development_using_AI/blob/main/AI_Class_Flyer%203.pdf\">Software Development using AI</a>, Wednedays - Sept 23, 30, Oct 7, 14, 21 .",
