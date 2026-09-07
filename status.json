@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/09/07 04:10:05 EDT UTC-04:00",
-    "ext_localtime": "Mon Sep  7 04:10:05 AM EDT 2026",
+    "ext_time": "2026/09/07 06:10:05 EDT UTC-04:00",
+    "ext_localtime": "Mon Sep  7 06:10:05 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,9 +117,7 @@
     "detailedForecast": "Mostly clear, with a low around 58. Northwest wind 0 to 5 mph."
   },
   "space_weather": [
-    "Space Weather Message Code: ALTEF3\r\nSerial Number: 3736\r\nIssue Time: 2026 Sep 06 1824 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1,000pfu \nThreshold Reached: 2026 Sep 06 1822 UTC\nStation: GOES-19\nComment: ",
-    "Space Weather Message Code: WATA20\r\nSerial Number: 1122\r\nIssue Time: 2026 Sep 06 1212 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted \nHighest Storm Level Predicted by Day:\nSep 06:  None (Below G1)   Sep 07:  None (Below G1)   Sep 08:  G1 (Minor)   \nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\nComment: \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
-    "Space Weather Message Code: SUMPX1\r\nSerial Number: 134\r\nIssue Time: 2026 Sep 06 1155 UTC\r\n\r\nSUMMARY: Proton Event 10MeV Integral Flux exceeded 10pfu \nBegin Time: 2026 Sep 05 1615 UTC\nMaximum Time: 2026 Sep 05 1645 UTC\nEnd Time: 2026 Sep 05 2135 UTC\nMaximum 10MeV Flux: 18 pfu\nNoaa Scale: S1 - Minor\nComment: \r\n\r\nNOAA Scale: S1 - Minor"
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5412\r\nIssue Time: 2026 Sep 07 0855 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected \nValid From: 2026 Sep 07 0854 UTC\nValid To: 2026 Sep 07 1800 UTC\nWarning Conditions: Onset\nComment: \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
   "contact": {
     "email": "info@compdecon.org",
@@ -150,7 +148,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1788768605,
+    "lastchange": 1788775805,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM, Wednesday from 12 - 5PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": "CDL presents <a href=\"https://github.com/Computer-Deconstruction-Lab/Software_Development_using_AI/blob/main/AI_Class_Flyer%203.pdf\">Software Development using AI</a>, Wednedays - Sept 23, 30, Oct 7, 14, 21 .",
