@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/09/09 13:10:04 EDT UTC-04:00",
-    "ext_localtime": "Wed Sep  9 01:10:04 PM EDT 2026",
+    "ext_time": "2026/09/09 16:10:04 EDT UTC-04:00",
+    "ext_localtime": "Wed Sep  9 04:10:04 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 84
+        "value": 85
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2026-09-09T12:00:00-04:00",
+    "startTime": "2026-09-09T15:00:00-04:00",
     "endTime": "2026-09-09T18:00:00-04:00",
     "isDaytime": true,
-    "temperature": 84,
+    "temperature": 85,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 0
+      "value": 2
     },
-    "windSpeed": "10 to 15 mph",
-    "windDirection": "S",
-    "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-    "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 84. South wind 10 to 15 mph."
+    "windSpeed": "10 mph",
+    "windDirection": "SW",
+    "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+    "shortForecast": "Partly Sunny",
+    "detailedForecast": "Partly sunny, with a high near 85. Southwest wind around 10 mph."
   },
   "space_weather": [
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3738\r\nIssue Time: 2026 Sep 09 0538 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1,000pfu\nContinuation of Serial Number: 3738\nBegin Time: 2026 Sep 08 1550 UTC\nYesterday Maximum 2MeV Flux: 1003 pfu\nCORRECTED",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": true,
-    "lastchange": 1788973804,
+    "lastchange": 1788984604,
     "message": "We are <b><i>Open</i></b> and will be here from 12 to 5 PM today. Come on by for a visit or check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": "<p>CDL presents:<br/><a target=\"_blank\" href=\"https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MXBhYmNiMGt0NGpzcnV1M2ttZWllanBlYXMgY29tcGRlY29ubGFiQG0&amp;tmsrc=compdeconlab%40gmail.com\"><img border=\"0\" src=\"https://calendar.google.com/calendar/images/ext/gc_button1_en.gif\" alt=\"Google Calendar\">Git Basic</a> -  Sept 14th, 7:30PM - 9:00PM<br/>and <br/>CDL presents <a href=\"https://github.com/Computer-Deconstruction-Lab/Software_Development_using_AI/blob/main/AI_Class_Flyer%203.pdf\">Software Development using AI</a>, Wednedays - Sept 23, 30, Oct 7, 14, 21 .</p>.",
