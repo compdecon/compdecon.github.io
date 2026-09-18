@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/09/18 13:10:04 EDT UTC-04:00",
-    "ext_localtime": "Fri Sep 18 01:10:04 PM EDT 2026",
+    "ext_time": "2026/09/18 16:10:04 EDT UTC-04:00",
+    "ext_localtime": "Fri Sep 18 04:10:04 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 82
+        "value": 83
       }
     ]
   },
   "ext_weather": {
     "number": 1,
     "name": "This Afternoon",
-    "startTime": "2026-09-18T12:00:00-04:00",
+    "startTime": "2026-09-18T15:00:00-04:00",
     "endTime": "2026-09-18T18:00:00-04:00",
     "isDaytime": true,
-    "temperature": 82,
+    "temperature": 83,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 0
+      "value": 2
     },
     "windSpeed": "5 mph",
     "windDirection": "N",
     "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
     "shortForecast": "Mostly Sunny",
-    "detailedForecast": "Mostly sunny, with a high near 82. North wind around 5 mph."
+    "detailedForecast": "Mostly sunny, with a high near 83. North wind around 5 mph."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 5418\r\nIssue Time: 2026 Sep 16 0538 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\nExtension to Serial Number: 5417\nValid From: 2026 Sep 15 1849 UTC\nNow Valid Until: 2026 Sep 16 1800 UTC\nWarning Condition: Persistence\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1789751404,
+    "lastchange": 1789762204,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": "<p>CDL presents:<br/><a target=\"_blank\" href=\"https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MXBhYmNiMGt0NGpzcnV1M2ttZWllanBlYXMgY29tcGRlY29ubGFiQG0&amp;tmsrc=compdeconlab%40gmail.com\"><img border=\"0\" src=\"https://calendar.google.com/calendar/images/ext/gc_button1_en.gif\" alt=\"Google Calendar\">Git Basic</a> -  Sept 14th, 7:30PM - 9:00PM<br/>and <br/>CDL presents <a href=\"https://github.com/Computer-Deconstruction-Lab/Software_Development_using_AI/blob/main/AI_Class_Flyer%203.pdf\">Software Development using AI</a>, Wednedays - Sept 23, 30, Oct 7, 14, 21 .</p>.",
