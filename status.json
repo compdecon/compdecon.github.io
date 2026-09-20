@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/09/20 07:10:04 EDT UTC-04:00",
-    "ext_localtime": "Sun Sep 20 07:10:04 AM EDT 2026",
+    "ext_time": "2026/09/20 10:10:05 EDT UTC-04:00",
+    "ext_localtime": "Sun Sep 20 10:10:05 AM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -100,7 +100,7 @@
   "ext_weather": {
     "number": 1,
     "name": "Today",
-    "startTime": "2026-09-20T06:00:00-04:00",
+    "startTime": "2026-09-20T09:00:00-04:00",
     "endTime": "2026-09-20T18:00:00-04:00",
     "isDaytime": true,
     "temperature": 72,
@@ -110,11 +110,11 @@
       "unitCode": "wmoUnit:percent",
       "value": 80
     },
-    "windSpeed": "5 to 10 mph",
-    "windDirection": "SE",
+    "windSpeed": "10 mph",
+    "windDirection": "S",
     "icon": "https://api.weather.gov/icons/land/day/rain,80/tsra,70?size=medium",
     "shortForecast": "Light Rain",
-    "detailedForecast": "Rain between 8am and 5pm, then a chance of rain and a slight chance of thunderstorms. Mostly cloudy, with a high near 72. Southeast wind 5 to 10 mph. Chance of precipitation is 80%. New rainfall amounts less than a tenth of an inch possible."
+    "detailedForecast": "Rain before 5pm, then a chance of rain and a slight chance of thunderstorms. Mostly cloudy, with a high near 72. South wind around 10 mph. Chance of precipitation is 80%. New rainfall amounts less than a tenth of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 5418\r\nIssue Time: 2026 Sep 16 0538 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\nExtension to Serial Number: 5417\nValid From: 2026 Sep 15 1849 UTC\nNow Valid Until: 2026 Sep 16 1800 UTC\nWarning Condition: Persistence\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1789902604,
+    "lastchange": 1789913405,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM, tomorrow, Monday from 7 - 10PM, and Wednesday from 12- 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": "<p>CDL presents:<br/><a target=\"_blank\" href=\"https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MXBhYmNiMGt0NGpzcnV1M2ttZWllanBlYXMgY29tcGRlY29ubGFiQG0&amp;tmsrc=compdeconlab%40gmail.com\"><img border=\"0\" src=\"https://calendar.google.com/calendar/images/ext/gc_button1_en.gif\" alt=\"Google Calendar\">Git Basic</a> -  Sept 14th, 7:30PM - 9:00PM<br/>and <br/>CDL presents <a href=\"https://github.com/Computer-Deconstruction-Lab/Software_Development_using_AI/blob/main/AI_Class_Flyer%203.pdf\">Software Development using AI</a>, Wednedays - Sept 23, 30, Oct 7, 14, 21 .</p>.",
