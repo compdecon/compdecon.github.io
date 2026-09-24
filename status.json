@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/09/24 11:10:05 EDT UTC-04:00",
-    "ext_localtime": "Thu Sep 24 11:10:05 AM EDT 2026",
+    "ext_time": "2026/09/24 12:10:05 EDT UTC-04:00",
+    "ext_localtime": "Thu Sep 24 12:10:05 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,6 +117,7 @@
     "detailedForecast": "Mostly cloudy, with a high near 68. Northeast wind 20 to 25 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5420\r\nIssue Time: 2026 Sep 24 1430 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\nExtension to Serial Number: 5419\nValid From: 2026 Sep 24 0944 UTC\nNow Valid Until: 2026 Sep 24 2100 UTC\nWarning Condition: Persistence\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: ALTK04\r\nSerial Number: 2685\r\nIssue Time: 2026 Sep 24 0952 UTC\r\n\r\nALERT: Geomagnetic K-index of 4 \nThreshold Reached: 2026 Sep 24 0945 UTC\nSynoptic Period: 0900-1200\nActive Warning: YES\nComment: \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: WARK04\r\nSerial Number: 5419\r\nIssue Time: 2026 Sep 24 0945 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected \nValid From: 2026 Sep 24 0944 UTC\nValid To: 2026 Sep 24 1500 UTC\nWarning Conditions: Onset\nComment: \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
   ],
@@ -149,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1790262605,
+    "lastchange": 1790266205,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": "<p>CDL presents:<br/><a target=\"_blank\" href=\"https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MXBhYmNiMGt0NGpzcnV1M2ttZWllanBlYXMgY29tcGRlY29ubGFiQG0&amp;tmsrc=compdeconlab%40gmail.com\"><img border=\"0\" src=\"https://calendar.google.com/calendar/images/ext/gc_button1_en.gif\" alt=\"Google Calendar\">Git Basic</a> -  Sept 14th, 7:30PM - 9:00PM<br/>and <br/>CDL presents <a href=\"https://github.com/Computer-Deconstruction-Lab/Software_Development_using_AI/blob/main/AI_Class_Flyer%203.pdf\">Software Development using AI</a>, Wednedays - Sept 23, 30, Oct 7, 14, 21 .</p>.",
