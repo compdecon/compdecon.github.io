@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/10/05 16:10:05 EDT UTC-04:00",
-    "ext_localtime": "Mon Oct  5 04:10:05 PM EDT 2026",
+    "ext_time": "2026/10/05 18:10:04 EDT UTC-04:00",
+    "ext_localtime": "Mon Oct  5 06:10:04 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,6 +117,7 @@
     "detailedForecast": "Sunny, with a high near 72. Northwest wind around 15 mph, with gusts as high as 30 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: WARK04\r\nSerial Number: 5427\r\nIssue Time: 2026 Oct 05 2111 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\nExtension to Serial Number: 5426\nValid From: 2026 Oct 05 0155 UTC\nNow Valid Until: 2026 Oct 06 0600 UTC\nWarning Condition: Persistence\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3751\r\nIssue Time: 2026 Oct 05 1847 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1,000pfu \nThreshold Reached: 2026 Oct 05 1830 UTC\nStation: GOES-19\nComment: ",
     "Space Weather Message Code: ALTK05\r\nSerial Number: 2054\r\nIssue Time: 2026 Oct 05 0352 UTC\r\n\r\nALERT: Geomagnetic K-index of 5 \nThreshold Reached: 2026 Oct 05 0352 UTC\nSynoptic Period: 0300-0600\nActive Warning: YES\nNoaa Scale: G1 - Minor\nComment: \r\n\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
     "Space Weather Message Code: WARK05\r\nSerial Number: 2269\r\nIssue Time: 2026 Oct 05 0350 UTC\r\n\r\nWARNING: Geomagnetic K-index of 5 expected \nValid From: 2026 Oct 05 0350 UTC\nValid To: 2026 Oct 05 1500 UTC\nWarning Conditions: Onset\nNoaa Scale: G1 - Minor\nComment: \r\n\r\nNOAA Scale: G1 - Minor\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
@@ -151,7 +152,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1791231005,
+    "lastchange": 1791238204,
     "message": " Sorry, we&#x27;re currently closed but we will be open tonight, Monday from 7 - 10PM, Wednesday from 12 - 5PM and next Sunday from 12 - 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": "<p>CDL presents:<br/><a target=\"_blank\" href=\"https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MXBhYmNiMGt0NGpzcnV1M2ttZWllanBlYXMgY29tcGRlY29ubGFiQG0&amp;tmsrc=compdeconlab%40gmail.com\"><img border=\"0\" src=\"https://calendar.google.com/calendar/images/ext/gc_button1_en.gif\" alt=\"Google Calendar\">Git Basic</a> -  Sept 14th, 7:30PM - 9:00PM<br/>and <br/>CDL presents <a href=\"https://github.com/Computer-Deconstruction-Lab/Software_Development_using_AI/blob/main/AI_Class_Flyer%203.pdf\">Software Development using AI</a>, Wednedays - Sept 23, 30, Oct 7, 14, 21 .</p>.",
