@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/10/08 10:10:04 EDT UTC-04:00",
-    "ext_localtime": "Thu Oct  8 10:10:04 AM EDT 2026",
+    "ext_time": "2026/10/08 12:10:04 EDT UTC-04:00",
+    "ext_localtime": "Thu Oct  8 12:10:04 PM EDT 2026",
     "ext_tz": "EDT"
   },
   "sensors": {
@@ -117,6 +117,8 @@
     "detailedForecast": "Sunny, with a high near 74. West wind 10 to 15 mph, with gusts as high as 30 mph."
   },
   "space_weather": [
+    "Space Weather Message Code: SUMXM5\r\nSerial Number: 327\r\nIssue Time: 2026 Oct 08 1604 UTC\r\n\r\nSUMMARY: X-ray Event exceeded M5 \nBegin Time: 2026 Oct 08 1529 UTC\nMaximum Time: 2026 Oct 08 1548 UTC\nEnd Time: 2026 Oct 08 1558 UTC\nXray Class: M6.7\nOptical Class: 2b\nLocation: N12W20\nNoaa Scale: R2 - Moderate\nComment: \r\n\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.\r\nRadio - Limited blackout of HF (high frequency) radio communication for tens of minutes.",
+    "Space Weather Message Code: ALTXMF\r\nSerial Number: 542\r\nIssue Time: 2026 Oct 08 1547 UTC\r\n\r\nALERT: X-Ray Flux exceeded M5 \nThreshold Reached: 2026 Oct 08 1546 UTC\nNoaa Scale: R2 - Moderate\nComment: \r\n\r\nNOAA Scale: R2 - Moderate\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/products/d-region-absorption-predictions-d-rap.",
     "Space Weather Message Code: ALTEF3\r\nSerial Number: 3752\r\nIssue Time: 2026 Oct 08 0501 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1,000pfu\nContinuation of Serial Number: 3752\nBegin Time: 2026 Oct 05 1830 UTC\nYesterday Maximum 2MeV Flux: 11911 pfu\nCORRECTED"
   ],
   "contact": {
@@ -148,7 +150,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1791468604,
+    "lastchange": 1791475804,
     "message": "Sorry we&#x27;re currently closed but we will be open next Sunday from 12 - 5PM, Monday from 7 - 10PM and Wednesday from 12 - 5PM,. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": "<p>CDL presents:<br/><a target=\"_blank\" href=\"https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MXBhYmNiMGt0NGpzcnV1M2ttZWllanBlYXMgY29tcGRlY29ubGFiQG0&amp;tmsrc=compdeconlab%40gmail.com\"><img border=\"0\" src=\"https://calendar.google.com/calendar/images/ext/gc_button1_en.gif\" alt=\"Google Calendar\">Git Basic</a> -  Sept 14th, 7:30PM - 9:00PM<br/>and <br/>CDL presents <a href=\"https://github.com/Computer-Deconstruction-Lab/Software_Development_using_AI/blob/main/AI_Class_Flyer%203.pdf\">Software Development using AI</a>, Wednedays - Sept 23, 30, Oct 7, 14, 21 .</p>.",
