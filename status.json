@@ -13,8 +13,8 @@
     "lat": 40.18652189759892,
     "lon": -74.06013028703497,
     "timezone": "America/New_York",
-    "ext_time": "2026/11/22 04:10:08 EST UTC-05:00",
-    "ext_localtime": "Sun Nov 22 04:10:08 AM EST 2026",
+    "ext_time": "2026/11/22 07:10:08 EST UTC-05:00",
+    "ext_localtime": "Sun Nov 22 07:10:08 AM EST 2026",
     "ext_tz": "EST"
   },
   "sensors": {
@@ -93,28 +93,28 @@
       {
         "location": "Outside",
         "unit": "°F",
-        "value": 52
+        "value": 64
       }
     ]
   },
   "ext_weather": {
     "number": 1,
-    "name": "Overnight",
-    "startTime": "2026-11-22T03:00:00-05:00",
-    "endTime": "2026-11-22T06:00:00-05:00",
-    "isDaytime": false,
-    "temperature": 52,
+    "name": "Today",
+    "startTime": "2026-11-22T06:00:00-05:00",
+    "endTime": "2026-11-22T18:00:00-05:00",
+    "isDaytime": true,
+    "temperature": 64,
     "temperatureUnit": "F",
     "temperatureTrend": null,
     "probabilityOfPrecipitation": {
       "unitCode": "wmoUnit:percent",
-      "value": 2
+      "value": 77
     },
-    "windSpeed": "5 mph",
+    "windSpeed": "0 to 5 mph",
     "windDirection": "NE",
-    "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
-    "shortForecast": "Cloudy",
-    "detailedForecast": "Cloudy, with a low around 52. Northeast wind around 5 mph."
+    "icon": "https://api.weather.gov/icons/land/day/rain,20/rain,80?size=medium",
+    "shortForecast": "Light Rain",
+    "detailedForecast": "Rain after 10am. Cloudy, with a high near 64. Northeast wind 0 to 5 mph. Chance of precipitation is 80%. New rainfall amounts between a tenth and quarter of an inch possible."
   },
   "space_weather": [
     "Space Weather Message Code: WARK04\r\nSerial Number: 5455\r\nIssue Time: 2026 Nov 18 1432 UTC\r\n\r\nEXTENDED WARNING: Geomagnetic K-index of 4 expected\nExtension to Serial Number: 5454\nValid From: 2026 Nov 18 0555 UTC\nNow Valid Until: 2026 Nov 18 1800 UTC\nWarning Condition: Persistence\n\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska.",
@@ -149,7 +149,7 @@
   ],
   "state": {
     "open": false,
-    "lastchange": 1795338608,
+    "lastchange": 1795349408,
     "message": "Sorry we&#x27;re currently closed but we will be open today, Sunday from 12 - 5PM, tomorrow, Monday from 7 - 10PM, and Wednesday from 12- 5PM. Check us out on <a target=\"_blank\" title=\"Opens in a new tab\" rel=\"noreferrer\" href=\"https://www.facebook.com/groups/compdecon/\">Facebook</a>.",
     "preMessage": ".",
     "postMessage": ".",
